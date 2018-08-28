@@ -145,19 +145,22 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
   // R(a,b,g) = Rz(a) Ry(b) Rz(g)
 
   MatrixXd Rzg = MatrixXd::Zero(4,4);
+  Rzg(0,0) = 1;
   Rzg(1,1) = cos(gamma); Rzg(1,2) = -1 * (sin(gamma));
   Rzg(2,1) = -1 * (Rzg(1,2)); Rzg(2,2) = Rzg(1,1);
-  Rzg(3,3) = 1; Rzg(0,0) = 1;
+  Rzg(3,3) = 1;
 
   MatrixXd Ryb = MatrixXd::Zero(4,4);
+  Ryb(0,0) = 1;
   Ryb(1,1) = cos(beta); Ryb(1,3) = sin(beta);
-  Ryb(2,2) = 1; Ryb(0,0) = 1;
+  Ryb(2,2) = 1;
   Ryb(3,1) = -1 * (Ryb(1,3)); Ryb(3,3) = Ryb(1,1);
 
   MatrixXd Rza = MatrixXd::Zero(4,4);
+  Rza(0,0) = 1;
   Rza(1,1) = cos(alpha); Rza(1,2) = -1 * (sin(alpha));
   Rza(2,1) = -1 * (Rza(1,2)); Rza(2,2) = Rza(1,1);
-  Rza(3,3) = 1; Rza(0,0) = 1;
+  Rza(3,3) = 1;
 
   return Rza * Ryb * Rzg;
 };
@@ -308,19 +311,17 @@ map< pair<int,int>, complex<double> > subduce_lg_boson(const irrep_label& irrep,
                                              double R1_theta, double R1_phi, double R1_psi){
 
   map< pair<int,int>, complex<double> > out;
-  int eta_tilde = irrep.P1P2;
-  if (((irrep.twoJ/2 + irrep.ell)%2) ) { eta_tilde *= -1; }
+  int eta_tilde = irrep.P;
+  if (((irrep.twoJ/2)%2) ) { eta_tilde *= -1; }
 
   //cout << "eta_tilde = " << eta_tilde << endl;
 
   // this is the eta_tilde flag = P(-1)^J
-  // P = P_1 * P_2 * (-1)^ell
-  // so eta_tilde = P_1 * P_2 * (-1)^(ell+J)
+  // P = Parity
 
   // names get swapped when eta_tilde flips
   // if they aren't all the irrep names will be swapped (A_1 <-> A_2, B_1 <-> B_2, E_2[row1] <-> E_2[row_2])
 
-  //djw: stringstreams are slow, this bit never changes
   const string substr = little_group + irrep.irrep + ",1";//only ever one embedding for each |lambda|
 
   for(int mu = -irrep.twoJ/2; mu <= irrep.twoJ/2; mu++){
@@ -334,10 +335,7 @@ map< pair<int,int>, complex<double> > subduce_lg_boson(const irrep_label& irrep,
       tmp << "->H" << abs_lam << substr;
       string label = tmp.str();
 
-      //    cout << "subduce_lg_boson::label = " << label << endl;
-      //    cout << "irrep.n = " << irrep.n << endl;
 
-      // this appears to order the embeddings in a sensible way
       if( !(Hadron::TheSubduceTableFactory::Instance().exist(label) )){ continue; } // don't want this subd-weeds out unwanted abs_lam
       count_embedding++; if( irrep.n != count_embedding ){ continue; } // wrong embedding
 
@@ -377,7 +375,7 @@ map< pair<int,int>, complex<double> > subduce_lg_fermion(const irrep_label& irre
                                                double R1_phi, double R1_theta, double R1_psi){
 
   map< pair<int,int>, complex<double> > out;
-  int parity = irrep.P1P2; if (!((irrep.ell)%2)) { parity *= -1; } // parity = P_1 * P_2 * (-1)^ell
+  int parity = irrep.P;  // parity = P
 
   double phi = double(irrep.twoJ - 1) * PI / double(2.0);
   complex<double> phase = double(parity) * complex<double>( cos(phi), sin(phi) ); //cout << "phase = " << phase << endl;
@@ -392,8 +390,6 @@ map< pair<int,int>, complex<double> > subduce_lg_fermion(const irrep_label& irre
                             << "->H" << J_name(two_abs_lam) << little_group << irrep.irrep << ",1"; //only ever one embedding for each |lambda|
       string label = tmp.str(); //cout << "label = " << label << endl;
 
-      //    cout << "subduce_lg_boson::label = " << label << endl;
-      //    cout << "irrep.n = " << irrep.n << endl;
 
       // this appears to order the embeddings in a sensible way
       if( !(Hadron::TheSubduceTableFactory::Instance().exist(label) )){ continue; } // don't want this subduction
@@ -548,8 +544,8 @@ complex<double> KinematicFactor(ArrayXXd& qp, ArrayXXd& qm, MatrixXcd& Sub1 , Ma
 /* main code to return the irreps to compute */
 
 int main(int argc, char** argv){
-  if( argc != 14 ){
-    cerr << "get_irreps <twoJ1> <P1> <m1sq> <twoJ_curr> <P_curr> <m_curr_sq> <twoJ3> <P3> <m3sq> <max_mom1> <max_mom2> <max_mom3> <wave> \n ";
+  if( argc != 13 ){
+    cerr << "get_irreps <twoJ1> <P1> <m1sq> <twoJ_curr> <P_curr> <m_curr_sq> <twoJ3> <P3> <m3sq> <max_mom1> <max_mom2> <max_mom3> \n ";
     exit(1); }
 
   int two_J1;  {istringstream a(argv[1]); a >> two_J1;};
@@ -564,7 +560,6 @@ int main(int argc, char** argv){
   int max_mom1;   {istringstream a(argv[10]); a >> max_mom1;};
   int max_mom2;   {istringstream a(argv[11]); a >> max_mom2;};
   int max_mom3;   {istringstream a(argv[12]); a >> max_mom3;};
-  int wave;	{istringstream a(argv[13]); a >> wave;};
   
   complex<double> Coeff;
   
@@ -614,11 +609,9 @@ int main(int argc, char** argv){
 
                     irrep_label rep1; irrep_label rep_curr; irrep_label rep3;
 
-		    rep1.ell = rep_curr.ell = 0; rep3.ell = wave;
 
-		    rep1.twoS = two_J1; rep3.twoS = two_J3; rep_curr.twoS = two_J2;
 		    rep1.twoJ = two_J1; rep3.twoJ = two_J3; rep_curr.twoJ = two_J2;
-		    rep1.P1P2 = P1; rep3.P1P2 = P3; rep_curr.P1P2 = P2;
+		    rep1.P = P1; rep3.P = P3; rep_curr.P = P2;
 
 
 		    for(auto p = irrep1.begin(); p != irrep1.end(); p++){
@@ -628,9 +621,9 @@ int main(int argc, char** argv){
 				rep1.irrep = *p; rep3.irrep = *q; rep_curr.irrep = *r;
 
 
-				rep1.n = find_n_subduced_embeddings(LG1, rep1.irrep, rep1.twoJ, (rep1.P1P2*pow(-1,(two_J1/2))));
-                                rep_curr.n = find_n_subduced_embeddings(LG_curr, rep_curr.irrep, rep_curr.twoJ, (rep_curr.P1P2*pow(-1,(two_J2/2))));
-                                rep3.n = find_n_subduced_embeddings(LG3, rep3.irrep, rep3.twoJ, (rep3.P1P2*pow(-1,rep3.ell + (two_J3/2))));
+				rep1.n = find_n_subduced_embeddings(LG1, rep1.irrep, rep1.twoJ, (rep1.P*pow(-1,(two_J1/2))));
+                                rep_curr.n = find_n_subduced_embeddings(LG_curr, rep_curr.irrep, rep_curr.twoJ, (rep_curr.P*pow(-1,(two_J2/2))));
+                                rep3.n = find_n_subduced_embeddings(LG3, rep3.irrep, rep3.twoJ, (rep3.P*pow(-1,(two_J3/2))));
 
 
 				for(int row1 = 1; row1 <= irrepRows(*p); row1++){     // Looping over all irrep rows at source, sink & insertion
