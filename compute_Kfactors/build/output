@@ -1,0 +1,4 @@
+Making all in src
+depbase=`echo exe/main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	g++-8 -DPACKAGE_NAME=\"subduction\" -DPACKAGE_TARNAME=\"subduction\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"subduction\ 1.0\" -DPACKAGE_BUGREPORT=\"archanar@jlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"subduction\" -DVERSION=\"1.0\" -DPACKAGE=\"subduction\" -DVERSION=\"1.0\" -I. -I../../src    -I../../src -O3 -mtune=native -fopenmp -fbounds-check -std=c++0x -O3 -I/Users/archanar/Subduction/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2  -O3 -mtune=native -fopenmp -fbounds-check -MT exe/main.o -MD -MP -MF $depbase.Tpo -c -o exe/main.o ../../src/exe/main.cc &&\
+	mv -f $depbase.Tpo $depbase.Po
