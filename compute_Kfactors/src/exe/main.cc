@@ -170,11 +170,11 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 
 /* To compute the polarization given the momentum and helicity - Convention from Appendix B of Helicity Ops for Mesons  */
 
- MatrixXcd getPolarization(double& mom_sq,const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi)
+ MatrixXcd getPolarization(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi)
  {
                                                                  // For spin 1 particles extra polarization degree of freedom
-   MatrixXcd pol_z(4,1);
-   MatrixXcd pol(4,1);
+  MatrixXcd pol_z = MatrixXcd::Zero(4,1);
+  MatrixXcd pol = MatrixXcd::Zero(4,1);
 
    if(two_helicity == 0){
      if(mass_sq == 0){pol_z << (0,0),(0,0),(0,0),(0,0);}            // Photon has only two physical polarizations
@@ -190,6 +190,7 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
    else if(two_helicity == 2){pol_z <<  (0,0),(-sqrt(0.5),0),(0,-sqrt(0.5)),(0,0);}        // k.pol = 0
    else if(two_helicity == -2){pol_z << (0,0),(sqrt(0.5),0),(0,-sqrt(0.5)),(0,0);}
 
+   else{cerr << "Not valid" << endl; exit(1);}
    pol = eulerRotMat(phi,theta,psi)*pol_z;                              // multiplies by the euler matrix to convert p_ref to p_canonical
    return pol;
  };
@@ -197,9 +198,7 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 
 
 
-
-
-/* Get the reference angles for each LG - copied from Jo - Appendix E Table VI - Helicity ops for Mesons - z-y-z  John-Wick convention */
+/* Get the reference angles for each LG - copied from Jo - Appendix E Table VI - Helicity ops for Mesons - z-y-z  Jacob-Wick convention */
 
 
 std::vector<float> refAngles(string little_group){
@@ -307,10 +306,9 @@ int find_n_subduced_embeddings(const string& group, const string& irrep, int two
 
 
 //in flight subductions - for bosons
-map< pair<int,int>, complex<double> > subduce_lg_boson(const irrep_label& irrep, const string& little_group,
-                                             double R1_theta, double R1_phi, double R1_psi){
+map< int, complex<double> > subduce_lg_boson(const irrep_label& irrep, const string& little_group){
 
-  map< pair<int,int>, complex<double> > out;
+  map< int, complex<double> > out;
   int eta_tilde = irrep.P;
   if (((irrep.twoJ/2)%2) ) { eta_tilde *= -1; }
 
@@ -324,43 +322,33 @@ map< pair<int,int>, complex<double> > subduce_lg_boson(const irrep_label& irrep,
 
   const string substr = little_group + irrep.irrep + ",1";//only ever one embedding for each |lambda|
 
-  for(int mu = -irrep.twoJ/2; mu <= irrep.twoJ/2; mu++){
-    int count_embedding = 0;
-    complex<double> sub(0., 0.);
-
     for(int abs_lam = 0; abs_lam <= irrep.twoJ/2; abs_lam++){
       //get the subduction table
+      int count_embedding = 0;
       stringstream tmp; tmp << "H" << abs_lam;
       if(abs_lam == 0){ tmp << sign(eta_tilde); }
       tmp << "->H" << abs_lam << substr;
       string label = tmp.str();
 
 
-      if( !(Hadron::TheSubduceTableFactory::Instance().exist(label) )){ continue; } // don't want this subd-weeds out unwanted abs_lam
+      if( !(Hadron::TheSubduceTableFactory::Instance().exist(label) )){ continue; } // weeds out unwanted abs_lam(only +- piece remains)
       count_embedding++; if( irrep.n != count_embedding ){ continue; } // wrong embedding
 
       //**************************************************************************
       // cout << "count_embedding = " << count_embedding << endl;
 
       ADAT::Handle< Hadron::SubduceTable > V = Hadron::TheSubduceTableFactory::Instance().createObject(label);
-      complex<double> DR1 = Hadron::Wigner_D(irrep.twoJ, 2*mu, 2*abs_lam, R1_phi, R1_theta, R1_psi);
 
-      complex<double> v = (*V)(irrep.row, 1); //these should be real according to Table II of the in-flight paper
-
-      sub = v * DR1;
-      if(abs(sub) > 0.0 ){out.insert(make_pair(make_pair(2*mu,abs_lam),sub));}  //lam +ve piece
+      complex<double> sub = (*V)(irrep.row, 1); //these should be real according to Table II of the in-flight paper
+      if(abs(sub) > 0.0 ){out.insert(make_pair(2*abs_lam,sub));}  //lam +ve piece
 
       if(abs_lam != 0){ // always contains a factor of eta_tilde
-        DR1 = Hadron::Wigner_D(irrep.twoJ, 2*mu, -2*abs_lam, R1_phi, R1_theta, R1_psi);
-        v = (*V)(irrep.row, 2);
-        sub = v * DR1 * double(eta_tilde);
-        if(abs(sub) > 0.0 ){out.insert(make_pair(make_pair(2*mu,-abs_lam),sub));} // lam -ve piece
+        sub = (*V)(irrep.row, 2)* double(eta_tilde);
+        if(abs(sub) > 0.0 ){out.insert(make_pair(-2*abs_lam,sub));} // lam -ve piece
       }
 
     }//next abs_lam
     //complex<double> s = complex<double>( toDouble(real(sub)), toDouble(imag(sub)) );
-
-  }//next mu
 
   return out;
 };
@@ -371,20 +359,17 @@ map< pair<int,int>, complex<double> > subduce_lg_boson(const irrep_label& irrep,
 
 //in flight subductions - for fermions
 // -- uses the phase choices suggested by Robert, taken from Christopher - NOT CHECKED YET
-map< pair<int,int>, complex<double> > subduce_lg_fermion(const irrep_label& irrep, const string& little_group,
-                                               double R1_phi, double R1_theta, double R1_psi){
+map< int, complex<double> > subduce_lg_fermion(const irrep_label& irrep, const string& little_group){
 
-  map< pair<int,int>, complex<double> > out;
+  map< int, complex<double> > out;
   int parity = irrep.P;  // parity = P
 
   double phi = double(irrep.twoJ - 1) * PI / double(2.0);
   complex<double> phase = double(parity) * complex<double>( cos(phi), sin(phi) ); //cout << "phase = " << phase << endl;
 
-  for(int twoMu = -irrep.twoJ; twoMu <= irrep.twoJ; twoMu += 2){
-    int count_embedding = 0;
-    complex<double> sub(0., 0.);
 
     for(int two_abs_lam = 1; two_abs_lam <= irrep.twoJ; two_abs_lam += 2){
+      int count_embedding = 0;
       //get the subduction table
       stringstream tmp; tmp << "H" << J_name(two_abs_lam)
                             << "->H" << J_name(two_abs_lam) << little_group << irrep.irrep << ",1"; //only ever one embedding for each |lambda|
@@ -400,32 +385,28 @@ map< pair<int,int>, complex<double> > subduce_lg_fermion(const irrep_label& irre
       // cout << "count_embedding = " << count_embedding << endl;
 
       ADAT::Handle< Hadron::SubduceTable > V = Hadron::TheSubduceTableFactory::Instance().createObject(label);
-      complex<double> DR1 = Hadron::Wigner_D(irrep.twoJ, twoMu, two_abs_lam, R1_phi, R1_theta, R1_psi);
 
-      complex<double> v = (*V)(irrep.row, 1); //these should be real according to Table II of the in-flight paper
-      sub = v * DR1; //lam +ve piece
-      if(abs(sub) > 0.0 ){out.insert(make_pair(make_pair(twoMu,two_abs_lam),sub));}
+      complex<double> sub = (*V)(irrep.row, 1); //these should be real according to Table II of the in-flight paper
+       //lam +ve piece
+      if(abs(sub) > 0.0 ){out.insert(make_pair(two_abs_lam,sub));}
 
       //lam -ve piece
-      DR1 = Hadron::Wigner_D(irrep.twoJ, twoMu, -two_abs_lam, R1_phi, R1_theta, R1_psi);
-      v = (*V)(irrep.row, 2);                       //v = real( (*V)(irrep.row, 2) );
-      sub = v * DR1 * phase;
-      if(abs(sub) > 0.0 ){out.insert(make_pair(make_pair(twoMu,-two_abs_lam),sub));}
+      sub = (*V)(irrep.row, 2) * phase;                       //v = real( (*V)(irrep.row, 2) );
+      if(abs(sub) > 0.0 ){out.insert(make_pair(-two_abs_lam,sub));}
 
 
     }//next abs_lam
 
     //    complex<double> s = complex<double>( toDouble(real(sub)), toDouble(imag(sub)) );
-  }//next mu
 
   return out;
 };
 
 
 // at rest subductions
-map< pair<int,int>, complex<double> > subduce_oct(const irrep_label& irrep){
+map< int, complex<double> > subduce_oct(const irrep_label& irrep){
 
-  map< pair<int,int>, complex<double> > out;
+  map< int, complex<double> > out;
 
   //get the subduction table
   stringstream tmp; tmp << "J" << J_name(irrep.twoJ) << "->" << irrep.irrep << "," << irrep.n;
@@ -434,10 +415,10 @@ map< pair<int,int>, complex<double> > subduce_oct(const irrep_label& irrep){
   if( Hadron::TheSubduceTableFactory::Instance().exist(label) ){
     ADAT::Handle< Hadron::SubduceTable > V = Hadron::TheSubduceTableFactory::Instance().createObject(label);
 
-    for(int two_m = -irrep.twoJ; two_m <= irrep.twoJ; two_m += 2){
-      complex<double> s = (*V)(irrep.row, irrep.twoJ/2 - two_m/2 + 1) ;   // some strange indexing choice in ADAT-- should be real
+    for(int two_lam = -irrep.twoJ; two_lam <= irrep.twoJ; two_lam += 2){
+      complex<double> s = (*V)(irrep.row, irrep.twoJ/2 - two_lam/2 + 1) ;   // some strange indexing choice in ADAT-- should be real
       //complex<double> s = complex<double>( toDouble(real(v)), toDouble(imag(v)) );
-      if(abs(s) > 0.0){out.insert(make_pair(make_pair(two_m,0),s));}  // no helicity ops at rest so the default is set to zero
+      if(abs(s) > 0.0){out.insert(make_pair(two_lam,s));}  // lam = mu at rest
     }
   }
   return out;
@@ -448,24 +429,23 @@ map< pair<int,int>, complex<double> > subduce_oct(const irrep_label& irrep){
 
 /* Perform the subductions by adding over the J_z and abs_lams  */
 
-
 MatrixXcd Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_label& irrep,
                                                    const string& little_group,double R1_phi, double R1_theta, double R1_psi){
 
 
-  map< pair<int,int>, complex<double> > Sub;
+  map< int, complex<double> > Sub;
   MatrixXcd sum = MatrixXcd::Zero(4,1);
   switch(int(mom_sq)){
+
   case 0:{
 	Sub = subduce_oct(irrep);
 	if(twoJ == 2){
-	  for(map<  pair<int,int>, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-            sum +=  (it->second) * getPolarization(mom_sq, (it->first).first, mass_sq, R1_phi, R1_theta, R1_psi);}}
-
+	  for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+            sum +=  (it->second) * getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);}}
 	else{
 	MatrixXcd unit_vec(4,1);
 	unit_vec << (1,0),(1,0),(1,0),(1,0); 
-	for(map<  pair<int,int>, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+	for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
 	  sum +=  (it->second) * unit_vec;}}
 	break;}
 
@@ -474,20 +454,21 @@ MatrixXcd Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_l
 	if(twoJ%2){
 	  MatrixXcd unit_vec(4,1);
 	  unit_vec << (1,1),(1,1),(1,1),(1,1);
-	  Sub  = subduce_lg_fermion(irrep,little_group,R1_phi,R1_theta,R1_psi);
-	  for(map<  pair<int,int>, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+	  Sub  = subduce_lg_fermion(irrep,little_group);
+	  for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
 	    sum +=  (it->second) * unit_vec;}
    } //fermions
 
 	else{
-	  Sub = subduce_lg_boson(irrep, little_group,R1_phi,R1_theta,R1_psi);
+	  Sub = subduce_lg_boson(irrep, little_group);
 	  if(twoJ == 2){
-	    for(map<  pair<int,int>, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-	      sum +=  (it->second) * getPolarization(mom_sq, (it->first).second, mass_sq, R1_phi, R1_theta, R1_psi);}}
+	    for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+              //cout << "Polstart" <<getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)<< "Polend";
+	      sum +=  (it->second) * getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);}}
 	  else{
 	    MatrixXcd unit_vec(4,1);
 	    unit_vec << (1,1),(1,1),(1,1),(1,1);
-	    for(map<  pair<int,int>, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+	    for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
 	      sum +=  (it->second) * unit_vec;}}
   }  //bosons
 	break;}
@@ -599,9 +580,11 @@ int main(int argc, char** argv){
 		    string LG3 = generateLittleGroup(mom3);
 		    string LG_curr = generateLittleGroup(mom_curr);
 
+
 		    std::vector<float> r1 = refAngles(LG1);
 		    std::vector<float> r_curr = refAngles(LG_curr);
 		    std::vector<float> r3 = refAngles(LG3);
+
 
 		    std::vector<std::string> irrep1 = getIrrep(two_J1,P1,LG1);
 	       	    std::vector<std::string> irrep_curr = getIrrep(two_J2,P2,LG_curr);
@@ -633,20 +616,21 @@ int main(int argc, char** argv){
 					rep1.row = row1; rep3.row = row3; rep_curr.row = row_curr;
 
 
-
 					MatrixXcd Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
 					MatrixXcd Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
 					MatrixXcd SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
 
+
+
 					Coeff = KinematicFactor(qp,qm,Sub1,SubCurr,Sub3);
-					//if(std::real(Coeff) || std::imag(Coeff)){
-                                        cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
-                                        cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
-                                        cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
+					if(std::real(Coeff) || std::imag(Coeff)){
+                                          cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
+                                          cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
+                                          cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
 					//cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n"; 
-					cout << "The factor is:" << Coeff << "\n";
-					//}
+					  cout << "The factor is:" << Coeff << "\n";
+					}
 		      }}}
 		   }}}
 		 }	
