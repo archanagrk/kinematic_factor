@@ -577,8 +577,8 @@ int main(int argc, char** argv){
 		    qp  << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),(i+l),(j+m),(k+n);
 		    qm  << (sqrt(m1_sq+mom1_sq)-sqrt(m3_sq+mom3_sq)),(l-i),(m-j),(n-k);
 
-		    double m_curr_sq = mom_curr_sq - pow(sqrt(mom1_sq -m1_sq) - sqrt(mom3_sq - m3_sq),2); 
-
+		    double m_curr_sq =  pow(sqrt(mom3_sq + m3_sq)-sqrt(mom1_sq + m1_sq) ,2) - mom_curr_sq; 
+			
   		    string LG1 = generateLittleGroup(mom1);
 		    string LG3 = generateLittleGroup(mom3);
 		    string LG_curr = generateLittleGroup(mom_curr);
