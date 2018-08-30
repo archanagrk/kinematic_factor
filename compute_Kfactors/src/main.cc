@@ -128,7 +128,9 @@ int irrepRows(string& irrep)
    case 'H':
             rows = 4;			// H irrep for fermions
             break;
- }
+   default :
+	    cerr << "Irrep not coded" << endl; exit(1); 
+}
 
  return rows;
 
@@ -177,7 +179,7 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
   MatrixXcd pol = MatrixXcd::Zero(4,1);
 
    if(two_helicity == 0){
-     if(mass_sq == 0){pol_z << (0,0),(0,0),(0,0),(0,0);}            // Photon has only two physical polarizations
+     if(mass_sq == 0){pol_z << (0,0),(0,0),(0,0),(0,0);}            // Massless particles have only two physical polarizations
 
      else{
 	if(mom_sq != 0){
@@ -525,8 +527,8 @@ complex<double> KinematicFactor(ArrayXXd& qp, ArrayXXd& qm, MatrixXcd& Sub1 , Ma
 /* main code to return the irreps to compute */
 
 int main(int argc, char** argv){
-  if( argc != 13 ){
-    cerr << "get_irreps <twoJ1> <P1> <m1sq> <twoJ_curr> <P_curr> <m_curr_sq> <twoJ3> <P3> <m3sq> <max_mom1> <max_mom2> <max_mom3> \n ";
+  if( argc != 12 ){
+    cerr << "get_irreps <twoJ1> <P1> <m1sq> <twoJ_curr> <P_curr>  <twoJ3> <P3> <m3sq> <max_mom1> <max_mom2> <max_mom3> \n ";
     exit(1); }
 
   int two_J1;  {istringstream a(argv[1]); a >> two_J1;};
@@ -534,13 +536,12 @@ int main(int argc, char** argv){
   double m1_sq;   {istringstream a(argv[3]); a >> m1_sq;};
   int two_J2;  {istringstream a(argv[4]); a >> two_J2;};
   int P2;   {istringstream a(argv[5]); a >> P2;};
-  double m_curr_sq;   {istringstream a(argv[6]); a >> m_curr_sq;};
-  int two_J3;  {istringstream a(argv[7]); a >> two_J3;};
-  int P3;   {istringstream a(argv[8]); a >> P3;};
-  double m3_sq;   {istringstream a(argv[9]); a >> m3_sq;};
-  int max_mom1;   {istringstream a(argv[10]); a >> max_mom1;};
-  int max_mom2;   {istringstream a(argv[11]); a >> max_mom2;};
-  int max_mom3;   {istringstream a(argv[12]); a >> max_mom3;};
+  int two_J3;  {istringstream a(argv[6]); a >> two_J3;};
+  int P3;   {istringstream a(argv[7]); a >> P3;};
+  double m3_sq;   {istringstream a(argv[8]); a >> m3_sq;};
+  int max_mom1;   {istringstream a(argv[9]); a >> max_mom1;};
+  int max_mom2;   {istringstream a(argv[10]); a >> max_mom2;};
+  int max_mom3;   {istringstream a(argv[11]); a >> max_mom3;};
   
   complex<double> Coeff;
   
@@ -575,6 +576,8 @@ int main(int argc, char** argv){
 
 		    qp  << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),(i+l),(j+m),(k+n);
 		    qm  << (sqrt(m1_sq+mom1_sq)-sqrt(m3_sq+mom3_sq)),(l-i),(m-j),(n-k);
+
+		    double m_curr_sq = mom_curr_sq - pow(sqrt(mom1_sq -m1_sq) - sqrt(mom3_sq - m3_sq),2); 
 
   		    string LG1 = generateLittleGroup(mom1);
 		    string LG3 = generateLittleGroup(mom3);
