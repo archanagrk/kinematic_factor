@@ -69,10 +69,10 @@ am__make_running_with_option = \
   test $$has_opt = yes
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
 am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
-pkgdatadir = $(datadir)/subduction
-pkgincludedir = $(includedir)/subduction
-pkglibdir = $(libdir)/subduction
-pkglibexecdir = $(libexecdir)/subduction
+pkgdatadir = $(datadir)/kfactors
+pkgincludedir = $(includedir)/kfactors
+pkglibdir = $(libdir)/kfactors
+pkglibexecdir = $(libexecdir)/kfactors
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -202,16 +202,16 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /Users/archanar/Subduction/subduction/config/missing aclocal-1.15
-ADAT_CONFIG = /Users/archanar/Subduction/adat_install/bin/adat-config
-ADAT_CXXFLAGS = -std=c++0x -O3 -I/Users/archanar/Subduction/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2
-ADAT_LDFLAGS = -L/Users/archanar/Subduction/adat_install/lib
+ACLOCAL = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing aclocal-1.15
+ADAT_CONFIG = /Users/archanar/Kinematic_factor/adat_install/bin/adat-config
+ADAT_CXXFLAGS = -std=c++0x -O3 -I/Users/archanar/Kinematic_factor/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2
+ADAT_LDFLAGS = -L/Users/archanar/Kinematic_factor/adat_install/lib
 ADAT_LIBS = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.7/lib -lxml2 -lz -lpthread -liconv -lm -lgmp -lgmpxx -lstdc++
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} /Users/archanar/Subduction/subduction/config/missing autoconf
-AUTOHEADER = ${SHELL} /Users/archanar/Subduction/subduction/config/missing autoheader
-AUTOMAKE = ${SHELL} /Users/archanar/Subduction/subduction/config/missing automake-1.15
+AUTOCONF = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoconf
+AUTOHEADER = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoheader
+AUTOMAKE = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing automake-1.15
 AWK = awk
 CC = gcc-8
 CCDEPMODE = depmode=gcc3
@@ -221,7 +221,7 @@ CXX = g++-8
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -O3 -mtune=native -fopenmp -fbounds-check
 CYGPATH_W = echo
-DEFS = -DPACKAGE_NAME=\"subduction\" -DPACKAGE_TARNAME=\"subduction\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"subduction\ 1.0\" -DPACKAGE_BUGREPORT=\"archanar@jlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"subduction\" -DVERSION=\"1.0\" -DPACKAGE=\"subduction\" -DVERSION=\"1.0\"
+DEFS = -DPACKAGE_NAME=\"Kfactors\" -DPACKAGE_TARNAME=\"kfactors\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"Kfactors\ 1.0\" -DPACKAGE_BUGREPORT=\"archanar@jlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"kfactors\" -DVERSION=\"1.0\" -DPACKAGE=\"kfactors\" -DVERSION=\"1.0\"
 DEPDIR = .deps
 ECHO_C = \c
 ECHO_N = 
@@ -236,14 +236,14 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /Users/archanar/Subduction/subduction/config/missing makeinfo
+MAKEINFO = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing makeinfo
 MKDIR_P = ../config/install-sh -c -d
 OBJEXT = o
-PACKAGE = subduction
+PACKAGE = kfactors
 PACKAGE_BUGREPORT = archanar@jlab.org
-PACKAGE_NAME = subduction
-PACKAGE_STRING = subduction 1.0
-PACKAGE_TARNAME = subduction
+PACKAGE_NAME = Kfactors
+PACKAGE_STRING = Kfactors 1.0
+PACKAGE_TARNAME = kfactors
 PACKAGE_URL = 
 PACKAGE_VERSION = 1.0
 PATH_SEPARATOR = :
@@ -252,10 +252,10 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = 
 VERSION = 1.0
-abs_builddir = /Users/archanar/Subduction/subduction/build
-abs_srcdir = /Users/archanar/Subduction/subduction/build/..
-abs_top_builddir = /Users/archanar/Subduction/subduction/build
-abs_top_srcdir = /Users/archanar/Subduction/subduction/build/..
+abs_builddir = /Users/archanar/Kinematic_factor/compute_Kfactors/build
+abs_srcdir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/..
+abs_top_builddir = /Users/archanar/Kinematic_factor/compute_Kfactors/build
+abs_top_srcdir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/..
 ac_ct_CC = 
 ac_ct_CXX = 
 am__include = include
@@ -275,7 +275,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/archanar/Subduction/subduction/config/install-sh
+install_sh = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -284,7 +284,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /Users/archanar/Subduction/subduction_install
+prefix = /Users/archanar/Kinematic_factor/compute_Kfactors_install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin

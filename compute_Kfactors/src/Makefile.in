@@ -86,7 +86,9 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = main$(EXEEXT)
+bin_PROGRAMS = compute_kfactors$(EXEEXT) \
+	compute_kfactors_with_phases$(EXEEXT)
+check_PROGRAMS = tes_ph$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/pac_adat_link_cxx_func.m4 \
@@ -100,10 +102,30 @@ CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am__dirstamp = $(am__leading_dot)dirstamp
-am_main_OBJECTS = exe/main.$(OBJEXT)
-main_OBJECTS = $(am_main_OBJECTS)
-main_LDADD = $(LDADD)
-main_DEPENDENCIES =
+am_compute_kfactors_OBJECTS = exe/compute_kfactors.$(OBJEXT) \
+	irreps_and_rows.$(OBJEXT) kfac_utils.$(OBJEXT) \
+	little_group.$(OBJEXT) subduction.$(OBJEXT) pol_vec.$(OBJEXT) \
+	rot_matrx.$(OBJEXT) k_factor.$(OBJEXT) levi_civita.$(OBJEXT)
+compute_kfactors_OBJECTS = $(am_compute_kfactors_OBJECTS)
+compute_kfactors_LDADD = $(LDADD)
+compute_kfactors_DEPENDENCIES =
+am_compute_kfactors_with_phases_OBJECTS =  \
+	exe/compute_kfactors_with_phases.$(OBJEXT) \
+	irreps_and_rows.$(OBJEXT) kfac_utils.$(OBJEXT) \
+	little_group.$(OBJEXT) subduction.$(OBJEXT) pol_vec.$(OBJEXT) \
+	rot_matrx.$(OBJEXT) k_factor.$(OBJEXT) levi_civita.$(OBJEXT) \
+	phase.$(OBJEXT)
+compute_kfactors_with_phases_OBJECTS =  \
+	$(am_compute_kfactors_with_phases_OBJECTS)
+compute_kfactors_with_phases_LDADD = $(LDADD)
+compute_kfactors_with_phases_DEPENDENCIES =
+am_tes_ph_OBJECTS = test/tes_ph.$(OBJEXT) rot_matrx.$(OBJEXT) \
+	little_group.$(OBJEXT) kfac_utils.$(OBJEXT) \
+	subduction.$(OBJEXT) k_factor.$(OBJEXT) levi_civita.$(OBJEXT) \
+	pol_vec.$(OBJEXT) irreps_and_rows.$(OBJEXT)
+tes_ph_OBJECTS = $(am_tes_ph_OBJECTS)
+tes_ph_LDADD = $(LDADD)
+tes_ph_DEPENDENCIES =
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -133,8 +155,10 @@ AM_V_CXXLD = $(am__v_CXXLD_@AM_V@)
 am__v_CXXLD_ = $(am__v_CXXLD_@AM_DEFAULT_V@)
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
 am__v_CXXLD_1 = 
-SOURCES = $(main_SOURCES)
-DIST_SOURCES = $(main_SOURCES)
+SOURCES = $(compute_kfactors_SOURCES) \
+	$(compute_kfactors_with_phases_SOURCES) $(tes_ph_SOURCES)
+DIST_SOURCES = $(compute_kfactors_SOURCES) \
+	$(compute_kfactors_with_phases_SOURCES) $(tes_ph_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -268,7 +292,13 @@ AM_LDFLAGS = -L@top_builddir@/src \
 LDADD = @ADAT_LIBS@ @LIBS@ 
 
 ##############################################################
-main_SOURCES = exe/main.cc
+compute_kfactors_SOURCES = exe/compute_kfactors.cc  irreps_and_rows.cc  kfac_utils.cc  little_group.cc  subduction.cc  pol_vec.cc  rot_matrx.cc  k_factor.cc  levi_civita.cc 
+compute_kfactors_with_phases_SOURCES = exe/compute_kfactors_with_phases.cc  irreps_and_rows.cc  kfac_utils.cc  little_group.cc  subduction.cc  pol_vec.cc  rot_matrx.cc  k_factor.cc  levi_civita.cc  phase.cc
+tes_ph_SOURCES = test/tes_ph.cc  rot_matrx.cc little_group.cc kfac_utils.cc subduction.cc    k_factor.cc  levi_civita.cc  pol_vec.cc    irreps_and_rows.cc 
+
+##############################################################
+
+#BUILT_SOURCES = levi_civita.cc irreps_and_rows.cc kfac_utils.cc euler_mat.cc irreps_and_rows.cc
 
 ##############################################################
 
@@ -353,26 +383,60 @@ uninstall-binPROGRAMS:
 
 clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+clean-checkPROGRAMS:
+	-test -z "$(check_PROGRAMS)" || rm -f $(check_PROGRAMS)
 exe/$(am__dirstamp):
 	@$(MKDIR_P) exe
 	@: > exe/$(am__dirstamp)
 exe/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) exe/$(DEPDIR)
 	@: > exe/$(DEPDIR)/$(am__dirstamp)
-exe/main.$(OBJEXT): exe/$(am__dirstamp) exe/$(DEPDIR)/$(am__dirstamp)
+exe/compute_kfactors.$(OBJEXT): exe/$(am__dirstamp) \
+	exe/$(DEPDIR)/$(am__dirstamp)
 
-main$(EXEEXT): $(main_OBJECTS) $(main_DEPENDENCIES) $(EXTRA_main_DEPENDENCIES) 
-	@rm -f main$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(main_OBJECTS) $(main_LDADD) $(LIBS)
+compute_kfactors$(EXEEXT): $(compute_kfactors_OBJECTS) $(compute_kfactors_DEPENDENCIES) $(EXTRA_compute_kfactors_DEPENDENCIES) 
+	@rm -f compute_kfactors$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_OBJECTS) $(compute_kfactors_LDADD) $(LIBS)
+exe/compute_kfactors_with_phases.$(OBJEXT): exe/$(am__dirstamp) \
+	exe/$(DEPDIR)/$(am__dirstamp)
+
+compute_kfactors_with_phases$(EXEEXT): $(compute_kfactors_with_phases_OBJECTS) $(compute_kfactors_with_phases_DEPENDENCIES) $(EXTRA_compute_kfactors_with_phases_DEPENDENCIES) 
+	@rm -f compute_kfactors_with_phases$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_with_phases_OBJECTS) $(compute_kfactors_with_phases_LDADD) $(LIBS)
+test/$(am__dirstamp):
+	@$(MKDIR_P) test
+	@: > test/$(am__dirstamp)
+test/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) test/$(DEPDIR)
+	@: > test/$(DEPDIR)/$(am__dirstamp)
+test/tes_ph.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
+
+tes_ph$(EXEEXT): $(tes_ph_OBJECTS) $(tes_ph_DEPENDENCIES) $(EXTRA_tes_ph_DEPENDENCIES) 
+	@rm -f tes_ph$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(tes_ph_OBJECTS) $(tes_ph_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
 	-rm -f exe/*.$(OBJEXT)
+	-rm -f test/*.$(OBJEXT)
 
 distclean-compile:
 	-rm -f *.tab.c
 
-@AMDEP_TRUE@@am__include@ @am__quote@exe/$(DEPDIR)/main.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/irreps_and_rows.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/k_factor.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/kfac_utils.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/levi_civita.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/little_group.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/phase.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/pol_vec.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/rot_matrx.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/subduction.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@exe/$(DEPDIR)/compute_kfactors.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@exe/$(DEPDIR)/compute_kfactors_with_phases.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/tes_ph.Po@am__quote@
 
 .cc.o:
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
@@ -473,6 +537,7 @@ distdir: $(DISTFILES)
 	  fi; \
 	done
 check-am: all-am
+	$(MAKE) $(AM_MAKEFLAGS) $(check_PROGRAMS)
 check: check-am
 all-am: Makefile $(PROGRAMS)
 installdirs:
@@ -507,16 +572,19 @@ distclean-generic:
 	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
 	-rm -f exe/$(DEPDIR)/$(am__dirstamp)
 	-rm -f exe/$(am__dirstamp)
+	-rm -f test/$(DEPDIR)/$(am__dirstamp)
+	-rm -f test/$(am__dirstamp)
 
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
 clean: clean-am
 
-clean-am: clean-binPROGRAMS clean-generic mostlyclean-am
+clean-am: clean-binPROGRAMS clean-checkPROGRAMS clean-generic \
+	mostlyclean-am
 
 distclean: distclean-am
-	-rm -rf exe/$(DEPDIR)
+	-rm -rf ./$(DEPDIR) exe/$(DEPDIR) test/$(DEPDIR)
 	-rm -f Makefile
 distclean-am: clean-am distclean-compile distclean-generic \
 	distclean-tags
@@ -562,7 +630,7 @@ install-ps-am:
 installcheck-am:
 
 maintainer-clean: maintainer-clean-am
-	-rm -rf exe/$(DEPDIR)
+	-rm -rf ./$(DEPDIR) exe/$(DEPDIR) test/$(DEPDIR)
 	-rm -f Makefile
 maintainer-clean-am: distclean-am maintainer-clean-generic
 
@@ -580,26 +648,27 @@ ps-am:
 
 uninstall-am: uninstall-binPROGRAMS
 
-.MAKE: install-am install-strip
+.MAKE: check-am install-am install-strip
 
 .PHONY: CTAGS GTAGS TAGS all all-am check check-am clean \
-	clean-binPROGRAMS clean-generic cscopelist-am ctags ctags-am \
-	distclean distclean-compile distclean-generic distclean-tags \
-	distdir dvi dvi-am html html-am info info-am install \
-	install-am install-binPROGRAMS install-data install-data-am \
-	install-dvi install-dvi-am install-exec install-exec-am \
-	install-html install-html-am install-info install-info-am \
-	install-man install-pdf install-pdf-am install-ps \
-	install-ps-am install-strip installcheck installcheck-am \
-	installdirs maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-compile mostlyclean-generic pdf pdf-am \
-	ps ps-am tags tags-am uninstall uninstall-am \
-	uninstall-binPROGRAMS
+	clean-binPROGRAMS clean-checkPROGRAMS clean-generic \
+	cscopelist-am ctags ctags-am distclean distclean-compile \
+	distclean-generic distclean-tags distdir dvi dvi-am html \
+	html-am info info-am install install-am install-binPROGRAMS \
+	install-data install-data-am install-dvi install-dvi-am \
+	install-exec install-exec-am install-html install-html-am \
+	install-info install-info-am install-man install-pdf \
+	install-pdf-am install-ps install-ps-am install-strip \
+	installcheck installcheck-am installdirs maintainer-clean \
+	maintainer-clean-generic mostlyclean mostlyclean-compile \
+	mostlyclean-generic pdf pdf-am ps ps-am tags tags-am uninstall \
+	uninstall-am uninstall-binPROGRAMS
 
 .PRECIOUS: Makefile
 
 
 ${bin_PROGRAMS}: ${DEPENDENCIES}
+${EXTRA_PROGRAMS}: ${DEPENDENCIES}
 
 # build lib is a target that goes to the build dir of the library and 
 # does a make to make sure all those dependencies are OK. In order

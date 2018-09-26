@@ -1,4 +1,4 @@
-AC_INIT(subduction,1.0,archanar@jlab.org)
+AC_INIT(Kfactors,1.0,archanar@jlab.org)
 AC_CONFIG_AUX_DIR(config)
 
 AM_INIT_AUTOMAKE([subdir-objects])

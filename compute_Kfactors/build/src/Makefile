@@ -70,10 +70,10 @@ am__make_running_with_option = \
   test $$has_opt = yes
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
 am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
-pkgdatadir = $(datadir)/subduction
-pkgincludedir = $(includedir)/subduction
-pkglibdir = $(libdir)/subduction
-pkglibexecdir = $(libexecdir)/subduction
+pkgdatadir = $(datadir)/kfactors
+pkgincludedir = $(includedir)/kfactors
+pkglibdir = $(libdir)/kfactors
+pkglibexecdir = $(libexecdir)/kfactors
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -86,7 +86,9 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = main$(EXEEXT)
+bin_PROGRAMS = compute_kfactors$(EXEEXT) \
+	compute_kfactors_with_phases$(EXEEXT)
+check_PROGRAMS = tes_ph$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/pac_adat_link_cxx_func.m4 \
@@ -100,10 +102,30 @@ CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am__dirstamp = $(am__leading_dot)dirstamp
-am_main_OBJECTS = exe/main.$(OBJEXT)
-main_OBJECTS = $(am_main_OBJECTS)
-main_LDADD = $(LDADD)
-main_DEPENDENCIES =
+am_compute_kfactors_OBJECTS = exe/compute_kfactors.$(OBJEXT) \
+	irreps_and_rows.$(OBJEXT) kfac_utils.$(OBJEXT) \
+	little_group.$(OBJEXT) subduction.$(OBJEXT) pol_vec.$(OBJEXT) \
+	rot_matrx.$(OBJEXT) k_factor.$(OBJEXT) levi_civita.$(OBJEXT)
+compute_kfactors_OBJECTS = $(am_compute_kfactors_OBJECTS)
+compute_kfactors_LDADD = $(LDADD)
+compute_kfactors_DEPENDENCIES =
+am_compute_kfactors_with_phases_OBJECTS =  \
+	exe/compute_kfactors_with_phases.$(OBJEXT) \
+	irreps_and_rows.$(OBJEXT) kfac_utils.$(OBJEXT) \
+	little_group.$(OBJEXT) subduction.$(OBJEXT) pol_vec.$(OBJEXT) \
+	rot_matrx.$(OBJEXT) k_factor.$(OBJEXT) levi_civita.$(OBJEXT) \
+	phase.$(OBJEXT)
+compute_kfactors_with_phases_OBJECTS =  \
+	$(am_compute_kfactors_with_phases_OBJECTS)
+compute_kfactors_with_phases_LDADD = $(LDADD)
+compute_kfactors_with_phases_DEPENDENCIES =
+am_tes_ph_OBJECTS = test/tes_ph.$(OBJEXT) rot_matrx.$(OBJEXT) \
+	little_group.$(OBJEXT) kfac_utils.$(OBJEXT) \
+	subduction.$(OBJEXT) k_factor.$(OBJEXT) levi_civita.$(OBJEXT) \
+	pol_vec.$(OBJEXT) irreps_and_rows.$(OBJEXT)
+tes_ph_OBJECTS = $(am_tes_ph_OBJECTS)
+tes_ph_LDADD = $(LDADD)
+tes_ph_DEPENDENCIES =
 AM_V_P = $(am__v_P_$(V))
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
 am__v_P_0 = false
@@ -133,8 +155,10 @@ AM_V_CXXLD = $(am__v_CXXLD_$(V))
 am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
 am__v_CXXLD_1 = 
-SOURCES = $(main_SOURCES)
-DIST_SOURCES = $(main_SOURCES)
+SOURCES = $(compute_kfactors_SOURCES) \
+	$(compute_kfactors_with_phases_SOURCES) $(tes_ph_SOURCES)
+DIST_SOURCES = $(compute_kfactors_SOURCES) \
+	$(compute_kfactors_with_phases_SOURCES) $(tes_ph_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -162,16 +186,16 @@ CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/config/depcomp \
 	$(top_srcdir)/config/mkinstalldirs
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /Users/archanar/Subduction/subduction/config/missing aclocal-1.15
-ADAT_CONFIG = /Users/archanar/Subduction/adat_install/bin/adat-config
-ADAT_CXXFLAGS = -std=c++0x -O3 -I/Users/archanar/Subduction/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2
-ADAT_LDFLAGS = -L/Users/archanar/Subduction/adat_install/lib
+ACLOCAL = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing aclocal-1.15
+ADAT_CONFIG = /Users/archanar/Kinematic_factor/adat_install/bin/adat-config
+ADAT_CXXFLAGS = -std=c++0x -O3 -I/Users/archanar/Kinematic_factor/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2
+ADAT_LDFLAGS = -L/Users/archanar/Kinematic_factor/adat_install/lib
 ADAT_LIBS = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.7/lib -lxml2 -lz -lpthread -liconv -lm -lgmp -lgmpxx -lstdc++
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} /Users/archanar/Subduction/subduction/config/missing autoconf
-AUTOHEADER = ${SHELL} /Users/archanar/Subduction/subduction/config/missing autoheader
-AUTOMAKE = ${SHELL} /Users/archanar/Subduction/subduction/config/missing automake-1.15
+AUTOCONF = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoconf
+AUTOHEADER = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoheader
+AUTOMAKE = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing automake-1.15
 AWK = awk
 CC = gcc-8
 CCDEPMODE = depmode=gcc3
@@ -181,7 +205,7 @@ CXX = g++-8
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -O3 -mtune=native -fopenmp -fbounds-check
 CYGPATH_W = echo
-DEFS = -DPACKAGE_NAME=\"subduction\" -DPACKAGE_TARNAME=\"subduction\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"subduction\ 1.0\" -DPACKAGE_BUGREPORT=\"archanar@jlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"subduction\" -DVERSION=\"1.0\" -DPACKAGE=\"subduction\" -DVERSION=\"1.0\"
+DEFS = -DPACKAGE_NAME=\"Kfactors\" -DPACKAGE_TARNAME=\"kfactors\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"Kfactors\ 1.0\" -DPACKAGE_BUGREPORT=\"archanar@jlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"kfactors\" -DVERSION=\"1.0\" -DPACKAGE=\"kfactors\" -DVERSION=\"1.0\"
 DEPDIR = .deps
 ECHO_C = \c
 ECHO_N = 
@@ -196,14 +220,14 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /Users/archanar/Subduction/subduction/config/missing makeinfo
+MAKEINFO = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing makeinfo
 MKDIR_P = ../../config/install-sh -c -d
 OBJEXT = o
-PACKAGE = subduction
+PACKAGE = kfactors
 PACKAGE_BUGREPORT = archanar@jlab.org
-PACKAGE_NAME = subduction
-PACKAGE_STRING = subduction 1.0
-PACKAGE_TARNAME = subduction
+PACKAGE_NAME = Kfactors
+PACKAGE_STRING = Kfactors 1.0
+PACKAGE_TARNAME = kfactors
 PACKAGE_URL = 
 PACKAGE_VERSION = 1.0
 PATH_SEPARATOR = :
@@ -212,10 +236,10 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = 
 VERSION = 1.0
-abs_builddir = /Users/archanar/Subduction/subduction/build/src
-abs_srcdir = /Users/archanar/Subduction/subduction/build/../src
-abs_top_builddir = /Users/archanar/Subduction/subduction/build
-abs_top_srcdir = /Users/archanar/Subduction/subduction/build/..
+abs_builddir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/src
+abs_srcdir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/../src
+abs_top_builddir = /Users/archanar/Kinematic_factor/compute_Kfactors/build
+abs_top_srcdir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/..
 ac_ct_CC = 
 ac_ct_CXX = 
 am__include = include
@@ -235,7 +259,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/archanar/Subduction/subduction/config/install-sh
+install_sh = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -244,7 +268,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /Users/archanar/Subduction/subduction_install
+prefix = /Users/archanar/Kinematic_factor/compute_Kfactors_install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
@@ -260,15 +284,21 @@ top_srcdir = ../..
 # Boiler Plate stuff: Autoconf Substitutions etc
 #
 AM_CXXFLAGS = -I../../src \
-		-O3 -mtune=native -fopenmp -fbounds-check -std=c++0x -O3 -I/Users/archanar/Subduction/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2 
+		-O3 -mtune=native -fopenmp -fbounds-check -std=c++0x -O3 -I/Users/archanar/Kinematic_factor/adat_install/include -I/usr/local/Cellar/libxml2/2.9.7/include/libxml2 
 
 AM_LDFLAGS = -L../src \
-                -L/Users/archanar/Subduction/adat_install/lib
+                -L/Users/archanar/Kinematic_factor/adat_install/lib
 
 LDADD = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.7/lib -lxml2 -lz -lpthread -liconv -lm -lgmp -lgmpxx -lstdc++  
 
 ##############################################################
-main_SOURCES = exe/main.cc
+compute_kfactors_SOURCES = exe/compute_kfactors.cc  irreps_and_rows.cc  kfac_utils.cc  little_group.cc  subduction.cc  pol_vec.cc  rot_matrx.cc  k_factor.cc  levi_civita.cc 
+compute_kfactors_with_phases_SOURCES = exe/compute_kfactors_with_phases.cc  irreps_and_rows.cc  kfac_utils.cc  little_group.cc  subduction.cc  pol_vec.cc  rot_matrx.cc  k_factor.cc  levi_civita.cc  phase.cc
+tes_ph_SOURCES = test/tes_ph.cc  rot_matrx.cc little_group.cc kfac_utils.cc subduction.cc    k_factor.cc  levi_civita.cc  pol_vec.cc    irreps_and_rows.cc 
+
+##############################################################
+
+#BUILT_SOURCES = levi_civita.cc irreps_and_rows.cc kfac_utils.cc euler_mat.cc irreps_and_rows.cc
 
 ##############################################################
 
@@ -353,26 +383,60 @@ uninstall-binPROGRAMS:
 
 clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+clean-checkPROGRAMS:
+	-test -z "$(check_PROGRAMS)" || rm -f $(check_PROGRAMS)
 exe/$(am__dirstamp):
 	@$(MKDIR_P) exe
 	@: > exe/$(am__dirstamp)
 exe/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) exe/$(DEPDIR)
 	@: > exe/$(DEPDIR)/$(am__dirstamp)
-exe/main.$(OBJEXT): exe/$(am__dirstamp) exe/$(DEPDIR)/$(am__dirstamp)
+exe/compute_kfactors.$(OBJEXT): exe/$(am__dirstamp) \
+	exe/$(DEPDIR)/$(am__dirstamp)
 
-main$(EXEEXT): $(main_OBJECTS) $(main_DEPENDENCIES) $(EXTRA_main_DEPENDENCIES) 
-	@rm -f main$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(main_OBJECTS) $(main_LDADD) $(LIBS)
+compute_kfactors$(EXEEXT): $(compute_kfactors_OBJECTS) $(compute_kfactors_DEPENDENCIES) $(EXTRA_compute_kfactors_DEPENDENCIES) 
+	@rm -f compute_kfactors$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_OBJECTS) $(compute_kfactors_LDADD) $(LIBS)
+exe/compute_kfactors_with_phases.$(OBJEXT): exe/$(am__dirstamp) \
+	exe/$(DEPDIR)/$(am__dirstamp)
+
+compute_kfactors_with_phases$(EXEEXT): $(compute_kfactors_with_phases_OBJECTS) $(compute_kfactors_with_phases_DEPENDENCIES) $(EXTRA_compute_kfactors_with_phases_DEPENDENCIES) 
+	@rm -f compute_kfactors_with_phases$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_with_phases_OBJECTS) $(compute_kfactors_with_phases_LDADD) $(LIBS)
+test/$(am__dirstamp):
+	@$(MKDIR_P) test
+	@: > test/$(am__dirstamp)
+test/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) test/$(DEPDIR)
+	@: > test/$(DEPDIR)/$(am__dirstamp)
+test/tes_ph.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
+
+tes_ph$(EXEEXT): $(tes_ph_OBJECTS) $(tes_ph_DEPENDENCIES) $(EXTRA_tes_ph_DEPENDENCIES) 
+	@rm -f tes_ph$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(tes_ph_OBJECTS) $(tes_ph_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
 	-rm -f exe/*.$(OBJEXT)
+	-rm -f test/*.$(OBJEXT)
 
 distclean-compile:
 	-rm -f *.tab.c
 
-include exe/$(DEPDIR)/main.Po
+include ./$(DEPDIR)/irreps_and_rows.Po
+include ./$(DEPDIR)/k_factor.Po
+include ./$(DEPDIR)/kfac_utils.Po
+include ./$(DEPDIR)/levi_civita.Po
+include ./$(DEPDIR)/little_group.Po
+include ./$(DEPDIR)/phase.Po
+include ./$(DEPDIR)/pol_vec.Po
+include ./$(DEPDIR)/rot_matrx.Po
+include ./$(DEPDIR)/subduction.Po
+include exe/$(DEPDIR)/compute_kfactors.Po
+include exe/$(DEPDIR)/compute_kfactors_with_phases.Po
+include test/$(DEPDIR)/tes_ph.Po
 
 .cc.o:
 	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
@@ -473,6 +537,7 @@ distdir: $(DISTFILES)
 	  fi; \
 	done
 check-am: all-am
+	$(MAKE) $(AM_MAKEFLAGS) $(check_PROGRAMS)
 check: check-am
 all-am: Makefile $(PROGRAMS)
 installdirs:
@@ -507,16 +572,19 @@ distclean-generic:
 	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
 	-rm -f exe/$(DEPDIR)/$(am__dirstamp)
 	-rm -f exe/$(am__dirstamp)
+	-rm -f test/$(DEPDIR)/$(am__dirstamp)
+	-rm -f test/$(am__dirstamp)
 
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
 clean: clean-am
 
-clean-am: clean-binPROGRAMS clean-generic mostlyclean-am
+clean-am: clean-binPROGRAMS clean-checkPROGRAMS clean-generic \
+	mostlyclean-am
 
 distclean: distclean-am
-	-rm -rf exe/$(DEPDIR)
+	-rm -rf ./$(DEPDIR) exe/$(DEPDIR) test/$(DEPDIR)
 	-rm -f Makefile
 distclean-am: clean-am distclean-compile distclean-generic \
 	distclean-tags
@@ -562,7 +630,7 @@ install-ps-am:
 installcheck-am:
 
 maintainer-clean: maintainer-clean-am
-	-rm -rf exe/$(DEPDIR)
+	-rm -rf ./$(DEPDIR) exe/$(DEPDIR) test/$(DEPDIR)
 	-rm -f Makefile
 maintainer-clean-am: distclean-am maintainer-clean-generic
 
@@ -580,26 +648,27 @@ ps-am:
 
 uninstall-am: uninstall-binPROGRAMS
 
-.MAKE: install-am install-strip
+.MAKE: check-am install-am install-strip
 
 .PHONY: CTAGS GTAGS TAGS all all-am check check-am clean \
-	clean-binPROGRAMS clean-generic cscopelist-am ctags ctags-am \
-	distclean distclean-compile distclean-generic distclean-tags \
-	distdir dvi dvi-am html html-am info info-am install \
-	install-am install-binPROGRAMS install-data install-data-am \
-	install-dvi install-dvi-am install-exec install-exec-am \
-	install-html install-html-am install-info install-info-am \
-	install-man install-pdf install-pdf-am install-ps \
-	install-ps-am install-strip installcheck installcheck-am \
-	installdirs maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-compile mostlyclean-generic pdf pdf-am \
-	ps ps-am tags tags-am uninstall uninstall-am \
-	uninstall-binPROGRAMS
+	clean-binPROGRAMS clean-checkPROGRAMS clean-generic \
+	cscopelist-am ctags ctags-am distclean distclean-compile \
+	distclean-generic distclean-tags distdir dvi dvi-am html \
+	html-am info info-am install install-am install-binPROGRAMS \
+	install-data install-data-am install-dvi install-dvi-am \
+	install-exec install-exec-am install-html install-html-am \
+	install-info install-info-am install-man install-pdf \
+	install-pdf-am install-ps install-ps-am install-strip \
+	installcheck installcheck-am installdirs maintainer-clean \
+	maintainer-clean-generic mostlyclean mostlyclean-compile \
+	mostlyclean-generic pdf pdf-am ps ps-am tags tags-am uninstall \
+	uninstall-am uninstall-binPROGRAMS
 
 .PRECIOUS: Makefile
 
 
 ${bin_PROGRAMS}: ${DEPENDENCIES}
+${EXTRA_PROGRAMS}: ${DEPENDENCIES}
 
 # build lib is a target that goes to the build dir of the library and 
 # does a make to make sure all those dependencies are OK. In order

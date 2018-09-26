@@ -23,6 +23,15 @@ bool linkageHack(void){
   return foo;
 };
 
+/* Truncate small numbers  */
+
+double truncate(double num,int precision){
+  if(abs(num) < pow(10,-precision)){ num = double(0);}
+  return num;
+}
+
+const double PI = (atan(double(1)) * double(4.0));
+
 
 /* Find Little Groups - Jo's code  */
 
@@ -30,7 +39,6 @@ string generateLittleGroup(ArrayXXd& mom_)
 {
   XMLArray::Array<int> mom(3); mom[0] = mom_(0,0); mom[1] = mom_(1,0); mom[2] = mom_(2,0);
   XMLArray::Array<int> momCan = Hadron::canonicalOrder(mom);
- 
   std::string littleGroup = "";
   if (momCan[2] == 0){
     if (momCan[1] == 0){
@@ -54,7 +62,6 @@ string generateLittleGroup(ArrayXXd& mom_)
     else   // n m p
       littleGroup = "C2";
   }
- 
   return littleGroup;
 };
 
@@ -146,9 +153,10 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
   // to act upon cartesian 4-vectors
   // R(a,b,g) = Rz(a) Ry(b) Rz(g)
 
+
   MatrixXd Rzg = MatrixXd::Zero(4,4);
   Rzg(0,0) = 1;
-  Rzg(1,1) = cos(gamma); Rzg(1,2) = -1 * (sin(gamma));
+  Rzg(1,1) = cos(gamma); Rzg(1,2) = -1 * sin(gamma);
   Rzg(2,1) = -1 * (Rzg(1,2)); Rzg(2,2) = Rzg(1,1);
   Rzg(3,3) = 1;
 
@@ -160,7 +168,7 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 
   MatrixXd Rza = MatrixXd::Zero(4,4);
   Rza(0,0) = 1;
-  Rza(1,1) = cos(alpha); Rza(1,2) = -1 * (sin(alpha));
+  Rza(1,1) = cos(alpha); Rza(1,2) = -1 * sin(alpha);
   Rza(2,1) = -1 * (Rza(1,2)); Rza(2,2) = Rza(1,1);
   Rza(3,3) = 1;
 
@@ -172,12 +180,10 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 
 /* To compute the polarization given the momentum and helicity - Convention from Appendix B of Helicity Ops for Mesons  */
 
- MatrixXcd getPolarization(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi)
- {
+ MatrixXcd getPolarization(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi){
+    MatrixXcd pol = MatrixXcd::Zero(4,1);
+    MatrixXcd pol_z = MatrixXcd::Zero(4,1);
                                                                  // For spin 1 particles extra polarization degree of freedom
-  MatrixXcd pol_z = MatrixXcd::Zero(4,1);
-  MatrixXcd pol = MatrixXcd::Zero(4,1);
-
    if(two_helicity == 0){
      if(mass_sq == 0){pol_z << (0,0),(0,0),(0,0),(0,0);}            // Massless particles have only two physical polarizations
 
@@ -194,7 +200,9 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 
    else{cerr << "Not valid" << endl; exit(1);}
    pol = eulerRotMat(phi,theta,psi)*pol_z;                              // multiplies by the euler matrix to convert p_ref to p_canonical
+   //cout << "\n" << "pol_s" << pol << "pol_e" << "\n" ;
    return pol;
+
  };
 
 
@@ -203,8 +211,8 @@ MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 /* Get the reference angles for each LG - copied from Jo - Appendix E Table VI - Helicity ops for Mesons - z-y-z  Jacob-Wick convention */
 
 
-std::vector<float> refAngles(string little_group){
-  std::vector<float> ref;
+std::vector<double> refAngles(string little_group){
+  std::vector<double> ref;
   double R1_phi, R1_theta, R1_psi; //reference rotation angles
 
   if(little_group == "Oh"){ R1_phi = 0.0; R1_theta = 0.0; R1_psi = 0.0;}
@@ -248,6 +256,7 @@ string sign(int x){
   else{ return "+"; }
 
 }
+
 
 
 
@@ -485,28 +494,19 @@ MatrixXcd Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_l
 
 /* Antisymmetric Tensor */
 
-double LeviCivita(int ei,int ej, int ek, int el){
+double LeviCivita(int arr[], int n){ //modifies the input and sorts it
 
-    if(ei == ej || ej == ek || ek == el || el == ei || ei == ek || ej == el){
-       return 0;
-       }
+  int cnt =0;
+  int i, j;
 
-    int cnt = 0;
-    std::vector<int> e = {ei,ej,ek,el};
-    std::vector<int> per = {0,1,2,3};
+    for (i = 0; i < n-1; i++){
+      for (j = 0; j < n-i-1; j++){
 
-    for (int i = 0; i < 4; ++i){
-        while (i != e[i]){
-            ++cnt;
-            std::swap (per[i], per[e[i]]);
-            std::swap (e[i], e[e[i]]);
-	}
-    }
+        if (arr[j] == arr[j+1] ){return 0;}
+        else if (arr[j] > arr[j+1]){swap(arr[j], arr[j+1]); ++cnt;}}};
 
-    return pow(-1, cnt);
+   return pow(-1,cnt);
 };
-
-
 
 
 /* Loop over Lorentz indices to get the coefficient*/
@@ -516,8 +516,9 @@ complex<double> KinematicFactor(ArrayXXd& qp, ArrayXXd& qm, MatrixXcd& Sub1 , Ma
 
     complex<double> Coeff = 0;
     for(int i = 0; i < 4; i++ ){for(int j = 0; j < 4; j++ ){for(int k = 0; k < 4; k++ ){for(int l = 0; l< 4; l++ ){
-      Coeff += LeviCivita(i,j,k,l)*(qp(j,0))*(qm(k,0))*(Sub1(2,0))*(SubCurr(i,0))*(Sub3(l,0));}}}}
-      
+      int e[] = {i,j,k,l};
+      Coeff += LeviCivita(e,4)*(qp(j,0))*(qm(k,0))*(Sub1(2,0))*(SubCurr(i,0))*(Sub3(l,0));}}}}
+      Coeff = {truncate(Coeff.real(),15),truncate(Coeff.imag(),15)};
       return Coeff;
 };
      
@@ -549,28 +550,29 @@ int main(int argc, char** argv){
 
     ArrayXXd mom1(3,1);    ArrayXXd mom3(3,1);    ArrayXXd mom_curr(3,1);
     
-    for(int i=0; i < sqrt(max_mom1); i++){
-       for(int j = 0; j <= i; j++){						// Looping over all mom_1
-	 for(int k = 0; k <= j; k++){
+    for(int i=-int(sqrt(max_mom1)); i <= int(sqrt(max_mom1)); i++){
+      for(int j = -int(sqrt(max_mom1)); j <= int(sqrt(max_mom1)); j++){					// Looping over all mom_1
+	for(int k = -int(sqrt(max_mom1)); k <= int(sqrt(max_mom1)); k++){
 
 
-           double mom1_sq = (pow(i,2)+pow(j,2)+pow(k,2));
+          double mom1_sq = (pow(i,2)+pow(j,2)+pow(k,2));
 
-           if(max_mom1 >= mom1_sq){	
+          if(max_mom1 >= mom1_sq){	
 
-	     for(int l = 0; l < sqrt(max_mom3); l++){
-                for(int m=0; m <= l ; m++){					// Looping over all mom_3
-           	   for(int n=0; n<=m; n++){
+	    for(int l = -int(sqrt(max_mom3)); l <= int(sqrt(max_mom3)); l++){
+               for(int m=-int(sqrt(max_mom3)); m <= int(sqrt(max_mom3)) ; m++){				// Looping over all mom_3
+           	 for(int n=-int(sqrt(max_mom3)); n<=int(sqrt(max_mom3)); n++){
 
-		   double mom3_sq = (pow(l,2)+pow(m,2)+pow(n,2));
+		  double mom3_sq = (pow(l,2)+pow(m,2)+pow(n,2));
 
-		   if(max_mom3 >= mom3_sq){
+		  if(max_mom3 >= mom3_sq){
 
-		    mom1 << i,j,k;  mom3 << l,m,n;  mom_curr << (l-i),(m-j),(n-k);
+		   mom1 << i,j,k;  mom3 << l,m,n;  mom_curr << (l-i),(m-j),(n-k);
 
 
-		    double mom_curr_sq = (pow((i-l),2)+pow((j-m),2)+pow((k-n),2));
-
+		   double mom_curr_sq = (pow((i-l),2)+pow((j-m),2)+pow((k-n),2));
+		    
+		   if(max_mom2 >= mom_curr_sq){
 
 		    ArrayXXd  qp(4,1);  ArrayXXd  qm(4,1);  // q+ = (p1-p2) q- = (p1+p2)
 
@@ -584,9 +586,9 @@ int main(int argc, char** argv){
 		    string LG_curr = generateLittleGroup(mom_curr);
 
 
-		    std::vector<float> r1 = refAngles(LG1);
-		    std::vector<float> r_curr = refAngles(LG_curr);
-		    std::vector<float> r3 = refAngles(LG3);
+		    std::vector<double> r1 = refAngles(LG1);
+		    std::vector<double> r_curr = refAngles(LG_curr);
+		    std::vector<double> r3 = refAngles(LG3);
 
 
 		    std::vector<std::string> irrep1 = getIrrep(two_J1,P1,LG1);
@@ -622,6 +624,7 @@ int main(int argc, char** argv){
 					MatrixXcd Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
 					MatrixXcd Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
 					MatrixXcd SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
+			//		map< int, complex<double> > 
 
 
 
@@ -636,6 +639,7 @@ int main(int argc, char** argv){
 					}
 		      }}}
 		   }}}
+		  }
 		 }	
 	     }}}
   	   }
