@@ -207,6 +207,9 @@ Eigen::MatrixXcd Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, 
         Sub = Subd::subduce_oct(irrep);
         if(twoJ == 2){
           for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+            //cout << "lam" <<  (it->first) << "lam" << "\n";
+            //cout << irrep.irrep << "\n";
+            //cout << PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << "\n";
             sum +=  (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);}}
         else{
         Eigen::MatrixXcd unit_vec(4,1);
@@ -229,6 +232,9 @@ Eigen::MatrixXcd Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, 
           Sub = Subd::subduce_lg_boson(irrep, little_group);
           if(twoJ == 2){
             for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+                //cout << irrep.irrep << "\n";
+                //cout << PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << "\n";
+              //cout << "lam" <<  (it->first) << "lam" << "\n";
               //cout << "Polstart" <<getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)<< "Polend";
               sum +=  (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);}}
           else{
@@ -258,6 +264,7 @@ map< int, Eigen::MatrixXcd > Subd::Subduce_with_phases(double& mom_sq, double& m
             Sub = Subd::subduce_oct(irrep);
             if(twoJ == 2){
                 for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+                    //cout << "Polstart" << PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)<< "Polend    "; cout << irrep.irrep << "\n";
                     Sub_with_pol.insert(make_pair( (it->first) , (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)));}}
             else{
                 Eigen::MatrixXcd unit_vec(4,1);
@@ -283,7 +290,7 @@ map< int, Eigen::MatrixXcd > Subd::Subduce_with_phases(double& mom_sq, double& m
                 Sub = Subd::subduce_lg_boson(irrep, little_group);
                 if(twoJ == 2){
                     for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-                        //cout << "Polstart" <<getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)<< "Polend";
+                        //cout << "Polstart" << PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)<< "Polend"; cout << irrep.irrep << "\n";
                         Sub_with_pol.insert(make_pair( (it->first) , (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) ));}}
                 else{
                     Eigen::MatrixXcd unit_vec(4,1);

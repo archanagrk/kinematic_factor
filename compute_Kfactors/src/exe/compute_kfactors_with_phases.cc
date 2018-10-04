@@ -53,7 +53,7 @@ int main(int argc, char** argv){
                        
                     Ph::phChars phase;
                     
-                    phase = Ph::phaseFactor(two_J1, two_J3, mom1, mom3);
+                    phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3);
                        
                     double n_mom1_sq = phase.mom1.squaredNorm();
                     double n_mom3_sq = phase.mom2.squaredNorm();
@@ -66,7 +66,11 @@ int main(int argc, char** argv){
                     qp  << (sqrt(m1_sq+n_mom1_sq)+sqrt(m3_sq+n_mom3_sq)),(phase.mom1(0)+phase.mom2(0)),(phase.mom1(1)+phase.mom2(1)),(phase.mom1(2)+phase.mom2(2));
                     qm  << (sqrt(m1_sq+n_mom1_sq)-sqrt(m3_sq+n_mom3_sq)),(phase.mom2(0)-phase.mom1(0)),(phase.mom2(1)-phase.mom1(1)),(phase.mom2(2)-phase.mom1(2));
 
+                    //qp  << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),(mom1(0)+mom3(0)),(mom1(1)+mom3(1)),(mom1(2)+mom3(2));
+                    //qm  << (sqrt(m1_sq+mom1_sq)-sqrt(m3_sq+mom3_sq)),(mom3(0)-mom1(0)),(mom3(1)-mom1(1)),(mom3(2)-mom1(2));
+
                     double n_m_curr_sq =  pow(sqrt(n_mom3_sq + m3_sq)-sqrt(n_mom1_sq + m1_sq) ,2) - n_mom_curr_sq;
+                    double m_curr_sq =  pow(sqrt(mom3_sq + m3_sq)-sqrt(mom1_sq + m1_sq) ,2) - mom_curr_sq;
 
                     string LG1 = generateLittleGroup(phase.mom1);
                     string LG3 = generateLittleGroup(phase.mom2);
@@ -111,23 +115,23 @@ int main(int argc, char** argv){
 
                                         map< int, Eigen::MatrixXcd >Sub1 = Subduce_with_phases(n_mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
                                         map< int, Eigen::MatrixXcd >Sub3 = Subduce_with_phases(n_mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
-                                        Eigen::MatrixXcd SubCurr = Subduce_all(n_mom_curr_sq, n_m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
+                                        map< int, Eigen::MatrixXcd >SubCurr = Subduce_with_phases(n_mom_curr_sq, n_m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
 
 
 
                                         Coeff = KinematicFactorwithPhase(qp,qm,Sub1,SubCurr,Sub3,phase);
-                                        //if(std::real(Coeff) || std::imag(Coeff)){
-                                          cout << phase.mom1.transpose() << "mom1" << "\n";
-                                          cout << phase.mom2.transpose()<< "mom2" << "\n";
-                                          cout << n_mom_curr.transpose() << "mom_curr" << "\n";
+                                        if(std::real(Coeff) || std::imag(Coeff)){
+                                          //cout << phase.mom1.transpose() << "mom1" << "\n";
+                                          //cout << phase.mom2.transpose()<< "mom2" << "\n";
+                                          //cout << n_mom_curr.transpose() << "mom_curr" << "\n";
 
                                           cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
                                           cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
                                           cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
                                         //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
                                           cout << "The factor is:" << Coeff << "\n";
-                                        //}
+                                        }
                       }}}
                    }}}
                   }

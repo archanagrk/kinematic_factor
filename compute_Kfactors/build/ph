@@ -1,0 +1,5439 @@
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1 -1  0A2[1]
+0 0 0T1[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1 -1  0A2[1]
+0 0 0T1[2]
+-1 -1  0B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1 -1  0A2[1]
+0 0 0T1[3]
+-1 -1  0B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1 -1  0A2[1]
+0 0 0T1[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1 -1  0A2[1]
+0 0 0T1[2]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1 -1  0A2[1]
+0 0 0T1[3]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1 -1  0A2[1]
+ 0  1 -1B1[1]
+-1  0 -1B1[1]
+The factor is:(-2.96648,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1 -1  0A2[1]
+ 0  1 -1B2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1 -1  0A2[1]
+ 0  1 -1B1[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1 -1  0A2[1]
+ 0  1 -1B2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1 -1  0A2[1]
+0 1 0E2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1 -1  0A2[1]
+0 1 0E2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1 -1  0A2[1]
+0 1 0E2[2]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1 -1  0A2[1]
+0 1 0E2[2]
+-1  0  0E2[2]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+0 1 1B1[1]
+-1  0  1B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+0 1 1B2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+0 1 1B1[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+0 1 1B2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+ 1  0 -1B1[1]
+ 0 -1 -1B1[1]
+The factor is:(2.96648,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+ 1  0 -1B2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+ 1  0 -1B1[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1 -1  0A2[1]
+ 1  0 -1B2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1 -1  0A2[1]
+1 0 0E2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1 -1  0A2[1]
+1 0 0E2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1 -1  0A2[1]
+1 0 0E2[2]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1 -1  0A2[1]
+1 0 0E2[2]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1 -1  0A2[1]
+1 0 1B1[1]
+ 0 -1  1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1 -1  0A2[1]
+1 0 1B2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1 -1  0A2[1]
+1 0 1B1[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1 -1  0A2[1]
+1 0 1B2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+-1 -1  0mom1
+0 0 0mom2
+1 1 0mom_curr
+-1 -1  0A2[1]
+1 1 0B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1 -1  0mom1
+0 0 0mom2
+1 1 0mom_curr
+-1 -1  0A2[1]
+1 1 0B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1 -1  0mom1
+0 0 0mom2
+1 1 0mom_curr
+-1 -1  0A2[1]
+1 1 0B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+-1 -1  0mom1
+0 0 0mom2
+1 1 0mom_curr
+-1 -1  0A2[1]
+1 1 0B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1 -1  0mom1
+0 0 0mom2
+1 1 0mom_curr
+-1 -1  0A2[1]
+1 1 0B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1 -1  0mom1
+0 0 0mom2
+1 1 0mom_curr
+-1 -1  0A2[1]
+1 1 0B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  0 -1A2[1]
+ 0 -1  1B1[1]
+-1 -1  0B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  0 -1A2[1]
+ 0 -1  1B2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  0 -1A2[1]
+ 0 -1  1B1[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  0 -1A2[1]
+ 0 -1  1B2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0 -1A2[1]
+0 0 0T1[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0 -1A2[1]
+0 0 0T1[2]
+-1  0 -1B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0 -1A2[1]
+0 0 0T1[3]
+-1  0 -1B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0 -1A2[1]
+0 0 0T1[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0 -1A2[1]
+0 0 0T1[2]
+-1  0 -1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0 -1A2[1]
+0 0 0T1[3]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+0 0 1E2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+0 0 1E2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+0 0 1E2[2]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+0 0 1E2[2]
+-1  0  0E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+0 1 1B1[1]
+-1  1  0B1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+0 1 1B2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+0 1 1B1[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+0 1 1B2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+ 1 -1  0B1[1]
+ 0 -1 -1B1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+ 1 -1  0B2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+ 1 -1  0B1[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0 -1A2[1]
+ 1 -1  0B2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+1 0 0E2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+1 0 0E2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+1 0 0E2[2]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+-1  0 -1A2[1]
+1 0 0E2[2]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+-1  0 -1mom1
+0 0 0mom2
+1 0 1mom_curr
+-1  0 -1A2[1]
+1 0 1B1[1]
+0 0 0T1[1]
+The factor is:(2.96648,0)
+-1  0 -1mom1
+0 0 0mom2
+1 0 1mom_curr
+-1  0 -1A2[1]
+1 0 1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  0 -1mom1
+0 0 0mom2
+1 0 1mom_curr
+-1  0 -1A2[1]
+1 0 1B1[1]
+0 0 0T1[3]
+The factor is:(2.96648,0)
+-1  0 -1mom1
+0 0 0mom2
+1 0 1mom_curr
+-1  0 -1A2[1]
+1 0 1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1  0 -1mom1
+0 0 0mom2
+1 0 1mom_curr
+-1  0 -1A2[1]
+1 0 1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  0 -1mom1
+0 0 0mom2
+1 0 1mom_curr
+-1  0 -1A2[1]
+1 0 1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0 -1A2[1]
+1 1 0B1[1]
+ 0  1 -1B1[1]
+The factor is:(2.96648,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0 -1A2[1]
+1 1 0B2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0 -1A2[1]
+1 1 0B1[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0 -1A2[1]
+1 1 0B2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+ 0 -1  0E2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+ 0 -1  0E2[2]
+-1 -1  0B1[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+ 0 -1  0E2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+ 0 -1  0E2[2]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+ 0  0 -1E2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+ 0  0 -1E2[2]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+ 0  0 -1E2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+ 0  0 -1E2[2]
+-1  0 -1B2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+-1  0  0A2[1]
+0 0 0T1[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+-1  0  0A2[1]
+0 0 0T1[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+-1  0  0A2[1]
+0 0 0T1[2]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+-1  0  0A2[1]
+0 0 0T1[2]
+-1  0  0E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+-1  0  0A2[1]
+0 0 0T1[3]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+-1  0  0A2[1]
+0 0 0T1[3]
+-1  0  0E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+0 0 1E2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+0 0 1E2[2]
+-1  0  1B1[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+0 0 1E2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+0 0 1E2[2]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+0 1 0E2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+0 1 0E2[2]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+0 1 0E2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+-1  0  0A2[1]
+0 1 0E2[2]
+-1  1  0B2[1]
+The factor is:(0,0)
+-0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+-1  0  0A2[1]
+ 1 -1  0B1[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+-0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+-1  0  0A2[1]
+ 1 -1  0B1[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+-0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+-1  0  0A2[1]
+ 1 -1  0B2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+-0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+-1  0  0A2[1]
+ 1 -1  0B2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+-0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+-1  0  0A2[1]
+ 1  0 -1B1[1]
+ 0  0 -1E2[1]
+The factor is:(3.09839,0)
+-0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+-1  0  0A2[1]
+ 1  0 -1B1[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+-0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+-1  0  0A2[1]
+ 1  0 -1B2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+-0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+-1  0  0A2[1]
+ 1  0 -1B2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+-1  0  0mom1
+0 0 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+1 0 0E2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1  0  0mom1
+0 0 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+1 0 0E2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  0  0mom1
+0 0 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+1 0 0E2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+-1  0  0mom1
+0 0 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+1 0 0E2[2]
+0 0 0T1[1]
+The factor is:(0,0)
+-1  0  0mom1
+0 0 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+1 0 0E2[2]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  0  0mom1
+0 0 0mom2
+1 0 0mom_curr
+-1  0  0A2[1]
+1 0 0E2[2]
+0 0 0T1[3]
+The factor is:(0,0)
+-0  0  1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+-1  0  0A2[1]
+1 0 1B1[1]
+0 0 1E2[1]
+The factor is:(3.09839,0)
+-0  0  1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+-1  0  0A2[1]
+1 0 1B1[1]
+0 0 1E2[2]
+The factor is:(0,0)
+-0  0  1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+-1  0  0A2[1]
+1 0 1B2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+-0  0  1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+-1  0  0A2[1]
+1 0 1B2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+-1  0  0A2[1]
+1 1 0B1[1]
+0 1 0E2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+-1  0  0A2[1]
+1 1 0B1[1]
+0 1 0E2[2]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+-1  0  0A2[1]
+1 1 0B2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+-1  0  0A2[1]
+1 1 0B2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  0  1A2[1]
+ 0 -1 -1B1[1]
+-1 -1  0B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  0  1A2[1]
+ 0 -1 -1B2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  0  1A2[1]
+ 0 -1 -1B1[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  0  1A2[1]
+ 0 -1 -1B2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+ 0  0 -1E2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+ 0  0 -1E2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+ 0  0 -1E2[2]
+-1  0  0E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+ 0  0 -1E2[2]
+-1  0  0E2[2]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0  1A2[1]
+0 0 0T1[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0  1A2[1]
+0 0 0T1[2]
+-1  0  1B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0  1A2[1]
+0 0 0T1[3]
+-1  0  1B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0  1A2[1]
+0 0 0T1[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0  1A2[1]
+0 0 0T1[2]
+-1  0  1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  0  1A2[1]
+0 0 0T1[3]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 0  1 -1B1[1]
+-1  1  0B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 0  1 -1B2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 0  1 -1B1[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 0  1 -1B2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 1 -1  0B1[1]
+ 0 -1  1B1[1]
+The factor is:(2.96648,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 1 -1  0B2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 1 -1  0B1[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  0  1A2[1]
+ 1 -1  0B2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+-1  0  1mom1
+0 0 0mom2
+ 1  0 -1mom_curr
+-1  0  1A2[1]
+ 1  0 -1B1[1]
+0 0 0T1[1]
+The factor is:(2.96648,0)
+-1  0  1mom1
+0 0 0mom2
+ 1  0 -1mom_curr
+-1  0  1A2[1]
+ 1  0 -1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  0  1mom1
+0 0 0mom2
+ 1  0 -1mom_curr
+-1  0  1A2[1]
+ 1  0 -1B1[1]
+0 0 0T1[3]
+The factor is:(2.96648,0)
+-1  0  1mom1
+0 0 0mom2
+ 1  0 -1mom_curr
+-1  0  1A2[1]
+ 1  0 -1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1  0  1mom1
+0 0 0mom2
+ 1  0 -1mom_curr
+-1  0  1A2[1]
+ 1  0 -1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  0  1mom1
+0 0 0mom2
+ 1  0 -1mom_curr
+-1  0  1A2[1]
+ 1  0 -1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+1 0 0E2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+1 0 0E2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+1 0 0E2[2]
+0 0 1E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+-1  0  1A2[1]
+1 0 0E2[2]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0  1A2[1]
+1 1 0B1[1]
+0 1 1B1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0  1A2[1]
+1 1 0B2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0  1A2[1]
+1 1 0B1[1]
+0 1 1B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+-1  0  1A2[1]
+1 1 0B2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  1  0A2[1]
+ 0 -1 -1B1[1]
+-1  0 -1B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  1  0A2[1]
+ 0 -1 -1B2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  1  0A2[1]
+ 0 -1 -1B1[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+-1  1  0A2[1]
+ 0 -1 -1B2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1  1  0A2[1]
+ 0 -1  0E2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1  1  0A2[1]
+ 0 -1  0E2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1  1  0A2[1]
+ 0 -1  0E2[2]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+-1  1  0A2[1]
+ 0 -1  0E2[2]
+-1  0  0E2[2]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 0 -1  1B1[1]
+-1  0  1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 0 -1  1B2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 0 -1  1B1[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 0 -1  1B2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  1  0A2[1]
+0 0 0T1[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  1  0A2[1]
+0 0 0T1[2]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  1  0A2[1]
+0 0 0T1[3]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  1  0A2[1]
+0 0 0T1[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  1  0A2[1]
+0 0 0T1[2]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+-1  1  0A2[1]
+0 0 0T1[3]
+-1  1  0B2[1]
+The factor is:(0,0)
+-1  1  0mom1
+0 0 0mom2
+ 1 -1  0mom_curr
+-1  1  0A2[1]
+ 1 -1  0B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1  1  0mom1
+0 0 0mom2
+ 1 -1  0mom_curr
+-1  1  0A2[1]
+ 1 -1  0B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  1  0mom1
+0 0 0mom2
+ 1 -1  0mom_curr
+-1  1  0A2[1]
+ 1 -1  0B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+-1  1  0mom1
+0 0 0mom2
+ 1 -1  0mom_curr
+-1  1  0A2[1]
+ 1 -1  0B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+-1  1  0mom1
+0 0 0mom2
+ 1 -1  0mom_curr
+-1  1  0A2[1]
+ 1 -1  0B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+-1  1  0mom1
+0 0 0mom2
+ 1 -1  0mom_curr
+-1  1  0A2[1]
+ 1 -1  0B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 1  0 -1B1[1]
+ 0  1 -1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 1  0 -1B2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 1  0 -1B1[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+-1  1  0A2[1]
+ 1  0 -1B2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1  1  0A2[1]
+1 0 0E2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1  1  0A2[1]
+1 0 0E2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1  1  0A2[1]
+1 0 0E2[2]
+0 1 0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+-1  1  0A2[1]
+1 0 0E2[2]
+0 1 0E2[2]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  1  0A2[1]
+1 0 1B1[1]
+0 1 1B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  1  0A2[1]
+1 0 1B2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  1  0A2[1]
+1 0 1B1[1]
+0 1 1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+-1  1  0A2[1]
+1 0 1B2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1 -1A2[1]
+-1  0  1B1[1]
+-1 -1  0B1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1 -1A2[1]
+-1  0  1B2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1 -1A2[1]
+-1  0  1B1[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1 -1A2[1]
+-1  0  1B2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0 -1 -1A2[1]
+-1  1  0B1[1]
+-1  0 -1B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0 -1 -1A2[1]
+-1  1  0B2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0 -1 -1A2[1]
+-1  1  0B1[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0 -1 -1A2[1]
+-1  1  0B2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1 -1A2[1]
+0 0 0T1[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1 -1A2[1]
+0 0 0T1[2]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1 -1A2[1]
+0 0 0T1[3]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1 -1A2[1]
+0 0 0T1[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1 -1A2[1]
+0 0 0T1[2]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1 -1A2[1]
+0 0 0T1[3]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0 -1 -1A2[1]
+0 0 1E2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0 -1 -1A2[1]
+0 0 1E2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0 -1 -1A2[1]
+0 0 1E2[2]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0 -1 -1A2[1]
+0 0 1E2[2]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -1 -0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1 -1A2[1]
+0 1 0E2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1 -1 -0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1 -1A2[1]
+0 1 0E2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 1 -1 -0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1 -1A2[1]
+0 1 0E2[2]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1 -1 -0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1 -1A2[1]
+0 1 0E2[2]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 0 -1 -1mom1
+0 0 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+0 1 1B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0 -1 -1mom1
+0 0 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+0 1 1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0 -1 -1mom1
+0 0 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+0 1 1B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0 -1 -1mom1
+0 0 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+0 1 1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0 -1 -1mom1
+0 0 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+0 1 1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0 -1 -1mom1
+0 0 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+0 1 1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+1 0 1B1[1]
+ 1 -1  0B1[1]
+The factor is:(2.96648,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+1 0 1B2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+1 0 1B1[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1 -1A2[1]
+1 0 1B2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0 -1 -1A2[1]
+1 1 0B1[1]
+ 1  0 -1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0 -1 -1A2[1]
+1 1 0B2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0 -1 -1A2[1]
+1 1 0B1[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0 -1 -1A2[1]
+1 1 0B2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+-1  0  0E2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+-1  0  0E2[2]
+-1 -1  0B1[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+-1  0  0E2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+-1  0  0E2[2]
+-1 -1  0B2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+ 0 -1  0A2[1]
+-1  1  0B1[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+ 0 -1  0A2[1]
+-1  1  0B1[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+ 0 -1  0A2[1]
+-1  1  0B2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+ 0 -1  0A2[1]
+-1  1  0B2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+ 0  0 -1E2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+ 0  0 -1E2[2]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+ 0  0 -1E2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+ 0  0 -1E2[2]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 0T1[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 0T1[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 0T1[2]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 0T1[2]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 0T1[3]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 0T1[3]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 1E2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 1E2[2]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 1E2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0 -1  0A2[1]
+0 0 1E2[2]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+ 0  1 -1B1[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+ 0  1 -1B1[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+ 0  1 -1B2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+ 0  1 -1B2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+0 0 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 0E2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+0 0 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 0E2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+0 0 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 0E2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0 -1  0mom1
+0 0 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 0E2[2]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+0 0 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 0E2[2]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+0 0 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 0E2[2]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 1B1[1]
+0 0 1E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 1B1[1]
+0 0 1E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 1B2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+0 1 1B2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+1 0 0E2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+1 0 0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+1 0 0E2[2]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+1 0 0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+1 0 0E2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0 -1  0A2[1]
+1 0 0E2[2]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+1 1 0B1[1]
+1 0 0E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+1 1 0B1[1]
+1 0 0E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+1 1 0B2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+ 0 -1  0A2[1]
+1 1 0B2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+-1  0 -1B1[1]
+-1 -1  0B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+-1  0 -1B2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+-1  0 -1B1[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+-1  0 -1B2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+-1  1  0B1[1]
+-1  0  1B1[1]
+The factor is:(-2.96648,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+-1  1  0B2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+-1  1  0B1[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+-1  1  0B2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 0 -1  1A2[1]
+ 0  0 -1E2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 0 -1  1A2[1]
+ 0  0 -1E2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 0 -1  1A2[1]
+ 0  0 -1E2[2]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 0 -1  1A2[1]
+ 0  0 -1E2[2]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1  1A2[1]
+0 0 0T1[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1  1A2[1]
+0 0 0T1[2]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1  1A2[1]
+0 0 0T1[3]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1  1A2[1]
+0 0 0T1[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1  1A2[1]
+0 0 0T1[2]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0 -1  1A2[1]
+0 0 0T1[3]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 0 -1  1mom1
+0 0 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 0  1 -1B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0 -1  1mom1
+0 0 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 0  1 -1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0 -1  1mom1
+0 0 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 0  1 -1B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0 -1  1mom1
+0 0 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 0  1 -1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0 -1  1mom1
+0 0 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 0  1 -1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0 -1  1mom1
+0 0 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 0  1 -1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1  1A2[1]
+0 1 0E2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1  1A2[1]
+0 1 0E2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1  1A2[1]
+0 1 0E2[2]
+0 0 1E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 0 -1  1A2[1]
+0 1 0E2[2]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 1  0 -1B1[1]
+ 1 -1  0B1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 1  0 -1B2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 1  0 -1B1[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 0 -1  1A2[1]
+ 1  0 -1B2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+1 1 0B1[1]
+1 0 1B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+1 1 0B2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+1 1 0B1[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 0 -1  1A2[1]
+1 1 0B2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+-1  0  0E2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+-1  0  0E2[2]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+-1  0  0E2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+-1  0  0E2[2]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+-1  0  1B1[1]
+-1  0  0E2[1]
+The factor is:(3.09839,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+-1  0  1B1[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+-1  0  1B2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+-1  0  1B2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+ 0 -1  0E2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+ 0 -1  0E2[2]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+ 0 -1  0E2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+ 0 -1  0E2[2]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+ 0 -1  1B1[1]
+ 0 -1  0E2[1]
+The factor is:(3.09839,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+ 0 -1  1B1[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+ 0 -1  1B2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+ 0 -1  1B2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0  0 -1A2[1]
+0 0 0T1[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0  0 -1A2[1]
+0 0 0T1[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0  0 -1A2[1]
+0 0 0T1[2]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0  0 -1A2[1]
+0 0 0T1[2]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0  0 -1A2[1]
+0 0 0T1[3]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 0 0mom2
+0 0 0mom_curr
+ 0  0 -1A2[1]
+0 0 0T1[3]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+0 0 0mom2
+0 0 1mom_curr
+ 0  0 -1A2[1]
+0 0 1E2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+0 0 0mom2
+0 0 1mom_curr
+ 0  0 -1A2[1]
+0 0 1E2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+0 0 0mom2
+0 0 1mom_curr
+ 0  0 -1A2[1]
+0 0 1E2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0  0 -1mom1
+0 0 0mom2
+0 0 1mom_curr
+ 0  0 -1A2[1]
+0 0 1E2[2]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+0 0 0mom2
+0 0 1mom_curr
+ 0  0 -1A2[1]
+0 0 1E2[2]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+0 0 0mom2
+0 0 1mom_curr
+ 0  0 -1A2[1]
+0 0 1E2[2]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+0 1 0E2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+0 1 0E2[2]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+0 1 0E2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 1  0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+ 0  0 -1A2[1]
+0 1 0E2[2]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+0 1 1B1[1]
+0 1 0E2[1]
+The factor is:(3.09839,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+0 1 1B1[1]
+0 1 0E2[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+0 1 1B2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+0 1 1B2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+1 0 0E2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+1 0 0E2[2]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+1 0 0E2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+ 0  0 -1A2[1]
+1 0 0E2[2]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+1 0 1B1[1]
+1 0 0E2[1]
+The factor is:(3.09839,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+1 0 1B1[1]
+1 0 0E2[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+1 0 1B2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+ 0  0 -1A2[1]
+1 0 1B2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1 -1  0B1[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1 -1  0B2[1]
+-1 -1  0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1 -1  0B1[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1 -1  0B2[1]
+-1 -1  0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0 -1B1[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0 -1B2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0 -1B1[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0 -1B2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+-1  0  0E2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+-1  0  0E2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+-1  0  0E2[2]
+-1  0  0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+-1  0  0E2[2]
+-1  0  0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0  1B1[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0  1B2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0  1B1[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  0  1B2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  1  0B1[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  1  0B2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  1  0B1[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+-1  1  0B2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1 -1B1[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1 -1B2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1 -1B1[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1 -1B2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0 -1  0E2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0 -1  0E2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0 -1  0E2[2]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0 -1  0E2[2]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1  1B1[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1  1B2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1  1B1[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0 -1  1B2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0  0 -1E2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0  0 -1E2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0  0 -1E2[2]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+ 0  0 -1E2[2]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[2]
+0 0 0T1[1]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[2]
+0 0 0T1[2]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[2]
+0 0 0T1[3]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[3]
+0 0 0T1[1]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[3]
+0 0 0T1[2]
+The factor is:(0,0)
+0 0 0mom1
+0 0 0mom2
+0 0 0mom_curr
+0 0 0A1[1]
+0 0 0T1[3]
+0 0 0T1[3]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 0 1E2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 0 1E2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 0 1E2[2]
+0 0 1E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 0 1E2[2]
+0 0 1E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0  1 -1B1[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0  1 -1B2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0  1 -1B1[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 0  1 -1B2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 1 0E2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 1 0E2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 1 0E2[2]
+0 1 0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+0 1 0E2[2]
+0 1 0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+0 1 1B1[1]
+0 1 1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+0 1 1B2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+0 1 1B1[1]
+0 1 1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+0 1 1B2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1 -1  0B1[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1 -1  0B2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1 -1  0B1[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1 -1  0B2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1  0 -1B1[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1  0 -1B2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1  0 -1B1[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+ 1  0 -1B2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+1 0 0E2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+1 0 0E2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+1 0 0E2[2]
+1 0 0E2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 0 0mom2
+1 0 0mom_curr
+0 0 0A1[1]
+1 0 0E2[2]
+1 0 0E2[2]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 0 1B1[1]
+1 0 1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 0 1B2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 0 1B1[1]
+1 0 1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 0 1B2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 1 0B1[1]
+1 1 0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 1 0B2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 1 0B1[1]
+1 1 0B2[1]
+The factor is:(0,0)
+0 0 0mom1
+1 1 0mom2
+1 1 0mom_curr
+0 0 0A1[1]
+1 1 0B2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+-1  0 -1B1[1]
+-1  0  0E2[1]
+The factor is:(3.09839,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+-1  0 -1B1[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+-1  0 -1B2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+-1  0 -1B2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+-1  0  0E2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+-1  0  0E2[2]
+-1  0  1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+-1  0  0E2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+-1  0  0E2[2]
+-1  0  1B2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0 -1 -1B1[1]
+ 0 -1  0E2[1]
+The factor is:(3.09839,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0 -1 -1B1[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0 -1 -1B2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0 -1 -1B2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+ 0 -1  0E2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+ 0 -1  0E2[2]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+ 0 -1  0E2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+ 0 -1  0E2[2]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+0 0 1mom1
+0 0 0mom2
+ 0  0 -1mom_curr
+0 0 1A2[1]
+ 0  0 -1E2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+0 0 1mom1
+0 0 0mom2
+ 0  0 -1mom_curr
+0 0 1A2[1]
+ 0  0 -1E2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+0 0 1mom1
+0 0 0mom2
+ 0  0 -1mom_curr
+0 0 1A2[1]
+ 0  0 -1E2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+0 0 1mom1
+0 0 0mom2
+ 0  0 -1mom_curr
+0 0 1A2[1]
+ 0  0 -1E2[2]
+0 0 0T1[1]
+The factor is:(0,0)
+0 0 1mom1
+0 0 0mom2
+ 0  0 -1mom_curr
+0 0 1A2[1]
+ 0  0 -1E2[2]
+0 0 0T1[2]
+The factor is:(0,0)
+0 0 1mom1
+0 0 0mom2
+ 0  0 -1mom_curr
+0 0 1A2[1]
+ 0  0 -1E2[2]
+0 0 0T1[3]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 0 1A2[1]
+0 0 0T1[1]
+0 0 1E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 0 1A2[1]
+0 0 0T1[1]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 0 1A2[1]
+0 0 0T1[2]
+0 0 1E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 0 1A2[1]
+0 0 0T1[2]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 0 1A2[1]
+0 0 0T1[3]
+0 0 1E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 0 1A2[1]
+0 0 0T1[3]
+0 0 1E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0  1 -1B1[1]
+0 1 0E2[1]
+The factor is:(3.09839,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0  1 -1B1[1]
+0 1 0E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0  1 -1B2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 0  1 -1B2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+0 1 0E2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+0 1 0E2[2]
+0 1 1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+0 1 0E2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+0 1 0E2[2]
+0 1 1B2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 1  0 -1B1[1]
+1 0 0E2[1]
+The factor is:(3.09839,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 1  0 -1B1[1]
+1 0 0E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 1  0 -1B2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+0 0 1A2[1]
+ 1  0 -1B2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+1 0 0E2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+1 0 0E2[2]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+1 0 0E2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+0 0 1A2[1]
+1 0 0E2[2]
+1 0 1B2[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+-1 -1  0B1[1]
+-1  0 -1B1[1]
+The factor is:(2.96648,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+-1 -1  0B2[1]
+-1  0 -1B1[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+-1 -1  0B1[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+-1 -1  0B2[1]
+-1  0 -1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+-1  0  1B1[1]
+-1  1  0B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+-1  0  1B2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+-1  0  1B1[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+-1  0  1B2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 0  1 -1A2[1]
+ 0 -1  0E2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 0  1 -1A2[1]
+ 0 -1  0E2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 0  1 -1A2[1]
+ 0 -1  0E2[2]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 0  1 -1A2[1]
+ 0 -1  0E2[2]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 0  1 -1mom1
+0 0 0mom2
+ 0 -1  1mom_curr
+ 0  1 -1A2[1]
+ 0 -1  1B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+0 0 0mom2
+ 0 -1  1mom_curr
+ 0  1 -1A2[1]
+ 0 -1  1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0  1 -1mom1
+0 0 0mom2
+ 0 -1  1mom_curr
+ 0  1 -1A2[1]
+ 0 -1  1B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0  1 -1mom1
+0 0 0mom2
+ 0 -1  1mom_curr
+ 0  1 -1A2[1]
+ 0 -1  1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+0 0 0mom2
+ 0 -1  1mom_curr
+ 0  1 -1A2[1]
+ 0 -1  1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 0  1 -1mom1
+0 0 0mom2
+ 0 -1  1mom_curr
+ 0  1 -1A2[1]
+ 0 -1  1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0  1 -1A2[1]
+0 0 0T1[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0  1 -1A2[1]
+0 0 0T1[2]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0  1 -1A2[1]
+0 0 0T1[3]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0  1 -1A2[1]
+0 0 0T1[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0  1 -1A2[1]
+0 0 0T1[2]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 0  1 -1A2[1]
+0 0 0T1[3]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0  1 -1A2[1]
+0 0 1E2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0  1 -1A2[1]
+0 0 1E2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0  1 -1A2[1]
+0 0 1E2[2]
+0 1 0E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 0  1 -1A2[1]
+0 0 1E2[2]
+0 1 0E2[2]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+ 1 -1  0B1[1]
+ 1  0 -1B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+ 1 -1  0B2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+ 1 -1  0B1[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 0  1 -1A2[1]
+ 1 -1  0B2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+1 0 1B1[1]
+1 1 0B1[1]
+The factor is:(2.96648,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+1 0 1B2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+1 0 1B1[1]
+1 1 0B2[1]
+The factor is:(0,0)
+ 0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 0  1 -1A2[1]
+1 0 1B2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+0 1 0A2[1]
+-1 -1  0B1[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+0 1 0A2[1]
+-1 -1  0B1[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+0 1 0A2[1]
+-1 -1  0B2[1]
+-1  0  0E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+0 1 0A2[1]
+-1 -1  0B2[1]
+-1  0  0E2[2]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+-1  0  0E2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+-1  0  0E2[2]
+-1  1  0B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+-1  0  0E2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+-1  0  0E2[2]
+-1  1  0B2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1 -1B1[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1 -1B1[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1 -1B2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1 -1B2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+0 1 0mom1
+0 0 0mom2
+ 0 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  0E2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+0 1 0mom1
+0 0 0mom2
+ 0 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  0E2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+0 1 0mom1
+0 0 0mom2
+ 0 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  0E2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+0 1 0mom1
+0 0 0mom2
+ 0 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  0E2[2]
+0 0 0T1[1]
+The factor is:(0,0)
+0 1 0mom1
+0 0 0mom2
+ 0 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  0E2[2]
+0 0 0T1[2]
+The factor is:(0,0)
+0 1 0mom1
+0 0 0mom2
+ 0 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  0E2[2]
+0 0 0T1[3]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  1B1[1]
+0 0 1E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  1B1[1]
+0 0 1E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  1B2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 0 -1  1B2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+ 0  0 -1E2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+ 0  0 -1E2[2]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+ 0  0 -1E2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+-0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+ 0  0 -1E2[2]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 1 0A2[1]
+0 0 0T1[1]
+0 1 0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 1 0A2[1]
+0 0 0T1[1]
+0 1 0E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 1 0A2[1]
+0 0 0T1[2]
+0 1 0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 1 0A2[1]
+0 0 0T1[2]
+0 1 0E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 1 0A2[1]
+0 0 0T1[3]
+0 1 0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+0 1 0A2[1]
+0 0 0T1[3]
+0 1 0E2[2]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+0 0 1E2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+0 0 1E2[2]
+0 1 1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+0 0 1E2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+0 0 1E2[2]
+0 1 1B2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 1 -1  0B1[1]
+1 0 0E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 1 -1  0B1[1]
+1 0 0E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 1 -1  0B2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+0 1 0A2[1]
+ 1 -1  0B2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+1 0 0E2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+1 0 0E2[2]
+1 1 0B1[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+1 0 0E2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 1 0mom2
+1 0 0mom_curr
+0 1 0A2[1]
+1 0 0E2[2]
+1 1 0B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+0 1 1A2[1]
+-1 -1  0B1[1]
+-1  0  1B1[1]
+The factor is:(2.96648,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+0 1 1A2[1]
+-1 -1  0B2[1]
+-1  0  1B1[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+0 1 1A2[1]
+-1 -1  0B1[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+0 1 1A2[1]
+-1 -1  0B2[1]
+-1  0  1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+0 1 1A2[1]
+-1  0 -1B1[1]
+-1  1  0B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+0 1 1A2[1]
+-1  0 -1B2[1]
+-1  1  0B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+0 1 1A2[1]
+-1  0 -1B1[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+0 1 1A2[1]
+-1  0 -1B2[1]
+-1  1  0B2[1]
+The factor is:(0,0)
+0 1 1mom1
+0 0 0mom2
+ 0 -1 -1mom_curr
+0 1 1A2[1]
+ 0 -1 -1B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+0 1 1mom1
+0 0 0mom2
+ 0 -1 -1mom_curr
+0 1 1A2[1]
+ 0 -1 -1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+0 1 1mom1
+0 0 0mom2
+ 0 -1 -1mom_curr
+0 1 1A2[1]
+ 0 -1 -1B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+0 1 1mom1
+0 0 0mom2
+ 0 -1 -1mom_curr
+0 1 1A2[1]
+ 0 -1 -1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+0 1 1mom1
+0 0 0mom2
+ 0 -1 -1mom_curr
+0 1 1A2[1]
+ 0 -1 -1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+0 1 1mom1
+0 0 0mom2
+ 0 -1 -1mom_curr
+0 1 1A2[1]
+ 0 -1 -1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+0 1 1A2[1]
+ 0 -1  0E2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+0 1 1A2[1]
+ 0 -1  0E2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+0 1 1A2[1]
+ 0 -1  0E2[2]
+0 0 1E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+0 1 1A2[1]
+ 0 -1  0E2[2]
+0 0 1E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+0 1 1A2[1]
+ 0  0 -1E2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+0 1 1A2[1]
+ 0  0 -1E2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+0 1 1A2[1]
+ 0  0 -1E2[2]
+0 1 0E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+0 1 1A2[1]
+ 0  0 -1E2[2]
+0 1 0E2[2]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+0 1 1A2[1]
+0 0 0T1[1]
+0 1 1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+0 1 1A2[1]
+0 0 0T1[2]
+0 1 1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+0 1 1A2[1]
+0 0 0T1[3]
+0 1 1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+0 1 1A2[1]
+0 0 0T1[1]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+0 1 1A2[1]
+0 0 0T1[2]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+0 1 1A2[1]
+0 0 0T1[3]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+0 1 1A2[1]
+ 1 -1  0B1[1]
+1 0 1B1[1]
+The factor is:(-2.96648,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+0 1 1A2[1]
+ 1 -1  0B2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+0 1 1A2[1]
+ 1 -1  0B1[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+0 1 1A2[1]
+ 1 -1  0B2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+0 1 1A2[1]
+ 1  0 -1B1[1]
+1 1 0B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+0 1 1A2[1]
+ 1  0 -1B2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+0 1 1A2[1]
+ 1  0 -1B1[1]
+1 1 0B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+0 1 1A2[1]
+ 1  0 -1B2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+-1  0 -1B1[1]
+ 0 -1 -1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+-1  0 -1B2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+-1  0 -1B1[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+-1  0 -1B2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 1 -1  0A2[1]
+-1  0  0E2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 1 -1  0A2[1]
+-1  0  0E2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 1 -1  0A2[1]
+-1  0  0E2[2]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+ 1 -1  0A2[1]
+-1  0  0E2[2]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 1 -1  0A2[1]
+-1  0  1B1[1]
+ 0 -1  1B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 1 -1  0A2[1]
+-1  0  1B2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 1 -1  0A2[1]
+-1  0  1B1[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+ 1 -1  0A2[1]
+-1  0  1B2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+0 0 0mom2
+-1  1  0mom_curr
+ 1 -1  0A2[1]
+-1  1  0B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+0 0 0mom2
+-1  1  0mom_curr
+ 1 -1  0A2[1]
+-1  1  0B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+0 0 0mom2
+-1  1  0mom_curr
+ 1 -1  0A2[1]
+-1  1  0B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1 -1  0mom1
+0 0 0mom2
+-1  1  0mom_curr
+ 1 -1  0A2[1]
+-1  1  0B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+0 0 0mom2
+-1  1  0mom_curr
+ 1 -1  0A2[1]
+-1  1  0B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+0 0 0mom2
+-1  1  0mom_curr
+ 1 -1  0A2[1]
+-1  1  0B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1 -1  0A2[1]
+0 0 0T1[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1 -1  0A2[1]
+0 0 0T1[2]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1 -1  0A2[1]
+0 0 0T1[3]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1 -1  0A2[1]
+0 0 0T1[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1 -1  0A2[1]
+0 0 0T1[2]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1 -1  0A2[1]
+0 0 0T1[3]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1 -1  0A2[1]
+ 0  1 -1B1[1]
+ 1  0 -1B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1 -1  0A2[1]
+ 0  1 -1B2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1 -1  0A2[1]
+ 0  1 -1B1[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1 -1  0A2[1]
+ 0  1 -1B2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 1 -1  0A2[1]
+0 1 0E2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 1 -1  0A2[1]
+0 1 0E2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 1 -1  0A2[1]
+0 1 0E2[2]
+1 0 0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+ 1 -1  0A2[1]
+0 1 0E2[2]
+1 0 0E2[2]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+0 1 1B1[1]
+1 0 1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+0 1 1B2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+0 1 1B1[1]
+1 0 1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1 -1  0A2[1]
+0 1 1B2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+-1 -1  0B1[1]
+ 0 -1 -1B1[1]
+The factor is:(2.96648,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+-1 -1  0B2[1]
+ 0 -1 -1B1[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+-1 -1  0B1[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+-1 -1  0B2[1]
+ 0 -1 -1B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 1  0 -1A2[1]
+-1  0  0E2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 1  0 -1A2[1]
+-1  0  0E2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 1  0 -1A2[1]
+-1  0  0E2[2]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+ 1  0 -1A2[1]
+-1  0  0E2[2]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+0 0 0mom2
+-1  0  1mom_curr
+ 1  0 -1A2[1]
+-1  0  1B1[1]
+0 0 0T1[1]
+The factor is:(-2.96648,0)
+ 1  0 -1mom1
+0 0 0mom2
+-1  0  1mom_curr
+ 1  0 -1A2[1]
+-1  0  1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+0 0 0mom2
+-1  0  1mom_curr
+ 1  0 -1A2[1]
+-1  0  1B1[1]
+0 0 0T1[3]
+The factor is:(-2.96648,0)
+ 1  0 -1mom1
+0 0 0mom2
+-1  0  1mom_curr
+ 1  0 -1A2[1]
+-1  0  1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+0 0 0mom2
+-1  0  1mom_curr
+ 1  0 -1A2[1]
+-1  0  1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+0 0 0mom2
+-1  0  1mom_curr
+ 1  0 -1A2[1]
+-1  0  1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 1  0 -1A2[1]
+-1  1  0B1[1]
+ 0  1 -1B1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 1  0 -1A2[1]
+-1  1  0B2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 1  0 -1A2[1]
+-1  1  0B1[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+ 1  0 -1A2[1]
+-1  1  0B2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1  0 -1A2[1]
+ 0 -1  1B1[1]
+ 1 -1  0B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1  0 -1A2[1]
+ 0 -1  1B2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1  0 -1A2[1]
+ 0 -1  1B1[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+ 1  0 -1A2[1]
+ 0 -1  1B2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1  0 -1A2[1]
+0 0 0T1[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1  0 -1A2[1]
+0 0 0T1[2]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1  0 -1A2[1]
+0 0 0T1[3]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1  0 -1A2[1]
+0 0 0T1[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1  0 -1A2[1]
+0 0 0T1[2]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+ 1  0 -1A2[1]
+0 0 0T1[3]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 1  0 -1A2[1]
+0 0 1E2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 1  0 -1A2[1]
+0 0 1E2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 1  0 -1A2[1]
+0 0 1E2[2]
+1 0 0E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+ 1  0 -1A2[1]
+0 0 1E2[2]
+1 0 0E2[2]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+0 1 1B1[1]
+1 1 0B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+0 1 1B2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+0 1 1B1[1]
+1 1 0B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+ 1  0 -1A2[1]
+0 1 1B2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+1 0 0A2[1]
+-1 -1  0B1[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+1 0 0A2[1]
+-1 -1  0B1[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+1 0 0A2[1]
+-1 -1  0B2[1]
+ 0 -1  0E2[1]
+The factor is:(0,0)
+0 1 0mom1
+1 0 0mom2
+ 1 -1  0mom_curr
+1 0 0A2[1]
+-1 -1  0B2[1]
+ 0 -1  0E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+1 0 0A2[1]
+-1  0 -1B1[1]
+ 0  0 -1E2[1]
+The factor is:(3.09839,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+1 0 0A2[1]
+-1  0 -1B1[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+1 0 0A2[1]
+-1  0 -1B2[1]
+ 0  0 -1E2[1]
+The factor is:(0,0)
+0 0 1mom1
+1 0 0mom2
+ 1  0 -1mom_curr
+1 0 0A2[1]
+-1  0 -1B2[1]
+ 0  0 -1E2[2]
+The factor is:(0,0)
+1 0 0mom1
+0 0 0mom2
+-1  0  0mom_curr
+1 0 0A2[1]
+-1  0  0E2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+1 0 0mom1
+0 0 0mom2
+-1  0  0mom_curr
+1 0 0A2[1]
+-1  0  0E2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+1 0 0mom1
+0 0 0mom2
+-1  0  0mom_curr
+1 0 0A2[1]
+-1  0  0E2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+1 0 0mom1
+0 0 0mom2
+-1  0  0mom_curr
+1 0 0A2[1]
+-1  0  0E2[2]
+0 0 0T1[1]
+The factor is:(0,0)
+1 0 0mom1
+0 0 0mom2
+-1  0  0mom_curr
+1 0 0A2[1]
+-1  0  0E2[2]
+0 0 0T1[2]
+The factor is:(0,0)
+1 0 0mom1
+0 0 0mom2
+-1  0  0mom_curr
+1 0 0A2[1]
+-1  0  0E2[2]
+0 0 0T1[3]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+1 0 0A2[1]
+-1  0  1B1[1]
+0 0 1E2[1]
+The factor is:(3.09839,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+1 0 0A2[1]
+-1  0  1B1[1]
+0 0 1E2[2]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+1 0 0A2[1]
+-1  0  1B2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+ 0  0 -1mom1
+1 0 0mom2
+1 0 1mom_curr
+1 0 0A2[1]
+-1  0  1B2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+1 0 0A2[1]
+-1  1  0B1[1]
+0 1 0E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+1 0 0A2[1]
+-1  1  0B1[1]
+0 1 0E2[2]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+1 0 0A2[1]
+-1  1  0B2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+ 0 -1  0mom1
+1 0 0mom2
+1 1 0mom_curr
+1 0 0A2[1]
+-1  1  0B2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+ 0 -1  0E2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+ 0 -1  0E2[2]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+ 0 -1  0E2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+-0  1  0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+ 0 -1  0E2[2]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+ 0  0 -1E2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+ 0  0 -1E2[2]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+ 0  0 -1E2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -0 -0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+ 0  0 -1E2[2]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+1 0 0A2[1]
+0 0 0T1[1]
+1 0 0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+1 0 0A2[1]
+0 0 0T1[1]
+1 0 0E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+1 0 0A2[1]
+0 0 0T1[2]
+1 0 0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+1 0 0A2[1]
+0 0 0T1[2]
+1 0 0E2[2]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+1 0 0A2[1]
+0 0 0T1[3]
+1 0 0E2[1]
+The factor is:(0,0)
+1 0 0mom1
+1 0 0mom2
+0 0 0mom_curr
+1 0 0A2[1]
+0 0 0T1[3]
+1 0 0E2[2]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+0 0 1E2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+0 0 1E2[2]
+1 0 1B1[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+0 0 1E2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 0  1 -0mom1
+1 1 0mom2
+1 0 0mom_curr
+1 0 0A2[1]
+0 0 1E2[2]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+0 1 0E2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+0 1 0E2[2]
+1 1 0B1[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+0 1 0E2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+ 1 -0  0mom1
+1 1 0mom2
+0 1 0mom_curr
+1 0 0A2[1]
+0 1 0E2[2]
+1 1 0B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+-1 -1  0B1[1]
+ 0 -1  1B1[1]
+The factor is:(-2.96648,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+-1 -1  0B2[1]
+ 0 -1  1B1[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+-1 -1  0B1[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+-1 -1  0B2[1]
+ 0 -1  1B2[1]
+The factor is:(0,0)
+1 0 1mom1
+0 0 0mom2
+-1  0 -1mom_curr
+1 0 1A2[1]
+-1  0 -1B1[1]
+0 0 0T1[1]
+The factor is:(-2.96648,0)
+1 0 1mom1
+0 0 0mom2
+-1  0 -1mom_curr
+1 0 1A2[1]
+-1  0 -1B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+1 0 1mom1
+0 0 0mom2
+-1  0 -1mom_curr
+1 0 1A2[1]
+-1  0 -1B1[1]
+0 0 0T1[3]
+The factor is:(-2.96648,0)
+1 0 1mom1
+0 0 0mom2
+-1  0 -1mom_curr
+1 0 1A2[1]
+-1  0 -1B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+1 0 1mom1
+0 0 0mom2
+-1  0 -1mom_curr
+1 0 1A2[1]
+-1  0 -1B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+1 0 1mom1
+0 0 0mom2
+-1  0 -1mom_curr
+1 0 1A2[1]
+-1  0 -1B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+1 0 1A2[1]
+-1  0  0E2[1]
+0 0 1E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+1 0 1A2[1]
+-1  0  0E2[1]
+0 0 1E2[2]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+1 0 1A2[1]
+-1  0  0E2[2]
+0 0 1E2[1]
+The factor is:(0,0)
+ 1  0 -1mom1
+1 0 0mom2
+0 0 1mom_curr
+1 0 1A2[1]
+-1  0  0E2[2]
+0 0 1E2[2]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+1 0 1A2[1]
+-1  1  0B1[1]
+0 1 1B1[1]
+The factor is:(2.96648,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+1 0 1A2[1]
+-1  1  0B2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+1 0 1A2[1]
+-1  1  0B1[1]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1 -0 -1mom1
+1 1 0mom2
+0 1 1mom_curr
+1 0 1A2[1]
+-1  1  0B2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 0 1A2[1]
+ 0 -1 -1B1[1]
+ 1 -1  0B1[1]
+The factor is:(2.96648,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 0 1A2[1]
+ 0 -1 -1B2[1]
+ 1 -1  0B1[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 0 1A2[1]
+ 0 -1 -1B1[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 0 1A2[1]
+ 0 -1 -1B2[1]
+ 1 -1  0B2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+1 0 1A2[1]
+ 0  0 -1E2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+1 0 1A2[1]
+ 0  0 -1E2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+1 0 1A2[1]
+ 0  0 -1E2[2]
+1 0 0E2[1]
+The factor is:(0,0)
+1 0 1mom1
+1 0 0mom2
+ 0  0 -1mom_curr
+1 0 1A2[1]
+ 0  0 -1E2[2]
+1 0 0E2[2]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 0 1A2[1]
+0 0 0T1[1]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 0 1A2[1]
+0 0 0T1[2]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 0 1A2[1]
+0 0 0T1[3]
+1 0 1B1[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 0 1A2[1]
+0 0 0T1[1]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 0 1A2[1]
+0 0 0T1[2]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1  1 -0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 0 1A2[1]
+0 0 0T1[3]
+1 0 1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+ 0  1 -1B1[1]
+1 1 0B1[1]
+The factor is:(-2.96648,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+ 0  1 -1B2[1]
+1 1 0B1[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+ 0  1 -1B1[1]
+1 1 0B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 0 1A2[1]
+ 0  1 -1B2[1]
+1 1 0B2[1]
+The factor is:(0,0)
+1 1 0mom1
+0 0 0mom2
+-1 -1  0mom_curr
+1 1 0A2[1]
+-1 -1  0B1[1]
+0 0 0T1[1]
+The factor is:(0,0)
+1 1 0mom1
+0 0 0mom2
+-1 -1  0mom_curr
+1 1 0A2[1]
+-1 -1  0B1[1]
+0 0 0T1[2]
+The factor is:(0,0)
+1 1 0mom1
+0 0 0mom2
+-1 -1  0mom_curr
+1 1 0A2[1]
+-1 -1  0B1[1]
+0 0 0T1[3]
+The factor is:(0,0)
+1 1 0mom1
+0 0 0mom2
+-1 -1  0mom_curr
+1 1 0A2[1]
+-1 -1  0B2[1]
+0 0 0T1[1]
+The factor is:(0,0)
+1 1 0mom1
+0 0 0mom2
+-1 -1  0mom_curr
+1 1 0A2[1]
+-1 -1  0B2[1]
+0 0 0T1[2]
+The factor is:(0,0)
+1 1 0mom1
+0 0 0mom2
+-1 -1  0mom_curr
+1 1 0A2[1]
+-1 -1  0B2[1]
+0 0 0T1[3]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+-1  0 -1B1[1]
+ 0  1 -1B1[1]
+The factor is:(2.96648,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+-1  0 -1B2[1]
+ 0  1 -1B1[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+-1  0 -1B1[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+-0  1  1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+-1  0 -1B2[1]
+ 0  1 -1B2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+1 1 0A2[1]
+-1  0  0E2[1]
+0 1 0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+1 1 0A2[1]
+-1  0  0E2[1]
+0 1 0E2[2]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+1 1 0A2[1]
+-1  0  0E2[2]
+0 1 0E2[1]
+The factor is:(0,0)
+ 1 -1  0mom1
+1 0 0mom2
+0 1 0mom_curr
+1 1 0A2[1]
+-1  0  0E2[2]
+0 1 0E2[2]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+1 1 0A2[1]
+-1  0  1B1[1]
+0 1 1B1[1]
+The factor is:(2.96648,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+1 1 0A2[1]
+-1  0  1B2[1]
+0 1 1B1[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+1 1 0A2[1]
+-1  0  1B1[1]
+0 1 1B2[1]
+The factor is:(0,0)
+-0  1 -1mom1
+1 1 0mom2
+1 0 1mom_curr
+1 1 0A2[1]
+-1  0  1B2[1]
+0 1 1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 1 0A2[1]
+ 0 -1 -1B1[1]
+ 1  0 -1B1[1]
+The factor is:(-2.96648,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 1 0A2[1]
+ 0 -1 -1B2[1]
+ 1  0 -1B1[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 1 0A2[1]
+ 0 -1 -1B1[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+ 1 -0  1mom1
+1 1 0mom2
+ 0  1 -1mom_curr
+1 1 0A2[1]
+ 0 -1 -1B2[1]
+ 1  0 -1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+1 1 0A2[1]
+ 0 -1  0E2[1]
+1 0 0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+1 1 0A2[1]
+ 0 -1  0E2[1]
+1 0 0E2[2]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+1 1 0A2[1]
+ 0 -1  0E2[2]
+1 0 0E2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 0 0mom2
+ 0 -1  0mom_curr
+1 1 0A2[1]
+ 0 -1  0E2[2]
+1 0 0E2[2]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+ 0 -1  1B1[1]
+1 0 1B1[1]
+The factor is:(2.96648,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+ 0 -1  1B2[1]
+1 0 1B1[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+ 0 -1  1B1[1]
+1 0 1B2[1]
+The factor is:(0,0)
+0 1 1mom1
+1 1 0mom2
+ 1  0 -1mom_curr
+1 1 0A2[1]
+ 0 -1  1B2[1]
+1 0 1B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 1 0A2[1]
+0 0 0T1[1]
+1 1 0B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 1 0A2[1]
+0 0 0T1[2]
+1 1 0B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 1 0A2[1]
+0 0 0T1[3]
+1 1 0B1[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 1 0A2[1]
+0 0 0T1[1]
+1 1 0B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 1 0A2[1]
+0 0 0T1[2]
+1 1 0B2[1]
+The factor is:(0,0)
+1 1 0mom1
+1 1 0mom2
+0 0 0mom_curr
+1 1 0A2[1]
+0 0 0T1[3]
+1 1 0B2[1]
+The factor is:(0,0)
