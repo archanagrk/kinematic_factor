@@ -7,7 +7,7 @@
 complex<double> KFac::KinematicFactor( Eigen::VectorXd& qp, Eigen::VectorXd& qm, Eigen::MatrixXcd& Sub1 , Eigen::MatrixXcd& SubCurr , Eigen::MatrixXcd& Sub2 ){
 
     Eigen::MatrixXcd sum_sub =  Eigen::MatrixXcd::Zero(4,4);
-    sum_sub = Sub1(2,0)*Sub2 * (SubCurr.transpose()).conjugate();
+    sum_sub = Sub1(2,0) * Sub2 * SubCurr.transpose();
     //cout << sum_sub << "\n";
     complex<double> Coeff = 0;
     for(int i = 0; i < 4; i++ ){for(int l = 0; l < 4; l++ ){
@@ -15,8 +15,8 @@ complex<double> KFac::KinematicFactor( Eigen::VectorXd& qp, Eigen::VectorXd& qm,
       //cout << "sum" << (Sub1(2,0))*(SubCurr(i,0))*(Sub2(l,0)) << "sum" << "\n";
       for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
       int e[] = {i,j,k,l};
-      //cout << "sum" << (Sub1(2,0))*(SubCurr(i,0))*(Sub2(l,0)) << "sum" << "\n";
-      Coeff += LevCiv::LeviCivita(e,4)*(qp(j,0))*(qm(k,0))*sum_sub(l,i);}}}}
+      //cout << "sum" << round(qp(j,0)) * round(qm(k,0))  << "sum" << "\n";
+      Coeff += LevCiv::LeviCivita(e,4) * round(qp(j,0)) * round(qm(k,0)) * sum_sub(l,i);}}}}
       //Coeff += LevCiv::LeviCivita(e,4)*(qp(j,0))*(qm(k,0))*(Sub1(2,0))*(SubCurr(i,0))*(Sub2(l,0));}}}}
       //Coeff += LevCiv::LeviCivita(e,4)*(qp(j,0))*(qm(k,0))*(Sub2(i,0))*(SubCurr(l,0));}}}}
       Coeff = {KfUt::truncate(Coeff.real(),10),KfUt::truncate(Coeff.imag(),10)};
@@ -39,13 +39,13 @@ Eigen::MatrixXcd KFac::subPhSum( map< int, Eigen::MatrixXcd >& Sub1 , map< int, 
             S1 = (it1->second);
             S2 = (it2->second);
             SCurr = (it3->second);
-            //lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
+            lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
 
             //cout << "lam" <<  (it3->first) << (it2->first) << "lam" << "\n";
-            //cout << "phase" << phase.lam_phase[make_pair((it1->first),(it2->first))] << "phase" << "\n";
+            //cout << "phase" << phase.lam_phase[lambd]*S1(2,0)*S2*(SCurr.transpose()).conjugate() << "phase" << "\n";
             
             //sub_phase_sum(i,j) += phase.lam_phase[lambd]*S1(2,0)*S2(i,0)*SCurr(j,0);
-            sub_phase_sum += S1(2,0)*S2*(SCurr.transpose()).conjugate();
+            sub_phase_sum += phase.lam_phase[lambd] * S1(2,0) * S2 * SCurr.transpose();
             //sub_phase_sum(i,j) += S2(i,0)*SCurr(j,0);
             //cout << "i" << i << "\n";
             //cout << "sub" <<  sub_phase_sum.col(i) << "sub" << "\n";
@@ -70,7 +70,8 @@ complex<double> KFac::KinematicFactorwithPhase(Eigen::VectorXd& qp, Eigen::Vecto
       for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
         int e[] = {i,j,k,l};
         //cout << "sub" <<  sub_phase_sum(i,l) << "sub" << "\n";
-        Coeff += LevCiv::LeviCivita(e,4)*(qp(j,0))*(qm(k,0))*sub_phase_sum(l,i);
+        //cout << LevCiv::LeviCivita(e,4)*(qp(j,0))*(qm(k,0))*sub_phase_sum(l,i) <<  "\n"; 
+        Coeff += LevCiv::LeviCivita(e,4) * round(qp(j,0)) * round(qm(k,0)) * sub_phase_sum(l,i);
     }}
     //cout << "cf" << Coeff << "cf" << "\n";
     }}

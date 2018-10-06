@@ -123,7 +123,7 @@ Ph::phChars Ph::phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d 
 
       //Eigen::MatrixXcd ph =  conj(D1)*D2*R.inverse();
       //complex<double> ph =  conj(D1)*D2*conj(DCurr)*DCurr;
-      complex<double> ph =  conj(D1)*D2*(DCurr);
+      complex<double> ph =  conj(D1)*D2*conj(DCurr);
       //complex<double> ph = 1;
       //cout << ph << "\n";
       //Eigen::MatrixXcd ph = MatrixXd::Identity(4,4);
