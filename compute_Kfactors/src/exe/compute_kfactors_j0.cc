@@ -21,7 +21,7 @@ int main(int argc, char** argv){
 
   complex<double> Coeff;
 
-  if((two_J1==0) && (P1==-1) && (two_J2==2) && (P2==-1) && (two_J3==2) && (P3==-1)){
+  if((two_J1==0) && (P1==-1) && (two_J2==0) && (P2==-1) && (two_J3==2) && (P3==-1)){
 
     Vector3d mom1(3,1);    Vector3d mom3(3,1);    Vector3d mom_curr(3,1);
 
@@ -50,40 +50,21 @@ int main(int argc, char** argv){
                    if(max_mom2 >= mom_curr_sq){
 
                     VectorXd  qp(4,1);  VectorXd  qm(4,1);  // q+ = (p1-p2) q- = (p1+p2)
-                       
-                    Ph::phChars phase;
-                    
-                    phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3);
-                    
-                    double n_mom1_sq = phase.mom1.squaredNorm();
-                    double n_mom3_sq = phase.mom2.squaredNorm();
-                       
-                    Eigen::Vector3d n_mom_curr;
-                    n_mom_curr << (phase.mom2(0)-phase.mom1(0)),(phase.mom2(1)-phase.mom1(1)),(phase.mom2(2)-phase.mom1(2));
 
-                    double n_mom_curr_sq = n_mom_curr.squaredNorm(); 
+                    qp  << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),-(i+l),-(j+m),-(k+n);
+                    qm  << (sqrt(m3_sq+mom3_sq)-sqrt(m1_sq+mom1_sq)),-(l-i),-(m-j),-(n-k);
 
-                    qp  << (sqrt(m1_sq+n_mom1_sq)+sqrt(m3_sq+n_mom3_sq)),-(phase.mom1(0)+phase.mom2(0)),-(phase.mom1(1)+phase.mom2(1)),-(phase.mom1(2)+phase.mom2(2));
-                    qm  << (sqrt(m3_sq+n_mom3_sq)-sqrt(m1_sq+n_mom1_sq)),-(phase.mom2(0)-phase.mom1(0)),-(phase.mom2(1)-phase.mom1(1)),-(phase.mom2(2)-phase.mom1(2));
-
-                    //qp  << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),(mom1(0)+mom3(0)),(mom1(1)+mom3(1)),(mom1(2)+mom3(2));
-                    //qm  << (sqrt(m1_sq+mom1_sq)-sqrt(m3_sq+mom3_sq)),(mom3(0)-mom1(0)),(mom3(1)-mom1(1)),(mom3(2)-mom1(2));
-
-                    //cout << qp.transpose() << "qp" << "\n";
-                    //cout << qm.transpose() << "qm" << "\n";
-
-                    double n_m_curr_sq =  pow(sqrt(n_mom3_sq + m3_sq)-sqrt(n_mom1_sq + m1_sq) ,2) - n_mom_curr_sq;
                     double m_curr_sq =  pow(sqrt(mom3_sq + m3_sq)-sqrt(mom1_sq + m1_sq) ,2) - mom_curr_sq;
 
-                    string LG1 = generateLittleGroup(phase.mom1);
-                    string LG3 = generateLittleGroup(phase.mom2);
-                    string LG_curr = generateLittleGroup(n_mom_curr);
+                    string LG1 = generateLittleGroup(mom1);
+                    string LG3 = generateLittleGroup(mom3);
+                    string LG_curr = generateLittleGroup(mom_curr);
 
 
 
-		                std::vector<double> r1 = refAngles(phase.mom1);
-		                std::vector<double> r_curr = refAngles(n_mom_curr);
-		                std::vector<double> r3 = refAngles(phase.mom2);
+		                std::vector<double> r1 = refAngles(mom1);
+		                std::vector<double> r_curr = refAngles(mom_curr);
+		                std::vector<double> r3 = refAngles(mom3);                       
                        
 
                     std::vector<std::string> irrep1 = getIrrep(two_J1,P1,LG1);
@@ -116,25 +97,21 @@ int main(int argc, char** argv){
                                         rep1.row = row1; rep3.row = row3; rep_curr.row = row_curr;
 
 
-                                        map< int, Eigen::MatrixXcd >Sub1 = Subduce_with_phases(n_mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
-                                        map< int, Eigen::MatrixXcd >Sub3 = Subduce_with_phases(n_mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
-                                        map< int, Eigen::MatrixXcd >SubCurr = Subduce_with_phases(n_mom_curr_sq, n_m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
+                                        MatrixXcd Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
+                                        MatrixXcd Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
+                                        MatrixXcd SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
 
 
 
-                                        Coeff = KinematicFactorwithPhase(qp,qm,Sub1,SubCurr,Sub3,phase);
-                                        //if(std::real(Coeff) || std::imag(Coeff)){
-                                          //cout << phase.mom1.transpose() << "mom1" << "\n";
-                                          //cout << phase.mom2.transpose()<< "mom2" << "\n";
-                                          //cout << n_mom_curr.transpose() << "mom_curr" << "\n";
-    
-                                          //cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
-                                          //cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
-                                          //cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
+                                        Coeff = KinematicFactor_j0(qp,qm,Sub1,SubCurr,Sub3);
+                                        if(std::real(Coeff) || std::imag(Coeff)){
+                                          cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
+                                          cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
+                                          cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
                                         //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
-                                          //cout << "The factor is:" << Coeff << "\n";
-                                        //}
+                                          cout << "The factor is:" << Coeff << "\n";
+                                        }
                       }}}
                    }}}
                   }
@@ -144,5 +121,4 @@ int main(int argc, char** argv){
          }}}
   }
 };
-
 

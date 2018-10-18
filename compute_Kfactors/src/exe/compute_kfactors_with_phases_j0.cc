@@ -21,7 +21,7 @@ int main(int argc, char** argv){
 
   complex<double> Coeff;
 
-  if((two_J1==0) && (P1==-1) && (two_J2==2) && (P2==-1) && (two_J3==2) && (P3==-1)){
+  if((two_J1==0) && (P1==-1) && (two_J2==0) && (P2==-1) && (two_J3==2) && (P3==-1)){
 
     Vector3d mom1(3,1);    Vector3d mom3(3,1);    Vector3d mom_curr(3,1);
 
@@ -54,7 +54,7 @@ int main(int argc, char** argv){
                     Ph::phChars phase;
                     
                     phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3);
-                    
+                       
                     double n_mom1_sq = phase.mom1.squaredNorm();
                     double n_mom3_sq = phase.mom2.squaredNorm();
                        
@@ -123,18 +123,18 @@ int main(int argc, char** argv){
 
 
 
-                                        Coeff = KinematicFactorwithPhase(qp,qm,Sub1,SubCurr,Sub3,phase);
-                                        //if(std::real(Coeff) || std::imag(Coeff)){
+                                        Coeff = KinematicFactorwithPhase_j0(qp,qm,Sub1,SubCurr,Sub3,phase);
+                                        if(std::real(Coeff) || std::imag(Coeff)){
                                           //cout << phase.mom1.transpose() << "mom1" << "\n";
                                           //cout << phase.mom2.transpose()<< "mom2" << "\n";
                                           //cout << n_mom_curr.transpose() << "mom_curr" << "\n";
     
-                                          //cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
-                                          //cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
-                                          //cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
+                                          cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
+                                          cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
+                                          cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
                                         //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
-                                          //cout << "The factor is:" << Coeff << "\n";
-                                        //}
+                                          cout << "The factor is:" << Coeff << "\n";
+                                        }
                       }}}
                    }}}
                   }
