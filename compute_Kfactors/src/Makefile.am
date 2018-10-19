@@ -19,17 +19,25 @@ LDADD = @ADAT_LIBS@ @LIBS@
 ##   Another option is to add it to check_PROGRAMS, which means it will only
 ##   be built by 'make check' and is not installed.
 
-bin_PROGRAMS =  compute_kfactors compute_kfactors_with_phases
+bin_PROGRAMS =  compute_kfactors compute_kfactors_with_phases compute_kfactors_j0 compute_kfactors_with_phases_j0 hadron_3pt_xml 
 
-check_PROGRAMS = tes_ph
+check_PROGRAMS = tes_ph extract_ph
 
 ##############################################################
 
-compute_kfactors_SOURCES = exe/compute_kfactors.cc  irreps_and_rows.cc  kfac_utils.cc  little_group.cc  subduction.cc  pol_vec.cc  rot_matrx.cc  k_factor.cc  levi_civita.cc 
+compute_kfactors_SOURCES = exe/compute_kfactors.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc 
 
-compute_kfactors_with_phases_SOURCES = exe/compute_kfactors_with_phases.cc  irreps_and_rows.cc  kfac_utils.cc  little_group.cc  subduction.cc  pol_vec.cc  rot_matrx.cc  k_factor.cc  levi_civita.cc  phase.cc
+compute_kfactors_with_phases_SOURCES = exe/compute_kfactors_with_phases.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
 
-tes_ph_SOURCES = test/tes_ph.cc  rot_matrx.cc little_group.cc kfac_utils.cc subduction.cc    k_factor.cc  levi_civita.cc  pol_vec.cc    irreps_and_rows.cc 
+compute_kfactors_with_phases_j0_SOURCES = exe/compute_kfactors_with_phases_j0.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
+
+compute_kfactors_j0_SOURCES = exe/compute_kfactors_j0.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc
+
+tes_ph_SOURCES = test/tes_ph.cc  lib/rot_matrx.cc lib/little_group.cc lib/kfac_utils.cc lib/subduction.cc    lib/k_factor.cc  lib/levi_civita.cc  lib/pol_vec.cc    lib/irreps_and_rows.cc
+
+extract_ph_SOURCES = test/extract_ph.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
+
+hadron_3pt_xml_SOURCES = io/hadron_3pt.xml.cc io/xml_tools.cc 
 
 ##############################################################
 
