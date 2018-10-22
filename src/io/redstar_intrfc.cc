@@ -181,7 +181,7 @@ int main(int argc, char** argv){
 					                                key.npoint[2].t_slice = t_slice[2];
                                                     key.npoint[2].irrep.creation_op = false;
                                                     key.npoint[2].irrep.smearedP = false;
-                                                    key.npoint[2].irrep.flavor.twoI = 2;
+                                                    key.npoint[2].irrep.flavor.twoI = 0;
                                                     key.npoint[2].irrep.flavor.threeY = 0;
                                                     key.npoint[2].irrep.flavor.twoI = 0;
                                                     key.npoint[2].irrep.irrep_mom.row = rep_curr.row;
@@ -199,9 +199,9 @@ int main(int argc, char** argv){
 					                                key.npoint[3].t_slice = t_slice[3];
                                                     key.npoint[3].irrep.creation_op = true;
                                                     key.npoint[3].irrep.smearedP = true;
-                                                    key.npoint[3].irrep.flavor.twoI = 2;
+                                                    key.npoint[3].irrep.flavor.twoI = 1;
                                                     key.npoint[3].irrep.flavor.threeY = 3;
-                                                    key.npoint[3].irrep.flavor.twoI = 2;
+                                                    key.npoint[3].irrep.flavor.twoI = 1;
                                                     key.npoint[3].irrep.irrep_mom.row = rep3.row;
                                                     key.npoint[3].irrep.irrep_mom.mom = KfUt::toArray(mom3);
                                 
