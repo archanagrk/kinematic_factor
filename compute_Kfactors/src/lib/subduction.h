@@ -59,6 +59,11 @@ struct irrep_label{
   //bool operator!=(const irrep_label &rhs) const; /*usual map label problems */
 };
 
+struct sub_hel{
+    Eigen::MatrixXcd sum;
+    int two_hel;
+};
+
 
 //functions
 namespace Subd{
@@ -66,7 +71,7 @@ namespace Subd{
   map< int, complex<double> > subduce_lg_boson(const irrep_label& irrep, const string& little_group);
   map< int, complex<double> > subduce_lg_fermion(const irrep_label& irrep, const string& little_group);
   map< int, complex<double> > subduce_oct(const irrep_label& irrep);
-  MatrixXcd Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_label& irrep,
+  sub_hel Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_label& irrep,
                                                    const string& little_group,double R1_phi, double R1_theta, double R1_psi);
   int find_n_subduced_embeddings(const string& group, const string& irrep, int twoJ, int eta_tilde);
   const double PI = (atan(double(1)) * double(4.0));
@@ -74,6 +79,7 @@ namespace Subd{
                                                          const string& little_group,double R1_phi, double R1_theta, double R1_psi);
     
 }
+
 
 
 

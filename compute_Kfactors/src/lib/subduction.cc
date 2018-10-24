@@ -195,13 +195,15 @@ map< int, complex<double> > Subd::subduce_oct(const irrep_label& irrep){
 
 /* Perform the subductions by adding over the J_z and abs_lams  */
 
-Eigen::MatrixXcd Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_label& irrep,
+sub_hel Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_label& irrep,
                                                    const string& little_group,double R1_phi, double R1_theta, double R1_psi){
 
 
   map< int, complex<double> > Sub;
   Eigen::MatrixXcd sum = Eigen::MatrixXcd::Zero(4,1);
   typedef std::complex<double> cd;
+  sub_hel out;
+    int two_hel;
 
   switch(int(mom_sq)){
 
@@ -212,12 +214,12 @@ Eigen::MatrixXcd Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, 
             //cout << "lam" <<  (it->first) << "lam" << "\n";
             //cout << irrep.irrep << "\n";
             //cout << PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << "\n";
-            sum +=  (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);}}
+            sum +=  (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi); two_hel = it->first;}}
         else{
         Eigen::MatrixXcd unit_vec(4,1);
         unit_vec << cd(1,0),cd(1,0),cd(1,0),cd(1,0);
         for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-          sum +=  (it->second) * unit_vec;}}
+          sum +=  (it->second) * unit_vec; two_hel = it->first;}}
         break;}
 
 
@@ -227,7 +229,7 @@ Eigen::MatrixXcd Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, 
           unit_vec << cd(1,0),cd(1,0),cd(1,0),cd(1,0);
           Sub  = Subd::subduce_lg_fermion(irrep,little_group);
           for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-            sum +=  (it->second) * unit_vec;}
+            sum +=  (it->second) * unit_vec; two_hel = it->first;}
    } //fermions
 
         else{
@@ -238,18 +240,20 @@ Eigen::MatrixXcd Subd::Subduce_all(double& mom_sq, double& mass_sq,  int& twoJ, 
                 //cout << PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << "\n";
               //cout << "lam" <<  (it->first) << "lam" << "\n";
               //cout << "Polstart" <<getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)<< "Polend";
-              sum +=  (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);}}
+              sum +=  (it->second) * PolVec::getPolarization(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi);  two_hel = it->first;}}
           else{
             Eigen::MatrixXcd unit_vec(4,1);
             unit_vec << cd(1,0),cd(1,0),cd(1,0),cd(1,0);
             for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-              sum +=  (it->second) * unit_vec;}}
+              sum +=  (it->second) * unit_vec;  two_hel = it->first;}}
   }  //bosons
         break;}
 
 
 }
-  return sum;
+  out.sum = sum;
+  out.two_hel = two_hel;
+  return out;
 
 };
 

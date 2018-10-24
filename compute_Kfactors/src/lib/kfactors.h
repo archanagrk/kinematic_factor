@@ -12,6 +12,7 @@
 #include "rot_matrx.h"
 #include "irreps_and_rows.h"
 #include "phase.h"
+#include "../io/hadron_3pt.xml.h"
 
 
 

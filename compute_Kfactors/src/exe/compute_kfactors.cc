@@ -6,7 +6,9 @@ int main(int argc, char** argv){
   if( argc != 12 ){
     cerr << "get_irreps <twoJ1> <P1> <m1sq> <twoJ_curr> <P_curr>  <twoJ3> <P3> <m3sq> <max_mom1> <max_mom2> <max_mom3> \n ";
     exit(1); }
-
+    
+  
+    
   int two_J1;  {istringstream a(argv[1]); a >> two_J1;};
   int P1;   {istringstream a(argv[2]); a >> P1;};
   double m1_sq;   {istringstream a(argv[3]); a >> m1_sq;};
@@ -22,6 +24,10 @@ int main(int argc, char** argv){
   complex<double> Coeff;
 
   if((two_J1==0) && (P1==-1) && (two_J2==2) && (P2==-1) && (two_J3==2) && (P3==-1)){
+      
+    XMLFileWriter xml_out("kfac.xml");
+    push(xml_out, "kfac");
+    int count =1;
 
     Vector3d mom1(3,1);    Vector3d mom3(3,1);    Vector3d mom_curr(3,1);
 
@@ -97,21 +103,37 @@ int main(int argc, char** argv){
                                         rep1.row = row1; rep3.row = row3; rep_curr.row = row_curr;
 
 
-                                        MatrixXcd Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
-                                        MatrixXcd Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
-                                        MatrixXcd SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
+                                        sub_hel Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
+                                        sub_hel Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
+                                        sub_hel SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
+
+                                        
+
+                                        Coeff = KinematicFactor(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
 
 
-
-
-                                        Coeff = KinematicFactor(qp,qm,Sub1,SubCurr,Sub3);
                                         if(std::real(Coeff) || std::imag(Coeff)){
                                           cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
                                           cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
                                           cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
                                         //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
                                           cout << "The factor is:" << Coeff << "\n";
+                                          push(xml_out, "elem");
+                                            write(xml_out, "irrep1", LG1+rep1.irrep);
+                                            write(xml_out, "row1", rep1.row);
+                                            write_ei(xml_out, "mom1", mom1);
+                                            write(xml_out, "irrep2", LG_curr+rep_curr.irrep);
+                                            write(xml_out, "row2", rep_curr.row);
+                                            write_ei(xml_out, "mom2", mom_curr);
+                                            write(xml_out, "irrep3", LG3+rep3.irrep);
+                                            write(xml_out, "row3", rep3.row);
+                                            write_ei(xml_out, "mom3", mom3);
+                                            pop(xml_out);
+
+
+                                            count++;
                                         }
+                                        
                       }}}
                    }}}
                   }
@@ -119,6 +141,9 @@ int main(int argc, char** argv){
              }}}
            }
          }}}
+      
+      pop(xml_out);
+      xml_out.close();
   }
 };
 

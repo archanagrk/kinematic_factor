@@ -97,14 +97,14 @@ int main(int argc, char** argv){
                                         rep1.row = row1; rep3.row = row3; rep_curr.row = row_curr;
 
 
-                                        MatrixXcd Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
-                                        MatrixXcd Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
-                                        MatrixXcd SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
+                                        sub_hel Sub1 = Subduce_all(mom1_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2]);
+                                        sub_hel Sub3 = Subduce_all(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
+                                        sub_hel SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
 
 
 
-                                        Coeff = KinematicFactor_j0(qp,qm,Sub1,SubCurr,Sub3);
+                                        Coeff = KinematicFactor_j0(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
                                         if(std::real(Coeff) || std::imag(Coeff)){
                                           cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
                                           cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";

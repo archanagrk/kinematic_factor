@@ -1,6 +1,7 @@
 #ifndef __HADRON3PT__
 #define __HADRON3PT__
 
+#include <Eigen/Dense>
 
 //adat
 #include "io/adat_io.h"
@@ -24,7 +25,7 @@ using namespace Hadron;
 //structs
 
 
-struct had_npt_Llabel{
+struct had_npt_layout{
     
     /* Layout Options */
     
@@ -42,13 +43,29 @@ struct had_npt_Llabel{
     
     /* Contains the ensemble of Npoint Fncts */
     
-    Array1dO<Hadron::KeyHadronSUNNPartNPtCorr_t> npointL;
+    //Array1dO<Hadron::KeyHadronSUNNPartNPtCorr_t> npointL;
+    //Hadron::KeyHadronSUNNPartNPtCorr_t n;
     
 };
 
+struct db{
+
+  Array1dO<std::string> proj_op_xmls;
+  std::string corr_graph_db;
+  std::string noneval_graph_xml;
+  std::string smeared_hadron_node_xml;
+  std::string unsmeared_hadron_node_xml;
+  std::string hadron_npt_graph_db;
+  Array1dO<std::string>  hadron_node_dbs;
+  std::string output_db;
+};
+
+
 //function declaration
 
-  void write_had_nptL( XMLWriter& xml, const std::string& path, const had_npt_Llabel& label);
+  void write_had_layout( XMLWriter& xml, const std::string& path, const had_npt_layout& label);
+  void write_ei( XMLWriter& xml, const std::string& path, const Eigen::Vector3d& input);
+  void write_db_keys( XMLWriter& xml, const std::string& path, const db& label);
 
 #endif
 

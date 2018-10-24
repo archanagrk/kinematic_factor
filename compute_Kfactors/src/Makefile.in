@@ -90,7 +90,7 @@ bin_PROGRAMS = compute_kfactors$(EXEEXT) \
 	compute_kfactors_with_phases$(EXEEXT) \
 	compute_kfactors_j0$(EXEEXT) \
 	compute_kfactors_with_phases_j0$(EXEEXT) \
-	hadron_3pt_xml$(EXEEXT)
+	hadron_3pt_xml$(EXEEXT) redstar_intrfc$(EXEEXT)
 check_PROGRAMS = tes_ph$(EXEEXT) extract_ph$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
@@ -109,7 +109,8 @@ am_compute_kfactors_OBJECTS = exe/compute_kfactors.$(OBJEXT) \
 	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
 	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
 	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT)
+	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
+	io/xml_tools.$(OBJEXT)
 compute_kfactors_OBJECTS = $(am_compute_kfactors_OBJECTS)
 compute_kfactors_LDADD = $(LDADD)
 compute_kfactors_DEPENDENCIES =
@@ -157,6 +158,15 @@ am_hadron_3pt_xml_OBJECTS = io/hadron_3pt.xml.$(OBJEXT) \
 hadron_3pt_xml_OBJECTS = $(am_hadron_3pt_xml_OBJECTS)
 hadron_3pt_xml_LDADD = $(LDADD)
 hadron_3pt_xml_DEPENDENCIES =
+am_redstar_intrfc_OBJECTS = io/redstar_intrfc.$(OBJEXT) \
+	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
+	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
+	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
+	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
+	io/xml_tools.$(OBJEXT)
+redstar_intrfc_OBJECTS = $(am_redstar_intrfc_OBJECTS)
+redstar_intrfc_LDADD = $(LDADD)
+redstar_intrfc_DEPENDENCIES =
 am_tes_ph_OBJECTS = test/tes_ph.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
 	lib/little_group.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
 	lib/subduction.$(OBJEXT) lib/k_factor.$(OBJEXT) \
@@ -184,13 +194,13 @@ am__depfiles_remade = exe/$(DEPDIR)/compute_kfactors.Po \
 	exe/$(DEPDIR)/compute_kfactors_j0.Po \
 	exe/$(DEPDIR)/compute_kfactors_with_phases.Po \
 	exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po \
-	io/$(DEPDIR)/hadron_3pt.xml.Po io/$(DEPDIR)/xml_tools.Po \
-	lib/$(DEPDIR)/irreps_and_rows.Po lib/$(DEPDIR)/k_factor.Po \
-	lib/$(DEPDIR)/kfac_utils.Po lib/$(DEPDIR)/levi_civita.Po \
-	lib/$(DEPDIR)/little_group.Po lib/$(DEPDIR)/phase.Po \
-	lib/$(DEPDIR)/pol_vec.Po lib/$(DEPDIR)/rot_matrx.Po \
-	lib/$(DEPDIR)/subduction.Po test/$(DEPDIR)/extract_ph.Po \
-	test/$(DEPDIR)/tes_ph.Po
+	io/$(DEPDIR)/hadron_3pt.xml.Po io/$(DEPDIR)/redstar_intrfc.Po \
+	io/$(DEPDIR)/xml_tools.Po lib/$(DEPDIR)/irreps_and_rows.Po \
+	lib/$(DEPDIR)/k_factor.Po lib/$(DEPDIR)/kfac_utils.Po \
+	lib/$(DEPDIR)/levi_civita.Po lib/$(DEPDIR)/little_group.Po \
+	lib/$(DEPDIR)/phase.Po lib/$(DEPDIR)/pol_vec.Po \
+	lib/$(DEPDIR)/rot_matrx.Po lib/$(DEPDIR)/subduction.Po \
+	test/$(DEPDIR)/extract_ph.Po test/$(DEPDIR)/tes_ph.Po
 am__mv = mv -f
 CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
@@ -209,13 +219,13 @@ SOURCES = $(compute_kfactors_SOURCES) $(compute_kfactors_j0_SOURCES) \
 	$(compute_kfactors_with_phases_SOURCES) \
 	$(compute_kfactors_with_phases_j0_SOURCES) \
 	$(extract_ph_SOURCES) $(hadron_3pt_xml_SOURCES) \
-	$(tes_ph_SOURCES)
+	$(redstar_intrfc_SOURCES) $(tes_ph_SOURCES)
 DIST_SOURCES = $(compute_kfactors_SOURCES) \
 	$(compute_kfactors_j0_SOURCES) \
 	$(compute_kfactors_with_phases_SOURCES) \
 	$(compute_kfactors_with_phases_j0_SOURCES) \
 	$(extract_ph_SOURCES) $(hadron_3pt_xml_SOURCES) \
-	$(tes_ph_SOURCES)
+	$(redstar_intrfc_SOURCES) $(tes_ph_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -349,13 +359,14 @@ AM_LDFLAGS = -L@top_builddir@/src \
 LDADD = @ADAT_LIBS@ @LIBS@ 
 
 ##############################################################
-compute_kfactors_SOURCES = exe/compute_kfactors.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc 
+compute_kfactors_SOURCES = exe/compute_kfactors.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc 
 compute_kfactors_with_phases_SOURCES = exe/compute_kfactors_with_phases.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
 compute_kfactors_with_phases_j0_SOURCES = exe/compute_kfactors_with_phases_j0.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
 compute_kfactors_j0_SOURCES = exe/compute_kfactors_j0.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc
 tes_ph_SOURCES = test/tes_ph.cc  lib/rot_matrx.cc lib/little_group.cc lib/kfac_utils.cc lib/subduction.cc    lib/k_factor.cc  lib/levi_civita.cc  lib/pol_vec.cc    lib/irreps_and_rows.cc
 extract_ph_SOURCES = test/extract_ph.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
-hadron_3pt_xml_SOURCES = io/hadron_3pt.xml.cc io/xml_tools.cc 
+hadron_3pt_xml_SOURCES = io/hadron_3pt.xml.cc io/xml_tools.cc
+redstar_intrfc_SOURCES = io/redstar_intrfc.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
 
 ##############################################################
 
@@ -477,6 +488,14 @@ lib/k_factor.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/levi_civita.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
+io/$(am__dirstamp):
+	@$(MKDIR_P) io
+	@: > io/$(am__dirstamp)
+io/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) io/$(DEPDIR)
+	@: > io/$(DEPDIR)/$(am__dirstamp)
+io/xml_tools.$(OBJEXT): io/$(am__dirstamp) \
+	io/$(DEPDIR)/$(am__dirstamp)
 
 compute_kfactors$(EXEEXT): $(compute_kfactors_OBJECTS) $(compute_kfactors_DEPENDENCIES) $(EXTRA_compute_kfactors_DEPENDENCIES) 
 	@rm -f compute_kfactors$(EXEEXT)
@@ -512,20 +531,18 @@ test/extract_ph.$(OBJEXT): test/$(am__dirstamp) \
 extract_ph$(EXEEXT): $(extract_ph_OBJECTS) $(extract_ph_DEPENDENCIES) $(EXTRA_extract_ph_DEPENDENCIES) 
 	@rm -f extract_ph$(EXEEXT)
 	$(AM_V_CXXLD)$(CXXLINK) $(extract_ph_OBJECTS) $(extract_ph_LDADD) $(LIBS)
-io/$(am__dirstamp):
-	@$(MKDIR_P) io
-	@: > io/$(am__dirstamp)
-io/$(DEPDIR)/$(am__dirstamp):
-	@$(MKDIR_P) io/$(DEPDIR)
-	@: > io/$(DEPDIR)/$(am__dirstamp)
 io/hadron_3pt.xml.$(OBJEXT): io/$(am__dirstamp) \
-	io/$(DEPDIR)/$(am__dirstamp)
-io/xml_tools.$(OBJEXT): io/$(am__dirstamp) \
 	io/$(DEPDIR)/$(am__dirstamp)
 
 hadron_3pt_xml$(EXEEXT): $(hadron_3pt_xml_OBJECTS) $(hadron_3pt_xml_DEPENDENCIES) $(EXTRA_hadron_3pt_xml_DEPENDENCIES) 
 	@rm -f hadron_3pt_xml$(EXEEXT)
 	$(AM_V_CXXLD)$(CXXLINK) $(hadron_3pt_xml_OBJECTS) $(hadron_3pt_xml_LDADD) $(LIBS)
+io/redstar_intrfc.$(OBJEXT): io/$(am__dirstamp) \
+	io/$(DEPDIR)/$(am__dirstamp)
+
+redstar_intrfc$(EXEEXT): $(redstar_intrfc_OBJECTS) $(redstar_intrfc_DEPENDENCIES) $(EXTRA_redstar_intrfc_DEPENDENCIES) 
+	@rm -f redstar_intrfc$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(redstar_intrfc_OBJECTS) $(redstar_intrfc_LDADD) $(LIBS)
 test/tes_ph.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 
@@ -548,6 +565,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@exe/$(DEPDIR)/compute_kfactors_with_phases.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@io/$(DEPDIR)/hadron_3pt.xml.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@io/$(DEPDIR)/redstar_intrfc.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@io/$(DEPDIR)/xml_tools.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/irreps_and_rows.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/k_factor.Po@am__quote@ # am--include-marker
@@ -725,6 +743,7 @@ distclean: distclean-am
 	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases.Po
 	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po
 	-rm -f io/$(DEPDIR)/hadron_3pt.xml.Po
+	-rm -f io/$(DEPDIR)/redstar_intrfc.Po
 	-rm -f io/$(DEPDIR)/xml_tools.Po
 	-rm -f lib/$(DEPDIR)/irreps_and_rows.Po
 	-rm -f lib/$(DEPDIR)/k_factor.Po
@@ -787,6 +806,7 @@ maintainer-clean: maintainer-clean-am
 	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases.Po
 	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po
 	-rm -f io/$(DEPDIR)/hadron_3pt.xml.Po
+	-rm -f io/$(DEPDIR)/redstar_intrfc.Po
 	-rm -f io/$(DEPDIR)/xml_tools.Po
 	-rm -f lib/$(DEPDIR)/irreps_and_rows.Po
 	-rm -f lib/$(DEPDIR)/k_factor.Po
