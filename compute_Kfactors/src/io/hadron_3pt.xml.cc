@@ -35,7 +35,7 @@ int main(int argc, char** argv){
     read(xml_in, "/doc/config/zeroUnsmearedGraphsP", label.zeroUnsmearedGraphsP);
     read(xml_in, "/doc/config/ensemble", label.ensemble);
     read(xml_in, "/doc/config/decayDir", label.decayDir);
-    read(xml_in, "/doc/config/latticeSize", label.latticeSize);
+    read(xml_in, "/doc/config/lattSize", label.lattSize);
     
     read(xml_in, "/doc/Npts", npt);
     read(xml_in, "/doc/creation_op", creation_op);

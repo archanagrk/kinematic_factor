@@ -6,7 +6,7 @@ void write_had_layout( XMLWriter& xml, const std::string& path, const had_npt_la
     push(xml, path);
     push(xml, "Param");
     write(xml, "version", 10);
-    write(xml, "diagnostic_level", 2);
+    write(xml, "diagnostic_level", 0);
     write(xml, "Nt_corr", label.Nt_corr);
     write(xml, "t_origin", label.t_origin);
     write(xml, "bc_spec", label.bc_spec);
@@ -17,7 +17,7 @@ void write_had_layout( XMLWriter& xml, const std::string& path, const had_npt_la
     write(xml, "ensemble", label.ensemble);
     push(xml, "Layout");
     write(xml, "decayDir", label.decayDir);
-    write(xml, "latticeSize", label.latticeSize);
+    write(xml, "lattSize", label.lattSize);
     pop(xml);
 
 };

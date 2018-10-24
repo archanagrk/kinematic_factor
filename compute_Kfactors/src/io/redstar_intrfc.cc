@@ -54,7 +54,8 @@ int main(int argc, char** argv){
       read(xml_in, "/doc/config/zeroUnsmearedGraphsP", label.zeroUnsmearedGraphsP);
       read(xml_in, "/doc/config/ensemble", label.ensemble);
       read(xml_in, "/doc/config/decayDir", label.decayDir);
-      read(xml_in, "/doc/config/latticeSize", label.latticeSize);
+      read(xml_in, "/doc/config/lattSize", label.lattSize);
+      
       
       read(xml_in, "/doc/Npts", npt);
       read(xml_in, "/doc/creation_op", creation_op);
@@ -148,18 +149,22 @@ int main(int argc, char** argv){
                                         sub_hel SubCurr = Subduce_all(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
 
+                                        XMLArray::Array<int> canon_mom2 = Hadron::canonicalOrder(KfUt::toArray(mom_curr));
 
 
                                         Coeff = KinematicFactor(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
                                         if(std::real(Coeff) || std::imag(Coeff)){
-                                          cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
-                                          cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
-                                          cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
-                                        //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
-                                          cout << "The factor is:" << Coeff << "\n";
+                                            if(canon_mom2[0] == mom_curr(0) && canon_mom2[1]== mom_curr(1) && canon_mom2[2] == mom_curr(2)){
+                                                cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
+                                                cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
+                                                cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
+                                                //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
+                                                cout << "The factor is:" << Coeff << "\n";
 
 					                                Hadron::KeyHadronSUNNPartNPtCorr_t key;
 					                                key.npoint.resize(npt);
+                                            
+                                            
 
 					                                key.npoint[1].t_slice = t_slice[1];
 					                                key.npoint[1].irrep.creation_op = false;
@@ -175,15 +180,17 @@ int main(int argc, char** argv){
 					                                op1.ops.resize(1);
 
                                                     XMLArray::Array<int> canon_mom1 = Hadron::canonicalOrder(KfUt::toArray(mom1));
-					                                op1.ops[1]= KeyParticleOp_t("Kneg_proj0_p" + std::to_string(canon_mom1[0]) + std::to_string(canon_mom1[1]) + std::to_string(canon_mom1[2]) + "_H0" + rep1.irrep, "", canon_mom1);
+                                                    if(mom1_sq != 0){
+                                                        op1.ops[1]= KeyParticleOp_t("Kneg_proj0_p" + std::to_string(canon_mom1[0]) + std::to_string(canon_mom1[1]) + std::to_string(canon_mom1[2]) + "_H0" + LG1 + rep1.irrep, "", canon_mom1);}
+                                                    else{op1.ops[1]= KeyParticleOp_t("Kneg_proj0_p" + std::to_string(canon_mom1[0]) + std::to_string(canon_mom1[1]) + std::to_string(canon_mom1[2]) + "_"+rep1.irrep, "", canon_mom1);}
 					                                key.npoint[1].irrep.op = op1; 
 
 					                                key.npoint[2].t_slice = t_slice[2];
-                                                    key.npoint[2].irrep.creation_op = false;
+                                                    key.npoint[2].irrep.creation_op = true;
                                                     key.npoint[2].irrep.smearedP = false;
                                                     key.npoint[2].irrep.flavor.twoI = 0;
                                                     key.npoint[2].irrep.flavor.threeY = 0;
-                                                    key.npoint[2].irrep.flavor.twoI = 0;
+                                                    key.npoint[2].irrep.flavor.twoI_z = 0;
                                                     key.npoint[2].irrep.irrep_mom.row = rep_curr.row;
                                                     key.npoint[2].irrep.irrep_mom.mom = KfUt::toArray(mom_curr);
                                             
@@ -191,9 +198,11 @@ int main(int argc, char** argv){
 					                                KeyHadronSUNNPartIrrepOp_t op2;
                                                     op2.CGs.resize(0);
                                                     op2.ops.resize(1);
+                                                    int helicity_curr = SubCurr.two_hel/2;
                                             
-                                                    XMLArray::Array<int> canon_mom2 = Hadron::canonicalOrder(KfUt::toArray(mom_curr));
-					                                op2.ops[1] = KeyParticleOp_t("omegal_rhoxD0_J0__J1_H0" + rep_curr.irrep , "", canon_mom2);
+                                                    if(mom_curr_sq != 0){
+                                                        op2.ops[1] = KeyParticleOp_t("omegal_rhoxD0_J0__J1_H"+ std::to_string(helicity_curr) + LG_curr + rep_curr.irrep , "", canon_mom2);}
+                                                    else{op2.ops[1] = KeyParticleOp_t("omegal_rhoxD0_J0__J1_"  + rep_curr.irrep , "", canon_mom2);}
 					                                key.npoint[2].irrep.op = op2; 
 
 					                                key.npoint[3].t_slice = t_slice[3];
@@ -201,21 +210,24 @@ int main(int argc, char** argv){
                                                     key.npoint[3].irrep.smearedP = true;
                                                     key.npoint[3].irrep.flavor.twoI = 1;
                                                     key.npoint[3].irrep.flavor.threeY = 3;
-                                                    key.npoint[3].irrep.flavor.twoI = 1;
+                                                    key.npoint[3].irrep.flavor.twoI_z = 1;
                                                     key.npoint[3].irrep.irrep_mom.row = rep3.row;
                                                     key.npoint[3].irrep.irrep_mom.mom = KfUt::toArray(mom3);
                                 
 					                                KeyHadronSUNNPartIrrepOp_t op3;
 					                                op3.CGs.resize(0);
 					                                op3.ops.resize(1);
-                                                    int helicity = Sub3.two_hel/2;
+                                                    int helicity3 = Sub3.two_hel/2;
+                                                
 					                                //irrep3.ops[1]= KeyParticleOp_t("Kneg_proj0_p" + canon_mom1[0] + canon_mom1[1] + canon_mom2[2] + "_H0" + rep1, "", canon_mom3);
                                                     XMLArray::Array<int> canon_mom3 = Hadron::canonicalOrder(KfUt::toArray(mom3));
-                                                    op3.ops[1] = KeyParticleOp_t("Kneg_rhoxD0_J0__J1_H"+ std::to_string(helicity) + rep3.irrep, "", canon_mom3);
+                                                    if(mom3_sq != 0){
+                                                        op3.ops[1] = KeyParticleOp_t("Kneg_rhoxD0_J0__J1_H"+ std::to_string(helicity3) + LG3+ rep3.irrep, "", canon_mom3);}
+                                                    else{op3.ops[1] = KeyParticleOp_t("Kneg_rhoxD0_J0__J1_" + rep3.irrep, "", canon_mom3);}
 					                                key.npoint[3].irrep.op = op3;
 
 					                                corrs.push_back(key);
-                                        }
+                                            }}
                       }}}
                    }}}
                   }
@@ -243,6 +255,8 @@ int main(int argc, char** argv){
       
     
       write_db_keys(xml_out, "DBFiles", db_lab);
+      
+      pop(xml_out);
       
       
     xml_out.close();

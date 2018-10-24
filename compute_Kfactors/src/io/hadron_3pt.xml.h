@@ -39,7 +39,7 @@ struct had_npt_layout{
     bool zeroUnsmearedGraphsP;
     string ensemble;
     int decayDir;
-    Array1dO<int> latticeSize;
+    Array1dO<int> lattSize;
     
     /* Contains the ensemble of Npoint Fncts */
     
