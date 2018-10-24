@@ -6,11 +6,11 @@
     <bc_spec>-1</bc_spec>
     <convertUDtoL>true</convertUDtoL>
     <convertUDtoS>false</convertUDtoS>
-    <average_1pt_diagrams>false</average_1pt_diagrams>
-    <zeroUnsmearedGraphsP>false</zeroUnsmearedGraphsP>
-    <ensemble>szscl_</ensemble>
+    <average_1pt_diagrams>true</average_1pt_diagrams>
+    <zeroUnsmearedGraphsP>true</zeroUnsmearedGraphsP>
+    <ensemble>test</ensemble>
     <decayDir>3</decayDir>
-    <latticeSize>24 24 24 256</latticeSize>
+    <lattSize>4 4 4 16</lattSize>
   </config>
 
   <Npts>3</Npts>
@@ -32,6 +32,8 @@
   <DBFiles>
     <proj_op_xmls>
       <elem>weights.pion.xml</elem>
+      <elem>weights.kaon.xml</elem>
+      <elem>weights.kbar.xml</elem>
       <elem>weights.rho.xml</elem>
     </proj_op_xmls>
     <corr_graph_db>eval_graph.sdb1</corr_graph_db>
