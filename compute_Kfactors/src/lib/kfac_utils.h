@@ -27,7 +27,14 @@ using namespace std;
 
 namespace KfUt{
   double truncate(double num,int precision);
-  XMLArray::Array<int> toArray(Eigen::Vector3d input);
+  //XMLArray::Array<int> toArray(Eigen::Vector3d input);
+  
+  class ToArray {
+  public:
+    static XMLArray::Array<int> toArray(Eigen::Vector3d input);
+    static XMLArray::Array<int> toArray(Array1dO<int> input);
+  };
+  
 }
 
 

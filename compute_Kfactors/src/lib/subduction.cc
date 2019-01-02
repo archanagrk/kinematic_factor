@@ -4,7 +4,7 @@
 
 /* Register all  */
 
-bool linkageHack(void) __attribute__ ((constructor));
+//bool linkageHack(void) __attribute__ ((constructor));
 
 bool linkageHack(void){
 
@@ -21,6 +21,7 @@ bool linkageHack(void){
 
 
 int Subd::find_n_subduced_embeddings(const string& group, const string& irrep, int twoJ, int eta_tilde){
+  linkageHack();
   int embeds = 1;  //1 based labelling of embeddings
 
   if(group == "Oh"){ // at rest
@@ -76,6 +77,7 @@ int Subd::find_n_subduced_embeddings(const string& group, const string& irrep, i
 //in flight subductions - for bosons
 map< int, complex<double> > Subd::subduce_lg_boson(const irrep_label& irrep, const string& little_group){
 
+  linkageHack();
   map< int, complex<double> > out;
   int eta_tilde = irrep.P;
   if (((irrep.twoJ/2)%2) ) { eta_tilde *= -1; }
@@ -127,6 +129,7 @@ map< int, complex<double> > Subd::subduce_lg_boson(const irrep_label& irrep, con
 // -- uses the phase choices suggested by Robert, taken from Christopher - NOT CHECKED YET
 map< int, complex<double> > Subd::subduce_lg_fermion(const irrep_label& irrep, const string& little_group){
 
+  linkageHack();
   map< int, complex<double> > out;
   int parity = irrep.P;  // parity = P
 
@@ -172,6 +175,7 @@ map< int, complex<double> > Subd::subduce_lg_fermion(const irrep_label& irrep, c
 // at rest subductions
 map< int, complex<double> > Subd::subduce_oct(const irrep_label& irrep){
 
+  linkageHack();
   map< int, complex<double> > out;
 
   //get the subduction table

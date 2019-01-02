@@ -21,8 +21,8 @@
     <twoI_z>1 0 1</twoI_z>
   </fl>
 
-  <creation_op>true true false</creation_op>
-  <smearedP>true false true</smearedP>
+  <creation_op>1 1 0</creation_op>
+  <smearedP>1 0 1</smearedP>
   <t_slice>6 -3 0</t_slice>
 
   <temp_curr>true</temp_curr>

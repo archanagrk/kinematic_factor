@@ -104,7 +104,7 @@ int main(int argc, char** argv){
 
 
 
-                                        Coeff = KinematicFactor_j0(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
+                                        Coeff = KFacSSV(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
                                         if(std::real(Coeff) || std::imag(Coeff)){
                                           cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
                                           cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";

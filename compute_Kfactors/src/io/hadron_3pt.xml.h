@@ -60,6 +60,14 @@ struct db{
   std::string output_db;
 };
 
+struct hadron{
+
+  int twoJ;
+  int P;
+  double msq;
+  double max_mom;
+
+};
 
 //function declaration
 

@@ -109,10 +109,10 @@ int main(int argc, char** argv){
 
                                         
 
-                                        Coeff = KinematicFactor(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
+                                        Coeff = KFacSVV(qp,qm,Sub1.sum,SubCurr.sum,Sub3.sum);
 
 
-                                        if(std::real(Coeff) || std::imag(Coeff)){
+                                        //if(std::real(Coeff) || std::imag(Coeff)){
                                           cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
                                           cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
                                           cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";
@@ -132,7 +132,7 @@ int main(int argc, char** argv){
 
 
                                             count++;
-                                        }
+                                        //}
                                         
                       }}}
                    }}}

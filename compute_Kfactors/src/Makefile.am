@@ -19,7 +19,7 @@ LDADD = @ADAT_LIBS@ @LIBS@
 ##   Another option is to add it to check_PROGRAMS, which means it will only
 ##   be built by 'make check' and is not installed.
 
-bin_PROGRAMS =  compute_kfactors compute_kfactors_with_phases compute_kfactors_j0 compute_kfactors_with_phases_j0 hadron_3pt_xml redstar_intrfc 
+bin_PROGRAMS =  compute_kfactors compute_kfactors_with_phases compute_kfactors_j0 compute_kfactors_with_phases_j0 hadron_3pt_xml redstar_intrfc compute_kf redstar_intr 
 
 check_PROGRAMS = tes_ph extract_ph
 
@@ -39,7 +39,11 @@ extract_ph_SOURCES = test/extract_ph.cc lib/irreps_and_rows.cc  lib/kfac_utils.c
 
 hadron_3pt_xml_SOURCES = io/hadron_3pt.xml.cc io/xml_tools.cc
 
+compute_kf_SOURCES =  exe/compute_kf.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
+
 redstar_intrfc_SOURCES = io/redstar_intrfc.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
+
+redstar_intr_SOURCES = io/redstar_intr.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
 
 ##############################################################
 

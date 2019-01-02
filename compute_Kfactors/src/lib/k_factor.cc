@@ -4,7 +4,7 @@
 #include "k_factor.h"
 
 
-complex<double> KFac::KinematicFactor( Eigen::VectorXd& qp, Eigen::VectorXd& qm, Eigen::MatrixXcd& Sub1 , Eigen::MatrixXcd& SubCurr , Eigen::MatrixXcd& Sub2 ){
+complex<double> KFac::KFacSVV( Eigen::VectorXd& qp, Eigen::VectorXd& qm, Eigen::MatrixXcd& Sub1 , Eigen::MatrixXcd& SubCurr , Eigen::MatrixXcd& Sub2 ){
     
     Eigen::MatrixXcd sum_sub =  Eigen::MatrixXcd::Zero(4,4);
     sum_sub = Sub1(2,0) * Sub2 * SubCurr.transpose();
@@ -25,7 +25,7 @@ complex<double> KFac::KinematicFactor( Eigen::VectorXd& qp, Eigen::VectorXd& qm,
 
 
 
-complex<double> KFac::KinematicFactor_j0( Eigen::VectorXd& qp, Eigen::VectorXd& qm, Eigen::MatrixXcd& Sub1 , Eigen::MatrixXcd& SubCurr , Eigen::MatrixXcd& Sub2 ){
+complex<double> KFac::KFacSSV( Eigen::VectorXd& qp, Eigen::VectorXd& qm, Eigen::MatrixXcd& Sub1 , Eigen::MatrixXcd& SubCurr , Eigen::MatrixXcd& Sub2 ){
     
     Eigen::MatrixXcd sum_sub =  Eigen::MatrixXcd::Zero(4,4);
     sum_sub = Sub1(2,0) * Sub2 * SubCurr.transpose();
