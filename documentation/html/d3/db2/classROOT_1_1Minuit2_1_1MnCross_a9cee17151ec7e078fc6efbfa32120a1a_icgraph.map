@@ -1,0 +1,12 @@
+<map id="ROOT::Minuit2::MnCross::IsValid" name="ROOT::Minuit2::MnCross::IsValid">
+<area shape="rect" id="node1" title=" " alt="" coords="708,156,878,195"/>
+<area shape="rect" id="node2" href="$d2/dd1/classROOT_1_1Minuit2_1_1MinosError.html#af6b7accfe397a06417ecc1f989d82e00" title=" " alt="" coords="479,61,660,100"/>
+<area shape="rect" id="node3" href="$d9/de7/classROOT_1_1Minuit2_1_1MnContours.html#a8bcd5be6a72acc39c1b56fd45e9958ba" title=" " alt="" coords="242,33,431,72"/>
+<area shape="rect" id="node7" href="$d2/dd1/classROOT_1_1Minuit2_1_1MinosError.html#a4b8c37c90bb53d98d3b4364a5ebc2228" title=" " alt="" coords="479,124,660,163"/>
+<area shape="rect" id="node8" href="$d2/dd1/classROOT_1_1Minuit2_1_1MinosError.html#a4180ae7ff87d9a2c0942c8e6ac81a8c0" title=" " alt="" coords="479,187,660,225"/>
+<area shape="rect" id="node9" href="$dc/d91/classROOT_1_1Minuit2_1_1MnMinos.html#a0e6c6ab67bdd7b3461d900f64b4908ba" title="calculate one side (negative or positive Error) of the Parameter" alt="" coords="484,249,655,288"/>
+<area shape="rect" id="node10" href="$dc/d91/classROOT_1_1Minuit2_1_1MnMinos.html#a387b76e3135998c519db7e6ae4cc3d90" title=" " alt="" coords="484,312,655,351"/>
+<area shape="rect" id="node6" href="$d6/d3a/namespaceROOT_1_1Minuit2.html#a21121467830697f28cd9d979108c44dd" title=" " alt="" coords="246,131,427,156"/>
+<area shape="rect" id="node4" href="$d9/de7/classROOT_1_1Minuit2_1_1MnContours.html#a8a56508ee3dd6f22b7378acf8286debe" title="ask for one Contour (points only) from number of points (&gt;=4) and parameter indeces" alt="" coords="5,5,194,44"/>
+<area shape="rect" id="node5" href="$d1/d9b/DemoGaussSim_8cxx.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="75,68,125,93"/>
+</map>

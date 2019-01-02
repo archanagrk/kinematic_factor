@@ -1,0 +1,10 @@
+<map id="ADATUtil::crc32" name="ADATUtil::crc32">
+<area shape="rect" id="node1" title="crc32" alt="" coords="456,93,571,119"/>
+<area shape="rect" id="node2" href="$de/d19/namespaceADATUtil.html#aea7a30b468249f17899ebbb9902fb330" title="crc32" alt="" coords="262,5,377,31"/>
+<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a9c68e2d4ecd86773a48a3a38f0c90677" title="Read array of bytes and broadcast to all nodes." alt="" coords="240,55,399,93"/>
+<area shape="rect" id="node5" href="$db/dee/classADATIO_1_1BinaryWriter.html#a044495ba6e330922b428658b6a8176fc" title="Write data from the primary node." alt="" coords="244,117,394,156"/>
+<area shape="rect" id="node7" href="$db/de5/group__qio.html#ga525c9902a7ee7ebe41c688897da0652e" title="Read binary and checksum." alt="" coords="231,180,408,219"/>
+<area shape="rect" id="node4" href="$da/dd9/classADATIO_1_1BinaryReader.html#aeb7e739afca615aff19646e64b8da320" title=" " alt="" coords="14,55,173,93"/>
+<area shape="rect" id="node6" href="$db/dee/classADATIO_1_1BinaryWriter.html#a4415e2d04de75ea6310a8eed3be8f43e" title="The universal data&#45;writer." alt="" coords="19,117,169,156"/>
+<area shape="rect" id="node8" href="$db/de5/group__qio.html#ga2179348a566e0224ed2122acfabf8bc9" title="Reads as a string plus BinaryBufferReader pair." alt="" coords="5,180,183,219"/>
+</map>

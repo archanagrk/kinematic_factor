@@ -1,0 +1,6 @@
+<map id="ADATIO::BinaryWriter::writeDesc" name="ADATIO::BinaryWriter::writeDesc">
+<area shape="rect" id="node1" title="Writes a fixed length of characters like an array." alt="" coords="406,31,557,69"/>
+<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#a0faeed900aacb29febaa709323135c50" title=" " alt="" coords="222,37,358,63"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#ae47780c59de1d15679cc11611947b313" title="KeyHadronNode writer." alt="" coords="40,5,140,31"/>
+<area shape="rect" id="node4" href="$d4/d60/namespaceColorVec.html#a40c0262c4744b8e12e14737776edb8a9" title="Specialize this for a KeyHadron2PtCorr_t." alt="" coords="5,55,174,107"/>
+</map>

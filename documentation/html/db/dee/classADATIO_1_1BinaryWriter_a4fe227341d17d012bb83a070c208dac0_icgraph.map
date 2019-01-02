@@ -1,0 +1,6 @@
+<map id="ADATIO::BinaryWriter::getOstream" name="ADATIO::BinaryWriter::getOstream">
+<area shape="rect" id="node1" title="Get the internal output stream." alt="" coords="402,37,553,76"/>
+<area shape="rect" id="node2" href="$db/dee/classADATIO_1_1BinaryWriter.html#a68812ccfcedfce8b5459b1327e9b03cb" title="Checks status of the previous IO operation." alt="" coords="204,5,354,44"/>
+<area shape="rect" id="node3" href="$db/dee/classADATIO_1_1BinaryWriter.html#a044495ba6e330922b428658b6a8176fc" title="Write data from the primary node." alt="" coords="204,68,354,107"/>
+<area shape="rect" id="node4" href="$db/dee/classADATIO_1_1BinaryWriter.html#a4415e2d04de75ea6310a8eed3be8f43e" title="The universal data&#45;writer." alt="" coords="5,68,156,107"/>
+</map>

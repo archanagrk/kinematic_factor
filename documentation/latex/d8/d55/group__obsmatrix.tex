@@ -1,0 +1,880 @@
+\hypertarget{group__obsmatrix}{}\section{Matrix primitive}
+\label{group__obsmatrix}\index{Matrix primitive@{Matrix primitive}}
+Collaboration diagram for Matrix primitive\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{d8/d55/group__obsmatrix}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em Observable Matrix class. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01OpUnaryPlus_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Op\+Unary\+Plus $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01OpUnaryMinus_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Op\+Unary\+Minus $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OpAdd_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Op\+Add $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01OpAdd_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Op\+Add $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OpAdd_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Op\+Add $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OpSubtract_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Op\+Subtract $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01OpSubtract_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Op\+Subtract $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OpSubtract_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Op\+Subtract $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OpMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Op\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01OpMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Op\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OpMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Op\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01OpDivide_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Op\+Divide $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnAdjoint_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Adjoint $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnConjugate_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Conjugate $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnTranspose_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Transpose $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnTrace_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Trace $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnRealTrace_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Real\+Trace $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnImagTrace_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Imag\+Trace $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = Im(\+Trace(\+O\+Matrix)) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnTraceSpin_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Trace\+Spin $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = trace\+Spin(\+O\+Matrix) \mbox{[}this is an identity in general\mbox{]}. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnTraceMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Trace\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01FnTraceMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Fn\+Trace\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnTraceMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Trace\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnTraceSpinMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Trace\+Spin\+Multiply $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = trace\+Spin\+Multiply(\+O\+Matrix,\+O\+Matrix) \mbox{[}the trace is an identity in general\mbox{]}. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01FnTraceSpinMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Fn\+Trace\+Spin\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnTraceSpinMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Trace\+Spin\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnReal_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Real $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = Re(\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnImag_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Imag $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = Im(\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnTimesI_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Times\+I $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = i $\ast$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnTimesMinusI_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Times\+Minus\+I $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = -\/i $\ast$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnPeekSpinVector_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Peek\+Spin\+Vector $>$}}
+\begin{DoxyCompactList}\small\item\em Extract spin vector components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnPeekSpinMatrix_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Peek\+Spin\+Matrix $>$}}
+\begin{DoxyCompactList}\small\item\em Extract spin matrix components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnPokeSpinMatrix_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Poke\+Spin\+Matrix $>$}}
+\begin{DoxyCompactList}\small\item\em Insert spin vector components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnNorm2_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Norm2 $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01OMatrix_3_01T_01_4_00_01FnLocalNorm2_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ O\+Matrix$<$ T $>$, Fn\+Local\+Norm2 $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnInnerProduct_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Inner\+Product $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = inner\+Product(\+O\+Matrix,\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnLocalInnerProduct_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Local\+Inner\+Product $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = local\+Inner\+Product(\+O\+Matrix,\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01FnLocalInnerProduct_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Fn\+Local\+Inner\+Product $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = local\+Inner\+Product(\+O\+Matrix,\+O\+Scalar) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnLocalInnerProduct_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Local\+Inner\+Product $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = local\+Inner\+Product(\+O\+Scalar,\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnInnerProductReal_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Inner\+Product\+Real $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = inner\+Product\+Real(\+O\+Matrix,\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnLocalInnerProductReal_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Local\+Inner\+Product\+Real $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = inner\+Product\+Real(\+O\+Matrix,\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OMatrix_3_01T1_01_4_00_01OScalar_3_01T2_01_4_00_01FnLocalInnerProductReal_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Matrix$<$ T1 $>$, O\+Scalar$<$ T2 $>$, Fn\+Local\+Inner\+Product\+Real $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = local\+Inner\+Product\+Real(\+O\+Matrix,\+O\+Scalar) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01FnLocalInnerProductReal_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, Fn\+Local\+Inner\+Product\+Real $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}} = local\+Inner\+Product\+Real(\+O\+Scalar,\+O\+Matrix) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1TrinaryReturn_3_01OScalar_3_01T1_01_4_00_01OMatrix_3_01T2_01_4_00_01OMatrix_3_01T3_01_4_00_01FnWhere_01_4}{E\+N\+S\+E\+M\+::\+Trinary\+Return$<$ O\+Scalar$<$ T1 $>$, O\+Matrix$<$ T2 $>$, O\+Matrix$<$ T3 $>$, Fn\+Where $>$}}
+\begin{DoxyCompactList}\small\item\em O\+Matrix$<$\+T$>$ = where(\+O\+Scalar, O\+Matrix, O\+Matrix) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{classENSEM_1_1TextReader}{Text\+Reader}} \& \mbox{\hyperlink{group__obsmatrix_ga2c0b293dbb7aeff91ccffc12fdb0e858}{E\+N\+S\+E\+M\+::operator$>$$>$}} (\mbox{\hyperlink{classENSEM_1_1TextReader}{Text\+Reader}} \&txt, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Text input. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{classENSEM_1_1TextWriter}{Text\+Writer}} \& \mbox{\hyperlink{group__obsmatrix_gacdc76da3bc2873feb9cad8323ea02e83}{E\+N\+S\+E\+M\+::operator$<$$<$}} (\mbox{\hyperlink{classENSEM_1_1TextWriter}{Text\+Writer}} \&txt, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Text output. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+::\+X\+M\+L\+Writer}} \& \mbox{\hyperlink{group__obsmatrix_ga62a405af58665d9bce46afb03abd8c90}{E\+N\+S\+E\+M\+::operator$<$$<$}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+::\+X\+M\+L\+Writer}} \&xml, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em X\+ML output. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryPlus}{Op\+Unary\+Plus}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gae4d0316e65f7b3ddc273955cf4801ba6}{E\+N\+S\+E\+M\+::operator+}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryMinus}{Op\+Unary\+Minus}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaf8abde7e3428822593f11a4317f48880}{E\+N\+S\+E\+M\+::operator-\/}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga0ad42a3395997cd3a2d836e981969fe2}{E\+N\+S\+E\+M\+::operator+}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga594575d5bb0ce31fd07e9fb29fd9c8ac}{E\+N\+S\+E\+M\+::operator+}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga6cdb2a903fbc9f5a836a442a81275a56}{E\+N\+S\+E\+M\+::operator+}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga71b6bee34df2dbf2b2312b75612fd45f}{E\+N\+S\+E\+M\+::operator-\/}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga14c923aa4a21485e30dc3ed6f5c0ab46}{E\+N\+S\+E\+M\+::operator-\/}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga57164fdcdeca01384e08724c0cf01504}{E\+N\+S\+E\+M\+::operator-\/}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga7c6a61b10289159298bd053adf13f1a6}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaf5ede60943f488e0a637504e6838529e}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga92a06278aeac18e092853d6c4cf37b0b}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpDivide}{Op\+Divide}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaa90c91fdbe2814bb15f1ac76012585d8}{E\+N\+S\+E\+M\+::operator/}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnAdjoint}{Fn\+Adjoint}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gab99c32b7f3eabbe8b6a6ec2834914c88}{E\+N\+S\+E\+M\+::adj}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnConjugate}{Fn\+Conjugate}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaa0e14166cccccfb643584dfa83138cb2}{E\+N\+S\+E\+M\+::conj}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTranspose}{Fn\+Transpose}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gae3097e7f8ff8914a37a874367aed476b}{E\+N\+S\+E\+M\+::transpose}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTrace}{Fn\+Trace}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaff7b73c5978746f6706e0cd02f55cc40}{E\+N\+S\+E\+M\+::trace}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnRealTrace}{Fn\+Real\+Trace}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gab3988428b88d3b56d2f959c536ec7d2a}{E\+N\+S\+E\+M\+::real\+Trace}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnImagTrace}{Fn\+Imag\+Trace}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga3c2758e95f41075ca3a027c6651a66aa}{E\+N\+S\+E\+M\+::imag\+Trace}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpin}{Fn\+Trace\+Spin}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gae311225b718ade4433fe82a01a290d63}{E\+N\+S\+E\+M\+::trace\+Spin}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceMultiply}{Fn\+Trace\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga60f2f16fd8f3e889214584d3c0a90e92}{E\+N\+S\+E\+M\+::trace\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceMultiply}{Fn\+Trace\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga465cbe792dfb205b829f653853253e8f}{E\+N\+S\+E\+M\+::trace\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceMultiply}{Fn\+Trace\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gab9e4e0bccae4aa80554908fd966782e1}{E\+N\+S\+E\+M\+::trace\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpinMultiply}{Fn\+Trace\+Spin\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gabff96ae04e02659ddc78f25a8d61bf61}{E\+N\+S\+E\+M\+::trace\+Spin\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpinMultiply}{Fn\+Trace\+Spin\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaff573e35e3b3904f735317f67cae28f6}{E\+N\+S\+E\+M\+::trace\+Spin\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpinMultiply}{Fn\+Trace\+Spin\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaa152d77bf9e2e211ff35c733b40f6c64}{E\+N\+S\+E\+M\+::trace\+Spin\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnReal}{Fn\+Real}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gaa89ce5a88c3ccb5020ce1319e041cacd}{E\+N\+S\+E\+M\+::real}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnImag}{Fn\+Imag}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga227c6429f15ec19a09a182551be38dad}{E\+N\+S\+E\+M\+::imag}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnCmplx}{Fn\+Cmplx}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga28de8e5b7b3d990424b77f7d9eeb2ec1}{E\+N\+S\+E\+M\+::cmplx}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&s2)
+\begin{DoxyCompactList}\small\item\em O\+Matrix$<$\+T$>$ = (O\+Matrix$<$\+T$>$ , O\+Matrix$<$\+T$>$) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesI}{Fn\+TimesI}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga988cbbcb7d182905bfc7bf8cda7543cf}{E\+N\+S\+E\+M\+::timesI}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesMinusI}{Fn\+Times\+MinusI}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga2c4879d53ca01a4233b94574e3c93b4f}{E\+N\+S\+E\+M\+::times\+MinusI}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinVector}{Fn\+Peek\+Spin\+Vector}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga4d21a5274ec8135eea719a150bed1f7a}{E\+N\+S\+E\+M\+::peek\+Spin}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&l, int row)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinMatrix}{Fn\+Peek\+Spin\+Matrix}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga5d47056fa4fb3fad4e48957e55c3cdec}{E\+N\+S\+E\+M\+::peek\+Spin}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&l, int row, int col)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPokeSpinMatrix}{Fn\+Poke\+Spin\+Matrix}} $>$\+::Type\+\_\+t \& \mbox{\hyperlink{group__obsmatrix_ga45420280324408e59bcbaca0ead5aa55}{E\+N\+S\+E\+M\+::poke\+Spin}} (\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r, int row)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPokeSpinMatrix}{Fn\+Poke\+Spin\+Matrix}} $>$\+::Type\+\_\+t \& \mbox{\hyperlink{group__obsmatrix_gade958f6bfe55cda547000e6badb137c7}{E\+N\+S\+E\+M\+::poke\+Spin}} (\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&r, int row, int col)
+\begin{DoxyCompactList}\small\item\em Insert spin matrix components. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__obsmatrix_gaf3d502e6c7fccd147d8023eda09b31b4}{E\+N\+S\+E\+M\+::zero\+\_\+rep}} (\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&dest)
+\begin{DoxyCompactList}\small\item\em dest = 0 \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , class T1 $>$ }\\void \mbox{\hyperlink{group__obsmatrix_gaa09c3011b1e6555dcc6e4f9b51d1f5de}{E\+N\+S\+E\+M\+::copymask}} (\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&d, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&mask, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em dest = (mask) ? s1 \+: dest \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__obsmatrix_ga3fed53cf2a765d06a2ba3d79f2516f35}{E\+N\+S\+E\+M\+::fill\+\_\+random}} (\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em dest = random \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__obsmatrix_ga5abeb3bfc7329fc57387aefff992eb94}{E\+N\+S\+E\+M\+::fill\+\_\+gaussian}} (\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&d, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&r1, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&r2)
+\begin{DoxyCompactList}\small\item\em dest = gaussian \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalNorm2}{Fn\+Local\+Norm2}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga13d075f8a50ffa95c7a8a7fa61fe8028}{E\+N\+S\+E\+M\+::local\+Norm2}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga53af10b5c51df2876f7569d4691cbd0d}{E\+N\+S\+E\+M\+::local\+Inner\+Product}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga23c94fe0afdadaedf50d233d675f0009}{E\+N\+S\+E\+M\+::local\+Inner\+Product}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gac43a43c02ea508251047ef46cbc6924c}{E\+N\+S\+E\+M\+::local\+Inner\+Product}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProductReal}{Fn\+Local\+Inner\+Product\+Real}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gacc55b39949beec3cc3690b3c892801d2}{E\+N\+S\+E\+M\+::local\+Inner\+Product\+Real}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProductReal}{Fn\+Local\+Inner\+Product\+Real}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga3b363fa48471a9d3fc6da5cbfcb21fb5}{E\+N\+S\+E\+M\+::local\+Inner\+Product\+Real}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProductReal}{Fn\+Local\+Inner\+Product\+Real}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_gad83f3516610f8446eb55b7e511c807be}{E\+N\+S\+E\+M\+::local\+Inner\+Product\+Real}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 , class T3 $>$ }\\\mbox{\hyperlink{structENSEM_1_1TrinaryReturn}{Trinary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T3 $>$, \mbox{\hyperlink{structENSEM_1_1FnWhere}{Fn\+Where}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__obsmatrix_ga9938a7a656eaaa3617a11303334942ef}{E\+N\+S\+E\+M\+::where}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&a, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&b, const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T3 $>$ \&c)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Observable type that transforms like a matrix 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__obsmatrix_gab99c32b7f3eabbe8b6a6ec2834914c88}\label{group__obsmatrix_gab99c32b7f3eabbe8b6a6ec2834914c88}} 
+\index{Matrix primitive@{Matrix primitive}!adj@{adj}}
+\index{adj@{adj}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{adj()}{adj()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnAdjoint}{Fn\+Adjoint}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::adj (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gab99c32b7f3eabbe8b6a6ec2834914c88_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga28de8e5b7b3d990424b77f7d9eeb2ec1}\label{group__obsmatrix_ga28de8e5b7b3d990424b77f7d9eeb2ec1}} 
+\index{Matrix primitive@{Matrix primitive}!cmplx@{cmplx}}
+\index{cmplx@{cmplx}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{cmplx()}{cmplx()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnCmplx}{Fn\+Cmplx}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::cmplx (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+O\+Matrix$<$\+T$>$ = (O\+Matrix$<$\+T$>$ , O\+Matrix$<$\+T$>$) 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga28de8e5b7b3d990424b77f7d9eeb2ec1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaa0e14166cccccfb643584dfa83138cb2}\label{group__obsmatrix_gaa0e14166cccccfb643584dfa83138cb2}} 
+\index{Matrix primitive@{Matrix primitive}!conj@{conj}}
+\index{conj@{conj}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{conj()}{conj()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnConjugate}{Fn\+Conjugate}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::conj (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gaa0e14166cccccfb643584dfa83138cb2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaa09c3011b1e6555dcc6e4f9b51d1f5de}\label{group__obsmatrix_gaa09c3011b1e6555dcc6e4f9b51d1f5de}} 
+\index{Matrix primitive@{Matrix primitive}!copymask@{copymask}}
+\index{copymask@{copymask}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{copymask()}{copymask()}}
+{\footnotesize\ttfamily template$<$class T , class T1 $>$ \\
+void E\+N\+S\+E\+M\+::copymask (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{d,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{mask,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = (mask) ? s1 \+: dest 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{d8/d55/group__obsmatrix_gaa09c3011b1e6555dcc6e4f9b51d1f5de_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{d8/d55/group__obsmatrix_gaa09c3011b1e6555dcc6e4f9b51d1f5de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga5abeb3bfc7329fc57387aefff992eb94}\label{group__obsmatrix_ga5abeb3bfc7329fc57387aefff992eb94}} 
+\index{Matrix primitive@{Matrix primitive}!fill\_gaussian@{fill\_gaussian}}
+\index{fill\_gaussian@{fill\_gaussian}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{fill\_gaussian()}{fill\_gaussian()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::fill\+\_\+gaussian (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{d,  }\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{r1,  }\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{r2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = gaussian 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga5abeb3bfc7329fc57387aefff992eb94_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga3fed53cf2a765d06a2ba3d79f2516f35}\label{group__obsmatrix_ga3fed53cf2a765d06a2ba3d79f2516f35}} 
+\index{Matrix primitive@{Matrix primitive}!fill\_random@{fill\_random}}
+\index{fill\_random@{fill\_random}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{fill\_random()}{fill\_random()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::fill\+\_\+random (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = random 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga3fed53cf2a765d06a2ba3d79f2516f35_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga227c6429f15ec19a09a182551be38dad}\label{group__obsmatrix_ga227c6429f15ec19a09a182551be38dad}} 
+\index{Matrix primitive@{Matrix primitive}!imag@{imag}}
+\index{imag@{imag}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{imag()}{imag()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnImag}{Fn\+Imag}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::imag (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga227c6429f15ec19a09a182551be38dad_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga3c2758e95f41075ca3a027c6651a66aa}\label{group__obsmatrix_ga3c2758e95f41075ca3a027c6651a66aa}} 
+\index{Matrix primitive@{Matrix primitive}!imagTrace@{imagTrace}}
+\index{imagTrace@{imagTrace}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{imagTrace()}{imagTrace()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnImagTrace}{Fn\+Imag\+Trace}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::imag\+Trace (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{d8/d55/group__obsmatrix_ga3c2758e95f41075ca3a027c6651a66aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga53af10b5c51df2876f7569d4691cbd0d}\label{group__obsmatrix_ga53af10b5c51df2876f7569d4691cbd0d}} 
+\index{Matrix primitive@{Matrix primitive}!localInnerProduct@{localInnerProduct}}
+\index{localInnerProduct@{localInnerProduct}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localInnerProduct()}{localInnerProduct()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga53af10b5c51df2876f7569d4691cbd0d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga23c94fe0afdadaedf50d233d675f0009}\label{group__obsmatrix_ga23c94fe0afdadaedf50d233d675f0009}} 
+\index{Matrix primitive@{Matrix primitive}!localInnerProduct@{localInnerProduct}}
+\index{localInnerProduct@{localInnerProduct}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localInnerProduct()}{localInnerProduct()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga23c94fe0afdadaedf50d233d675f0009_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gac43a43c02ea508251047ef46cbc6924c}\label{group__obsmatrix_gac43a43c02ea508251047ef46cbc6924c}} 
+\index{Matrix primitive@{Matrix primitive}!localInnerProduct@{localInnerProduct}}
+\index{localInnerProduct@{localInnerProduct}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localInnerProduct()}{localInnerProduct()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gac43a43c02ea508251047ef46cbc6924c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gacc55b39949beec3cc3690b3c892801d2}\label{group__obsmatrix_gacc55b39949beec3cc3690b3c892801d2}} 
+\index{Matrix primitive@{Matrix primitive}!localInnerProductReal@{localInnerProductReal}}
+\index{localInnerProductReal@{localInnerProductReal}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localInnerProductReal()}{localInnerProductReal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProductReal}{Fn\+Local\+Inner\+Product\+Real}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product\+Real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gacc55b39949beec3cc3690b3c892801d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga3b363fa48471a9d3fc6da5cbfcb21fb5}\label{group__obsmatrix_ga3b363fa48471a9d3fc6da5cbfcb21fb5}} 
+\index{Matrix primitive@{Matrix primitive}!localInnerProductReal@{localInnerProductReal}}
+\index{localInnerProductReal@{localInnerProductReal}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localInnerProductReal()}{localInnerProductReal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProductReal}{Fn\+Local\+Inner\+Product\+Real}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product\+Real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga3b363fa48471a9d3fc6da5cbfcb21fb5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gad83f3516610f8446eb55b7e511c807be}\label{group__obsmatrix_gad83f3516610f8446eb55b7e511c807be}} 
+\index{Matrix primitive@{Matrix primitive}!localInnerProductReal@{localInnerProductReal}}
+\index{localInnerProductReal@{localInnerProductReal}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localInnerProductReal()}{localInnerProductReal()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProductReal}{Fn\+Local\+Inner\+Product\+Real}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product\+Real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gad83f3516610f8446eb55b7e511c807be_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga13d075f8a50ffa95c7a8a7fa61fe8028}\label{group__obsmatrix_ga13d075f8a50ffa95c7a8a7fa61fe8028}} 
+\index{Matrix primitive@{Matrix primitive}!localNorm2@{localNorm2}}
+\index{localNorm2@{localNorm2}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{localNorm2()}{localNorm2()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalNorm2}{Fn\+Local\+Norm2}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Norm2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga13d075f8a50ffa95c7a8a7fa61fe8028_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga7c6a61b10289159298bd053adf13f1a6}\label{group__obsmatrix_ga7c6a61b10289159298bd053adf13f1a6}} 
+\index{Matrix primitive@{Matrix primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__obsmatrix_gaf5ede60943f488e0a637504e6838529e}\label{group__obsmatrix_gaf5ede60943f488e0a637504e6838529e}} 
+\index{Matrix primitive@{Matrix primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{d8/d55/group__obsmatrix_gaf5ede60943f488e0a637504e6838529e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga92a06278aeac18e092853d6c4cf37b0b}\label{group__obsmatrix_ga92a06278aeac18e092853d6c4cf37b0b}} 
+\index{Matrix primitive@{Matrix primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{d8/d55/group__obsmatrix_ga92a06278aeac18e092853d6c4cf37b0b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gae4d0316e65f7b3ddc273955cf4801ba6}\label{group__obsmatrix_gae4d0316e65f7b3ddc273955cf4801ba6}} 
+\index{Matrix primitive@{Matrix primitive}!operator+@{operator+}}
+\index{operator+@{operator+}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryPlus}{Op\+Unary\+Plus}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__obsmatrix_ga0ad42a3395997cd3a2d836e981969fe2}\label{group__obsmatrix_ga0ad42a3395997cd3a2d836e981969fe2}} 
+\index{Matrix primitive@{Matrix primitive}!operator+@{operator+}}
+\index{operator+@{operator+}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__obsmatrix_ga594575d5bb0ce31fd07e9fb29fd9c8ac}\label{group__obsmatrix_ga594575d5bb0ce31fd07e9fb29fd9c8ac}} 
+\index{Matrix primitive@{Matrix primitive}!operator+@{operator+}}
+\index{operator+@{operator+}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{d8/d55/group__obsmatrix_ga594575d5bb0ce31fd07e9fb29fd9c8ac_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga6cdb2a903fbc9f5a836a442a81275a56}\label{group__obsmatrix_ga6cdb2a903fbc9f5a836a442a81275a56}} 
+\index{Matrix primitive@{Matrix primitive}!operator+@{operator+}}
+\index{operator+@{operator+}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{d8/d55/group__obsmatrix_ga6cdb2a903fbc9f5a836a442a81275a56_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaf8abde7e3428822593f11a4317f48880}\label{group__obsmatrix_gaf8abde7e3428822593f11a4317f48880}} 
+\index{Matrix primitive@{Matrix primitive}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryMinus}{Op\+Unary\+Minus}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__obsmatrix_ga71b6bee34df2dbf2b2312b75612fd45f}\label{group__obsmatrix_ga71b6bee34df2dbf2b2312b75612fd45f}} 
+\index{Matrix primitive@{Matrix primitive}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__obsmatrix_ga14c923aa4a21485e30dc3ed6f5c0ab46}\label{group__obsmatrix_ga14c923aa4a21485e30dc3ed6f5c0ab46}} 
+\index{Matrix primitive@{Matrix primitive}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d8/d55/group__obsmatrix_ga14c923aa4a21485e30dc3ed6f5c0ab46_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga57164fdcdeca01384e08724c0cf01504}\label{group__obsmatrix_ga57164fdcdeca01384e08724c0cf01504}} 
+\index{Matrix primitive@{Matrix primitive}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d8/d55/group__obsmatrix_ga57164fdcdeca01384e08724c0cf01504_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaa90c91fdbe2814bb15f1ac76012585d8}\label{group__obsmatrix_gaa90c91fdbe2814bb15f1ac76012585d8}} 
+\index{Matrix primitive@{Matrix primitive}!operator/@{operator/}}
+\index{operator/@{operator/}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpDivide}{Op\+Divide}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d8/d55/group__obsmatrix_gaa90c91fdbe2814bb15f1ac76012585d8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gacdc76da3bc2873feb9cad8323ea02e83}\label{group__obsmatrix_gacdc76da3bc2873feb9cad8323ea02e83}} 
+\index{Matrix primitive@{Matrix primitive}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classENSEM_1_1TextWriter}{Text\+Writer}} \& E\+N\+S\+E\+M\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1TextWriter}{Text\+Writer}} \&}]{txt,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Text output. 
+
+\mbox{\Hypertarget{group__obsmatrix_ga62a405af58665d9bce46afb03abd8c90}\label{group__obsmatrix_ga62a405af58665d9bce46afb03abd8c90}} 
+\index{Matrix primitive@{Matrix primitive}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+::\+X\+M\+L\+Writer}} \& E\+N\+S\+E\+M\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+::\+X\+M\+L\+Writer}} \&}]{xml,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+X\+ML output. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d8/d55/group__obsmatrix_ga62a405af58665d9bce46afb03abd8c90_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga2c0b293dbb7aeff91ccffc12fdb0e858}\label{group__obsmatrix_ga2c0b293dbb7aeff91ccffc12fdb0e858}} 
+\index{Matrix primitive@{Matrix primitive}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classENSEM_1_1TextReader}{Text\+Reader}} \& E\+N\+S\+E\+M\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1TextReader}{Text\+Reader}} \&}]{txt,  }\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Text input. 
+
+\mbox{\Hypertarget{group__obsmatrix_ga4d21a5274ec8135eea719a150bed1f7a}\label{group__obsmatrix_ga4d21a5274ec8135eea719a150bed1f7a}} 
+\index{Matrix primitive@{Matrix primitive}!peekSpin@{peekSpin}}
+\index{peekSpin@{peekSpin}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{peekSpin()}{peekSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinVector}{Fn\+Peek\+Spin\+Vector}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{l,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga4d21a5274ec8135eea719a150bed1f7a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga5d47056fa4fb3fad4e48957e55c3cdec}\label{group__obsmatrix_ga5d47056fa4fb3fad4e48957e55c3cdec}} 
+\index{Matrix primitive@{Matrix primitive}!peekSpin@{peekSpin}}
+\index{peekSpin@{peekSpin}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{peekSpin()}{peekSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinMatrix}{Fn\+Peek\+Spin\+Matrix}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{l,  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga5d47056fa4fb3fad4e48957e55c3cdec_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga45420280324408e59bcbaca0ead5aa55}\label{group__obsmatrix_ga45420280324408e59bcbaca0ead5aa55}} 
+\index{Matrix primitive@{Matrix primitive}!pokeSpin@{pokeSpin}}
+\index{pokeSpin@{pokeSpin}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{pokeSpin()}{pokeSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPokeSpinMatrix}{Fn\+Poke\+Spin\+Matrix}} $>$\+::Type\+\_\+t \& E\+N\+S\+E\+M\+::poke\+Spin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga45420280324408e59bcbaca0ead5aa55_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gade958f6bfe55cda547000e6badb137c7}\label{group__obsmatrix_gade958f6bfe55cda547000e6badb137c7}} 
+\index{Matrix primitive@{Matrix primitive}!pokeSpin@{pokeSpin}}
+\index{pokeSpin@{pokeSpin}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{pokeSpin()}{pokeSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPokeSpinMatrix}{Fn\+Poke\+Spin\+Matrix}} $>$\+::Type\+\_\+t \& E\+N\+S\+E\+M\+::poke\+Spin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert spin matrix components. 
+
+Generically, this is an identity operation. Defined differently under spin Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gade958f6bfe55cda547000e6badb137c7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaa89ce5a88c3ccb5020ce1319e041cacd}\label{group__obsmatrix_gaa89ce5a88c3ccb5020ce1319e041cacd}} 
+\index{Matrix primitive@{Matrix primitive}!real@{real}}
+\index{real@{real}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{real()}{real()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnReal}{Fn\+Real}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gaa89ce5a88c3ccb5020ce1319e041cacd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gab3988428b88d3b56d2f959c536ec7d2a}\label{group__obsmatrix_gab3988428b88d3b56d2f959c536ec7d2a}} 
+\index{Matrix primitive@{Matrix primitive}!realTrace@{realTrace}}
+\index{realTrace@{realTrace}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{realTrace()}{realTrace()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnRealTrace}{Fn\+Real\+Trace}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::real\+Trace (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d8/d55/group__obsmatrix_gab3988428b88d3b56d2f959c536ec7d2a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga988cbbcb7d182905bfc7bf8cda7543cf}\label{group__obsmatrix_ga988cbbcb7d182905bfc7bf8cda7543cf}} 
+\index{Matrix primitive@{Matrix primitive}!timesI@{timesI}}
+\index{timesI@{timesI}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{timesI()}{timesI()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesI}{Fn\+TimesI}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::timesI (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga988cbbcb7d182905bfc7bf8cda7543cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga2c4879d53ca01a4233b94574e3c93b4f}\label{group__obsmatrix_ga2c4879d53ca01a4233b94574e3c93b4f}} 
+\index{Matrix primitive@{Matrix primitive}!timesMinusI@{timesMinusI}}
+\index{timesMinusI@{timesMinusI}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{timesMinusI()}{timesMinusI()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesMinusI}{Fn\+Times\+MinusI}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::times\+MinusI (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga2c4879d53ca01a4233b94574e3c93b4f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaff7b73c5978746f6706e0cd02f55cc40}\label{group__obsmatrix_gaff7b73c5978746f6706e0cd02f55cc40}} 
+\index{Matrix primitive@{Matrix primitive}!trace@{trace}}
+\index{trace@{trace}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{trace()}{trace()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTrace}{Fn\+Trace}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gaff7b73c5978746f6706e0cd02f55cc40_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga60f2f16fd8f3e889214584d3c0a90e92}\label{group__obsmatrix_ga60f2f16fd8f3e889214584d3c0a90e92}} 
+\index{Matrix primitive@{Matrix primitive}!traceMultiply@{traceMultiply}}
+\index{traceMultiply@{traceMultiply}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceMultiply()}{traceMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceMultiply}{Fn\+Trace\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga60f2f16fd8f3e889214584d3c0a90e92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga465cbe792dfb205b829f653853253e8f}\label{group__obsmatrix_ga465cbe792dfb205b829f653853253e8f}} 
+\index{Matrix primitive@{Matrix primitive}!traceMultiply@{traceMultiply}}
+\index{traceMultiply@{traceMultiply}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceMultiply()}{traceMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceMultiply}{Fn\+Trace\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_ga465cbe792dfb205b829f653853253e8f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gab9e4e0bccae4aa80554908fd966782e1}\label{group__obsmatrix_gab9e4e0bccae4aa80554908fd966782e1}} 
+\index{Matrix primitive@{Matrix primitive}!traceMultiply@{traceMultiply}}
+\index{traceMultiply@{traceMultiply}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceMultiply()}{traceMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceMultiply}{Fn\+Trace\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gab9e4e0bccae4aa80554908fd966782e1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gae311225b718ade4433fe82a01a290d63}\label{group__obsmatrix_gae311225b718ade4433fe82a01a290d63}} 
+\index{Matrix primitive@{Matrix primitive}!traceSpin@{traceSpin}}
+\index{traceSpin@{traceSpin}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceSpin()}{traceSpin()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpin}{Fn\+Trace\+Spin}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{d8/d55/group__obsmatrix_gae311225b718ade4433fe82a01a290d63_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gabff96ae04e02659ddc78f25a8d61bf61}\label{group__obsmatrix_gabff96ae04e02659ddc78f25a8d61bf61}} 
+\index{Matrix primitive@{Matrix primitive}!traceSpinMultiply@{traceSpinMultiply}}
+\index{traceSpinMultiply@{traceSpinMultiply}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceSpinMultiply()}{traceSpinMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpinMultiply}{Fn\+Trace\+Spin\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Spin\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gabff96ae04e02659ddc78f25a8d61bf61_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaff573e35e3b3904f735317f67cae28f6}\label{group__obsmatrix_gaff573e35e3b3904f735317f67cae28f6}} 
+\index{Matrix primitive@{Matrix primitive}!traceSpinMultiply@{traceSpinMultiply}}
+\index{traceSpinMultiply@{traceSpinMultiply}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceSpinMultiply()}{traceSpinMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpinMultiply}{Fn\+Trace\+Spin\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Spin\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gaff573e35e3b3904f735317f67cae28f6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gaa152d77bf9e2e211ff35c733b40f6c64}\label{group__obsmatrix_gaa152d77bf9e2e211ff35c733b40f6c64}} 
+\index{Matrix primitive@{Matrix primitive}!traceSpinMultiply@{traceSpinMultiply}}
+\index{traceSpinMultiply@{traceSpinMultiply}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{traceSpinMultiply()}{traceSpinMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnTraceSpinMultiply}{Fn\+Trace\+Spin\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+Spin\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gaa152d77bf9e2e211ff35c733b40f6c64_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_gae3097e7f8ff8914a37a874367aed476b}\label{group__obsmatrix_gae3097e7f8ff8914a37a874367aed476b}} 
+\index{Matrix primitive@{Matrix primitive}!transpose@{transpose}}
+\index{transpose@{transpose}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{transpose()}{transpose()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTranspose}{Fn\+Transpose}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::transpose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gae3097e7f8ff8914a37a874367aed476b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__obsmatrix_ga9938a7a656eaaa3617a11303334942ef}\label{group__obsmatrix_ga9938a7a656eaaa3617a11303334942ef}} 
+\index{Matrix primitive@{Matrix primitive}!where@{where}}
+\index{where@{where}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{where()}{where()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 , class T3 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1TrinaryReturn}{Trinary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$, \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T3 $>$, \mbox{\hyperlink{structENSEM_1_1FnWhere}{Fn\+Where}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::where (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T2 $>$ \&}]{b,  }\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T3 $>$ \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__obsmatrix_gaf3d502e6c7fccd147d8023eda09b31b4}\label{group__obsmatrix_gaf3d502e6c7fccd147d8023eda09b31b4}} 
+\index{Matrix primitive@{Matrix primitive}!zero\_rep@{zero\_rep}}
+\index{zero\_rep@{zero\_rep}!Matrix primitive@{Matrix primitive}}
+\subsubsection{\texorpdfstring{zero\_rep()}{zero\_rep()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::zero\+\_\+rep (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{dest }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = 0 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d55/group__obsmatrix_gaf3d502e6c7fccd147d8023eda09b31b4_cgraph}
+\end{center}
+\end{figure}

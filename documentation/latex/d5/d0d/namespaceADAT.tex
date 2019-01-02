@@ -1,0 +1,247 @@
+\hypertarget{namespaceADAT}{}\section{A\+D\+AT Namespace Reference}
+\label{namespaceADAT}\index{ADAT@{ADAT}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}
+\begin{DoxyCompactList}\small\item\em 1d array, with 1-\/based indices \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}
+\begin{DoxyCompactList}\small\item\em 2d array, with 1-\/based indices \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}
+\begin{DoxyCompactList}\small\item\em 3d array, with 1-\/based indices \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}
+\begin{DoxyCompactList}\small\item\em Container for a generic N dimensional array. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1Handle}{Handle}}
+\begin{DoxyCompactList}\small\item\em Class for counted reference semantics. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}}
+\begin{DoxyCompactList}\small\item\em A wrapper over maps. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1MapObjectIterator}{Map\+Object\+Iterator}}
+\begin{DoxyCompactList}\small\item\em Iterator for a \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}}. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{Ordered\+Map\+Object}}
+\begin{DoxyCompactList}\small\item\em A wrapper over maps. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADAT_1_1UnorderedMapTraits}{Unordered\+Map\+Traits}}
+\begin{DoxyCompactList}\small\item\em Support for unordered\+\_\+map from the T\+R1 lib. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \mbox{\hyperlink{namespaceADAT_a38346a215cc728771b946bbdaa59e62f}{operator-\/}} (const \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em unary -\/ \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \mbox{\hyperlink{namespaceADAT_af3b34c2746ded9a7804cc7f35945a02e}{operator$\ast$}} (const T \&s, const \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar $\ast$ Array \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \mbox{\hyperlink{namespaceADAT_a32b40ea36b55f2b40457eb0c0ad63d90}{operator/}} (const \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em Array / scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \mbox{\hyperlink{namespaceADAT_a891c59cca15a986469283c3b0c8c8b9f}{operator-\/}} (const \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em unary -\/ \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \mbox{\hyperlink{namespaceADAT_aef364bd88d427d6a56a11f3201cbfaca}{operator$\ast$}} (const T \&s, const \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar $\ast$ Array \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \mbox{\hyperlink{namespaceADAT_a12fe989a3965397dc5f1f6003582023f}{operator/}} (const \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em Array / scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{namespaceADAT_ab1cb4aab951dd138f8f0a73f5c3ead6d}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader}} \&xml, const std\+::string \&s, \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}}$<$ K, V $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}} via xml. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{namespaceADAT_a38920c20e5e4ccb234f9a05e436a4faa}{write}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \&xml, const std\+::string \&path, const \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}}$<$ K, V $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Write a \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}} in xml. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{namespaceADAT_ac0708a73475d6ed645b663e2d919f90b}{hashfunc}} (const std\+::string \&that)
+\begin{DoxyCompactList}\small\item\em Hash function call. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespaceADAT_a3145f853c462f1c95b958f5deb7709a5}{hashcmp}} (const std\+::string \&that1, const std\+::string \&that2)
+\begin{DoxyCompactList}\small\item\em Equivalence. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADAT_a93a8baf56c435bc0fe7bd252601f28f6}{proginfo}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&xml)
+\begin{DoxyCompactList}\small\item\em Print out basic information about this program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceADAT_a3145f853c462f1c95b958f5deb7709a5}\label{namespaceADAT_a3145f853c462f1c95b958f5deb7709a5}} 
+\index{ADAT@{ADAT}!hashcmp@{hashcmp}}
+\index{hashcmp@{hashcmp}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{hashcmp()}{hashcmp()}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+::hashcmp (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{that1,  }\item[{const std\+::string \&}]{that2 }\end{DoxyParamCaption})}
+
+
+
+Equivalence. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d5/d0d/namespaceADAT_a3145f853c462f1c95b958f5deb7709a5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADAT_ac0708a73475d6ed645b663e2d919f90b}\label{namespaceADAT_ac0708a73475d6ed645b663e2d919f90b}} 
+\index{ADAT@{ADAT}!hashfunc@{hashfunc}}
+\index{hashfunc@{hashfunc}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{hashfunc()}{hashfunc()}}
+{\footnotesize\ttfamily size\+\_\+t A\+D\+A\+T\+::hashfunc (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{that }\end{DoxyParamCaption})}
+
+
+
+Hash function call. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d5/d0d/namespaceADAT_ac0708a73475d6ed645b663e2d919f90b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADAT_af3b34c2746ded9a7804cc7f35945a02e}\label{namespaceADAT_af3b34c2746ded9a7804cc7f35945a02e}} 
+\index{ADAT@{ADAT}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ A\+D\+A\+T\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar $\ast$ Array 
+
+\mbox{\Hypertarget{namespaceADAT_aef364bd88d427d6a56a11f3201cbfaca}\label{namespaceADAT_aef364bd88d427d6a56a11f3201cbfaca}} 
+\index{ADAT@{ADAT}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ A\+D\+A\+T\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar $\ast$ Array 
+
+\mbox{\Hypertarget{namespaceADAT_a38346a215cc728771b946bbdaa59e62f}\label{namespaceADAT_a38346a215cc728771b946bbdaa59e62f}} 
+\index{ADAT@{ADAT}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ A\+D\+A\+T\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unary -\/ 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{d5/d0d/namespaceADAT_a38346a215cc728771b946bbdaa59e62f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADAT_a891c59cca15a986469283c3b0c8c8b9f}\label{namespaceADAT_a891c59cca15a986469283c3b0c8c8b9f}} 
+\index{ADAT@{ADAT}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ A\+D\+A\+T\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unary -\/ 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{d5/d0d/namespaceADAT_a891c59cca15a986469283c3b0c8c8b9f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADAT_a32b40ea36b55f2b40457eb0c0ad63d90}\label{namespaceADAT_a32b40ea36b55f2b40457eb0c0ad63d90}} 
+\index{ADAT@{ADAT}!operator/@{operator/}}
+\index{operator/@{operator/}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ A\+D\+A\+T\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array1dO}{Array1dO}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Array / scalar. 
+
+\mbox{\Hypertarget{namespaceADAT_a12fe989a3965397dc5f1f6003582023f}\label{namespaceADAT_a12fe989a3965397dc5f1f6003582023f}} 
+\index{ADAT@{ADAT}!operator/@{operator/}}
+\index{operator/@{operator/}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ A\+D\+A\+T\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array3dO}{Array3dO}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Array / scalar. 
+
+\mbox{\Hypertarget{namespaceADAT_a93a8baf56c435bc0fe7bd252601f28f6}\label{namespaceADAT_a93a8baf56c435bc0fe7bd252601f28f6}} 
+\index{ADAT@{ADAT}!proginfo@{proginfo}}
+\index{proginfo@{proginfo}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{proginfo()}{proginfo()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+::proginfo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&}]{xml }\end{DoxyParamCaption})}
+
+
+
+Print out basic information about this program. 
+
+Print out basic info about this program.
+
+
+\begin{DoxyParams}{Parameters}
+{\em xml} & The X\+ML stream to which to write the information.\\
+\hline
+\end{DoxyParams}
+Arguments\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em xml} & The xml stream to write the info \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d0d/namespaceADAT_a93a8baf56c435bc0fe7bd252601f28f6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADAT_ab1cb4aab951dd138f8f0a73f5c3ead6d}\label{namespaceADAT_ab1cb4aab951dd138f8f0a73f5c3ead6d}} 
+\index{ADAT@{ADAT}!read@{read}}
+\index{read@{read}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void A\+D\+A\+T\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{s,  }\item[{\mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}}$<$ K, V $>$ \&}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}} via xml. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d0d/namespaceADAT_ab1cb4aab951dd138f8f0a73f5c3ead6d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{d5/d0d/namespaceADAT_ab1cb4aab951dd138f8f0a73f5c3ead6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADAT_a38920c20e5e4ccb234f9a05e436a4faa}\label{namespaceADAT_a38920c20e5e4ccb234f9a05e436a4faa}} 
+\index{ADAT@{ADAT}!write@{write}}
+\index{write@{write}!ADAT@{ADAT}}
+\subsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void A\+D\+A\+T\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{const \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}}$<$ K, V $>$ \&}]{param }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write a \mbox{\hyperlink{classADAT_1_1MapObject}{Map\+Object}} in xml. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d0d/namespaceADAT_a38920c20e5e4ccb234f9a05e436a4faa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d5/d0d/namespaceADAT_a38920c20e5e4ccb234f9a05e436a4faa_icgraph}
+\end{center}
+\end{figure}

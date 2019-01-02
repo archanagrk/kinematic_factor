@@ -1,0 +1,6 @@
+<map id="ADATIO::ADATFileReader::read" name="ADATIO::ADATFileReader::read">
+<area shape="rect" id="node1" title="Reads an array of objects all in a single record." alt="" coords="5,48,183,87"/>
+<area shape="rect" id="node2" href="$db/d6c/classXMLArray_1_1Array.html#a9c9e3fdc44557d1241103c207f7f69af" title="Return ref to a column slice." alt="" coords="235,5,389,31"/>
+<area shape="rect" id="node3" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="236,55,387,80"/>
+<area shape="rect" id="node4" href="$db/d6c/classXMLArray_1_1Array.html#a470913fde270ad0e578041654e2390f0" title="Allocate mem for the array." alt="" coords="231,104,393,129"/>
+</map>

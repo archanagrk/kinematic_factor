@@ -1,0 +1,753 @@
+\hypertarget{devel__install_2include_2recipes_2nr_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/recipes/nr.h File Reference}
+\label{devel__install_2include_2recipes_2nr_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/recipes/nr.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/recipes/nr.h}}
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+{\ttfamily \#include \char`\"{}nrutil.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}nrtypes.\+h\char`\"{}}\newline
+Include dependency graph for nr.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d04/devel__install_2include_2recipes_2nr_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classNR_1_1ScalFunc}{N\+R\+::\+Scal\+Func}}
+\item 
+class \mbox{\hyperlink{classNR_1_1PtrScalFunc}{N\+R\+::\+Ptr\+Scal\+Func}}
+\item 
+class \mbox{\hyperlink{classNR_1_1ScalFuncMultiVars}{N\+R\+::\+Scal\+Func\+Multi\+Vars}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceNR}{NR}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespaceNR_aec41661a6d34a54e59e37058f380730c}{N\+R\+::zbrac}} (const Scal\+Func \&func, DP \&x1, DP \&x2)
+\item 
+bool \mbox{\hyperlink{namespaceNR_a4dbd7cac092f614af934413917fc22d4}{N\+R\+::zbrac}} (DP func(const DP), DP \&x1, DP \&x2)
+\item 
+void \mbox{\hyperlink{namespaceNR_a83128554a5aed28c6d59ecb925577945}{N\+R\+::zbrak}} (const Scal\+Func \&fx, const DP x1, const DP x2, const int n, Vec\+\_\+\+O\+\_\+\+DP \&xb1, Vec\+\_\+\+O\+\_\+\+DP \&xb2, int \&nroot)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac611c5e25767065397e735aab1a07bf8}{N\+R\+::zbrak}} (DP fx(const DP), const DP x1, const DP x2, const int n, Vec\+\_\+\+O\+\_\+\+DP \&xb1, Vec\+\_\+\+O\+\_\+\+DP \&xb2, int \&nroot)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2cabd01c9ff7c4250cefe4cb1d545f49}{N\+R\+::zbrak\+Parallel}} (const Scal\+Func \&fx, const DP x1, const DP x2, const int n, Vec\+\_\+\+O\+\_\+\+DP \&xb1, Vec\+\_\+\+O\+\_\+\+DP \&xb2, int \&nroot)
+\item 
+void \mbox{\hyperlink{namespaceNR_aca7c15b9ebf8da85b483508c7352938f}{N\+R\+::zbrak\+Parallel}} (DP fx(const DP), const DP x1, const DP x2, const int n, Vec\+\_\+\+O\+\_\+\+DP \&xb1, Vec\+\_\+\+O\+\_\+\+DP \&xb2, int \&nroot)
+\item 
+bool \mbox{\hyperlink{namespaceNR_ab8c06a4592a772cfbeed372a197e2538}{N\+R\+::zbrac\+\_\+pos}} (const Scal\+Func \&func, DP \&x1, DP \&x2)
+\item 
+bool \mbox{\hyperlink{namespaceNR_afec512a07e73837d2a2f77ccbbce93db}{N\+R\+::zbrac\+\_\+pos}} (DP func(const DP), DP \&x1, DP \&x2)
+\item 
+bool \mbox{\hyperlink{namespaceNR_a01001dd7f12b7d7ef40d7b3f77bc84e7}{N\+R\+::zbrac\+\_\+limited}} (const Scal\+Func \&func, DP \&x1, DP \&x2, const DP \&xll, const DP \&xul)
+\item 
+bool \mbox{\hyperlink{namespaceNR_a843139adc6ba0089d6840b84ea7e935a}{N\+R\+::zbrac\+\_\+limited}} (DP func(const DP), DP \&x1, DP \&x2, const DP \&xll, const DP \&xul)
+\item 
+bool \mbox{\hyperlink{namespaceNR_a4f88ac71576d19d1bb1e167e6f5b1bdc}{N\+R\+::zbrac\+\_\+neg}} (const Scal\+Func \&func, DP \&x1, DP \&x2)
+\item 
+bool \mbox{\hyperlink{namespaceNR_ae680e6f764b658f8a61651eb172b4cab}{N\+R\+::zbrac\+\_\+neg}} (DP func(const DP), DP \&x1, DP \&x2)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ac5818de945dc13deb3bf29c2eda04523}{N\+R\+::zbrent}} (const Scal\+Func \&func, const DP x1, const DP x2, const DP tol)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a65e397db7c70abaac50b73cd18a8b8ae}{N\+R\+::zbrent}} (DP func(const DP), const DP x1, const DP x2, const DP tol)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aff9bab8f86d05c799cb643f8d3f4727b}{N\+R\+::brent}} (const DP ax, const DP bx, const DP cx, const Scal\+Func \&f, const DP tol, DP \&xmin)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a949db0b9cc65ac1f2224f5c48384f58a}{N\+R\+::brent}} (const DP ax, const DP bx, const DP cx, DP f(const DP), const DP tol, DP \&xmin)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab3df1c654ea34ede65a545dc399a8e43}{N\+R\+::mnbrak}} (DP \&ax, DP \&bx, DP \&cx, DP \&fa, DP \&fb, DP \&fc, const Scal\+Func \&func)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3fb2c9900887232361156bb23c4a3035}{N\+R\+::mnbrak}} (DP \&ax, DP \&bx, DP \&cx, DP \&fa, DP \&fb, DP \&fc, DP func(const DP))
+\item 
+void \mbox{\hyperlink{namespaceNR_a9217e3777ed00b4cd6f83abd69e4cef9}{N\+R\+::mnewt}} (const Scal\+Func\+Multi\+Vars \&f, const int ntrial, Vec\+\_\+\+I\+O\+\_\+\+DP \&x, const DP tolx, const DP tolf)
+\item 
+void \mbox{\hyperlink{namespaceNR_a613c01d6d0517310d92cab226cef58bc}{N\+R\+::mnewt\+\_\+safe}} (const Scal\+Func\+Multi\+Vars \&f, const int ntrial, Vec\+\_\+\+I\+O\+\_\+\+DP \&x, const DP tolx, const DP tolf, const bool do\+\_\+check)
+\item 
+void \mbox{\hyperlink{namespaceNR_aaab613fb80abc0d628e6625e1a9e5f42}{N\+R\+::addint}} (Mat\+\_\+\+O\+\_\+\+DP \&uf, Mat\+\_\+\+I\+\_\+\+DP \&uc, Mat\+\_\+\+O\+\_\+\+DP \&res)
+\item 
+void \mbox{\hyperlink{namespaceNR_a90700ac65b3bb16117cdf03479f37529}{N\+R\+::airy}} (const DP x, DP \&ai, DP \&bi, DP \&aip, DP \&bip)
+\item 
+void \mbox{\hyperlink{namespaceNR_a268778b02b6b0174580ca6006fdbac02}{N\+R\+::amebsa}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+I\+O\+\_\+\+DP \&y, Vec\+\_\+\+O\+\_\+\+DP \&pb, DP \&yb, const DP ftol, DP funk(Vec\+\_\+\+I\+\_\+\+DP \&), int \&iter, const DP temptr)
+\item 
+void \mbox{\hyperlink{namespaceNR_a55aa747fecbb0e45dc63e070662c6e2c}{N\+R\+::amoeba}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+I\+O\+\_\+\+DP \&y, const DP ftol, DP funk(Vec\+\_\+\+I\+\_\+\+DP \&), int \&nfunk)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a752225a62f24c2b80c703fd887f5c56e}{N\+R\+::amotry}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+O\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+DP \&psum, DP funk(Vec\+\_\+\+I\+\_\+\+DP \&), const int ihi, const DP fac)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a2f1f661e2421d96e8602ab14e7825666}{N\+R\+::amotsa}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+O\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+DP \&psum, Vec\+\_\+\+O\+\_\+\+DP \&pb, DP \&yb, DP funk(Vec\+\_\+\+I\+\_\+\+DP \&), const int ihi, DP \&yhi, const DP fac)
+\item 
+void \mbox{\hyperlink{namespaceNR_a65844d09b0713b4ceedf062342980ed3}{N\+R\+::anneal}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+I\+NT \&iorder)
+\item 
+DP \mbox{\hyperlink{namespaceNR_af5ce2ea46359aa499509ecbaff2c19df}{N\+R\+::anorm2}} (Mat\+\_\+\+I\+\_\+\+DP \&a)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3e98d20522b73c2270f4a8ec4676500f}{N\+R\+::arcmak}} (Vec\+\_\+\+I\+\_\+\+U\+L\+NG \&nfreq, unsigned long nchh, unsigned long nradd, arithcode \&acode)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7638af127fe6942f24780c5e4c284138}{N\+R\+::arcode}} (unsigned long \&ich, std\+::string \&code, unsigned long \&lcd, const int isign, arithcode \&acode)
+\item 
+void \mbox{\hyperlink{namespaceNR_adea26b3b53b427d36dacd90db22fc5e2}{N\+R\+::arcsum}} (Vec\+\_\+\+I\+\_\+\+U\+L\+NG \&iin, Vec\+\_\+\+O\+\_\+\+U\+L\+NG \&iout, unsigned long ja, const int nwk, const unsigned long nrad, const unsigned long nc)
+\item 
+void \mbox{\hyperlink{namespaceNR_a73116d8e72803b4f516bbb3cd7dcd4a0}{N\+R\+::asolve}} (Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+O\+\_\+\+DP \&x, const int itrnsp)
+\item 
+void \mbox{\hyperlink{namespaceNR_a262c43d532c94b65394e128aa2bf565c}{N\+R\+::atimes}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&r, const int itrnsp)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2a23625f7925fb351b9fb826f5fef1cf}{N\+R\+::avevar}} (Vec\+\_\+\+I\+\_\+\+DP \&data, DP \&ave, DP \&var)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2684fb6923e5945cc4197b44eae4df56}{N\+R\+::balanc}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a)
+\item 
+void \mbox{\hyperlink{namespaceNR_af240c4551b9a0a9c5cde123be9205132}{N\+R\+::banbks}} (Mat\+\_\+\+I\+\_\+\+DP \&a, const int m1, const int m2, Mat\+\_\+\+I\+\_\+\+DP \&al, Vec\+\_\+\+I\+\_\+\+I\+NT \&indx, Vec\+\_\+\+I\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_ad98237b2408813153be739eb27223c44}{N\+R\+::bandec}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, const int m1, const int m2, Mat\+\_\+\+O\+\_\+\+DP \&al, Vec\+\_\+\+O\+\_\+\+I\+NT \&indx, DP \&d)
+\item 
+void \mbox{\hyperlink{namespaceNR_a6c1a4ae0a3f56dd2d6c3a24d04681fa0}{N\+R\+::banmul}} (Mat\+\_\+\+I\+\_\+\+DP \&a, const int m1, const int m2, Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a82353f6fd70a72d599d3b4603afd3f43}{N\+R\+::bcucof}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&y1, Vec\+\_\+\+I\+\_\+\+DP \&y2, Vec\+\_\+\+I\+\_\+\+DP \&y12, const DP d1, const DP d2, Mat\+\_\+\+O\+\_\+\+DP \&c)
+\item 
+void \mbox{\hyperlink{namespaceNR_a607b5af26688cb0b3ba487bf2f36e19a}{N\+R\+::bcuint}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&y1, Vec\+\_\+\+I\+\_\+\+DP \&y2, Vec\+\_\+\+I\+\_\+\+DP \&y12, const DP x1l, const DP x1u, const DP x2l, const DP x2u, const DP x1, const DP x2, DP \&ansy, DP \&ansy1, DP \&ansy2)
+\item 
+void \mbox{\hyperlink{namespaceNR_a59a7410b6bb6b498a11bb530d8bf6f0c}{N\+R\+::beschb}} (const DP x, DP \&gam1, DP \&gam2, DP \&gampl, DP \&gammi)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a17f13d2217a863a186aa76237c3c288b}{N\+R\+::bessi}} (const int n, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a225c3ef3fda946f4edce62f5e8b31840}{N\+R\+::bessi0}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a70a172f14124c10b796af212fdb125ec}{N\+R\+::bessi1}} (const DP x)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac11d8c1819aee8d97aa4bdf944534212}{N\+R\+::bessik}} (const DP x, const DP xnu, DP \&ri, DP \&rk, DP \&rip, DP \&rkp)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a92c1165db5f7c1972279d98ef34037d0}{N\+R\+::bessj}} (const int n, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ac93cd7e7156598f76f6bb6de2833c776}{N\+R\+::bessj0}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a4115607a7ec9c7f9120010c2b95828bb}{N\+R\+::bessj1}} (const DP x)
+\item 
+void \mbox{\hyperlink{namespaceNR_a1d4131e07fae6eb514a9c163b52e0c04}{N\+R\+::bessjy}} (const DP x, const DP xnu, DP \&rj, DP \&ry, DP \&rjp, DP \&ryp)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a40c43ba6abef517ca55293673c417584}{N\+R\+::bessk}} (const int n, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ad7a01f8ec189b154d56f9c82617d9991}{N\+R\+::bessk0}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a78b14863c0539fb70061775456e35d08}{N\+R\+::bessk1}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a470fb46ac0e710eae347c1137b1ebfb8}{N\+R\+::bessy}} (const int n, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ae31454cfbd454b6de0460f0e08ef933b}{N\+R\+::bessy0}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ae507795ea35c6716c6bf449c48af314f}{N\+R\+::bessy1}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a060c1496967431dfd707b603985a33b7}{N\+R\+::beta}} (const DP z, const DP w)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a52e6dba4373484f23464637a58c46c39}{N\+R\+::betacf}} (const DP a, const DP b, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a462b09f1ae76391cfc50c8a032259b8a}{N\+R\+::betai}} (const DP a, const DP b, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a35306d0e713b54e50ad6bfdeca55d162}{N\+R\+::bico}} (const int n, const int k)
+\item 
+void \mbox{\hyperlink{namespaceNR_a16bf04bccb961bc7c1f0a1aa65d849ea}{N\+R\+::bksub}} (const int ne, const int nb, const int jf, const int k1, const int k2, Mat3\+D\+\_\+\+I\+O\+\_\+\+DP \&c)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aa9a538f63c380caf2e72b8d6f4bdbe3e}{N\+R\+::bnldev}} (const DP pp, const int n, int \&idum)
+\item 
+void \mbox{\hyperlink{namespaceNR_a11b0d45adeba8de27502be58cc893210}{N\+R\+::broydn}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&x, bool \&check, void vecfunc(Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a2fc62044e08a4a33016b21cba60408be}{N\+R\+::bsstep}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+DP \&dydx, DP \&xx, const DP htry, const DP eps, Vec\+\_\+\+I\+\_\+\+DP \&yscal, DP \&hdid, DP \&hnext, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_ad0042558c0003dd2b235a92f031d84f8}{N\+R\+::caldat}} (const int julian, int \&mm, int \&id, int \&iyyy)
+\item 
+void \mbox{\hyperlink{namespaceNR_a139dd9db85bba8d70c67d174413b5837}{N\+R\+::chder}} (const DP a, const DP b, Vec\+\_\+\+I\+\_\+\+DP \&c, Vec\+\_\+\+O\+\_\+\+DP \&cder, const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a824086662aa6006a7bf1d3954ae84e43}{N\+R\+::chebev}} (const DP a, const DP b, Vec\+\_\+\+I\+\_\+\+DP \&c, const int m, const DP x)
+\item 
+void \mbox{\hyperlink{namespaceNR_a66f115e76c9feef59cfc3ef4a534acc5}{N\+R\+::chebft}} (const DP a, const DP b, Vec\+\_\+\+O\+\_\+\+DP \&c, DP func(const DP))
+\item 
+void \mbox{\hyperlink{namespaceNR_a76a061d807150f37b176e040ce5c93c4}{N\+R\+::chebpc}} (Vec\+\_\+\+I\+\_\+\+DP \&c, Vec\+\_\+\+O\+\_\+\+DP \&d)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5d3b77d2ac43628be77688f9cf398473}{N\+R\+::chint}} (const DP a, const DP b, Vec\+\_\+\+I\+\_\+\+DP \&c, Vec\+\_\+\+O\+\_\+\+DP \&cint, const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a78d98f7ea50330e48e2439f1476f1a11}{N\+R\+::chixy}} (const DP bang)
+\item 
+void \mbox{\hyperlink{namespaceNR_ade5b24841dfda9180b307c75b572c2e5}{N\+R\+::choldc}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+DP \&p)
+\item 
+void \mbox{\hyperlink{namespaceNR_aac72daccbf4c98d768d3aaae022c3f88}{N\+R\+::cholsl}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+DP \&p, Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+O\+\_\+\+DP \&x)
+\item 
+void \mbox{\hyperlink{namespaceNR_a79990074123af59275160b7887c3fc51}{N\+R\+::chsone}} (Vec\+\_\+\+I\+\_\+\+DP \&bins, Vec\+\_\+\+I\+\_\+\+DP \&ebins, const int knstrn, DP \&df, DP \&chsq, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae212f167f2b1e98deda943eb3aacd84b}{N\+R\+::chstwo}} (Vec\+\_\+\+I\+\_\+\+DP \&bins1, Vec\+\_\+\+I\+\_\+\+DP \&bins2, const int knstrn, DP \&df, DP \&chsq, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_abf0103a0b1c7451d1cad9852e6701274}{N\+R\+::cisi}} (const DP x, std\+::complex$<$ DP $>$ \&cs)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac0de242c7ce066888f5add441fe1099e}{N\+R\+::cntab1}} (Mat\+\_\+\+I\+\_\+\+I\+NT \&nn, DP \&chisq, DP \&df, DP \&prob, DP \&cramrv, DP \&ccc)
+\item 
+void \mbox{\hyperlink{namespaceNR_a04d9c5104ecc26262c5c9cf755b6c496}{N\+R\+::cntab2}} (Mat\+\_\+\+I\+\_\+\+I\+NT \&nn, DP \&h, DP \&hx, DP \&hy, DP \&hygx, DP \&hxgy, DP \&uygx, DP \&uxgy, DP \&uxy)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2082dd6448479336557410a290a17c2c}{N\+R\+::convlv}} (Vec\+\_\+\+I\+\_\+\+DP \&data, Vec\+\_\+\+I\+\_\+\+DP \&respns, const int isign, Vec\+\_\+\+O\+\_\+\+DP \&ans)
+\item 
+void \mbox{\hyperlink{namespaceNR_a33f0ee887bd75c78a6b2f97a825f5be1}{N\+R\+::copy}} (Mat\+\_\+\+O\+\_\+\+DP \&aout, Mat\+\_\+\+I\+\_\+\+DP \&ain)
+\item 
+void \mbox{\hyperlink{namespaceNR_a38e1298c084b073e4e7465dbd62ad7fb}{N\+R\+::correl}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, Vec\+\_\+\+O\+\_\+\+DP \&ans)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3359e0c5092d8ab9afdbec3c55066b61}{N\+R\+::cosft1}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_a86490ad17a4fd0e6d60ea67f2588fd00}{N\+R\+::cosft2}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y, const int isign)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac2f90a8cf35f76c733d46d6c217e7698}{N\+R\+::covsrt}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&covar, Vec\+\_\+\+I\+\_\+\+B\+O\+OL \&ia, const int mfit)
+\item 
+void \mbox{\hyperlink{namespaceNR_a62558f3207c569f0bb176c97de157616}{N\+R\+::crank}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&w, DP \&s)
+\item 
+void \mbox{\hyperlink{namespaceNR_abe6af2a0141e9c645da6b86e995dfe82}{N\+R\+::cyclic}} (Vec\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+I\+\_\+\+DP \&c, const DP alpha, const DP beta, Vec\+\_\+\+I\+\_\+\+DP \&r, Vec\+\_\+\+O\+\_\+\+DP \&x)
+\item 
+void \mbox{\hyperlink{namespaceNR_afb5a6ee4e921ad8ae733cd25c9178abf}{N\+R\+::daub4}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&a, const int n, const int isign)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a6e1128d2427bfc7d48d0f09057399227}{N\+R\+::dawson}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_af1d68c637282cf655b5c683b052a0b6d}{N\+R\+::dbrent}} (const DP ax, const DP bx, const DP cx, DP f(const DP), DP df(const DP), const DP tol, DP \&xmin)
+\item 
+void \mbox{\hyperlink{namespaceNR_ad41cff50a7498a881df8034897f4fb51}{N\+R\+::ddpoly}} (Vec\+\_\+\+I\+\_\+\+DP \&c, const DP x, Vec\+\_\+\+O\+\_\+\+DP \&pd)
+\item 
+bool \mbox{\hyperlink{namespaceNR_a8d6348025222a219a6ed25d9f2d2b3f4}{N\+R\+::decchk}} (std\+::string str, char \&ch)
+\item 
+void \mbox{\hyperlink{namespaceNR_a42dd648242c5c48df166bfb2b2125d80}{N\+R\+::derivs\+\_\+s}} (const DP x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+O\+\_\+\+DP \&dydx)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a2df356ad46edbeee385843c4545f3963}{N\+R\+::df1dim}} (const DP x)
+\item 
+void \mbox{\hyperlink{namespaceNR_a1c51cf1eefec14e2597519a70b6158d6}{N\+R\+::dfpmin}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&p, const DP gtol, int \&iter, DP \&fret, DP func(Vec\+\_\+\+I\+\_\+\+DP \&), void dfunc(Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+DP \mbox{\hyperlink{namespaceNR_a116c23af5766d8a201469f22f62f50dc}{N\+R\+::dfridr}} (DP func(const DP), const DP x, const DP h, DP \&err)
+\item 
+void \mbox{\hyperlink{namespaceNR_a1c902ada2900da8c449d3901707c075b}{N\+R\+::dftcor}} (const DP w, const DP delta, const DP a, const DP b, Vec\+\_\+\+I\+\_\+\+DP \&endpts, DP \&corre, DP \&corim, DP \&corfac)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae09a210159f99a027ae6554b6a605e5b}{N\+R\+::dftint}} (DP func(const DP), const DP a, const DP b, const DP w, DP \&cosint, DP \&sinint)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7bed161b003de9971b9d0220074c406e}{N\+R\+::difeq}} (const int k, const int k1, const int k2, const int jsf, const int is1, const int isf, Vec\+\_\+\+I\+\_\+\+I\+NT \&indexv, Mat\+\_\+\+O\+\_\+\+DP \&s, Mat\+\_\+\+I\+\_\+\+DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_adb5624ebdf74af474a3a644c2aa3d3e7}{N\+R\+::dlinmin}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+I\+O\+\_\+\+DP \&xi, DP \&fret, DP func(Vec\+\_\+\+I\+\_\+\+DP \&), void dfunc(Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_aba4c7b853200439cb13a271f6333b19f}{N\+R\+::eclass}} (Vec\+\_\+\+O\+\_\+\+I\+NT \&nf, Vec\+\_\+\+I\+\_\+\+I\+NT \&lista, Vec\+\_\+\+I\+\_\+\+I\+NT \&listb)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac02292b35dc1a4b253166611be75e6dd}{N\+R\+::eclazz}} (Vec\+\_\+\+O\+\_\+\+I\+NT \&nf, bool equiv(const int, const int))
+\item 
+DP \mbox{\hyperlink{namespaceNR_a28d2f7fc957866378bc8d49df208d5bc}{N\+R\+::ei}} (const DP x)
+\item 
+void \mbox{\hyperlink{namespaceNR_a47b470822fede3df423c4b65fd109d46}{N\+R\+::eigsrt}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&d, Mat\+\_\+\+I\+O\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+DP \mbox{\hyperlink{namespaceNR_a1762d8c42e9423b8290b196da5ed3b88}{N\+R\+::elle}} (const DP phi, const DP ak)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a1571206bbdfafab7d95c23d356084050}{N\+R\+::ellf}} (const DP phi, const DP ak)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ae61b03165ff02c431ab5a669537e6978}{N\+R\+::ellpi}} (const DP phi, const DP en, const DP ak)
+\item 
+void \mbox{\hyperlink{namespaceNR_a9dc23a1436a50ce9c28a541f92711f84}{N\+R\+::elmhes}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a6ebc6459d6bf176fe05cd0f33e37744b}{N\+R\+::erfcc}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a3dbd4e3cae13708e991a26347f305238}{N\+R\+::erff}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ab32cef5a592608701b19750c27605413}{N\+R\+::erffc}} (const DP x)
+\item 
+void \mbox{\hyperlink{namespaceNR_af6b58017e35503e394fd95ac85f8fbb7}{N\+R\+::eulsum}} (DP \&sum, const DP term, const int jterm, Vec\+\_\+\+I\+O\+\_\+\+DP \&wksp)
+\item 
+DP \mbox{\hyperlink{namespaceNR_acf9bcd45ac074c4fc27723f2093d332e}{N\+R\+::evlmem}} (const DP fdt, Vec\+\_\+\+I\+\_\+\+DP \&d, const DP xms)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aa445323c2e4f1c7d6859208169d37307}{N\+R\+::expdev}} (int \&idum)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a03af1157f0cf4a00d857e0dde2483104}{N\+R\+::expint}} (const int n, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a6c415158b378bbd03f785e29d8a7ac1f}{N\+R\+::f1dim}} (const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a828437d33b110b7b79516767e7df7b23}{N\+R\+::factln}} (const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ac76d8c81ea3f7dacb7bc39f8f2e67f0a}{N\+R\+::factrl}} (const int n)
+\item 
+void \mbox{\hyperlink{namespaceNR_a28ce9fba247ed103e2ffb545d671840e}{N\+R\+::fasper}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, const DP ofac, const DP hifac, Vec\+\_\+\+O\+\_\+\+DP \&wk1, Vec\+\_\+\+O\+\_\+\+DP \&wk2, int \&nout, int \&jmax, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_af8ad4af19ff3fab8ac42dea99a9ccfae}{N\+R\+::fdjac}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&fvec, Mat\+\_\+\+O\+\_\+\+DP \&df, void vecfunc(Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a68c568aec5a9a2199de3c66ecc87c062}{N\+R\+::fgauss}} (const DP x, Vec\+\_\+\+I\+\_\+\+DP \&a, DP \&y, Vec\+\_\+\+O\+\_\+\+DP \&dyda)
+\item 
+void \mbox{\hyperlink{namespaceNR_aa9df2e2aa873647992817340091009dd}{N\+R\+::fit}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&sig, const bool mwt, DP \&a, DP \&b, DP \&siga, DP \&sigb, DP \&chi2, DP \&q)
+\item 
+void \mbox{\hyperlink{namespaceNR_acf4acd9066a65dc4408580a722f9d043}{N\+R\+::fitexy}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&sigx, Vec\+\_\+\+I\+\_\+\+DP \&sigy, DP \&a, DP \&b, DP \&siga, DP \&sigb, DP \&chi2, DP \&q)
+\item 
+void \mbox{\hyperlink{namespaceNR_abd5e28d80b44e108348ecc80785afa7c}{N\+R\+::fixrts}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&d)
+\item 
+void \mbox{\hyperlink{namespaceNR_a069ca1a540d6d9637ab168a19fc6d86d}{N\+R\+::fleg}} (const DP x, Vec\+\_\+\+O\+\_\+\+DP \&pl)
+\item 
+void \mbox{\hyperlink{namespaceNR_afd394882e21b8378572c186fb66220af}{N\+R\+::flmoon}} (const int n, const int nph, int \&jd, DP \&frac)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a570c7b20deac021db5e798650ceb157f}{N\+R\+::fmin}} (Vec\+\_\+\+I\+\_\+\+DP \&x)
+\item 
+void \mbox{\hyperlink{namespaceNR_aaff3ae4c060df78a4b5da02651af126d}{N\+R\+::four1}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&data, const int isign)
+\item 
+void \mbox{\hyperlink{namespaceNR_a8dd403b5378f2cc7dec76ae5b837f05d}{N\+R\+::fourew}} (Vec\+\_\+\+F\+S\+T\+R\+E\+A\+M\+\_\+p \&file, int \&na, int \&nb, int \&nc, int \&nd)
+\item 
+void \mbox{\hyperlink{namespaceNR_a9d15130e265a84a6b1e78c63c1af4e34}{N\+R\+::fourfs}} (Vec\+\_\+\+F\+S\+T\+R\+E\+A\+M\+\_\+p \&file, Vec\+\_\+\+I\+\_\+\+I\+NT \&nn, const int isign)
+\item 
+void \mbox{\hyperlink{namespaceNR_a71c761e2cf4f3d12a0b1043d5ead1b09}{N\+R\+::fourn}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&data, Vec\+\_\+\+I\+\_\+\+I\+NT \&nn, const int isign)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab4c354c01223108b1105a957320da065}{N\+R\+::fpoly}} (const DP x, Vec\+\_\+\+O\+\_\+\+DP \&p)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3c797b9afe1ae3a3469ee3928f625a02}{N\+R\+::fred2}} (const DP a, const DP b, Vec\+\_\+\+O\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}}, Vec\+\_\+\+O\+\_\+\+DP \&f, Vec\+\_\+\+O\+\_\+\+DP \&w, DP g(const DP), DP ak(const DP, const DP))
+\item 
+DP \mbox{\hyperlink{namespaceNR_a447051a2ce2f777db5fabc349d9d7904}{N\+R\+::fredin}} (const DP x, const DP a, const DP b, Vec\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}}, Vec\+\_\+\+I\+\_\+\+DP \&f, Vec\+\_\+\+I\+\_\+\+DP \&w, DP g(const DP), DP ak(const DP, const DP))
+\item 
+void \mbox{\hyperlink{namespaceNR_ab068dc64940f5a4907725be35225d5c2}{N\+R\+::frenel}} (const DP x, std\+::complex$<$ DP $>$ \&cs)
+\item 
+void \mbox{\hyperlink{namespaceNR_a26147c3205dc588fd085cea57df864fe}{N\+R\+::frprmn}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&p, const DP ftol, int \&iter, DP \&fret, DP func(Vec\+\_\+\+I\+\_\+\+DP \&), void dfunc(Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a4918e1edb5dcbabd728e268dc1502a6e}{N\+R\+::ftest}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, DP \&f, DP \&prob)
+\item 
+DP \mbox{\hyperlink{namespaceNR_af895f3a51bb42c0b1498571d5a93c807}{N\+R\+::gamdev}} (const int ia, int \&idum)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aedefa334aaa11250391e7bb4867dc7d5}{N\+R\+::gammln}} (const DP xx)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ad617f7290581d8abbf35fb5e8206ffc8}{N\+R\+::gammp}} (const DP a, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aae834b3eabbd4eb103d876551fe4a8bf}{N\+R\+::gammq}} (const DP a, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a035bd09228723898ec5481668f55c979}{N\+R\+::gasdev}} (int \&idum)
+\item 
+void \mbox{\hyperlink{namespaceNR_a8bd178e36c704700d52a5bcb56d25548}{N\+R\+::gaucof}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+I\+O\+\_\+\+DP \&b, const DP amu0, Vec\+\_\+\+O\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&w)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3214b0481212ec7e5322d6952177aac6}{N\+R\+::gauher}} (Vec\+\_\+\+O\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&w)
+\item 
+void \mbox{\hyperlink{namespaceNR_a95634e9b78b176caeec3321c0cfa6fbf}{N\+R\+::gaujac}} (Vec\+\_\+\+O\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&w, const DP alf, const DP bet)
+\item 
+void \mbox{\hyperlink{namespaceNR_abd073d049f60560546572cb5cf2210ef}{N\+R\+::gaulag}} (Vec\+\_\+\+O\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&w, const DP alf)
+\item 
+void \mbox{\hyperlink{namespaceNR_a722933d3ddfd7e76e9533892768ae542}{N\+R\+::gauleg}} (const DP x1, const DP x2, Vec\+\_\+\+O\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&w)
+\item 
+void \mbox{\hyperlink{namespaceNR_a1d6883edf9183e4e0a4b6be01655b057}{N\+R\+::gaussj}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Mat\+\_\+\+I\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a54a09ab3536295080e52c4deb5cc42c5}{N\+R\+::gcf}} (DP \&gammcf, const DP a, const DP x, DP \&gln)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a0fb02a1e4932c1918d2a75bdcfec27cd}{N\+R\+::golden}} (const DP ax, const DP bx, const DP cx, DP f(const DP), const DP tol, DP \&xmin)
+\item 
+void \mbox{\hyperlink{namespaceNR_acf96c684ec4dc14593c22c45848ad511}{N\+R\+::gser}} (DP \&gamser, const DP a, const DP x, DP \&gln)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5eaa00a5151ec180e13b5fd8824fd161}{N\+R\+::hpsel}} (Vec\+\_\+\+I\+\_\+\+DP \&arr, Vec\+\_\+\+O\+\_\+\+DP \&heap)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2d78b1ffd173d958219ab98bbcdcd3c4}{N\+R\+::hpsort}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&ra)
+\item 
+void \mbox{\hyperlink{namespaceNR_a78db7534f0991399c7f0d4a618175da7}{N\+R\+::hqr}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+C\+P\+L\+X\+\_\+\+DP \&wri)
+\item 
+void \mbox{\hyperlink{namespaceNR_a55c1e21a90e38a4569ab763ec0a94515}{N\+R\+::hufapp}} (Vec\+\_\+\+I\+O\+\_\+\+U\+L\+NG \&index, Vec\+\_\+\+I\+\_\+\+U\+L\+NG \&nprob, const unsigned long n, const unsigned long m)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2b3c3380b58a2d4cbf0c61f8bd444aec}{N\+R\+::hufdec}} (unsigned long \&ich, std\+::string \&code, const unsigned long lcode, unsigned long \&nb, huffcode \&hcode)
+\item 
+void \mbox{\hyperlink{namespaceNR_af74ccd5e55d8850e189e33cc374a6c5b}{N\+R\+::hufenc}} (const unsigned long ich, std\+::string \&code, unsigned long \&nb, huffcode \&hcode)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae3369986daacfe65a679f2334cb53267}{N\+R\+::hufmak}} (Vec\+\_\+\+I\+\_\+\+U\+L\+NG \&nfreq, const unsigned long nchin, unsigned long \&ilong, unsigned long \&nlong, huffcode \&hcode)
+\item 
+void \mbox{\hyperlink{namespaceNR_a6bbdb382ae25b5c8c0baba1d48d848e1}{N\+R\+::hunt}} (Vec\+\_\+\+I\+\_\+\+DP \&xx, const DP x, int \&jlo)
+\item 
+void \mbox{\hyperlink{namespaceNR_a329631db0425541c0568938c22633e99}{N\+R\+::hypdrv}} (const DP s, Vec\+\_\+\+I\+\_\+\+DP \&yy, Vec\+\_\+\+O\+\_\+\+DP \&dyyds)
+\item 
+std\+::complex$<$ DP $>$ \mbox{\hyperlink{namespaceNR_a8666a2088d3699fe0bc7f14f0b51b5ed}{N\+R\+::hypgeo}} (const std\+::complex$<$ DP $>$ \&a, const std\+::complex$<$ DP $>$ \&b, const std\+::complex$<$ DP $>$ \&c, const std\+::complex$<$ DP $>$ \&z)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5464226b1eb7a8ab468acb9d8194a5cb}{N\+R\+::hypser}} (const std\+::complex$<$ DP $>$ \&a, const std\+::complex$<$ DP $>$ \&b, const std\+::complex$<$ DP $>$ \&c, const std\+::complex$<$ DP $>$ \&z, std\+::complex$<$ DP $>$ \&series, std\+::complex$<$ DP $>$ \&deriv)
+\item 
+unsigned short \mbox{\hyperlink{namespaceNR_a05984f00dc053f5191e68179570e42f0}{N\+R\+::icrc}} (const unsigned short crc, const std\+::string \&bufptr, const short jinit, const int jrev)
+\item 
+unsigned short \mbox{\hyperlink{namespaceNR_a8eecd14f5dbacae9a1c719b3f8d5fe77}{N\+R\+::icrc1}} (const unsigned short crc, const unsigned char onech)
+\item 
+unsigned long \mbox{\hyperlink{namespaceNR_a4965006048ac8b1e627c9e21b9d6c1f8}{N\+R\+::igray}} (const unsigned long n, const int \mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\item 
+void \mbox{\hyperlink{namespaceNR_a16cc62d4d994e6557e4d85d1b5de0ff9}{N\+R\+::indexx}} (Vec\+\_\+\+I\+\_\+\+DP \&arr, Vec\+\_\+\+O\+\_\+\+I\+NT \&indx)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab3cd4fa2aeff189dee20cd3f87378212}{N\+R\+::indexx}} (Vec\+\_\+\+I\+\_\+\+I\+NT \&arr, Vec\+\_\+\+O\+\_\+\+I\+NT \&indx)
+\item 
+void \mbox{\hyperlink{namespaceNR_af65d3c7d1b9eddb10dd001e6456ea45a}{N\+R\+::interp}} (Mat\+\_\+\+O\+\_\+\+DP \&uf, Mat\+\_\+\+I\+\_\+\+DP \&uc)
+\item 
+int \mbox{\hyperlink{namespaceNR_a8847cb5906daead1ccf717166c61b0d7}{N\+R\+::irbit1}} (unsigned long \&iseed)
+\item 
+int \mbox{\hyperlink{namespaceNR_a826f4788e674ad205145876a7ddd04e0}{N\+R\+::irbit2}} (unsigned long \&iseed)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab9427d0f2503bbbc8a531c2e06f9369e}{N\+R\+::jacobi}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+DP \&d, Mat\+\_\+\+O\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, int \&nrot)
+\item 
+void \mbox{\hyperlink{namespaceNR_a98c0d038f8153db652155a23d8fca0c5}{N\+R\+::jacobn\+\_\+s}} (const DP x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+O\+\_\+\+DP \&dfdx, Mat\+\_\+\+O\+\_\+\+DP \&dfdy)
+\item 
+int \mbox{\hyperlink{namespaceNR_adcf22e2f352f18973efcc6a828196a69}{N\+R\+::julday}} (const int mm, const int id, const int iyyy)
+\item 
+void \mbox{\hyperlink{namespaceNR_a0cbcf6c9ade0e1df0bb132f18485ad14}{N\+R\+::kendl1}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, DP \&tau, DP \&z, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_ad2ded25f5e4aef7460de829455ece1f2}{N\+R\+::kendl2}} (Mat\+\_\+\+I\+\_\+\+DP \&tab, DP \&tau, DP \&z, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_a0cbc2daad62a102dd3359715e4b1bc70}{N\+R\+::kermom}} (Vec\+\_\+\+O\+\_\+\+DP \&w, const DP y)
+\item 
+void \mbox{\hyperlink{namespaceNR_a4ed85372a28396e39da6c7f899dd0c82}{N\+R\+::ks2d1s}} (Vec\+\_\+\+I\+\_\+\+DP \&x1, Vec\+\_\+\+I\+\_\+\+DP \&y1, void quadvl(const DP, const DP, DP \&, DP \&, DP \&, DP \&), DP \&d1, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2b2c455972d6a6fed97ba9b9abbcab3f}{N\+R\+::ks2d2s}} (Vec\+\_\+\+I\+\_\+\+DP \&x1, Vec\+\_\+\+I\+\_\+\+DP \&y1, Vec\+\_\+\+I\+\_\+\+DP \&x2, Vec\+\_\+\+I\+\_\+\+DP \&y2, DP \&d, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3c53c1ee283bb33404deb730ff6a8d89}{N\+R\+::ksone}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&data, DP func(const DP), DP \&d, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3ad9325c909f0cb757c462000c60a364}{N\+R\+::kstwo}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&data1, Vec\+\_\+\+I\+O\+\_\+\+DP \&data2, DP \&d, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_aa2ea67c46e74229112bf024cfb9f6181}{N\+R\+::laguer}} (Vec\+\_\+\+I\+\_\+\+C\+P\+L\+X\+\_\+\+DP \&a, std\+::complex$<$ DP $>$ \&x, int \&its)
+\item 
+void \mbox{\hyperlink{namespaceNR_a0e8872f893cfdae1552954ed0ed82903}{N\+R\+::lfit}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&sig, Vec\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+B\+O\+OL \&ia, Mat\+\_\+\+O\+\_\+\+DP \&covar, DP \&chisq, void funcs(const DP, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_af8b3348347ed7bf63c0554d522b33ee1}{N\+R\+::linbcg}} (Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+I\+O\+\_\+\+DP \&x, const int itol, const DP tol, const int itmax, int \&iter, DP \&err)
+\item 
+void \mbox{\hyperlink{namespaceNR_a4436a6bfba766ddda79e8cd4a8f1b977}{N\+R\+::linmin}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+I\+O\+\_\+\+DP \&xi, DP \&fret, DP func(Vec\+\_\+\+I\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_adc216b076b35787786f44cc443e7533f}{N\+R\+::lnsrch}} (Vec\+\_\+\+I\+\_\+\+DP \&xold, const DP fold, Vec\+\_\+\+I\+\_\+\+DP \&g, Vec\+\_\+\+I\+O\+\_\+\+DP \&p, Vec\+\_\+\+O\+\_\+\+DP \&x, DP \&f, const DP stpmax, bool \&check, DP func(Vec\+\_\+\+I\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a219cd98096988ead11bcba867d300ebc}{N\+R\+::locate}} (Vec\+\_\+\+I\+\_\+\+DP \&xx, const DP x, int \&j)
+\item 
+void \mbox{\hyperlink{namespaceNR_a13418bcc862bf5ed4c010126e8cf8028}{N\+R\+::lop}} (Mat\+\_\+\+O\+\_\+\+DP \&out, Mat\+\_\+\+I\+\_\+\+DP \&u)
+\item 
+void \mbox{\hyperlink{namespaceNR_a1455a894979c7f2eaf3ef611a611cc42}{N\+R\+::lubksb}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+I\+NT \&indx, Vec\+\_\+\+I\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a71e8f8aa20cd167f6379653f60ccaa1a}{N\+R\+::ludcmp}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+I\+NT \&indx, DP \&d)
+\item 
+void \mbox{\hyperlink{namespaceNR_a03fd0ba9f0721c1fe3355bd81704727d}{N\+R\+::ludcmp\+\_\+safe}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+I\+NT \&indx, DP \&d, const bool do\+\_\+check, bool \&has\+\_\+failed)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac38efbaed34a2e071711a215801215fd}{N\+R\+::machar}} (int \&ibeta, int \&it, int \&irnd, int \&ngrd, int \&machep, int \&negep, int \&iexp, int \&minexp, int \&maxexp, DP \&eps, DP \&epsneg, DP \&xmin, DP \&xmax)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3e83e821eb8a08def3eb745893d705f0}{N\+R\+::matadd}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Mat\+\_\+\+I\+\_\+\+DP \&b, Mat\+\_\+\+O\+\_\+\+DP \&c)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3813813f04cdd8f245c3aa44ff4f445d}{N\+R\+::matsub}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Mat\+\_\+\+I\+\_\+\+DP \&b, Mat\+\_\+\+O\+\_\+\+DP \&c)
+\item 
+void \mbox{\hyperlink{namespaceNR_aab044381afb3d475fea1f56f27b43677}{N\+R\+::medfit}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, DP \&a, DP \&b, DP \&abdev)
+\item 
+void \mbox{\hyperlink{namespaceNR_a160cae226a21c3be206ce06f63125499}{N\+R\+::memcof}} (Vec\+\_\+\+I\+\_\+\+DP \&data, DP \&xms, Vec\+\_\+\+O\+\_\+\+DP \&d)
+\item 
+bool \mbox{\hyperlink{namespaceNR_ad1c330f016bd9cbd3564f4be1f09d5db}{N\+R\+::metrop}} (const DP de, const DP \mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}})
+\item 
+void \mbox{\hyperlink{namespaceNR_ae5a8be9b136a41fa270bef965c7560bd}{N\+R\+::mgfas}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&u, const int maxcyc)
+\item 
+void \mbox{\hyperlink{namespaceNR_a462e1290733dd6e89382065234a02f91}{N\+R\+::mglin}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&u, const int ncycle)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ab0417b8e3403a5388e1335cf434a9f97}{N\+R\+::midexp}} (DP funk(const DP), const DP aa, const DP bb, const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ab1e98fd1024d49b2e58d93057dd0a7f1}{N\+R\+::midinf}} (DP funk(const DP), const DP aa, const DP bb, const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a0d1a3671e190c043c51cc06aa203ff71}{N\+R\+::midpnt}} (DP func(const DP), const DP a, const DP b, const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aacb9dcd500af4cc3a665337679bff722}{N\+R\+::midsql}} (DP funk(const DP), const DP aa, const DP bb, const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a24075c7a2564a7ea0d150a535edc65c6}{N\+R\+::midsqu}} (DP funk(const DP), const DP aa, const DP bb, const int n)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7633dcff9360f0d1b885d1ea40414046}{N\+R\+::miser}} (DP func(Vec\+\_\+\+I\+\_\+\+DP \&), Vec\+\_\+\+I\+\_\+\+DP \&regn, const int npts, const DP dith, DP \&ave, DP \&var)
+\item 
+void \mbox{\hyperlink{namespaceNR_afc0314b689ffee95d1fdb24b9fd99e5a}{N\+R\+::mmid}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&dydx, const DP xs, const DP htot, const int nstep, Vec\+\_\+\+O\+\_\+\+DP \&yout, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_aee3fc839b5ac653eb842a2799391942a}{N\+R\+::moment}} (Vec\+\_\+\+I\+\_\+\+DP \&data, DP \&ave, DP \&adev, DP \&sdev, DP \&var, DP \&skew, DP \&curt)
+\item 
+void \mbox{\hyperlink{namespaceNR_ad5e0bc1358051dfcd1c85d1602c4df5a}{N\+R\+::mp2dfr}} (Vec\+\_\+\+I\+O\+\_\+\+U\+C\+HR \&a, std\+::string \&s)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2a17c9eb096bee049e90717500cc1d44}{N\+R\+::mpadd}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_a86e4bde392036558ab1428a568df4cc7}{N\+R\+::mpdiv}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&q, Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&r, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_a03e217f2a6e318090794caf6745a6f64}{N\+R\+::mpinv}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_aa8a87e83f0ec64f91eddf8366337192b}{N\+R\+::mplsh}} (Vec\+\_\+\+I\+O\+\_\+\+U\+C\+HR \&u)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5a70131bd7cd4d907087ac645f6d095e}{N\+R\+::mpmov}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_ac6e31aebeef74f402f91cfb7133ee633}{N\+R\+::mpmul}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_a685e7aacef1a2fa63acc2b0075848293}{N\+R\+::mpneg}} (Vec\+\_\+\+I\+O\+\_\+\+U\+C\+HR \&u)
+\item 
+void \mbox{\hyperlink{namespaceNR_a994c170707a8aab5444d4d126e7a7d23}{N\+R\+::mppi}} (const int np)
+\item 
+void \mbox{\hyperlink{namespaceNR_a0c4cae16b0250ecbf95693adf73c8bdc}{N\+R\+::mprove}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Mat\+\_\+\+I\+\_\+\+DP \&alud, Vec\+\_\+\+I\+\_\+\+I\+NT \&indx, Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+I\+O\+\_\+\+DP \&x)
+\item 
+void \mbox{\hyperlink{namespaceNR_a73ec9a62342ed00c7ed70bfedecf5947}{N\+R\+::mpsad}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, const int iv)
+\item 
+void \mbox{\hyperlink{namespaceNR_afb23bc7a9b2440c5a3db4da885920358}{N\+R\+::mpsdv}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, const int iv, int \&ir)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7e4bcd285f6961beca936346cd63f092}{N\+R\+::mpsmu}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, const int iv)
+\item 
+void \mbox{\hyperlink{namespaceNR_a73de1f888d26e631949996bd1e437659}{N\+R\+::mpsqrt}} (Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_a6c829dc4c09a73a1c6f91c817b01bfd4}{N\+R\+::mpsub}} (int \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}}, Vec\+\_\+\+O\+\_\+\+U\+C\+HR \&w, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&u, Vec\+\_\+\+I\+\_\+\+U\+C\+HR \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_a03017a1caf19642fa6477f96dd20dbb3}{N\+R\+::mrqcof}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&sig, Vec\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+B\+O\+OL \&ia, Mat\+\_\+\+O\+\_\+\+DP \&alpha, Vec\+\_\+\+O\+\_\+\+DP \&beta, DP \&chisq, void funcs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a5e564c0d50dc1bbc161cbcee235b67bc}{N\+R\+::mrqmin}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&sig, Vec\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+B\+O\+OL \&ia, Mat\+\_\+\+O\+\_\+\+DP \&covar, Mat\+\_\+\+O\+\_\+\+DP \&alpha, DP \&chisq, void funcs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, DP \&, Vec\+\_\+\+O\+\_\+\+DP \&), DP \&alamda)
+\item 
+void \mbox{\hyperlink{namespaceNR_aa58f9fd3b532e550929b4ffa67b50e4d}{N\+R\+::newt}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&x, bool \&check, void vecfunc(Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a5393670acc86ad48e87504e8a7109140}{N\+R\+::odeint}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&ystart, const DP x1, const DP x2, const DP eps, const DP h1, const DP hmin, int \&nok, int \&nbad, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&), void rkqs(Vec\+\_\+\+I\+O\+\_\+\+DP \&, Vec\+\_\+\+I\+O\+\_\+\+DP \&, DP \&, const DP, const DP, Vec\+\_\+\+I\+\_\+\+DP \&, DP \&, DP \&, void($\ast$)(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&)))
+\item 
+void \mbox{\hyperlink{namespaceNR_a09eb4179b4158c839db9301f34122f40}{N\+R\+::orthog}} (Vec\+\_\+\+I\+\_\+\+DP \&anu, Vec\+\_\+\+I\+\_\+\+DP \&alpha, Vec\+\_\+\+I\+\_\+\+DP \&beta, Vec\+\_\+\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a8e789b4a9285a750bd28cbf9d1b57654}{N\+R\+::pade}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&cof, DP \&resid)
+\item 
+void \mbox{\hyperlink{namespaceNR_a986417223fa9ced15bc520606386a4db}{N\+R\+::pccheb}} (Vec\+\_\+\+I\+\_\+\+DP \&d, Vec\+\_\+\+O\+\_\+\+DP \&c)
+\item 
+void \mbox{\hyperlink{namespaceNR_acbcb308d5c9adf2ac96084b61fff25be}{N\+R\+::pcshft}} (const DP a, const DP b, Vec\+\_\+\+I\+O\+\_\+\+DP \&d)
+\item 
+void \mbox{\hyperlink{namespaceNR_a08a1c52f699b77be9ca8b79dd29fc143}{N\+R\+::pearsn}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, DP \&r, DP \&prob, DP \&z)
+\item 
+void \mbox{\hyperlink{namespaceNR_aed0c7ecfa8b01342146d1d0dff6befca}{N\+R\+::period}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, const DP ofac, const DP hifac, Vec\+\_\+\+O\+\_\+\+DP \&px, Vec\+\_\+\+O\+\_\+\+DP \&py, int \&nout, int \&jmax, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab0ef3238c95aeadb917a97ef14a41b29}{N\+R\+::piksr2}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&arr, Vec\+\_\+\+I\+O\+\_\+\+DP \&brr)
+\item 
+void \mbox{\hyperlink{namespaceNR_a11f36d67ab2adaed64b8f5dbfbbf2efc}{N\+R\+::piksrt}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&arr)
+\item 
+void \mbox{\hyperlink{namespaceNR_a34209b0a9d44aa222a5f76c3c7bdeeaa}{N\+R\+::pinvs}} (const int ie1, const int ie2, const int je1, const int jsf, const int jc1, const int k, Mat3\+D\+\_\+\+O\+\_\+\+DP \&c, Mat\+\_\+\+I\+O\+\_\+\+DP \&s)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a677f4e9cdd801b4a29b667ac6915ac26}{N\+R\+::plgndr}} (const int l, const int m, const DP x)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a0612378e73208e941cd53484771f52bb}{N\+R\+::poidev}} (const DP xm, int \&idum)
+\item 
+void \mbox{\hyperlink{namespaceNR_a404e4e04344a84403f08fcd906a91b2d}{N\+R\+::polcoe}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+O\+\_\+\+DP \&cof)
+\item 
+void \mbox{\hyperlink{namespaceNR_af2c475d479fbaa639b53b606796608c6}{N\+R\+::polcof}} (Vec\+\_\+\+I\+\_\+\+DP \&xa, Vec\+\_\+\+I\+\_\+\+DP \&ya, Vec\+\_\+\+O\+\_\+\+DP \&cof)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2ec54779e5505f4a702196d44766e022}{N\+R\+::poldiv}} (Vec\+\_\+\+I\+\_\+\+DP \&u, Vec\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, Vec\+\_\+\+O\+\_\+\+DP \&q, Vec\+\_\+\+O\+\_\+\+DP \&r)
+\item 
+void \mbox{\hyperlink{namespaceNR_adfe1a6957b3044f86a5d9b2cb071edbf}{N\+R\+::polin2}} (Vec\+\_\+\+I\+\_\+\+DP \&x1a, Vec\+\_\+\+I\+\_\+\+DP \&x2a, Mat\+\_\+\+I\+\_\+\+DP \&ya, const DP x1, const DP x2, DP \&y, DP \&dy)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab748a48a0cfdc9215829774ddf25ea90}{N\+R\+::polint}} (Vec\+\_\+\+I\+\_\+\+DP \&xa, Vec\+\_\+\+I\+\_\+\+DP \&ya, const DP x, DP \&y, DP \&dy)
+\item 
+void \mbox{\hyperlink{namespaceNR_a4fb8d09f0f222a20c3ff734627a5a760}{N\+R\+::powell}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&p, Mat\+\_\+\+I\+O\+\_\+\+DP \&xi, const DP ftol, int \&iter, DP \&fret, DP func(Vec\+\_\+\+I\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a1e509a4abc2af770058b8ec1037f37ad}{N\+R\+::predic}} (Vec\+\_\+\+I\+\_\+\+DP \&data, Vec\+\_\+\+I\+\_\+\+DP \&d, Vec\+\_\+\+O\+\_\+\+DP \&future)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a728a822ccbd90f47b7e83d9186ca631a}{N\+R\+::probks}} (const DP alam)
+\item 
+void \mbox{\hyperlink{namespaceNR_a2d127644657046b9b67b8189fd79d51c}{N\+R\+::psdes}} (unsigned long \&lword, unsigned long \&irword)
+\item 
+void \mbox{\hyperlink{namespaceNR_a6e01211469ec1a14c97e90b2bfaa8667}{N\+R\+::pwt}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&a, const int n, const int isign)
+\item 
+void \mbox{\hyperlink{namespaceNR_afca49076efe7ccf7bf3d0512ba1c0117}{N\+R\+::pwtset}} (const int n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a4794ff6d4eaeeedd85a91698287cd7ac}{N\+R\+::pythag}} (const DP a, const DP b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a583932239d9c539ae7d372295b01101a}{N\+R\+::pzextr}} (const int iest, const DP xest, Vec\+\_\+\+I\+\_\+\+DP \&yest, Vec\+\_\+\+O\+\_\+\+DP \&yz, Vec\+\_\+\+O\+\_\+\+DP \&dy)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aea2857e7dfc20dc9c53694f04e7742c6}{N\+R\+::qgaus}} (DP func(const DP), const DP a, const DP b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a4bfa0581b100fdc8f3bb1a5b8236e084}{N\+R\+::qrdcmp}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+DP \&c, Vec\+\_\+\+O\+\_\+\+DP \&d, bool \&sing)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a1d9dac2ce9ca89306257ab81b44473da}{N\+R\+::qromb}} (DP func(const DP), DP a, DP b)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aba7cc6d489fecfde29b519f866c70676}{N\+R\+::qromo}} (DP func(const DP), const DP a, const DP b, DP choose(DP($\ast$)(const DP), const DP, const DP, const int))
+\item 
+void \mbox{\hyperlink{namespaceNR_afe717bad04398081c537d551740071ed}{N\+R\+::qroot}} (Vec\+\_\+\+I\+\_\+\+DP \&p, DP \&b, DP \&c, const DP eps)
+\item 
+void \mbox{\hyperlink{namespaceNR_a71ded3feeaea4e325e6e0d0a88c0e47f}{N\+R\+::qrsolv}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+DP \&c, Vec\+\_\+\+I\+\_\+\+DP \&d, Vec\+\_\+\+I\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_aa3906cfa0a92338d1b32d6525fc47eaf}{N\+R\+::qrupdt}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&r, Mat\+\_\+\+I\+O\+\_\+\+DP \&qt, Vec\+\_\+\+I\+O\+\_\+\+DP \&u, Vec\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+DP \mbox{\hyperlink{namespaceNR_a30afaca69c5b66b374852a7281bb9b88}{N\+R\+::qsimp}} (DP func(const DP), const DP a, const DP b)
+\item 
+DP \mbox{\hyperlink{namespaceNR_acc25d32b53d9c38fb962ff11c7ed08be}{N\+R\+::qtrap}} (DP func(const DP), const DP a, const DP b)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ad9f85b329d999d83a6cf387bcd5fd9a1}{N\+R\+::quad3d}} (DP func(const DP, const DP, const DP), const DP x1, const DP x2)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae233b6071785340e925720885bb72ebd}{N\+R\+::quadct}} (const DP x, const DP y, Vec\+\_\+\+I\+\_\+\+DP \&xx, Vec\+\_\+\+I\+\_\+\+DP \&yy, DP \&fa, DP \&fb, DP \&fc, DP \&fd)
+\item 
+void \mbox{\hyperlink{namespaceNR_a4fb019bb24b7e09bb9a1198ca1c679b4}{N\+R\+::quadmx}} (Mat\+\_\+\+O\+\_\+\+DP \&a)
+\item 
+void \mbox{\hyperlink{namespaceNR_a819df1d348b859d09568c5b871dc40e1}{N\+R\+::quadvl}} (const DP x, const DP y, DP \&fa, DP \&fb, DP \&fc, DP \&fd)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a51fab0252d34144103c74d4f947e86c1}{N\+R\+::ran0}} (int \&idum)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a6f5690957c136740f9dd29d51a3dc3fa}{N\+R\+::ran1}} (int \&idum)
+\item 
+DP \mbox{\hyperlink{namespaceNR_af14605dd4827bb94f49095d407b4fda7}{N\+R\+::ran2}} (int \&idum)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a0e43557267c69b10738a862f546a0b2b}{N\+R\+::ran3}} (int \&idum)
+\item 
+DP \mbox{\hyperlink{namespaceNR_aa022fd357d369cb205d0dd59f0e2018a}{N\+R\+::ran4}} (int \&idum)
+\item 
+void \mbox{\hyperlink{namespaceNR_af609478dc8d3d58e4d09f1f8f8553238}{N\+R\+::rank}} (Vec\+\_\+\+I\+\_\+\+I\+NT \&indx, Vec\+\_\+\+O\+\_\+\+I\+NT \&irank)
+\item 
+void \mbox{\hyperlink{namespaceNR_a103ce563920343003034206a38ebdbb7}{N\+R\+::ranpt}} (Vec\+\_\+\+O\+\_\+\+DP \&pt, Vec\+\_\+\+I\+\_\+\+DP \&regn)
+\item 
+void \mbox{\hyperlink{namespaceNR_acf23dccda6fe2ebd6630856bdb24a274}{N\+R\+::ratint}} (Vec\+\_\+\+I\+\_\+\+DP \&xa, Vec\+\_\+\+I\+\_\+\+DP \&ya, const DP x, DP \&y, DP \&dy)
+\item 
+void \mbox{\hyperlink{namespaceNR_a140701eacca3a2e031e077e8efc7794c}{N\+R\+::ratlsq}} (DP fn(const DP), const DP a, const DP b, const int mm, const int kk, Vec\+\_\+\+O\+\_\+\+DP \&cof, DP \&dev)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a3acd42aca134502c65fb52c385218e33}{N\+R\+::ratval}} (const DP x, Vec\+\_\+\+I\+\_\+\+DP \&cof, const int mm, const int kk)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a7d42c86df6be02b1e38a5bf9a51884d8}{N\+R\+::rc}} (const DP x, const DP y)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a06e58a52a06276e59cdd77e651547f2c}{N\+R\+::rd}} (const DP x, const DP y, const DP z)
+\item 
+void \mbox{\hyperlink{namespaceNR_a6e6be7f8710c23ce1bba137a8b15ed43}{N\+R\+::realft}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&data, const int isign)
+\item 
+void \mbox{\hyperlink{namespaceNR_a057f6d96cc5618a7d3b0d1a44a946a56}{N\+R\+::rebin}} (const DP rc, const int nd, Vec\+\_\+\+I\+\_\+\+DP \&r, Vec\+\_\+\+O\+\_\+\+DP \&xin, Mat\+\_\+\+I\+O\+\_\+\+DP \&xi, const int j)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5d0fa7b2278cdceacefe8cd50705176f}{N\+R\+::red}} (const int iz1, const int iz2, const int jz1, const int jz2, const int jm1, const int jm2, const int jmf, const int ic1, const int jc1, const int jcf, const int kc, Mat3\+D\+\_\+\+I\+\_\+\+DP \&c, Mat\+\_\+\+I\+O\+\_\+\+DP \&s)
+\item 
+void \mbox{\hyperlink{namespaceNR_addb2b8e753b62caf1b43dd6f236c651a}{N\+R\+::relax}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&u, Mat\+\_\+\+I\+\_\+\+DP \&rhs)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab35ff057ba423e15b9661f578781f9fd}{N\+R\+::relax2}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&u, Mat\+\_\+\+I\+\_\+\+DP \&rhs)
+\item 
+void \mbox{\hyperlink{namespaceNR_adc048600ca2f348d4250703a28fc2a76}{N\+R\+::resid}} (Mat\+\_\+\+O\+\_\+\+DP \&res, Mat\+\_\+\+I\+\_\+\+DP \&u, Mat\+\_\+\+I\+\_\+\+DP \&rhs)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a8d1d9cdfaa0537971775ebcbe41a56eb}{N\+R\+::revcst}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+I\+NT \&iorder, Vec\+\_\+\+I\+O\+\_\+\+I\+NT \&n)
+\item 
+void \mbox{\hyperlink{namespaceNR_a76ef747dae58b55d1fe6e2b48cd23af6}{N\+R\+::reverse}} (Vec\+\_\+\+I\+O\+\_\+\+I\+NT \&iorder, Vec\+\_\+\+I\+\_\+\+I\+NT \&n)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a2559b510aaa0c283f2031537b9f23176}{N\+R\+::rf}} (const DP x, const DP y, const DP z)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ac238786569e5bffe3268ad64d2a45636}{N\+R\+::rj}} (const DP x, const DP y, const DP z, const DP p)
+\item 
+void \mbox{\hyperlink{namespaceNR_a87093de020cebc6118dcf486f2030fbe}{N\+R\+::rk4}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&dydx, const DP x, const DP h, Vec\+\_\+\+O\+\_\+\+DP \&yout, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a8fae33790a3dca7e757f1e7bf333b5ba}{N\+R\+::rkck}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&dydx, const DP x, const DP h, Vec\+\_\+\+O\+\_\+\+DP \&yout, Vec\+\_\+\+O\+\_\+\+DP \&yerr, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a46a7b57fd403c001f40f08a0b71abc57}{N\+R\+::rkdumb}} (Vec\+\_\+\+I\+\_\+\+DP \&vstart, const DP x1, const DP x2, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a07b7b00335709107b531436f32a7cdd8}{N\+R\+::rkqs}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+DP \&dydx, DP \&x, const DP htry, const DP eps, Vec\+\_\+\+I\+\_\+\+DP \&yscal, DP \&hdid, DP \&hnext, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a7196d873664bc007122619a6c6ebe6f1}{N\+R\+::rlft3}} (Mat3\+D\+\_\+\+I\+O\+\_\+\+DP \&data, Mat\+\_\+\+I\+O\+\_\+\+DP \&speq, const int isign)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a07be599c4e1af3eabb72f2f9c63f8033}{N\+R\+::rofunc}} (const DP b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a0e1ecebfe787d1724c128b16d547c709}{N\+R\+::rotate}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&r, Mat\+\_\+\+I\+O\+\_\+\+DP \&qt, const int i, const DP a, const DP b)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5bcb5bccdabdf66243c940ae37016e07}{N\+R\+::rsolv}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+DP \&d, Vec\+\_\+\+I\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_aca06dba4235f41d5484914650537c0a3}{N\+R\+::rstrct}} (Mat\+\_\+\+O\+\_\+\+DP \&uc, Mat\+\_\+\+I\+\_\+\+DP \&uf)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a0ecfb6285a930173efe5515a12567cd4}{N\+R\+::rtbis}} (DP func(const DP), const DP x1, const DP x2, const DP xacc)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ab4085cd59aa4773f48fe033fb6be4418}{N\+R\+::rtflsp}} (DP func(const DP), const DP x1, const DP x2, const DP xacc)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ae880eed2f01cf2dd35a36515f9ec1f8b}{N\+R\+::rtnewt}} (void funcd(const DP, DP \&, DP \&), const DP x1, const DP x2, const DP xacc)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a37b63f41a0f8b8da8b68076cfa194a1f}{N\+R\+::rtsafe}} (void funcd(const DP, DP \&, DP \&), const DP x1, const DP x2, const DP xacc)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a605de556663dbd83b38d1ca358125af1}{N\+R\+::rtsec}} (DP func(const DP), const DP x1, const DP x2, const DP xacc)
+\item 
+void \mbox{\hyperlink{namespaceNR_a17af9084521630603977a8c9bd46bd40}{N\+R\+::rzextr}} (const int iest, const DP xest, Vec\+\_\+\+I\+\_\+\+DP \&yest, Vec\+\_\+\+O\+\_\+\+DP \&yz, Vec\+\_\+\+O\+\_\+\+DP \&dy)
+\item 
+void \mbox{\hyperlink{namespaceNR_a8c8d71cc60561155b11e42e028ee3b8c}{N\+R\+::savgol}} (Vec\+\_\+\+O\+\_\+\+DP \&c, const int np, const int nl, const int nr, const int ld, const int m)
+\item 
+void \mbox{\hyperlink{namespaceNR_adc488f409f614650e59bd201350349ee}{N\+R\+::scrsho}} (DP fx(const DP))
+\item 
+DP \mbox{\hyperlink{namespaceNR_a0717290c06f42aa15e83108843ebe8e9}{N\+R\+::select}} (const int k, Vec\+\_\+\+I\+O\+\_\+\+DP \&arr)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a9c893dc4317a41c90e5275f875f49514}{N\+R\+::selip}} (const int k, Vec\+\_\+\+I\+\_\+\+DP \&arr)
+\item 
+void \mbox{\hyperlink{namespaceNR_a64047fe43a54a8a00d0311739cf7d0d2}{N\+R\+::shell}} (const int n, Vec\+\_\+\+I\+O\+\_\+\+DP \&a)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3a4867f05151e5dd8b231be47dbd5523}{N\+R\+::shoot}} (Vec\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, Vec\+\_\+\+O\+\_\+\+DP \&f)
+\item 
+void \mbox{\hyperlink{namespaceNR_a377b3f789f3b63d3472b288e5ee103cd}{N\+R\+::shootf}} (Vec\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, Vec\+\_\+\+O\+\_\+\+DP \&f)
+\item 
+void \mbox{\hyperlink{namespaceNR_aabcc7bcebb2a9ffcefb8231216a3b2bf}{N\+R\+::simp1}} (Mat\+\_\+\+I\+\_\+\+DP \&a, const int mm, Vec\+\_\+\+I\+\_\+\+I\+NT \&ll, const int nll, const int iabf, int \&kp, DP \&bmax)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7f8a4de14a8e48d4a3dd9a913b593f94}{N\+R\+::simp2}} (Mat\+\_\+\+I\+\_\+\+DP \&a, const int m, const int n, int \&ip, const int kp)
+\item 
+void \mbox{\hyperlink{namespaceNR_a534aa06bc7a2ffc101eb3606158d7292}{N\+R\+::simp3}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, const int i1, const int k1, const int ip, const int kp)
+\item 
+void \mbox{\hyperlink{namespaceNR_aef5e28f4e523bd00d12f051bbaa68c26}{N\+R\+::simplx}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, const int m1, const int m2, const int m3, int \&icase, Vec\+\_\+\+O\+\_\+\+I\+NT \&izrov, Vec\+\_\+\+O\+\_\+\+I\+NT \&iposv)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae748fa4c5f015f06df38e8bafc21840f}{N\+R\+::simpr}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&dydx, Vec\+\_\+\+I\+\_\+\+DP \&dfdx, Mat\+\_\+\+I\+\_\+\+DP \&dfdy, const DP xs, const DP htot, const int nstep, Vec\+\_\+\+O\+\_\+\+DP \&yout, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a889e9d27c3d64efbace8e4269ee49396}{N\+R\+::sinft}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_acedae47de69f9d0402a28d9a716b2fa2}{N\+R\+::slvsm2}} (Mat\+\_\+\+O\+\_\+\+DP \&u, Mat\+\_\+\+I\+\_\+\+DP \&rhs)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae63f80a859ca5a86551c9b2f4b04fdef}{N\+R\+::slvsml}} (Mat\+\_\+\+O\+\_\+\+DP \&u, Mat\+\_\+\+I\+\_\+\+DP \&rhs)
+\item 
+void \mbox{\hyperlink{namespaceNR_a047d02acf11afe02da3c1da8c748e208}{N\+R\+::sncndn}} (const DP uu, const DP emmc, DP \&sn, DP \&cn, DP \&dn)
+\item 
+DP \mbox{\hyperlink{namespaceNR_ad2b7cce8e123dc0d8dc69bf32a719f94}{N\+R\+::snrm}} (Vec\+\_\+\+I\+\_\+\+DP \&sx, const int itol)
+\item 
+void \mbox{\hyperlink{namespaceNR_a1357ef8a6e9ec8dd977c9280119cb41b}{N\+R\+::sobseq}} (const int n, Vec\+\_\+\+O\+\_\+\+DP \&x)
+\item 
+void \mbox{\hyperlink{namespaceNR_aed31ba4292a87797a7eef501659413d2}{N\+R\+::solvde}} (const int itmax, const DP conv, const DP slowc, Vec\+\_\+\+I\+\_\+\+DP \&scalv, Vec\+\_\+\+I\+\_\+\+I\+NT \&indexv, const int nb, Mat\+\_\+\+I\+O\+\_\+\+DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_a20465364d77d93fb2f8ec0a0aca6f509}{N\+R\+::sor}} (Mat\+\_\+\+I\+\_\+\+DP \&a, Mat\+\_\+\+I\+\_\+\+DP \&b, Mat\+\_\+\+I\+\_\+\+DP \&c, Mat\+\_\+\+I\+\_\+\+DP \&d, Mat\+\_\+\+I\+\_\+\+DP \&e, Mat\+\_\+\+I\+\_\+\+DP \&f, Mat\+\_\+\+I\+O\+\_\+\+DP \&u, const DP rjac)
+\item 
+void \mbox{\hyperlink{namespaceNR_a3cdf7710dd309ccdfedbf8a5cc6e3797}{N\+R\+::sort}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&arr)
+\item 
+void \mbox{\hyperlink{namespaceNR_aac9ed2f59dae4ff79ef08dd3df8f3120}{N\+R\+::sort2}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&arr, Vec\+\_\+\+I\+O\+\_\+\+DP \&brr)
+\item 
+void \mbox{\hyperlink{namespaceNR_aacbec42c43f9d847e5f0d00b9d978e99}{N\+R\+::sort3}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&ra, Vec\+\_\+\+I\+O\+\_\+\+DP \&rb, Vec\+\_\+\+I\+O\+\_\+\+DP \&rc)
+\item 
+void \mbox{\hyperlink{namespaceNR_ae38cea9c6129763058f4b5acebd61ef8}{N\+R\+::spctrm}} (std\+::ifstream \&fp, Vec\+\_\+\+O\+\_\+\+DP \&p, const int k, const bool ovrlap)
+\item 
+void \mbox{\hyperlink{namespaceNR_a6bc9d94a243840f52c5520b6e963b9c1}{N\+R\+::spear}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, DP \&d, DP \&zd, DP \&probd, DP \&rs, DP \&probrs)
+\item 
+void \mbox{\hyperlink{namespaceNR_ab729e0038cdadb95f6f51d2a3d2844a2}{N\+R\+::sphbes}} (const int n, const DP x, DP \&sj, DP \&sy, DP \&sjp, DP \&syp)
+\item 
+void \mbox{\hyperlink{namespaceNR_a670845ceadb2a0b3d7196a9fad1ca893}{N\+R\+::splie2}} (Vec\+\_\+\+I\+\_\+\+DP \&x1a, Vec\+\_\+\+I\+\_\+\+DP \&x2a, Mat\+\_\+\+I\+\_\+\+DP \&ya, Mat\+\_\+\+O\+\_\+\+DP \&y2a)
+\item 
+void \mbox{\hyperlink{namespaceNR_a4021f8bd5baff21c01220d6fb12ddc63}{N\+R\+::splin2}} (Vec\+\_\+\+I\+\_\+\+DP \&x1a, Vec\+\_\+\+I\+\_\+\+DP \&x2a, Mat\+\_\+\+I\+\_\+\+DP \&ya, Mat\+\_\+\+I\+\_\+\+DP \&y2a, const DP x1, const DP x2, DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5c106df532661250db9a1edaec21e355}{N\+R\+::spline}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, const DP yp1, const DP ypn, Vec\+\_\+\+O\+\_\+\+DP \&y2)
+\item 
+void \mbox{\hyperlink{namespaceNR_af17868718dea0cf57360a9a84b1bf76f}{N\+R\+::splint}} (Vec\+\_\+\+I\+\_\+\+DP \&xa, Vec\+\_\+\+I\+\_\+\+DP \&ya, Vec\+\_\+\+I\+\_\+\+DP \&y2a, const DP x, DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_add2c8f2338d667862d2851438e2bbcd9}{N\+R\+::spread}} (const DP y, Vec\+\_\+\+I\+O\+\_\+\+DP \&yy, const DP x, const int m)
+\item 
+void \mbox{\hyperlink{namespaceNR_a569952912ee7ce4678374a5ab9720728}{N\+R\+::sprsax}} (Vec\+\_\+\+I\+\_\+\+DP \&sa, Vec\+\_\+\+I\+\_\+\+I\+NT \&ija, Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_ac6049ef83ac59033cd16008d6434dbd9}{N\+R\+::sprsin}} (Mat\+\_\+\+I\+\_\+\+DP \&a, const DP thresh, Vec\+\_\+\+O\+\_\+\+DP \&sa, Vec\+\_\+\+O\+\_\+\+I\+NT \&ija)
+\item 
+void \mbox{\hyperlink{namespaceNR_a5e13fa9b150938fe86e025d574065cba}{N\+R\+::sprspm}} (Vec\+\_\+\+I\+\_\+\+DP \&sa, Vec\+\_\+\+I\+\_\+\+I\+NT \&ija, Vec\+\_\+\+I\+\_\+\+DP \&sb, Vec\+\_\+\+I\+\_\+\+I\+NT \&ijb, Vec\+\_\+\+O\+\_\+\+DP \&sc, Vec\+\_\+\+I\+\_\+\+I\+NT \&ijc)
+\item 
+void \mbox{\hyperlink{namespaceNR_a8a8f5c184fd77f33204bf0529388c245}{N\+R\+::sprstm}} (Vec\+\_\+\+I\+\_\+\+DP \&sa, Vec\+\_\+\+I\+\_\+\+I\+NT \&ija, Vec\+\_\+\+I\+\_\+\+DP \&sb, Vec\+\_\+\+I\+\_\+\+I\+NT \&ijb, const DP thresh, Vec\+\_\+\+O\+\_\+\+DP \&sc, Vec\+\_\+\+O\+\_\+\+I\+NT \&ijc)
+\item 
+void \mbox{\hyperlink{namespaceNR_afda5189ac62139477b4017822d258544}{N\+R\+::sprstp}} (Vec\+\_\+\+I\+\_\+\+DP \&sa, Vec\+\_\+\+I\+\_\+\+I\+NT \&ija, Vec\+\_\+\+O\+\_\+\+DP \&sb, Vec\+\_\+\+O\+\_\+\+I\+NT \&ijb)
+\item 
+void \mbox{\hyperlink{namespaceNR_aa3a3114b55f3fd188fccc24ab74a1906}{N\+R\+::sprstx}} (Vec\+\_\+\+I\+\_\+\+DP \&sa, Vec\+\_\+\+I\+\_\+\+I\+NT \&ija, Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&b)
+\item 
+void \mbox{\hyperlink{namespaceNR_ad2ae3e12b7597c2a4702755e6a387786}{N\+R\+::stifbs}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+DP \&dydx, DP \&xx, const DP htry, const DP eps, Vec\+\_\+\+I\+\_\+\+DP \&yscal, DP \&hdid, DP \&hnext, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_afca47b534f9a096322597481b44a4ea6}{N\+R\+::stiff}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&y, Vec\+\_\+\+I\+O\+\_\+\+DP \&dydx, DP \&x, const DP htry, const DP eps, Vec\+\_\+\+I\+\_\+\+DP \&yscal, DP \&hdid, DP \&hnext, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a9a4beb20936c6e96b577a4f5e8c9d157}{N\+R\+::stoerm}} (Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&d2y, const DP xs, const DP htot, const int nstep, Vec\+\_\+\+O\+\_\+\+DP \&yout, void derivs(const DP, Vec\+\_\+\+I\+\_\+\+DP \&, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a5ae2173a7b10fd0f4e35baaad45f16f8}{N\+R\+::svbksb}} (Mat\+\_\+\+I\+\_\+\+DP \&u, Vec\+\_\+\+I\+\_\+\+DP \&w, Mat\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+O\+\_\+\+DP \&x)
+\item 
+void \mbox{\hyperlink{namespaceNR_ad532389e2c426c3c38b860f4fd254103}{N\+R\+::svdcmp}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+DP \&w, Mat\+\_\+\+O\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+void \mbox{\hyperlink{namespaceNR_afe44878304edad27239234f84f643943}{N\+R\+::svdfit}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+DP \&sig, Vec\+\_\+\+O\+\_\+\+DP \&a, Mat\+\_\+\+O\+\_\+\+DP \&u, Mat\+\_\+\+O\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, Vec\+\_\+\+O\+\_\+\+DP \&w, DP \&chisq, void funcs(const DP, Vec\+\_\+\+O\+\_\+\+DP \&))
+\item 
+void \mbox{\hyperlink{namespaceNR_a7718198c5af1e10344d7c8933fe579c5}{N\+R\+::svdvar}} (Mat\+\_\+\+I\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, Vec\+\_\+\+I\+\_\+\+DP \&w, Mat\+\_\+\+O\+\_\+\+DP \&cvm)
+\item 
+void \mbox{\hyperlink{namespaceNR_a708603e68ca30567cab74fb4141a67f1}{N\+R\+::toeplz}} (Vec\+\_\+\+I\+\_\+\+DP \&r, Vec\+\_\+\+O\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y)
+\item 
+void \mbox{\hyperlink{namespaceNR_a12aa30fe12a4e3fe8fb89f946499954f}{N\+R\+::tptest}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}}, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_a569384a7d408b566462b85edbb04b7f7}{N\+R\+::tqli}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&d, Vec\+\_\+\+I\+O\+\_\+\+DP \&e, Mat\+\_\+\+I\+O\+\_\+\+DP \&z)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a8bf97a9fcc7bc9cebca3838cde195acb}{N\+R\+::trapzd}} (DP func(const DP), const DP a, const DP b, const int n)
+\item 
+void \mbox{\hyperlink{namespaceNR_a65685f36fb5e22017a14636bf55b9de0}{N\+R\+::tred2}} (Mat\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+DP \&d, Vec\+\_\+\+O\+\_\+\+DP \&e)
+\item 
+void \mbox{\hyperlink{namespaceNR_a217a03f117a9bed3da0ab37c417e8dae}{N\+R\+::tridag}} (Vec\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+DP \&b, Vec\+\_\+\+I\+\_\+\+DP \&c, Vec\+\_\+\+I\+\_\+\+DP \&r, Vec\+\_\+\+O\+\_\+\+DP \&u)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a8aa63035f06199a55106f0e6d1fa9e3f}{N\+R\+::trncst}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+I\+\_\+\+DP \&y, Vec\+\_\+\+I\+\_\+\+I\+NT \&iorder, Vec\+\_\+\+I\+O\+\_\+\+I\+NT \&n)
+\item 
+void \mbox{\hyperlink{namespaceNR_a36458f311bde4056fc362001e22b2570}{N\+R\+::trnspt}} (Vec\+\_\+\+I\+O\+\_\+\+I\+NT \&iorder, Vec\+\_\+\+I\+\_\+\+I\+NT \&n)
+\item 
+void \mbox{\hyperlink{namespaceNR_a586892538d6d03cea04d8c3fe1c6bb24}{N\+R\+::ttest}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}}, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_abd90c424ce9176090408d69f51affa4f}{N\+R\+::tutest}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}}, DP \&prob)
+\item 
+void \mbox{\hyperlink{namespaceNR_aee6d9d1d627803bba537f37efaa5e68b}{N\+R\+::twofft}} (Vec\+\_\+\+I\+\_\+\+DP \&data1, Vec\+\_\+\+I\+\_\+\+DP \&data2, Vec\+\_\+\+O\+\_\+\+DP \&fft1, Vec\+\_\+\+O\+\_\+\+DP \&fft2)
+\item 
+void \mbox{\hyperlink{namespaceNR_acd42c7b9c5541ac69c6fd5728e560c7f}{N\+R\+::vander}} (Vec\+\_\+\+I\+\_\+\+DP \&x, Vec\+\_\+\+O\+\_\+\+DP \&w, Vec\+\_\+\+I\+\_\+\+DP \&q)
+\item 
+void \mbox{\hyperlink{namespaceNR_a95a3ea0afc3cb560bd8cd72cc112840c}{N\+R\+::vegas}} (Vec\+\_\+\+I\+\_\+\+DP \&regn, DP fxn(Vec\+\_\+\+I\+\_\+\+DP \&, const DP), const int init, const int ncall, const int itmx, const int nprn, DP \&tgral, DP \&sd, DP \&chi2a)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7a4c7656e6a76336fb4d33e46f9c556c}{N\+R\+::voltra}} (const DP t0, const DP h, Vec\+\_\+\+O\+\_\+\+DP \&\mbox{\hyperlink{devel_2lib_2hadron_2hadron__timeslice_8cc_ac310d9181e916ba43604099aee272c71}{t}}, Mat\+\_\+\+O\+\_\+\+DP \&f, DP g(const int, const DP), DP ak(const int, const int, const DP, const DP))
+\item 
+void \mbox{\hyperlink{namespaceNR_adf8819d18e13fefed2454ef15c091a5d}{N\+R\+::wt1}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&a, const int isign, void wtstep(Vec\+\_\+\+I\+O\+\_\+\+DP \&, const int, const int))
+\item 
+void \mbox{\hyperlink{namespaceNR_a2eeb46a9d50e58e09b864b3b8f21ab5b}{N\+R\+::wtn}} (Vec\+\_\+\+I\+O\+\_\+\+DP \&a, Vec\+\_\+\+I\+\_\+\+I\+NT \&nn, const int isign, void wtstep(Vec\+\_\+\+I\+O\+\_\+\+DP \&, const int, const int))
+\item 
+void \mbox{\hyperlink{namespaceNR_a58e63db23848e90d1a5db7af79dda323}{N\+R\+::wwghts}} (Vec\+\_\+\+O\+\_\+\+DP \&wghts, const DP h, void kermom(Vec\+\_\+\+O\+\_\+\+DP \&w, const DP y))
+\item 
+void \mbox{\hyperlink{namespaceNR_a07f1329337e99d2666332950c702b2c7}{N\+R\+::zrhqr}} (Vec\+\_\+\+I\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+C\+P\+L\+X\+\_\+\+DP \&rt)
+\item 
+DP \mbox{\hyperlink{namespaceNR_a13232764cfbf0d7a5acabe727c7109bd}{N\+R\+::zriddr}} (DP func(const DP), const DP x1, const DP x2, const DP xacc)
+\item 
+void \mbox{\hyperlink{namespaceNR_a7c019f6e455600b25e89123914373a23}{N\+R\+::zroots}} (Vec\+\_\+\+I\+\_\+\+C\+P\+L\+X\+\_\+\+DP \&a, Vec\+\_\+\+O\+\_\+\+C\+P\+L\+X\+\_\+\+DP \&roots, const bool \&polish)
+\end{DoxyCompactItemize}

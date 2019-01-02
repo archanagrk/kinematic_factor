@@ -1,0 +1,124 @@
+\hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/ffdb\+\_\+hash\+\_\+func.h File Reference}
+\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/filehash/ffdb\_hash\_func.h@{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/filehash/ffdb\_hash\_func.h}}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d87/devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a71d4674a43273f69f1116128d536a9bc}{\+\_\+\+\_\+ham\+\_\+func2}} (const void $\ast$key, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_aedf4585bfc48595964ad01644ad19e76}{\+\_\+\+\_\+ham\+\_\+func3}} (const void $\ast$key, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a6d9b74fa768ec9e76fc2a0f7dd6d5461}{\+\_\+\+\_\+ham\+\_\+func4}} (const void $\ast$key, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a81a42d643c836f388d6dc040e4b9b4c6}{\+\_\+\+\_\+ham\+\_\+func5}} (const void $\ast$key, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a79d8cb8240ebb32c74ba51a0eac8aa64}{\+\_\+\+\_\+ffdb\+\_\+log2}} (unsigned int num)
+\item 
+int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a84933d22e6744fb559a08e95010872e6}{\+\_\+\+\_\+ham\+\_\+defcmp}} (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$a, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$b)
+\item 
+void \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a7dd14a868e00186dc5b316ff25f1f85e}{\+\_\+\+\_\+ffdb\+\_\+crc32\+\_\+init}} (void)
+\item 
+unsigned int \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_afa8fcad8eecebc3b96f83a921a6c5a25}{\+\_\+\+\_\+ffdb\+\_\+crc32\+\_\+checksum}} (unsigned int crc, const unsigned char $\ast$buffer, unsigned int len)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int($\ast$ \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a8dbb63e1cad3f3b74feb88774094ac90}{\+\_\+\+\_\+ffdb\+\_\+default\+\_\+hash}} )(const void $\ast$key, unsigned int len)
+\item 
+int($\ast$ \mbox{\hyperlink{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a95a05878af50da44152ad314a956b048}{\+\_\+\+\_\+ffdb\+\_\+default\+\_\+cmp}} )(const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$a, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$b)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_afa8fcad8eecebc3b96f83a921a6c5a25}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_afa8fcad8eecebc3b96f83a921a6c5a25}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ffdb\_crc32\_checksum@{\_\_ffdb\_crc32\_checksum}}
+\index{\_\_ffdb\_crc32\_checksum@{\_\_ffdb\_crc32\_checksum}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_crc32\_checksum()}{\_\_ffdb\_crc32\_checksum()}}
+{\footnotesize\ttfamily unsigned int \+\_\+\+\_\+ffdb\+\_\+crc32\+\_\+checksum (\begin{DoxyParamCaption}\item[{unsigned int}]{crc,  }\item[{const unsigned char $\ast$}]{buf,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+Caculate crc32 checksum for a buffer with length len \mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a7dd14a868e00186dc5b316ff25f1f85e}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a7dd14a868e00186dc5b316ff25f1f85e}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ffdb\_crc32\_init@{\_\_ffdb\_crc32\_init}}
+\index{\_\_ffdb\_crc32\_init@{\_\_ffdb\_crc32\_init}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_crc32\_init()}{\_\_ffdb\_crc32\_init()}}
+{\footnotesize\ttfamily void \+\_\+\+\_\+ffdb\+\_\+crc32\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This routine initialize the C\+RC table above \mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a79d8cb8240ebb32c74ba51a0eac8aa64}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a79d8cb8240ebb32c74ba51a0eac8aa64}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ffdb\_log2@{\_\_ffdb\_log2}}
+\index{\_\_ffdb\_log2@{\_\_ffdb\_log2}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_log2()}{\_\_ffdb\_log2()}}
+{\footnotesize\ttfamily unsigned int \+\_\+\+\_\+ffdb\+\_\+log2 (\begin{DoxyParamCaption}\item[{unsigned int}]{num }\end{DoxyParamCaption})}
+
+A simple implementation of log2 on an integer \mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a84933d22e6744fb559a08e95010872e6}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a84933d22e6744fb559a08e95010872e6}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ham\_defcmp@{\_\_ham\_defcmp}}
+\index{\_\_ham\_defcmp@{\_\_ham\_defcmp}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ham\_defcmp()}{\_\_ham\_defcmp()}}
+{\footnotesize\ttfamily int \+\_\+\+\_\+ham\+\_\+defcmp (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{a,  }\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{b }\end{DoxyParamCaption})}
+
+Default key compare function \mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a71d4674a43273f69f1116128d536a9bc}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a71d4674a43273f69f1116128d536a9bc}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ham\_func2@{\_\_ham\_func2}}
+\index{\_\_ham\_func2@{\_\_ham\_func2}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ham\_func2()}{\_\_ham\_func2()}}
+{\footnotesize\ttfamily unsigned int \+\_\+\+\_\+ham\+\_\+func2 (\begin{DoxyParamCaption}\item[{const void $\ast$}]{key,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+Copyright (C) $<$2008$>$ Jefferson Science Associates, L\+LC Under U.\+S. D\+OE Contract No. D\+E-\/\+A\+C05-\/06\+O\+R23177
+
+Thomas Jefferson National Accelerator Facility
+
+Jefferson Lab Scientific Computing Group, 12000 Jefferson Ave.,
+
+Newport News, VA 23606
+
+This program is free software\+: you can redistribute it and/or modify it under the terms of the G\+NU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but W\+I\+T\+H\+O\+UT A\+NY W\+A\+R\+R\+A\+N\+TY; without even the implied warranty of M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY or F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE. See the G\+NU General Public License for more details.
+
+You should have received a copy of the G\+NU General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\texttt{ http\+://www.\+gnu.\+org/licenses/}}. 
+
+ Description\+: Hash functions used in the hash based database
+
+Author\+: Jie Chen Scientific Computing Group Jefferson Lab
+
+Revision History\+: \begin{DoxyParagraph}{Log}
+ffdb\+\_\+hash\+\_\+func.\+h,v 
+\end{DoxyParagraph}
+Revision 1.\+1 2009-\/02-\/20 2047 chen initial import \mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_aedf4585bfc48595964ad01644ad19e76}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_aedf4585bfc48595964ad01644ad19e76}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ham\_func3@{\_\_ham\_func3}}
+\index{\_\_ham\_func3@{\_\_ham\_func3}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ham\_func3()}{\_\_ham\_func3()}}
+{\footnotesize\ttfamily unsigned int \+\_\+\+\_\+ham\+\_\+func3 (\begin{DoxyParamCaption}\item[{const void $\ast$}]{key,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a6d9b74fa768ec9e76fc2a0f7dd6d5461}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a6d9b74fa768ec9e76fc2a0f7dd6d5461}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ham\_func4@{\_\_ham\_func4}}
+\index{\_\_ham\_func4@{\_\_ham\_func4}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ham\_func4()}{\_\_ham\_func4()}}
+{\footnotesize\ttfamily unsigned int \+\_\+\+\_\+ham\+\_\+func4 (\begin{DoxyParamCaption}\item[{const void $\ast$}]{key,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a81a42d643c836f388d6dc040e4b9b4c6}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a81a42d643c836f388d6dc040e4b9b4c6}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ham\_func5@{\_\_ham\_func5}}
+\index{\_\_ham\_func5@{\_\_ham\_func5}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ham\_func5()}{\_\_ham\_func5()}}
+{\footnotesize\ttfamily unsigned int \+\_\+\+\_\+ham\+\_\+func5 (\begin{DoxyParamCaption}\item[{const void $\ast$}]{key,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a95a05878af50da44152ad314a956b048}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a95a05878af50da44152ad314a956b048}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ffdb\_default\_cmp@{\_\_ffdb\_default\_cmp}}
+\index{\_\_ffdb\_default\_cmp@{\_\_ffdb\_default\_cmp}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_default\_cmp}{\_\_ffdb\_default\_cmp}}
+{\footnotesize\ttfamily int($\ast$ \+\_\+\+\_\+ffdb\+\_\+default\+\_\+cmp) (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$a, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$b)}
+
+Setting default compare function \mbox{\Hypertarget{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a8dbb63e1cad3f3b74feb88774094ac90}\label{devel_2other__libs_2filedb_2filehash_2ffdb__hash__func_8h_a8dbb63e1cad3f3b74feb88774094ac90}} 
+\index{ffdb\_hash\_func.h@{ffdb\_hash\_func.h}!\_\_ffdb\_default\_hash@{\_\_ffdb\_default\_hash}}
+\index{\_\_ffdb\_default\_hash@{\_\_ffdb\_default\_hash}!ffdb\_hash\_func.h@{ffdb\_hash\_func.h}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_default\_hash}{\_\_ffdb\_default\_hash}}
+{\footnotesize\ttfamily unsigned int($\ast$ \+\_\+\+\_\+ffdb\+\_\+default\+\_\+hash) (const void $\ast$key, unsigned int len)}
+
+Setting default hash function 

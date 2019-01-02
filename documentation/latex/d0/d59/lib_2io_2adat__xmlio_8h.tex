@@ -1,0 +1,314 @@
+\hypertarget{lib_2io_2adat__xmlio_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/adat\+\_\+xmlio.h File Reference}
+\label{lib_2io_2adat__xmlio_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/io/adat\_xmlio.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/io/adat\_xmlio.h}}
+
+
+X\+ML IO support.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$stack$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+{\ttfamily \#include \char`\"{}xml\+\_\+simplewriter.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xpath\+\_\+reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xml\+\_\+array.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/adat\+\_\+arrays.\+h\char`\"{}}\newline
+Include dependency graph for adat\+\_\+xmlio.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/da3/lib_2io_2adat__xmlio_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{db/db8/lib_2io_2adat__xmlio_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classADATXML_1_1XMLReader}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader}}
+\begin{DoxyCompactList}\small\item\em X\+ML reader class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}}
+\begin{DoxyCompactList}\small\item\em Metadata output class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Buffer\+Writer}}
+\begin{DoxyCompactList}\small\item\em Write metadata to a buffer. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATXML_1_1XMLFileWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+File\+Writer}}
+\begin{DoxyCompactList}\small\item\em Write data to a file. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATXML_1_1XMLArrayWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Array\+Writer}}
+\begin{DoxyCompactList}\small\item\em Writes metadata to an array which serves as a handle for another X\+ML object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceADATXML}{A\+D\+A\+T\+X\+ML}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__io_ga9ad99522897be390bf165bf7f963acc8}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, std\+::string \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga42921d40fdc242e0dc6200a66c1eb928}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, char \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga0e33dbc1e3ebc33bfb45ef5f1b390e45}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, int \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga8237b5b121cf20d4d72ebe0396ad5fc7}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, unsigned int \&result)
+\item 
+void \mbox{\hyperlink{group__io_gac393d0005e4174339c4abaf8a008deac}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, short int \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga8fe4b50be5b1bd3e2bfb094b7c158c06}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, unsigned short int \&result)
+\item 
+void \mbox{\hyperlink{group__io_gac5101b8a4f533a23a99e6ae250648a1d}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, long int \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga91e3d97bb48b2257dba32262f49d5758}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, unsigned long int \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga1a88a7d3e3dbac33c732e580f8c23302}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, float \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga75127d89932656a5224dd747b14ca897}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, double \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga9309cae5bd0340cc4ed71055808b6fac}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, bool \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga1287217ff7c9cbae6a6c958ee2de7776}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::complex$<$ float $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Complex reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gaf79f2861a8d55a3e88311959e646b0e1}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::complex$<$ double $>$ \&param)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_gae46a9532d6b16b2a3dc58d889eb1d688}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gaeaed8077b8bee4f4277ea0cc8cc13744}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ int $>$ \&result)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga2eaf76c05e59884bd34813884eef708b}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ unsigned int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gaa9246e7914f16a84371b00a4910a535a}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga778f9eca273d2180afff1ba58606a153}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ unsigned short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga28f3bc5eedbefea7d81064c339e72f97}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gae84bf39f198c8718403a15bc408a09a1}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ unsigned long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gab83c1ad39e65d00b48e6e4b0611c270f}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ float $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gade490f5b9db35aa7bc58c6bb07848048}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ double $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gaea910d2bb1864c350f979d14f6c1527f}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, Array$<$ bool $>$ \&result)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_gae58a41d3a914bc8eba546ada945fa97f}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, std\+::vector$<$ T $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gaba3ec8cd866164ea8bdc810edeaf8210}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ int $>$ \&result)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga745a0160808dcca1ec6805d77979bfcc}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ unsigned int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga5ca3f42dfcdc536156476e7f6d6db61c}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gacd64b080900323aa538c91b95c83248d}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ unsigned short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gaad4f8586d1c41ae7f0c32a40754623f5}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga04a1d8c6fa265cdf5824019b4f94844f}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ unsigned long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga161a35ac40c7f85342a454fbc17e2dad}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ float $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga49fa13abbc0b2a2273c58d328d1e7d70}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::vector$<$ double $>$ \&result)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_gacca340ef5b3a2ee3626cb544539f5e64}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, std\+::list$<$ T $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gab7d805fe66e6e3f1f897d4dabd3b29ad}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ int $>$ \&result)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gab76dffc06569f27474fb03e08b372393}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ unsigned int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gaf316ff420b43fcc4c23590001af57c66}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga6a4f6e0bca990676d09efaf318ed8eb7}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ unsigned short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga3369838beeb12ff807171fc5978df1be}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gae359122dfdc08b4e41d5d8f230426192}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ unsigned long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga1a4d06e4f08869c717ad7db1a8fbfa2f}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ float $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga8feeff4a74f8b53707756dc206808983}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, std\+::list$<$ double $>$ \&result)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_gaba638604c3a98bce5724245a7fad4055}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ T $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array1dO element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga1f304041cae2cc81ec6bd79e94a0f7dd}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ int $>$ \&result)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array1dO element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga1c554d7ca96ef05f2e5c8d92af1515b9}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ unsigned int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gaf12f0eb15652e228314c4a67e168688d}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gafcc468224ec7aadb6f062319ee4a9017}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ unsigned short int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gaf73cf1373de71e822e6e7ddb48581714}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_gabf73a226451fbe3963eed7cf3fbc6849}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ unsigned long int $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga2fb042288bd86fb85377268d95b5e39f}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ float $>$ \&result)
+\item 
+void \mbox{\hyperlink{group__io_ga6356b58aa7c58aa4bb8eaed5db9f8f40}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&xpath, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ double $>$ \&result)
+\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{group__io_ga01c7047fcb175e3518660cdab70536c9}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, std\+::map$<$ K, V $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T1 , typename T2 $>$ }\\void \mbox{\hyperlink{group__io_gaa94af0693db4178d032a64ee2d3c5439}{A\+D\+A\+T\+X\+M\+L\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&s, std\+::pair$<$ T1, T2 $>$ \&input)
+\begin{DoxyCompactList}\small\item\em Read a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga019b535f09d2107aa9012cd3fce58193}{A\+D\+A\+T\+X\+M\+L\+::push}} (X\+M\+L\+Writer \&xml, const std\+::string \&s)
+\begin{DoxyCompactList}\small\item\em Push a group name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gac235f191b977af85918b9a9d063ba5f4}{A\+D\+A\+T\+X\+M\+L\+::pop}} (X\+M\+L\+Writer \&xml)
+\begin{DoxyCompactList}\small\item\em Pop a group name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga0b5b9fff1a99b7e41bb286c7c153ff78}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const X\+M\+L\+Reader \&d)
+\begin{DoxyCompactList}\small\item\em Write something from a reader. \end{DoxyCompactList}\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gaeedb0da293eebaa00dff464efbb18eab}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const X\+M\+L\+Reader \&d)
+\item 
+void \mbox{\hyperlink{group__io_ga14c568a7a3ffb3e486c9036ff7382f8e}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const X\+M\+L\+Buffer\+Writer \&d)
+\begin{DoxyCompactList}\small\item\em Write something from a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. \end{DoxyCompactList}\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga5f6c03929b05296b731cf36fb65cf9c6}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const X\+M\+L\+Buffer\+Writer \&d)
+\item 
+void \mbox{\hyperlink{group__io_ga20a076b653822e9476b7712de61b383c}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const std\+::string \&output)
+\item 
+void \mbox{\hyperlink{group__io_gafaebe3bd91fd5654568bc862bded8d3d}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const char $\ast$output)
+\item 
+void \mbox{\hyperlink{group__io_ga397db53ca185f22405c43c5b5f6e6a8d}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const char \&output)
+\item 
+void \mbox{\hyperlink{group__io_gadc4b57f737a20fc500619ce19834df8e}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const int \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga5856cc9bbcc04728d4c4c248085478d6}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const unsigned int \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga0576b7ad74a4cc939c5fd164dddd2ac9}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const short int \&output)
+\item 
+void \mbox{\hyperlink{group__io_gabe7167254a6bfbd7e4d5046e1758e48f}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const unsigned short int \&output)
+\item 
+void \mbox{\hyperlink{group__io_gae6391d5ecac6e646e20a7cc2dd67ffbd}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const long int \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaca56f1bd58c3916a9c9ca8f0041b9c21}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const unsigned long int \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga004a6551422be9e3a46d53e5e974acfd}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const float \&output)
+\item 
+void \mbox{\hyperlink{group__io_gae1439bc15e3d4497d18ecc77d6443d3b}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const double \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaa6f01baa873f2c676d573b16ff3a1099}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const bool \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga120f4c9a4f62f8190c2d87d73124fded}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::complex$<$ float $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Complex writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga841e4774bcd8f9d6b7d0d8f0ae20d34f}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::complex$<$ double $>$ \&param)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gaf8d83226be4c0dca61d0f9d2cad6f57b}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const std\+::string \&output)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga1e77b0f38cdffd40d5f5d947a4527bb4}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const char $\ast$d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gaaf7119c0afc1e8701f12daa5d349ae00}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const char \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gab642b539df5696daa03675faadf87dfc}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const int \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga24986bf3413f6b83f58f5941f2c68db7}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const unsigned int \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga2892faecb11d9475723b52bcae10aa04}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const short int \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gac4bf68c17fbdb50450cfa2d338d09685}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const unsigned short int \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gadc0e2c541a279b5a007e13f6f73ecf45}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const long int \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_gaaf0b05a50d9a15119bf89b91d941b9d2}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const unsigned long int \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga5bf37d07fe43369189518f64fd8ca05d}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const float \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga3325d0cff5609ce8a1d74b516e9dfcf8}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const double \&d)
+\item 
+X\+M\+L\+Writer \& \mbox{\hyperlink{group__io_ga9d2ed7a5f0ca12a3b4f993f19ee4473e}{A\+D\+A\+T\+X\+M\+L\+::operator$<$$<$}} (X\+M\+L\+Writer \&xml, const bool \&d)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_ga505002df14eea0ecd6a4c92bfdc6425d}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Write a X\+ML Array element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga79aaea02aba2cdc3c3374686eca9fd1e}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga69642f017daf4afef39564d30ba6cba1}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ unsigned int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga5b987571b14df546fba76f92cb272d5d}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaae1762f924e581123d4df61dff9b9f5b}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ unsigned short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaa86792c3bbc86036087623eee8f75f15}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaa89a8fb5de3a6ff255c50428b84a232c}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ unsigned long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga37bab6df89540c0999683cb373ad2d3d}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ float $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga82a292d577216b66e12c9876c7fe7a10}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const Array$<$ double $>$ \&s1)
+\item 
+void \mbox{\hyperlink{group__io_ga9a93f3084bfa9501e5fb5da53925c25d}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array$<$ bool $>$ \&output)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_gad6746caf2a4ff29e3ae8da748fd880a7}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const std\+::vector$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Write a X\+ML vector element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga5f73c76144fce7c12dd53d0f785b2d05}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga763106f559ef609d54f89243e5965af4}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ unsigned int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga9085d80500322f8f56b37df7c27cd61a}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gad9f57f8c23abf2a400ef501bb816e173}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ unsigned short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga402db05a61329b7bfeb8e92021f669c6}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaddbbc6b8d1fa2d88b2b7d0ecd3e36884}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ unsigned long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga21089f03811e37a0d78c969c6a611f59}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ float $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gab54b00e1a7cbc507061351d54d6de9fe}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const std\+::vector$<$ double $>$ \&s1)
+\item 
+void \mbox{\hyperlink{group__io_ga5ca658ba9d302064625a4be34293839a}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::vector$<$ bool $>$ \&output)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_ga442a3dd5472737a074d3774f46a94f14}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const std\+::list$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Write a X\+ML vector element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gaab9fb8d6cd603f8b6b5c6b493935eade}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga6026879ab5fc4a25f24c2f9f88d731b5}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ unsigned int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga9e8def0c78f0db9648bdf8a6ef4b0832}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga9b4ce3375767d9485b3d5dcbf535d4a4}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ unsigned short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga323fbb7d576696f27ec4eb34519c1fc7}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga1cae344439dcb1355afb4b89f85e7e1b}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ unsigned long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaed1b6aaf88e89845ef30099ca6c5d933}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ float $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga9b4f1b7647f914a90edb448dc7fbb4e9}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ double $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gaaeb2284c0481b6c39c20d3e2c283d933}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const std\+::list$<$ bool $>$ \&output)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__io_ga4aca42ea47cabf4b5644cf09729343ce}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&s, const \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Write a X\+ML Array1dO element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gaa6e09c5b36ae52183896f9566e971ca5}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga32f158a165ed5de5be9e8391eb747012}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ unsigned int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga0490b2b22643afb2ca599baccded2556}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_gada32aa6101427e2983e6507da6d49ff2}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ unsigned short int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga22d9e5badf27f6d860eeba79ca71243f}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga930bf7dd8f7a313ec5f29eacc08d06ba}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ unsigned long int $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga83e5a11ea845805029325ff1c7946f36}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ float $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga60a959cadded600c1c4768075005f76e}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ double $>$ \&output)
+\item 
+void \mbox{\hyperlink{group__io_ga17afd14eb981c71780dc1b0074758afc}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&xpath, const Array1dO$<$ bool $>$ \&output)
+\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{group__io_gaab13ff0d8972a4435cd3590b6c87ea05}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const std\+::map$<$ K, V $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Write a map. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T1 , typename T2 $>$ }\\void \mbox{\hyperlink{group__io_gabcda0d5bebd682903ae663861766df8b}{A\+D\+A\+T\+X\+M\+L\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const std\+::pair$<$ T1, T2 $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Write a pair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_ga957f4130fa008139cd16879b0794ae54}{A\+D\+A\+T\+X\+M\+L\+::push}} (X\+M\+L\+Array\+Writer \&xml)
+\begin{DoxyCompactList}\small\item\em Push a group name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__io_gafc9d3fe6a9094c09371a9213eb4b6cdd}{A\+D\+A\+T\+X\+M\+L\+::pop}} (X\+M\+L\+Array\+Writer \&xml)
+\begin{DoxyCompactList}\small\item\em Pop a group name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+X\+ML IO support. 
+

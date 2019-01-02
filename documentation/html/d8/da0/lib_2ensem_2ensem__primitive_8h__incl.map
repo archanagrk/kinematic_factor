@@ -1,0 +1,12 @@
+<map id="/Users/archanar/Kinematic_factor/adat_devel/lib/ensem/ensem_primitive.h" name="/Users/archanar/Kinematic_factor/adat_devel/lib/ensem/ensem_primitive.h">
+<area shape="rect" id="node1" title="Primitive classes." alt="" coords="649,5,828,57"/>
+<area shape="rect" id="node2" href="$df/df8/lib_2ensem_2ensem__primscalar_8h.html" title="Primitive Scalar." alt="" coords="5,105,146,131"/>
+<area shape="rect" id="node3" href="$de/d32/lib_2ensem_2ensem__primmatrix_8h.html" title="Primitive Matrix." alt="" coords="170,105,312,131"/>
+<area shape="rect" id="node4" href="$dc/dab/lib_2ensem_2ensem__primvector_8h.html" title="Primitive Vector." alt="" coords="336,105,477,131"/>
+<area shape="rect" id="node5" href="$d3/d4e/lib_2ensem_2ensem__primseed_8h.html" title="Primitive Seed." alt="" coords="502,105,636,131"/>
+<area shape="rect" id="node6" href="$d1/d9d/lib_2ensem_2ensem__primcolormat_8h.html" title="Primitive Color Matrix." alt="" coords="660,105,817,131"/>
+<area shape="rect" id="node7" href="$d4/d2f/lib_2ensem_2ensem__primcolorvec_8h.html" title="Primitive Color Vector." alt="" coords="841,105,996,131"/>
+<area shape="rect" id="node8" href="$d8/d6a/lib_2ensem_2ensem__primgamma_8h.html" title=" " alt="" coords="1021,105,1171,131"/>
+<area shape="rect" id="node9" href="$d4/d21/lib_2ensem_2ensem__primspinmat_8h.html" title="Primitive Spin Matrix." alt="" coords="1195,105,1348,131"/>
+<area shape="rect" id="node10" href="$dd/d8f/lib_2ensem_2ensem__primspinvec_8h.html" title="Primitive Spin Vector." alt="" coords="1372,105,1523,131"/>
+</map>

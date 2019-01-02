@@ -1,0 +1,10 @@
+<map id="ADATIO::BinaryReader::readPrimitive" name="ADATIO::BinaryReader::readPrimitive">
+<area shape="rect" id="node1" title=" " alt="" coords="5,152,164,191"/>
+<area shape="rect" id="node2" href="$da/dd9/classADATIO_1_1BinaryReader.html#a9c68e2d4ecd86773a48a3a38f0c90677" title="Read array of bytes and broadcast to all nodes." alt="" coords="212,152,371,191"/>
+<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#aa34e73d5f1e6b2b3b48c27e97f6a85a0" title=" " alt="" coords="419,5,578,44"/>
+<area shape="rect" id="node4" href="$da/dd9/classADATIO_1_1BinaryReader.html#a33d291f073bf2e1f71f6bdbe40ce343a" title="Get the current checksum to modify." alt="" coords="419,68,578,107"/>
+<area shape="rect" id="node5" href="$de/d19/namespaceADATUtil.html#a61372c5ac63a8bd3ce0aec8f04f386d9" title="crc32" alt="" coords="441,131,556,156"/>
+<area shape="rect" id="node6" href="$da/dd9/classADATIO_1_1BinaryReader.html#acd705bb96d557a5437410b55beb40bda" title="Get the current checksum." alt="" coords="419,180,578,219"/>
+<area shape="rect" id="node7" href="$de/d19/namespaceADATUtil.html#a7f9f0561f3ffcb562067ebedbade089f" title="Is the native byte order big endian?" alt="" coords="425,243,573,268"/>
+<area shape="rect" id="node8" href="$de/d19/namespaceADATUtil.html#af522573b90be52b1e09342dd11e23199" title="Byte&#45;swap an array of data each of size nmemb." alt="" coords="425,292,572,317"/>
+</map>

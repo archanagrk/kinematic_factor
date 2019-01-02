@@ -1,0 +1,386 @@
+\hypertarget{classROOT_1_1Minuit2_1_1MnMigrad}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Mn\+Migrad Class Reference}
+\label{classROOT_1_1Minuit2_1_1MnMigrad}\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+
+
+{\ttfamily \#include $<$Mn\+Migrad.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{d1/d4a/classROOT_1_1Minuit2_1_1MnMigrad__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d2b/classROOT_1_1Minuit2_1_1MnMigrad__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a3a3610c55a91cb68fb3b95506ff08339}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a72c6740b17d24c92d0a0049d52de778e}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a7830eb76c9d314bc8e101ac34150ccb8}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a552ce72a98922a75ef921a3cccfe97c1}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a02f279b4f09d995ed7c29abd203b9897}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a6ee8b2dacc7c6255fdae62f851acaa48}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a2c295cfd762493e53e71d2cd004c3061}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a08924727b4a6e4fb5bd15816a88e5878}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_ae34b6d666b4a960bd1b382d5e574fa69}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_ac31c890a07d2e2ca4b52feb5ece6fa3d}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a1c12d5f8210b36cdc555b341f6005c8d}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a0397e5984ab0d0163e69315b40a3d520}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a992fa22c62be692f5cd8f781c73475e0}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad}{Mn\+Migrad}} \&migr)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a7a415c2b0378cf8f4606e53b7d20ae63}{$\sim$\+Mn\+Migrad}} ()
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a98fa0ce74bf180a287093ac677e8644c}{Minimizer}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a3a3610c55a91cb68fb3b95506ff08339}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a72c6740b17d24c92d0a0049d52de778e}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a7830eb76c9d314bc8e101ac34150ccb8}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a552ce72a98922a75ef921a3cccfe97c1}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a02f279b4f09d995ed7c29abd203b9897}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a6ee8b2dacc7c6255fdae62f851acaa48}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a2c295cfd762493e53e71d2cd004c3061}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a08924727b4a6e4fb5bd15816a88e5878}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_ae34b6d666b4a960bd1b382d5e574fa69}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_ac31c890a07d2e2ca4b52feb5ece6fa3d}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a1c12d5f8210b36cdc555b341f6005c8d}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a0397e5984ab0d0163e69315b40a3d520}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a992fa22c62be692f5cd8f781c73475e0}{Mn\+Migrad}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad}{Mn\+Migrad}} \&migr)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a7a415c2b0378cf8f4606e53b7d20ae63}{$\sim$\+Mn\+Migrad}} ()
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad_a98fa0ce74bf180a287093ac677e8644c}{Minimizer}} () const
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A\+PI class for minimization using Variable Metric technology (\char`\"{}\+M\+I\+G\+R\+A\+D\char`\"{}); allows for user interaction\+: set/change parameters, do minimization, change parameters, re-\/do minimization etc.; also used by \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinos}{Mn\+Minos}} and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnContours}{Mn\+Contours}}; 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a3a3610c55a91cb68fb3b95506ff08339}\label{classROOT_1_1Minuit2_1_1MnMigrad_a3a3610c55a91cb68fb3b95506ff08339}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [1/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a72c6740b17d24c92d0a0049d52de778e}\label{classROOT_1_1Minuit2_1_1MnMigrad_a72c6740b17d24c92d0a0049d52de778e}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [2/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a7830eb76c9d314bc8e101ac34150ccb8}\label{classROOT_1_1Minuit2_1_1MnMigrad_a7830eb76c9d314bc8e101ac34150ccb8}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [3/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a552ce72a98922a75ef921a3cccfe97c1}\label{classROOT_1_1Minuit2_1_1MnMigrad_a552ce72a98922a75ef921a3cccfe97c1}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [4/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a02f279b4f09d995ed7c29abd203b9897}\label{classROOT_1_1Minuit2_1_1MnMigrad_a02f279b4f09d995ed7c29abd203b9897}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [5/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a6ee8b2dacc7c6255fdae62f851acaa48}\label{classROOT_1_1Minuit2_1_1MnMigrad_a6ee8b2dacc7c6255fdae62f851acaa48}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [6/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a2c295cfd762493e53e71d2cd004c3061}\label{classROOT_1_1Minuit2_1_1MnMigrad_a2c295cfd762493e53e71d2cd004c3061}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [7/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a08924727b4a6e4fb5bd15816a88e5878}\label{classROOT_1_1Minuit2_1_1MnMigrad_a08924727b4a6e4fb5bd15816a88e5878}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [8/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_ae34b6d666b4a960bd1b382d5e574fa69}\label{classROOT_1_1Minuit2_1_1MnMigrad_ae34b6d666b4a960bd1b382d5e574fa69}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [9/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_ac31c890a07d2e2ca4b52feb5ece6fa3d}\label{classROOT_1_1Minuit2_1_1MnMigrad_ac31c890a07d2e2ca4b52feb5ece6fa3d}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [10/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a1c12d5f8210b36cdc555b341f6005c8d}\label{classROOT_1_1Minuit2_1_1MnMigrad_a1c12d5f8210b36cdc555b341f6005c8d}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [11/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a0397e5984ab0d0163e69315b40a3d520}\label{classROOT_1_1Minuit2_1_1MnMigrad_a0397e5984ab0d0163e69315b40a3d520}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [12/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a992fa22c62be692f5cd8f781c73475e0}\label{classROOT_1_1Minuit2_1_1MnMigrad_a992fa22c62be692f5cd8f781c73475e0}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [13/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad}{Mn\+Migrad}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a7a415c2b0378cf8f4606e53b7d20ae63}\label{classROOT_1_1Minuit2_1_1MnMigrad_a7a415c2b0378cf8f4606e53b7d20ae63}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!````~MnMigrad@{$\sim$MnMigrad}}
+\index{````~MnMigrad@{$\sim$MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{$\sim$MnMigrad()}{~MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::$\sim$\+Mn\+Migrad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a3a3610c55a91cb68fb3b95506ff08339}\label{classROOT_1_1Minuit2_1_1MnMigrad_a3a3610c55a91cb68fb3b95506ff08339}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [14/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a72c6740b17d24c92d0a0049d52de778e}\label{classROOT_1_1Minuit2_1_1MnMigrad_a72c6740b17d24c92d0a0049d52de778e}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [15/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a7830eb76c9d314bc8e101ac34150ccb8}\label{classROOT_1_1Minuit2_1_1MnMigrad_a7830eb76c9d314bc8e101ac34150ccb8}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [16/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a552ce72a98922a75ef921a3cccfe97c1}\label{classROOT_1_1Minuit2_1_1MnMigrad_a552ce72a98922a75ef921a3cccfe97c1}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [17/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a02f279b4f09d995ed7c29abd203b9897}\label{classROOT_1_1Minuit2_1_1MnMigrad_a02f279b4f09d995ed7c29abd203b9897}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [18/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a6ee8b2dacc7c6255fdae62f851acaa48}\label{classROOT_1_1Minuit2_1_1MnMigrad_a6ee8b2dacc7c6255fdae62f851acaa48}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [19/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a2c295cfd762493e53e71d2cd004c3061}\label{classROOT_1_1Minuit2_1_1MnMigrad_a2c295cfd762493e53e71d2cd004c3061}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [20/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a08924727b4a6e4fb5bd15816a88e5878}\label{classROOT_1_1Minuit2_1_1MnMigrad_a08924727b4a6e4fb5bd15816a88e5878}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [21/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_ae34b6d666b4a960bd1b382d5e574fa69}\label{classROOT_1_1Minuit2_1_1MnMigrad_ae34b6d666b4a960bd1b382d5e574fa69}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [22/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_ac31c890a07d2e2ca4b52feb5ece6fa3d}\label{classROOT_1_1Minuit2_1_1MnMigrad_ac31c890a07d2e2ca4b52feb5ece6fa3d}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [23/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a1c12d5f8210b36cdc555b341f6005c8d}\label{classROOT_1_1Minuit2_1_1MnMigrad_a1c12d5f8210b36cdc555b341f6005c8d}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [24/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a0397e5984ab0d0163e69315b40a3d520}\label{classROOT_1_1Minuit2_1_1MnMigrad_a0397e5984ab0d0163e69315b40a3d520}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [25/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a992fa22c62be692f5cd8f781c73475e0}\label{classROOT_1_1Minuit2_1_1MnMigrad_a992fa22c62be692f5cd8f781c73475e0}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!MnMigrad@{MnMigrad}}
+\index{MnMigrad@{MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{MnMigrad()}{MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [26/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Mn\+Migrad (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMigrad}{Mn\+Migrad}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a7a415c2b0378cf8f4606e53b7d20ae63}\label{classROOT_1_1Minuit2_1_1MnMigrad_a7a415c2b0378cf8f4606e53b7d20ae63}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!````~MnMigrad@{$\sim$MnMigrad}}
+\index{````~MnMigrad@{$\sim$MnMigrad}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{$\sim$MnMigrad()}{~MnMigrad()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::$\sim$\+Mn\+Migrad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a98fa0ce74bf180a287093ac677e8644c}\label{classROOT_1_1Minuit2_1_1MnMigrad_a98fa0ce74bf180a287093ac677e8644c}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!Minimizer@{Minimizer}}
+\index{Minimizer@{Minimizer}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b731b5f4023dd1b1594223}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Application}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMigrad_a98fa0ce74bf180a287093ac677e8644c}\label{classROOT_1_1Minuit2_1_1MnMigrad_a98fa0ce74bf180a287093ac677e8644c}} 
+\index{ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}!Minimizer@{Minimizer}}
+\index{Minimizer@{Minimizer}!ROOT::Minuit2::MnMigrad@{ROOT::Minuit2::MnMigrad}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Migrad\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b731b5f4023dd1b1594223}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Application}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2MnMigrad_8h}{Mn\+Migrad.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="ROOT::Minuit2::GradientCalculator" name="ROOT::Minuit2::GradientCalculator">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,233,163"/>
+<area shape="rect" id="node2" href="$dd/d3a/classROOT_1_1Minuit2_1_1AnalyticalGradientCalculator.html" title=" " alt="" coords="302,5,475,44"/>
+<area shape="rect" id="node3" href="$d8/de6/classROOT_1_1Minuit2_1_1FumiliGradientCalculator.html" title=" " alt="" coords="287,68,490,107"/>
+<area shape="rect" id="node4" href="$dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator.html" title=" " alt="" coords="281,131,496,169"/>
+<area shape="rect" id="node5" href="$d3/dcf/classROOT_1_1Minuit2_1_1InitialGradientCalculator.html" title=" " alt="" coords="289,193,488,232"/>
+<area shape="rect" id="node6" href="$d0/d82/classROOT_1_1Minuit2_1_1Numerical2PGradientCalculator.html" title=" " alt="" coords="297,256,480,295"/>
+</map>

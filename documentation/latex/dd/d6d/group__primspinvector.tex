@@ -1,0 +1,498 @@
+\hypertarget{group__primspinvector}{}\section{Spin vector primitive}
+\label{group__primspinvector}\index{Spin vector primitive@{Spin vector primitive}}
+Collaboration diagram for Spin vector primitive\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{dd/d6d/group__primspinvector}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classENSEM_1_1PSpinVector}{E\+N\+S\+E\+M\+::\+P\+Spin\+Vector$<$ T, N $>$}}
+\begin{DoxyCompactList}\small\item\em Primitive spin Vector class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{E\+N\+S\+E\+M\+::\+P\+Spin\+Vector$<$ T, 4 $>$}}
+\begin{DoxyCompactList}\small\item\em Specialization of primitive spin Vector class for 4 spin components. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_012_01_4}{E\+N\+S\+E\+M\+::\+P\+Spin\+Vector$<$ T, 2 $>$}}
+\begin{DoxyCompactList}\small\item\em Specialization of primitive spin Vector class for 2 spin components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01PSpinVector_3_01T_00_01N_01_4_00_01FnPeekSpinVector_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ P\+Spin\+Vector$<$ T, N $>$, Fn\+Peek\+Spin\+Vector $>$}}
+\begin{DoxyCompactList}\small\item\em Extract spin vector components. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T , int N$>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinVector}{Fn\+Peek\+Spin\+Vector}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gad13d4acbc90e4d69a8528585ad1c35c8}{E\+N\+S\+E\+M\+::peek\+Spin}} (const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&l, int row)
+\item 
+{\footnotesize template$<$class T1 , class T2 , int N$>$ }\\\mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T1, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \& \mbox{\hyperlink{group__primspinvector_ga55ef7594c5803a6f510d30a63e5aab4b}{E\+N\+S\+E\+M\+::poke\+Spin}} (\mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T1, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1PScalar}{P\+Scalar}}$<$ T2 $>$ \&r, int row)
+\begin{DoxyCompactList}\small\item\em Insert spin vector components. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 0 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga78eeeb22b735ad934f6d55320f04be68}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 0 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 1 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga78fc0ed12245c6b5e7ab51e07bd4c553}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 1 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 2 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga89998f51b7e59a05842c92f95ca427e4}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 2 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 3 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gade157607bce53ec9ffcde3e07f772efb}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 3 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 4 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gaa8429bcfc1a7a130ec526f34f8b08c20}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 4 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 5 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga173eb3594c9d1774c080d3df7116efbd}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 5 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 6 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gad9a09b9039ac73a95c0893a4bfd306c2}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 6 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 7 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga155a168cc76a655423d76a2ad99776a1}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 7 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 8 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gadf1f85c537d85cf1fb2e4dbc24de9d81}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 8 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 9 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga61476a03c8d043d2e32e6ba22ec70bb5}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 9 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 10 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gab079c599559400400256e044d153a9f0}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 10 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 11 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga4bbdc1bc935fc4378105903d7b0fb65d}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 11 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 12 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gacda74bfacd9c872e7d821f2355890a01}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 12 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 13 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga7295695be69d983ea6fd8d3710a448d7}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 13 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 14 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga890c8e465f4d1855cc9aa62f066b5679}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 14 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 15 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga66707f89120c5b6f17816a485d9900eb}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 15 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 0 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga90d081a5379c410e3a2225ba98128415}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 0 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 1 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gaed649bcddaa4c48fdd28113f712d2ab7}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 1 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 2 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gad71a48b8030b0f439b6c45ff4c5d550b}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 2 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 3 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga62ad9e5b7456ea7e7aeb04de82e03545}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 3 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 4 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga8651c7707116b78fc19958171acaabfd}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 4 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 5 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gaedbd65630192bc0f45ecad29cfa08152}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 5 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 6 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga118f057eadddaebf7485ca26d25ad24f}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 6 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 7 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga06f03963e659581745493e56edf21491}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 7 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 8 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gaf50876f75a5b7bb882a7346408b4a90c}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 8 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 9 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga39c7d40232a2f254a4b3903a51cb61db}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 9 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 10 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gaba02d1dbf98d31e3ed096064681c46aa}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 10 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 11 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gad1bc0eb5b6f881a32c6fda1e7b14d083}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 11 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 12 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gab182b2b8559b1382be36d58f251cec0e}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 12 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 13 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gaa05448d24f9c6526e5785b8c81a604bd}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 13 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 14 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_gad8abbefefdc24a79b3e5e3a161441643}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 14 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 15 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga23212ad644650a519a334e7eb30cb99a}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 15 $>$ \&, const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&r)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$, \mbox{\hyperlink{structENSEM_1_1FnChiralProjectPlus}{Fn\+Chiral\+Project\+Plus}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga2d58ba66261a878c90b4c5dbc1af1863}{E\+N\+S\+E\+M\+::chiral\+Project\+Plus}} (const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} = P\+\_\++ $\ast$ \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$, \mbox{\hyperlink{structENSEM_1_1FnChiralProjectMinus}{Fn\+Chiral\+Project\+Minus}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__primspinvector_ga7af53ea534552edc873a7cb1f52a94e1}{E\+N\+S\+E\+M\+::chiral\+Project\+Minus}} (const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} = P\+\_\+-\/ $\ast$ \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Primitive type that transforms like a Spin vector 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__primspinvector_ga7af53ea534552edc873a7cb1f52a94e1}\label{group__primspinvector_ga7af53ea534552edc873a7cb1f52a94e1}} 
+\index{Spin vector primitive@{Spin vector primitive}!chiralProjectMinus@{chiralProjectMinus}}
+\index{chiralProjectMinus@{chiralProjectMinus}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{chiralProjectMinus()}{chiralProjectMinus()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$, \mbox{\hyperlink{structENSEM_1_1FnChiralProjectMinus}{Fn\+Chiral\+Project\+Minus}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::chiral\+Project\+Minus (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} = P\+\_\+-\/ $\ast$ \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga7af53ea534552edc873a7cb1f52a94e1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga2d58ba66261a878c90b4c5dbc1af1863}\label{group__primspinvector_ga2d58ba66261a878c90b4c5dbc1af1863}} 
+\index{Spin vector primitive@{Spin vector primitive}!chiralProjectPlus@{chiralProjectPlus}}
+\index{chiralProjectPlus@{chiralProjectPlus}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{chiralProjectPlus()}{chiralProjectPlus()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$, \mbox{\hyperlink{structENSEM_1_1FnChiralProjectPlus}{Fn\+Chiral\+Project\+Plus}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::chiral\+Project\+Plus (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, 4 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} = P\+\_\++ $\ast$ \mbox{\hyperlink{classENSEM_1_1PSpinVector_3_01T_00_014_01_4}{P\+Spin\+Vector$<$\+T,4$>$}} 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga2d58ba66261a878c90b4c5dbc1af1863_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga78eeeb22b735ad934f6d55320f04be68}\label{group__primspinvector_ga78eeeb22b735ad934f6d55320f04be68}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 0 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 0 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga78fc0ed12245c6b5e7ab51e07bd4c553}\label{group__primspinvector_ga78fc0ed12245c6b5e7ab51e07bd4c553}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 1 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 1 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga78fc0ed12245c6b5e7ab51e07bd4c553_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga89998f51b7e59a05842c92f95ca427e4}\label{group__primspinvector_ga89998f51b7e59a05842c92f95ca427e4}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [3/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 2 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 2 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gade157607bce53ec9ffcde3e07f772efb}\label{group__primspinvector_gade157607bce53ec9ffcde3e07f772efb}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [4/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 3 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 3 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gade157607bce53ec9ffcde3e07f772efb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gaa8429bcfc1a7a130ec526f34f8b08c20}\label{group__primspinvector_gaa8429bcfc1a7a130ec526f34f8b08c20}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [5/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 4 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 4 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gaa8429bcfc1a7a130ec526f34f8b08c20_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga173eb3594c9d1774c080d3df7116efbd}\label{group__primspinvector_ga173eb3594c9d1774c080d3df7116efbd}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [6/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 5 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 5 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gad9a09b9039ac73a95c0893a4bfd306c2}\label{group__primspinvector_gad9a09b9039ac73a95c0893a4bfd306c2}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [7/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 6 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 6 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gad9a09b9039ac73a95c0893a4bfd306c2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga155a168cc76a655423d76a2ad99776a1}\label{group__primspinvector_ga155a168cc76a655423d76a2ad99776a1}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [8/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 7 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 7 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gadf1f85c537d85cf1fb2e4dbc24de9d81}\label{group__primspinvector_gadf1f85c537d85cf1fb2e4dbc24de9d81}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [9/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 8 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 8 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga61476a03c8d043d2e32e6ba22ec70bb5}\label{group__primspinvector_ga61476a03c8d043d2e32e6ba22ec70bb5}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [10/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 9 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 9 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga61476a03c8d043d2e32e6ba22ec70bb5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gab079c599559400400256e044d153a9f0}\label{group__primspinvector_gab079c599559400400256e044d153a9f0}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [11/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 10 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 10 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga4bbdc1bc935fc4378105903d7b0fb65d}\label{group__primspinvector_ga4bbdc1bc935fc4378105903d7b0fb65d}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [12/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 11 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 11 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga4bbdc1bc935fc4378105903d7b0fb65d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gacda74bfacd9c872e7d821f2355890a01}\label{group__primspinvector_gacda74bfacd9c872e7d821f2355890a01}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [13/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 12 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 12 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gacda74bfacd9c872e7d821f2355890a01_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga7295695be69d983ea6fd8d3710a448d7}\label{group__primspinvector_ga7295695be69d983ea6fd8d3710a448d7}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [14/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 13 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 13 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga890c8e465f4d1855cc9aa62f066b5679}\label{group__primspinvector_ga890c8e465f4d1855cc9aa62f066b5679}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [15/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 14 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 14 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga890c8e465f4d1855cc9aa62f066b5679_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga66707f89120c5b6f17816a485d9900eb}\label{group__primspinvector_ga66707f89120c5b6f17816a485d9900eb}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [16/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 15 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ 4, 15 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga90d081a5379c410e3a2225ba98128415}\label{group__primspinvector_ga90d081a5379c410e3a2225ba98128415}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [17/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 0 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 0 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gaed649bcddaa4c48fdd28113f712d2ab7}\label{group__primspinvector_gaed649bcddaa4c48fdd28113f712d2ab7}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [18/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 1 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 1 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gaed649bcddaa4c48fdd28113f712d2ab7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gad71a48b8030b0f439b6c45ff4c5d550b}\label{group__primspinvector_gad71a48b8030b0f439b6c45ff4c5d550b}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [19/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 2 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 2 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga62ad9e5b7456ea7e7aeb04de82e03545}\label{group__primspinvector_ga62ad9e5b7456ea7e7aeb04de82e03545}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [20/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 3 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 3 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga62ad9e5b7456ea7e7aeb04de82e03545_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga8651c7707116b78fc19958171acaabfd}\label{group__primspinvector_ga8651c7707116b78fc19958171acaabfd}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [21/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 4 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 4 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga8651c7707116b78fc19958171acaabfd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gaedbd65630192bc0f45ecad29cfa08152}\label{group__primspinvector_gaedbd65630192bc0f45ecad29cfa08152}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [22/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 5 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 5 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga118f057eadddaebf7485ca26d25ad24f}\label{group__primspinvector_ga118f057eadddaebf7485ca26d25ad24f}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [23/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 6 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 6 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga118f057eadddaebf7485ca26d25ad24f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga06f03963e659581745493e56edf21491}\label{group__primspinvector_ga06f03963e659581745493e56edf21491}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [24/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 7 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 7 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gaf50876f75a5b7bb882a7346408b4a90c}\label{group__primspinvector_gaf50876f75a5b7bb882a7346408b4a90c}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [25/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 8 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 8 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga39c7d40232a2f254a4b3903a51cb61db}\label{group__primspinvector_ga39c7d40232a2f254a4b3903a51cb61db}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [26/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 9 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 9 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_ga39c7d40232a2f254a4b3903a51cb61db_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gaba02d1dbf98d31e3ed096064681c46aa}\label{group__primspinvector_gaba02d1dbf98d31e3ed096064681c46aa}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [27/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 10 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 10 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gad1bc0eb5b6f881a32c6fda1e7b14d083}\label{group__primspinvector_gad1bc0eb5b6f881a32c6fda1e7b14d083}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [28/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 11 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 11 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gad1bc0eb5b6f881a32c6fda1e7b14d083_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gab182b2b8559b1382be36d58f251cec0e}\label{group__primspinvector_gab182b2b8559b1382be36d58f251cec0e}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [29/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 12 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 12 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gab182b2b8559b1382be36d58f251cec0e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_gaa05448d24f9c6526e5785b8c81a604bd}\label{group__primspinvector_gaa05448d24f9c6526e5785b8c81a604bd}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [30/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 13 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 13 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gad8abbefefdc24a79b3e5e3a161441643}\label{group__primspinvector_gad8abbefefdc24a79b3e5e3a161441643}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [31/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 14 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 14 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d6d/group__primspinvector_gad8abbefefdc24a79b3e5e3a161441643_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__primspinvector_ga23212ad644650a519a334e7eb30cb99a}\label{group__primspinvector_ga23212ad644650a519a334e7eb30cb99a}} 
+\index{Spin vector primitive@{Spin vector primitive}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [32/32]}}
+{\footnotesize\ttfamily template$<$class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 15 $>$, \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ 4, 15 $>$ \&}]{,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T2, 4 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_gad13d4acbc90e4d69a8528585ad1c35c8}\label{group__primspinvector_gad13d4acbc90e4d69a8528585ad1c35c8}} 
+\index{Spin vector primitive@{Spin vector primitive}!peekSpin@{peekSpin}}
+\index{peekSpin@{peekSpin}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{peekSpin()}{peekSpin()}}
+{\footnotesize\ttfamily template$<$class T , int N$>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinVector}{Fn\+Peek\+Spin\+Vector}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&}]{l,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__primspinvector_ga55ef7594c5803a6f510d30a63e5aab4b}\label{group__primspinvector_ga55ef7594c5803a6f510d30a63e5aab4b}} 
+\index{Spin vector primitive@{Spin vector primitive}!pokeSpin@{pokeSpin}}
+\index{pokeSpin@{pokeSpin}!Spin vector primitive@{Spin vector primitive}}
+\subsubsection{\texorpdfstring{pokeSpin()}{pokeSpin()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 , int N$>$ \\
+\mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T1, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \& E\+N\+S\+E\+M\+::poke\+Spin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1PSpinVector}{P\+Spin\+Vector}}$<$ T1, \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1PScalar}{P\+Scalar}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert spin vector components. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{dd/d6d/group__primspinvector_ga55ef7594c5803a6f510d30a63e5aab4b_cgraph}
+\end{center}
+\end{figure}

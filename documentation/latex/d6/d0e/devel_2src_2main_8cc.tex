@@ -1,0 +1,277 @@
+\hypertarget{devel_2src_2main_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/compute\+\_\+\+Kfactors\+\_\+devel/src/main.cc File Reference}
+\label{devel_2src_2main_8cc}\index{/Users/archanar/Kinematic\_factor/compute\_Kfactors\_devel/src/main.cc@{/Users/archanar/Kinematic\_factor/compute\_Kfactors\_devel/src/main.cc}}
+{\ttfamily \#include \char`\"{}subduction.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cc\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d99/devel_2src_2main_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{devel_2src_2main_8cc_a9b0a11bbf7f73320d6dd760e95e588ba}{linkage\+Hack}} (void) \+\_\+\+\_\+attribute\+\_\+\+\_\+((constructor))
+\item 
+double \mbox{\hyperlink{devel_2src_2main_8cc_a2447da24234ef7e2bb245214e4fd7a33}{truncate}} (double num, int precision)
+\item 
+string \mbox{\hyperlink{devel_2src_2main_8cc_a71cb99141009d0223dd428c8d0b5bcd9}{generate\+Little\+Group}} (Array\+X\+Xd \&mom\+\_\+)
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{devel_2src_2main_8cc_af548494c0493dfa8483a033273eabc9d}{get\+Irrep}} (int \&twoJ, int \&\mbox{\hyperlink{operator__name__util_8cc_aef94be98e2c9e4a4dece75f60ca9792c}{P}}, string \&\mbox{\hyperlink{irrep__util_8cc_a4d8a3f7f88843b4554b53842b9951ece}{lg}})
+\item 
+int \mbox{\hyperlink{devel_2src_2main_8cc_a07ee291a68508927bb84216921710700}{irrep\+Rows}} (string \&irrep)
+\item 
+Matrix\+Xd \mbox{\hyperlink{devel_2src_2main_8cc_a02e1a034b0c0b0f4a4d800fb9fe514cd}{euler\+Rot\+Mat}} (double alpha, double beta, double gamma)
+\item 
+Matrix\+Xcd \mbox{\hyperlink{devel_2src_2main_8cc_a87a59414e960653b297a6f47d5dc0db1}{get\+Polarization}} (double \&mom\+\_\+sq, const int \&two\+\_\+helicity, double \&mass\+\_\+sq, double \&phi, double \&theta, double \&psi)
+\item 
+std\+::vector$<$ double $>$ \mbox{\hyperlink{devel_2src_2main_8cc_add59a3ec35736b66c25ab259067dcf65}{ref\+Angles}} (string little\+\_\+group)
+\item 
+string \mbox{\hyperlink{devel_2src_2main_8cc_a20b1521788fc43e429dddb97f464d58b}{J\+\_\+name}} (int twoJ)
+\item 
+string \mbox{\hyperlink{devel_2src_2main_8cc_abfce241f494c3782671d3634b595327f}{sign}} (int x)
+\item 
+int \mbox{\hyperlink{devel_2src_2main_8cc_afd4830be51e4ed550218eeb45b03fa94}{find\+\_\+n\+\_\+subduced\+\_\+embeddings}} (const string \&group, const string \&irrep, int twoJ, int eta\+\_\+tilde)
+\item 
+map$<$ int, complex$<$ double $>$ $>$ \mbox{\hyperlink{devel_2src_2main_8cc_ab12592d14a5d73a1aeb33c7d1873ca13}{subduce\+\_\+lg\+\_\+boson}} (const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep, const string \&little\+\_\+group)
+\item 
+map$<$ int, complex$<$ double $>$ $>$ \mbox{\hyperlink{devel_2src_2main_8cc_a78112bb10f9b8ba35ffd6933c13b7d3a}{subduce\+\_\+lg\+\_\+fermion}} (const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep, const string \&little\+\_\+group)
+\item 
+map$<$ int, complex$<$ double $>$ $>$ \mbox{\hyperlink{devel_2src_2main_8cc_af50a5cc15212e4e56aaa791332f54e58}{subduce\+\_\+oct}} (const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep)
+\item 
+Matrix\+Xcd \mbox{\hyperlink{devel_2src_2main_8cc_a282a535c3817b3568e557676b11aa239}{Subduce\+\_\+all}} (double \&mom\+\_\+sq, double \&mass\+\_\+sq, int \&twoJ, const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep, const string \&little\+\_\+group, double R1\+\_\+phi, double R1\+\_\+theta, double R1\+\_\+psi)
+\item 
+double \mbox{\hyperlink{devel_2src_2main_8cc_acfa5d9542e042be301f17abd99b826b8}{Levi\+Civita}} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\item 
+complex$<$ double $>$ \mbox{\hyperlink{devel_2src_2main_8cc_a11ae8b7556be7c66773889fdd86761e1}{Kinematic\+Factor}} (Array\+X\+Xd \&qp, Array\+X\+Xd \&qm, Matrix\+Xcd \&Sub1, Matrix\+Xcd \&Sub\+Curr, Matrix\+Xcd \&Sub3)
+\item 
+int \mbox{\hyperlink{devel_2src_2main_8cc_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const double \mbox{\hyperlink{devel_2src_2main_8cc_a952eac791b596a61bba0a133a3bb439f}{PI}} = (atan(double(1)) $\ast$ double(4.\+0))
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a02e1a034b0c0b0f4a4d800fb9fe514cd}\label{devel_2src_2main_8cc_a02e1a034b0c0b0f4a4d800fb9fe514cd}} 
+\index{main.cc@{main.cc}!eulerRotMat@{eulerRotMat}}
+\index{eulerRotMat@{eulerRotMat}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{eulerRotMat()}{eulerRotMat()}}
+{\footnotesize\ttfamily Matrix\+Xd euler\+Rot\+Mat (\begin{DoxyParamCaption}\item[{double}]{alpha,  }\item[{double}]{beta,  }\item[{double}]{gamma }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a02e1a034b0c0b0f4a4d800fb9fe514cd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_afd4830be51e4ed550218eeb45b03fa94}\label{devel_2src_2main_8cc_afd4830be51e4ed550218eeb45b03fa94}} 
+\index{main.cc@{main.cc}!find\_n\_subduced\_embeddings@{find\_n\_subduced\_embeddings}}
+\index{find\_n\_subduced\_embeddings@{find\_n\_subduced\_embeddings}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{find\_n\_subduced\_embeddings()}{find\_n\_subduced\_embeddings()}}
+{\footnotesize\ttfamily int find\+\_\+n\+\_\+subduced\+\_\+embeddings (\begin{DoxyParamCaption}\item[{const string \&}]{group,  }\item[{const string \&}]{irrep,  }\item[{int}]{twoJ,  }\item[{int}]{eta\+\_\+tilde }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_afd4830be51e4ed550218eeb45b03fa94_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a71cb99141009d0223dd428c8d0b5bcd9}\label{devel_2src_2main_8cc_a71cb99141009d0223dd428c8d0b5bcd9}} 
+\index{main.cc@{main.cc}!generateLittleGroup@{generateLittleGroup}}
+\index{generateLittleGroup@{generateLittleGroup}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{generateLittleGroup()}{generateLittleGroup()}}
+{\footnotesize\ttfamily string generate\+Little\+Group (\begin{DoxyParamCaption}\item[{Array\+X\+Xd \&}]{mom\+\_\+ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a71cb99141009d0223dd428c8d0b5bcd9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_af548494c0493dfa8483a033273eabc9d}\label{devel_2src_2main_8cc_af548494c0493dfa8483a033273eabc9d}} 
+\index{main.cc@{main.cc}!getIrrep@{getIrrep}}
+\index{getIrrep@{getIrrep}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{getIrrep()}{getIrrep()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ get\+Irrep (\begin{DoxyParamCaption}\item[{int \&}]{twoJ,  }\item[{int \&}]{P,  }\item[{string \&}]{lg }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{devel_2src_2main_8cc_a87a59414e960653b297a6f47d5dc0db1}\label{devel_2src_2main_8cc_a87a59414e960653b297a6f47d5dc0db1}} 
+\index{main.cc@{main.cc}!getPolarization@{getPolarization}}
+\index{getPolarization@{getPolarization}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{getPolarization()}{getPolarization()}}
+{\footnotesize\ttfamily Matrix\+Xcd get\+Polarization (\begin{DoxyParamCaption}\item[{double \&}]{mom\+\_\+sq,  }\item[{const int \&}]{two\+\_\+helicity,  }\item[{double \&}]{mass\+\_\+sq,  }\item[{double \&}]{phi,  }\item[{double \&}]{theta,  }\item[{double \&}]{psi }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a87a59414e960653b297a6f47d5dc0db1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a07ee291a68508927bb84216921710700}\label{devel_2src_2main_8cc_a07ee291a68508927bb84216921710700}} 
+\index{main.cc@{main.cc}!irrepRows@{irrepRows}}
+\index{irrepRows@{irrepRows}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{irrepRows()}{irrepRows()}}
+{\footnotesize\ttfamily int irrep\+Rows (\begin{DoxyParamCaption}\item[{string \&}]{irrep }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{devel_2src_2main_8cc_a20b1521788fc43e429dddb97f464d58b}\label{devel_2src_2main_8cc_a20b1521788fc43e429dddb97f464d58b}} 
+\index{main.cc@{main.cc}!J\_name@{J\_name}}
+\index{J\_name@{J\_name}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{J\_name()}{J\_name()}}
+{\footnotesize\ttfamily string J\+\_\+name (\begin{DoxyParamCaption}\item[{int}]{twoJ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{devel_2src_2main_8cc_a11ae8b7556be7c66773889fdd86761e1}\label{devel_2src_2main_8cc_a11ae8b7556be7c66773889fdd86761e1}} 
+\index{main.cc@{main.cc}!KinematicFactor@{KinematicFactor}}
+\index{KinematicFactor@{KinematicFactor}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{KinematicFactor()}{KinematicFactor()}}
+{\footnotesize\ttfamily complex$<$double$>$ Kinematic\+Factor (\begin{DoxyParamCaption}\item[{Array\+X\+Xd \&}]{qp,  }\item[{Array\+X\+Xd \&}]{qm,  }\item[{Matrix\+Xcd \&}]{Sub1,  }\item[{Matrix\+Xcd \&}]{Sub\+Curr,  }\item[{Matrix\+Xcd \&}]{Sub3 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a11ae8b7556be7c66773889fdd86761e1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_acfa5d9542e042be301f17abd99b826b8}\label{devel_2src_2main_8cc_acfa5d9542e042be301f17abd99b826b8}} 
+\index{main.cc@{main.cc}!LeviCivita@{LeviCivita}}
+\index{LeviCivita@{LeviCivita}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{LeviCivita()}{LeviCivita()}}
+{\footnotesize\ttfamily double Levi\+Civita (\begin{DoxyParamCaption}\item[{int}]{arr\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_acfa5d9542e042be301f17abd99b826b8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a9b0a11bbf7f73320d6dd760e95e588ba}\label{devel_2src_2main_8cc_a9b0a11bbf7f73320d6dd760e95e588ba}} 
+\index{main.cc@{main.cc}!linkageHack@{linkageHack}}
+\index{linkageHack@{linkageHack}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{linkageHack()}{linkageHack()}}
+{\footnotesize\ttfamily bool linkage\+Hack (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a9b0a11bbf7f73320d6dd760e95e588ba_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a3c04138a5bfe5d72780bb7e82a18e627}\label{devel_2src_2main_8cc_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{main.cc@{main.cc}!main@{main}}
+\index{main@{main}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_add59a3ec35736b66c25ab259067dcf65}\label{devel_2src_2main_8cc_add59a3ec35736b66c25ab259067dcf65}} 
+\index{main.cc@{main.cc}!refAngles@{refAngles}}
+\index{refAngles@{refAngles}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{refAngles()}{refAngles()}}
+{\footnotesize\ttfamily std\+::vector$<$double$>$ ref\+Angles (\begin{DoxyParamCaption}\item[{string}]{little\+\_\+group }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_add59a3ec35736b66c25ab259067dcf65_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_abfce241f494c3782671d3634b595327f}\label{devel_2src_2main_8cc_abfce241f494c3782671d3634b595327f}} 
+\index{main.cc@{main.cc}!sign@{sign}}
+\index{sign@{sign}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{sign()}{sign()}}
+{\footnotesize\ttfamily string sign (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{devel_2src_2main_8cc_a282a535c3817b3568e557676b11aa239}\label{devel_2src_2main_8cc_a282a535c3817b3568e557676b11aa239}} 
+\index{main.cc@{main.cc}!Subduce\_all@{Subduce\_all}}
+\index{Subduce\_all@{Subduce\_all}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{Subduce\_all()}{Subduce\_all()}}
+{\footnotesize\ttfamily Matrix\+Xcd Subduce\+\_\+all (\begin{DoxyParamCaption}\item[{double \&}]{mom\+\_\+sq,  }\item[{double \&}]{mass\+\_\+sq,  }\item[{int \&}]{twoJ,  }\item[{const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&}]{irrep,  }\item[{const string \&}]{little\+\_\+group,  }\item[{double}]{R1\+\_\+phi,  }\item[{double}]{R1\+\_\+theta,  }\item[{double}]{R1\+\_\+psi }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a282a535c3817b3568e557676b11aa239_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_ab12592d14a5d73a1aeb33c7d1873ca13}\label{devel_2src_2main_8cc_ab12592d14a5d73a1aeb33c7d1873ca13}} 
+\index{main.cc@{main.cc}!subduce\_lg\_boson@{subduce\_lg\_boson}}
+\index{subduce\_lg\_boson@{subduce\_lg\_boson}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{subduce\_lg\_boson()}{subduce\_lg\_boson()}}
+{\footnotesize\ttfamily map$<$ int, complex$<$double$>$ $>$ subduce\+\_\+lg\+\_\+boson (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&}]{irrep,  }\item[{const string \&}]{little\+\_\+group }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_ab12592d14a5d73a1aeb33c7d1873ca13_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a78112bb10f9b8ba35ffd6933c13b7d3a}\label{devel_2src_2main_8cc_a78112bb10f9b8ba35ffd6933c13b7d3a}} 
+\index{main.cc@{main.cc}!subduce\_lg\_fermion@{subduce\_lg\_fermion}}
+\index{subduce\_lg\_fermion@{subduce\_lg\_fermion}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{subduce\_lg\_fermion()}{subduce\_lg\_fermion()}}
+{\footnotesize\ttfamily map$<$ int, complex$<$double$>$ $>$ subduce\+\_\+lg\+\_\+fermion (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&}]{irrep,  }\item[{const string \&}]{little\+\_\+group }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a78112bb10f9b8ba35ffd6933c13b7d3a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_af50a5cc15212e4e56aaa791332f54e58}\label{devel_2src_2main_8cc_af50a5cc15212e4e56aaa791332f54e58}} 
+\index{main.cc@{main.cc}!subduce\_oct@{subduce\_oct}}
+\index{subduce\_oct@{subduce\_oct}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{subduce\_oct()}{subduce\_oct()}}
+{\footnotesize\ttfamily map$<$ int, complex$<$double$>$ $>$ subduce\+\_\+oct (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&}]{irrep }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_af50a5cc15212e4e56aaa791332f54e58_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a2447da24234ef7e2bb245214e4fd7a33}\label{devel_2src_2main_8cc_a2447da24234ef7e2bb245214e4fd7a33}} 
+\index{main.cc@{main.cc}!truncate@{truncate}}
+\index{truncate@{truncate}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{truncate()}{truncate()}}
+{\footnotesize\ttfamily double truncate (\begin{DoxyParamCaption}\item[{double}]{num,  }\item[{int}]{precision }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d0e/devel_2src_2main_8cc_a2447da24234ef7e2bb245214e4fd7a33_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{devel_2src_2main_8cc_a952eac791b596a61bba0a133a3bb439f}\label{devel_2src_2main_8cc_a952eac791b596a61bba0a133a3bb439f}} 
+\index{main.cc@{main.cc}!PI@{PI}}
+\index{PI@{PI}!main.cc@{main.cc}}
+\subsubsection{\texorpdfstring{PI}{PI}}
+{\footnotesize\ttfamily const double PI = (atan(double(1)) $\ast$ double(4.\+0))}
+

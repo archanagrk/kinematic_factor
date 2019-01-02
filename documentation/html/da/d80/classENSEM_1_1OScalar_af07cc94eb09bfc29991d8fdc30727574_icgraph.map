@@ -1,0 +1,43 @@
+<map id="ENSEM::OScalar::elem" name="ENSEM::OScalar::elem">
+<area shape="rect" id="node1" title=" " alt="" coords="445,943,605,968"/>
+<area shape="rect" id="node2" href="$dd/d80/classENSEM_1_1OMatrix.html#af0aaac940f907eb3db104e9f57b90a4f" title="OMatrix = OScalar." alt="" coords="209,5,378,31"/>
+<area shape="rect" id="node3" href="$dd/d80/classENSEM_1_1OMatrix.html#ab488697fd72f3891fede3d00f8deb019" title="OMatrix += OScalar." alt="" coords="195,55,391,80"/>
+<area shape="rect" id="node4" href="$dd/d80/classENSEM_1_1OMatrix.html#a53a1a690a2f39f0c64c6d261efc00e4c" title="OMatrix &#45;= OScalar." alt="" coords="197,104,389,129"/>
+<area shape="rect" id="node5" href="$dd/d80/classENSEM_1_1OMatrix.html#a40e18b83c9eb609f7529e65c515010c2" title="OMatrix *= OScalar." alt="" coords="197,153,390,179"/>
+<area shape="rect" id="node6" href="$dd/d80/classENSEM_1_1OMatrix.html#a46dc90e0e33442dcdcb9e98f9cf0025e" title="OMatrix /= OScalar." alt="" coords="197,203,389,228"/>
+<area shape="rect" id="node7" href="$d8/d55/group__obsmatrix.html#ga594575d5bb0ce31fd07e9fb29fd9c8ac" title=" " alt="" coords="226,252,360,277"/>
+<area shape="rect" id="node8" href="$d8/d55/group__obsmatrix.html#ga14c923aa4a21485e30dc3ed6f5c0ab46" title=" " alt="" coords="228,301,358,327"/>
+<area shape="rect" id="node9" href="$d8/d55/group__obsmatrix.html#gaf5ede60943f488e0a637504e6838529e" title=" " alt="" coords="228,351,359,376"/>
+<area shape="rect" id="node10" href="$d8/d55/group__obsmatrix.html#gaa90c91fdbe2814bb15f1ac76012585d8" title=" " alt="" coords="228,400,358,425"/>
+<area shape="rect" id="node11" href="$d8/d55/group__obsmatrix.html#ga465cbe792dfb205b829f653853253e8f" title=" " alt="" coords="218,449,369,475"/>
+<area shape="rect" id="node12" href="$d8/d55/group__obsmatrix.html#gaff573e35e3b3904f735317f67cae28f6" title=" " alt="" coords="204,499,382,524"/>
+<area shape="rect" id="node13" href="$d8/d55/group__obsmatrix.html#gaa09c3011b1e6555dcc6e4f9b51d1f5de" title="dest = (mask) ? s1 : dest" alt="" coords="225,548,361,573"/>
+<area shape="rect" id="node15" href="$d8/d55/group__obsmatrix.html#ga23c94fe0afdadaedf50d233d675f0009" title=" " alt="" coords="203,597,383,623"/>
+<area shape="rect" id="node16" href="$d8/d55/group__obsmatrix.html#ga3b363fa48471a9d3fc6da5cbfcb21fb5" title=" " alt="" coords="190,647,397,672"/>
+<area shape="rect" id="node17" href="$da/d80/classENSEM_1_1OScalar.html#a88bbb49d2879dba60c29d7792a8af8dc" title="dest = const" alt="" coords="199,696,388,721"/>
+<area shape="rect" id="node18" href="$da/d80/classENSEM_1_1OScalar.html#a3109a05113cade86410bc77f60812023" title="OScalar += OScalar." alt="" coords="195,745,392,771"/>
+<area shape="rect" id="node19" href="$da/d80/classENSEM_1_1OScalar.html#a4d240e95768b5a0c9537b32d00d60ac5" title="OScalar &#45;= OScalar." alt="" coords="196,795,390,820"/>
+<area shape="rect" id="node20" href="$da/d80/classENSEM_1_1OScalar.html#a9977cd15ef5da689d65713ddf0768085" title="OScalar *= OScalar." alt="" coords="196,844,390,869"/>
+<area shape="rect" id="node21" href="$da/d80/classENSEM_1_1OScalar.html#a1e0517e29754a8acb284c3ac266c2b2c" title="OScalar /= OScalar." alt="" coords="197,893,390,919"/>
+<area shape="rect" id="node22" href="$da/d80/classENSEM_1_1OScalar.html#a89a76b1229e185250c0b9c48ae13d98b" title="OScalar %= OScalar." alt="" coords="193,943,394,968"/>
+<area shape="rect" id="node23" href="$da/d80/classENSEM_1_1OScalar.html#aeffba612ea04593253d41332d6d2aa82" title="OScalar |= OScalar." alt="" coords="197,992,390,1017"/>
+<area shape="rect" id="node24" href="$da/d80/classENSEM_1_1OScalar.html#a9a192875355f059d207c579e2514b2a3" title="OScalar &amp;= OScalar." alt="" coords="194,1041,392,1067"/>
+<area shape="rect" id="node25" href="$da/d80/classENSEM_1_1OScalar.html#af66decef8e6be220193ad1292a927e2f" title="OScalar ^= OScalar." alt="" coords="195,1091,391,1116"/>
+<area shape="rect" id="node26" href="$da/d80/classENSEM_1_1OScalar.html#a93607b92c63ae779d9d3ed131df3f449" title="OScalar &lt;&lt;= OScalar." alt="" coords="191,1140,396,1165"/>
+<area shape="rect" id="node27" href="$da/d80/classENSEM_1_1OScalar.html#a38ab5a0779184c6ca5a1b3211e2e38ca" title="OScalar &gt;&gt;= OScalar." alt="" coords="191,1189,396,1215"/>
+<area shape="rect" id="node28" href="$da/d8a/classENSEM_1_1OTensor.html#ae763ca68be1d6b8d5b27b8d544ab5f2d" title="OTensor = OScalar." alt="" coords="197,1239,389,1264"/>
+<area shape="rect" id="node29" href="$da/d8a/classENSEM_1_1OTensor.html#a93fe0d4638104ad0f6bdaf5de7760276" title="OTensor += OScalar." alt="" coords="194,1288,393,1313"/>
+<area shape="rect" id="node30" href="$da/d8a/classENSEM_1_1OTensor.html#a61ebd11eac882623ea080293b007972b" title="OTensor &#45;= OScalar." alt="" coords="195,1337,391,1363"/>
+<area shape="rect" id="node31" href="$da/d8a/classENSEM_1_1OTensor.html#a0326883980545068700bbdd762df5904" title="OTensor *= OScalar." alt="" coords="195,1387,391,1412"/>
+<area shape="rect" id="node32" href="$da/d8a/classENSEM_1_1OTensor.html#a02520659679c7946a5bb0ce75b3824cb" title="OTensor /= OScalar." alt="" coords="196,1436,391,1461"/>
+<area shape="rect" id="node33" href="$de/d87/group__obstensor.html#ga5d6fdaa96c08e10d2006c495cb0af217" title="OTensor = pow(OTensor, OScalar)" alt="" coords="243,1485,343,1511"/>
+<area shape="rect" id="node34" href="$de/d87/group__obstensor.html#gaba8ed2c3683bbcbda35e8a372d7ee2e6" title="OTensor = atan2(OTensor, OScalar)" alt="" coords="238,1535,348,1560"/>
+<area shape="rect" id="node35" href="$de/d87/group__obstensor.html#ga2f3f321adaac09837bf726a64c539c11" title="OTensor = outerProduct(OTensor, OScalar)" alt="" coords="217,1584,369,1609"/>
+<area shape="rect" id="node36" href="$de/d87/group__obstensor.html#gaa0e4faa1f2d2fe041ebdf6ba05a05178" title="Extract observable vector components." alt="" coords="228,1633,358,1659"/>
+<area shape="rect" id="node37" href="$d0/d8d/classENSEM_1_1OVector.html#a31b08dda73879d2a39c4a0bec90bc401" title="OVector = OScalar." alt="" coords="199,1683,388,1708"/>
+<area shape="rect" id="node38" href="$d0/d8d/classENSEM_1_1OVector.html#a6cb710cbb29083f2849c48da65292174" title="OVector += OScalar." alt="" coords="195,1732,392,1757"/>
+<area shape="rect" id="node39" href="$d0/d8d/classENSEM_1_1OVector.html#ae2ae62360c5eb29827cb7e3d5556859f" title="OVector &#45;= OScalar." alt="" coords="196,1781,390,1807"/>
+<area shape="rect" id="node40" href="$d0/d8d/classENSEM_1_1OVector.html#a55710cffaf6c877d2465af80ad8b6c49" title="OVector *= OScalar." alt="" coords="196,1831,390,1856"/>
+<area shape="rect" id="node41" href="$d0/d8d/classENSEM_1_1OVector.html#aa26be39a0620d0cdc1685bc2f1cc31a5" title="OVector /= OScalar." alt="" coords="197,1880,390,1905"/>
+<area shape="rect" id="node14" href="$d1/d71/group__obsscalar.html#gada3c474cf374d31a9df7c6cba2d608eb" title="dest = (mask) ? s1 : dest" alt="" coords="5,548,142,573"/>
+</map>

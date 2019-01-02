@@ -1,0 +1,1601 @@
+\hypertarget{namespaceADATIO}{}\section{A\+D\+A\+T\+IO Namespace Reference}
+\label{namespaceADATIO}\index{ADATIO@{ADATIO}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}
+\begin{DoxyCompactList}\small\item\em Q\+IO class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}}
+\begin{DoxyCompactList}\small\item\em Binary buffer reader class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1BinaryBufferWriter}{Binary\+Buffer\+Writer}}
+\begin{DoxyCompactList}\small\item\em Binary buffer writer output class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1BinaryFileReader}{Binary\+File\+Reader}}
+\begin{DoxyCompactList}\small\item\em Binary file reader class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1BinaryFileWriter}{Binary\+File\+Writer}}
+\begin{DoxyCompactList}\small\item\em Binary file output class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}}
+\begin{DoxyCompactList}\small\item\em Binary reader base class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}}
+\begin{DoxyCompactList}\small\item\em Binary output base class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1OldSerialDBData}{Old\+Serial\+D\+B\+Data}}
+\begin{DoxyCompactList}\small\item\em Serializable value harness. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1OldSerialDBKey}{Old\+Serial\+D\+B\+Key}}
+\begin{DoxyCompactList}\small\item\em Serializable key harness. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOChecksumInfo__t}{Q\+I\+O\+Checksum\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO record checksum. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOFileInfo__t}{Q\+I\+O\+File\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO private file info. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIORecordInfo__t}{Q\+I\+O\+Record\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO private record info. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{Q\+I\+O\+String\+Traits}}
+\begin{DoxyCompactList}\small\item\em Q\+IO Type and precision strings. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits_3_01Array_3_01EScalar_3_01T_01_4_01_4_01_4}{Q\+I\+O\+String\+Traits$<$ Array$<$ E\+Scalar$<$ T $>$ $>$ $>$}}
+\begin{DoxyCompactList}\small\item\em Partial(?) Specialisation for E\+Scalar Objects. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits_3_01EScalar_3_01T_01_4_01_4}{Q\+I\+O\+String\+Traits$<$ E\+Scalar$<$ T $>$ $>$}}
+\begin{DoxyCompactList}\small\item\em Partial(?) Specialisation for E\+Scalar Objects. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}
+\begin{DoxyCompactList}\small\item\em Serializable value harness. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}
+\begin{DoxyCompactList}\small\item\em Serializable key harness. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group__qio_ga669520ca9003997be838730beef322b4}{A\+D\+A\+T\+\_\+filemode\+\_\+t}} \{ \mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a26364b4509b37147465990b221a87326}{Q\+D\+P\+I\+O\+\_\+\+C\+R\+E\+A\+TE}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a700314a4acc8fad5ceb1e154792e27c9}{Q\+D\+P\+I\+O\+\_\+\+O\+P\+EN}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a3f4180520ebc75ea34f783aaea3ec69b}{Q\+D\+P\+I\+O\+\_\+\+A\+P\+P\+E\+ND}}
+ \}
+\begin{DoxyCompactList}\small\item\em File open mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespaceADATIO_af57306a140489d28cd8fa1107d585906}{read\+Desc}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::string \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_ab1b78a1922de3cc047517ead7aa99825}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::string \&input, size\+\_\+t max\+Bytes)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a32f382a05f4fc1a3d423363f7964ae1f}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, char \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_ad09ed9f17d6e412ab867031ad3b9e117}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, int \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_ab12f044844bc44c732b1d6f903fb16ad}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, unsigned int \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a84cdbbeb07150af08ce2313df0237728}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, short int \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a59ee5c8cc7ec8551d39dc0b947a780a5}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, unsigned short int \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a68d168b17cfa4dee83df2c6039d569ca}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, long int \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a02ebdefcf436220fd6967af8391de2d6}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, unsigned long int \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a66f06451ef1705309458a4e2adc71a28}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, float \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a285f2a260e51c5e11c51e339779378a3}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, double \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a5f367e2dbd4baac46c87c566b42ce4ce}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, bool \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_aa439c7d6dfc63d8424816de24810141d}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::complex$<$ float $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Complex reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_a99479bf376afa5196fad6684a360c7af}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::complex$<$ double $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Complex reader. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_aa4d9d42917828a10055400b295736ad5}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, char \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_a38e9b56ea3dfb8ea19ceb57783546c7c}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, int \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_ae8319d36de40198210e78469c672e6d0}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, unsigned int \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_af1565fd78ef164ff9cd892d032189f03}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, short int \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_a1252900b43fa1caf87beea30ea4d5d76}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, unsigned short int \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_ab87e32e5cce14b02718ac9c25a238bdd}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, long int \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_a60c265c9f81ae202821e863e6db5f56f}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, unsigned long int \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_a61d7b17123532c52a896c68a7524e924}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, float \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_a2f66b1bc36b75ce131795f596985e5dc}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, double \&input)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& \mbox{\hyperlink{namespaceADATIO_a540603b862dd578f7d9e187b2a0b7380}{operator$>$$>$}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, bool \&input)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a0faeed900aacb29febaa709323135c50}{write\+Desc}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::string \&output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a12d01adc4b592d85f0f5f5c101205c08}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::string \&output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a7a53460de240b5544de0b7c60b2eb455}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const char $\ast$output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a36dc30e1303b7d207fefebf8d5d5eb6e}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, char output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_acd8820f167370337965f2788946e6cd1}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, int output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a4414db50c6a20ca89996529421eb8d0b}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, unsigned int output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a89bfc18eb2d40012f5b4ac105448d441}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, short int output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_aed0610520a88cb6c8ba3cfd5b9ea2a8f}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, unsigned short int output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a163945e3b7a7ffeb94176c87d14dd21d}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, long int output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a68445b40d5732188a488e7b95b3cc6cc}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, unsigned long int output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a0bd8eac36791c194c12fd2005d87046d}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, float output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_adc3666e3bf7803200f6dbd4eb96463fb}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, double output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a936b2163d1c60aa98f39841bed52f62a}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, bool output)
+\item 
+void \mbox{\hyperlink{namespaceADATIO_a653bde19d92b24f8269adfa361bdabda}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::complex$<$ float $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Complex writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_a4d080cdbb3d8b34b2e8cf03001f8b7f0}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::complex$<$ double $>$ \&param)
+\begin{DoxyCompactList}\small\item\em Complex writer. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a10c403177088d104f13bd52cefae2a84}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::string \&output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_aa30c54a0a5271fc122506186fdf276c0}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const char $\ast$output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a07c89597706480c0ec7b346192b1f121}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, int output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a9b4a06d24af68d2a6c22f575e0a0584a}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, unsigned int output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_acfdbfb8beb266b5c5f28a065b0a2e4b5}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, short int output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_aff2f4933a66b5468387c2361b16922ce}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, unsigned short int output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a02e2a976b2de62419c11d0a1a112c31e}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, long int output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a669b878c72c25b392c3068a6286e721e}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, unsigned long int output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a9a1401ffe0590b7a54c2690d79073c22}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, float output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a48a968b3177d5e46941cf9a358881c23}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, double output)
+\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a3cf019d891bf2265bd3c530f1bdd46a0}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, bool output)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a16a912dec3b1d1424a44c9f1a6cd915f}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a2a2a1e3d909d72f5e64dcded1bdb8012}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&d, int num)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_ab767ead2d172e8ecf85663edea909002}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}}$<$ T $>$ \&d, int num1, int num2)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a9a2262a21e8dd6377d669f96ef9276b9}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_ac8f475cc894abb16b89f3e73e1132bce}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}} element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a0e3333d0774c69f2c6a38b013e23d02b}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}} element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a0b5c3397d644a4f522e7b097825986cb}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary Array\+Nd element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a6f8814a83922a0b41bf9a25627b5dcfd}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::vector$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary std\+::vector object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a6b74b694d784ffa233957d276d10528d}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::list$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary std\+::list object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_aee4123faea4044073f3c166dab12cb9e}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}} object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{namespaceADATIO_aae6ee71c391ad98e959febc86231331b}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::map$<$ K, V $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary std\+::map object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T1 , typename T2 $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a746a6511817f141011d50005a099feec}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, std\+::pair$<$ T1, T2 $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Read a binary std\+::pair object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& \mbox{\hyperlink{namespaceADATIO_a4b4f8d8951c5d9ed7f144ea43e01dd67}{operator$<$$<$}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, char output)
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a70c8ce102a5eca8961bb57bf7b8b6bd1}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write all of a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a7a09030036bf1cc4704ecdcdf4cd6090}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&d, int num)
+\begin{DoxyCompactList}\small\item\em Write some or all of a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a6e67aa5fde8e34135bde219592b6b55a}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write a binary \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a7fbf1297a893fe12c3b03b9594408829}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write a binary \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}} element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_ad3c579901108d678f21ec1a97d0ab197}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write a binary \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}} element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a0f804d3b56353fad83984a5668212660}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write a binary multi\+Nd element. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a588c700d58adcb2b77399ac18ec9226b}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::vector$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write all of a binary std\+::vector object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a940fb003df0f6107d020341f78592201}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::list$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write all of a binary std\+::list object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{namespaceADATIO_aea9e3ff6a488ce22e363d16085c76a85}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write all of a binary A\+D\+A\+T\+::\+Array object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{namespaceADATIO_acc2655a91a7a0608906b55f7533bde55}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::map$<$ K, V $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write all of a binary std\+::map object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T1 , typename T2 $>$ }\\void \mbox{\hyperlink{namespaceADATIO_a29572ec079e7257de618b505e0baee59}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const std\+::pair$<$ T1, T2 $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Write all of a binary std\+::pair object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_ac8ef7ea6a40421510ad5578b6fad884e}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path, \mbox{\hyperlink{structADATIO_1_1QIOFileInfo__t}{Q\+I\+O\+File\+Info\+\_\+t}} \&param)
+\begin{DoxyCompactList}\small\item\em Read a private file info struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_ac5827e268402afb3a0bb4ebbcec97706}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path, \mbox{\hyperlink{structADATIO_1_1QIORecordInfo__t}{Q\+I\+O\+Record\+Info\+\_\+t}} \&param)
+\begin{DoxyCompactList}\small\item\em Read a private record info struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_ab39e59b5ba8a584a1c5afd164173b9e7}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path, \mbox{\hyperlink{structADATIO_1_1QIOChecksumInfo__t}{Q\+I\+O\+Checksum\+Info\+\_\+t}} \&param)
+\begin{DoxyCompactList}\small\item\em Read a checksum info struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d}{close}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw)
+\begin{DoxyCompactList}\small\item\em Close a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__qio_gad9b8cab72f011dd46c24a51e8a1c756a}{is\+\_\+open}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw)
+\begin{DoxyCompactList}\small\item\em Is a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} open. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga3dd8ea4aebc2b69c0ad2996743816341}{read}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an E\+Scalar object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga2505d6fa25fdce3f9d953179afc3532e}{read}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an array of E\+Scalar object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gad349a61627372c07f82a004b876423b8}{read}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&s1)
+\begin{DoxyCompactList}\small\item\em Reads a \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceADATIO_a10c403177088d104f13bd52cefae2a84}\label{namespaceADATIO_a10c403177088d104f13bd52cefae2a84}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::string \&}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a10c403177088d104f13bd52cefae2a84_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aa30c54a0a5271fc122506186fdf276c0}\label{namespaceADATIO_aa30c54a0a5271fc122506186fdf276c0}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const char $\ast$}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aa30c54a0a5271fc122506186fdf276c0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a07c89597706480c0ec7b346192b1f121}\label{namespaceADATIO_a07c89597706480c0ec7b346192b1f121}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [3/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a07c89597706480c0ec7b346192b1f121_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a9b4a06d24af68d2a6c22f575e0a0584a}\label{namespaceADATIO_a9b4a06d24af68d2a6c22f575e0a0584a}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [4/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{unsigned int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a9b4a06d24af68d2a6c22f575e0a0584a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_acfdbfb8beb266b5c5f28a065b0a2e4b5}\label{namespaceADATIO_acfdbfb8beb266b5c5f28a065b0a2e4b5}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [5/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{short int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_acfdbfb8beb266b5c5f28a065b0a2e4b5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aff2f4933a66b5468387c2361b16922ce}\label{namespaceADATIO_aff2f4933a66b5468387c2361b16922ce}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [6/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{unsigned short int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aff2f4933a66b5468387c2361b16922ce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a02e2a976b2de62419c11d0a1a112c31e}\label{namespaceADATIO_a02e2a976b2de62419c11d0a1a112c31e}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [7/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{long int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a02e2a976b2de62419c11d0a1a112c31e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a669b878c72c25b392c3068a6286e721e}\label{namespaceADATIO_a669b878c72c25b392c3068a6286e721e}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [8/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{unsigned long int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a669b878c72c25b392c3068a6286e721e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a9a1401ffe0590b7a54c2690d79073c22}\label{namespaceADATIO_a9a1401ffe0590b7a54c2690d79073c22}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [9/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{float}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a9a1401ffe0590b7a54c2690d79073c22_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a48a968b3177d5e46941cf9a358881c23}\label{namespaceADATIO_a48a968b3177d5e46941cf9a358881c23}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [10/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{double}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a48a968b3177d5e46941cf9a358881c23_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a3cf019d891bf2265bd3c530f1bdd46a0}\label{namespaceADATIO_a3cf019d891bf2265bd3c530f1bdd46a0}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [11/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{bool}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a3cf019d891bf2265bd3c530f1bdd46a0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a4b4f8d8951c5d9ed7f144ea43e01dd67}\label{namespaceADATIO_a4b4f8d8951c5d9ed7f144ea43e01dd67}} 
+\index{ADATIO@{ADATIO}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [12/12]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \& A\+D\+A\+T\+I\+O\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{char}]{output }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceADATIO_aa4d9d42917828a10055400b295736ad5}\label{namespaceADATIO_aa4d9d42917828a10055400b295736ad5}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [1/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{char \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aa4d9d42917828a10055400b295736ad5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a38e9b56ea3dfb8ea19ceb57783546c7c}\label{namespaceADATIO_a38e9b56ea3dfb8ea19ceb57783546c7c}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [2/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a38e9b56ea3dfb8ea19ceb57783546c7c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ae8319d36de40198210e78469c672e6d0}\label{namespaceADATIO_ae8319d36de40198210e78469c672e6d0}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [3/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{unsigned int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ae8319d36de40198210e78469c672e6d0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_af1565fd78ef164ff9cd892d032189f03}\label{namespaceADATIO_af1565fd78ef164ff9cd892d032189f03}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [4/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{short int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_af1565fd78ef164ff9cd892d032189f03_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a1252900b43fa1caf87beea30ea4d5d76}\label{namespaceADATIO_a1252900b43fa1caf87beea30ea4d5d76}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [5/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{unsigned short int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a1252900b43fa1caf87beea30ea4d5d76_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ab87e32e5cce14b02718ac9c25a238bdd}\label{namespaceADATIO_ab87e32e5cce14b02718ac9c25a238bdd}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [6/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{long int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ab87e32e5cce14b02718ac9c25a238bdd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a60c265c9f81ae202821e863e6db5f56f}\label{namespaceADATIO_a60c265c9f81ae202821e863e6db5f56f}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [7/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{unsigned long int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a60c265c9f81ae202821e863e6db5f56f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a61d7b17123532c52a896c68a7524e924}\label{namespaceADATIO_a61d7b17123532c52a896c68a7524e924}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [8/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{float \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a61d7b17123532c52a896c68a7524e924_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a2f66b1bc36b75ce131795f596985e5dc}\label{namespaceADATIO_a2f66b1bc36b75ce131795f596985e5dc}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [9/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{double \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a2f66b1bc36b75ce131795f596985e5dc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a540603b862dd578f7d9e187b2a0b7380}\label{namespaceADATIO_a540603b862dd578f7d9e187b2a0b7380}} 
+\index{ADATIO@{ADATIO}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [10/10]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \& A\+D\+A\+T\+I\+O\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{bool \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a540603b862dd578f7d9e187b2a0b7380_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ac8ef7ea6a40421510ad5578b6fad884e}\label{namespaceADATIO_ac8ef7ea6a40421510ad5578b6fad884e}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [1/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{\mbox{\hyperlink{structADATIO_1_1QIOFileInfo__t}{Q\+I\+O\+File\+Info\+\_\+t}} \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Read a private file info struct. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ac8ef7ea6a40421510ad5578b6fad884e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ab1b78a1922de3cc047517ead7aa99825}\label{namespaceADATIO_ab1b78a1922de3cc047517ead7aa99825}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [2/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::string \&}]{input,  }\item[{size\+\_\+t}]{max\+Bytes }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_ab1b78a1922de3cc047517ead7aa99825_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ab1b78a1922de3cc047517ead7aa99825_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a32f382a05f4fc1a3d423363f7964ae1f}\label{namespaceADATIO_a32f382a05f4fc1a3d423363f7964ae1f}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [3/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{char \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a32f382a05f4fc1a3d423363f7964ae1f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ad09ed9f17d6e412ab867031ad3b9e117}\label{namespaceADATIO_ad09ed9f17d6e412ab867031ad3b9e117}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [4/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_ad09ed9f17d6e412ab867031ad3b9e117_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ab12f044844bc44c732b1d6f903fb16ad}\label{namespaceADATIO_ab12f044844bc44c732b1d6f903fb16ad}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [5/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{unsigned int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_ab12f044844bc44c732b1d6f903fb16ad_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a84cdbbeb07150af08ce2313df0237728}\label{namespaceADATIO_a84cdbbeb07150af08ce2313df0237728}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [6/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{short int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a84cdbbeb07150af08ce2313df0237728_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a59ee5c8cc7ec8551d39dc0b947a780a5}\label{namespaceADATIO_a59ee5c8cc7ec8551d39dc0b947a780a5}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [7/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{unsigned short int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a59ee5c8cc7ec8551d39dc0b947a780a5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a68d168b17cfa4dee83df2c6039d569ca}\label{namespaceADATIO_a68d168b17cfa4dee83df2c6039d569ca}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [8/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{long int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a68d168b17cfa4dee83df2c6039d569ca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a02ebdefcf436220fd6967af8391de2d6}\label{namespaceADATIO_a02ebdefcf436220fd6967af8391de2d6}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [9/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{unsigned long int \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a02ebdefcf436220fd6967af8391de2d6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ac5827e268402afb3a0bb4ebbcec97706}\label{namespaceADATIO_ac5827e268402afb3a0bb4ebbcec97706}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [10/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{\mbox{\hyperlink{structADATIO_1_1QIORecordInfo__t}{Q\+I\+O\+Record\+Info\+\_\+t}} \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Read a private record info struct. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ac5827e268402afb3a0bb4ebbcec97706_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a66f06451ef1705309458a4e2adc71a28}\label{namespaceADATIO_a66f06451ef1705309458a4e2adc71a28}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [11/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{float \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a66f06451ef1705309458a4e2adc71a28_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a285f2a260e51c5e11c51e339779378a3}\label{namespaceADATIO_a285f2a260e51c5e11c51e339779378a3}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [12/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{double \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a285f2a260e51c5e11c51e339779378a3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a5f367e2dbd4baac46c87c566b42ce4ce}\label{namespaceADATIO_a5f367e2dbd4baac46c87c566b42ce4ce}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [13/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{bool \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{d0/dba/namespaceADATIO_a5f367e2dbd4baac46c87c566b42ce4ce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aa439c7d6dfc63d8424816de24810141d}\label{namespaceADATIO_aa439c7d6dfc63d8424816de24810141d}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [14/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::complex$<$ float $>$ \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Complex reader. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aa439c7d6dfc63d8424816de24810141d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a99479bf376afa5196fad6684a360c7af}\label{namespaceADATIO_a99479bf376afa5196fad6684a360c7af}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [15/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::complex$<$ double $>$ \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Complex reader. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a99479bf376afa5196fad6684a360c7af_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a16a912dec3b1d1424a44c9f1a6cd915f}\label{namespaceADATIO_a16a912dec3b1d1424a44c9f1a6cd915f}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [16/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a16a912dec3b1d1424a44c9f1a6cd915f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ab39e59b5ba8a584a1c5afd164173b9e7}\label{namespaceADATIO_ab39e59b5ba8a584a1c5afd164173b9e7}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [17/28]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{\mbox{\hyperlink{structADATIO_1_1QIOChecksumInfo__t}{Q\+I\+O\+Checksum\+Info\+\_\+t}} \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Read a checksum info struct. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ab39e59b5ba8a584a1c5afd164173b9e7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a2a2a1e3d909d72f5e64dcded1bdb8012}\label{namespaceADATIO_a2a2a1e3d909d72f5e64dcded1bdb8012}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [18/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&}]{d,  }\item[{int}]{num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. 
+
+This assumes that the number of elements to be read is not written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. The number of elements must therefore be supplied by the caller 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled. \\
+\hline
+{\em num} & The number of elements.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+
+The \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} must have space for at least {\itshape num} elements. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a2a2a1e3d909d72f5e64dcded1bdb8012_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ab767ead2d172e8ecf85663edea909002}\label{namespaceADATIO_ab767ead2d172e8ecf85663edea909002}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [19/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}}$<$ T $>$ \&}]{d,  }\item[{int}]{num1,  }\item[{int}]{num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} object. 
+
+This assumes that the number of elements to be read is not written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. The number of elements must therefore be supplied by the caller 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled. \\
+\hline
+{\em num1} & The first dimension of the array \\
+\hline
+{\em num2} & The second dimension of the array..\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+
+The \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} must have space for at least {\itshape num} elements. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ab767ead2d172e8ecf85663edea909002_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a9a2262a21e8dd6377d669f96ef9276b9}\label{namespaceADATIO_a9a2262a21e8dd6377d669f96ef9276b9}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [20/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} element. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a9a2262a21e8dd6377d669f96ef9276b9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ac8f475cc894abb16b89f3e73e1132bce}\label{namespaceADATIO_ac8f475cc894abb16b89f3e73e1132bce}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [21/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}} element. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ac8f475cc894abb16b89f3e73e1132bce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a0e3333d0774c69f2c6a38b013e23d02b}\label{namespaceADATIO_a0e3333d0774c69f2c6a38b013e23d02b}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [22/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}} element. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a0e3333d0774c69f2c6a38b013e23d02b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a0b5c3397d644a4f522e7b097825986cb}\label{namespaceADATIO_a0b5c3397d644a4f522e7b097825986cb}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [23/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary Array\+Nd element. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a0b5c3397d644a4f522e7b097825986cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a6f8814a83922a0b41bf9a25627b5dcfd}\label{namespaceADATIO_a6f8814a83922a0b41bf9a25627b5dcfd}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [24/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::vector$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary std\+::vector object. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The std\+::vector can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a6f8814a83922a0b41bf9a25627b5dcfd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a6b74b694d784ffa233957d276d10528d}\label{namespaceADATIO_a6b74b694d784ffa233957d276d10528d}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [25/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::list$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary std\+::list object. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The std\+::list can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a6b74b694d784ffa233957d276d10528d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aee4123faea4044073f3c166dab12cb9e}\label{namespaceADATIO_aee4123faea4044073f3c166dab12cb9e}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [26/28]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{\mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}} object. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}} can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aee4123faea4044073f3c166dab12cb9e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aae6ee71c391ad98e959febc86231331b}\label{namespaceADATIO_aae6ee71c391ad98e959febc86231331b}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [27/28]}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::map$<$ K, V $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary std\+::map object. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The std\+::vector can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aae6ee71c391ad98e959febc86231331b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a746a6511817f141011d50005a099feec}\label{namespaceADATIO_a746a6511817f141011d50005a099feec}} 
+\index{ADATIO@{ADATIO}!read@{read}}
+\index{read@{read}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [28/28]}}
+{\footnotesize\ttfamily template$<$typename T1 , typename T2 $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::pair$<$ T1, T2 $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Read a binary std\+::pair object. 
+
+This assumes that the number of elements to be read is also written in the file, {\itshape i.\+e}. that the data was written with the corresponding write code. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The std\+::vector can be resized. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a746a6511817f141011d50005a099feec_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_af57306a140489d28cd8fa1107d585906}\label{namespaceADATIO_af57306a140489d28cd8fa1107d585906}} 
+\index{ADATIO@{ADATIO}!readDesc@{readDesc}}
+\index{readDesc@{readDesc}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{readDesc()}{readDesc()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read\+Desc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&}]{bin,  }\item[{std\+::string \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d0/dba/namespaceADATIO_af57306a140489d28cd8fa1107d585906_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{d0/dba/namespaceADATIO_af57306a140489d28cd8fa1107d585906_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a12d01adc4b592d85f0f5f5c101205c08}\label{namespaceADATIO_a12d01adc4b592d85f0f5f5c101205c08}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [1/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::string \&}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a12d01adc4b592d85f0f5f5c101205c08_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a12d01adc4b592d85f0f5f5c101205c08_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a7a53460de240b5544de0b7c60b2eb455}\label{namespaceADATIO_a7a53460de240b5544de0b7c60b2eb455}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [2/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const char $\ast$}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a7a53460de240b5544de0b7c60b2eb455_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a36dc30e1303b7d207fefebf8d5d5eb6e}\label{namespaceADATIO_a36dc30e1303b7d207fefebf8d5d5eb6e}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [3/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{char}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a36dc30e1303b7d207fefebf8d5d5eb6e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_acd8820f167370337965f2788946e6cd1}\label{namespaceADATIO_acd8820f167370337965f2788946e6cd1}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [4/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_acd8820f167370337965f2788946e6cd1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a4414db50c6a20ca89996529421eb8d0b}\label{namespaceADATIO_a4414db50c6a20ca89996529421eb8d0b}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [5/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{unsigned int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a4414db50c6a20ca89996529421eb8d0b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a89bfc18eb2d40012f5b4ac105448d441}\label{namespaceADATIO_a89bfc18eb2d40012f5b4ac105448d441}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [6/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{short int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a89bfc18eb2d40012f5b4ac105448d441_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aed0610520a88cb6c8ba3cfd5b9ea2a8f}\label{namespaceADATIO_aed0610520a88cb6c8ba3cfd5b9ea2a8f}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [7/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{unsigned short int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_aed0610520a88cb6c8ba3cfd5b9ea2a8f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a163945e3b7a7ffeb94176c87d14dd21d}\label{namespaceADATIO_a163945e3b7a7ffeb94176c87d14dd21d}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [8/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{long int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a163945e3b7a7ffeb94176c87d14dd21d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a68445b40d5732188a488e7b95b3cc6cc}\label{namespaceADATIO_a68445b40d5732188a488e7b95b3cc6cc}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [9/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{unsigned long int}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a68445b40d5732188a488e7b95b3cc6cc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a0bd8eac36791c194c12fd2005d87046d}\label{namespaceADATIO_a0bd8eac36791c194c12fd2005d87046d}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [10/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{float}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a0bd8eac36791c194c12fd2005d87046d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_adc3666e3bf7803200f6dbd4eb96463fb}\label{namespaceADATIO_adc3666e3bf7803200f6dbd4eb96463fb}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [11/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{double}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_adc3666e3bf7803200f6dbd4eb96463fb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a936b2163d1c60aa98f39841bed52f62a}\label{namespaceADATIO_a936b2163d1c60aa98f39841bed52f62a}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [12/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{bool}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d0/dba/namespaceADATIO_a936b2163d1c60aa98f39841bed52f62a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a653bde19d92b24f8269adfa361bdabda}\label{namespaceADATIO_a653bde19d92b24f8269adfa361bdabda}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [13/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::complex$<$ float $>$ \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Complex writer. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a653bde19d92b24f8269adfa361bdabda_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a4d080cdbb3d8b34b2e8cf03001f8b7f0}\label{namespaceADATIO_a4d080cdbb3d8b34b2e8cf03001f8b7f0}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [14/25]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::complex$<$ double $>$ \&}]{param }\end{DoxyParamCaption})}
+
+
+
+Complex writer. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a4d080cdbb3d8b34b2e8cf03001f8b7f0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a70c8ce102a5eca8961bb57bf7b8b6bd1}\label{namespaceADATIO_a70c8ce102a5eca8961bb57bf7b8b6bd1}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [15/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write all of a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. 
+
+This also writes the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a70c8ce102a5eca8961bb57bf7b8b6bd1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a7a09030036bf1cc4704ecdcdf4cd6090}\label{namespaceADATIO_a7a09030036bf1cc4704ecdcdf4cd6090}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [16/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}}$<$ T $>$ \&}]{d,  }\item[{int}]{num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write some or all of a binary \mbox{\hyperlink{classXMLArray_1_1Array}{X\+M\+L\+Array\+::\+Array}} object. 
+
+This does not write the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary writer \\
+\hline
+{\em d} & The data to be filled. \\
+\hline
+{\em num} & The number of elements to write.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary writer must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a7a09030036bf1cc4704ecdcdf4cd6090_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a6e67aa5fde8e34135bde219592b6b55a}\label{namespaceADATIO_a6e67aa5fde8e34135bde219592b6b55a}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [17/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write a binary \mbox{\hyperlink{classXMLArray_1_1Array2d}{X\+M\+L\+Array\+::\+Array2d}} element. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a6e67aa5fde8e34135bde219592b6b55a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a7fbf1297a893fe12c3b03b9594408829}\label{namespaceADATIO_a7fbf1297a893fe12c3b03b9594408829}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [18/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write a binary \mbox{\hyperlink{classXMLArray_1_1Array3d}{X\+M\+L\+Array\+::\+Array3d}} element. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a7fbf1297a893fe12c3b03b9594408829_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_ad3c579901108d678f21ec1a97d0ab197}\label{namespaceADATIO_ad3c579901108d678f21ec1a97d0ab197}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [19/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write a binary \mbox{\hyperlink{classXMLArray_1_1Array4d}{X\+M\+L\+Array\+::\+Array4d}} element. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_ad3c579901108d678f21ec1a97d0ab197_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a0f804d3b56353fad83984a5668212660}\label{namespaceADATIO_a0f804d3b56353fad83984a5668212660}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [20/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write a binary multi\+Nd element. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a0f804d3b56353fad83984a5668212660_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a588c700d58adcb2b77399ac18ec9226b}\label{namespaceADATIO_a588c700d58adcb2b77399ac18ec9226b}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [21/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::vector$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write all of a binary std\+::vector object. 
+
+This also writes the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a588c700d58adcb2b77399ac18ec9226b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a940fb003df0f6107d020341f78592201}\label{namespaceADATIO_a940fb003df0f6107d020341f78592201}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [22/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::list$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write all of a binary std\+::list object. 
+
+This also writes the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a940fb003df0f6107d020341f78592201_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_aea9e3ff6a488ce22e363d16085c76a85}\label{namespaceADATIO_aea9e3ff6a488ce22e363d16085c76a85}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [23/25]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const \mbox{\hyperlink{classADAT_1_1Array1dO}{A\+D\+A\+T\+::\+Array1dO}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write all of a binary A\+D\+A\+T\+::\+Array object. 
+
+This also writes the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_aea9e3ff6a488ce22e363d16085c76a85_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_acc2655a91a7a0608906b55f7533bde55}\label{namespaceADATIO_acc2655a91a7a0608906b55f7533bde55}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [24/25]}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::map$<$ K, V $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write all of a binary std\+::map object. 
+
+This also writes the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_acc2655a91a7a0608906b55f7533bde55_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a29572ec079e7257de618b505e0baee59}\label{namespaceADATIO_a29572ec079e7257de618b505e0baee59}} 
+\index{ADATIO@{ADATIO}!write@{write}}
+\index{write@{write}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [25/25]}}
+{\footnotesize\ttfamily template$<$typename T1 , typename T2 $>$ \\
+void A\+D\+A\+T\+I\+O\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::pair$<$ T1, T2 $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write all of a binary std\+::pair object. 
+
+This also writes the number of elements to the file. 
+\begin{DoxyParams}{Parameters}
+{\em bin} & The initialised binary reader \\
+\hline
+{\em d} & The data to be filled.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The binary reader must have opened the file. 
+\end{DoxyPrecond}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dba/namespaceADATIO_a29572ec079e7257de618b505e0baee59_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceADATIO_a0faeed900aacb29febaa709323135c50}\label{namespaceADATIO_a0faeed900aacb29febaa709323135c50}} 
+\index{ADATIO@{ADATIO}!writeDesc@{writeDesc}}
+\index{writeDesc@{writeDesc}!ADATIO@{ADATIO}}
+\subsubsection{\texorpdfstring{writeDesc()}{writeDesc()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::write\+Desc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&}]{bin,  }\item[{const std\+::string \&}]{output }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{d0/dba/namespaceADATIO_a0faeed900aacb29febaa709323135c50_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{d0/dba/namespaceADATIO_a0faeed900aacb29febaa709323135c50_icgraph}
+\end{center}
+\end{figure}

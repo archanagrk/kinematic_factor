@@ -1,0 +1,60 @@
+\hypertarget{install_2include_2hadron_2hadron__quark__location_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/hadron/hadron\+\_\+quark\+\_\+location.h File Reference}
+\label{install_2include_2hadron_2hadron__quark__location_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/hadron/hadron\_quark\_location.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/hadron/hadron\_quark\_location.h}}
+
+
+Location of a quark within a hadron.  
+
+
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for hadron\+\_\+quark\+\_\+location.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{d5/d44/install_2include_2hadron_2hadron__quark__location_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1QuarkNum__t}{Hadron\+::\+Quark\+Num\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Global position of a quark. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1HadronQuarkLocation__t}{Hadron\+::\+Hadron\+Quark\+Location\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Whereabouts of a quark. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespaceHadron_a6a6810ed7f262fbb4167534023c0b191}{Hadron\+::operator==}} (const Quark\+Num\+\_\+t \&s1, const Quark\+Num\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Some useful comparisons. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespaceHadron_aa7483984b4c081a23ba486c97ca05f5a}{Hadron\+::operator!=}} (const Quark\+Num\+\_\+t \&s1, const Quark\+Num\+\_\+t \&s2)
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a99d886a5455746fba4c549c7a072c731}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Quark\+Num\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Used for error output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a9fc0b61edf5216d1720dabf68810d3b5}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Quark\+Num\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Quark\+Num reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a7da51caa70247c9ab9d11f8275ec93b7}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Quark\+Num\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Quark\+Num writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a1f04a3926b07155fbf7e7887169d7f4e}{Hadron\+::read}} (Binary\+Reader \&bin, Quark\+Num\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Quark\+Num reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a44eb64f50cbbc947364a538026c97ee6}{Hadron\+::write}} (Binary\+Writer \&bin, const Quark\+Num\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Quark\+Num writer. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a16e2cbe171cccf191439c38f7ce36655}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Hadron\+Quark\+Location\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Used for error output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a48b9ff1049a4c339c032065b538ed41f}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Hadron\+Quark\+Location\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Hadron\+Quark\+Location reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a2737e3c3e39c76c6dbe81ce5e484f6cc}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Hadron\+Quark\+Location\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Hadron\+Quark\+Location writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a6860ee691eb6d64d0fb2d52f4977316b}{Hadron\+::read}} (Binary\+Reader \&bin, Hadron\+Quark\+Location\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Hadron\+Quark\+Location reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a8953a24e53ffe4d60e9c0ba26a48a9e3}{Hadron\+::write}} (Binary\+Writer \&bin, const Hadron\+Quark\+Location\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Hadron\+Quark\+Location writer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Location of a quark within a hadron. 
+

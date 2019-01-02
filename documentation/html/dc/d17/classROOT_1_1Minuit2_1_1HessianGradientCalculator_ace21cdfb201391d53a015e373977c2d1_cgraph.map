@@ -1,0 +1,31 @@
+<map id="ROOT::Minuit2::HessianGradientCalculator::DeltaGradient" name="ROOT::Minuit2::HessianGradientCalculator::DeltaGradient">
+<area shape="rect" id="node1" title=" " alt="" coords="5,501,221,540"/>
+<area shape="rect" id="node2" href="$db/db8/classROOT_1_1Minuit2_1_1MinimumParameters.html#a4b30eb313781bc8e344efa322461952a" title=" " alt="" coords="284,5,523,44"/>
+<area shape="rect" id="node3" href="$db/db8/classROOT_1_1Minuit2_1_1MinimumParameters.html#ad93c17d14f4ddbc66c91107ff3a80dbe" title=" " alt="" coords="269,68,538,93"/>
+<area shape="rect" id="node4" href="$d3/d48/classROOT_1_1Minuit2_1_1FunctionGradient.html#a0effb8dbe0115928f72f122621ba4ad3" title=" " alt="" coords="294,117,512,156"/>
+<area shape="rect" id="node5" href="$d3/d48/classROOT_1_1Minuit2_1_1FunctionGradient.html#a6f99988a7fd1a61ed96c6709f02b6041" title=" " alt="" coords="281,180,525,205"/>
+<area shape="rect" id="node6" href="$d3/d48/classROOT_1_1Minuit2_1_1FunctionGradient.html#a09cf6f34997cef2cffca0d9ccc2b36b8" title=" " alt="" coords="294,229,512,268"/>
+<area shape="rect" id="node7" href="$db/db8/classROOT_1_1Minuit2_1_1MinimumParameters.html#a1f9cd63f5947771e367bedd4dafa54e3" title=" " alt="" coords="284,292,523,331"/>
+<area shape="rect" id="node8" href="$dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator.html#afeacc0589b4f4d6a1e6e6b985f24cc3b" title=" " alt="" coords="295,355,511,393"/>
+<area shape="rect" id="node10" href="$d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision.html#aa71de131bc08f19d18dfeba4cb8191ce" title="eps2 returns 2*sqrt(eps)" alt="" coords="311,417,496,456"/>
+<area shape="rect" id="node11" href="$d4/dca/group__escalar.html#ga60eef052054b1a7da3e16a844de7d565" title=" " alt="" coords="353,480,454,505"/>
+<area shape="rect" id="node13" href="$dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator.html#ae23f4348f9a64595c39db48aa48d9e09" title=" " alt="" coords="295,529,511,568"/>
+<area shape="rect" id="node14" href="$de/d0e/classROOT_1_1Minuit2_1_1MnFcn.html#a2c91d0dd77e9c913116fb84b6fe31633" title=" " alt="" coords="313,592,494,617"/>
+<area shape="rect" id="node16" href="$dc/d43/classROOT_1_1Minuit2_1_1MPIProcess.html#a9e6b2dc6f57cc91bb11637b50ba15957" title=" " alt="" coords="886,657,1074,696"/>
+<area shape="rect" id="node21" href="$dc/d43/classROOT_1_1Minuit2_1_1MPIProcess.html#af4445148831dec4961d5f8aa99aeb2c1" title=" " alt="" coords="618,835,806,873"/>
+<area shape="rect" id="node22" href="$d9/d0b/sqrat_8cc.html#a4eaa086f75083f409944caa419ec9a8b" title=" " alt="" coords="381,808,425,833"/>
+<area shape="rect" id="node23" href="$dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator.html#a234641f72296f007b2d95b514be07138" title=" " alt="" coords="295,857,511,896"/>
+<area shape="rect" id="node26" href="$d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision.html#a3a56da6043c5df1a98e5c8b1aa9f6d9f" title="eps returns the smallest possible number so that 1.+eps &gt; 1." alt="" coords="311,920,496,959"/>
+<area shape="rect" id="node27" href="$d8/d9f/misc_8cc.html#a9881a990a03d466ac29ae1fb645fe1a4" title=" " alt="" coords="380,983,426,1008"/>
+<area shape="rect" id="node28" href="$dc/d43/classROOT_1_1Minuit2_1_1MPIProcess.html#a179f3ea817399a73cbce05d1778ec128" title=" " alt="" coords="309,693,497,732"/>
+<area shape="rect" id="node9" href="$d9/d98/classROOT_1_1Minuit2_1_1MnUserTransformation.html#af9d893a428a4f4d94dfef1bdd3e9936e" title=" " alt="" coords="586,355,838,393"/>
+<area shape="rect" id="node12" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="632,480,791,505"/>
+<area shape="rect" id="node15" href="$dd/df4/classROOT_1_1Minuit2_1_1FCNBase.html#a04ef08ddad92ce8d89d498efbe021c39" title=" " alt="" coords="612,569,811,595"/>
+<area shape="rect" id="node17" href="$dc/d43/classROOT_1_1Minuit2_1_1MPIProcess.html#a8ab54fbeb2dd760265e0121573361c3f" title=" " alt="" coords="1358,657,1546,696"/>
+<area shape="rect" id="node18" href="$dc/d43/classROOT_1_1Minuit2_1_1MPIProcess.html#a9d9453545f311f9f9f995800ed518258" title=" " alt="" coords="1122,715,1310,753"/>
+<area shape="rect" id="node19" href="$dc/d43/classROOT_1_1Minuit2_1_1MPIProcess.html#ada3f8f6f1b28844db6cb6bd717521ffd" title=" " alt="" coords="1358,769,1546,808"/>
+<area shape="rect" id="node20" href="$da/d46/namespaceNR.html#af609478dc8d3d58e4d09f1f8f8553238" title=" " alt="" coords="1415,720,1489,745"/>
+<area shape="rect" id="node24" href="$dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator.html#a407171e2df12fa67e92c0e5b7a97bb8d" title=" " alt="" coords="604,897,819,936"/>
+<area shape="rect" id="node25" href="$da/de4/classROOT_1_1Minuit2_1_1MnStrategy.html#a49354e374820b73f7e8b6701d7e07922" title=" " alt="" coords="619,960,804,999"/>
+<area shape="rect" id="node29" href="$d3/d20/classROOT_1_1Minuit2_1_1LAVector.html#a145e47ac78c4fcace3209ef477255937" title=" " alt="" coords="627,772,796,811"/>
+</map>

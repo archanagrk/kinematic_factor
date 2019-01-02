@@ -1,0 +1,11 @@
+<map id="Hadron::write" name="Hadron::write">
+<area shape="rect" id="node1" title="HadronVertex writer." alt="" coords="5,75,106,100"/>
+<area shape="rect" id="node2" href="$d7/da0/namespaceADATXML.html#a1e8531ea0cb1a302d918f3b427969425" title=" " alt="" coords="303,24,422,49"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#ac358b1203bd94f6b26452402911ce174" title="Write a key." alt="" coords="154,75,255,100"/>
+<area shape="rect" id="node7" href="$d2/da3/group__io.html#gac235f191b977af85918b9a9d063ba5f4" title="Pop a group name." alt="" coords="306,125,419,151"/>
+<area shape="rect" id="node3" href="$da/da7/classADATXML_1_1XMLWriter.html#a8f9728743acfd9c15ab5d69bf8800a5e" title=" " alt="" coords="470,5,623,44"/>
+<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a6ba238c6945bb5d95ae189cfee93a690" title="BaryonElementalOperator write." alt="" coords="312,75,413,100"/>
+<area shape="rect" id="node6" href="$db/da0/classXMLArray_1_1Array3d.html#aa084cbb2756e62556c9ec4c4cb971bf0" title="Size of array." alt="" coords="475,68,618,107"/>
+<area shape="rect" id="node8" href="$da/da7/classADATXML_1_1XMLWriter.html#ade5512a07806893fe3aaebb897580569" title=" " alt="" coords="470,131,623,169"/>
+<area shape="rect" id="node9" href="$da/da7/classADATXML_1_1XMLWriter.html#a13209ef7863272707bf8fea7c172e9f1" title=" " alt="" coords="671,131,823,169"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Hadron::getMetaData" name="Hadron::getMetaData">
+<area shape="rect" id="node1" title="Read a layout." alt="" coords="409,56,558,81"/>
+<area shape="rect" id="node2" href="$d3/dd4/dbmerge_8cc.html#a6c8a139a4e0f3c2eb65b1a9828dc910a" title="Does the actual work of merging &#45; handled as a template." alt="" coords="241,31,331,56"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#af18d764aba83c32e26a22d75ed2dfbf7" title=" " alt="" coords="211,80,361,105"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a82284ec1545a1a6b6794da8d973a1d57" title="Read the dbtype from the metadata." alt="" coords="15,5,154,31"/>
+<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#aa639c858514f322eb7ee4c074924746a" title="Get lattice size." alt="" coords="15,55,154,80"/>
+<area shape="rect" id="node6" href="$d1/daf/namespaceHadron.html#ae5c5e7cd57aa116ce56262bf00762610" title="Get decay dir." alt="" coords="11,104,157,129"/>
+<area shape="rect" id="node7" href="$d1/daf/namespaceHadron.html#a660c9f3adc1525c9d326b23398d09494" title="Get time extent." alt="" coords="5,153,163,179"/>
+</map>

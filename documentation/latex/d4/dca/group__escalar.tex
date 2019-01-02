@@ -1,0 +1,2252 @@
+\hypertarget{group__escalar}{}\section{Ensemble scalar}
+\label{group__escalar}\index{Ensemble scalar@{Ensemble scalar}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+N\+S\+E\+M\+::\+E\+Scalar$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em Scalar ensem. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T_01_4_00_01OpNot_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T $>$, Op\+Not $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpLeftShift_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+Left\+Shift $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpRightShift_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+Right\+Shift $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpLT_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+L\+T $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpLE_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+L\+E $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpGT_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+G\+T $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpGE_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+G\+E $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpEQ_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+E\+Q $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpNE_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+N\+E $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpAnd_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+And $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01OpOr_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Op\+Or $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T_01_4_00_01FnContract_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T $>$, Fn\+Contract $>$}}
+\begin{DoxyCompactList}\small\item\em Contract over a specific list of indices. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnShift_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Shift $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnCshift_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Cshift $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T_01_4_00_01FnSum_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T $>$, Fn\+Sum $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T_01_4_00_01FnNorm2_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T $>$, Fn\+Norm2 $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T_01_4_00_01FnLocalNorm2_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T $>$, Fn\+Local\+Norm2 $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01FnInnerProduct_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Fn\+Inner\+Product $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = Inner\+Product(adj(\+E\+Scalar)$\ast$\+E\+Scalar) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01FnLocalInnerProduct_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, Fn\+Local\+Inner\+Product $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1TrinaryReturn_3_01EScalar_3_01T1_01_4_00_01EScalar_3_01T2_01_4_00_01EScalar_3_01T3_01_4_00_01FnWhere_01_4}{E\+N\+S\+E\+M\+::\+Trinary\+Return$<$ E\+Scalar$<$ T1 $>$, E\+Scalar$<$ T2 $>$, E\+Scalar$<$ T3 $>$, Fn\+Where $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = where(\+E\+Scalar, E\+Scalar, E\+Scalar) \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnPeekEnsem_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Peek\+Ensem $>$}}
+\begin{DoxyCompactList}\small\item\em Extract components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnPeekObsVector_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Peek\+Obs\+Vector $>$}}
+\begin{DoxyCompactList}\small\item\em Extract components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnPeekObsTensor_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Peek\+Obs\+Tensor $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnPeekSpinVector_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Peek\+Spin\+Vector $>$}}
+\begin{DoxyCompactList}\small\item\em Extract components. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01EScalar_3_01T1_01_4_00_01FnPeekSpinMatrix_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ E\+Scalar$<$ T1 $>$, Fn\+Peek\+Spin\+Matrix $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01GammaConst_3_01N_00_01m_01_4_00_01EScalar_3_01T_01_4_00_01OpGammaConstMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ Gamma\+Const$<$ N, m $>$, E\+Scalar$<$ T $>$, Op\+Gamma\+Const\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T_01_4_00_01GammaConst_3_01N_00_01m_01_4_00_01OpMultiplyGammaConst_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T $>$, Gamma\+Const$<$ N, m $>$, Op\+Multiply\+Gamma\+Const $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01GammaType_3_01N_01_4_00_01EScalar_3_01T_01_4_00_01OpGammaTypeMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ Gamma\+Type$<$ N $>$, E\+Scalar$<$ T $>$, Op\+Gamma\+Type\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T_01_4_00_01GammaType_3_01N_01_4_00_01OpMultiplyGammaType_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T $>$, Gamma\+Type$<$ N $>$, Op\+Multiply\+Gamma\+Type $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01GammaConstDP_3_01N_00_01m_01_4_00_01EScalar_3_01T_01_4_00_01OpGammaConstDPMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ Gamma\+Const\+D\+P$<$ N, m $>$, E\+Scalar$<$ T $>$, Op\+Gamma\+Const\+D\+P\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T_01_4_00_01GammaConstDP_3_01N_00_01m_01_4_00_01OpMultiplyGammaConstDP_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T $>$, Gamma\+Const\+D\+P$<$ N, m $>$, Op\+Multiply\+Gamma\+Const\+D\+P $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01GammaTypeDP_3_01N_01_4_00_01EScalar_3_01T_01_4_00_01OpGammaTypeDPMultiply_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ Gamma\+Type\+D\+P$<$ N $>$, E\+Scalar$<$ T $>$, Op\+Gamma\+Type\+D\+P\+Multiply $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01EScalar_3_01T_01_4_00_01GammaTypeDP_3_01N_01_4_00_01OpMultiplyGammaTypeDP_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ E\+Scalar$<$ T $>$, Gamma\+Type\+D\+P$<$ N $>$, Op\+Multiply\+Gamma\+Type\+D\+P $>$}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\std\+::istream \& \mbox{\hyperlink{group__escalar_gae1745a4a5cc3b43ab391d57412135dbd}{E\+N\+S\+E\+M\+::operator$>$$>$}} (std\+::istream \&s, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Ascii input. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\std\+::ostream \& \mbox{\hyperlink{group__escalar_ga2a24d07560f549aee97bb63ceed9ed50}{E\+N\+S\+E\+M\+::operator$<$$<$}} (std\+::ostream \&s, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Ascii output. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{classENSEM_1_1TextReader}{E\+N\+S\+E\+M\+::\+Text\+Reader}} \& \mbox{\hyperlink{group__escalar_ga0011ba4db6e989d9517d29f0dd411ba4}{E\+N\+S\+E\+M\+::operator$>$$>$}} (\mbox{\hyperlink{classENSEM_1_1TextReader}{E\+N\+S\+E\+M\+::\+Text\+Reader}} \&s, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Text input. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{classENSEM_1_1TextWriter}{E\+N\+S\+E\+M\+::\+Text\+Writer}} \& \mbox{\hyperlink{group__escalar_ga4fa895e4a145c879739c3f8497717e98}{E\+N\+S\+E\+M\+::operator$<$$<$}} (\mbox{\hyperlink{classENSEM_1_1TextWriter}{E\+N\+S\+E\+M\+::\+Text\+Writer}} \&s, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em Text output. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \& \mbox{\hyperlink{group__escalar_gae78b4ef06a7e72aa75cae11dd9c48327}{E\+N\+S\+E\+M\+::operator$<$$<$}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \&xml, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em X\+ML output. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__escalar_ga5631206e233cf75b5fb2ff13ee8b77ac}{E\+N\+S\+E\+M\+::read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader}} \&xml, const std\+::string \&path, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em X\+ML input. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__escalar_ga2e7afe18081ed96c569177362d6bb43d}{E\+N\+S\+E\+M\+::write}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \&xml, const std\+::string \&s, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em X\+ML output. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpNot}{Op\+Not}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga248e30ef2d97325ac4b11c077bc514dd}{E\+N\+S\+E\+M\+::operator!}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryPlus}{Op\+Unary\+Plus}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga45a6583b8f7490b2e54b5c88ff07ba94}{E\+N\+S\+E\+M\+::operator+}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryMinus}{Op\+Unary\+Minus}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga19df0fab753be25388f62c774ecdffae}{E\+N\+S\+E\+M\+::operator-\/}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gacf8bfdceca4578af5c8007fe00b2bf8e}{E\+N\+S\+E\+M\+::operator+}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaab8719cf0db585f9ffd1685fff3e96d4}{E\+N\+S\+E\+M\+::operator-\/}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga87a689c2f74aa616bca6523845562c12}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdjMultiply}{Op\+Adj\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga8cef36c4e2779c7d7dbf64b9500b053c}{E\+N\+S\+E\+M\+::adj\+Multiply}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyAdj}{Op\+Multiply\+Adj}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga90260817012914a08b2475f4cc5c94a7}{E\+N\+S\+E\+M\+::multiply\+Adj}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdjMultiplyAdj}{Op\+Adj\+Multiply\+Adj}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gab3c0c146aa415c32cb9ce5a6ad426d10}{E\+N\+S\+E\+M\+::adj\+Multiply\+Adj}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpDivide}{Op\+Divide}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga6afeb39f3b92a8cfc99b5dc1689d0488}{E\+N\+S\+E\+M\+::operator/}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpLeftShift}{Op\+Left\+Shift}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga70b4aa1415cb636de9b4b0d56d26486b}{E\+N\+S\+E\+M\+::operator$<$$<$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpRightShift}{Op\+Right\+Shift}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gacaa61f35659a0336281352bbdbef1112}{E\+N\+S\+E\+M\+::operator$>$$>$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMod}{Op\+Mod}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga970051624cd8616f50a03dcaa2fdc4db}{E\+N\+S\+E\+M\+::operator\%}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpBitwiseXor}{Op\+Bitwise\+Xor}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga61ae38c220aff90c4be30fbab0974540}{E\+N\+S\+E\+M\+::operator$^\wedge$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpBitwiseAnd}{Op\+Bitwise\+And}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga445352dd6ecea4dcb57bfd1abcda2a0b}{E\+N\+S\+E\+M\+::operator \&}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpBitwiseOr}{Op\+Bitwise\+Or}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gadc4bc2eaed30b8d8661741f6ece0de03}{E\+N\+S\+E\+M\+::operator$\vert$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpLT}{Op\+LT}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gad3a307ef5e78a5c23670ded8c75cdde5}{E\+N\+S\+E\+M\+::operator$<$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpLE}{Op\+LE}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaf6abf7f5f838e38b67549d4af6f8683a}{E\+N\+S\+E\+M\+::operator$<$=}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGT}{Op\+GT}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga92b83acdab0e4e35ee7687740b1d3a01}{E\+N\+S\+E\+M\+::operator$>$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGE}{Op\+GE}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga9635179278abcc85536b21baae58904d}{E\+N\+S\+E\+M\+::operator$>$=}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpEQ}{Op\+EQ}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaccee099471047aac753f8acd2336898c}{E\+N\+S\+E\+M\+::operator==}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpNE}{Op\+NE}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga4d3acce68f40c5503e1e30f756a1ed4c}{E\+N\+S\+E\+M\+::operator!=}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAnd}{Op\+And}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga8ca8cd66f3b104a6439afa608f4a6e50}{E\+N\+S\+E\+M\+::operator \&\&}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpOr}{Op\+Or}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gadede5cc3683f39a01170f32e3f759c8e}{E\+N\+S\+E\+M\+::operator$\vert$$\vert$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnAdjoint}{Fn\+Adjoint}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga51071562edd203962f48e4b44f0c0a0c}{E\+N\+S\+E\+M\+::adj}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnConjugate}{Fn\+Conjugate}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga291c7e9b7f872b3e6db0d75ff3421b6a}{E\+N\+S\+E\+M\+::conj}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTranspose}{Fn\+Transpose}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga5b02d7d8a00b851a2452fb03861a9401}{E\+N\+S\+E\+M\+::transpose}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTrace}{Fn\+Trace}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga4c3bf5ecccbf7b690868af26ec7d8ca6}{E\+N\+S\+E\+M\+::trace}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnRealTrace}{Fn\+Real\+Trace}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gac6853fb7b9f9b61b97cda696c804ab0a}{E\+N\+S\+E\+M\+::trace\+\_\+real}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnImagTrace}{Fn\+Imag\+Trace}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gad2c4bd25b83ec8aa100ff58b6b773d8c}{E\+N\+S\+E\+M\+::trace\+\_\+imag}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnReal}{Fn\+Real}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gae1f319d978abc1631bd68382787544aa}{E\+N\+S\+E\+M\+::real}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnImag}{Fn\+Imag}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga415448f22c6dabfd82cbb0154e054c2e}{E\+N\+S\+E\+M\+::imag}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcCos}{Fn\+Arc\+Cos}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gac8e90d16773622bd9971db55f0c125c9}{E\+N\+S\+E\+M\+::acos}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcSin}{Fn\+Arc\+Sin}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gab463bdb3f1fadf6b5a87076e5d3dc9b9}{E\+N\+S\+E\+M\+::asin}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcTan}{Fn\+Arc\+Tan}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga3169598490417ab5713660967ec6b658}{E\+N\+S\+E\+M\+::atan}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnCos}{Fn\+Cos}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga841db2f3f6d6a553733b1b75a638f052}{E\+N\+S\+E\+M\+::cos}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnExp}{Fn\+Exp}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga80b6028648c4f7d8f84f04d129bfa976}{E\+N\+S\+E\+M\+::exp}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnFabs}{Fn\+Fabs}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga60eef052054b1a7da3e16a844de7d565}{E\+N\+S\+E\+M\+::fabs}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnLog}{Fn\+Log}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gabe969a92b7a6a506a417bb17fdf68b4c}{E\+N\+S\+E\+M\+::log}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnSin}{Fn\+Sin}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga373122acba11edfbe0eff82093788afe}{E\+N\+S\+E\+M\+::sin}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnSqrt}{Fn\+Sqrt}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga4e0889a609d84d3ddac113e68bfccfa4}{E\+N\+S\+E\+M\+::sqrt}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTan}{Fn\+Tan}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga560632c018611046a7009dc56681b77d}{E\+N\+S\+E\+M\+::tan}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnPow}{Fn\+Pow}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaa3f8d5129f1ded089d42af89bd94827d}{E\+N\+S\+E\+M\+::pow}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&s2)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = pow(\+E\+Scalar, E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \mbox{\hyperlink{group__escalar_gaba7571beee718548316367ab8d623e70}{E\+N\+S\+E\+M\+::pow}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, int s2)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = pow(\+E\+Scalar, int) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcTan2}{Fn\+Arc\+Tan2}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga9a9d48948d119981259ad0ebcb0acfea}{E\+N\+S\+E\+M\+::atan2}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&s2)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = atan2(\+E\+Scalar, E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnCmplx}{Fn\+Cmplx}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaccbb7d66b912e8f0972f4e50095f296e}{E\+N\+S\+E\+M\+::cmplx}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&s2)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = cmplx(\+E\+Scalar , E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesI}{Fn\+TimesI}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gab216ba6f292c204a04e5ff6cd34c32c3}{E\+N\+S\+E\+M\+::timesI}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = i $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesMinusI}{Fn\+Times\+MinusI}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaf2675acd80a7a861cff22098e403837a}{E\+N\+S\+E\+M\+::times\+MinusI}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = -\/i $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\bool \mbox{\hyperlink{group__escalar_ga114fe2eec1be253ca86ecb5290d189fc}{E\+N\+S\+E\+M\+::is\+Zero}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em bool = is\+Zero(\+E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\bool \mbox{\hyperlink{group__escalar_gada6bc3d89f9c0b0dc55465bdcbb35a78}{E\+N\+S\+E\+M\+::is\+NaN}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em bool = is\+Na\+N(\+E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\bool \mbox{\hyperlink{group__escalar_ga323a3743d3621a1c631ad3e52b85acba}{E\+N\+S\+E\+M\+::is\+Inf}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em bool = is\+Inf(\+E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\bool \mbox{\hyperlink{group__escalar_ga70fcd41007f852c6b90539df7b80af87}{E\+N\+S\+E\+M\+::is\+Finite}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em bool = is\+Finite(\+E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnSeedToFloat}{Fn\+Seed\+To\+Float}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga7e479d7cf5ca7620a11e78b407b2e9c3}{E\+N\+S\+E\+M\+::seed\+To\+Float}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em dest \mbox{[}float type\mbox{]} = source \mbox{[}seed type\mbox{]} \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnOuterProduct}{Fn\+Outer\+Product}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaf54c1015e882e21da36323ae571504dc}{E\+N\+S\+E\+M\+::outer\+Product}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = outer\+Product(\+E\+Scalar, E\+Scalar) \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnContract}{Fn\+Contract}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga6c04652cc005e69e9785effa182a8436}{E\+N\+S\+E\+M\+::contract}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&nn)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnShift}{Fn\+Shift}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaeaac3a9b82b6d6c8f0ec25efb3242cfe}{E\+N\+S\+E\+M\+::shift}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, int sh)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnCshift}{Fn\+Cshift}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga4a9bfa7287ccf8fef9605aa9e9a44884}{E\+N\+S\+E\+M\+::cshift}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, int sh)
+\item 
+{\footnotesize template$<$class T $>$ }\\int \mbox{\hyperlink{group__escalar_ga332b1b685c28f8bdbf099f3e32016ad2}{E\+N\+S\+E\+M\+::to\+Int}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Int to int primitive in conversion routine. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\float \mbox{\hyperlink{group__escalar_gaf21f130175f8bc3a98a90272dc196b2c}{E\+N\+S\+E\+M\+::to\+Float}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Real to float primitive in conversion routine. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\double \mbox{\hyperlink{group__escalar_ga981890bacedbaccd67983030f792d927}{E\+N\+S\+E\+M\+::to\+Double}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Double to double primitive in conversion routine. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\bool \mbox{\hyperlink{group__escalar_ga67754bbbfd7795820548f6c6bb9c6b19}{E\+N\+S\+E\+M\+::to\+Bool}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Boolean to bool primitive in conversion routine. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , class T1 $>$ }\\void \mbox{\hyperlink{group__escalar_ga1fe36c2ff072b322fac723a4e44f6584}{E\+N\+S\+E\+M\+::cast\+\_\+rep}} (T \&d, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em dest \mbox{[}float type\mbox{]} = source \mbox{[}int type\mbox{]} \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , class T1 $>$ }\\void \mbox{\hyperlink{group__escalar_ga49ac1b22b18f5dd54cdf91fbf9a4e3b2}{E\+N\+S\+E\+M\+::recast\+\_\+rep}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em dest \mbox{[}float type\mbox{]} = source \mbox{[}int type\mbox{]} \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnSum}{Fn\+Sum}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gae544517401e03767c9194bfe3736df37}{E\+N\+S\+E\+M\+::sum}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalNorm2}{Fn\+Local\+Norm2}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga5612cd39905e848db7ef691d10437811}{E\+N\+S\+E\+M\+::local\+Norm2}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga0013b1f4312c45e970912e4df1f55f65}{E\+N\+S\+E\+M\+::local\+Inner\+Product}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&s1, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&s2)
+\item 
+{\footnotesize template$<$class T1 , class T2 , class T3 $>$ }\\\mbox{\hyperlink{structENSEM_1_1TrinaryReturn}{Trinary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T3 $>$, \mbox{\hyperlink{structENSEM_1_1FnWhere}{Fn\+Where}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga1b68bb6fff59089642921a334fde6ef5}{E\+N\+S\+E\+M\+::where}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&a, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&b, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T3 $>$ \&c)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekEnsem}{Fn\+Peek\+Ensem}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga8fd0207eefa0fd0836dc3f2dffef209e}{E\+N\+S\+E\+M\+::peek\+Ensem}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, int nbin)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekObsVector}{Fn\+Peek\+Obs\+Vector}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga7b3199ffdfb57391566d3db05e9b38c1}{E\+N\+S\+E\+M\+::peek\+Obs}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, int row)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekObsTensor}{Fn\+Peek\+Obs\+Tensor}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga5715083f9573c91b9d4567559f4b2b30}{E\+N\+S\+E\+M\+::peek\+Obs}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&nn)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinVector}{Fn\+Peek\+Spin\+Vector}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaa833c21339250a427d537f2c3431f9e2}{E\+N\+S\+E\+M\+::peek\+Spin}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, int row)
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinMatrix}{Fn\+Peek\+Spin\+Matrix}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gadd6441efc37438418dda6c0e5a501f10}{E\+N\+S\+E\+M\+::peek\+Spin}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, int row, int col)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& \mbox{\hyperlink{group__escalar_ga9528137f2a0461bf8dc2e6825f00464f}{E\+N\+S\+E\+M\+::poke\+Ensem}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r, int nbin)
+\begin{DoxyCompactList}\small\item\em Insert components. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& \mbox{\hyperlink{group__escalar_ga635de79045bc1565a78ea94b9ff967fb}{E\+N\+S\+E\+M\+::poke\+Obs}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r, int row)
+\begin{DoxyCompactList}\small\item\em Insert components. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& \mbox{\hyperlink{group__escalar_gad25640d827b75330c6d3f288290866fd}{E\+N\+S\+E\+M\+::poke\+Obs}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&nn)
+\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& \mbox{\hyperlink{group__escalar_gae8b2f2d3c5fedfb458392f11d78f2c88}{E\+N\+S\+E\+M\+::poke\+Spin}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r, int row)
+\begin{DoxyCompactList}\small\item\em Insert spin vector components. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , class T2 $>$ }\\\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& \mbox{\hyperlink{group__escalar_ga7f41ec60f3cfb7ed2f965af5b8a81132}{E\+N\+S\+E\+M\+::poke\+Spin}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r, int row, int col)
+\begin{DoxyCompactList}\small\item\em Insert spin matrix components. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__escalar_gacea96299b1b52d3a75cdb109c3b03b05}{E\+N\+S\+E\+M\+::zero\+\_\+rep}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em dest = 0 \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__escalar_gab876765eed1c2ac8b1d1adcf0b0ba123}{E\+N\+S\+E\+M\+::fill\+\_\+random}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d)
+\begin{DoxyCompactList}\small\item\em dest = random \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__escalar_ga3598759ad3e33b4008dd80a044cc75a8}{E\+N\+S\+E\+M\+::fill\+\_\+gaussian}} (\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&d, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&r1, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&r2)
+\begin{DoxyCompactList}\small\item\em dest = gaussian \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T2 , int N, int m$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gae8dabaf2e8ff409632f9943294b5a6b4}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , int N, int m$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaConst}{Op\+Multiply\+Gamma\+Const}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga10de70ea3b5491035fab4f67de013321}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , int N$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaTypeMultiply}{Op\+Gamma\+Type\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga53bf11728d0f1f7fb9dea51cd221792d}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , int N$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaType}{Op\+Multiply\+Gamma\+Type}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gacd3a5ba72921d671ee94910188b8c179}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T2 , int N, int m$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga37b9d878f5157952ec965d47a1032bc0}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 , int N, int m$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaConstDP}{Op\+Multiply\+Gamma\+Const\+DP}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_gaa60096d471282c83dab865d42b53ce96}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , int N$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaTypeDPMultiply}{Op\+Gamma\+Type\+D\+P\+Multiply}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga54ffca46c333d9dad30043eb6cef6299}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T , int N$>$ }\\\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaTypeDP}{Op\+Multiply\+Gamma\+Type\+DP}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga546f1e55f2e4eda7a887fbf4fcaa177f}{E\+N\+S\+E\+M\+::operator$\ast$}} (const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&l, const \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&r)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Ensemble scalars 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__escalar_gac8e90d16773622bd9971db55f0c125c9}\label{group__escalar_gac8e90d16773622bd9971db55f0c125c9}} 
+\index{Ensemble scalar@{Ensemble scalar}!acos@{acos}}
+\index{acos@{acos}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{acos()}{acos()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcCos}{Fn\+Arc\+Cos}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::acos (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d4/dca/group__escalar_gac8e90d16773622bd9971db55f0c125c9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gac8e90d16773622bd9971db55f0c125c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga51071562edd203962f48e4b44f0c0a0c}\label{group__escalar_ga51071562edd203962f48e4b44f0c0a0c}} 
+\index{Ensemble scalar@{Ensemble scalar}!adj@{adj}}
+\index{adj@{adj}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{adj()}{adj()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnAdjoint}{Fn\+Adjoint}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::adj (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{d4/dca/group__escalar_ga51071562edd203962f48e4b44f0c0a0c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{d4/dca/group__escalar_ga51071562edd203962f48e4b44f0c0a0c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga8cef36c4e2779c7d7dbf64b9500b053c}\label{group__escalar_ga8cef36c4e2779c7d7dbf64b9500b053c}} 
+\index{Ensemble scalar@{Ensemble scalar}!adjMultiply@{adjMultiply}}
+\index{adjMultiply@{adjMultiply}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{adjMultiply()}{adjMultiply()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdjMultiply}{Op\+Adj\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::adj\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{d4/dca/group__escalar_ga8cef36c4e2779c7d7dbf64b9500b053c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{d4/dca/group__escalar_ga8cef36c4e2779c7d7dbf64b9500b053c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gab3c0c146aa415c32cb9ce5a6ad426d10}\label{group__escalar_gab3c0c146aa415c32cb9ce5a6ad426d10}} 
+\index{Ensemble scalar@{Ensemble scalar}!adjMultiplyAdj@{adjMultiplyAdj}}
+\index{adjMultiplyAdj@{adjMultiplyAdj}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{adjMultiplyAdj()}{adjMultiplyAdj()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdjMultiplyAdj}{Op\+Adj\+Multiply\+Adj}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::adj\+Multiply\+Adj (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gab3c0c146aa415c32cb9ce5a6ad426d10_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gab3c0c146aa415c32cb9ce5a6ad426d10_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gab463bdb3f1fadf6b5a87076e5d3dc9b9}\label{group__escalar_gab463bdb3f1fadf6b5a87076e5d3dc9b9}} 
+\index{Ensemble scalar@{Ensemble scalar}!asin@{asin}}
+\index{asin@{asin}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{asin()}{asin()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcSin}{Fn\+Arc\+Sin}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::asin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_gab463bdb3f1fadf6b5a87076e5d3dc9b9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gab463bdb3f1fadf6b5a87076e5d3dc9b9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga3169598490417ab5713660967ec6b658}\label{group__escalar_ga3169598490417ab5713660967ec6b658}} 
+\index{Ensemble scalar@{Ensemble scalar}!atan@{atan}}
+\index{atan@{atan}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{atan()}{atan()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcTan}{Fn\+Arc\+Tan}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::atan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{d4/dca/group__escalar_ga3169598490417ab5713660967ec6b658_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga3169598490417ab5713660967ec6b658_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga9a9d48948d119981259ad0ebcb0acfea}\label{group__escalar_ga9a9d48948d119981259ad0ebcb0acfea}} 
+\index{Ensemble scalar@{Ensemble scalar}!atan2@{atan2}}
+\index{atan2@{atan2}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{atan2()}{atan2()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnArcTan2}{Fn\+Arc\+Tan2}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::atan2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = atan2(\+E\+Scalar, E\+Scalar) 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{d4/dca/group__escalar_ga9a9d48948d119981259ad0ebcb0acfea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga9a9d48948d119981259ad0ebcb0acfea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga1fe36c2ff072b322fac723a4e44f6584}\label{group__escalar_ga1fe36c2ff072b322fac723a4e44f6584}} 
+\index{Ensemble scalar@{Ensemble scalar}!cast\_rep@{cast\_rep}}
+\index{cast\_rep@{cast\_rep}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{cast\_rep()}{cast\_rep()}}
+{\footnotesize\ttfamily template$<$class T , class T1 $>$ \\
+void E\+N\+S\+E\+M\+::cast\+\_\+rep (\begin{DoxyParamCaption}\item[{T \&}]{d,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest \mbox{[}float type\mbox{]} = source \mbox{[}int type\mbox{]} 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{d4/dca/group__escalar_ga1fe36c2ff072b322fac723a4e44f6584_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{d4/dca/group__escalar_ga1fe36c2ff072b322fac723a4e44f6584_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaccbb7d66b912e8f0972f4e50095f296e}\label{group__escalar_gaccbb7d66b912e8f0972f4e50095f296e}} 
+\index{Ensemble scalar@{Ensemble scalar}!cmplx@{cmplx}}
+\index{cmplx@{cmplx}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{cmplx()}{cmplx()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnCmplx}{Fn\+Cmplx}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::cmplx (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = cmplx(\+E\+Scalar , E\+Scalar) 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{d4/dca/group__escalar_gaccbb7d66b912e8f0972f4e50095f296e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{d4/dca/group__escalar_gaccbb7d66b912e8f0972f4e50095f296e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga291c7e9b7f872b3e6db0d75ff3421b6a}\label{group__escalar_ga291c7e9b7f872b3e6db0d75ff3421b6a}} 
+\index{Ensemble scalar@{Ensemble scalar}!conj@{conj}}
+\index{conj@{conj}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{conj()}{conj()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnConjugate}{Fn\+Conjugate}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::conj (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_ga291c7e9b7f872b3e6db0d75ff3421b6a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga291c7e9b7f872b3e6db0d75ff3421b6a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga6c04652cc005e69e9785effa182a8436}\label{group__escalar_ga6c04652cc005e69e9785effa182a8436}} 
+\index{Ensemble scalar@{Ensemble scalar}!contract@{contract}}
+\index{contract@{contract}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{contract()}{contract()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnContract}{Fn\+Contract}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::contract (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{nn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{d4/dca/group__escalar_ga6c04652cc005e69e9785effa182a8436_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{d4/dca/group__escalar_ga6c04652cc005e69e9785effa182a8436_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga841db2f3f6d6a553733b1b75a638f052}\label{group__escalar_ga841db2f3f6d6a553733b1b75a638f052}} 
+\index{Ensemble scalar@{Ensemble scalar}!cos@{cos}}
+\index{cos@{cos}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{cos()}{cos()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnCos}{Fn\+Cos}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::cos (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{d4/dca/group__escalar_ga841db2f3f6d6a553733b1b75a638f052_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga841db2f3f6d6a553733b1b75a638f052_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga4a9bfa7287ccf8fef9605aa9e9a44884}\label{group__escalar_ga4a9bfa7287ccf8fef9605aa9e9a44884}} 
+\index{Ensemble scalar@{Ensemble scalar}!cshift@{cshift}}
+\index{cshift@{cshift}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{cshift()}{cshift()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnCshift}{Fn\+Cshift}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::cshift (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{int}]{sh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{d4/dca/group__escalar_ga4a9bfa7287ccf8fef9605aa9e9a44884_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{d4/dca/group__escalar_ga4a9bfa7287ccf8fef9605aa9e9a44884_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga80b6028648c4f7d8f84f04d129bfa976}\label{group__escalar_ga80b6028648c4f7d8f84f04d129bfa976}} 
+\index{Ensemble scalar@{Ensemble scalar}!exp@{exp}}
+\index{exp@{exp}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{exp()}{exp()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnExp}{Fn\+Exp}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::exp (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{d4/dca/group__escalar_ga80b6028648c4f7d8f84f04d129bfa976_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga80b6028648c4f7d8f84f04d129bfa976_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga60eef052054b1a7da3e16a844de7d565}\label{group__escalar_ga60eef052054b1a7da3e16a844de7d565}} 
+\index{Ensemble scalar@{Ensemble scalar}!fabs@{fabs}}
+\index{fabs@{fabs}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{fabs()}{fabs()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnFabs}{Fn\+Fabs}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::fabs (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_ga60eef052054b1a7da3e16a844de7d565_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d4/dca/group__escalar_ga60eef052054b1a7da3e16a844de7d565_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga3598759ad3e33b4008dd80a044cc75a8}\label{group__escalar_ga3598759ad3e33b4008dd80a044cc75a8}} 
+\index{Ensemble scalar@{Ensemble scalar}!fill\_gaussian@{fill\_gaussian}}
+\index{fill\_gaussian@{fill\_gaussian}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{fill\_gaussian()}{fill\_gaussian()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::fill\+\_\+gaussian (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{r1,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{r2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = gaussian 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{d4/dca/group__escalar_ga3598759ad3e33b4008dd80a044cc75a8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{d4/dca/group__escalar_ga3598759ad3e33b4008dd80a044cc75a8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gab876765eed1c2ac8b1d1adcf0b0ba123}\label{group__escalar_gab876765eed1c2ac8b1d1adcf0b0ba123}} 
+\index{Ensemble scalar@{Ensemble scalar}!fill\_random@{fill\_random}}
+\index{fill\_random@{fill\_random}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{fill\_random()}{fill\_random()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::fill\+\_\+random (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = random 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_gab876765eed1c2ac8b1d1adcf0b0ba123_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gab876765eed1c2ac8b1d1adcf0b0ba123_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga415448f22c6dabfd82cbb0154e054c2e}\label{group__escalar_ga415448f22c6dabfd82cbb0154e054c2e}} 
+\index{Ensemble scalar@{Ensemble scalar}!imag@{imag}}
+\index{imag@{imag}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{imag()}{imag()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnImag}{Fn\+Imag}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::imag (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d4/dca/group__escalar_ga415448f22c6dabfd82cbb0154e054c2e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{d4/dca/group__escalar_ga415448f22c6dabfd82cbb0154e054c2e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga70fcd41007f852c6b90539df7b80af87}\label{group__escalar_ga70fcd41007f852c6b90539df7b80af87}} 
+\index{Ensemble scalar@{Ensemble scalar}!isFinite@{isFinite}}
+\index{isFinite@{isFinite}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{isFinite()}{isFinite()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool E\+N\+S\+E\+M\+::is\+Finite (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+bool = is\+Finite(\+E\+Scalar) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{d4/dca/group__escalar_ga70fcd41007f852c6b90539df7b80af87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{d4/dca/group__escalar_ga70fcd41007f852c6b90539df7b80af87_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga323a3743d3621a1c631ad3e52b85acba}\label{group__escalar_ga323a3743d3621a1c631ad3e52b85acba}} 
+\index{Ensemble scalar@{Ensemble scalar}!isInf@{isInf}}
+\index{isInf@{isInf}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{isInf()}{isInf()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool E\+N\+S\+E\+M\+::is\+Inf (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+bool = is\+Inf(\+E\+Scalar) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_ga323a3743d3621a1c631ad3e52b85acba_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{d4/dca/group__escalar_ga323a3743d3621a1c631ad3e52b85acba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gada6bc3d89f9c0b0dc55465bdcbb35a78}\label{group__escalar_gada6bc3d89f9c0b0dc55465bdcbb35a78}} 
+\index{Ensemble scalar@{Ensemble scalar}!isNaN@{isNaN}}
+\index{isNaN@{isNaN}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{isNaN()}{isNaN()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool E\+N\+S\+E\+M\+::is\+NaN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+bool = is\+Na\+N(\+E\+Scalar) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{d4/dca/group__escalar_gada6bc3d89f9c0b0dc55465bdcbb35a78_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{d4/dca/group__escalar_gada6bc3d89f9c0b0dc55465bdcbb35a78_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga114fe2eec1be253ca86ecb5290d189fc}\label{group__escalar_ga114fe2eec1be253ca86ecb5290d189fc}} 
+\index{Ensemble scalar@{Ensemble scalar}!isZero@{isZero}}
+\index{isZero@{isZero}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{isZero()}{isZero()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool E\+N\+S\+E\+M\+::is\+Zero (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+bool = is\+Zero(\+E\+Scalar) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{d4/dca/group__escalar_ga114fe2eec1be253ca86ecb5290d189fc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{d4/dca/group__escalar_ga114fe2eec1be253ca86ecb5290d189fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga0013b1f4312c45e970912e4df1f55f65}\label{group__escalar_ga0013b1f4312c45e970912e4df1f55f65}} 
+\index{Ensemble scalar@{Ensemble scalar}!localInnerProduct@{localInnerProduct}}
+\index{localInnerProduct@{localInnerProduct}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{localInnerProduct()}{localInnerProduct()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalInnerProduct}{Fn\+Local\+Inner\+Product}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Inner\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga0013b1f4312c45e970912e4df1f55f65_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga0013b1f4312c45e970912e4df1f55f65_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga5612cd39905e848db7ef691d10437811}\label{group__escalar_ga5612cd39905e848db7ef691d10437811}} 
+\index{Ensemble scalar@{Ensemble scalar}!localNorm2@{localNorm2}}
+\index{localNorm2@{localNorm2}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{localNorm2()}{localNorm2()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnLocalNorm2}{Fn\+Local\+Norm2}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::local\+Norm2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{d4/dca/group__escalar_ga5612cd39905e848db7ef691d10437811_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga5612cd39905e848db7ef691d10437811_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gabe969a92b7a6a506a417bb17fdf68b4c}\label{group__escalar_gabe969a92b7a6a506a417bb17fdf68b4c}} 
+\index{Ensemble scalar@{Ensemble scalar}!log@{log}}
+\index{log@{log}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnLog}{Fn\+Log}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::log (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{d4/dca/group__escalar_gabe969a92b7a6a506a417bb17fdf68b4c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gabe969a92b7a6a506a417bb17fdf68b4c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga90260817012914a08b2475f4cc5c94a7}\label{group__escalar_ga90260817012914a08b2475f4cc5c94a7}} 
+\index{Ensemble scalar@{Ensemble scalar}!multiplyAdj@{multiplyAdj}}
+\index{multiplyAdj@{multiplyAdj}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{multiplyAdj()}{multiplyAdj()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyAdj}{Op\+Multiply\+Adj}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::multiply\+Adj (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_ga90260817012914a08b2475f4cc5c94a7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{d4/dca/group__escalar_ga90260817012914a08b2475f4cc5c94a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga445352dd6ecea4dcb57bfd1abcda2a0b}\label{group__escalar_ga445352dd6ecea4dcb57bfd1abcda2a0b}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator \&@{operator \&}}
+\index{operator \&@{operator \&}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator \&()}{operator \&()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$T1$>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$T2$>$, \mbox{\hyperlink{structENSEM_1_1OpBitwiseAnd}{Op\+Bitwise\+And}}$>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator\& (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{d4/dca/group__escalar_ga445352dd6ecea4dcb57bfd1abcda2a0b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga8ca8cd66f3b104a6439afa608f4a6e50}\label{group__escalar_ga8ca8cd66f3b104a6439afa608f4a6e50}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator \&\&@{operator \&\&}}
+\index{operator \&\&@{operator \&\&}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator \&\&()}{operator \&\&()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$T1$>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$T2$>$, \mbox{\hyperlink{structENSEM_1_1OpAnd}{Op\+And}}$>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator\&\& (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{d4/dca/group__escalar_ga8ca8cd66f3b104a6439afa608f4a6e50_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga248e30ef2d97325ac4b11c077bc514dd}\label{group__escalar_ga248e30ef2d97325ac4b11c077bc514dd}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator"!@{operator"!}}
+\index{operator"!@{operator"!}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator"!()}{operator!()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpNot}{Op\+Not}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator! (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_ga248e30ef2d97325ac4b11c077bc514dd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga4d3acce68f40c5503e1e30f756a1ed4c}\label{group__escalar_ga4d3acce68f40c5503e1e30f756a1ed4c}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpNE}{Op\+NE}} $>$\+::Type\+\_\+t \mbox{\hyperlink{group__escalar_ga248e30ef2d97325ac4b11c077bc514dd}{E\+N\+S\+E\+M\+::operator!}}= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{d4/dca/group__escalar_ga4d3acce68f40c5503e1e30f756a1ed4c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga970051624cd8616f50a03dcaa2fdc4db}\label{group__escalar_ga970051624cd8616f50a03dcaa2fdc4db}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator\%@{operator\%}}
+\index{operator\%@{operator\%}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator\%()}{operator\%()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMod}{Op\+Mod}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator\% (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{d4/dca/group__escalar_ga970051624cd8616f50a03dcaa2fdc4db_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga87a689c2f74aa616bca6523845562c12}\label{group__escalar_ga87a689c2f74aa616bca6523845562c12}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/9]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiply}{Op\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_ga87a689c2f74aa616bca6523845562c12_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gae8dabaf2e8ff409632f9943294b5a6b4}\label{group__escalar_gae8dabaf2e8ff409632f9943294b5a6b4}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/9]}}
+{\footnotesize\ttfamily template$<$class T2 , int N, int m$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstMultiply}{Op\+Gamma\+Const\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_gae8dabaf2e8ff409632f9943294b5a6b4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga10de70ea3b5491035fab4f67de013321}\label{group__escalar_ga10de70ea3b5491035fab4f67de013321}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [3/9]}}
+{\footnotesize\ttfamily template$<$class T1 , int N, int m$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaConst}{Op\+Multiply\+Gamma\+Const}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaConst}{Gamma\+Const}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_ga10de70ea3b5491035fab4f67de013321_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga53bf11728d0f1f7fb9dea51cd221792d}\label{group__escalar_ga53bf11728d0f1f7fb9dea51cd221792d}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [4/9]}}
+{\footnotesize\ttfamily template$<$class T , int N$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaTypeMultiply}{Op\+Gamma\+Type\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga53bf11728d0f1f7fb9dea51cd221792d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gacd3a5ba72921d671ee94910188b8c179}\label{group__escalar_gacd3a5ba72921d671ee94910188b8c179}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [5/9]}}
+{\footnotesize\ttfamily template$<$class T , int N$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaType}{Op\+Multiply\+Gamma\+Type}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaType}{Gamma\+Type}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gacd3a5ba72921d671ee94910188b8c179_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga37b9d878f5157952ec965d47a1032bc0}\label{group__escalar_ga37b9d878f5157952ec965d47a1032bc0}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [6/9]}}
+{\footnotesize\ttfamily template$<$class T2 , int N, int m$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaConstDPMultiply}{Op\+Gamma\+Const\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_ga37b9d878f5157952ec965d47a1032bc0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaa60096d471282c83dab865d42b53ce96}\label{group__escalar_gaa60096d471282c83dab865d42b53ce96}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [7/9]}}
+{\footnotesize\ttfamily template$<$class T1 , int N, int m$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaConstDP}{Op\+Multiply\+Gamma\+Const\+DP}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, m $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaConstDP}{Gamma\+Const\+DP}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_gaa60096d471282c83dab865d42b53ce96_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga54ffca46c333d9dad30043eb6cef6299}\label{group__escalar_ga54ffca46c333d9dad30043eb6cef6299}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [8/9]}}
+{\footnotesize\ttfamily template$<$class T , int N$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1OpGammaTypeDPMultiply}{Op\+Gamma\+Type\+D\+P\+Multiply}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}} $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{d4/dca/group__escalar_ga54ffca46c333d9dad30043eb6cef6299_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga546f1e55f2e4eda7a887fbf4fcaa177f}\label{group__escalar_ga546f1e55f2e4eda7a887fbf4fcaa177f}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [9/9]}}
+{\footnotesize\ttfamily template$<$class T , int N$>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$, \mbox{\hyperlink{structENSEM_1_1OpMultiplyGammaTypeDP}{Op\+Multiply\+Gamma\+Type\+DP}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}$<$ \mbox{\hyperlink{operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}} $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} $\ast$ \mbox{\hyperlink{classENSEM_1_1GammaTypeDP}{Gamma\+Type\+DP}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{d4/dca/group__escalar_ga546f1e55f2e4eda7a887fbf4fcaa177f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga45a6583b8f7490b2e54b5c88ff07ba94}\label{group__escalar_ga45a6583b8f7490b2e54b5c88ff07ba94}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator+@{operator+}}
+\index{operator+@{operator+}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryPlus}{Op\+Unary\+Plus}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d4/dca/group__escalar_ga45a6583b8f7490b2e54b5c88ff07ba94_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gacf8bfdceca4578af5c8007fe00b2bf8e}\label{group__escalar_gacf8bfdceca4578af5c8007fe00b2bf8e}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator+@{operator+}}
+\index{operator+@{operator+}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpAdd}{Op\+Add}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d4/dca/group__escalar_gacf8bfdceca4578af5c8007fe00b2bf8e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga19df0fab753be25388f62c774ecdffae}\label{group__escalar_ga19df0fab753be25388f62c774ecdffae}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1OpUnaryMinus}{Op\+Unary\+Minus}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_ga19df0fab753be25388f62c774ecdffae_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaab8719cf0db585f9ffd1685fff3e96d4}\label{group__escalar_gaab8719cf0db585f9ffd1685fff3e96d4}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpSubtract}{Op\+Subtract}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_gaab8719cf0db585f9ffd1685fff3e96d4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga6afeb39f3b92a8cfc99b5dc1689d0488}\label{group__escalar_ga6afeb39f3b92a8cfc99b5dc1689d0488}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator/@{operator/}}
+\index{operator/@{operator/}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpDivide}{Op\+Divide}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_ga6afeb39f3b92a8cfc99b5dc1689d0488_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gad3a307ef5e78a5c23670ded8c75cdde5}\label{group__escalar_gad3a307ef5e78a5c23670ded8c75cdde5}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpLT}{Op\+LT}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d4/dca/group__escalar_gad3a307ef5e78a5c23670ded8c75cdde5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga2a24d07560f549aee97bb63ceed9ed50}\label{group__escalar_ga2a24d07560f549aee97bb63ceed9ed50}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+std\+::ostream \& E\+N\+S\+E\+M\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{s,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ascii output. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_ga2a24d07560f549aee97bb63ceed9ed50_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga4fa895e4a145c879739c3f8497717e98}\label{group__escalar_ga4fa895e4a145c879739c3f8497717e98}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classENSEM_1_1TextWriter}{E\+N\+S\+E\+M\+::\+Text\+Writer}} \& E\+N\+S\+E\+M\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1TextWriter}{E\+N\+S\+E\+M\+::\+Text\+Writer}} \&}]{s,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Text output. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_ga4fa895e4a145c879739c3f8497717e98_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gae78b4ef06a7e72aa75cae11dd9c48327}\label{group__escalar_gae78b4ef06a7e72aa75cae11dd9c48327}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \& E\+N\+S\+E\+M\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \&}]{xml,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+X\+ML output. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_gae78b4ef06a7e72aa75cae11dd9c48327_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga70b4aa1415cb636de9b4b0d56d26486b}\label{group__escalar_ga70b4aa1415cb636de9b4b0d56d26486b}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpLeftShift}{Op\+Left\+Shift}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_ga70b4aa1415cb636de9b4b0d56d26486b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaf6abf7f5f838e38b67549d4af6f8683a}\label{group__escalar_gaf6abf7f5f838e38b67549d4af6f8683a}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpLE}{Op\+LE}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$<$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_gaf6abf7f5f838e38b67549d4af6f8683a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaccee099471047aac753f8acd2336898c}\label{group__escalar_gaccee099471047aac753f8acd2336898c}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator==@{operator==}}
+\index{operator==@{operator==}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpEQ}{Op\+EQ}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_gaccee099471047aac753f8acd2336898c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga92b83acdab0e4e35ee7687740b1d3a01}\label{group__escalar_ga92b83acdab0e4e35ee7687740b1d3a01}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGT}{Op\+GT}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d4/dca/group__escalar_ga92b83acdab0e4e35ee7687740b1d3a01_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga9635179278abcc85536b21baae58904d}\label{group__escalar_ga9635179278abcc85536b21baae58904d}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpGE}{Op\+GE}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$>$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_ga9635179278abcc85536b21baae58904d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gae1745a4a5cc3b43ab391d57412135dbd}\label{group__escalar_gae1745a4a5cc3b43ab391d57412135dbd}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+std\+::istream \& E\+N\+S\+E\+M\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{s,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ascii input. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_gae1745a4a5cc3b43ab391d57412135dbd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga0011ba4db6e989d9517d29f0dd411ba4}\label{group__escalar_ga0011ba4db6e989d9517d29f0dd411ba4}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classENSEM_1_1TextReader}{E\+N\+S\+E\+M\+::\+Text\+Reader}} \& E\+N\+S\+E\+M\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1TextReader}{E\+N\+S\+E\+M\+::\+Text\+Reader}} \&}]{s,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Text input. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_ga0011ba4db6e989d9517d29f0dd411ba4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gacaa61f35659a0336281352bbdbef1112}\label{group__escalar_gacaa61f35659a0336281352bbdbef1112}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpRightShift}{Op\+Right\+Shift}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d4/dca/group__escalar_gacaa61f35659a0336281352bbdbef1112_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga61ae38c220aff90c4be30fbab0974540}\label{group__escalar_ga61ae38c220aff90c4be30fbab0974540}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator$^\wedge$@{operator$^\wedge$}}
+\index{operator$^\wedge$@{operator$^\wedge$}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator$^\wedge$()}{operator^()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpBitwiseXor}{Op\+Bitwise\+Xor}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$^\wedge$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_ga61ae38c220aff90c4be30fbab0974540_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gadc4bc2eaed30b8d8661741f6ece0de03}\label{group__escalar_gadc4bc2eaed30b8d8661741f6ece0de03}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator\texttt{"|}@{operator\texttt{"|}}}
+\index{operator\texttt{"|}@{operator\texttt{"|}}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator\texttt{"|}()}{operator|()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpBitwiseOr}{Op\+Bitwise\+Or}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\vert$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{d4/dca/group__escalar_gadc4bc2eaed30b8d8661741f6ece0de03_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gadede5cc3683f39a01170f32e3f759c8e}\label{group__escalar_gadede5cc3683f39a01170f32e3f759c8e}} 
+\index{Ensemble scalar@{Ensemble scalar}!operator\texttt{"|}\texttt{"|}@{operator\texttt{"|}\texttt{"|}}}
+\index{operator\texttt{"|}\texttt{"|}@{operator\texttt{"|}\texttt{"|}}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{operator\texttt{"|}\texttt{"|}()}{operator||()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1OpOr}{Op\+Or}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::operator$\vert$$\vert$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{d4/dca/group__escalar_gadede5cc3683f39a01170f32e3f759c8e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaf54c1015e882e21da36323ae571504dc}\label{group__escalar_gaf54c1015e882e21da36323ae571504dc}} 
+\index{Ensemble scalar@{Ensemble scalar}!outerProduct@{outerProduct}}
+\index{outerProduct@{outerProduct}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{outerProduct()}{outerProduct()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnOuterProduct}{Fn\+Outer\+Product}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::outer\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = outer\+Product(\+E\+Scalar, E\+Scalar) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gaf54c1015e882e21da36323ae571504dc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{d4/dca/group__escalar_gaf54c1015e882e21da36323ae571504dc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga8fd0207eefa0fd0836dc3f2dffef209e}\label{group__escalar_ga8fd0207eefa0fd0836dc3f2dffef209e}} 
+\index{Ensemble scalar@{Ensemble scalar}!peekEnsem@{peekEnsem}}
+\index{peekEnsem@{peekEnsem}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{peekEnsem()}{peekEnsem()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekEnsem}{Fn\+Peek\+Ensem}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Ensem (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{int}]{nbin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{d4/dca/group__escalar_ga8fd0207eefa0fd0836dc3f2dffef209e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga7b3199ffdfb57391566d3db05e9b38c1}\label{group__escalar_ga7b3199ffdfb57391566d3db05e9b38c1}} 
+\index{Ensemble scalar@{Ensemble scalar}!peekObs@{peekObs}}
+\index{peekObs@{peekObs}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{peekObs()}{peekObs()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekObsVector}{Fn\+Peek\+Obs\+Vector}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Obs (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_ga7b3199ffdfb57391566d3db05e9b38c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{d4/dca/group__escalar_ga7b3199ffdfb57391566d3db05e9b38c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga5715083f9573c91b9d4567559f4b2b30}\label{group__escalar_ga5715083f9573c91b9d4567559f4b2b30}} 
+\index{Ensemble scalar@{Ensemble scalar}!peekObs@{peekObs}}
+\index{peekObs@{peekObs}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{peekObs()}{peekObs()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekObsTensor}{Fn\+Peek\+Obs\+Tensor}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Obs (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{nn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga5715083f9573c91b9d4567559f4b2b30_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaa833c21339250a427d537f2c3431f9e2}\label{group__escalar_gaa833c21339250a427d537f2c3431f9e2}} 
+\index{Ensemble scalar@{Ensemble scalar}!peekSpin@{peekSpin}}
+\index{peekSpin@{peekSpin}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{peekSpin()}{peekSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinVector}{Fn\+Peek\+Spin\+Vector}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_gaa833c21339250a427d537f2c3431f9e2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gaa833c21339250a427d537f2c3431f9e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gadd6441efc37438418dda6c0e5a501f10}\label{group__escalar_gadd6441efc37438418dda6c0e5a501f10}} 
+\index{Ensemble scalar@{Ensemble scalar}!peekSpin@{peekSpin}}
+\index{peekSpin@{peekSpin}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{peekSpin()}{peekSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnPeekSpinMatrix}{Fn\+Peek\+Spin\+Matrix}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::peek\+Spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gadd6441efc37438418dda6c0e5a501f10_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga9528137f2a0461bf8dc2e6825f00464f}\label{group__escalar_ga9528137f2a0461bf8dc2e6825f00464f}} 
+\index{Ensemble scalar@{Ensemble scalar}!pokeEnsem@{pokeEnsem}}
+\index{pokeEnsem@{pokeEnsem}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pokeEnsem()}{pokeEnsem()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& E\+N\+S\+E\+M\+::poke\+Ensem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{nbin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert components. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{d4/dca/group__escalar_ga9528137f2a0461bf8dc2e6825f00464f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{d4/dca/group__escalar_ga9528137f2a0461bf8dc2e6825f00464f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga635de79045bc1565a78ea94b9ff967fb}\label{group__escalar_ga635de79045bc1565a78ea94b9ff967fb}} 
+\index{Ensemble scalar@{Ensemble scalar}!pokeObs@{pokeObs}}
+\index{pokeObs@{pokeObs}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pokeObs()}{pokeObs()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& E\+N\+S\+E\+M\+::poke\+Obs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert components. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_ga635de79045bc1565a78ea94b9ff967fb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{d4/dca/group__escalar_ga635de79045bc1565a78ea94b9ff967fb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gad25640d827b75330c6d3f288290866fd}\label{group__escalar_gad25640d827b75330c6d3f288290866fd}} 
+\index{Ensemble scalar@{Ensemble scalar}!pokeObs@{pokeObs}}
+\index{pokeObs@{pokeObs}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pokeObs()}{pokeObs()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& E\+N\+S\+E\+M\+::poke\+Obs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{nn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gad25640d827b75330c6d3f288290866fd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gae8b2f2d3c5fedfb458392f11d78f2c88}\label{group__escalar_gae8b2f2d3c5fedfb458392f11d78f2c88}} 
+\index{Ensemble scalar@{Ensemble scalar}!pokeSpin@{pokeSpin}}
+\index{pokeSpin@{pokeSpin}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pokeSpin()}{pokeSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& E\+N\+S\+E\+M\+::poke\+Spin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{row }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert spin vector components. 
+
+Generically, this is an identity operation. Defined differently under spin Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d4/dca/group__escalar_gae8b2f2d3c5fedfb458392f11d78f2c88_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d4/dca/group__escalar_gae8b2f2d3c5fedfb458392f11d78f2c88_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga7f41ec60f3cfb7ed2f965af5b8a81132}\label{group__escalar_ga7f41ec60f3cfb7ed2f965af5b8a81132}} 
+\index{Ensemble scalar@{Ensemble scalar}!pokeSpin@{pokeSpin}}
+\index{pokeSpin@{pokeSpin}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pokeSpin()}{pokeSpin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \& E\+N\+S\+E\+M\+::poke\+Spin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{r,  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert spin matrix components. 
+
+Generically, this is an identity operation. Defined differently under spin Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga7f41ec60f3cfb7ed2f965af5b8a81132_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaa3f8d5129f1ded089d42af89bd94827d}\label{group__escalar_gaa3f8d5129f1ded089d42af89bd94827d}} 
+\index{Ensemble scalar@{Ensemble scalar}!pow@{pow}}
+\index{pow@{pow}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pow()}{pow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1BinaryReturn}{Binary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{structENSEM_1_1FnPow}{Fn\+Pow}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::pow (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = pow(\+E\+Scalar, E\+Scalar) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_gaa3f8d5129f1ded089d42af89bd94827d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gaa3f8d5129f1ded089d42af89bd94827d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaba7571beee718548316367ab8d623e70}\label{group__escalar_gaba7571beee718548316367ab8d623e70}} 
+\index{Ensemble scalar@{Ensemble scalar}!pow@{pow}}
+\index{pow@{pow}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{pow()}{pow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ E\+N\+S\+E\+M\+::pow (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{int}]{s2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = pow(\+E\+Scalar, int) 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_gaba7571beee718548316367ab8d623e70_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga5631206e233cf75b5fb2ff13ee8b77ac}\label{group__escalar_ga5631206e233cf75b5fb2ff13ee8b77ac}} 
+\index{Ensemble scalar@{Ensemble scalar}!read@{read}}
+\index{read@{read}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+X\+ML input. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{d4/dca/group__escalar_ga5631206e233cf75b5fb2ff13ee8b77ac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{d4/dca/group__escalar_ga5631206e233cf75b5fb2ff13ee8b77ac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gae1f319d978abc1631bd68382787544aa}\label{group__escalar_gae1f319d978abc1631bd68382787544aa}} 
+\index{Ensemble scalar@{Ensemble scalar}!real@{real}}
+\index{real@{real}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{real()}{real()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnReal}{Fn\+Real}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{d4/dca/group__escalar_gae1f319d978abc1631bd68382787544aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gae1f319d978abc1631bd68382787544aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga49ac1b22b18f5dd54cdf91fbf9a4e3b2}\label{group__escalar_ga49ac1b22b18f5dd54cdf91fbf9a4e3b2}} 
+\index{Ensemble scalar@{Ensemble scalar}!recast\_rep@{recast\_rep}}
+\index{recast\_rep@{recast\_rep}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{recast\_rep()}{recast\_rep()}}
+{\footnotesize\ttfamily template$<$class T , class T1 $>$ \\
+void E\+N\+S\+E\+M\+::recast\+\_\+rep (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest \mbox{[}float type\mbox{]} = source \mbox{[}int type\mbox{]} 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga49ac1b22b18f5dd54cdf91fbf9a4e3b2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga7e479d7cf5ca7620a11e78b407b2e9c3}\label{group__escalar_ga7e479d7cf5ca7620a11e78b407b2e9c3}} 
+\index{Ensemble scalar@{Ensemble scalar}!seedToFloat@{seedToFloat}}
+\index{seedToFloat@{seedToFloat}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{seedToFloat()}{seedToFloat()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnSeedToFloat}{Fn\+Seed\+To\+Float}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::seed\+To\+Float (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest \mbox{[}float type\mbox{]} = source \mbox{[}seed type\mbox{]} 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{d4/dca/group__escalar_ga7e479d7cf5ca7620a11e78b407b2e9c3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga7e479d7cf5ca7620a11e78b407b2e9c3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaeaac3a9b82b6d6c8f0ec25efb3242cfe}\label{group__escalar_gaeaac3a9b82b6d6c8f0ec25efb3242cfe}} 
+\index{Ensemble scalar@{Ensemble scalar}!shift@{shift}}
+\index{shift@{shift}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{shift()}{shift()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnShift}{Fn\+Shift}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::shift (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1,  }\item[{int}]{sh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_gaeaac3a9b82b6d6c8f0ec25efb3242cfe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{d4/dca/group__escalar_gaeaac3a9b82b6d6c8f0ec25efb3242cfe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga373122acba11edfbe0eff82093788afe}\label{group__escalar_ga373122acba11edfbe0eff82093788afe}} 
+\index{Ensemble scalar@{Ensemble scalar}!sin@{sin}}
+\index{sin@{sin}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{sin()}{sin()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnSin}{Fn\+Sin}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::sin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{d4/dca/group__escalar_ga373122acba11edfbe0eff82093788afe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga373122acba11edfbe0eff82093788afe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga4e0889a609d84d3ddac113e68bfccfa4}\label{group__escalar_ga4e0889a609d84d3ddac113e68bfccfa4}} 
+\index{Ensemble scalar@{Ensemble scalar}!sqrt@{sqrt}}
+\index{sqrt@{sqrt}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{sqrt()}{sqrt()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnSqrt}{Fn\+Sqrt}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::sqrt (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{d4/dca/group__escalar_ga4e0889a609d84d3ddac113e68bfccfa4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_ga4e0889a609d84d3ddac113e68bfccfa4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gae544517401e03767c9194bfe3736df37}\label{group__escalar_gae544517401e03767c9194bfe3736df37}} 
+\index{Ensemble scalar@{Ensemble scalar}!sum@{sum}}
+\index{sum@{sum}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnSum}{Fn\+Sum}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::sum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d4/dca/group__escalar_gae544517401e03767c9194bfe3736df37_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gae544517401e03767c9194bfe3736df37_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga560632c018611046a7009dc56681b77d}\label{group__escalar_ga560632c018611046a7009dc56681b77d}} 
+\index{Ensemble scalar@{Ensemble scalar}!tan@{tan}}
+\index{tan@{tan}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{tan()}{tan()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTan}{Fn\+Tan}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::tan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{d4/dca/group__escalar_ga560632c018611046a7009dc56681b77d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{d4/dca/group__escalar_ga560632c018611046a7009dc56681b77d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gab216ba6f292c204a04e5ff6cd34c32c3}\label{group__escalar_gab216ba6f292c204a04e5ff6cd34c32c3}} 
+\index{Ensemble scalar@{Ensemble scalar}!timesI@{timesI}}
+\index{timesI@{timesI}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{timesI()}{timesI()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesI}{Fn\+TimesI}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::timesI (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = i $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{d4/dca/group__escalar_gab216ba6f292c204a04e5ff6cd34c32c3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{d4/dca/group__escalar_gab216ba6f292c204a04e5ff6cd34c32c3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaf2675acd80a7a861cff22098e403837a}\label{group__escalar_gaf2675acd80a7a861cff22098e403837a}} 
+\index{Ensemble scalar@{Ensemble scalar}!timesMinusI@{timesMinusI}}
+\index{timesMinusI@{timesMinusI}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{timesMinusI()}{timesMinusI()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$, \mbox{\hyperlink{structENSEM_1_1FnTimesMinusI}{Fn\+Times\+MinusI}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::times\+MinusI (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}} = -\/i $\ast$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{d4/dca/group__escalar_gaf2675acd80a7a861cff22098e403837a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{d4/dca/group__escalar_gaf2675acd80a7a861cff22098e403837a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga67754bbbfd7795820548f6c6bb9c6b19}\label{group__escalar_ga67754bbbfd7795820548f6c6bb9c6b19}} 
+\index{Ensemble scalar@{Ensemble scalar}!toBool@{toBool}}
+\index{toBool@{toBool}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{toBool()}{toBool()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool E\+N\+S\+E\+M\+::to\+Bool (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Boolean to bool primitive in conversion routine. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{d4/dca/group__escalar_ga67754bbbfd7795820548f6c6bb9c6b19_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{d4/dca/group__escalar_ga67754bbbfd7795820548f6c6bb9c6b19_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga981890bacedbaccd67983030f792d927}\label{group__escalar_ga981890bacedbaccd67983030f792d927}} 
+\index{Ensemble scalar@{Ensemble scalar}!toDouble@{toDouble}}
+\index{toDouble@{toDouble}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{toDouble()}{toDouble()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+double E\+N\+S\+E\+M\+::to\+Double (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Double to double primitive in conversion routine. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{d4/dca/group__escalar_ga981890bacedbaccd67983030f792d927_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{d4/dca/group__escalar_ga981890bacedbaccd67983030f792d927_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gaf21f130175f8bc3a98a90272dc196b2c}\label{group__escalar_gaf21f130175f8bc3a98a90272dc196b2c}} 
+\index{Ensemble scalar@{Ensemble scalar}!toFloat@{toFloat}}
+\index{toFloat@{toFloat}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{toFloat()}{toFloat()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+float E\+N\+S\+E\+M\+::to\+Float (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Real to float primitive in conversion routine. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{d4/dca/group__escalar_gaf21f130175f8bc3a98a90272dc196b2c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dca/group__escalar_gaf21f130175f8bc3a98a90272dc196b2c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga332b1b685c28f8bdbf099f3e32016ad2}\label{group__escalar_ga332b1b685c28f8bdbf099f3e32016ad2}} 
+\index{Ensemble scalar@{Ensemble scalar}!toInt@{toInt}}
+\index{toInt@{toInt}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{toInt()}{toInt()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int E\+N\+S\+E\+M\+::to\+Int (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} Int to int primitive in conversion routine. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{d4/dca/group__escalar_ga332b1b685c28f8bdbf099f3e32016ad2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{d4/dca/group__escalar_ga332b1b685c28f8bdbf099f3e32016ad2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga4c3bf5ecccbf7b690868af26ec7d8ca6}\label{group__escalar_ga4c3bf5ecccbf7b690868af26ec7d8ca6}} 
+\index{Ensemble scalar@{Ensemble scalar}!trace@{trace}}
+\index{trace@{trace}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{trace()}{trace()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTrace}{Fn\+Trace}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{d4/dca/group__escalar_ga4c3bf5ecccbf7b690868af26ec7d8ca6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{d4/dca/group__escalar_ga4c3bf5ecccbf7b690868af26ec7d8ca6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gad2c4bd25b83ec8aa100ff58b6b773d8c}\label{group__escalar_gad2c4bd25b83ec8aa100ff58b6b773d8c}} 
+\index{Ensemble scalar@{Ensemble scalar}!trace\_imag@{trace\_imag}}
+\index{trace\_imag@{trace\_imag}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{trace\_imag()}{trace\_imag()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnImagTrace}{Fn\+Imag\+Trace}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+\_\+imag (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{d4/dca/group__escalar_gad2c4bd25b83ec8aa100ff58b6b773d8c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{d4/dca/group__escalar_gad2c4bd25b83ec8aa100ff58b6b773d8c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gac6853fb7b9f9b61b97cda696c804ab0a}\label{group__escalar_gac6853fb7b9f9b61b97cda696c804ab0a}} 
+\index{Ensemble scalar@{Ensemble scalar}!trace\_real@{trace\_real}}
+\index{trace\_real@{trace\_real}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{trace\_real()}{trace\_real()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnRealTrace}{Fn\+Real\+Trace}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::trace\+\_\+real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{d4/dca/group__escalar_gac6853fb7b9f9b61b97cda696c804ab0a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{d4/dca/group__escalar_gac6853fb7b9f9b61b97cda696c804ab0a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga5b02d7d8a00b851a2452fb03861a9401}\label{group__escalar_ga5b02d7d8a00b851a2452fb03861a9401}} 
+\index{Ensemble scalar@{Ensemble scalar}!transpose@{transpose}}
+\index{transpose@{transpose}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{transpose()}{transpose()}}
+{\footnotesize\ttfamily template$<$class T1 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1UnaryReturn}{Unary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{structENSEM_1_1FnTranspose}{Fn\+Transpose}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::transpose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d4/dca/group__escalar_ga5b02d7d8a00b851a2452fb03861a9401_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{d4/dca/group__escalar_ga5b02d7d8a00b851a2452fb03861a9401_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_ga1b68bb6fff59089642921a334fde6ef5}\label{group__escalar_ga1b68bb6fff59089642921a334fde6ef5}} 
+\index{Ensemble scalar@{Ensemble scalar}!where@{where}}
+\index{where@{where}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{where()}{where()}}
+{\footnotesize\ttfamily template$<$class T1 , class T2 , class T3 $>$ \\
+\mbox{\hyperlink{structENSEM_1_1TrinaryReturn}{Trinary\+Return}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T3 $>$, \mbox{\hyperlink{structENSEM_1_1FnWhere}{Fn\+Where}} $>$\+::Type\+\_\+t E\+N\+S\+E\+M\+::where (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T1 $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T2 $>$ \&}]{b,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T3 $>$ \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{group__escalar_ga2e7afe18081ed96c569177362d6bb43d}\label{group__escalar_ga2e7afe18081ed96c569177362d6bb43d}} 
+\index{Ensemble scalar@{Ensemble scalar}!write@{write}}
+\index{write@{write}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Writer}} \&}]{xml,  }\item[{const std\+::string \&}]{s,  }\item[{const \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+X\+ML output. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{d4/dca/group__escalar_ga2e7afe18081ed96c569177362d6bb43d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{d4/dca/group__escalar_ga2e7afe18081ed96c569177362d6bb43d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__escalar_gacea96299b1b52d3a75cdb109c3b03b05}\label{group__escalar_gacea96299b1b52d3a75cdb109c3b03b05}} 
+\index{Ensemble scalar@{Ensemble scalar}!zero\_rep@{zero\_rep}}
+\index{zero\_rep@{zero\_rep}!Ensemble scalar@{Ensemble scalar}}
+\subsubsection{\texorpdfstring{zero\_rep()}{zero\_rep()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void E\+N\+S\+E\+M\+::zero\+\_\+rep (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dest = 0 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{d4/dca/group__escalar_gacea96299b1b52d3a75cdb109c3b03b05_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d4/dca/group__escalar_gacea96299b1b52d3a75cdb109c3b03b05_icgraph}
+\end{center}
+\end{figure}

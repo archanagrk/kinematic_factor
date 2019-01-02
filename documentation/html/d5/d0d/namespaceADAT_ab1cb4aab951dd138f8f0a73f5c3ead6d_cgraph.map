@@ -1,0 +1,8 @@
+<map id="ADAT::read" name="ADAT::read">
+<area shape="rect" id="node1" title="Read a MapObject via xml." alt="" coords="5,75,94,100"/>
+<area shape="rect" id="node2" href="$db/d3f/classADATXML_1_1XMLReader.html#a59584913f1338d956de60adef16a0718" title="Count the number of occurances from the xpath query." alt="" coords="144,5,306,44"/>
+<area shape="rect" id="node3" href="$db/d3f/classADATXML_1_1XMLReader.html#a0e5f84d85bb03e1ba3c01a20b1642a36" title="Closes the last file opened." alt="" coords="144,68,306,107"/>
+<area shape="rect" id="node6" href="$da/d29/classADAT_1_1MapObject.html#a5389738841dca1228aefe6935c464a78" title="Insert." alt="" coords="142,131,308,156"/>
+<area shape="rect" id="node4" href="$db/d3f/classADATXML_1_1XMLReader.html#ae9e467fca3d4bf34351dc00e9797a06f" title="Queries whether the binary file is open." alt="" coords="378,37,540,76"/>
+<area shape="rect" id="node5" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#acd03bd5e585de0a5077544314cd8fb9a" title=" " alt="" coords="356,100,561,139"/>
+</map>

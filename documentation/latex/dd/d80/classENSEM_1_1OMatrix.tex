@@ -1,0 +1,832 @@
+\hypertarget{classENSEM_1_1OMatrix}{}\section{E\+N\+S\+EM\+:\+:O\+Matrix$<$ T $>$ Class Template Reference}
+\label{classENSEM_1_1OMatrix}\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+
+
+Observable Matrix class.  
+
+
+
+
+{\ttfamily \#include $<$ensem\+\_\+forward.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix_a65e880b856888dfd55e3f96b87afa0e7}{O\+Matrix}} ()
+\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix_a776f568bf59002385426232cba0c0d57}{$\sim$\+O\+Matrix}} ()
+\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31}{assign}} (const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = zero. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f}{assign}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc}{assign}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2}{operator$\ast$=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e}{operator/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52}{O\+Matrix}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \&a)
+\begin{DoxyCompactList}\small\item\em Deep copy constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87}{check\+Size}} (const char $\ast$s) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca}{check\+Size}} (const char $\ast$s, int n1) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571}{check\+Resize}} (const char $\ast$s, int n1)
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b}{check\+Resize}} (const char $\ast$s, int n1, int n2)
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df}{check\+Resize}} (const char $\ast$s, int n1, int n2, int n3)
+\item 
+int \mbox{\hyperlink{classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47}{size}} () const
+\begin{DoxyCompactList}\small\item\em Number of configurations. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397}{size1}} () const
+\begin{DoxyCompactList}\small\item\em Size of observable bits. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be}{resize}} (int n)
+\begin{DoxyCompactList}\small\item\em Resize the number of configs. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399}{elem}} (int i, int j)
+\item 
+const T \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a27e0c9e142522126542006530bd7007b}{elem}} (int i, int j) const
+\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix_a65e880b856888dfd55e3f96b87afa0e7}{O\+Matrix}} ()
+\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix_a776f568bf59002385426232cba0c0d57}{$\sim$\+O\+Matrix}} ()
+\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31}{assign}} (const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = zero. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f}{assign}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc}{assign}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2}{operator$\ast$=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e}{operator/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52}{O\+Matrix}} (const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} \&a)
+\begin{DoxyCompactList}\small\item\em Deep copy constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87}{check\+Size}} (const char $\ast$s) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca}{check\+Size}} (const char $\ast$s, int n1) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571}{check\+Resize}} (const char $\ast$s, int n1)
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b}{check\+Resize}} (const char $\ast$s, int n1, int n2)
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df}{check\+Resize}} (const char $\ast$s, int n1, int n2, int n3)
+\item 
+int \mbox{\hyperlink{classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47}{size}} () const
+\begin{DoxyCompactList}\small\item\em Number of configurations. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397}{size1}} () const
+\begin{DoxyCompactList}\small\item\em Size of observable bits. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be}{resize}} (int n)
+\begin{DoxyCompactList}\small\item\em Resize the number of configs. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399}{elem}} (int i, int j)
+\item 
+const T \& \mbox{\hyperlink{classENSEM_1_1OMatrix_a27e0c9e142522126542006530bd7007b}{elem}} (int i, int j) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class E\+N\+S\+E\+M\+::\+O\+Matrix$<$ T $>$}
+
+Observable Matrix class. 
+
+All Matrix classes inherit this class N\+O\+TE\+: For efficiency, there can be no virtual methods, so the data portion is a part of the generic class, hence it is called a domain and not a category 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a65e880b856888dfd55e3f96b87afa0e7}\label{classENSEM_1_1OMatrix_a65e880b856888dfd55e3f96b87afa0e7}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!OMatrix@{OMatrix}}
+\index{OMatrix@{OMatrix}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{OMatrix()}{OMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a776f568bf59002385426232cba0c0d57}\label{classENSEM_1_1OMatrix_a776f568bf59002385426232cba0c0d57}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!````~OMatrix@{$\sim$OMatrix}}
+\index{````~OMatrix@{$\sim$OMatrix}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$OMatrix()}{~OMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52}\label{classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!OMatrix@{OMatrix}}
+\index{OMatrix@{OMatrix}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{OMatrix()}{OMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deep copy constructor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a65e880b856888dfd55e3f96b87afa0e7}\label{classENSEM_1_1OMatrix_a65e880b856888dfd55e3f96b87afa0e7}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!OMatrix@{OMatrix}}
+\index{OMatrix@{OMatrix}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{OMatrix()}{OMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a776f568bf59002385426232cba0c0d57}\label{classENSEM_1_1OMatrix_a776f568bf59002385426232cba0c0d57}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!````~OMatrix@{$\sim$OMatrix}}
+\index{````~OMatrix@{$\sim$OMatrix}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$OMatrix()}{~OMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52}\label{classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!OMatrix@{OMatrix}}
+\index{OMatrix@{OMatrix}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{OMatrix()}{OMatrix()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deep copy constructor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a695677059e35f7e9933f2b55d2eacb52_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31}\label{classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{assign()}{assign()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = zero. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31}\label{classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{assign()}{assign()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = zero. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a9b8826edfb36e1bc701a7778424cfe31_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f}\label{classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{assign()}{assign()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Fill with primitive scalar Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f}\label{classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{assign()}{assign()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Fill with primitive scalar Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_af0aaac940f907eb3db104e9f57b90a4f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc}\label{classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{assign()}{assign()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. 
+
+Set equal to another \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc}\label{classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{assign()}{assign()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} = \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. 
+
+Set equal to another \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a37ed216c9ecfe42f7a357573699b3bfc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571}\label{classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571}\label{classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a04fb9c7a5ca8da8a54aff3a8bafec571_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b}\label{classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1,  }\item[{int}]{n2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b}\label{classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1,  }\item[{int}]{n2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_aa9d9ff7da2027f85535b36b472ef125b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df}\label{classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1,  }\item[{int}]{n2,  }\item[{int}]{n3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df}\label{classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1,  }\item[{int}]{n2,  }\item[{int}]{n3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a532d2138ecffc7a153b831401ca8b4df_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87}\label{classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87}\label{classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_abec80929ab7e8e2a23822fbbc841bd87_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca}\label{classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca}\label{classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{n1 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a8e4c3a86b8055f6e67c8fd914b2898ca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399}\label{classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399}\label{classENSEM_1_1OMatrix_a0a15388ff6dc8159664f6dc14a35b399}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a27e0c9e142522126542006530bd7007b}\label{classENSEM_1_1OMatrix_a27e0c9e142522126542006530bd7007b}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a27e0c9e142522126542006530bd7007b}\label{classENSEM_1_1OMatrix_a27e0c9e142522126542006530bd7007b}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2}\label{classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2}\label{classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a40e18b83c9eb609f7529e65c515010c2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a}\label{classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a}\label{classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a221eb5f9e17402ad93c829fcaf2ac60a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019}\label{classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019}\label{classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_ab488697fd72f3891fede3d00f8deb019_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f}\label{classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f}\label{classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a4c9bcdd861f4439d1b165ec5285cf55f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c}\label{classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c}\label{classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a53a1a690a2f39f0c64c6d261efc00e4c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e}\label{classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e}\label{classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}}\& \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OMatrix}{O\+Matrix}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a46dc90e0e33442dcdcb9e98f9cf0025e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be}\label{classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resize the number of configs. 
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be}\label{classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resize the number of configs. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_abb999e63b84b6d958e43443dc04e46be_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47}\label{classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!size@{size}}
+\index{size@{size}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Number of configurations. 
+
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47}\label{classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!size@{size}}
+\index{size@{size}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Number of configurations. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d80/classENSEM_1_1OMatrix_a837821b951450cd49d3db25f566f5e47_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397}\label{classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!size1@{size1}}
+\index{size1@{size1}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{size1()}{size1()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::size1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of observable bits. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{dd/d80/classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397}\label{classENSEM_1_1OMatrix_a850b4d2a93be69f82df4a2d0165bc397}} 
+\index{ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}!size1@{size1}}
+\index{size1@{size1}!ENSEM::OMatrix$<$ T $>$@{ENSEM::OMatrix$<$ T $>$}}
+\subsubsection{\texorpdfstring{size1()}{size1()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OMatrix}{E\+N\+S\+E\+M\+::\+O\+Matrix}}$<$ T $>$\+::size1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of observable bits. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/ensem/\mbox{\hyperlink{lib_2ensem_2ensem__forward_8h}{ensem\+\_\+forward.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/ensem/\mbox{\hyperlink{lib_2ensem_2ensem__obsmatrix_8h}{ensem\+\_\+obsmatrix.\+h}}\end{DoxyCompactItemize}

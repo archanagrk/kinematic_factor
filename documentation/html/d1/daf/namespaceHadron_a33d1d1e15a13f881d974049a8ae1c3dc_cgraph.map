@@ -1,0 +1,5 @@
+<map id="Hadron::getIrrep" name="Hadron::getIrrep">
+<area shape="rect" id="node1" title="Get irrep name from operator name." alt="" coords="5,31,124,56"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a877ae1e797f5cf4d4ebb7e22d5bbe69b" title="Remove helicity from an irrep name." alt="" coords="172,5,332,31"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a0451202d2f27c90c438c0d23da609c62" title="Get dimension of irrep." alt="" coords="181,55,323,80"/>
+</map>

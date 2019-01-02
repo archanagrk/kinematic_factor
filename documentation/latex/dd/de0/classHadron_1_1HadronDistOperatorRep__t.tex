@@ -1,0 +1,474 @@
+\hypertarget{classHadron_1_1HadronDistOperatorRep__t}{}\section{Hadron\+:\+:Hadron\+Dist\+Operator\+Rep\+\_\+t Class Reference}
+\label{classHadron_1_1HadronDistOperatorRep__t}\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+
+
+Distillution and spin matrix element.  
+
+
+
+
+{\ttfamily \#include $<$hadron\+\_\+dist\+\_\+obj.\+h$>$}
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Type of data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}}
+\item 
+typedef \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}{V}}
+\item 
+typedef std\+::unordered\+\_\+map$<$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}}, \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}{V}}, \mbox{\hyperlink{structADAT_1_1UnorderedMapTraits}{Unordered\+Map\+Traits}}$<$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}} $>$, \mbox{\hyperlink{structADAT_1_1UnorderedMapTraits}{Unordered\+Map\+Traits}}$<$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}} $>$ $>$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a28874b1705be0d32099d426de9fb44c0}{Map\+Type\+\_\+t}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a697bc290991416e1c06d018553c1d9b7}{Hadron\+Dist\+Operator\+Rep\+\_\+t}} ()
+\begin{DoxyCompactList}\small\item\em Default construction only. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a8d4c5288c2e0dd19b4af4127eb26a9cd}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear the representation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_adde38342364887f39b718d5ab981cd1e}{set\+Num\+Dils}} (int left\+\_\+num\+\_\+dils, int right\+\_\+num\+\_\+dils)
+\begin{DoxyCompactList}\small\item\em Set the size of the representation to be 2d. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a3e971d8bbb79f0024b87f54b4db56083}{set\+Num\+Dils}} (int left\+\_\+num\+\_\+dils, int middle\+\_\+num\+\_\+dils, int right\+\_\+num\+\_\+dils)
+\begin{DoxyCompactList}\small\item\em Set the size of the representation to be 3d. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_ae1052d3d087b32a01f02eda6e802d196}{set\+Num\+Dils}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&num\+\_\+dils)
+\begin{DoxyCompactList}\small\item\em Set the size of the representation from an array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a03543084705a6d1349dfd54b79e0aef9}{get\+Left\+Num\+Dils}} () const
+\begin{DoxyCompactList}\small\item\em Get the size of the representation. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_ae196ed58711577cab052c88056654613}{get\+Middle\+Num\+Dils}} () const
+\item 
+int \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_ae7f1a0e6b68e409027be775990dd2970}{get\+Right\+Num\+Dils}} () const
+\item 
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_af1ecef910eda615c9626072adc38e3e8}{get\+Num\+Dils}} () const
+\begin{DoxyCompactList}\small\item\em Get the size of the representation as an array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a19ee3c70f7ac127fbc534b0f69304b37}{get\+Num\+Dims}} () const
+\begin{DoxyCompactList}\small\item\em Get the dimensionality of the representation. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a654e35d182a22243a644b62836a5564d}{spin}} (int spin\+\_\+1, int spin\+\_\+2)
+\begin{DoxyCompactList}\small\item\em Get an element -\/ 2 indices. This will initialize the object. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a6d2afd90c11aaf4fcbac9bd8091f61a2}{spin}} (int spin\+\_\+1, int spin\+\_\+2) const
+\begin{DoxyCompactList}\small\item\em Get an element -\/ 2 indices. This will fail if the object does not exist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a4c133a0da748a0504683cfa5e711eeb6}{exist}} (int spin\+\_\+1, int spin\+\_\+2) const
+\begin{DoxyCompactList}\small\item\em Exists? \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a215985252fdaecbbecab777de4591cd4}{spin}} (int spin\+\_\+1, int spin\+\_\+2, int spin\+\_\+3)
+\begin{DoxyCompactList}\small\item\em Get an element -\/ 3 indices. This will initialize the object. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a436620dfee9ff1c98febcc5ae7b0ff3a}{spin}} (int spin\+\_\+1, int spin\+\_\+2, int spin\+\_\+3) const
+\begin{DoxyCompactList}\small\item\em Get an element -\/ 3 indices. This will fail if the object does not exist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a1ae795fcc4b7bc12cadef8f26884cee3}{exist}} (int spin\+\_\+1, int spin\+\_\+2, int spin\+\_\+3) const
+\begin{DoxyCompactList}\small\item\em Exists? \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a42ba0b0eff80de32178f0cee67dcbfa1}{spin}} (int spin\+\_\+1, int spin\+\_\+2, int spin\+\_\+3, int spin\+\_\+4)
+\begin{DoxyCompactList}\small\item\em Get an element -\/ 4 indices. This will initialize the object. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a61528fe44909a8f4926e21b54681c1e0}{spin}} (int spin\+\_\+1, int spin\+\_\+2, int spin\+\_\+3, int spin\+\_\+4) const
+\begin{DoxyCompactList}\small\item\em Get an element -\/ 4 indices. This will fail if the object does not exist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_affb8fd51f21253d65fcc02b6517fd593}{exist}} (int spin\+\_\+1, int spin\+\_\+2, int spin\+\_\+3, int spin\+\_\+4) const
+\begin{DoxyCompactList}\small\item\em Exists? \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_ad889e6377702e72419f259860142225f}{spin}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&spin\+\_\+indices)
+\begin{DoxyCompactList}\small\item\em Get an element -\/ generic indices. This will initialize the object. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_afdc4b290b39dd14deb08a54cec303f5f}{spin}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&spin\+\_\+indices) const
+\begin{DoxyCompactList}\small\item\em Get an element. This will fail if the object does not exist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_aac19d4174b14052f09070df85c789d43}{exist}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&spin\+\_\+indices) const
+\begin{DoxyCompactList}\small\item\em Exists? \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a800e1844116007d2ca372628f2388ee5}{print}} (std\+::ostream \&os) const
+\begin{DoxyCompactList}\small\item\em Print the operator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a17387b2569f243bf0aecc9c6f4160051}{read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{A\+D\+A\+T\+I\+O\+::\+Binary\+Reader}} \&bin)
+\begin{DoxyCompactList}\small\item\em Binary reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a13c4b6d851e65136c55ccee152e72a12}{write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{A\+D\+A\+T\+I\+O\+::\+Binary\+Writer}} \&bin) const
+\begin{DoxyCompactList}\small\item\em Binary writer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_aa29061d2a7319319dd6ea0a918acd8db}{size}} () const
+\begin{DoxyCompactList}\small\item\em The number of non-\/zero spin entries. \end{DoxyCompactList}\item 
+Map\+Type\+\_\+t\+::const\+\_\+iterator \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a77caca753b9c9b1d433898627e6bd3de}{begin}} () const
+\item 
+Map\+Type\+\_\+t\+::const\+\_\+iterator \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_ae811537842e96e1161375ffe7dd65ca2}{end}} () const
+\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a05856fbd2f2205ddc461685d987713b9}{insert}} (const \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}} \&key, const \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}{V}} \&val)
+\begin{DoxyCompactList}\small\item\em Generic insert. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a5d71057f500ecb252c0d204434d45ccd}{create}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&spin\+\_\+indices)
+\begin{DoxyCompactList}\small\item\em Create and initialize a spin element. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Distillution and spin matrix element. 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}\label{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!K@{K}}
+\index{K@{K}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{K}{K}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::K}}}
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a28874b1705be0d32099d426de9fb44c0}\label{classHadron_1_1HadronDistOperatorRep__t_a28874b1705be0d32099d426de9fb44c0}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!MapType\_t@{MapType\_t}}
+\index{MapType\_t@{MapType\_t}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{MapType\_t}{MapType\_t}}
+{\footnotesize\ttfamily typedef std\+::unordered\+\_\+map$<$\mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}}, \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}{V}}, \mbox{\hyperlink{structADAT_1_1UnorderedMapTraits}{Unordered\+Map\+Traits}}$<$\mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}}$>$, \mbox{\hyperlink{structADAT_1_1UnorderedMapTraits}{Unordered\+Map\+Traits}}$<$\mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}}$>$ $>$ \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a28874b1705be0d32099d426de9fb44c0}{Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Map\+Type\+\_\+t}}}
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}\label{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!V@{V}}
+\index{V@{V}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{V}{V}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Spin\+\_\+t}} \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}{Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::V}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a697bc290991416e1c06d018553c1d9b7}\label{classHadron_1_1HadronDistOperatorRep__t_a697bc290991416e1c06d018553c1d9b7}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!HadronDistOperatorRep\_t@{HadronDistOperatorRep\_t}}
+\index{HadronDistOperatorRep\_t@{HadronDistOperatorRep\_t}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{HadronDistOperatorRep\_t()}{HadronDistOperatorRep\_t()}}
+{\footnotesize\ttfamily Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default construction only. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a77caca753b9c9b1d433898627e6bd3de}\label{classHadron_1_1HadronDistOperatorRep__t_a77caca753b9c9b1d433898627e6bd3de}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!begin@{begin}}
+\index{begin@{begin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Map\+Type\+\_\+t\+::const\+\_\+iterator Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a8d4c5288c2e0dd19b4af4127eb26a9cd}\label{classHadron_1_1HadronDistOperatorRep__t_a8d4c5288c2e0dd19b4af4127eb26a9cd}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!clear@{clear}}
+\index{clear@{clear}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear the representation. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a5d71057f500ecb252c0d204434d45ccd}\label{classHadron_1_1HadronDistOperatorRep__t_a5d71057f500ecb252c0d204434d45ccd}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!create@{create}}
+\index{create@{create}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::create (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{spin\+\_\+indices }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create and initialize a spin element. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_ae811537842e96e1161375ffe7dd65ca2}\label{classHadron_1_1HadronDistOperatorRep__t_ae811537842e96e1161375ffe7dd65ca2}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!end@{end}}
+\index{end@{end}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{end()}{end()}}
+{\footnotesize\ttfamily Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Map\+Type\+\_\+t\+::const\+\_\+iterator Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a4c133a0da748a0504683cfa5e711eeb6}\label{classHadron_1_1HadronDistOperatorRep__t_a4c133a0da748a0504683cfa5e711eeb6}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!exist@{exist}}
+\index{exist@{exist}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{exist()}{exist()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily bool Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::exist (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2 }\end{DoxyParamCaption}) const}
+
+
+
+Exists? 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a1ae795fcc4b7bc12cadef8f26884cee3}\label{classHadron_1_1HadronDistOperatorRep__t_a1ae795fcc4b7bc12cadef8f26884cee3}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!exist@{exist}}
+\index{exist@{exist}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{exist()}{exist()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily bool Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::exist (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2,  }\item[{int}]{spin\+\_\+3 }\end{DoxyParamCaption}) const}
+
+
+
+Exists? 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_affb8fd51f21253d65fcc02b6517fd593}\label{classHadron_1_1HadronDistOperatorRep__t_affb8fd51f21253d65fcc02b6517fd593}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!exist@{exist}}
+\index{exist@{exist}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{exist()}{exist()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily bool Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::exist (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2,  }\item[{int}]{spin\+\_\+3,  }\item[{int}]{spin\+\_\+4 }\end{DoxyParamCaption}) const}
+
+
+
+Exists? 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_aac19d4174b14052f09070df85c789d43}\label{classHadron_1_1HadronDistOperatorRep__t_aac19d4174b14052f09070df85c789d43}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!exist@{exist}}
+\index{exist@{exist}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{exist()}{exist()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily bool Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::exist (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{spin\+\_\+indices }\end{DoxyParamCaption}) const}
+
+
+
+Exists? 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a03543084705a6d1349dfd54b79e0aef9}\label{classHadron_1_1HadronDistOperatorRep__t_a03543084705a6d1349dfd54b79e0aef9}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!getLeftNumDils@{getLeftNumDils}}
+\index{getLeftNumDils@{getLeftNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{getLeftNumDils()}{getLeftNumDils()}}
+{\footnotesize\ttfamily int Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::get\+Left\+Num\+Dils (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the size of the representation. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_ae196ed58711577cab052c88056654613}\label{classHadron_1_1HadronDistOperatorRep__t_ae196ed58711577cab052c88056654613}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!getMiddleNumDils@{getMiddleNumDils}}
+\index{getMiddleNumDils@{getMiddleNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{getMiddleNumDils()}{getMiddleNumDils()}}
+{\footnotesize\ttfamily int Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::get\+Middle\+Num\+Dils (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_af1ecef910eda615c9626072adc38e3e8}\label{classHadron_1_1HadronDistOperatorRep__t_af1ecef910eda615c9626072adc38e3e8}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!getNumDils@{getNumDils}}
+\index{getNumDils@{getNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{getNumDils()}{getNumDils()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::get\+Num\+Dils (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the size of the representation as an array. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a19ee3c70f7ac127fbc534b0f69304b37}\label{classHadron_1_1HadronDistOperatorRep__t_a19ee3c70f7ac127fbc534b0f69304b37}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!getNumDims@{getNumDims}}
+\index{getNumDims@{getNumDims}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{getNumDims()}{getNumDims()}}
+{\footnotesize\ttfamily int Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::get\+Num\+Dims (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the dimensionality of the representation. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a19ee3c70f7ac127fbc534b0f69304b37_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_ae7f1a0e6b68e409027be775990dd2970}\label{classHadron_1_1HadronDistOperatorRep__t_ae7f1a0e6b68e409027be775990dd2970}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!getRightNumDils@{getRightNumDils}}
+\index{getRightNumDils@{getRightNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{getRightNumDils()}{getRightNumDils()}}
+{\footnotesize\ttfamily int Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::get\+Right\+Num\+Dils (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a05856fbd2f2205ddc461685d987713b9}\label{classHadron_1_1HadronDistOperatorRep__t_a05856fbd2f2205ddc461685d987713b9}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!insert@{insert}}
+\index{insert@{insert}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::insert (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a670c7409bfd80616aeb0159590bcdb6b}{K}} \&}]{key,  }\item[{const \mbox{\hyperlink{classHadron_1_1HadronDistOperatorRep__t_a40f37383ae57b1d0bbf944d698a10382}{V}} \&}]{val }\end{DoxyParamCaption})}
+
+
+
+Generic insert. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a05856fbd2f2205ddc461685d987713b9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a800e1844116007d2ca372628f2388ee5}\label{classHadron_1_1HadronDistOperatorRep__t_a800e1844116007d2ca372628f2388ee5}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!print@{print}}
+\index{print@{print}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily std\+::ostream \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption}) const}
+
+
+
+Print the operator. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a800e1844116007d2ca372628f2388ee5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a17387b2569f243bf0aecc9c6f4160051}\label{classHadron_1_1HadronDistOperatorRep__t_a17387b2569f243bf0aecc9c6f4160051}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!read@{read}}
+\index{read@{read}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryReader}{A\+D\+A\+T\+I\+O\+::\+Binary\+Reader}} \&}]{bin }\end{DoxyParamCaption})}
+
+
+
+Binary reader. 
+
+Hadron\+Dist\+Operator\+Rep writer. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a17387b2569f243bf0aecc9c6f4160051_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a17387b2569f243bf0aecc9c6f4160051_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_adde38342364887f39b718d5ab981cd1e}\label{classHadron_1_1HadronDistOperatorRep__t_adde38342364887f39b718d5ab981cd1e}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!setNumDils@{setNumDils}}
+\index{setNumDils@{setNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{setNumDils()}{setNumDils()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::set\+Num\+Dils (\begin{DoxyParamCaption}\item[{int}]{left\+\_\+num\+\_\+dils,  }\item[{int}]{right\+\_\+num\+\_\+dils }\end{DoxyParamCaption})}
+
+
+
+Set the size of the representation to be 2d. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a3e971d8bbb79f0024b87f54b4db56083}\label{classHadron_1_1HadronDistOperatorRep__t_a3e971d8bbb79f0024b87f54b4db56083}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!setNumDils@{setNumDils}}
+\index{setNumDils@{setNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{setNumDils()}{setNumDils()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::set\+Num\+Dils (\begin{DoxyParamCaption}\item[{int}]{left\+\_\+num\+\_\+dils,  }\item[{int}]{middle\+\_\+num\+\_\+dils,  }\item[{int}]{right\+\_\+num\+\_\+dils }\end{DoxyParamCaption})}
+
+
+
+Set the size of the representation to be 3d. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_ae1052d3d087b32a01f02eda6e802d196}\label{classHadron_1_1HadronDistOperatorRep__t_ae1052d3d087b32a01f02eda6e802d196}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!setNumDils@{setNumDils}}
+\index{setNumDils@{setNumDils}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{setNumDils()}{setNumDils()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::set\+Num\+Dils (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{num\+\_\+dils }\end{DoxyParamCaption})}
+
+
+
+Set the size of the representation from an array. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_aa29061d2a7319319dd6ea0a918acd8db}\label{classHadron_1_1HadronDistOperatorRep__t_aa29061d2a7319319dd6ea0a918acd8db}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!size@{size}}
+\index{size@{size}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily int Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The number of non-\/zero spin entries. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a654e35d182a22243a644b62836a5564d}\label{classHadron_1_1HadronDistOperatorRep__t_a654e35d182a22243a644b62836a5564d}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2 }\end{DoxyParamCaption})}
+
+
+
+Get an element -\/ 2 indices. This will initialize the object. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a6d2afd90c11aaf4fcbac9bd8091f61a2}\label{classHadron_1_1HadronDistOperatorRep__t_a6d2afd90c11aaf4fcbac9bd8091f61a2}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2 }\end{DoxyParamCaption}) const}
+
+
+
+Get an element -\/ 2 indices. This will fail if the object does not exist. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a215985252fdaecbbecab777de4591cd4}\label{classHadron_1_1HadronDistOperatorRep__t_a215985252fdaecbbecab777de4591cd4}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2,  }\item[{int}]{spin\+\_\+3 }\end{DoxyParamCaption})}
+
+
+
+Get an element -\/ 3 indices. This will initialize the object. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a436620dfee9ff1c98febcc5ae7b0ff3a}\label{classHadron_1_1HadronDistOperatorRep__t_a436620dfee9ff1c98febcc5ae7b0ff3a}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2,  }\item[{int}]{spin\+\_\+3 }\end{DoxyParamCaption}) const}
+
+
+
+Get an element -\/ 3 indices. This will fail if the object does not exist. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a42ba0b0eff80de32178f0cee67dcbfa1}\label{classHadron_1_1HadronDistOperatorRep__t_a42ba0b0eff80de32178f0cee67dcbfa1}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2,  }\item[{int}]{spin\+\_\+3,  }\item[{int}]{spin\+\_\+4 }\end{DoxyParamCaption})}
+
+
+
+Get an element -\/ 4 indices. This will initialize the object. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a61528fe44909a8f4926e21b54681c1e0}\label{classHadron_1_1HadronDistOperatorRep__t_a61528fe44909a8f4926e21b54681c1e0}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{int}]{spin\+\_\+1,  }\item[{int}]{spin\+\_\+2,  }\item[{int}]{spin\+\_\+3,  }\item[{int}]{spin\+\_\+4 }\end{DoxyParamCaption}) const}
+
+
+
+Get an element -\/ 4 indices. This will fail if the object does not exist. 
+
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_ad889e6377702e72419f259860142225f}\label{classHadron_1_1HadronDistOperatorRep__t_ad889e6377702e72419f259860142225f}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{spin\+\_\+indices }\end{DoxyParamCaption})}
+
+
+
+Get an element -\/ generic indices. This will initialize the object. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_ad889e6377702e72419f259860142225f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_afdc4b290b39dd14deb08a54cec303f5f}\label{classHadron_1_1HadronDistOperatorRep__t_afdc4b290b39dd14deb08a54cec303f5f}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!spin@{spin}}
+\index{spin@{spin}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{spin()}{spin()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t}{Hadron\+Dist\+Operator\+Rep\+\_\+t\+::\+Spin\+\_\+t}} \& Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::spin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{spin\+\_\+indices }\end{DoxyParamCaption}) const}
+
+
+
+Get an element. This will fail if the object does not exist. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_afdc4b290b39dd14deb08a54cec303f5f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHadron_1_1HadronDistOperatorRep__t_a13c4b6d851e65136c55ccee152e72a12}\label{classHadron_1_1HadronDistOperatorRep__t_a13c4b6d851e65136c55ccee152e72a12}} 
+\index{Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}!write@{write}}
+\index{write@{write}!Hadron::HadronDistOperatorRep\_t@{Hadron::HadronDistOperatorRep\_t}}
+\subsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void Hadron\+::\+Hadron\+Dist\+Operator\+Rep\+\_\+t\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{A\+D\+A\+T\+I\+O\+::\+Binary\+Writer}} \&}]{bin }\end{DoxyParamCaption}) const}
+
+
+
+Binary writer. 
+
+Hadron\+Dist\+Operator\+Rep writer. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a13c4b6d851e65136c55ccee152e72a12_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{dd/de0/classHadron_1_1HadronDistOperatorRep__t_a13c4b6d851e65136c55ccee152e72a12_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/do\+\_\+not\+\_\+use/\mbox{\hyperlink{hadron__dist__obj_8h}{hadron\+\_\+dist\+\_\+obj.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/do\+\_\+not\+\_\+use/\mbox{\hyperlink{hadron__dist__obj_8cc}{hadron\+\_\+dist\+\_\+obj.\+cc}}\end{DoxyCompactItemize}

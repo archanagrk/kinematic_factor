@@ -1,0 +1,8 @@
+<map id="ROOT::Math::Minimizer::SetVariables" name="ROOT::Math::Minimizer::SetVariables">
+<area shape="rect" id="node1" title="add variables . Return number of variables succesfully added" alt="" coords="5,120,165,159"/>
+<area shape="rect" id="node2" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#a063e9d83c8a61afc8798ebb1d74b6f2b" title="set fixed variable (override if minimizer supports them )" alt="" coords="221,5,381,44"/>
+<area shape="rect" id="node3" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#a4303530cbb62ceb7cf9c9ebcbde530c2" title="set upper/lower limited variable (override if minimizer supports them )" alt="" coords="437,120,597,159"/>
+<area shape="rect" id="node4" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#a0fed20bdc58d05ce2b92d2bf47594dfb" title="set lower limit variable (override if minimizer supports them )" alt="" coords="213,120,389,159"/>
+<area shape="rect" id="node5" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#a804843fbaea82809b3c54232d0c1fe86" title="set upper limit variable (override if minimizer supports them )" alt="" coords="213,183,389,221"/>
+<area shape="rect" id="node6" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#a8661a2ac86372602f32f97b3d9262421" title="set free variable" alt="" coords="221,245,381,284"/>
+</map>

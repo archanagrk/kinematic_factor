@@ -1,0 +1,1194 @@
+\hypertarget{classENSEM_1_1OTensor}{}\section{E\+N\+S\+EM\+:\+:O\+Tensor$<$ T $>$ Class Template Reference}
+\label{classENSEM_1_1OTensor}\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+
+
+Observable Tensor class.  
+
+
+
+
+{\ttfamily \#include $<$ensem\+\_\+obstensor.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor_a514d20086c92e7b19386708978d34483}{O\+Tensor}} ()
+\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor_a7be6a7cdba7403be29ede1f21ee706f7}{$\sim$\+O\+Tensor}} ()
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546}{O\+Tensor}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em Conversion constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a}{operator=}} (const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = zero. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d}{operator=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904}{operator$\ast$=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb}{operator/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f}{operator=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68}{operator=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477}{operator$\ast$=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c}{operator/=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6}{O\+Tensor}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Deep copy constructor. \end{DoxyCompactList}\item 
+const T $\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor_ac9462508146fa6ceba2797c9994ea54c}{getF}} () const
+\begin{DoxyCompactList}\small\item\em The backdoor. \end{DoxyCompactList}\item 
+T $\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor_acaf63577c9d67fe58f649ae9fac008c1}{getF}} ()
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63}{check\+Size}} (const char $\ast$s) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370}{check\+Size}} (const char $\ast$s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n1) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b}{check\+Resize}} (const char $\ast$s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n1)
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902}{check\+Resize}} (const char $\ast$s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n1, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n2)
+\item 
+bool \mbox{\hyperlink{classENSEM_1_1OTensor_a3f591732bdd0b358cde1069b21fbf1f5}{initP}} () const
+\begin{DoxyCompactList}\small\item\em Has this object been initialized (resized and such) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287}{size}} (int i) const
+\begin{DoxyCompactList}\small\item\em Size of i-\/th array index. Indices run from left to right in operator() \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \& \mbox{\hyperlink{classENSEM_1_1OTensor_aa34f5311f161a9b4aef0b08af6fb8d34}{size}} () const
+\begin{DoxyCompactList}\small\item\em Size of an array containing sizes of each index. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a}{num\+Elem}} () const
+\begin{DoxyCompactList}\small\item\em Total length of array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435}{resize}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&\+\_\+nz)
+\begin{DoxyCompactList}\small\item\em Resize the number of configs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3}{resize}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \&a)
+\item 
+T \& \mbox{\hyperlink{classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind)
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind) const
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classENSEM_1_1OTensor_a18a4095f1e99228c27768fbea8eec05d}{elem}} (int i)
+\item 
+const T \& \mbox{\hyperlink{classENSEM_1_1OTensor_a788f146a247856d6b391cfd8f903657b}{elem}} (int i) const
+\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor_a514d20086c92e7b19386708978d34483}{O\+Tensor}} ()
+\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor_a7be6a7cdba7403be29ede1f21ee706f7}{$\sim$\+O\+Tensor}} ()
+\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546}{O\+Tensor}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em Conversion constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a}{operator=}} (const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = zero. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d}{operator=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904}{operator$\ast$=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb}{operator/=}} (const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f}{operator=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68}{operator=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1}{operator+=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa}{operator-\/=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477}{operator$\ast$=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \& \mbox{\hyperlink{classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c}{operator/=}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&rhs)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6}{O\+Tensor}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Deep copy constructor. \end{DoxyCompactList}\item 
+const T $\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor_ac9462508146fa6ceba2797c9994ea54c}{getF}} () const
+\begin{DoxyCompactList}\small\item\em The backdoor. \end{DoxyCompactList}\item 
+T $\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor_acaf63577c9d67fe58f649ae9fac008c1}{getF}} ()
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63}{check\+Size}} (const char $\ast$s) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370}{check\+Size}} (const char $\ast$s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n1) const
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b}{check\+Resize}} (const char $\ast$s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n1)
+\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902}{check\+Resize}} (const char $\ast$s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n1, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&n2)
+\item 
+bool \mbox{\hyperlink{classENSEM_1_1OTensor_a3f591732bdd0b358cde1069b21fbf1f5}{initP}} () const
+\begin{DoxyCompactList}\small\item\em Has this object been initialized (resized and such) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287}{size}} (int i) const
+\begin{DoxyCompactList}\small\item\em Size of i-\/th array index. Indices run from left to right in operator() \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \& \mbox{\hyperlink{classENSEM_1_1OTensor_aa34f5311f161a9b4aef0b08af6fb8d34}{size}} () const
+\begin{DoxyCompactList}\small\item\em Size of an array containing sizes of each index. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a}{num\+Elem}} () const
+\begin{DoxyCompactList}\small\item\em Total length of array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435}{resize}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&\+\_\+nz)
+\begin{DoxyCompactList}\small\item\em Resize the number of configs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3}{resize}} (const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} \&a)
+\item 
+T \& \mbox{\hyperlink{classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind)
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind) const
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classENSEM_1_1OTensor_a18a4095f1e99228c27768fbea8eec05d}{elem}} (int i)
+\item 
+const T \& \mbox{\hyperlink{classENSEM_1_1OTensor_a788f146a247856d6b391cfd8f903657b}{elem}} (int i) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class E\+N\+S\+E\+M\+::\+O\+Tensor$<$ T $>$}
+
+Observable Tensor class. 
+
+All tensor classes inherit this class 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a514d20086c92e7b19386708978d34483}\label{classENSEM_1_1OTensor_a514d20086c92e7b19386708978d34483}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!OTensor@{OTensor}}
+\index{OTensor@{OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{OTensor()}{OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a7be6a7cdba7403be29ede1f21ee706f7}\label{classENSEM_1_1OTensor_a7be6a7cdba7403be29ede1f21ee706f7}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!````~OTensor@{$\sim$OTensor}}
+\index{````~OTensor@{$\sim$OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$OTensor()}{~OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546}\label{classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!OTensor@{OTensor}}
+\index{OTensor@{OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{OTensor()}{OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Conversion constructor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6}\label{classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!OTensor@{OTensor}}
+\index{OTensor@{OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{OTensor()}{OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deep copy constructor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a514d20086c92e7b19386708978d34483}\label{classENSEM_1_1OTensor_a514d20086c92e7b19386708978d34483}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!OTensor@{OTensor}}
+\index{OTensor@{OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{OTensor()}{OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a7be6a7cdba7403be29ede1f21ee706f7}\label{classENSEM_1_1OTensor_a7be6a7cdba7403be29ede1f21ee706f7}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!````~OTensor@{$\sim$OTensor}}
+\index{````~OTensor@{$\sim$OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$OTensor()}{~OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546}\label{classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!OTensor@{OTensor}}
+\index{OTensor@{OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{OTensor()}{OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Conversion constructor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a49dbc01d4f79e52900b10dd220cdc546_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6}\label{classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!OTensor@{OTensor}}
+\index{OTensor@{OTensor}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{OTensor()}{OTensor()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deep copy constructor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aaf07253b5940da32a50af556d2f2afc6_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b}\label{classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b}\label{classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aa273eae7f1de4b37e91302da5edf279b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902}\label{classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n1,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902}\label{classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkResize@{checkResize}}
+\index{checkResize@{checkResize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkResize()}{checkResize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Resize (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n1,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a0f656f8ef2b19a258a8c86a4e80ea902_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63}\label{classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63}\label{classENSEM_1_1OTensor_a09bfbf9385ec1bbe5050d4df43850f63}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370}\label{classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n1 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370}\label{classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{checkSize()}{checkSize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::check\+Size (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{n1 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_ac59e6465eb9803b05edcdec04f8d2370_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a18a4095f1e99228c27768fbea8eec05d}\label{classENSEM_1_1OTensor_a18a4095f1e99228c27768fbea8eec05d}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a18a4095f1e99228c27768fbea8eec05d}\label{classENSEM_1_1OTensor_a18a4095f1e99228c27768fbea8eec05d}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a788f146a247856d6b391cfd8f903657b}\label{classENSEM_1_1OTensor_a788f146a247856d6b391cfd8f903657b}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a788f146a247856d6b391cfd8f903657b}\label{classENSEM_1_1OTensor_a788f146a247856d6b391cfd8f903657b}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!elem@{elem}}
+\index{elem@{elem}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{elem()}{elem()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::elem (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_ac9462508146fa6ceba2797c9994ea54c}\label{classENSEM_1_1OTensor_ac9462508146fa6ceba2797c9994ea54c}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!getF@{getF}}
+\index{getF@{getF}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{getF()}{getF()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T$\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::getF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The backdoor. 
+
+Used by optimization routines (e.\+g., S\+SE) that need the memory address of data. B\+TW\+: to make this a friend would be a real pain since functions are templatized. \mbox{\Hypertarget{classENSEM_1_1OTensor_ac9462508146fa6ceba2797c9994ea54c}\label{classENSEM_1_1OTensor_ac9462508146fa6ceba2797c9994ea54c}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!getF@{getF}}
+\index{getF@{getF}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{getF()}{getF()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T$\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::getF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The backdoor. 
+
+Used by optimization routines (e.\+g., S\+SE) that need the memory address of data. B\+TW\+: to make this a friend would be a real pain since functions are templatized. \mbox{\Hypertarget{classENSEM_1_1OTensor_acaf63577c9d67fe58f649ae9fac008c1}\label{classENSEM_1_1OTensor_acaf63577c9d67fe58f649ae9fac008c1}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!getF@{getF}}
+\index{getF@{getF}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{getF()}{getF()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T$\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::getF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_acaf63577c9d67fe58f649ae9fac008c1}\label{classENSEM_1_1OTensor_acaf63577c9d67fe58f649ae9fac008c1}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!getF@{getF}}
+\index{getF@{getF}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{getF()}{getF()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T$\ast$ \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::getF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a3f591732bdd0b358cde1069b21fbf1f5}\label{classENSEM_1_1OTensor_a3f591732bdd0b358cde1069b21fbf1f5}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!initP@{initP}}
+\index{initP@{initP}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{initP()}{initP()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+bool \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::initP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Has this object been initialized (resized and such) 
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a3f591732bdd0b358cde1069b21fbf1f5}\label{classENSEM_1_1OTensor_a3f591732bdd0b358cde1069b21fbf1f5}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!initP@{initP}}
+\index{initP@{initP}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{initP()}{initP()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+bool \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::initP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Has this object been initialized (resized and such) 
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a}\label{classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!numElem@{numElem}}
+\index{numElem@{numElem}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{numElem()}{numElem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::num\+Elem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Total length of array. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a}\label{classENSEM_1_1OTensor_a30a241a5b4f16fab55fd70ffee52828a}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!numElem@{numElem}}
+\index{numElem@{numElem}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{numElem()}{numElem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::num\+Elem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Total length of array. 
+
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904}\label{classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904}\label{classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a0326883980545068700bbdd762df5904_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477}\label{classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477}\label{classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} $\ast$= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a6edba72b265fa3629417ad85c9ae1477_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276}\label{classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276}\label{classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a93fe0d4638104ad0f6bdaf5de7760276_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1}\label{classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1}\label{classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} += \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a621ebf0d6d94eb56c1e3b31cb8c933b1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b}\label{classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b}\label{classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a61ebd11eac882623ea080293b007972b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa}\label{classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa}\label{classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} -\/= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a8a087d8889bb41eafd237e270e4182fa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb}\label{classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb}\label{classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a02520659679c7946a5bb0ce75b3824cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c}\label{classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c}\label{classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} /= \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_af8fb32358b6c05989221297a9b33096c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a}\label{classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = zero. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a}\label{classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structENSEM_1_1Zero}{Zero}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = zero. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aae562552ce915d3d39c65dfe463fa50a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d}\label{classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d}\label{classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OScalar}{O\+Scalar}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_ae763ca68be1d6b8d5b27b8d544ab5f2d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f}\label{classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Set equal to another \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f}\label{classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Set equal to another \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a08690a1808269fccd113a9d634c7a73f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68}\label{classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Set equal to another \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68}\label{classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T1 $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} = \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}. 
+
+Set equal to another \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_a96fac7277ac1df849789d53b761e5e68_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6}\label{classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6}\label{classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_adbfded2bb2af9d68e0a040df0d19b2d6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172}\label{classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172}\label{classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_aa649ae52fc364d173eb02db2fbee8172_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435}\label{classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{\+\_\+nz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resize the number of configs. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435}\label{classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{\+\_\+nz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resize the number of configs. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8a/classENSEM_1_1OTensor_abe0bd734d08b1140d7794ec760a89435_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3}\label{classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{da/d8a/classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{da/d8a/classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3}\label{classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classENSEM_1_1OTensor}{O\+Tensor}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{da/d8a/classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{da/d8a/classENSEM_1_1OTensor_aee9b85f3726c01139b9194a3b95809d3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287}\label{classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!size@{size}}
+\index{size@{size}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of i-\/th array index. Indices run from left to right in operator() 
+
+Note, the last/right index is the fastest varying index Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{da/d8a/classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287}\label{classENSEM_1_1OTensor_aeb39779caeadcbcea94d9ef629913287}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!size@{size}}
+\index{size@{size}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of i-\/th array index. Indices run from left to right in operator() 
+
+Note, the last/right index is the fastest varying index \mbox{\Hypertarget{classENSEM_1_1OTensor_aa34f5311f161a9b4aef0b08af6fb8d34}\label{classENSEM_1_1OTensor_aa34f5311f161a9b4aef0b08af6fb8d34}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!size@{size}}
+\index{size@{size}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of an array containing sizes of each index. 
+
+Note, the last/right index is the fastest varying index \mbox{\Hypertarget{classENSEM_1_1OTensor_aa34f5311f161a9b4aef0b08af6fb8d34}\label{classENSEM_1_1OTensor_aa34f5311f161a9b4aef0b08af6fb8d34}} 
+\index{ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}!size@{size}}
+\index{size@{size}!ENSEM::OTensor$<$ T $>$@{ENSEM::OTensor$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$\& \mbox{\hyperlink{classENSEM_1_1OTensor}{E\+N\+S\+E\+M\+::\+O\+Tensor}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of an array containing sizes of each index. 
+
+Note, the last/right index is the fastest varying index 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/ensem/\mbox{\hyperlink{lib_2ensem_2ensem__obstensor_8h}{ensem\+\_\+obstensor.\+h}}\end{DoxyCompactItemize}

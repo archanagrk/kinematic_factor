@@ -1,0 +1,58 @@
+\hypertarget{lib_2hadron_2genprop__elem__type_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/genprop\+\_\+elem\+\_\+type.h File Reference}
+\label{lib_2hadron_2genprop__elem__type_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/genprop\_elem\_type.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/genprop\_elem\_type.h}}
+
+
+Generalized propagator elemental ops.  
+
+
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+Include dependency graph for genprop\+\_\+elem\+\_\+type.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{d6/d1a/lib_2hadron_2genprop__elem__type_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{d2/d8b/lib_2hadron_2genprop__elem__type_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyGenPropElementalOperator__t}{Hadron\+::\+Key\+Gen\+Prop\+Elemental\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Key for prop operator. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1ValGenPropElementalOperator__t}{Hadron\+::\+Val\+Gen\+Prop\+Elemental\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Value for prop operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a6bcf2658e0321428eeedf53a15a894aa}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Used for error output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a9c6649bbe7b32cbc5fcbf8ebbf17d987}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Read a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a67dc2040c75fb33a942bc5a59243c4c3}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ac6d19c651cf61c129b5cf86c15d13ab5}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Gen\+Prop\+Elemental\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_af1d6496318c689e52be27a9f842ccc2d}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Gen\+Prop\+Elemental\+Operator write. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a26908582ef57fc950c0944a69dfcc275}{Hadron\+::read}} (Binary\+Reader \&bin, Val\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Gen\+Prop\+Elemental\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a276bd4448f8f6233aa951856e912651e}{Hadron\+::write}} (Binary\+Writer \&bin, const Val\+Gen\+Prop\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Gen\+Prop\+Elemental\+Operator write. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generalized propagator elemental ops. 
+

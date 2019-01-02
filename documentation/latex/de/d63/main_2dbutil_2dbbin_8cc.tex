@@ -1,0 +1,126 @@
+\hypertarget{main_2dbutil_2dbbin_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat/main/dbutil/dbbin.cc File Reference}
+\label{main_2dbutil_2dbbin_8cc}\index{/Users/archanar/Kinematic\_factor/adat/main/dbutil/dbbin.cc@{/Users/archanar/Kinematic\_factor/adat/main/dbutil/dbbin.cc}}
+
+
+Bin a DB.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}adat/singleton.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/funcmap.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xmlio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/key\+\_\+val\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}All\+Conf\+Store\+D\+B.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}dbtype.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}D\+B\+String.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/hadron\+\_\+1pt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/hadron\+\_\+2pt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/hadron\+\_\+3pt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+npt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/su2\+\_\+corr/hadron\+\_\+npart\+\_\+npt\+\_\+corr.\+h\char`\"{}}\newline
+Include dependency graph for dbbin.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/da0/main_2dbutil_2dbbin_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename K , typename SV $>$ }\\std\+::vector$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \mbox{\hyperlink{main_2dbutil_2dbbin_8cc_ad99136392a8c4064c84803fee6e0c857}{print\+Key\+Value}} (\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$, \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \&database, \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$ \&key)
+\begin{DoxyCompactList}\small\item\em Get a key/value. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename SV $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbbin_8cc_a8dcef9d29a9dfc5045f4ee378e94fca3}{insert\+Key\+Value}} (\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$, \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \&database, \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$ \&key, std\+::vector$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \&vals)
+\begin{DoxyCompactList}\small\item\em Get a key/value. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbbin_8cc_accb30c2dbf14041f0de262e403fdace9}{key\+Handler}} (const string \&dbout\+\_\+name, const string \&dbin\+\_\+name, int nb)
+\begin{DoxyCompactList}\small\item\em Combine the D\+B-\/s. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_2dbutil_2dbbin_8cc_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Bin a DB. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_2dbutil_2dbbin_8cc_a8dcef9d29a9dfc5045f4ee378e94fca3}\label{main_2dbutil_2dbbin_8cc_a8dcef9d29a9dfc5045f4ee378e94fca3}} 
+\index{dbbin.cc@{dbbin.cc}!insertKeyValue@{insertKeyValue}}
+\index{insertKeyValue@{insertKeyValue}!dbbin.cc@{dbbin.cc}}
+\subsubsection{\texorpdfstring{insertKeyValue()}{insertKeyValue()}}
+{\footnotesize\ttfamily template$<$typename K , typename SV $>$ \\
+void insert\+Key\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$, \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \&}]{database,  }\item[{\mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$ \&}]{key,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \&}]{vals }\end{DoxyParamCaption})}
+
+
+
+Get a key/value. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{de/d63/main_2dbutil_2dbbin_8cc_a8dcef9d29a9dfc5045f4ee378e94fca3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{de/d63/main_2dbutil_2dbbin_8cc_a8dcef9d29a9dfc5045f4ee378e94fca3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbbin_8cc_accb30c2dbf14041f0de262e403fdace9}\label{main_2dbutil_2dbbin_8cc_accb30c2dbf14041f0de262e403fdace9}} 
+\index{dbbin.cc@{dbbin.cc}!keyHandler@{keyHandler}}
+\index{keyHandler@{keyHandler}!dbbin.cc@{dbbin.cc}}
+\subsubsection{\texorpdfstring{keyHandler()}{keyHandler()}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void key\+Handler (\begin{DoxyParamCaption}\item[{const string \&}]{dbout\+\_\+name,  }\item[{const string \&}]{dbin\+\_\+name,  }\item[{int}]{nb }\end{DoxyParamCaption})}
+
+
+
+Combine the D\+B-\/s. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d63/main_2dbutil_2dbbin_8cc_accb30c2dbf14041f0de262e403fdace9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbbin_8cc_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_2dbutil_2dbbin_8cc_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{dbbin.cc@{dbbin.cc}!main@{main}}
+\index{main@{main}!dbbin.cc@{dbbin.cc}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d63/main_2dbutil_2dbbin_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbbin_8cc_ad99136392a8c4064c84803fee6e0c857}\label{main_2dbutil_2dbbin_8cc_ad99136392a8c4064c84803fee6e0c857}} 
+\index{dbbin.cc@{dbbin.cc}!printKeyValue@{printKeyValue}}
+\index{printKeyValue@{printKeyValue}!dbbin.cc@{dbbin.cc}}
+\subsubsection{\texorpdfstring{printKeyValue()}{printKeyValue()}}
+{\footnotesize\ttfamily template$<$typename K , typename SV $>$ \\
+std\+::vector$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$SV$>$ $>$ print\+Key\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ \mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$, \mbox{\hyperlink{classADATIO_1_1SerialDBData}{Serial\+D\+B\+Data}}$<$ SV $>$ $>$ \&}]{database,  }\item[{\mbox{\hyperlink{classADATIO_1_1SerialDBKey}{Serial\+D\+B\+Key}}$<$ K $>$ \&}]{key }\end{DoxyParamCaption})}
+
+
+
+Get a key/value. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{de/d63/main_2dbutil_2dbbin_8cc_ad99136392a8c4064c84803fee6e0c857_cgraph}
+\end{center}
+\end{figure}

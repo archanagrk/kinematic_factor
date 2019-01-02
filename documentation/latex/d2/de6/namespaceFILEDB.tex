@@ -1,0 +1,620 @@
+\hypertarget{namespaceFILEDB}{}\section{F\+I\+L\+E\+DB Namespace Reference}
+\label{namespaceFILEDB}\index{FILEDB@{FILEDB}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1AllConfStoreMultipleDB}{All\+Conf\+Store\+Multiple\+DB}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1ConfDataStoreDB}{Conf\+Data\+Store\+DB}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1ConfDataStoreMultipleDB}{Conf\+Data\+Store\+Multiple\+DB}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1DBCursor}{D\+B\+Cursor}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1DBCursorRep}{D\+B\+Cursor\+Rep}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1DBData}{D\+B\+Data}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1DBKey}{D\+B\+Key}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1DBKeyIterator}{D\+B\+Key\+Iterator}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1FileHashDBException}{File\+Hash\+D\+B\+Exception}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1Serializable}{Serializable}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1SerializeException}{Serialize\+Exception}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1StringKey}{String\+Key}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1UserData}{User\+Data}}
+\item 
+class \mbox{\hyperlink{classFILEDB_1_1VFloatData}{V\+Float\+Data}}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef unsigned int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a62446cf48b614494d5708110ddc414bf}{ffdb\+\_\+key\+\_\+hash}}) (const void $\ast$bytes, unsigned int len)
+\item 
+typedef int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a1d3bd589ccfab62ecdd78b46aba576e2}{ffdb\+\_\+key\+\_\+compare}}) (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k1, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k2)
+\item 
+typedef unsigned int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a9e945e165dd500023ad29b4fcb2332b8}{hash\+\_\+func}}) (char $\ast$str, unsigned int len)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{namespaceFILEDB_ac5576dc30e75253b40f2dc1e148abb8b}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&\mbox{\hyperlink{structinfo}{info}})
+\item 
+void \mbox{\hyperlink{namespaceFILEDB_a28e01191edebd63edee882e8c7af9325}{flush\+Database}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh)
+\item 
+bool \mbox{\hyperlink{namespaceFILEDB_ae588550e41a7b104b78a0e81ceb24a46}{file\+Exists}} (const std\+::string \&filename)
+\item 
+std\+::string \mbox{\hyperlink{namespaceFILEDB_a7e76510d94991fb0a4e18acc02214900}{unix\+Directory\+Name}} (const std\+::string \&filename)
+\item 
+void \mbox{\hyperlink{namespaceFILEDB_a208d694e308a85bd3b04277ffe369377}{binary\+All\+Keys}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ std\+::string $>$ \&keys)  throw (\+File\+Hash\+D\+B\+Exception)
+\item 
+void \mbox{\hyperlink{namespaceFILEDB_ac242fd8f47258576482a692de8d1eaf3}{binary\+All\+Pairs}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ std\+::string $>$ \&keys, std\+::vector$<$ std\+::string $>$ \&data)  throw (\+File\+Hash\+D\+B\+Exception)
+\item 
+int \mbox{\hyperlink{namespaceFILEDB_a0de8699301294566d0e11786f4016a2a}{get\+Binary\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const std\+::string \&key, std\+::string \&data)
+\item 
+int \mbox{\hyperlink{namespaceFILEDB_a517749615adc5aa798175fb429115366}{insert\+Binary\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const std\+::string \&key, const std\+::string \&data)
+\item 
+{\footnotesize template$<$typename K $>$ }\\\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ \mbox{\hyperlink{namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72}{open\+Database}} (const std\+::string \&dbase, int open\+\_\+flags, int mode, \mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$\mbox{\hyperlink{structinfo}{info}})
+\item 
+{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a63f788f0f11a571f254ac8cfa8d19132}{insert\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, const D \&data, unsigned int flag=0)  throw (\+Serialize\+Exception)
+\item 
+{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_aeadc0ee930c4a7b2ddae220799008bd6}{insert\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, const std\+::string \&data, unsigned int flag=0)  throw (\+Serialize\+Exception)
+\item 
+{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a0d18d10ad6d490786b6fe538fbd45dc3}{get\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, D \&data)  throw (\+Serialize\+Exception)
+\item 
+{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a7381d9e3dd76dc6eb741797e16c3052c}{get\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, std\+::string \&data)  throw (\+Serialize\+Exception)
+\item 
+{\footnotesize template$<$typename K , typename D $>$ }\\void \mbox{\hyperlink{namespaceFILEDB_a3d87ecce7111516944b8b8e532aad4ea}{all\+Keys}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ K $>$ \&keys)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
+\item 
+{\footnotesize template$<$typename K , typename D $>$ }\\void \mbox{\hyperlink{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}{all\+Pairs}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ K $>$ \&keys, std\+::vector$<$ D $>$ \&data)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
+\item 
+{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a25ba56393bd11f7e104de43478a253de}{is\+Database\+Empty}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
+\item 
+{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a693e2659d01ea18edb88d796d7cbd5de}{key\+Exist}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&arg)  throw (\+Serialize\+Exception)
+\item 
+double \mbox{\hyperlink{namespaceFILEDB_a52d0505cdd535797c05bffb0598ef2a5}{current\+\_\+time}} (void)
+\item 
+void \mbox{\hyperlink{namespaceFILEDB_ad0296230a6c6ba4b757820d4367275a4}{crc32\+\_\+init}} (void)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_aa12ea161a9698d1b53c1026b06f0b0a5}{crc32}} (unsigned int crc, const char $\ast$buf, unsigned int len)
+\item 
+std\+::string \mbox{\hyperlink{namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3}{itostr}} (int val)
+\item 
+unsigned short \mbox{\hyperlink{namespaceFILEDB_af28aef063f95fcb331d3844f6807daf5}{ntoh\+\_\+short}} (unsigned short sval)
+\item 
+unsigned short \mbox{\hyperlink{namespaceFILEDB_acbb57ab648e150c1950a7e6a67a6aa56}{hton\+\_\+short}} (unsigned short sval)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ab34ff6954f1b3a0dc868119d34105579}{ntoh\+\_\+int}} (unsigned int ival)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_adbce406e3e06947d7312a6d461bc5cc5}{hton\+\_\+int}} (unsigned int ival)
+\item 
+unsigned long \mbox{\hyperlink{namespaceFILEDB_af2fbdeeb7148fa47d1050b1ac3130897}{ntoh\+\_\+long}} (unsigned long lval)
+\item 
+unsigned long \mbox{\hyperlink{namespaceFILEDB_af381773a642a4cc9c68ce682cea411a8}{hton\+\_\+long}} (unsigned long lval)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ac69ca4109f796be06f658542b20a3eb1}{R\+S\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a3533131675008d2c3b9b3d1685b2e679}{J\+S\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ab2508d2100ad31133a86ce47aada4241}{P\+J\+W\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ad02d1b620691350d964deb5beab272eb}{E\+L\+F\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a06c984d24be338a8cfa3fcd1296914aa}{B\+K\+D\+R\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a93a0c708c1ad9c299200dbaa873c5531}{S\+D\+B\+M\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a7d5f1ce86b07fb3c5ec314fab9bd5e30}{D\+J\+B\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ab2561866ca3a62230f86ec7860fec260}{D\+E\+K\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a81bebe16f4e0ccc238b04621af6ada41}{B\+P\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ab7ad322a4b472713751d23b4b6495ddf}{F\+N\+V\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a23c71972866e86f222ad440284380f45}{A\+P\+Hash}} (char $\ast$str, unsigned int len)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_a506040cd2b9f1527e415461aac226fb5}{db\+\_\+hash\+\_\+func}} (char $\ast$key, unsigned int len)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const unsigned int \mbox{\hyperlink{namespaceFILEDB_a8a86234763af41b14f1cfcf436e8674f}{crc32poly}} = (unsigned int)0xedb88320
+\item 
+const int \mbox{\hyperlink{namespaceFILEDB_ae46b35f4ae3d23ec8b3470306fef8ab5}{N\+U\+M\+\_\+\+H\+A\+S\+HS}} =12
+\item 
+const int \mbox{\hyperlink{namespaceFILEDB_a791b55170820bb840d3e7d583f363415}{H\+A\+S\+H\+\_\+\+B\+U\+C\+K\+E\+TS}} =53027
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{namespaceFILEDB_a1d3bd589ccfab62ecdd78b46aba576e2}\label{namespaceFILEDB_a1d3bd589ccfab62ecdd78b46aba576e2}} 
+\index{FILEDB@{FILEDB}!ffdb\_key\_compare@{ffdb\_key\_compare}}
+\index{ffdb\_key\_compare@{ffdb\_key\_compare}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{ffdb\_key\_compare}{ffdb\_key\_compare}}
+{\footnotesize\ttfamily typedef int($\ast$ F\+I\+L\+E\+D\+B\+::ffdb\+\_\+key\+\_\+compare)(const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k1, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k2)}
+
+Database Key compare function definition \mbox{\Hypertarget{namespaceFILEDB_a62446cf48b614494d5708110ddc414bf}\label{namespaceFILEDB_a62446cf48b614494d5708110ddc414bf}} 
+\index{FILEDB@{FILEDB}!ffdb\_key\_hash@{ffdb\_key\_hash}}
+\index{ffdb\_key\_hash@{ffdb\_key\_hash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{ffdb\_key\_hash}{ffdb\_key\_hash}}
+{\footnotesize\ttfamily typedef unsigned int($\ast$ F\+I\+L\+E\+D\+B\+::ffdb\+\_\+key\+\_\+hash)(const void $\ast$bytes, unsigned int len)}
+
+Database Hash function definition \mbox{\Hypertarget{namespaceFILEDB_a9e945e165dd500023ad29b4fcb2332b8}\label{namespaceFILEDB_a9e945e165dd500023ad29b4fcb2332b8}} 
+\index{FILEDB@{FILEDB}!hash\_func@{hash\_func}}
+\index{hash\_func@{hash\_func}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{hash\_func}{hash\_func}}
+{\footnotesize\ttfamily typedef unsigned int($\ast$ F\+I\+L\+E\+D\+B\+::hash\+\_\+func)(char $\ast$str, unsigned int len)}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceFILEDB_a3d87ecce7111516944b8b8e532aad4ea}\label{namespaceFILEDB_a3d87ecce7111516944b8b8e532aad4ea}} 
+\index{FILEDB@{FILEDB}!allKeys@{allKeys}}
+\index{allKeys@{allKeys}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{allKeys()}{allKeys()}}
+{\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
+void F\+I\+L\+E\+D\+B\+::all\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ K $>$ \&}]{keys }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
+
+Return all keys to a vector provided by an application \mbox{\Hypertarget{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}\label{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}} 
+\index{FILEDB@{FILEDB}!allPairs@{allPairs}}
+\index{allPairs@{allPairs}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{allPairs()}{allPairs()}}
+{\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
+void F\+I\+L\+E\+D\+B\+::all\+Pairs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ K $>$ \&}]{keys,  }\item[{std\+::vector$<$ D $>$ \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
+
+Return all keys and data to vectors provided by an application \mbox{\Hypertarget{namespaceFILEDB_a23c71972866e86f222ad440284380f45}\label{namespaceFILEDB_a23c71972866e86f222ad440284380f45}} 
+\index{FILEDB@{FILEDB}!APHash@{APHash}}
+\index{APHash@{APHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{APHash()}{APHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+A\+P\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a208d694e308a85bd3b04277ffe369377}\label{namespaceFILEDB_a208d694e308a85bd3b04277ffe369377}} 
+\index{FILEDB@{FILEDB}!binaryAllKeys@{binaryAllKeys}}
+\index{binaryAllKeys@{binaryAllKeys}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{binaryAllKeys()}{binaryAllKeys()}}
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::binary\+All\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{keys }\end{DoxyParamCaption}) throw ( File\+Hash\+D\+B\+Exception) }
+
+Return all keys to vectors in binary form of strings Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a208d694e308a85bd3b04277ffe369377_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_ac242fd8f47258576482a692de8d1eaf3}\label{namespaceFILEDB_ac242fd8f47258576482a692de8d1eaf3}} 
+\index{FILEDB@{FILEDB}!binaryAllPairs@{binaryAllPairs}}
+\index{binaryAllPairs@{binaryAllPairs}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{binaryAllPairs()}{binaryAllPairs()}}
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::binary\+All\+Pairs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{keys,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{data }\end{DoxyParamCaption}) throw ( File\+Hash\+D\+B\+Exception) }
+
+Return all keys and data to vectors in binary form of strings Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_ac242fd8f47258576482a692de8d1eaf3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a06c984d24be338a8cfa3fcd1296914aa}\label{namespaceFILEDB_a06c984d24be338a8cfa3fcd1296914aa}} 
+\index{FILEDB@{FILEDB}!BKDRHash@{BKDRHash}}
+\index{BKDRHash@{BKDRHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{BKDRHash()}{BKDRHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+B\+K\+D\+R\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a81bebe16f4e0ccc238b04621af6ada41}\label{namespaceFILEDB_a81bebe16f4e0ccc238b04621af6ada41}} 
+\index{FILEDB@{FILEDB}!BPHash@{BPHash}}
+\index{BPHash@{BPHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{BPHash()}{BPHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+B\+P\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_aa12ea161a9698d1b53c1026b06f0b0a5}\label{namespaceFILEDB_aa12ea161a9698d1b53c1026b06f0b0a5}} 
+\index{FILEDB@{FILEDB}!crc32@{crc32}}
+\index{crc32@{crc32}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{crc32()}{crc32()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::crc32 (\begin{DoxyParamCaption}\item[{unsigned int}]{crc,  }\item[{const char $\ast$}]{buf,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+Caculate crc32 checksum for a buffer with length len
+
+Calculate C\+R\+C32 check sum of a buffer with size len Start by passing in an initial chaining value of 9, and then pass in the return value from the previous crc32 call. \mbox{\Hypertarget{namespaceFILEDB_ad0296230a6c6ba4b757820d4367275a4}\label{namespaceFILEDB_ad0296230a6c6ba4b757820d4367275a4}} 
+\index{FILEDB@{FILEDB}!crc32\_init@{crc32\_init}}
+\index{crc32\_init@{crc32\_init}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{crc32\_init()}{crc32\_init()}}
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::crc32\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+This routine initialize the C\+RC table above
+
+Initialize C\+R\+C32 table Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_ad0296230a6c6ba4b757820d4367275a4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a52d0505cdd535797c05bffb0598ef2a5}\label{namespaceFILEDB_a52d0505cdd535797c05bffb0598ef2a5}} 
+\index{FILEDB@{FILEDB}!current\_time@{current\_time}}
+\index{current\_time@{current\_time}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{current\_time()}{current\_time()}}
+{\footnotesize\ttfamily double F\+I\+L\+E\+D\+B\+::current\+\_\+time (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Get current time in seconds Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a52d0505cdd535797c05bffb0598ef2a5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a506040cd2b9f1527e415461aac226fb5}\label{namespaceFILEDB_a506040cd2b9f1527e415461aac226fb5}} 
+\index{FILEDB@{FILEDB}!db\_hash\_func@{db\_hash\_func}}
+\index{db\_hash\_func@{db\_hash\_func}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{db\_hash\_func()}{db\_hash\_func()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::db\+\_\+hash\+\_\+func (\begin{DoxyParamCaption}\item[{char $\ast$}]{key,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_ab2561866ca3a62230f86ec7860fec260}\label{namespaceFILEDB_ab2561866ca3a62230f86ec7860fec260}} 
+\index{FILEDB@{FILEDB}!DEKHash@{DEKHash}}
+\index{DEKHash@{DEKHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{DEKHash()}{DEKHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+D\+E\+K\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a7d5f1ce86b07fb3c5ec314fab9bd5e30}\label{namespaceFILEDB_a7d5f1ce86b07fb3c5ec314fab9bd5e30}} 
+\index{FILEDB@{FILEDB}!DJBHash@{DJBHash}}
+\index{DJBHash@{DJBHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{DJBHash()}{DJBHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+D\+J\+B\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_ad02d1b620691350d964deb5beab272eb}\label{namespaceFILEDB_ad02d1b620691350d964deb5beab272eb}} 
+\index{FILEDB@{FILEDB}!ELFHash@{ELFHash}}
+\index{ELFHash@{ELFHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{ELFHash()}{ELFHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+E\+L\+F\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_ae588550e41a7b104b78a0e81ceb24a46}\label{namespaceFILEDB_ae588550e41a7b104b78a0e81ceb24a46}} 
+\index{FILEDB@{FILEDB}!fileExists@{fileExists}}
+\index{fileExists@{fileExists}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{fileExists()}{fileExists()}}
+{\footnotesize\ttfamily bool F\+I\+L\+E\+D\+B\+::file\+Exists (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+Check if a file exists Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{d2/de6/namespaceFILEDB_ae588550e41a7b104b78a0e81ceb24a46_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a28e01191edebd63edee882e8c7af9325}\label{namespaceFILEDB_a28e01191edebd63edee882e8c7af9325}} 
+\index{FILEDB@{FILEDB}!flushDatabase@{flushDatabase}}
+\index{flushDatabase@{flushDatabase}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{flushDatabase()}{flushDatabase()}}
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::flush\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh }\end{DoxyParamCaption})}
+
+flush data base to disk Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a28e01191edebd63edee882e8c7af9325_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_ab7ad322a4b472713751d23b4b6495ddf}\label{namespaceFILEDB_ab7ad322a4b472713751d23b4b6495ddf}} 
+\index{FILEDB@{FILEDB}!FNVHash@{FNVHash}}
+\index{FNVHash@{FNVHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{FNVHash()}{FNVHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+F\+N\+V\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a0de8699301294566d0e11786f4016a2a}\label{namespaceFILEDB_a0de8699301294566d0e11786f4016a2a}} 
+\index{FILEDB@{FILEDB}!getBinaryData@{getBinaryData}}
+\index{getBinaryData@{getBinaryData}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{getBinaryData()}{getBinaryData()}}
+{\footnotesize\ttfamily int F\+I\+L\+E\+D\+B\+::get\+Binary\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const std\+::string \&}]{key,  }\item[{std\+::string \&}]{data }\end{DoxyParamCaption})}
+
+get key and data pair from a database pointed by pointer dbh
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer @key key associated with this data. This key must be string form @data data to be stored into the database. It is in string form\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. Otherwise failure 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a0de8699301294566d0e11786f4016a2a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a0d18d10ad6d490786b6fe538fbd45dc3}\label{namespaceFILEDB_a0d18d10ad6d490786b6fe538fbd45dc3}} 
+\index{FILEDB@{FILEDB}!getData@{getData}}
+\index{getData@{getData}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{getData()}{getData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
+int F\+I\+L\+E\+D\+B\+::get\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{D \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+
+get key and data pair from a database pointed by pointer dbh
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer @key key associated with this data. This key must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBKey}{D\+B\+Key}} @data data to be stored into the database. This data must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBData}{D\+B\+Data}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. Otherwise failure 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceFILEDB_a7381d9e3dd76dc6eb741797e16c3052c}\label{namespaceFILEDB_a7381d9e3dd76dc6eb741797e16c3052c}} 
+\index{FILEDB@{FILEDB}!getData@{getData}}
+\index{getData@{getData}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{getData()}{getData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
+int F\+I\+L\+E\+D\+B\+::get\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{std\+::string \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+
+Get key and data pair from a database pointed by pointer dbh The data item is in binary string form
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer @key key associated with this data. This key must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBKey}{D\+B\+Key}} @data data to be stored into the database. This data must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBData}{D\+B\+Data}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. Otherwise failure 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceFILEDB_adbce406e3e06947d7312a6d461bc5cc5}\label{namespaceFILEDB_adbce406e3e06947d7312a6d461bc5cc5}} 
+\index{FILEDB@{FILEDB}!hton\_int@{hton\_int}}
+\index{hton\_int@{hton\_int}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{hton\_int()}{hton\_int()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::hton\+\_\+int (\begin{DoxyParamCaption}\item[{unsigned int}]{ival }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{d2/de6/namespaceFILEDB_adbce406e3e06947d7312a6d461bc5cc5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_af381773a642a4cc9c68ce682cea411a8}\label{namespaceFILEDB_af381773a642a4cc9c68ce682cea411a8}} 
+\index{FILEDB@{FILEDB}!hton\_long@{hton\_long}}
+\index{hton\_long@{hton\_long}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{hton\_long()}{hton\_long()}}
+{\footnotesize\ttfamily unsigned long F\+I\+L\+E\+D\+B\+::hton\+\_\+long (\begin{DoxyParamCaption}\item[{unsigned long}]{lval }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_acbb57ab648e150c1950a7e6a67a6aa56}\label{namespaceFILEDB_acbb57ab648e150c1950a7e6a67a6aa56}} 
+\index{FILEDB@{FILEDB}!hton\_short@{hton\_short}}
+\index{hton\_short@{hton\_short}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{hton\_short()}{hton\_short()}}
+{\footnotesize\ttfamily unsigned short F\+I\+L\+E\+D\+B\+::hton\+\_\+short (\begin{DoxyParamCaption}\item[{unsigned short}]{sval }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_acbb57ab648e150c1950a7e6a67a6aa56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a517749615adc5aa798175fb429115366}\label{namespaceFILEDB_a517749615adc5aa798175fb429115366}} 
+\index{FILEDB@{FILEDB}!insertBinaryData@{insertBinaryData}}
+\index{insertBinaryData@{insertBinaryData}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{insertBinaryData()}{insertBinaryData()}}
+{\footnotesize\ttfamily int F\+I\+L\+E\+D\+B\+::insert\+Binary\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const std\+::string \&}]{key,  }\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})}
+
+Insert key and data pair in string format into the database
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer @key key associated with this data. This key must be string form @data data to be stored into the database. It is in string form\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. Otherwise failure 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a517749615adc5aa798175fb429115366_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a63f788f0f11a571f254ac8cfa8d19132}\label{namespaceFILEDB_a63f788f0f11a571f254ac8cfa8d19132}} 
+\index{FILEDB@{FILEDB}!insertData@{insertData}}
+\index{insertData@{insertData}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{insertData()}{insertData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
+int F\+I\+L\+E\+D\+B\+::insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{const D \&}]{data,  }\item[{unsigned int}]{flag = {\ttfamily 0} }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+
+Insert key and data pair into a database pointed by pointer dbh
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer @key key associated with this data. This key must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBKey}{D\+B\+Key}} @data data to be stored into the database. This data must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBData}{D\+B\+Data}} \\
+\hline
+{\em flag} & database put flag\+: F\+F\+D\+B\+\_\+\+N\+O\+O\+V\+E\+R\+W\+R\+I\+TE or 0\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. Otherwise failure 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceFILEDB_aeadc0ee930c4a7b2ddae220799008bd6}\label{namespaceFILEDB_aeadc0ee930c4a7b2ddae220799008bd6}} 
+\index{FILEDB@{FILEDB}!insertData@{insertData}}
+\index{insertData@{insertData}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{insertData()}{insertData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+int F\+I\+L\+E\+D\+B\+::insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{const std\+::string \&}]{data,  }\item[{unsigned int}]{flag = {\ttfamily 0} }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+
+Insert key and data pair into a database pointed by pointer dbh
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer @key key associated with this data. This key must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBKey}{D\+B\+Key}} @data data to be stored into the database. This data must be subclass of \mbox{\hyperlink{classFILEDB_1_1DBData}{D\+B\+Data}} \\
+\hline
+{\em flag} & database put flag\+: F\+F\+D\+B\+\_\+\+N\+O\+O\+V\+E\+R\+W\+R\+I\+TE or 0\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. Otherwise failure 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceFILEDB_a25ba56393bd11f7e104de43478a253de}\label{namespaceFILEDB_a25ba56393bd11f7e104de43478a253de}} 
+\index{FILEDB@{FILEDB}!isDatabaseEmpty@{isDatabaseEmpty}}
+\index{isDatabaseEmpty@{isDatabaseEmpty}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{isDatabaseEmpty()}{isDatabaseEmpty()}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+int F\+I\+L\+E\+D\+B\+::is\+Database\+Empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
+
+Check whether this database is empty or not \mbox{\Hypertarget{namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3}\label{namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3}} 
+\index{FILEDB@{FILEDB}!itostr@{itostr}}
+\index{itostr@{itostr}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{itostr()}{itostr()}}
+{\footnotesize\ttfamily std\+::string F\+I\+L\+E\+D\+B\+::itostr (\begin{DoxyParamCaption}\item[{int}]{val }\end{DoxyParamCaption})}
+
+Convert integer to string
+
+Convert a integer into a string Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{d2/de6/namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a3533131675008d2c3b9b3d1685b2e679}\label{namespaceFILEDB_a3533131675008d2c3b9b3d1685b2e679}} 
+\index{FILEDB@{FILEDB}!JSHash@{JSHash}}
+\index{JSHash@{JSHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{JSHash()}{JSHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+J\+S\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a693e2659d01ea18edb88d796d7cbd5de}\label{namespaceFILEDB_a693e2659d01ea18edb88d796d7cbd5de}} 
+\index{FILEDB@{FILEDB}!keyExist@{keyExist}}
+\index{keyExist@{keyExist}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{keyExist()}{keyExist()}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+int F\+I\+L\+E\+D\+B\+::key\+Exist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{arg }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+
+Check whether this key exists in the database
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbh} & database pointer \\
+\hline
+{\em arg} & key we are interested\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if this key exists. return 0 not there 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespaceFILEDB_ab34ff6954f1b3a0dc868119d34105579}\label{namespaceFILEDB_ab34ff6954f1b3a0dc868119d34105579}} 
+\index{FILEDB@{FILEDB}!ntoh\_int@{ntoh\_int}}
+\index{ntoh\_int@{ntoh\_int}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{ntoh\_int()}{ntoh\_int()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::ntoh\+\_\+int (\begin{DoxyParamCaption}\item[{unsigned int}]{ival }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{d2/de6/namespaceFILEDB_ab34ff6954f1b3a0dc868119d34105579_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_af2fbdeeb7148fa47d1050b1ac3130897}\label{namespaceFILEDB_af2fbdeeb7148fa47d1050b1ac3130897}} 
+\index{FILEDB@{FILEDB}!ntoh\_long@{ntoh\_long}}
+\index{ntoh\_long@{ntoh\_long}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{ntoh\_long()}{ntoh\_long()}}
+{\footnotesize\ttfamily unsigned long F\+I\+L\+E\+D\+B\+::ntoh\+\_\+long (\begin{DoxyParamCaption}\item[{unsigned long}]{lval }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_af28aef063f95fcb331d3844f6807daf5}\label{namespaceFILEDB_af28aef063f95fcb331d3844f6807daf5}} 
+\index{FILEDB@{FILEDB}!ntoh\_short@{ntoh\_short}}
+\index{ntoh\_short@{ntoh\_short}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{ntoh\_short()}{ntoh\_short()}}
+{\footnotesize\ttfamily unsigned short F\+I\+L\+E\+D\+B\+::ntoh\+\_\+short (\begin{DoxyParamCaption}\item[{unsigned short}]{usval }\end{DoxyParamCaption})}
+
+Several byte swaping routines replacing reguler htonl etc The primary reason to have these routines is to not include some header files that may not be available on some platforms Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_af28aef063f95fcb331d3844f6807daf5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72}\label{namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72}} 
+\index{FILEDB@{FILEDB}!openDatabase@{openDatabase}}
+\index{openDatabase@{openDatabase}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{openDatabase()}{openDatabase()}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ F\+I\+L\+E\+D\+B\+::open\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dbase,  }\item[{int}]{open\+\_\+flags,  }\item[{int}]{mode,  }\item[{\mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$}]{info }\end{DoxyParamCaption})}
+
+Open a database with name dbase. If this database does not exist, a new database will be created.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dbase} & database file name \\
+\hline
+{\em open\+\_\+flags} & database flags for opening\+: it is can be regular unix open flags\+: such as O\+\_\+\+R\+D\+O\+N\+LY, O\+\_\+\+R\+D\+WR, O\+\_\+\+T\+R\+U\+NC and so on \\
+\hline
+{\em mode} & file creation mode \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Database pointer. If something wrong, a N\+U\+LL pointer is returned 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceFILEDB_ac5576dc30e75253b40f2dc1e148abb8b}\label{namespaceFILEDB_ac5576dc30e75253b40f2dc1e148abb8b}} 
+\index{FILEDB@{FILEDB}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily ostream\& F\+I\+L\+E\+D\+B\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{info }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_ab2508d2100ad31133a86ce47aada4241}\label{namespaceFILEDB_ab2508d2100ad31133a86ce47aada4241}} 
+\index{FILEDB@{FILEDB}!PJWHash@{PJWHash}}
+\index{PJWHash@{PJWHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{PJWHash()}{PJWHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+P\+J\+W\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_ac69ca4109f796be06f658542b20a3eb1}\label{namespaceFILEDB_ac69ca4109f796be06f658542b20a3eb1}} 
+\index{FILEDB@{FILEDB}!RSHash@{RSHash}}
+\index{RSHash@{RSHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{RSHash()}{RSHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+R\+S\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a93a0c708c1ad9c299200dbaa873c5531}\label{namespaceFILEDB_a93a0c708c1ad9c299200dbaa873c5531}} 
+\index{FILEDB@{FILEDB}!SDBMHash@{SDBMHash}}
+\index{SDBMHash@{SDBMHash}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{SDBMHash()}{SDBMHash()}}
+{\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::\+S\+D\+B\+M\+Hash (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{namespaceFILEDB_a7e76510d94991fb0a4e18acc02214900}\label{namespaceFILEDB_a7e76510d94991fb0a4e18acc02214900}} 
+\index{FILEDB@{FILEDB}!unixDirectoryName@{unixDirectoryName}}
+\index{unixDirectoryName@{unixDirectoryName}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{unixDirectoryName()}{unixDirectoryName()}}
+{\footnotesize\ttfamily std\+::string F\+I\+L\+E\+D\+B\+::unix\+Directory\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+From filename convert to base directory name 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceFILEDB_a8a86234763af41b14f1cfcf436e8674f}\label{namespaceFILEDB_a8a86234763af41b14f1cfcf436e8674f}} 
+\index{FILEDB@{FILEDB}!crc32poly@{crc32poly}}
+\index{crc32poly@{crc32poly}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{crc32poly}{crc32poly}}
+{\footnotesize\ttfamily const unsigned int F\+I\+L\+E\+D\+B\+::crc32poly = (unsigned int)0xedb88320}
+
+This is a constant used by crc32 routine to generate entries of the crc table \mbox{\Hypertarget{namespaceFILEDB_a791b55170820bb840d3e7d583f363415}\label{namespaceFILEDB_a791b55170820bb840d3e7d583f363415}} 
+\index{FILEDB@{FILEDB}!HASH\_BUCKETS@{HASH\_BUCKETS}}
+\index{HASH\_BUCKETS@{HASH\_BUCKETS}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{HASH\_BUCKETS}{HASH\_BUCKETS}}
+{\footnotesize\ttfamily const int F\+I\+L\+E\+D\+B\+::\+H\+A\+S\+H\+\_\+\+B\+U\+C\+K\+E\+TS =53027}
+
+\mbox{\Hypertarget{namespaceFILEDB_ae46b35f4ae3d23ec8b3470306fef8ab5}\label{namespaceFILEDB_ae46b35f4ae3d23ec8b3470306fef8ab5}} 
+\index{FILEDB@{FILEDB}!NUM\_HASHS@{NUM\_HASHS}}
+\index{NUM\_HASHS@{NUM\_HASHS}!FILEDB@{FILEDB}}
+\subsubsection{\texorpdfstring{NUM\_HASHS}{NUM\_HASHS}}
+{\footnotesize\ttfamily const int F\+I\+L\+E\+D\+B\+::\+N\+U\+M\+\_\+\+H\+A\+S\+HS =12}
+

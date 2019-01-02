@@ -1,0 +1,134 @@
+\hypertarget{classROOT_1_1Math_1_1IGradientMultiDim}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:I\+Gradient\+Multi\+Dim Class Reference}
+\label{classROOT_1_1Math_1_1IGradientMultiDim}\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+
+
+{\ttfamily \#include $<$I\+Function.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{d9/d37/classROOT_1_1Math_1_1IGradientMultiDim__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_a68ce0f439481e78992945f7d8b8fb42e}{$\sim$\+I\+Gradient\+Multi\+Dim}} ()
+\begin{DoxyCompactList}\small\item\em virual destructor \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_ac5785e2df4fa36061bf9ddbb9ce4dde0}{Gradient}} (const double $\ast$x, double $\ast$grad) const =0
+\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7}{Derivative}} (const double $\ast$x, unsigned int icoord=0) const
+\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_ad8d0e31b786327014524483a708d8f82}{FdF}} (const double $\ast$x, double \&f, double $\ast$df) const =0
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_a68ce0f439481e78992945f7d8b8fb42e}{$\sim$\+I\+Gradient\+Multi\+Dim}} ()
+\begin{DoxyCompactList}\small\item\em virual destructor \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_ac5785e2df4fa36061bf9ddbb9ce4dde0}{Gradient}} (const double $\ast$x, double $\ast$grad) const =0
+\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7}{Derivative}} (const double $\ast$x, unsigned int icoord=0) const
+\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientMultiDim_ad8d0e31b786327014524483a708d8f82}{FdF}} (const double $\ast$x, double \&f, double $\ast$df) const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Gradient interface (abstract class) defining the signature for calculating the gradient of a multi-\/dimensional function. Three methods are provided\+:
+\begin{DoxyItemize}
+\item Gradient(const double $\ast$x, double $\ast$ grad) evaluate the full gradient vector at the vector value x
+\item Derivative(const double $\ast$ x, int icoord) evaluate the partial derivative for the icoord coordinate
+\item Fd\+F(const double $\ast$x, double \&f, double $\ast$ g) evaluate at the same time gradient and function/
+\end{DoxyItemize}
+
+Concrete classes should derive from \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}} and not from this class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_a68ce0f439481e78992945f7d8b8fb42e}\label{classROOT_1_1Math_1_1IGradientMultiDim_a68ce0f439481e78992945f7d8b8fb42e}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!````~IGradientMultiDim@{$\sim$IGradientMultiDim}}
+\index{````~IGradientMultiDim@{$\sim$IGradientMultiDim}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{$\sim$IGradientMultiDim()}{~IGradientMultiDim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::$\sim$\+I\+Gradient\+Multi\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+virual destructor 
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_a68ce0f439481e78992945f7d8b8fb42e}\label{classROOT_1_1Math_1_1IGradientMultiDim_a68ce0f439481e78992945f7d8b8fb42e}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!````~IGradientMultiDim@{$\sim$IGradientMultiDim}}
+\index{````~IGradientMultiDim@{$\sim$IGradientMultiDim}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{$\sim$IGradientMultiDim()}{~IGradientMultiDim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::$\sim$\+I\+Gradient\+Multi\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+virual destructor 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7}\label{classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!Derivative@{Derivative}}
+\index{Derivative@{Derivative}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{Derivative()}{Derivative()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::\+Derivative (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{unsigned int}]{icoord = {\ttfamily 0} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return the partial derivative with respect to the passed coordinate Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d71/classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7}\label{classROOT_1_1Math_1_1IGradientMultiDim_ae131d6cc942c8fcf90a3b575335b30a7}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!Derivative@{Derivative}}
+\index{Derivative@{Derivative}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{Derivative()}{Derivative()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::\+Derivative (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{unsigned int}]{icoord = {\ttfamily 0} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return the partial derivative with respect to the passed coordinate \mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_ad8d0e31b786327014524483a708d8f82}\label{classROOT_1_1Math_1_1IGradientMultiDim_ad8d0e31b786327014524483a708d8f82}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!FdF@{FdF}}
+\index{FdF@{FdF}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{FdF()}{FdF()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::\+FdF (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double \&}]{f,  }\item[{double $\ast$}]{df }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_a58cefd2806ec7b9d389911800ed60386}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_a58cefd2806ec7b9d389911800ed60386}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_ad8d0e31b786327014524483a708d8f82}\label{classROOT_1_1Math_1_1IGradientMultiDim_ad8d0e31b786327014524483a708d8f82}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!FdF@{FdF}}
+\index{FdF@{FdF}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{FdF()}{FdF()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::\+FdF (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double \&}]{f,  }\item[{double $\ast$}]{df }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_a58cefd2806ec7b9d389911800ed60386}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_a58cefd2806ec7b9d389911800ed60386}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_ac5785e2df4fa36061bf9ddbb9ce4dde0}\label{classROOT_1_1Math_1_1IGradientMultiDim_ac5785e2df4fa36061bf9ddbb9ce4dde0}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!Gradient@{Gradient}}
+\index{Gradient@{Gradient}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::\+Gradient (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double $\ast$}]{grad }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Evaluate all the vector of function derivatives (gradient) at a point x. Derived classes must re-\/implement if it is more efficient than evaluting one at a time 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_ab65a713d2637c69b334d2119ef4f0e26}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_ab65a713d2637c69b334d2119ef4f0e26}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientMultiDim_ac5785e2df4fa36061bf9ddbb9ce4dde0}\label{classROOT_1_1Math_1_1IGradientMultiDim_ac5785e2df4fa36061bf9ddbb9ce4dde0}} 
+\index{ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}!Gradient@{Gradient}}
+\index{Gradient@{Gradient}!ROOT::Math::IGradientMultiDim@{ROOT::Math::IGradientMultiDim}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Multi\+Dim\+::\+Gradient (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double $\ast$}]{grad }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Evaluate all the vector of function derivatives (gradient) at a point x. Derived classes must re-\/implement if it is more efficient than evaluting one at a time 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_ab65a713d2637c69b334d2119ef4f0e26}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionMultiDim_ab65a713d2637c69b334d2119ef4f0e26}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+Multi\+Dim}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Math/\mbox{\hyperlink{other__libs_2minuit_2inc_2Math_2IFunction_8h}{I\+Function.\+h}}\end{DoxyCompactItemize}

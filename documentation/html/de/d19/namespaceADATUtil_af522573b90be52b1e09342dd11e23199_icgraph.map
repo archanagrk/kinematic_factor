@@ -1,0 +1,9 @@
+<map id="ADATUtil::byte_swap" name="ADATUtil::byte_swap">
+<area shape="rect" id="node1" title="Byte&#45;swap an array of data each of size nmemb." alt="" coords="419,83,565,108"/>
+<area shape="rect" id="node2" href="$de/d19/namespaceADATUtil.html#af41a672c512fa9828e3ada70420985c9" title="fread on a binary file written in big&#45;endian order" alt="" coords="232,5,352,31"/>
+<area shape="rect" id="node3" href="$de/d19/namespaceADATUtil.html#afcbd366717135244eee5acb0d5ba86ac" title="fwrite to a binary file in big&#45;endian order" alt="" coords="231,55,353,80"/>
+<area shape="rect" id="node4" href="$da/dd9/classADATIO_1_1BinaryReader.html#a9c68e2d4ecd86773a48a3a38f0c90677" title="Read array of bytes and broadcast to all nodes." alt="" coords="212,104,371,143"/>
+<area shape="rect" id="node6" href="$db/dee/classADATIO_1_1BinaryWriter.html#a044495ba6e330922b428658b6a8176fc" title="Write data from the primary node." alt="" coords="216,167,367,205"/>
+<area shape="rect" id="node5" href="$da/dd9/classADATIO_1_1BinaryReader.html#aeb7e739afca615aff19646e64b8da320" title=" " alt="" coords="5,104,164,143"/>
+<area shape="rect" id="node7" href="$db/dee/classADATIO_1_1BinaryWriter.html#a4415e2d04de75ea6310a8eed3be8f43e" title="The universal data&#45;writer." alt="" coords="10,167,160,205"/>
+</map>

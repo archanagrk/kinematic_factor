@@ -1,0 +1,7 @@
+<map id="Hadron::read" name="Hadron::read">
+<area shape="rect" id="node1" title="Read a key." alt="" coords="5,75,104,100"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a030f71bff6ae10166b42e24845e0dbf8" title="PeramDist reader." alt="" coords="152,75,252,100"/>
+<area shape="rect" id="node3" href="$dc/ddc/classXMLArray_1_1Array2d.html#a64001cb2aac062d2179a0285b0279244" title="Allocate mem for the array." alt="" coords="300,5,442,44"/>
+<area shape="rect" id="node4" href="$dc/ddc/classXMLArray_1_1Array2d.html#a05ca0ef1e6fdbafb2c7cc575f9c3081c" title="Another variant on the size of the 2d array." alt="" coords="300,68,442,107"/>
+<area shape="rect" id="node5" href="$dc/ddc/classXMLArray_1_1Array2d.html#a9eecadb91fe97638a8d7adce77b0a562" title=" " alt="" coords="300,131,442,169"/>
+</map>

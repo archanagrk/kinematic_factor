@@ -1,0 +1,84 @@
+\hypertarget{install_2include_2adat_2objfunctor_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/adat/objfunctor.h File Reference}
+\label{install_2include_2adat_2objfunctor_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/adat/objfunctor.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/adat/objfunctor.h}}
+
+
+Generic functor class.  
+
+
+{\ttfamily \#include \char`\"{}adat/typelist.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/typetraits.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$typeinfo$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+Include dependency graph for objfunctor.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d70/install_2include_2adat_2objfunctor_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1FunctorImplBase}{Util\+::\+Private\+::\+Functor\+Impl\+Base$<$ R $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl}{Util\+::\+Functor\+Impl$<$ R, T\+List $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl_3_01R_00_01NullType_01_4}{Util\+::\+Functor\+Impl$<$ R, Null\+Type $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl_3_01R_00_01TYPELIST__1_07P1_08_4}{Util\+::\+Functor\+Impl$<$ R, T\+Y\+P\+E\+L\+I\+S\+T\+\_\+1(\+P1)$>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl_3_01R_00_01TYPELIST__2_07P1_00_01P2_08_4}{Util\+::\+Functor\+Impl$<$ R, T\+Y\+P\+E\+L\+I\+S\+T\+\_\+2(\+P1, P2)$>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl_3_01R_00_01TYPELIST__3_07P1_00_01P2_00_01P3_08_4}{Util\+::\+Functor\+Impl$<$ R, T\+Y\+P\+E\+L\+I\+S\+T\+\_\+3(\+P1, P2, P3)$>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl_3_01R_00_01TYPELIST__4_07P1_00_01P2_00_01P3_00_01P4_08_4}{Util\+::\+Functor\+Impl$<$ R, T\+Y\+P\+E\+L\+I\+S\+T\+\_\+4(\+P1, P2, P3, P4)$>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorImpl_3_01R_00_01TYPELIST__5_07P1_00_01P2_00_01P3_00_01P4_00_01P5_08_4}{Util\+::\+Functor\+Impl$<$ R, T\+Y\+P\+E\+L\+I\+S\+T\+\_\+5(\+P1, P2, P3, P4, P5)$>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1FunctorHandler}{Util\+::\+Functor\+Handler$<$ Parent\+Functor, Fun $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1MemFunHandler}{Util\+::\+Mem\+Fun\+Handler$<$ Parent\+Functor, Pointer\+To\+Obj, Pointer\+To\+Mem\+Fn $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1ObjectFunctor}{Util\+::\+Object\+Functor$<$ R, T\+List $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1BinderFirstTraits}{Util\+::\+Private\+::\+Binder\+First\+Traits$<$ Fctor $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1BinderFirstTraits_3_01ObjectFunctor_3_01R_00_01TList_01_4_01_4}{Util\+::\+Private\+::\+Binder\+First\+Traits$<$ Object\+Functor$<$ R, T\+List $>$ $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1BinderFirst}{Util\+::\+Binder\+First$<$ Original\+Functor $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1Chainer}{Util\+::\+Chainer$<$ Fun1, Fun2 $>$}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceUtil}{Util}}
+\item 
+ \mbox{\hyperlink{namespaceUtil_1_1Private}{Util\+::\+Private}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{install_2include_2adat_2objfunctor_8h_a1ce0594c43b9f88c56fa0ee4a2b31e03}{D\+E\+F\+I\+N\+E\+\_\+\+C\+L\+O\+N\+E\+\_\+\+F\+U\+N\+C\+T\+O\+R\+I\+M\+PL}}(Cls)~virtual Cls$\ast$ Do\+Clone() const \{ return new Cls($\ast$this); \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class Fctor $>$ }\\Private\+::\+Binder\+First\+Traits$<$ Fctor $>$\+::Bound\+Functor\+Type \mbox{\hyperlink{namespaceUtil_a45c72128892bb56a451a2e5300140d16}{Util\+::\+Bind\+First}} (const Fctor \&fun, typename Fctor\+::\+Parm1 bound)
+\item 
+{\footnotesize template$<$class Fun1 , class Fun2 $>$ }\\Fun2 \mbox{\hyperlink{namespaceUtil_aec917a0595af831ead52c7ebaba3b708}{Util\+::\+Chain}} (const Fun1 \&fun1, const Fun2 \&fun2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic functor class. 
+
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{install_2include_2adat_2objfunctor_8h_a1ce0594c43b9f88c56fa0ee4a2b31e03}\label{install_2include_2adat_2objfunctor_8h_a1ce0594c43b9f88c56fa0ee4a2b31e03}} 
+\index{objfunctor.h@{objfunctor.h}!DEFINE\_CLONE\_FUNCTORIMPL@{DEFINE\_CLONE\_FUNCTORIMPL}}
+\index{DEFINE\_CLONE\_FUNCTORIMPL@{DEFINE\_CLONE\_FUNCTORIMPL}!objfunctor.h@{objfunctor.h}}
+\subsubsection{\texorpdfstring{DEFINE\_CLONE\_FUNCTORIMPL}{DEFINE\_CLONE\_FUNCTORIMPL}}
+{\footnotesize\ttfamily \#define D\+E\+F\+I\+N\+E\+\_\+\+C\+L\+O\+N\+E\+\_\+\+F\+U\+N\+C\+T\+O\+R\+I\+M\+PL(\begin{DoxyParamCaption}\item[{}]{Cls }\end{DoxyParamCaption})~virtual Cls$\ast$ Do\+Clone() const \{ return new Cls($\ast$this); \}}
+

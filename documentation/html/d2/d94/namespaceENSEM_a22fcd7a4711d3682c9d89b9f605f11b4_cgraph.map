@@ -1,0 +1,5 @@
+<map id="ENSEM::read" name="ENSEM::read">
+<area shape="rect" id="node1" title=" " alt="" coords="5,12,108,37"/>
+<area shape="rect" id="node2" href="$d4/d23/classENSEM_1_1TextReader.html#a67e8ac68ff413c1101522eedafc2d994" title="Queries whether the file is open." alt="" coords="356,5,508,44"/>
+<area shape="rect" id="node3" href="$d4/d23/classENSEM_1_1TextReader.html#a19f171518a1c7a06739d2d7de016f346" title="Closes the last file opened." alt="" coords="156,33,308,72"/>
+</map>

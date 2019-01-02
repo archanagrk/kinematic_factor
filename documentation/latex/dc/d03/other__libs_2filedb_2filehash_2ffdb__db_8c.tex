@@ -1,0 +1,96 @@
+\hypertarget{other__libs_2filedb_2filehash_2ffdb__db_8c}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat/other\+\_\+libs/filedb/filehash/ffdb\+\_\+db.c File Reference}
+\label{other__libs_2filedb_2filehash_2ffdb__db_8c}\index{/Users/archanar/Kinematic\_factor/adat/other\_libs/filedb/filehash/ffdb\_db.c@{/Users/archanar/Kinematic\_factor/adat/other\_libs/filedb/filehash/ffdb\_db.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$sys/types.\+h$>$}\newline
+{\ttfamily \#include $<$errno.\+h$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+pagepool.\+h\char`\"{}}\newline
+Include dependency graph for ffdb\+\_\+db.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/db1/other__libs_2filedb_2filehash_2ffdb__db_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8c_abd9515294d2a64b57210563fa8795b99}{U\+S\+E\+\_\+\+O\+P\+E\+N\+\_\+\+F\+L\+A\+GS}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8c_a415affcc4f0854dfe569ac4c43a72e7f}{\+\_\+\+\_\+ffdb\+\_\+hash\+\_\+open}} (const char $\ast$fname, int flags, int node, const \mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$\mbox{\hyperlink{structinfo}{info}}, int dflags)
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8c_a956b24369a3231de1bee8bc33cae46e0}{ffdb\+\_\+dbopen}} (const char $\ast$fname, int flags, int mode, const void $\ast$openinfo)
+\item 
+void \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8c_a1ec8fa0dcde4004262934cdb85099527}{ffdb\+\_\+dbpanic}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbp)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__db_8c_abd9515294d2a64b57210563fa8795b99}\label{other__libs_2filedb_2filehash_2ffdb__db_8c_abd9515294d2a64b57210563fa8795b99}} 
+\index{ffdb\_db.c@{ffdb\_db.c}!USE\_OPEN\_FLAGS@{USE\_OPEN\_FLAGS}}
+\index{USE\_OPEN\_FLAGS@{USE\_OPEN\_FLAGS}!ffdb\_db.c@{ffdb\_db.c}}
+\subsubsection{\texorpdfstring{USE\_OPEN\_FLAGS}{USE\_OPEN\_FLAGS}}
+{\footnotesize\ttfamily \#define U\+S\+E\+\_\+\+O\+P\+E\+N\+\_\+\+F\+L\+A\+GS}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{(O\_CREAT | O\_EXCL | \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_ad041d863b473edbd26926d2fad250384}{O\_EXLOCK}} | O\_NONBLOCK | O\_RDONLY |      \(\backslash\)}
+\DoxyCodeLine{   O\_RDWR | \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a8234597f4e8a183770c5f5d94ba8562a}{O\_SHLOCK}} | O\_TRUNC)}
+
+\end{DoxyCode}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__db_8c_a415affcc4f0854dfe569ac4c43a72e7f}\label{other__libs_2filedb_2filehash_2ffdb__db_8c_a415affcc4f0854dfe569ac4c43a72e7f}} 
+\index{ffdb\_db.c@{ffdb\_db.c}!\_\_ffdb\_hash\_open@{\_\_ffdb\_hash\_open}}
+\index{\_\_ffdb\_hash\_open@{\_\_ffdb\_hash\_open}!ffdb\_db.c@{ffdb\_db.c}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_hash\_open()}{\_\_ffdb\_hash\_open()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}}$\ast$ \+\_\+\+\_\+ffdb\+\_\+hash\+\_\+open (\begin{DoxyParamCaption}\item[{const char $\ast$}]{fname,  }\item[{int}]{flags,  }\item[{int}]{node,  }\item[{const \mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$}]{info,  }\item[{int}]{dflags }\end{DoxyParamCaption})}
+
+Copyright (C) $<$2008$>$ Jefferson Science Associates, L\+LC Under U.\+S. D\+OE Contract No. D\+E-\/\+A\+C05-\/06\+O\+R23177
+
+Thomas Jefferson National Accelerator Facility
+
+Jefferson Lab Scientific Computing Group, 12000 Jefferson Ave.,
+
+Newport News, VA 23606
+
+This program is free software\+: you can redistribute it and/or modify it under the terms of the G\+NU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but W\+I\+T\+H\+O\+UT A\+NY W\+A\+R\+R\+A\+N\+TY; without even the implied warranty of M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY or F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE. See the G\+NU General Public License for more details.
+
+You should have received a copy of the G\+NU General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\texttt{ http\+://www.\+gnu.\+org/licenses/}}. 
+
+ Description\+: Pure File Based Hash Database
+
+Author\+: Jie Chen Scientific Computing Group Jefferson Lab
+
+Revision History\+: \begin{DoxyParagraph}{Log}
+ffdb\+\_\+db.\+c,v 
+\end{DoxyParagraph}
+Revision 1.\+1 2009-\/02-\/20 2047 chen initial import\+Decleration of hash open function Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{dc/d03/other__libs_2filedb_2filehash_2ffdb__db_8c_a415affcc4f0854dfe569ac4c43a72e7f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__db_8c_a956b24369a3231de1bee8bc33cae46e0}\label{other__libs_2filedb_2filehash_2ffdb__db_8c_a956b24369a3231de1bee8bc33cae46e0}} 
+\index{ffdb\_db.c@{ffdb\_db.c}!ffdb\_dbopen@{ffdb\_dbopen}}
+\index{ffdb\_dbopen@{ffdb\_dbopen}!ffdb\_db.c@{ffdb\_db.c}}
+\subsubsection{\texorpdfstring{ffdb\_dbopen()}{ffdb\_dbopen()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}}$\ast$ ffdb\+\_\+dbopen (\begin{DoxyParamCaption}\item[{const char $\ast$}]{fname,  }\item[{int}]{flags,  }\item[{int}]{mode,  }\item[{const void $\ast$}]{openinfo }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__db_8c_a1ec8fa0dcde4004262934cdb85099527}\label{other__libs_2filedb_2filehash_2ffdb__db_8c_a1ec8fa0dcde4004262934cdb85099527}} 
+\index{ffdb\_db.c@{ffdb\_db.c}!ffdb\_dbpanic@{ffdb\_dbpanic}}
+\index{ffdb\_dbpanic@{ffdb\_dbpanic}!ffdb\_db.c@{ffdb\_db.c}}
+\subsubsection{\texorpdfstring{ffdb\_dbpanic()}{ffdb\_dbpanic()}}
+{\footnotesize\ttfamily void ffdb\+\_\+dbpanic (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbp }\end{DoxyParamCaption})}
+

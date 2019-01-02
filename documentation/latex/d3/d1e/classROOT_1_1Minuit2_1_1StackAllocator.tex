@@ -1,0 +1,319 @@
+\hypertarget{classROOT_1_1Minuit2_1_1StackAllocator}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Stack\+Allocator Class Reference}
+\label{classROOT_1_1Minuit2_1_1StackAllocator}\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+
+
+{\ttfamily \#include $<$Stack\+Allocator.\+h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414a308d739070cf62de267a1793a45142e8}{default\+\_\+size}} = 524288
+ \}
+\item 
+enum \{ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414a308d739070cf62de267a1793a45142e8}{default\+\_\+size}} = 524288
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a4fe80b380d5a1d1a58bb916d9aa47e29}{Stack\+Allocator}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ac1f5e9946a42290da68e86edf84cc528}{$\sim$\+Stack\+Allocator}} ()
+\item 
+void $\ast$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03}{Allocate}} (size\+\_\+t n\+Bytes)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c}{Deallocate}} (void $\ast$p)
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd}{Read\+Int}} (int offset)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e}{Write\+Int}} (int offset, int Value)
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5}{To\+Int}} (void $\ast$p)
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1}{Aligned\+Size}} (int n\+Bytes)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e}{Check\+Overflow}} (int n)
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d}{Check\+Consistency}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a4fe80b380d5a1d1a58bb916d9aa47e29}{Stack\+Allocator}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ac1f5e9946a42290da68e86edf84cc528}{$\sim$\+Stack\+Allocator}} ()
+\item 
+void $\ast$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03}{Allocate}} (size\+\_\+t n\+Bytes)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c}{Deallocate}} (void $\ast$p)
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd}{Read\+Int}} (int offset)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e}{Write\+Int}} (int offset, int Value)
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5}{To\+Int}} (void $\ast$p)
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1}{Aligned\+Size}} (int n\+Bytes)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e}{Check\+Overflow}} (int n)
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d}{Check\+Consistency}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1StackAllocator}{Stack\+Allocator}} controls the memory allocation/deallocation of Minuit. If {\itshape M\+N\+\_\+\+N\+O\+\_\+\+T\+H\+R\+E\+A\+D\+\_\+\+S\+A\+VE} is defined, memory is taken from a pre-\/allocated piece of heap memory which is then used like a stack, otherwise via standard malloc/free. Note that defining {\itshape M\+N\+\_\+\+N\+O\+\_\+\+T\+H\+R\+E\+A\+D\+\_\+\+S\+A\+VE} makes the code thread-\/ unsave. The gain in performance is mainly for cost-\/cheap F\+CN functions. 
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a4f1aad4338e435243f6ab52ce05fbbd4}\label{classROOT_1_1Minuit2_1_1StackAllocator_a4f1aad4338e435243f6ab52ce05fbbd4}} 
+\subsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{default\_size@{default\_size}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!default\_size@{default\_size}}}\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414a308d739070cf62de267a1793a45142e8}\label{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414a308d739070cf62de267a1793a45142e8}} 
+default\+\_\+size&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414}\label{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414}} 
+\subsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{default\_size@{default\_size}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!default\_size@{default\_size}}}\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414a308d739070cf62de267a1793a45142e8}\label{classROOT_1_1Minuit2_1_1StackAllocator_a0dae1f615a86b14f157e1b4d021b9414a308d739070cf62de267a1793a45142e8}} 
+default\+\_\+size&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a4fe80b380d5a1d1a58bb916d9aa47e29}\label{classROOT_1_1Minuit2_1_1StackAllocator_a4fe80b380d5a1d1a58bb916d9aa47e29}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!StackAllocator@{StackAllocator}}
+\index{StackAllocator@{StackAllocator}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{StackAllocator()}{StackAllocator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Stack\+Allocator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ac1f5e9946a42290da68e86edf84cc528}\label{classROOT_1_1Minuit2_1_1StackAllocator_ac1f5e9946a42290da68e86edf84cc528}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!````~StackAllocator@{$\sim$StackAllocator}}
+\index{````~StackAllocator@{$\sim$StackAllocator}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{$\sim$StackAllocator()}{~StackAllocator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::$\sim$\+Stack\+Allocator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a4fe80b380d5a1d1a58bb916d9aa47e29}\label{classROOT_1_1Minuit2_1_1StackAllocator_a4fe80b380d5a1d1a58bb916d9aa47e29}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!StackAllocator@{StackAllocator}}
+\index{StackAllocator@{StackAllocator}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{StackAllocator()}{StackAllocator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Stack\+Allocator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ac1f5e9946a42290da68e86edf84cc528}\label{classROOT_1_1Minuit2_1_1StackAllocator_ac1f5e9946a42290da68e86edf84cc528}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!````~StackAllocator@{$\sim$StackAllocator}}
+\index{````~StackAllocator@{$\sim$StackAllocator}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{$\sim$StackAllocator()}{~StackAllocator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::$\sim$\+Stack\+Allocator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1}\label{classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!AlignedSize@{AlignedSize}}
+\index{AlignedSize@{AlignedSize}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{AlignedSize()}{AlignedSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Aligned\+Size (\begin{DoxyParamCaption}\item[{int}]{n\+Bytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1}\label{classROOT_1_1Minuit2_1_1StackAllocator_ab40fb208cf8d4c0b3edf51137672c3d1}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!AlignedSize@{AlignedSize}}
+\index{AlignedSize@{AlignedSize}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{AlignedSize()}{AlignedSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Aligned\+Size (\begin{DoxyParamCaption}\item[{int}]{n\+Bytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03}\label{classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!Allocate@{Allocate}}
+\index{Allocate@{Allocate}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{Allocate()}{Allocate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Allocate (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{n\+Bytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03}\label{classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!Allocate@{Allocate}}
+\index{Allocate@{Allocate}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{Allocate()}{Allocate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Allocate (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{n\+Bytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a1fb4d1744055446776080af229679e03_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d}\label{classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!CheckConsistency@{CheckConsistency}}
+\index{CheckConsistency@{CheckConsistency}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{CheckConsistency()}{CheckConsistency()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Check\+Consistency (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d}\label{classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!CheckConsistency@{CheckConsistency}}
+\index{CheckConsistency@{CheckConsistency}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{CheckConsistency()}{CheckConsistency()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Check\+Consistency (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ad1189cdc76a07c36ef1924ad2488797d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e}\label{classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!CheckOverflow@{CheckOverflow}}
+\index{CheckOverflow@{CheckOverflow}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{CheckOverflow()}{CheckOverflow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Check\+Overflow (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e}\label{classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!CheckOverflow@{CheckOverflow}}
+\index{CheckOverflow@{CheckOverflow}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{CheckOverflow()}{CheckOverflow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Check\+Overflow (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a96a7565f7b4bb269f740901eef54a97e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c}\label{classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!Deallocate@{Deallocate}}
+\index{Deallocate@{Deallocate}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{Deallocate()}{Deallocate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Deallocate (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c}\label{classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!Deallocate@{Deallocate}}
+\index{Deallocate@{Deallocate}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{Deallocate()}{Deallocate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Deallocate (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_ac36426e01e1474491cef1b203dba2f0c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd}\label{classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!ReadInt@{ReadInt}}
+\index{ReadInt@{ReadInt}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{ReadInt()}{ReadInt()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Read\+Int (\begin{DoxyParamCaption}\item[{int}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd}\label{classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!ReadInt@{ReadInt}}
+\index{ReadInt@{ReadInt}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{ReadInt()}{ReadInt()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Read\+Int (\begin{DoxyParamCaption}\item[{int}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a811df825be4e6f67dc5a9139eb2edfdd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5}\label{classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!ToInt@{ToInt}}
+\index{ToInt@{ToInt}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{ToInt()}{ToInt()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+To\+Int (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5}\label{classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!ToInt@{ToInt}}
+\index{ToInt@{ToInt}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{ToInt()}{ToInt()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+To\+Int (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a8c8afb9902a08eec0ec7c863636694e5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e}\label{classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!WriteInt@{WriteInt}}
+\index{WriteInt@{WriteInt}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{WriteInt()}{WriteInt()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Write\+Int (\begin{DoxyParamCaption}\item[{int}]{offset,  }\item[{int}]{Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d3/d1e/classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e}\label{classROOT_1_1Minuit2_1_1StackAllocator_a1f87ef34658b74aa3fff9abd1cd1094e}} 
+\index{ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}!WriteInt@{WriteInt}}
+\index{WriteInt@{WriteInt}!ROOT::Minuit2::StackAllocator@{ROOT::Minuit2::StackAllocator}}
+\subsubsection{\texorpdfstring{WriteInt()}{WriteInt()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Stack\+Allocator\+::\+Write\+Int (\begin{DoxyParamCaption}\item[{int}]{offset,  }\item[{int}]{Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2StackAllocator_8h}{Stack\+Allocator.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,57 @@
+\hypertarget{lib_2hadron_2hadron__vertex_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/hadron\+\_\+vertex.h File Reference}
+\label{lib_2hadron_2hadron__vertex_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/hadron\_vertex.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/hadron\_vertex.h}}
+
+
+Reduced set of hadron vertex info.  
+
+
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xmlio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+io.\+h\char`\"{}}\newline
+Include dependency graph for hadron\+\_\+vertex.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{d9/de3/lib_2hadron_2hadron__vertex_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d05/lib_2hadron_2hadron__vertex_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1HadronVertex__t}{Hadron\+::\+Hadron\+Vertex\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em The key for the hadron nodes used here. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespaceHadron_af09f672981980cb11de931b95576f828}{Hadron\+::operator==}} (const Hadron\+Vertex\+\_\+t \&a, const Hadron\+Vertex\+\_\+t \&b)
+\begin{DoxyCompactList}\small\item\em Equality. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespaceHadron_a43c37405dc872b3d2d1f477ca914424a}{Hadron\+::operator$<$}} (const Hadron\+Vertex\+\_\+t \&a, const Hadron\+Vertex\+\_\+t \&b)
+\begin{DoxyCompactList}\small\item\em Comparison. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespaceHadron_a341b896434c5621c127ef5066c50c7f0}{Hadron\+::operator$>$}} (const Hadron\+Vertex\+\_\+t \&a, const Hadron\+Vertex\+\_\+t \&b)
+\begin{DoxyCompactList}\small\item\em Comparison. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_ac4fad3eded4cdc1e5e3a20c089ff92c7}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Hadron\+Vertex\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Used for output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a83c06845cd19520623de3b0074b9d25c}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Hadron\+Vertex\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Hadron\+Vertex reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a9309edc67ae704a831f01ae854c5bf12}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Hadron\+Vertex\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Hadron\+Vertex writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a2aedc52f1b4f522f0fc13bbf7426e727}{Hadron\+::read}} (Binary\+Reader \&bin, Hadron\+Vertex\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a6d8b26c4e0e11ca4b20e046f2595326e}{Hadron\+::write}} (Binary\+Writer \&bin, const Hadron\+Vertex\+\_\+t \&op)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Reduced set of hadron vertex info. 
+

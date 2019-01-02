@@ -1,0 +1,628 @@
+\hypertarget{classADAT_1_1Array2dO}{}\section{A\+D\+AT\+:\+:Array2dO$<$ T $>$ Class Template Reference}
+\label{classADAT_1_1Array2dO}\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+
+
+2d array, with 1-\/based indices  
+
+
+
+
+{\ttfamily \#include $<$adat\+\_\+arrays.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_ad54b38527daf48956f3de486768f11b0}{Array2dO}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_a4672a22c0a06c8bd84cc4bb60f4f5220}{Array2dO}} (int n)
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_aeb2cee33d054dc6f4e4db1b8d5b9b06f}{Array2dO}} (int n2, int n1)
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_a8877788a45155005f08d8b7b02db82b0}{$\sim$\+Array2dO}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_a9d759d2058e98b6ce4b2e1a373075bc0}{Array2dO}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247}{resize}} (int n2, int n1)
+\item 
+void \mbox{\hyperlink{classADAT_1_1Array2dO_aebe81d1fc5cdfea1b7a36effad3fb2e2}{resize}} (int n)
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a2f8311cdee5283e57e5d13887a463123}{size}} () const
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a8713bf273adbc5e2313e1afd8f88fe7c}{size1}} () const
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a0e743678b1d8c06547715d8929c9b2bf}{size2}} () const
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a8c2e98f898dd0406c9ac9c9e04b1eb0d}{nrows}} () const
+\begin{DoxyCompactList}\small\item\em Another variant on the size of the 2d array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a68d75259fbc18eb14504e3b6d74f2484}{ncols}} () const
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a258fcfecc226990cc40b36f1edb2f4d5}{operator=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s)
+\item 
+{\footnotesize template$<$typename T1 $>$ }\\\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a82bf731b5d6edfc53b941b5815647a6e}{operator=}} (const T1 \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator uses underlying = of T. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1Array2dO_ace450ca2a5484194b075e240750cfeae}{operator()}} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1Array2dO_a3093245fdc65b66ac6d410d66feb2020}{operator()}} (int i, int j) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_a376d2e36985a9c05e09bd33244865997}{ref}} () const
+\begin{DoxyCompactList}\small\item\em Return ref to underlying array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_aa409325aa8f61b6f9a6aeeca2746b4cb}{ref}} ()
+\begin{DoxyCompactList}\small\item\em Return ref to underlying array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_af8304f9edc7ab12b002b6a96f02a2111}{operator$\ast$=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Mult-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a04e77d7a878bbf9ecf4e890848f09009}{operator/=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Divide-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_ad74aea8e13378655e8abe2a2bbddb7bc}{operator+=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Add-\/to on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a16fa54fe6c722762ce47b1d9f56b195a}{operator-\/=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Subtract-\/from on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_a12856ac75f975aa6b013eac9eadd7180}{operator$\ast$=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Mult-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_ae0c954c51dfb1165b2afdd6152417fcf}{operator/=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Divide-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_ae36484e0516c671683a97079f32bd6d8}{operator+=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Add-\/to on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_a5facf357c8c8f28555fe851dce2d039c}{operator-\/=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Subtract-\/from on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_ad54b38527daf48956f3de486768f11b0}{Array2dO}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_a4672a22c0a06c8bd84cc4bb60f4f5220}{Array2dO}} (int n)
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_aeb2cee33d054dc6f4e4db1b8d5b9b06f}{Array2dO}} (int n2, int n1)
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_a8877788a45155005f08d8b7b02db82b0}{$\sim$\+Array2dO}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO_a9d759d2058e98b6ce4b2e1a373075bc0}{Array2dO}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247}{resize}} (int n2, int n1)
+\item 
+void \mbox{\hyperlink{classADAT_1_1Array2dO_aebe81d1fc5cdfea1b7a36effad3fb2e2}{resize}} (int n)
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a2f8311cdee5283e57e5d13887a463123}{size}} () const
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a8713bf273adbc5e2313e1afd8f88fe7c}{size1}} () const
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a0e743678b1d8c06547715d8929c9b2bf}{size2}} () const
+\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a8c2e98f898dd0406c9ac9c9e04b1eb0d}{nrows}} () const
+\begin{DoxyCompactList}\small\item\em Another variant on the size of the 2d array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1Array2dO_a68d75259fbc18eb14504e3b6d74f2484}{ncols}} () const
+\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a258fcfecc226990cc40b36f1edb2f4d5}{operator=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s)
+\item 
+{\footnotesize template$<$typename T1 $>$ }\\\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a82bf731b5d6edfc53b941b5815647a6e}{operator=}} (const T1 \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator uses underlying = of T. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1Array2dO_ace450ca2a5484194b075e240750cfeae}{operator()}} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1Array2dO_a3093245fdc65b66ac6d410d66feb2020}{operator()}} (int i, int j) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_a376d2e36985a9c05e09bd33244865997}{ref}} () const
+\begin{DoxyCompactList}\small\item\em Return ref to underlying array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_aa409325aa8f61b6f9a6aeeca2746b4cb}{ref}} ()
+\begin{DoxyCompactList}\small\item\em Return ref to underlying array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_af8304f9edc7ab12b002b6a96f02a2111}{operator$\ast$=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Mult-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a04e77d7a878bbf9ecf4e890848f09009}{operator/=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Divide-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_ad74aea8e13378655e8abe2a2bbddb7bc}{operator+=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Add-\/to on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \& \mbox{\hyperlink{classADAT_1_1Array2dO_a16fa54fe6c722762ce47b1d9f56b195a}{operator-\/=}} (const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} \&s1)
+\begin{DoxyCompactList}\small\item\em Subtract-\/from on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_a12856ac75f975aa6b013eac9eadd7180}{operator$\ast$=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Mult-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_ae0c954c51dfb1165b2afdd6152417fcf}{operator/=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Divide-\/onto on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_ae36484e0516c671683a97079f32bd6d8}{operator+=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Add-\/to on each element. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1Array2dO_a5facf357c8c8f28555fe851dce2d039c}{operator-\/=}} (const T \&s1)
+\begin{DoxyCompactList}\small\item\em Subtract-\/from on each element. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$\newline
+class A\+D\+A\+T\+::\+Array2d\+O$<$ T $>$}
+
+2d array, with 1-\/based indices 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ad54b38527daf48956f3de486768f11b0}\label{classADAT_1_1Array2dO_ad54b38527daf48956f3de486768f11b0}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a4672a22c0a06c8bd84cc4bb60f4f5220}\label{classADAT_1_1Array2dO_a4672a22c0a06c8bd84cc4bb60f4f5220}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_aeb2cee33d054dc6f4e4db1b8d5b9b06f}\label{classADAT_1_1Array2dO_aeb2cee33d054dc6f4e4db1b8d5b9b06f}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a8877788a45155005f08d8b7b02db82b0}\label{classADAT_1_1Array2dO_a8877788a45155005f08d8b7b02db82b0}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!````~Array2dO@{$\sim$Array2dO}}
+\index{````~Array2dO@{$\sim$Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$Array2dO()}{~Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a9d759d2058e98b6ce4b2e1a373075bc0}\label{classADAT_1_1Array2dO_a9d759d2058e98b6ce4b2e1a373075bc0}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Copy constructor. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ad54b38527daf48956f3de486768f11b0}\label{classADAT_1_1Array2dO_ad54b38527daf48956f3de486768f11b0}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a4672a22c0a06c8bd84cc4bb60f4f5220}\label{classADAT_1_1Array2dO_a4672a22c0a06c8bd84cc4bb60f4f5220}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_aeb2cee33d054dc6f4e4db1b8d5b9b06f}\label{classADAT_1_1Array2dO_aeb2cee33d054dc6f4e4db1b8d5b9b06f}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a8877788a45155005f08d8b7b02db82b0}\label{classADAT_1_1Array2dO_a8877788a45155005f08d8b7b02db82b0}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!````~Array2dO@{$\sim$Array2dO}}
+\index{````~Array2dO@{$\sim$Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$Array2dO()}{~Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a9d759d2058e98b6ce4b2e1a373075bc0}\label{classADAT_1_1Array2dO_a9d759d2058e98b6ce4b2e1a373075bc0}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!Array2dO@{Array2dO}}
+\index{Array2dO@{Array2dO}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{Array2dO()}{Array2dO()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Copy constructor. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a68d75259fbc18eb14504e3b6d74f2484}\label{classADAT_1_1Array2dO_a68d75259fbc18eb14504e3b6d74f2484}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!ncols@{ncols}}
+\index{ncols@{ncols}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{ncols()}{ncols()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::ncols (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a68d75259fbc18eb14504e3b6d74f2484}\label{classADAT_1_1Array2dO_a68d75259fbc18eb14504e3b6d74f2484}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!ncols@{ncols}}
+\index{ncols@{ncols}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{ncols()}{ncols()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::ncols (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a8c2e98f898dd0406c9ac9c9e04b1eb0d}\label{classADAT_1_1Array2dO_a8c2e98f898dd0406c9ac9c9e04b1eb0d}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!nrows@{nrows}}
+\index{nrows@{nrows}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{nrows()}{nrows()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::nrows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Another variant on the size of the 2d array. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a8c2e98f898dd0406c9ac9c9e04b1eb0d}\label{classADAT_1_1Array2dO_a8c2e98f898dd0406c9ac9c9e04b1eb0d}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!nrows@{nrows}}
+\index{nrows@{nrows}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{nrows()}{nrows()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::nrows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Another variant on the size of the 2d array. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ace450ca2a5484194b075e240750cfeae}\label{classADAT_1_1Array2dO_ace450ca2a5484194b075e240750cfeae}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ace450ca2a5484194b075e240750cfeae}\label{classADAT_1_1Array2dO_ace450ca2a5484194b075e240750cfeae}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a3093245fdc65b66ac6d410d66feb2020}\label{classADAT_1_1Array2dO_a3093245fdc65b66ac6d410d66feb2020}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a3093245fdc65b66ac6d410d66feb2020}\label{classADAT_1_1Array2dO_a3093245fdc65b66ac6d410d66feb2020}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_af8304f9edc7ab12b002b6a96f02a2111}\label{classADAT_1_1Array2dO_af8304f9edc7ab12b002b6a96f02a2111}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mult-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_af8304f9edc7ab12b002b6a96f02a2111}\label{classADAT_1_1Array2dO_af8304f9edc7ab12b002b6a96f02a2111}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mult-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a12856ac75f975aa6b013eac9eadd7180}\label{classADAT_1_1Array2dO_a12856ac75f975aa6b013eac9eadd7180}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mult-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a12856ac75f975aa6b013eac9eadd7180}\label{classADAT_1_1Array2dO_a12856ac75f975aa6b013eac9eadd7180}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mult-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ad74aea8e13378655e8abe2a2bbddb7bc}\label{classADAT_1_1Array2dO_ad74aea8e13378655e8abe2a2bbddb7bc}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add-\/to on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ad74aea8e13378655e8abe2a2bbddb7bc}\label{classADAT_1_1Array2dO_ad74aea8e13378655e8abe2a2bbddb7bc}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add-\/to on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ae36484e0516c671683a97079f32bd6d8}\label{classADAT_1_1Array2dO_ae36484e0516c671683a97079f32bd6d8}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add-\/to on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ae36484e0516c671683a97079f32bd6d8}\label{classADAT_1_1Array2dO_ae36484e0516c671683a97079f32bd6d8}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add-\/to on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a16fa54fe6c722762ce47b1d9f56b195a}\label{classADAT_1_1Array2dO_a16fa54fe6c722762ce47b1d9f56b195a}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Subtract-\/from on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a16fa54fe6c722762ce47b1d9f56b195a}\label{classADAT_1_1Array2dO_a16fa54fe6c722762ce47b1d9f56b195a}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Subtract-\/from on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a5facf357c8c8f28555fe851dce2d039c}\label{classADAT_1_1Array2dO_a5facf357c8c8f28555fe851dce2d039c}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Subtract-\/from on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a5facf357c8c8f28555fe851dce2d039c}\label{classADAT_1_1Array2dO_a5facf357c8c8f28555fe851dce2d039c}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Subtract-\/from on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a04e77d7a878bbf9ecf4e890848f09009}\label{classADAT_1_1Array2dO_a04e77d7a878bbf9ecf4e890848f09009}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Divide-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a04e77d7a878bbf9ecf4e890848f09009}\label{classADAT_1_1Array2dO_a04e77d7a878bbf9ecf4e890848f09009}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Divide-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ae0c954c51dfb1165b2afdd6152417fcf}\label{classADAT_1_1Array2dO_ae0c954c51dfb1165b2afdd6152417fcf}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Divide-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_ae0c954c51dfb1165b2afdd6152417fcf}\label{classADAT_1_1Array2dO_ae0c954c51dfb1165b2afdd6152417fcf}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{const T \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Divide-\/onto on each element. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a258fcfecc226990cc40b36f1edb2f4d5}\label{classADAT_1_1Array2dO_a258fcfecc226990cc40b36f1edb2f4d5}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a258fcfecc226990cc40b36f1edb2f4d5}\label{classADAT_1_1Array2dO_a258fcfecc226990cc40b36f1edb2f4d5}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a82bf731b5d6edfc53b941b5815647a6e}\label{classADAT_1_1Array2dO_a82bf731b5d6edfc53b941b5815647a6e}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+template$<$typename T1 $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const T1 \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator uses underlying = of T. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a82bf731b5d6edfc53b941b5815647a6e}\label{classADAT_1_1Array2dO_a82bf731b5d6edfc53b941b5815647a6e}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+template$<$typename T1 $>$ \\
+\mbox{\hyperlink{classADAT_1_1Array2dO}{Array2dO}}\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const T1 \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator uses underlying = of T. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a376d2e36985a9c05e09bd33244865997}\label{classADAT_1_1Array2dO_a376d2e36985a9c05e09bd33244865997}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!ref@{ref}}
+\index{ref@{ref}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{ref()}{ref()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to underlying array. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a376d2e36985a9c05e09bd33244865997}\label{classADAT_1_1Array2dO_a376d2e36985a9c05e09bd33244865997}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!ref@{ref}}
+\index{ref@{ref}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{ref()}{ref()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to underlying array. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_aa409325aa8f61b6f9a6aeeca2746b4cb}\label{classADAT_1_1Array2dO_aa409325aa8f61b6f9a6aeeca2746b4cb}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!ref@{ref}}
+\index{ref@{ref}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{ref()}{ref()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to underlying array. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_aa409325aa8f61b6f9a6aeeca2746b4cb}\label{classADAT_1_1Array2dO_aa409325aa8f61b6f9a6aeeca2746b4cb}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!ref@{ref}}
+\index{ref@{ref}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{ref()}{ref()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to underlying array. 
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247}\label{classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{da/d08/classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247}\label{classADAT_1_1Array2dO_abccbac468c29e2d8a24b9cd317e92247}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_aebe81d1fc5cdfea1b7a36effad3fb2e2}\label{classADAT_1_1Array2dO_aebe81d1fc5cdfea1b7a36effad3fb2e2}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_aebe81d1fc5cdfea1b7a36effad3fb2e2}\label{classADAT_1_1Array2dO_aebe81d1fc5cdfea1b7a36effad3fb2e2}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a2f8311cdee5283e57e5d13887a463123}\label{classADAT_1_1Array2dO_a2f8311cdee5283e57e5d13887a463123}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!size@{size}}
+\index{size@{size}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a2f8311cdee5283e57e5d13887a463123}\label{classADAT_1_1Array2dO_a2f8311cdee5283e57e5d13887a463123}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!size@{size}}
+\index{size@{size}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a8713bf273adbc5e2313e1afd8f88fe7c}\label{classADAT_1_1Array2dO_a8713bf273adbc5e2313e1afd8f88fe7c}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!size1@{size1}}
+\index{size1@{size1}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{size1()}{size1()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::size1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a8713bf273adbc5e2313e1afd8f88fe7c}\label{classADAT_1_1Array2dO_a8713bf273adbc5e2313e1afd8f88fe7c}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!size1@{size1}}
+\index{size1@{size1}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{size1()}{size1()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::size1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a0e743678b1d8c06547715d8929c9b2bf}\label{classADAT_1_1Array2dO_a0e743678b1d8c06547715d8929c9b2bf}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!size2@{size2}}
+\index{size2@{size2}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{size2()}{size2()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::size2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1Array2dO_a0e743678b1d8c06547715d8929c9b2bf}\label{classADAT_1_1Array2dO_a0e743678b1d8c06547715d8929c9b2bf}} 
+\index{ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}!size2@{size2}}
+\index{size2@{size2}!ADAT::Array2dO$<$ T $>$@{ADAT::Array2dO$<$ T $>$}}
+\subsubsection{\texorpdfstring{size2()}{size2()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1Array2dO}{A\+D\+A\+T\+::\+Array2dO}}$<$ T $>$\+::size2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/adat/\mbox{\hyperlink{lib_2adat_2adat__arrays_8h}{adat\+\_\+arrays.\+h}}\end{DoxyCompactItemize}

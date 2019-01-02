@@ -1,0 +1,498 @@
+\hypertarget{classUtil_1_1ObjectFactory}{}\section{Util\+:\+:Object\+Factory$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$ Class Template Reference}
+\label{classUtil_1_1ObjectFactory}\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+
+
+Object factory class.  
+
+
+
+
+{\ttfamily \#include $<$objfactory.\+h$>$}
+
+
+
+Inheritance diagram for Util\+:\+:Object\+Factory$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{d9/d7d/classUtil_1_1ObjectFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Util\+:\+:Object\+Factory$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{d6/d0b/classUtil_1_1ObjectFactory__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef T\+List \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 0, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 1, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 2, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 3, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 4, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 5, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}}
+\item 
+typedef T\+List \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 0, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 1, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 2, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 3, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 4, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}
+\item 
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}, 5, \mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}} $>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory_acb89fb305fe8ed1a52fa92d1f463d449}{exist}} (const Identifier\+Type \&id) const
+\begin{DoxyCompactList}\small\item\em Does this key exist? \end{DoxyCompactList}\item 
+std\+::vector$<$ Identifier\+Type $>$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a10d2a7a76f67d69f545b7fc69fdc71e0}{keys}} () const
+\begin{DoxyCompactList}\small\item\em Dump keys. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory_a2eb2f1fc927e23a1a266aa6fa8c6562a}{register\+Object}} (const Identifier\+Type \&id, Product\+Creator creator)
+\begin{DoxyCompactList}\small\item\em Register the object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory_afec1cc774d14a18875e6176695daa422}{unregister\+Object}} (const Identifier\+Type \&id)
+\begin{DoxyCompactList}\small\item\em Unregister the object. \end{DoxyCompactList}\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_acda1e4c447acbb9666db46d230b1a5a1}{create\+Object}} (const Identifier\+Type \&id)
+\begin{DoxyCompactList}\small\item\em Create the object. \end{DoxyCompactList}\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a0b22cb87ce4398b9529814cc0ede49e6}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1)
+\begin{DoxyCompactList}\small\item\em Create the object. \end{DoxyCompactList}\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a5a083061368895d734583729bea897c0}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_aad312d47c1cd31a138d6e22cc80d398b}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_ab8a1b44d8067c263fce0b4bd94f95ba0}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}} p4)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a5d085366c8d5d743bfc1745b02a4f4db}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}} p4, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}} p5)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a552e3347f54a8ccd4409e718b1e96422}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}} p4, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}} p5, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}} p6)
+\item 
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory_acb89fb305fe8ed1a52fa92d1f463d449}{exist}} (const Identifier\+Type \&id) const
+\begin{DoxyCompactList}\small\item\em Does this key exist? \end{DoxyCompactList}\item 
+std\+::vector$<$ Identifier\+Type $>$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a10d2a7a76f67d69f545b7fc69fdc71e0}{keys}} () const
+\begin{DoxyCompactList}\small\item\em Dump keys. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory_a2eb2f1fc927e23a1a266aa6fa8c6562a}{register\+Object}} (const Identifier\+Type \&id, Product\+Creator creator)
+\begin{DoxyCompactList}\small\item\em Register the object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory_afec1cc774d14a18875e6176695daa422}{unregister\+Object}} (const Identifier\+Type \&id)
+\begin{DoxyCompactList}\small\item\em Unregister the object. \end{DoxyCompactList}\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_acda1e4c447acbb9666db46d230b1a5a1}{create\+Object}} (const Identifier\+Type \&id)
+\begin{DoxyCompactList}\small\item\em Create the object. \end{DoxyCompactList}\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a0b22cb87ce4398b9529814cc0ede49e6}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1)
+\begin{DoxyCompactList}\small\item\em Create the object. \end{DoxyCompactList}\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a5a083061368895d734583729bea897c0}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_aad312d47c1cd31a138d6e22cc80d398b}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_ab8a1b44d8067c263fce0b4bd94f95ba0}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}} p4)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a5d085366c8d5d743bfc1745b02a4f4db}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}} p4, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}} p5)
+\item 
+Abstract\+Product $\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory_a552e3347f54a8ccd4409e718b1e96422}{create\+Object}} (const Identifier\+Type \&id, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}} p1, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}} p2, \mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}} p3, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}} p4, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}} p5, \mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}} p6)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Abstract\+Product, typename Identifier\+Type, class T\+List = Null\+Type, typename Product\+Creator = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$\newline
+class Util\+::\+Object\+Factory$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$}
+
+Object factory class. 
+
+Supports abstract creation of objects 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}\label{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm1@{Parm1}}
+\index{Parm1@{Parm1}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm1}{Parm1}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},0,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}\label{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm1@{Parm1}}
+\index{Parm1@{Parm1}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm1}{Parm1}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},0,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}\label{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm2@{Parm2}}
+\index{Parm2@{Parm2}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm2}{Parm2}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},1,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}\label{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm2@{Parm2}}
+\index{Parm2@{Parm2}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm2}{Parm2}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},1,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}\label{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm3@{Parm3}}
+\index{Parm3@{Parm3}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm3}{Parm3}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},2,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}\label{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm3@{Parm3}}
+\index{Parm3@{Parm3}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm3}{Parm3}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},2,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}\label{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm4@{Parm4}}
+\index{Parm4@{Parm4}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm4}{Parm4}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},3,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}\label{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm4@{Parm4}}
+\index{Parm4@{Parm4}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm4}{Parm4}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},3,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}\label{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm5@{Parm5}}
+\index{Parm5@{Parm5}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm5}{Parm5}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},4,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}\label{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm5@{Parm5}}
+\index{Parm5@{Parm5}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm5}{Parm5}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},4,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}\label{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm6@{Parm6}}
+\index{Parm6@{Parm6}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm6}{Parm6}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},5,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}\label{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!Parm6@{Parm6}}
+\index{Parm6@{Parm6}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{Parm6}{Parm6}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef \mbox{\hyperlink{structUtil_1_1TL_1_1TypeAtNonStrict}{T\+L\+::\+Type\+At\+Non\+Strict}}$<$\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}},5,\mbox{\hyperlink{classUtil_1_1NullType}{Null\+Type}}$>$\+::Result \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}\label{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!ParmList@{ParmList}}
+\index{ParmList@{ParmList}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{ParmList}{ParmList}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef T\+List \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}\label{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!ParmList@{ParmList}}
+\index{ParmList@{ParmList}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{ParmList}{ParmList}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+typedef T\+List \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::\mbox{\hyperlink{classUtil_1_1ObjectFactory_a46f003a5928e8a60140e0a74ac261c36}{Parm\+List}}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_acda1e4c447acbb9666db46d230b1a5a1}\label{classUtil_1_1ObjectFactory_acda1e4c447acbb9666db46d230b1a5a1}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns pointer to the object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_acda1e4c447acbb9666db46d230b1a5a1}\label{classUtil_1_1ObjectFactory_acda1e4c447acbb9666db46d230b1a5a1}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns pointer to the object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a0b22cb87ce4398b9529814cc0ede49e6}\label{classUtil_1_1ObjectFactory_a0b22cb87ce4398b9529814cc0ede49e6}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [3/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+{\em p1} & first parameter arg to callback \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns pointer to the object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a0b22cb87ce4398b9529814cc0ede49e6}\label{classUtil_1_1ObjectFactory_a0b22cb87ce4398b9529814cc0ede49e6}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [4/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+{\em p1} & first parameter arg to callback \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns pointer to the object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a5a083061368895d734583729bea897c0}\label{classUtil_1_1ObjectFactory_a5a083061368895d734583729bea897c0}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [5/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a5a083061368895d734583729bea897c0}\label{classUtil_1_1ObjectFactory_a5a083061368895d734583729bea897c0}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [6/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_aad312d47c1cd31a138d6e22cc80d398b}\label{classUtil_1_1ObjectFactory_aad312d47c1cd31a138d6e22cc80d398b}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [7/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_aad312d47c1cd31a138d6e22cc80d398b}\label{classUtil_1_1ObjectFactory_aad312d47c1cd31a138d6e22cc80d398b}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [8/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_ab8a1b44d8067c263fce0b4bd94f95ba0}\label{classUtil_1_1ObjectFactory_ab8a1b44d8067c263fce0b4bd94f95ba0}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [9/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}]{p4 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_ab8a1b44d8067c263fce0b4bd94f95ba0}\label{classUtil_1_1ObjectFactory_ab8a1b44d8067c263fce0b4bd94f95ba0}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [10/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}]{p4 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a5d085366c8d5d743bfc1745b02a4f4db}\label{classUtil_1_1ObjectFactory_a5d085366c8d5d743bfc1745b02a4f4db}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [11/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}]{p4,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}}]{p5 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a5d085366c8d5d743bfc1745b02a4f4db}\label{classUtil_1_1ObjectFactory_a5d085366c8d5d743bfc1745b02a4f4db}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [12/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}]{p4,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}}]{p5 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a552e3347f54a8ccd4409e718b1e96422}\label{classUtil_1_1ObjectFactory_a552e3347f54a8ccd4409e718b1e96422}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [13/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}]{p4,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}}]{p5,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}}}]{p6 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a552e3347f54a8ccd4409e718b1e96422}\label{classUtil_1_1ObjectFactory_a552e3347f54a8ccd4409e718b1e96422}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!createObject@{createObject}}
+\index{createObject@{createObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{createObject()}{createObject()}\hspace{0.1cm}{\footnotesize\ttfamily [14/14]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+Abstract\+Product$\ast$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::create\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a47e4f863537be7a4f5f5972691bb0b57}{Parm1}}}]{p1,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae438d0c17d1510e6fd7db9ac479a371f}{Parm2}}}]{p2,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_ae5c679dd2f210e0a5ad257b336f754fb}{Parm3}}}]{p3,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a052f09d9e81b11d98bb53a52f327cf01}{Parm4}}}]{p4,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a11006cc1ea90957dd8e5604c2d9e069d}{Parm5}}}]{p5,  }\item[{\mbox{\hyperlink{classUtil_1_1ObjectFactory_a9f80d25e0964c0e4c204373cd651397a}{Parm6}}}]{p6 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_acb89fb305fe8ed1a52fa92d1f463d449}\label{classUtil_1_1ObjectFactory_acb89fb305fe8ed1a52fa92d1f463d449}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!exist@{exist}}
+\index{exist@{exist}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{exist()}{exist()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::exist (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Does this key exist? 
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_acb89fb305fe8ed1a52fa92d1f463d449}\label{classUtil_1_1ObjectFactory_acb89fb305fe8ed1a52fa92d1f463d449}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!exist@{exist}}
+\index{exist@{exist}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{exist()}{exist()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::exist (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Does this key exist? 
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a10d2a7a76f67d69f545b7fc69fdc71e0}\label{classUtil_1_1ObjectFactory_a10d2a7a76f67d69f545b7fc69fdc71e0}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!keys@{keys}}
+\index{keys@{keys}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{keys()}{keys()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+std\+::vector$<$Identifier\+Type$>$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Dump keys. 
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a10d2a7a76f67d69f545b7fc69fdc71e0}\label{classUtil_1_1ObjectFactory_a10d2a7a76f67d69f545b7fc69fdc71e0}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!keys@{keys}}
+\index{keys@{keys}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{keys()}{keys()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+std\+::vector$<$Identifier\+Type$>$ \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Dump keys. 
+
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a2eb2f1fc927e23a1a266aa6fa8c6562a}\label{classUtil_1_1ObjectFactory_a2eb2f1fc927e23a1a266aa6fa8c6562a}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!registerObject@{registerObject}}
+\index{registerObject@{registerObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{registerObject()}{registerObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::register\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{Product\+Creator}]{creator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Register the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+{\em creator} & the callback function to create the object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if registration successful 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_a2eb2f1fc927e23a1a266aa6fa8c6562a}\label{classUtil_1_1ObjectFactory_a2eb2f1fc927e23a1a266aa6fa8c6562a}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!registerObject@{registerObject}}
+\index{registerObject@{registerObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{registerObject()}{registerObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::register\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id,  }\item[{Product\+Creator}]{creator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Register the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+{\em creator} & the callback function to create the object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if registration successful 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_afec1cc774d14a18875e6176695daa422}\label{classUtil_1_1ObjectFactory_afec1cc774d14a18875e6176695daa422}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!unregisterObject@{unregisterObject}}
+\index{unregisterObject@{unregisterObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{unregisterObject()}{unregisterObject()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::unregister\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Unregister the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if object name was registered before 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtil_1_1ObjectFactory_afec1cc774d14a18875e6176695daa422}\label{classUtil_1_1ObjectFactory_afec1cc774d14a18875e6176695daa422}} 
+\index{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}!unregisterObject@{unregisterObject}}
+\index{unregisterObject@{unregisterObject}!Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$@{Util::ObjectFactory$<$ AbstractProduct, IdentifierType, TList, ProductCreator, FactoryErrorPolicy $>$}}
+\subsubsection{\texorpdfstring{unregisterObject()}{unregisterObject()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Abstract\+Product , typename Identifier\+Type , class T\+List  = Null\+Type, typename Product\+Creator  = Abstract\+Product$\ast$ ($\ast$)(), template$<$ typename, class $>$ class Factory\+Error\+Policy = Default\+Factory\+Error$>$ \\
+bool \mbox{\hyperlink{classUtil_1_1ObjectFactory}{Util\+::\+Object\+Factory}}$<$ Abstract\+Product, Identifier\+Type, T\+List, Product\+Creator, Factory\+Error\+Policy $>$\+::unregister\+Object (\begin{DoxyParamCaption}\item[{const Identifier\+Type \&}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Unregister the object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & object id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if object name was registered before 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/adat/\mbox{\hyperlink{lib_2adat_2objfactory_8h}{objfactory.\+h}}\end{DoxyCompactItemize}

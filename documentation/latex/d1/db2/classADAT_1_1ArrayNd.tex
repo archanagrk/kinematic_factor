@@ -1,0 +1,817 @@
+\hypertarget{classADAT_1_1ArrayNd}{}\section{A\+D\+AT\+:\+:Array\+Nd$<$ T $>$ Class Template Reference}
+\label{classADAT_1_1ArrayNd}\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+
+
+Container for a generic N dimensional array.  
+
+
+
+
+{\ttfamily \#include $<$adat\+\_\+arraynd.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_aafdf6b588aa54b3d59b6952971bcdce4}{Array\+Nd}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_aea668cd9a67b06d552e4acb9a7dec98c}{Array\+Nd}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&\+\_\+nz)
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_a040990cb205b2c2b5eb2f5d0594408b9}{$\sim$\+Array\+Nd}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_a8aec6c75f499b938b8702d4eab1699b8}{Array\+Nd}} (const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} \&s)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e}{resize}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&\+\_\+nz)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_a31eb805d0f039712a9b83609dd828d91}{resize}} (int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_ac66a29c373d99ae8ead2344c1024489e}{resize}} (int n2, int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_a1b042ead88dae6696d7a0c77fd01ddfa}{resize}} (int n3, int n2, int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_a2a54d490a8a0a7aa9aeeaee6e6a84b90}{resize}} (int n4, int n3, int n2, int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1ArrayNd_a3f681a80aee7e76cc959431f45d931f8}{rank}} () const
+\begin{DoxyCompactList}\small\item\em Rank of the array -\/ number of dimensions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912}{size}} (int i) const
+\begin{DoxyCompactList}\small\item\em Size of i-\/th array index. Indices run from left to right in operator() \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a81494e519c7c5fae6e7ef2e2b46ba24b}{size}} () const
+\begin{DoxyCompactList}\small\item\em Size of an array containing sizes of each index. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9}{num\+Elem}} () const
+\begin{DoxyCompactList}\small\item\em Number of elements in the array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_ae3c6bdf408c630fc44a7c6dcdac94ae1}{operator=}} (const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator uses underlying = of T. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a3290ebbe75b40ebde8f3506f2aea64a5}{operator=}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator on an Array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a95293530c9643394ae8133f0203d342b}{operator=}} (const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator on an Array2d. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_aa02a148fb7073245d21688eaa40d820b}{operator=}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator on an Array3d. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a4b2d8a768beccefe12844f27c50b058b}{operator=}} (const T1 \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator uses underlying = of T. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a927bb95e9323c4f74e0721ee867bcb64}{operator()}} (int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a0b16b5d4f7eed2684623a9c1dbcfeebe}{operator()}} (int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a935f9f5199e47612b81056ac7b654c24}{operator()}} (int j, int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a476aa275f16078c90cb745312f344194}{operator()}} (int j, int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a8c15c0d70203e59f5f746350eb6262a9}{operator()}} (int k, int j, int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a1452ab01ffb2824ebcfa50ebbcdd7b8a}{operator()}} (int k, int j, int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a0d3dfd90a9e68964948dbccb48b18f1d}{operator()}} (int l, int k, int j, int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_aa2f8e4f6fa9a05745538791ba4f70aff}{operator()}} (int l, int k, int j, int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a5689e9a64be5914877dc3882cc68a283}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind)
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a3b7160cbd3939f68f4a23df8cc56d2df}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind) const
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2}{get\+Elem}} (int off)
+\begin{DoxyCompactList}\small\item\em Return ref to an element with index flattened over indices. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a515368f71387996ee237309eb1f0cc2e}{get\+Elem}} (int off) const
+\begin{DoxyCompactList}\small\item\em Return const-\/ref to an element with index flattened over indices. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_aafdf6b588aa54b3d59b6952971bcdce4}{Array\+Nd}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_aea668cd9a67b06d552e4acb9a7dec98c}{Array\+Nd}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&\+\_\+nz)
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_a040990cb205b2c2b5eb2f5d0594408b9}{$\sim$\+Array\+Nd}} ()
+\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd_a8aec6c75f499b938b8702d4eab1699b8}{Array\+Nd}} (const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} \&s)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e}{resize}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&\+\_\+nz)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_a31eb805d0f039712a9b83609dd828d91}{resize}} (int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_ac66a29c373d99ae8ead2344c1024489e}{resize}} (int n2, int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_a1b042ead88dae6696d7a0c77fd01ddfa}{resize}} (int n3, int n2, int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1ArrayNd_a2a54d490a8a0a7aa9aeeaee6e6a84b90}{resize}} (int n4, int n3, int n2, int n1)
+\begin{DoxyCompactList}\small\item\em Allocate mem for the array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1ArrayNd_a3f681a80aee7e76cc959431f45d931f8}{rank}} () const
+\begin{DoxyCompactList}\small\item\em Rank of the array -\/ number of dimensions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912}{size}} (int i) const
+\begin{DoxyCompactList}\small\item\em Size of i-\/th array index. Indices run from left to right in operator() \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a81494e519c7c5fae6e7ef2e2b46ba24b}{size}} () const
+\begin{DoxyCompactList}\small\item\em Size of an array containing sizes of each index. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9}{num\+Elem}} () const
+\begin{DoxyCompactList}\small\item\em Number of elements in the array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_ae3c6bdf408c630fc44a7c6dcdac94ae1}{operator=}} (const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator uses underlying = of T. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a3290ebbe75b40ebde8f3506f2aea64a5}{operator=}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator on an Array. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a95293530c9643394ae8133f0203d342b}{operator=}} (const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator on an Array2d. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_aa02a148fb7073245d21688eaa40d820b}{operator=}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator on an Array3d. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T1 $>$ }\\\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a4b2d8a768beccefe12844f27c50b058b}{operator=}} (const T1 \&s1)
+\begin{DoxyCompactList}\small\item\em Equal operator uses underlying = of T. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a927bb95e9323c4f74e0721ee867bcb64}{operator()}} (int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a0b16b5d4f7eed2684623a9c1dbcfeebe}{operator()}} (int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a935f9f5199e47612b81056ac7b654c24}{operator()}} (int j, int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a476aa275f16078c90cb745312f344194}{operator()}} (int j, int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a8c15c0d70203e59f5f746350eb6262a9}{operator()}} (int k, int j, int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a1452ab01ffb2824ebcfa50ebbcdd7b8a}{operator()}} (int k, int j, int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a0d3dfd90a9e68964948dbccb48b18f1d}{operator()}} (int l, int k, int j, int i)
+\begin{DoxyCompactList}\small\item\em Return ref to an element. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_aa2f8e4f6fa9a05745538791ba4f70aff}{operator()}} (int l, int k, int j, int i) const
+\begin{DoxyCompactList}\small\item\em Return const ref to an element. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a5689e9a64be5914877dc3882cc68a283}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind)
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a3b7160cbd3939f68f4a23df8cc56d2df}{operator\mbox{[}$\,$\mbox{]}}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&ind) const
+\begin{DoxyCompactList}\small\item\em Return ref to an element via indices packed in a Array array. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2}{get\+Elem}} (int off)
+\begin{DoxyCompactList}\small\item\em Return ref to an element with index flattened over indices. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{classADAT_1_1ArrayNd_a515368f71387996ee237309eb1f0cc2e}{get\+Elem}} (int off) const
+\begin{DoxyCompactList}\small\item\em Return const-\/ref to an element with index flattened over indices. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class A\+D\+A\+T\+::\+Array\+Nd$<$ T $>$}
+
+Container for a generic N dimensional array. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aafdf6b588aa54b3d59b6952971bcdce4}\label{classADAT_1_1ArrayNd_aafdf6b588aa54b3d59b6952971bcdce4}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!ArrayNd@{ArrayNd}}
+\index{ArrayNd@{ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{ArrayNd()}{ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aea668cd9a67b06d552e4acb9a7dec98c}\label{classADAT_1_1ArrayNd_aea668cd9a67b06d552e4acb9a7dec98c}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!ArrayNd@{ArrayNd}}
+\index{ArrayNd@{ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{ArrayNd()}{ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{\+\_\+nz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a040990cb205b2c2b5eb2f5d0594408b9}\label{classADAT_1_1ArrayNd_a040990cb205b2c2b5eb2f5d0594408b9}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!````~ArrayNd@{$\sim$ArrayNd}}
+\index{````~ArrayNd@{$\sim$ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$ArrayNd()}{~ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a8aec6c75f499b938b8702d4eab1699b8}\label{classADAT_1_1ArrayNd_a8aec6c75f499b938b8702d4eab1699b8}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!ArrayNd@{ArrayNd}}
+\index{ArrayNd@{ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{ArrayNd()}{ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Copy constructor. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aafdf6b588aa54b3d59b6952971bcdce4}\label{classADAT_1_1ArrayNd_aafdf6b588aa54b3d59b6952971bcdce4}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!ArrayNd@{ArrayNd}}
+\index{ArrayNd@{ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{ArrayNd()}{ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aea668cd9a67b06d552e4acb9a7dec98c}\label{classADAT_1_1ArrayNd_aea668cd9a67b06d552e4acb9a7dec98c}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!ArrayNd@{ArrayNd}}
+\index{ArrayNd@{ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{ArrayNd()}{ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{\+\_\+nz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a040990cb205b2c2b5eb2f5d0594408b9}\label{classADAT_1_1ArrayNd_a040990cb205b2c2b5eb2f5d0594408b9}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!````~ArrayNd@{$\sim$ArrayNd}}
+\index{````~ArrayNd@{$\sim$ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{$\sim$ArrayNd()}{~ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a8aec6c75f499b938b8702d4eab1699b8}\label{classADAT_1_1ArrayNd_a8aec6c75f499b938b8702d4eab1699b8}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!ArrayNd@{ArrayNd}}
+\index{ArrayNd@{ArrayNd}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{ArrayNd()}{ArrayNd()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Copy constructor. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2}\label{classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!getElem@{getElem}}
+\index{getElem@{getElem}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{getElem()}{getElem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::get\+Elem (\begin{DoxyParamCaption}\item[{int}]{off }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element with index flattened over indices. 
+
+Right index is fastest varying Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{d1/db2/classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2}\label{classADAT_1_1ArrayNd_abc5c56420a9625b236d4521acb083de2}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!getElem@{getElem}}
+\index{getElem@{getElem}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{getElem()}{getElem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::get\+Elem (\begin{DoxyParamCaption}\item[{int}]{off }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element with index flattened over indices. 
+
+Right index is fastest varying \mbox{\Hypertarget{classADAT_1_1ArrayNd_a515368f71387996ee237309eb1f0cc2e}\label{classADAT_1_1ArrayNd_a515368f71387996ee237309eb1f0cc2e}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!getElem@{getElem}}
+\index{getElem@{getElem}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{getElem()}{getElem()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::get\+Elem (\begin{DoxyParamCaption}\item[{int}]{off }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const-\/ref to an element with index flattened over indices. 
+
+Right index is fastest varying \mbox{\Hypertarget{classADAT_1_1ArrayNd_a515368f71387996ee237309eb1f0cc2e}\label{classADAT_1_1ArrayNd_a515368f71387996ee237309eb1f0cc2e}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!getElem@{getElem}}
+\index{getElem@{getElem}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{getElem()}{getElem()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::get\+Elem (\begin{DoxyParamCaption}\item[{int}]{off }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const-\/ref to an element with index flattened over indices. 
+
+Right index is fastest varying \mbox{\Hypertarget{classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9}\label{classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!numElem@{numElem}}
+\index{numElem@{numElem}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{numElem()}{numElem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::num\+Elem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Number of elements in the array. 
+
+The number of elements is the product of the sizes \mbox{\Hypertarget{classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9}\label{classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!numElem@{numElem}}
+\index{numElem@{numElem}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{numElem()}{numElem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::num\+Elem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Number of elements in the array. 
+
+The number of elements is the product of the sizes Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{d1/db2/classADAT_1_1ArrayNd_a5c33ae0e66b53a2fd86f804f0f4292e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a927bb95e9323c4f74e0721ee867bcb64}\label{classADAT_1_1ArrayNd_a927bb95e9323c4f74e0721ee867bcb64}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a927bb95e9323c4f74e0721ee867bcb64}\label{classADAT_1_1ArrayNd_a927bb95e9323c4f74e0721ee867bcb64}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a0b16b5d4f7eed2684623a9c1dbcfeebe}\label{classADAT_1_1ArrayNd_a0b16b5d4f7eed2684623a9c1dbcfeebe}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [3/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a0b16b5d4f7eed2684623a9c1dbcfeebe}\label{classADAT_1_1ArrayNd_a0b16b5d4f7eed2684623a9c1dbcfeebe}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [4/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a935f9f5199e47612b81056ac7b654c24}\label{classADAT_1_1ArrayNd_a935f9f5199e47612b81056ac7b654c24}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [5/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a935f9f5199e47612b81056ac7b654c24}\label{classADAT_1_1ArrayNd_a935f9f5199e47612b81056ac7b654c24}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [6/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a476aa275f16078c90cb745312f344194}\label{classADAT_1_1ArrayNd_a476aa275f16078c90cb745312f344194}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [7/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a476aa275f16078c90cb745312f344194}\label{classADAT_1_1ArrayNd_a476aa275f16078c90cb745312f344194}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [8/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a8c15c0d70203e59f5f746350eb6262a9}\label{classADAT_1_1ArrayNd_a8c15c0d70203e59f5f746350eb6262a9}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [9/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a8c15c0d70203e59f5f746350eb6262a9}\label{classADAT_1_1ArrayNd_a8c15c0d70203e59f5f746350eb6262a9}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [10/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a1452ab01ffb2824ebcfa50ebbcdd7b8a}\label{classADAT_1_1ArrayNd_a1452ab01ffb2824ebcfa50ebbcdd7b8a}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [11/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a1452ab01ffb2824ebcfa50ebbcdd7b8a}\label{classADAT_1_1ArrayNd_a1452ab01ffb2824ebcfa50ebbcdd7b8a}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [12/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a0d3dfd90a9e68964948dbccb48b18f1d}\label{classADAT_1_1ArrayNd_a0d3dfd90a9e68964948dbccb48b18f1d}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [13/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{l,  }\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a0d3dfd90a9e68964948dbccb48b18f1d}\label{classADAT_1_1ArrayNd_a0d3dfd90a9e68964948dbccb48b18f1d}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [14/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{l,  }\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aa2f8e4f6fa9a05745538791ba4f70aff}\label{classADAT_1_1ArrayNd_aa2f8e4f6fa9a05745538791ba4f70aff}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [15/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{l,  }\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aa2f8e4f6fa9a05745538791ba4f70aff}\label{classADAT_1_1ArrayNd_aa2f8e4f6fa9a05745538791ba4f70aff}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [16/16]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator() (\begin{DoxyParamCaption}\item[{int}]{l,  }\item[{int}]{k,  }\item[{int}]{j,  }\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return const ref to an element. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_ae3c6bdf408c630fc44a7c6dcdac94ae1}\label{classADAT_1_1ArrayNd_ae3c6bdf408c630fc44a7c6dcdac94ae1}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator uses underlying = of T. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_ae3c6bdf408c630fc44a7c6dcdac94ae1}\label{classADAT_1_1ArrayNd_ae3c6bdf408c630fc44a7c6dcdac94ae1}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator uses underlying = of T. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a3290ebbe75b40ebde8f3506f2aea64a5}\label{classADAT_1_1ArrayNd_a3290ebbe75b40ebde8f3506f2aea64a5}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator on an Array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a3290ebbe75b40ebde8f3506f2aea64a5}\label{classADAT_1_1ArrayNd_a3290ebbe75b40ebde8f3506f2aea64a5}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [4/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator on an Array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a95293530c9643394ae8133f0203d342b}\label{classADAT_1_1ArrayNd_a95293530c9643394ae8133f0203d342b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [5/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator on an Array2d. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a95293530c9643394ae8133f0203d342b}\label{classADAT_1_1ArrayNd_a95293530c9643394ae8133f0203d342b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [6/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator on an Array2d. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aa02a148fb7073245d21688eaa40d820b}\label{classADAT_1_1ArrayNd_aa02a148fb7073245d21688eaa40d820b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [7/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator on an Array3d. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aa02a148fb7073245d21688eaa40d820b}\label{classADAT_1_1ArrayNd_aa02a148fb7073245d21688eaa40d820b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [8/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator on an Array3d. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a4b2d8a768beccefe12844f27c50b058b}\label{classADAT_1_1ArrayNd_a4b2d8a768beccefe12844f27c50b058b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [9/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const T1 \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator uses underlying = of T. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a4b2d8a768beccefe12844f27c50b058b}\label{classADAT_1_1ArrayNd_a4b2d8a768beccefe12844f27c50b058b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [10/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+template$<$class T1 $>$ \\
+\mbox{\hyperlink{classADAT_1_1ArrayNd}{Array\+Nd}}$<$T$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const T1 \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Equal operator uses underlying = of T. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a5689e9a64be5914877dc3882cc68a283}\label{classADAT_1_1ArrayNd_a5689e9a64be5914877dc3882cc68a283}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a5689e9a64be5914877dc3882cc68a283}\label{classADAT_1_1ArrayNd_a5689e9a64be5914877dc3882cc68a283}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a3b7160cbd3939f68f4a23df8cc56d2df}\label{classADAT_1_1ArrayNd_a3b7160cbd3939f68f4a23df8cc56d2df}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a3b7160cbd3939f68f4a23df8cc56d2df}\label{classADAT_1_1ArrayNd_a3b7160cbd3939f68f4a23df8cc56d2df}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{ind }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return ref to an element via indices packed in a Array array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a3f681a80aee7e76cc959431f45d931f8}\label{classADAT_1_1ArrayNd_a3f681a80aee7e76cc959431f45d931f8}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!rank@{rank}}
+\index{rank@{rank}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{rank()}{rank()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Rank of the array -\/ number of dimensions. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a3f681a80aee7e76cc959431f45d931f8}\label{classADAT_1_1ArrayNd_a3f681a80aee7e76cc959431f45d931f8}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!rank@{rank}}
+\index{rank@{rank}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{rank()}{rank()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Rank of the array -\/ number of dimensions. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e}\label{classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{\+\_\+nz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{d1/db2/classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e}\label{classADAT_1_1ArrayNd_afcf13cf80c4cb861316d1ad55601818e}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \&}]{\+\_\+nz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a31eb805d0f039712a9b83609dd828d91}\label{classADAT_1_1ArrayNd_a31eb805d0f039712a9b83609dd828d91}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a31eb805d0f039712a9b83609dd828d91}\label{classADAT_1_1ArrayNd_a31eb805d0f039712a9b83609dd828d91}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_ac66a29c373d99ae8ead2344c1024489e}\label{classADAT_1_1ArrayNd_ac66a29c373d99ae8ead2344c1024489e}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [5/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_ac66a29c373d99ae8ead2344c1024489e}\label{classADAT_1_1ArrayNd_ac66a29c373d99ae8ead2344c1024489e}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [6/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a1b042ead88dae6696d7a0c77fd01ddfa}\label{classADAT_1_1ArrayNd_a1b042ead88dae6696d7a0c77fd01ddfa}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [7/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n3,  }\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a1b042ead88dae6696d7a0c77fd01ddfa}\label{classADAT_1_1ArrayNd_a1b042ead88dae6696d7a0c77fd01ddfa}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [8/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n3,  }\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a2a54d490a8a0a7aa9aeeaee6e6a84b90}\label{classADAT_1_1ArrayNd_a2a54d490a8a0a7aa9aeeaee6e6a84b90}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [9/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n4,  }\item[{int}]{n3,  }\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_a2a54d490a8a0a7aa9aeeaee6e6a84b90}\label{classADAT_1_1ArrayNd_a2a54d490a8a0a7aa9aeeaee6e6a84b90}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{resize()}{resize()}\hspace{0.1cm}{\footnotesize\ttfamily [10/10]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+void \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{int}]{n4,  }\item[{int}]{n3,  }\item[{int}]{n2,  }\item[{int}]{n1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Allocate mem for the array. 
+
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912}\label{classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!size@{size}}
+\index{size@{size}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of i-\/th array index. Indices run from left to right in operator() 
+
+Note, the last/right index is the fastest varying index Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/db2/classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912}\label{classADAT_1_1ArrayNd_aa289b2d57b41dc1c61d061865e6cb912}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!size@{size}}
+\index{size@{size}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+int \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of i-\/th array index. Indices run from left to right in operator() 
+
+Note, the last/right index is the fastest varying index \mbox{\Hypertarget{classADAT_1_1ArrayNd_a81494e519c7c5fae6e7ef2e2b46ba24b}\label{classADAT_1_1ArrayNd_a81494e519c7c5fae6e7ef2e2b46ba24b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!size@{size}}
+\index{size@{size}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::size (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of an array containing sizes of each index. 
+
+Note, the last/right index is the fastest varying index \mbox{\Hypertarget{classADAT_1_1ArrayNd_a81494e519c7c5fae6e7ef2e2b46ba24b}\label{classADAT_1_1ArrayNd_a81494e519c7c5fae6e7ef2e2b46ba24b}} 
+\index{ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}!size@{size}}
+\index{size@{size}!ADAT::ArrayNd$<$ T $>$@{ADAT::ArrayNd$<$ T $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$\& \mbox{\hyperlink{classADAT_1_1ArrayNd}{A\+D\+A\+T\+::\+Array\+Nd}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Size of an array containing sizes of each index. 
+
+Note, the last/right index is the fastest varying index 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/adat/\mbox{\hyperlink{lib_2adat_2adat__arraynd_8h}{adat\+\_\+arraynd.\+h}}\end{DoxyCompactItemize}

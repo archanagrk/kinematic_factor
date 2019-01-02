@@ -1,0 +1,40 @@
+<map id="ENSEM::PScalar::elem" name="ENSEM::PScalar::elem">
+<area shape="rect" id="node1" title=" " alt="" coords="490,977,649,1003"/>
+<area shape="rect" id="node2" href="$dd/d2f/group__primcolormatrix.html#gac1ebb50e5da5705b401fc6a361b951c5" title=" " alt="" coords="247,5,429,31"/>
+<area shape="rect" id="node3" href="$dd/d2f/group__primcolormatrix.html#ga83e068e757a42e9866992b38a003d7f9" title="Insert color matrix components." alt="" coords="270,55,407,80"/>
+<area shape="rect" id="node4" href="$d6/def/classENSEM_1_1PMatrix.html#aa9ba4e8c3935c0591c0b63daef8edaa5" title="PMatrix = PScalar." alt="" coords="267,104,410,156"/>
+<area shape="rect" id="node5" href="$d6/def/classENSEM_1_1PMatrix.html#a141db586d4797230e05d41ab13c12a1e" title="PMatrix += PScalar." alt="" coords="267,180,410,232"/>
+<area shape="rect" id="node6" href="$d6/def/classENSEM_1_1PMatrix.html#ad33381d53cc105f6f64869316aa0e2c2" title="PMatrix &#45;= PScalar." alt="" coords="267,256,410,308"/>
+<area shape="rect" id="node7" href="$d6/def/classENSEM_1_1PMatrix.html#a4c25aeda146eb61d41abf6cf625a6153" title="PMatrix *= PScalar." alt="" coords="267,332,410,384"/>
+<area shape="rect" id="node8" href="$d6/def/classENSEM_1_1PMatrix.html#ade8246cb542a62e3368d33026885ca59" title="PMatrix /= PScalar." alt="" coords="267,408,410,460"/>
+<area shape="rect" id="node9" href="$df/d0a/group__primmatrix.html#gacd1e2ab4740e640c1aa2862faf4436db" title=" " alt="" coords="271,484,405,509"/>
+<area shape="rect" id="node10" href="$df/d0a/group__primmatrix.html#gaa44a21f7776bb8fe8502a30e74d88e3f" title=" " alt="" coords="273,533,403,559"/>
+<area shape="rect" id="node11" href="$df/d0a/group__primmatrix.html#ga9edd8305793268c1fbc1b874baa000d3" title=" " alt="" coords="273,583,404,608"/>
+<area shape="rect" id="node12" href="$df/d0a/group__primmatrix.html#ga47a69844104af73a48b189fb08811b87" title=" " alt="" coords="268,632,408,657"/>
+<area shape="rect" id="node13" href="$df/d0a/group__primmatrix.html#ga1635949cdf21523d1c8bdb6d5ada65a8" title=" " alt="" coords="268,681,408,707"/>
+<area shape="rect" id="node14" href="$df/d0a/group__primmatrix.html#gada4da32758440b83d445ae4a0e14297e" title=" " alt="" coords="259,731,417,756"/>
+<area shape="rect" id="node15" href="$df/d0a/group__primmatrix.html#ga1b00e76a765453dfbb33f0630bd863c3" title=" " alt="" coords="273,780,403,805"/>
+<area shape="rect" id="node16" href="$df/d0a/group__primmatrix.html#gac4a39563bd9c9b587bd894f97f9e3fc4" title=" " alt="" coords="263,829,414,855"/>
+<area shape="rect" id="node17" href="$df/d0a/group__primmatrix.html#gab5fbf23688b38c3209c80d2a9a22b3d0" title=" " alt="" coords="249,879,427,904"/>
+<area shape="rect" id="node18" href="$df/d0a/group__primmatrix.html#ga6bebd0377eb8253b3d4ba1586d1ecdad" title="dest = (mask) ? s1 : dest" alt="" coords="270,928,406,953"/>
+<area shape="rect" id="node19" href="$df/d0a/group__primmatrix.html#gafc7ce30ddacb0b13e2db237cfa268161" title=" " alt="" coords="248,977,428,1003"/>
+<area shape="rect" id="node20" href="$df/d0a/group__primmatrix.html#ga9db3f5557c105ded2a1e426229646f23" title=" " alt="" coords="234,1027,442,1052"/>
+<area shape="rect" id="node21" href="$d3/d27/classENSEM_1_1PScalar.html#a4357d579e24371f6384da9008f4512b3" title="PScalar = zero." alt="" coords="244,1076,432,1101"/>
+<area shape="rect" id="node22" href="$d3/d27/classENSEM_1_1PScalar.html#a9c8d9e51f9d0a13b4b4aa9992812eea8" title="PScalar += PScalar." alt="" coords="240,1125,436,1151"/>
+<area shape="rect" id="node23" href="$d3/d27/classENSEM_1_1PScalar.html#a8c0e633dbd87bcb922496bfaf136752c" title="PScalar &#45;= PScalar." alt="" coords="242,1175,434,1200"/>
+<area shape="rect" id="node24" href="$d3/d27/classENSEM_1_1PScalar.html#addccfa9164f9d80554657387932185c4" title="PScalar *= PScalar." alt="" coords="242,1224,434,1249"/>
+<area shape="rect" id="node25" href="$d3/d27/classENSEM_1_1PScalar.html#a72bf5e7494fc6c8831d0003f8fb62a16" title="PScalar /= PScalar." alt="" coords="242,1273,434,1299"/>
+<area shape="rect" id="node26" href="$d3/d27/classENSEM_1_1PScalar.html#ab583ff2667eba7d2bed2acbd3c15e43e" title="PScalar %= PScalar." alt="" coords="238,1323,438,1348"/>
+<area shape="rect" id="node27" href="$d3/d27/classENSEM_1_1PScalar.html#a59ee3adbb8dabcfb25aae9f9390dcef0" title="PScalar |= PScalar." alt="" coords="242,1372,434,1397"/>
+<area shape="rect" id="node28" href="$d3/d27/classENSEM_1_1PScalar.html#a9c683c36c7129b6b016af09f8d5cda42" title="PScalar &amp;= PScalar." alt="" coords="240,1421,436,1447"/>
+<area shape="rect" id="node29" href="$d3/d27/classENSEM_1_1PScalar.html#a3f256371cc925f01209559addfcbb632" title="PScalar ^= PScalar." alt="" coords="241,1471,435,1496"/>
+<area shape="rect" id="node30" href="$d3/d27/classENSEM_1_1PScalar.html#ade643675ab6ef041676e1098ac740b29" title="PScalar &lt;&lt;= PScalar." alt="" coords="236,1520,440,1545"/>
+<area shape="rect" id="node31" href="$d3/d27/classENSEM_1_1PScalar.html#a8fe07cd0462ddff9e3d0858ebe29e77c" title="PScalar &gt;&gt;= PScalar." alt="" coords="236,1569,440,1595"/>
+<area shape="rect" id="node32" href="$dc/d14/classENSEM_1_1PSeed.html#a8d74bd21af23dfb165937c3bb546ea8f" title="PSeed = PScalar." alt="" coords="257,1619,419,1644"/>
+<area shape="rect" id="node35" href="$df/d3c/group__primseed.html#ga2c9462b410a1897e81847c2ca630c0fd" title=" " alt="" coords="267,1668,409,1693"/>
+<area shape="rect" id="node36" href="$d6/df5/group__primspinmatrix.html#ga79a215ef6e9982decb24addd77e93dae" title="Insert spin matrix components." alt="" coords="272,1717,404,1743"/>
+<area shape="rect" id="node37" href="$da/d9c/classENSEM_1_1PVector.html#af17add91449d0507d1a0361ba1a3cc64" title="PVector *= PScalar." alt="" coords="240,1767,437,1805"/>
+<area shape="rect" id="node38" href="$da/d9c/classENSEM_1_1PVector.html#a0da5cf65327a7044128b9a36a49b94e6" title="PVector /= PScalar." alt="" coords="240,1829,436,1868"/>
+<area shape="rect" id="node33" href="$dc/d14/classENSEM_1_1PSeed.html#a0c2df1585f47479069319dd97de9c4ea" title="construct dest = const" alt="" coords="14,1595,178,1620"/>
+<area shape="rect" id="node34" href="$dc/d14/classENSEM_1_1PSeed.html#aa7d9ec1f6a7cca8ee109c29d75482350" title="PSeed = PScalar." alt="" coords="5,1644,186,1669"/>
+</map>

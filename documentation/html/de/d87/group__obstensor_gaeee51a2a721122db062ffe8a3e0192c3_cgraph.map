@@ -1,0 +1,7 @@
+<map id="ENSEM::peekSpin" name="ENSEM::peekSpin">
+<area shape="rect" id="node1" title="Extract spin tensor components." alt="" coords="5,55,137,80"/>
+<area shape="rect" id="node2" href="$da/d8a/classENSEM_1_1OTensor.html#aeb39779caeadcbcea94d9ef629913287" title="Size of i&#45;th array index. Indices run from left to right in operator()" alt="" coords="188,5,345,31"/>
+<area shape="rect" id="node3" href="$d4/dca/group__escalar.html#gaa833c21339250a427d537f2c3431f9e2" title=" " alt="" coords="201,55,332,80"/>
+<area shape="rect" id="node5" href="$da/d8a/classENSEM_1_1OTensor.html#a18a4095f1e99228c27768fbea8eec05d" title=" " alt="" coords="185,104,348,129"/>
+<area shape="rect" id="node4" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="396,55,555,80"/>
+</map>

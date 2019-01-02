@@ -1,0 +1,5 @@
+<map id="ADATIO::ADATFileReader::readBinary" name="ADATIO::ADATFileReader::readBinary">
+<area shape="rect" id="node1" title="Read one single record filled with binary into a char array." alt="" coords="5,24,183,63"/>
+<area shape="rect" id="node2" href="$db/d6c/classXMLArray_1_1Array.html#a470913fde270ad0e578041654e2390f0" title="Allocate mem for the array." alt="" coords="231,5,393,31"/>
+<area shape="rect" id="node3" href="$db/d6c/classXMLArray_1_1Array.html#a9c9e3fdc44557d1241103c207f7f69af" title="Return ref to a column slice." alt="" coords="235,55,389,80"/>
+</map>

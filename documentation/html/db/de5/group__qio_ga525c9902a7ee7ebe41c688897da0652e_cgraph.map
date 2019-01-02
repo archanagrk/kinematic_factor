@@ -1,0 +1,8 @@
+<map id="ADATIO::ADATFileReader::readRecordData" name="ADATIO::ADATFileReader::readRecordData">
+<area shape="rect" id="node1" title="Read binary and checksum." alt="" coords="5,89,183,128"/>
+<area shape="rect" id="node2" href="$db/de5/group__qio.html#ga032651053fa6b2de6d3977f15862c48e" title="Move to next record." alt="" coords="231,5,408,44"/>
+<area shape="rect" id="node3" href="$de/d19/namespaceADATUtil.html#a61372c5ac63a8bd3ce0aec8f04f386d9" title="crc32" alt="" coords="262,68,377,93"/>
+<area shape="rect" id="node4" href="$db/de5/group__qio.html#gae57feac2bf53666ac092bb0a43125226" title="Read one single record filled with a string." alt="" coords="231,117,408,156"/>
+<area shape="rect" id="node5" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="267,180,371,205"/>
+<area shape="rect" id="node6" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="456,173,615,212"/>
+</map>

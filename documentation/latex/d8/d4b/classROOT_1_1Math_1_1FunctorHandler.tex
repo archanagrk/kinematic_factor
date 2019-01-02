@@ -1,0 +1,141 @@
+\hypertarget{classROOT_1_1Math_1_1FunctorHandler}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Functor\+Handler$<$ Parent\+Functor, Func $>$ Class Template Reference}
+\label{classROOT_1_1Math_1_1FunctorHandler}\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+
+
+{\ttfamily \#include $<$Functor.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Functor\+Handler$<$ Parent\+Functor, Func $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{d9/dc5/classROOT_1_1Math_1_1FunctorHandler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Functor\+Handler$<$ Parent\+Functor, Func $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{d5/da4/classROOT_1_1Math_1_1FunctorHandler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257}{Functor\+Handler}} (const Func \&fun)
+\item 
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_a48929822606300cdd1da079313a981b4}{Functor\+Handler}} (unsigned int \mbox{\hyperlink{irrep__util_8cc_a70b5e28b5bc3d1b63a7435c5fe50b837}{dim}}, const Func \&fun)
+\item 
+Base\+Func $\ast$ \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6}{Clone}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_a448b3a68a8b9a55489a0b33b4cb26c93}{N\+Dim}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257}{Functor\+Handler}} (const Func \&fun)
+\item 
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_a48929822606300cdd1da079313a981b4}{Functor\+Handler}} (unsigned int \mbox{\hyperlink{irrep__util_8cc_a70b5e28b5bc3d1b63a7435c5fe50b837}{dim}}, const Func \&fun)
+\item 
+Base\+Func $\ast$ \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6}{Clone}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler_a448b3a68a8b9a55489a0b33b4cb26c93}{N\+Dim}} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class Parent\+Functor, class Func$>$\newline
+class R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler$<$ Parent\+Functor, Func $>$}
+
+\mbox{\hyperlink{classROOT_1_1Math_1_1Functor}{Functor}} Handler class is responsible for wrapping any other functor and pointer to free C functions. It can be created from any function implementing the correct signature corresponding to the requested type In the case of one dimension the function evaluation object must implement double operator() (double x). If it implements a method\+: double Derivative(double x) can be used to create a Gradient function type.
+
+In the case of multi-\/dimension the function evaluation object must implement double operator()(const double $\ast$x). If it implements a method\+: double Derivative(const double $\ast$x, int icoord) can be used to create a Gradient function type. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257}\label{classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!FunctorHandler@{FunctorHandler}}
+\index{FunctorHandler@{FunctorHandler}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{FunctorHandler()}{FunctorHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{Functor\+Handler}} (\begin{DoxyParamCaption}\item[{const Func \&}]{fun }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d4b/classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_a48929822606300cdd1da079313a981b4}\label{classROOT_1_1Math_1_1FunctorHandler_a48929822606300cdd1da079313a981b4}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!FunctorHandler@{FunctorHandler}}
+\index{FunctorHandler@{FunctorHandler}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{FunctorHandler()}{FunctorHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{Functor\+Handler}} (\begin{DoxyParamCaption}\item[{unsigned int}]{dim,  }\item[{const Func \&}]{fun }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257}\label{classROOT_1_1Math_1_1FunctorHandler_ae8715a95fff0a4bbaba7a1641f936257}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!FunctorHandler@{FunctorHandler}}
+\index{FunctorHandler@{FunctorHandler}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{FunctorHandler()}{FunctorHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{Functor\+Handler}} (\begin{DoxyParamCaption}\item[{const Func \&}]{fun }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_a48929822606300cdd1da079313a981b4}\label{classROOT_1_1Math_1_1FunctorHandler_a48929822606300cdd1da079313a981b4}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!FunctorHandler@{FunctorHandler}}
+\index{FunctorHandler@{FunctorHandler}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{FunctorHandler()}{FunctorHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::\mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{Functor\+Handler}} (\begin{DoxyParamCaption}\item[{unsigned int}]{dim,  }\item[{const Func \&}]{fun }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6}\label{classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!Clone@{Clone}}
+\index{Clone@{Clone}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{Clone()}{Clone()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+Base\+Func$\ast$ \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::Clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d4b/classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6}\label{classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!Clone@{Clone}}
+\index{Clone@{Clone}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{Clone()}{Clone()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+Base\+Func$\ast$ \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::Clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d4b/classROOT_1_1Math_1_1FunctorHandler_ad20fb7defe76e6abc244eff203aabbc6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_a448b3a68a8b9a55489a0b33b4cb26c93}\label{classROOT_1_1Math_1_1FunctorHandler_a448b3a68a8b9a55489a0b33b4cb26c93}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!NDim@{NDim}}
+\index{NDim@{NDim}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{NDim()}{NDim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+unsigned int \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::N\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1FunctorHandler_a448b3a68a8b9a55489a0b33b4cb26c93}\label{classROOT_1_1Math_1_1FunctorHandler_a448b3a68a8b9a55489a0b33b4cb26c93}} 
+\index{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}!NDim@{NDim}}
+\index{NDim@{NDim}!ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$@{ROOT::Math::FunctorHandler$<$ ParentFunctor, Func $>$}}
+\subsubsection{\texorpdfstring{NDim()}{NDim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Parent\+Functor , class Func $>$ \\
+unsigned int \mbox{\hyperlink{classROOT_1_1Math_1_1FunctorHandler}{R\+O\+O\+T\+::\+Math\+::\+Functor\+Handler}}$<$ Parent\+Functor, Func $>$\+::N\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Math/\mbox{\hyperlink{other__libs_2minuit_2inc_2Math_2Functor_8h}{Functor.\+h}}\end{DoxyCompactItemize}

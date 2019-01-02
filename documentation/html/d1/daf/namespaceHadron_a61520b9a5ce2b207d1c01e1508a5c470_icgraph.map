@@ -1,0 +1,14 @@
+<map id="Hadron::read" name="Hadron::read">
+<area shape="rect" id="node1" title="Read a key." alt="" coords="695,55,794,80"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#ab8d127a4d4a1ca38aae1b0d45226789e" title="Read a key." alt="" coords="479,5,578,31"/>
+<area shape="rect" id="node3" href="$dc/d18/dbconvert__corr__util_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="503,55,553,80"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a5f888183d0cbdadea2ebdf51020f5042" title="Get layout and type." alt="" coords="409,104,647,129"/>
+<area shape="rect" id="node5" href="$db/de7/dbavgsrc_8cc.html#a57918e290614430413950cb4fdfd967e" title="Combine the DB&#45;s." alt="" coords="242,29,330,55"/>
+<area shape="rect" id="node6" href="$d9/d7e/dbgraph__convert_8cc.html#a6fc5db26f2d2594d2601479adfa9dc32" title="Print ensemble files." alt="" coords="242,79,330,104"/>
+<area shape="rect" id="node7" href="$da/dbd/dbprop__diag__t0_8cc.html#afab297cac5e1521133f2d08cd751ef3d" title="Extract keys matching a mass." alt="" coords="241,128,331,153"/>
+<area shape="rect" id="node8" href="$d1/daf/namespaceHadron.html#af18d764aba83c32e26a22d75ed2dfbf7" title=" " alt="" coords="211,177,361,203"/>
+<area shape="rect" id="node9" href="$d1/daf/namespaceHadron.html#a82284ec1545a1a6b6794da8d973a1d57" title="Read the dbtype from the metadata." alt="" coords="15,103,154,128"/>
+<area shape="rect" id="node10" href="$d1/daf/namespaceHadron.html#aa639c858514f322eb7ee4c074924746a" title="Get lattice size." alt="" coords="15,152,154,177"/>
+<area shape="rect" id="node11" href="$d1/daf/namespaceHadron.html#ae5c5e7cd57aa116ce56262bf00762610" title="Get decay dir." alt="" coords="11,201,157,227"/>
+<area shape="rect" id="node12" href="$d1/daf/namespaceHadron.html#a660c9f3adc1525c9d326b23398d09494" title="Get time extent." alt="" coords="5,251,163,276"/>
+</map>

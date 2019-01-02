@@ -1,0 +1,98 @@
+\hypertarget{struct__ffdb__bkt}{}\section{\+\_\+ffdb\+\_\+bkt Struct Reference}
+\label{struct__ffdb__bkt}\index{\_ffdb\_bkt@{\_ffdb\_bkt}}
+
+
+{\ttfamily \#include $<$ffdb\+\_\+pagepool.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct__ffdb__bkt_a0ca6bc2cc68e6384b4b475c41a07fcea}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY}} (\mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}) hq
+\item 
+\mbox{\hyperlink{struct__ffdb__bkt_ac7e62eb857dfeaaf80b72492d3be3584}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY}} (\mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}) lq
+\item 
+\mbox{\hyperlink{struct__ffdb__bkt_af1ee791a45e4526e55dc86d09fb29769}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+H\+E\+AD}} (\+\_\+ffdb\+\_\+wqh, \mbox{\hyperlink{struct__ffdb__bkt__waiter}{\+\_\+ffdb\+\_\+bkt\+\_\+waiter}}) wqh
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ \mbox{\hyperlink{struct__ffdb__bkt_ad2fdc4f4409d93c8c67e8842c50d2077}{page}}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \mbox{\hyperlink{struct__ffdb__bkt_ab5accdaea39ef0c2afcbd420f46ff170}{pgno}}
+\item 
+unsigned int \mbox{\hyperlink{struct__ffdb__bkt_ae27dcd0825bacac9b31bdba869b70cac}{ref}}
+\item 
+unsigned int \mbox{\hyperlink{struct__ffdb__bkt_a3bfeeda182190ed60dbf8f46dcf64630}{waiters}}
+\item 
+unsigned int \mbox{\hyperlink{struct__ffdb__bkt_ab5210b13b17bfddd60495e09cce20e31}{flags}}
+\item 
+pthread\+\_\+t \mbox{\hyperlink{struct__ffdb__bkt_a7c745c3cbd09f67b3e5eef745ab4951f}{owner}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The B\+KT structures are the elements of the queues. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct__ffdb__bkt_a0ca6bc2cc68e6384b4b475c41a07fcea}\label{struct__ffdb__bkt_a0ca6bc2cc68e6384b4b475c41a07fcea}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}}
+\index{FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_ENTRY()}{FFDB\_CIRCLEQ\_ENTRY()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+bkt\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_ac7e62eb857dfeaaf80b72492d3be3584}\label{struct__ffdb__bkt_ac7e62eb857dfeaaf80b72492d3be3584}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}}
+\index{FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_ENTRY()}{FFDB\_CIRCLEQ\_ENTRY()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+bkt\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_af1ee791a45e4526e55dc86d09fb29769}\label{struct__ffdb__bkt_af1ee791a45e4526e55dc86d09fb29769}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!FFDB\_CIRCLEQ\_HEAD@{FFDB\_CIRCLEQ\_HEAD}}
+\index{FFDB\_CIRCLEQ\_HEAD@{FFDB\_CIRCLEQ\_HEAD}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_HEAD()}{FFDB\_CIRCLEQ\_HEAD()}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+bkt\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+H\+E\+AD (\begin{DoxyParamCaption}\item[{\+\_\+ffdb\+\_\+wqh}]{,  }\item[{\mbox{\hyperlink{struct__ffdb__bkt__waiter}{\+\_\+ffdb\+\_\+bkt\+\_\+waiter}}}]{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct__ffdb__bkt_ab5210b13b17bfddd60495e09cce20e31}\label{struct__ffdb__bkt_ab5210b13b17bfddd60495e09cce20e31}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!flags@{flags}}
+\index{flags@{flags}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{flags}{flags}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+bkt\+::flags}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_a7c745c3cbd09f67b3e5eef745ab4951f}\label{struct__ffdb__bkt_a7c745c3cbd09f67b3e5eef745ab4951f}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!owner@{owner}}
+\index{owner@{owner}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{owner}{owner}}
+{\footnotesize\ttfamily pthread\+\_\+t \+\_\+ffdb\+\_\+bkt\+::owner}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_ad2fdc4f4409d93c8c67e8842c50d2077}\label{struct__ffdb__bkt_ad2fdc4f4409d93c8c67e8842c50d2077}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!page@{page}}
+\index{page@{page}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{page}{page}}
+{\footnotesize\ttfamily void$\ast$ \+\_\+ffdb\+\_\+bkt\+::page}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_ab5accdaea39ef0c2afcbd420f46ff170}\label{struct__ffdb__bkt_ab5accdaea39ef0c2afcbd420f46ff170}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!pgno@{pgno}}
+\index{pgno@{pgno}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{pgno}{pgno}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \+\_\+ffdb\+\_\+bkt\+::pgno}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_ae27dcd0825bacac9b31bdba869b70cac}\label{struct__ffdb__bkt_ae27dcd0825bacac9b31bdba869b70cac}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!ref@{ref}}
+\index{ref@{ref}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{ref}{ref}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+bkt\+::ref}
+
+\mbox{\Hypertarget{struct__ffdb__bkt_a3bfeeda182190ed60dbf8f46dcf64630}\label{struct__ffdb__bkt_a3bfeeda182190ed60dbf8f46dcf64630}} 
+\index{\_ffdb\_bkt@{\_ffdb\_bkt}!waiters@{waiters}}
+\index{waiters@{waiters}!\_ffdb\_bkt@{\_ffdb\_bkt}}
+\subsubsection{\texorpdfstring{waiters}{waiters}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+bkt\+::waiters}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/\mbox{\hyperlink{ffdb__pagepool_8h}{ffdb\+\_\+pagepool.\+h}}\end{DoxyCompactItemize}

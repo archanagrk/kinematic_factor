@@ -1,0 +1,386 @@
+\hypertarget{classROOT_1_1Minuit2_1_1MnMinimize}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Mn\+Minimize Class Reference}
+\label{classROOT_1_1Minuit2_1_1MnMinimize}\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+
+
+{\ttfamily \#include $<$Mn\+Minimize.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{d2/df5/classROOT_1_1Minuit2_1_1MnMinimize__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dfd/classROOT_1_1Minuit2_1_1MnMinimize__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ab556cdc37be07557d060aa179a7e0d1f}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ad6015768309e01c6610185006008b2d5}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a4cf2e37839cc454720ab3bd8041dffa9}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a0d930638a3d23f7ca1a8dc3f016a4730}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a0f9bbcbd7bd87cb2f613f8d01ef49d86}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ac07d9fb89fb1a8cdef14ece12eabbfda}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a838683666517f1099a8eff7654dff3e2}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ad3e1fd3c735a330f90f37e8e4ac3efce}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a4f00e31f1d1bd5bd1e8771d9434eb3f7}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a7ae2da481677eb3b7fcf3b77a8dee92b}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a669845a1aaba36456664f1e98a615e25}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ae607cd588cff70b64c0705bb86a36ba0}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a5381e16cfd79c2b4da61e399a6a02b35}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize}{Mn\+Minimize}} \&migr)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ae4544af29d79b1415179ce48c05b9ae0}{$\sim$\+Mn\+Minimize}} ()
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a879bb789f98c72f9a90a327fc7bb48fd}{Minimizer}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ab556cdc37be07557d060aa179a7e0d1f}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ad6015768309e01c6610185006008b2d5}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a4cf2e37839cc454720ab3bd8041dffa9}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a0d930638a3d23f7ca1a8dc3f016a4730}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a0f9bbcbd7bd87cb2f613f8d01ef49d86}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ac07d9fb89fb1a8cdef14ece12eabbfda}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a838683666517f1099a8eff7654dff3e2}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ad3e1fd3c735a330f90f37e8e4ac3efce}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a4f00e31f1d1bd5bd1e8771d9434eb3f7}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a7ae2da481677eb3b7fcf3b77a8dee92b}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a669845a1aaba36456664f1e98a615e25}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ae607cd588cff70b64c0705bb86a36ba0}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a5381e16cfd79c2b4da61e399a6a02b35}{Mn\+Minimize}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize}{Mn\+Minimize}} \&migr)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_ae4544af29d79b1415179ce48c05b9ae0}{$\sim$\+Mn\+Minimize}} ()
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize_a879bb789f98c72f9a90a327fc7bb48fd}{Minimizer}} () const
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A\+PI class for minimization using Variable Metric technology (\char`\"{}\+M\+I\+G\+R\+A\+D\char`\"{}); allows for user interaction\+: set/change parameters, do minimization, change parameters, re-\/do minimization etc.; also used by \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinos}{Mn\+Minos}} and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnContours}{Mn\+Contours}}; 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ab556cdc37be07557d060aa179a7e0d1f}\label{classROOT_1_1Minuit2_1_1MnMinimize_ab556cdc37be07557d060aa179a7e0d1f}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ad6015768309e01c6610185006008b2d5}\label{classROOT_1_1Minuit2_1_1MnMinimize_ad6015768309e01c6610185006008b2d5}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a4cf2e37839cc454720ab3bd8041dffa9}\label{classROOT_1_1Minuit2_1_1MnMinimize_a4cf2e37839cc454720ab3bd8041dffa9}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a0d930638a3d23f7ca1a8dc3f016a4730}\label{classROOT_1_1Minuit2_1_1MnMinimize_a0d930638a3d23f7ca1a8dc3f016a4730}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [4/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a0f9bbcbd7bd87cb2f613f8d01ef49d86}\label{classROOT_1_1Minuit2_1_1MnMinimize_a0f9bbcbd7bd87cb2f613f8d01ef49d86}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [5/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ac07d9fb89fb1a8cdef14ece12eabbfda}\label{classROOT_1_1Minuit2_1_1MnMinimize_ac07d9fb89fb1a8cdef14ece12eabbfda}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [6/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a838683666517f1099a8eff7654dff3e2}\label{classROOT_1_1Minuit2_1_1MnMinimize_a838683666517f1099a8eff7654dff3e2}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [7/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ad3e1fd3c735a330f90f37e8e4ac3efce}\label{classROOT_1_1Minuit2_1_1MnMinimize_ad3e1fd3c735a330f90f37e8e4ac3efce}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [8/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a4f00e31f1d1bd5bd1e8771d9434eb3f7}\label{classROOT_1_1Minuit2_1_1MnMinimize_a4f00e31f1d1bd5bd1e8771d9434eb3f7}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [9/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a7ae2da481677eb3b7fcf3b77a8dee92b}\label{classROOT_1_1Minuit2_1_1MnMinimize_a7ae2da481677eb3b7fcf3b77a8dee92b}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [10/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a669845a1aaba36456664f1e98a615e25}\label{classROOT_1_1Minuit2_1_1MnMinimize_a669845a1aaba36456664f1e98a615e25}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [11/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ae607cd588cff70b64c0705bb86a36ba0}\label{classROOT_1_1Minuit2_1_1MnMinimize_ae607cd588cff70b64c0705bb86a36ba0}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [12/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a5381e16cfd79c2b4da61e399a6a02b35}\label{classROOT_1_1Minuit2_1_1MnMinimize_a5381e16cfd79c2b4da61e399a6a02b35}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [13/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize}{Mn\+Minimize}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ae4544af29d79b1415179ce48c05b9ae0}\label{classROOT_1_1Minuit2_1_1MnMinimize_ae4544af29d79b1415179ce48c05b9ae0}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!````~MnMinimize@{$\sim$MnMinimize}}
+\index{````~MnMinimize@{$\sim$MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{$\sim$MnMinimize()}{~MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::$\sim$\+Mn\+Minimize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ab556cdc37be07557d060aa179a7e0d1f}\label{classROOT_1_1Minuit2_1_1MnMinimize_ab556cdc37be07557d060aa179a7e0d1f}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [14/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ad6015768309e01c6610185006008b2d5}\label{classROOT_1_1Minuit2_1_1MnMinimize_ad6015768309e01c6610185006008b2d5}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [15/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a4cf2e37839cc454720ab3bd8041dffa9}\label{classROOT_1_1Minuit2_1_1MnMinimize_a4cf2e37839cc454720ab3bd8041dffa9}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [16/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a0d930638a3d23f7ca1a8dc3f016a4730}\label{classROOT_1_1Minuit2_1_1MnMinimize_a0d930638a3d23f7ca1a8dc3f016a4730}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [17/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a0f9bbcbd7bd87cb2f613f8d01ef49d86}\label{classROOT_1_1Minuit2_1_1MnMinimize_a0f9bbcbd7bd87cb2f613f8d01ef49d86}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [18/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ac07d9fb89fb1a8cdef14ece12eabbfda}\label{classROOT_1_1Minuit2_1_1MnMinimize_ac07d9fb89fb1a8cdef14ece12eabbfda}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [19/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a838683666517f1099a8eff7654dff3e2}\label{classROOT_1_1Minuit2_1_1MnMinimize_a838683666517f1099a8eff7654dff3e2}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [20/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ad3e1fd3c735a330f90f37e8e4ac3efce}\label{classROOT_1_1Minuit2_1_1MnMinimize_ad3e1fd3c735a330f90f37e8e4ac3efce}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [21/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a4f00e31f1d1bd5bd1e8771d9434eb3f7}\label{classROOT_1_1Minuit2_1_1MnMinimize_a4f00e31f1d1bd5bd1e8771d9434eb3f7}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [22/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a7ae2da481677eb3b7fcf3b77a8dee92b}\label{classROOT_1_1Minuit2_1_1MnMinimize_a7ae2da481677eb3b7fcf3b77a8dee92b}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [23/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a669845a1aaba36456664f1e98a615e25}\label{classROOT_1_1Minuit2_1_1MnMinimize_a669845a1aaba36456664f1e98a615e25}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [24/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ae607cd588cff70b64c0705bb86a36ba0}\label{classROOT_1_1Minuit2_1_1MnMinimize_ae607cd588cff70b64c0705bb86a36ba0}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [25/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNGradientBase}{F\+C\+N\+Gradient\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a5381e16cfd79c2b4da61e399a6a02b35}\label{classROOT_1_1Minuit2_1_1MnMinimize_a5381e16cfd79c2b4da61e399a6a02b35}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!MnMinimize@{MnMinimize}}
+\index{MnMinimize@{MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{MnMinimize()}{MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [26/26]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Mn\+Minimize (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMinimize}{Mn\+Minimize}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_ae4544af29d79b1415179ce48c05b9ae0}\label{classROOT_1_1Minuit2_1_1MnMinimize_ae4544af29d79b1415179ce48c05b9ae0}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!````~MnMinimize@{$\sim$MnMinimize}}
+\index{````~MnMinimize@{$\sim$MnMinimize}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{$\sim$MnMinimize()}{~MnMinimize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::$\sim$\+Mn\+Minimize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a879bb789f98c72f9a90a327fc7bb48fd}\label{classROOT_1_1Minuit2_1_1MnMinimize_a879bb789f98c72f9a90a327fc7bb48fd}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!Minimizer@{Minimizer}}
+\index{Minimizer@{Minimizer}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b731b5f4023dd1b1594223}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Application}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMinimize_a879bb789f98c72f9a90a327fc7bb48fd}\label{classROOT_1_1Minuit2_1_1MnMinimize_a879bb789f98c72f9a90a327fc7bb48fd}} 
+\index{ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}!Minimizer@{Minimizer}}
+\index{Minimizer@{Minimizer}!ROOT::Minuit2::MnMinimize@{ROOT::Minuit2::MnMinimize}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Minimize\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b731b5f4023dd1b1594223}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Application}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2MnMinimize_8h}{Mn\+Minimize.\+h}}\end{DoxyCompactItemize}

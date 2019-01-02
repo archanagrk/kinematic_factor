@@ -1,0 +1,221 @@
+\hypertarget{classADAT_1_1OrderedMapObject}{}\section{A\+D\+AT\+:\+:Ordered\+Map\+Object$<$ K, V, L $>$ Class Template Reference}
+\label{classADAT_1_1OrderedMapObject}\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+
+
+A wrapper over maps.  
+
+
+
+
+{\ttfamily \#include $<$ordered\+\_\+map\+\_\+obj.\+h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::map$<$ K, V, L $>$ \mbox{\hyperlink{classADAT_1_1OrderedMapObject_a4341262d590e4628319a61210534ab88}{Map\+Type\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Map type convenience. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classADAT_1_1OrderedMapObject_ac9ea7852b3e405d4e0c6744626cb6f24}{Ordered\+Map\+Object}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADAT_1_1OrderedMapObject_a255777a3e2ecc4482ad8d2adf630a8d2}{$\sim$\+Ordered\+Map\+Object}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADAT_1_1OrderedMapObject_a1300311ab06f03aba77a5911d0017caf}{exist}} (const K \&key) const
+\begin{DoxyCompactList}\small\item\em Exists? \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1OrderedMapObject_a5bf5e1a45535f8277499ac9a149a2b26}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clear the object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1OrderedMapObject_af5d9aad7f7a1ce462dfed9cbe13c638c}{erase}} (const K \&key)
+\begin{DoxyCompactList}\small\item\em Erase a key-\/value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADAT_1_1OrderedMapObject_a6466cef0224cef7a1e943b32da6e3410}{insert}} (const K \&key, const V \&val)
+\begin{DoxyCompactList}\small\item\em Insert. \end{DoxyCompactList}\item 
+const V \& \mbox{\hyperlink{classADAT_1_1OrderedMapObject_ad6bf82315b8676a1e7a5733ad6d48e85}{operator\mbox{[}$\,$\mbox{]}}} (const K \&key) const
+\begin{DoxyCompactList}\small\item\em Accessor. \end{DoxyCompactList}\item 
+Map\+Type\+\_\+t\+::size\+\_\+type \mbox{\hyperlink{classADAT_1_1OrderedMapObject_a3d96d76de0ad61fb858509543c3f60f4}{size}} () const
+\begin{DoxyCompactList}\small\item\em The number of elements. \end{DoxyCompactList}\item 
+std\+::vector$<$ K $>$ \mbox{\hyperlink{classADAT_1_1OrderedMapObject_ad376a69c5761afe8fe44d3a24c44ba4c}{keys}} () const
+\begin{DoxyCompactList}\small\item\em Dump keys. \end{DoxyCompactList}\item 
+Map\+Type\+\_\+t\+::const\+\_\+iterator \mbox{\hyperlink{classADAT_1_1OrderedMapObject_afe44774d4a446c8f66ea5d6bd2c5d59f}{begin}} () const
+\begin{DoxyCompactList}\small\item\em Usual begin iterator. \end{DoxyCompactList}\item 
+Map\+Type\+\_\+t\+::const\+\_\+iterator \mbox{\hyperlink{classADAT_1_1OrderedMapObject_ae6ad157b81bdf303beaee4422f313ed4}{end}} () const
+\begin{DoxyCompactList}\small\item\em Usual end iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename K, typename V, typename L$>$\newline
+class A\+D\+A\+T\+::\+Ordered\+Map\+Object$<$ K, V, L $>$}
+
+A wrapper over maps. 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_a4341262d590e4628319a61210534ab88}\label{classADAT_1_1OrderedMapObject_a4341262d590e4628319a61210534ab88}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!MapType\_t@{MapType\_t}}
+\index{MapType\_t@{MapType\_t}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{MapType\_t}{MapType\_t}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+typedef std\+::map$<$K,V,L$>$ \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::\mbox{\hyperlink{classADAT_1_1OrderedMapObject_a4341262d590e4628319a61210534ab88}{Map\+Type\+\_\+t}}}
+
+
+
+Map type convenience. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_ac9ea7852b3e405d4e0c6744626cb6f24}\label{classADAT_1_1OrderedMapObject_ac9ea7852b3e405d4e0c6744626cb6f24}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!OrderedMapObject@{OrderedMapObject}}
+\index{OrderedMapObject@{OrderedMapObject}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{OrderedMapObject()}{OrderedMapObject()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+\mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::\mbox{\hyperlink{classADAT_1_1OrderedMapObject}{Ordered\+Map\+Object}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Default constructor. 
+
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_a255777a3e2ecc4482ad8d2adf630a8d2}\label{classADAT_1_1OrderedMapObject_a255777a3e2ecc4482ad8d2adf630a8d2}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!````~OrderedMapObject@{$\sim$OrderedMapObject}}
+\index{````~OrderedMapObject@{$\sim$OrderedMapObject}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{$\sim$OrderedMapObject()}{~OrderedMapObject()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+\mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::$\sim$\mbox{\hyperlink{classADAT_1_1OrderedMapObject}{Ordered\+Map\+Object}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Destructor. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_afe44774d4a446c8f66ea5d6bd2c5d59f}\label{classADAT_1_1OrderedMapObject_afe44774d4a446c8f66ea5d6bd2c5d59f}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!begin@{begin}}
+\index{begin@{begin}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+Map\+Type\+\_\+t\+::const\+\_\+iterator \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Usual begin iterator. 
+
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_a5bf5e1a45535f8277499ac9a149a2b26}\label{classADAT_1_1OrderedMapObject_a5bf5e1a45535f8277499ac9a149a2b26}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!clear@{clear}}
+\index{clear@{clear}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+void \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clear the object. 
+
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_ae6ad157b81bdf303beaee4422f313ed4}\label{classADAT_1_1OrderedMapObject_ae6ad157b81bdf303beaee4422f313ed4}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!end@{end}}
+\index{end@{end}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{end()}{end()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+Map\+Type\+\_\+t\+::const\+\_\+iterator \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Usual end iterator. 
+
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_af5d9aad7f7a1ce462dfed9cbe13c638c}\label{classADAT_1_1OrderedMapObject_af5d9aad7f7a1ce462dfed9cbe13c638c}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!erase@{erase}}
+\index{erase@{erase}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{erase()}{erase()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+void \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::erase (\begin{DoxyParamCaption}\item[{const K \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Erase a key-\/value. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d8c/classADAT_1_1OrderedMapObject_af5d9aad7f7a1ce462dfed9cbe13c638c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_a1300311ab06f03aba77a5911d0017caf}\label{classADAT_1_1OrderedMapObject_a1300311ab06f03aba77a5911d0017caf}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!exist@{exist}}
+\index{exist@{exist}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{exist()}{exist()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+bool \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::exist (\begin{DoxyParamCaption}\item[{const K \&}]{key }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Exists? 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d8c/classADAT_1_1OrderedMapObject_a1300311ab06f03aba77a5911d0017caf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_a6466cef0224cef7a1e943b32da6e3410}\label{classADAT_1_1OrderedMapObject_a6466cef0224cef7a1e943b32da6e3410}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!insert@{insert}}
+\index{insert@{insert}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+void \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::insert (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{const V \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Insert. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d8c/classADAT_1_1OrderedMapObject_a6466cef0224cef7a1e943b32da6e3410_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_ad376a69c5761afe8fe44d3a24c44ba4c}\label{classADAT_1_1OrderedMapObject_ad376a69c5761afe8fe44d3a24c44ba4c}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!keys@{keys}}
+\index{keys@{keys}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{keys()}{keys()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+std\+::vector$<$K$>$ \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Dump keys. 
+
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_ad6bf82315b8676a1e7a5733ad6d48e85}\label{classADAT_1_1OrderedMapObject_ad6bf82315b8676a1e7a5733ad6d48e85}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+const V\& \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const K \&}]{key }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Accessor. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d8c/classADAT_1_1OrderedMapObject_ad6bf82315b8676a1e7a5733ad6d48e85_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADAT_1_1OrderedMapObject_a3d96d76de0ad61fb858509543c3f60f4}\label{classADAT_1_1OrderedMapObject_a3d96d76de0ad61fb858509543c3f60f4}} 
+\index{ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}!size@{size}}
+\index{size@{size}!ADAT::OrderedMapObject$<$ K, V, L $>$@{ADAT::OrderedMapObject$<$ K, V, L $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$typename K , typename V , typename L $>$ \\
+Map\+Type\+\_\+t\+::size\+\_\+type \mbox{\hyperlink{classADAT_1_1OrderedMapObject}{A\+D\+A\+T\+::\+Ordered\+Map\+Object}}$<$ K, V, L $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The number of elements. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/adat/\mbox{\hyperlink{ordered__map__obj_8h}{ordered\+\_\+map\+\_\+obj.\+h}}\end{DoxyCompactItemize}

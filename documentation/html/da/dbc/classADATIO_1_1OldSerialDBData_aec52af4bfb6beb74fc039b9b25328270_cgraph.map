@@ -1,0 +1,8 @@
+<map id="ADATIO::OldSerialDBData::writeObject" name="ADATIO::OldSerialDBData::writeObject">
+<area shape="rect" id="node1" title=" " alt="" coords="5,93,184,132"/>
+<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#a12d01adc4b592d85f0f5f5c101205c08" title=" " alt="" coords="284,12,389,37"/>
+<area shape="rect" id="node4" href="$da/dbc/classADATIO_1_1OldSerialDBData.html#ad917fd5898616290b7c0d30cb878850f" title="Setter." alt="" coords="247,61,426,100"/>
+<area shape="rect" id="node5" href="$d8/d90/classADATIO_1_1BinaryBufferWriter.html#a3d7ec1583f03981f0a84571646be46f3" title="Get the current checksum." alt="" coords="243,124,429,163"/>
+<area shape="rect" id="node6" href="$d8/d90/classADATIO_1_1BinaryBufferWriter.html#a5c4f9b9c049173452e1cc70fe27ee188" title="Return entire buffer as a string." alt="" coords="232,187,440,212"/>
+<area shape="rect" id="node3" href="$db/dee/classADATIO_1_1BinaryWriter.html#ac7731874e4949f80f0edbad2474c4b64" title=" " alt="" coords="488,5,639,44"/>
+</map>

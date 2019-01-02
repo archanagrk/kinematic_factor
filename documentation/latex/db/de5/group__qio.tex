@@ -1,0 +1,829 @@
+\hypertarget{group__qio}{}\section{Q\+IO}
+\label{group__qio}\index{QIO@{QIO}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOFileInfo__t}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+File\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO private file info. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIORecordInfo__t}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO private record info. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em Q\+IO Type and precision strings. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits_3_01EScalar_3_01T_01_4_01_4}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ E\+Scalar$<$ T $>$ $>$}}
+\begin{DoxyCompactList}\small\item\em Partial(?) Specialisation for E\+Scalar Objects. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits_3_01Array_3_01EScalar_3_01T_01_4_01_4_01_4}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ Array$<$ E\+Scalar$<$ T $>$ $>$ $>$}}
+\begin{DoxyCompactList}\small\item\em Partial(?) Specialisation for E\+Scalar Objects. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader}}
+\begin{DoxyCompactList}\small\item\em Q\+IO class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group__qio_ga669520ca9003997be838730beef322b4}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+\_\+filemode\+\_\+t}} \{ \mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a26364b4509b37147465990b221a87326}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+C\+R\+E\+A\+TE}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a700314a4acc8fad5ceb1e154792e27c9}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+O\+P\+EN}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a3f4180520ebc75ea34f783aaea3ec69b}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+A\+P\+P\+E\+ND}}
+ \}
+\begin{DoxyCompactList}\small\item\em File open mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__qio_ga800c009d1400eb965cc04a7f90bf4f24}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::\+A\+D\+A\+T\+File\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Partial constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__qio_ga54a5eea68d2a1c6f5b748f6ba75b7d22}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::$\sim$\+A\+D\+A\+T\+File\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Closes the last file opened. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__qio_ga096a7060d69fd109067404e75f8a06ee}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::\+A\+D\+A\+T\+File\+Reader}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Opens a file for reading. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga2b2ac967129dfd2d61a79e36034b400f}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::open}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Opens a file for reading. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga8b86dba1600272d26539815146f04078}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::close}} ()
+\begin{DoxyCompactList}\small\item\em Closes the last file opened. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__qio_ga601972c66a6e6671d7b41ee1bce80e82}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::is\+\_\+open}} ()
+\begin{DoxyCompactList}\small\item\em Queries whether a file is open. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_gac92ce1b0fee7c00b8a7dc988f3d4906e}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an E\+Scalar object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga32969d6bfdfe9da2912e92d1f0871c20}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an array of objects all in a single record. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga2179348a566e0224ed2122acfabf8bc9}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read}} (std\+::string \&xml\+\_\+str, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&s1)
+\begin{DoxyCompactList}\small\item\em Reads as a string plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gadf1e0b4405e14798a0610efd8774f8d0}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an X\+M\+L\+Reader plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__qio_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::eof}} () const
+\begin{DoxyCompactList}\small\item\em Query whether the end-\/of-\/file has been reached. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \mbox{\hyperlink{group__qio_ga3498ab9948d446056dee8f2808e05c78}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::latt\+Size}} () const
+\begin{DoxyCompactList}\small\item\em Return the lattice size. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gae57feac2bf53666ac092bb0a43125226}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+X\+ML}} (std\+::string \&xml\+\_\+str)
+\begin{DoxyCompactList}\small\item\em Read one single record filled with a string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga9a1ac411577bd50e643f483119318893}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+X\+ML}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml\+\_\+in)
+\begin{DoxyCompactList}\small\item\em Read one single record filled with X\+ML. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga40b41bda2b27ce68a0ac0ee28124fc64}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Binary}} (\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&bin)
+\begin{DoxyCompactList}\small\item\em Read one single record filled with binary into a char array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga7d36d6dd7fef90986d0c435ddaa86eae}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Logical\+Record}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml\+\_\+in, \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&bin)
+\begin{DoxyCompactList}\small\item\em Convenience function to read one logical record. \end{DoxyCompactList}\item 
+Lime\+Reader $\ast$ \mbox{\hyperlink{group__qio_ga40c1ee10fe351724bdfc91f4fd655328}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::get}} () const
+\begin{DoxyCompactList}\small\item\em Get access to the lime reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gade5b9d659e34ec9c9de267858a675d7d}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Info}} (std\+::string \&xml\+\_\+str)
+\begin{DoxyCompactList}\small\item\em Read record info. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga4d771a46d7db77cd0ae5999113733795}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Info}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml\+\_\+in)
+\begin{DoxyCompactList}\small\item\em Read record info. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga525c9902a7ee7ebe41c688897da0652e}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Data}} (void $\ast$bin, int datum\+\_\+size, int word\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Read binary and checksum. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_ga032651053fa6b2de6d3977f15862c48e}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::next\+Record}} ()
+\begin{DoxyCompactList}\small\item\em Move to next record. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gaddf83cb612ce869fe7a0a5f7e559fe72}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::blowup}} (const std\+::string \&error\+\_\+string)
+\begin{DoxyCompactList}\small\item\em Convenience function for exiting. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga3dd8ea4aebc2b69c0ad2996743816341}{A\+D\+A\+T\+I\+O\+::read}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an E\+Scalar object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga2505d6fa25fdce3f9d953179afc3532e}{A\+D\+A\+T\+I\+O\+::read}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an array of E\+Scalar object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gad349a61627372c07f82a004b876423b8}{A\+D\+A\+T\+I\+O\+::read}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&s1)
+\begin{DoxyCompactList}\small\item\em Reads a \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d}{A\+D\+A\+T\+I\+O\+::close}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw)
+\begin{DoxyCompactList}\small\item\em Close a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__qio_gad9b8cab72f011dd46c24a51e8a1c756a}{A\+D\+A\+T\+I\+O\+::is\+\_\+open}} (\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&qsw)
+\begin{DoxyCompactList}\small\item\em Is a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} open. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \mbox{\hyperlink{group__qio_ga29f30bb416493194287e2a1314e99c86}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+File\+Info\+\_\+t\+::dims}}
+\item 
+std\+::string \mbox{\hyperlink{group__qio_ga1894a21fc67312581fac55295c8941e6}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::date}}
+\item 
+int \mbox{\hyperlink{group__qio_ga88cd070912edbe6d09a2437d3d9c6d08}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::recordtype}}
+\item 
+std\+::string \mbox{\hyperlink{group__qio_ga62e8335fcf5ac25dc36eaeee8519ee64}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::datatype}}
+\item 
+std\+::string \mbox{\hyperlink{group__qio_gaba8466af5dd242de9e6d63fc5112e6df}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::precision}}
+\item 
+int \mbox{\hyperlink{group__qio_gad7bee26b17d771036f2b87c847328b24}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::colors}}
+\item 
+int \mbox{\hyperlink{group__qio_ga1a819261ad8c96e3e9378fc74742b1f4}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::spins}}
+\item 
+int \mbox{\hyperlink{group__qio_ga415fb0076e8a07dddb97c8c5d6ea08f9}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::typesize}}
+\item 
+int \mbox{\hyperlink{group__qio_ga8051a480bb96231cfa758ddfab5ed415}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::datacount}}
+\item 
+static char $\ast$ \mbox{\hyperlink{group__qio_ga14189398447447c3ff6d039d05033619}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ T $>$\+::tname}} = \char`\"{}Q\+D\+P\+\_\+\+Generic\+Type\char`\"{}
+\begin{DoxyCompactList}\small\item\em Generic type. \end{DoxyCompactList}\item 
+static char $\ast$ \mbox{\hyperlink{group__qio_ga94d948248c229ef3f2935069425f550a}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ T $>$\+::tprec}} = \char`\"{}U\char`\"{}
+\begin{DoxyCompactList}\small\item\em Unknown precision string. \end{DoxyCompactList}\item 
+static char $\ast$ \mbox{\hyperlink{group__qio_gaf5e0f914e1c7e78a69472bffe5e470b7}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ E\+Scalar$<$ T $>$ $>$\+::tname}} = \char`\"{}Scalar\char`\"{}
+\begin{DoxyCompactList}\small\item\em Scalar Type. \end{DoxyCompactList}\item 
+static char $\ast$ \mbox{\hyperlink{group__qio_ga44058d03fc17a4d1cee98691456d4ae9}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ E\+Scalar$<$ T $>$ $>$\+::tprec}}
+\item 
+static char $\ast$ \mbox{\hyperlink{group__qio_gab84af1dfbd36e1ce7eebd1603b371727}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ Array$<$ E\+Scalar$<$ T $>$ $>$ $>$\+::tname}} = \char`\"{}Scalar\char`\"{}
+\begin{DoxyCompactList}\small\item\em Array$<$\+Scalar\+Type$>$ \end{DoxyCompactList}\item 
+static char $\ast$ \mbox{\hyperlink{group__qio_ga7ca53c00705c98636d0eb04347851f07}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ Array$<$ E\+Scalar$<$ T $>$ $>$ $>$\+::tprec}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{group__qio_ga669520ca9003997be838730beef322b4}\label{group__qio_ga669520ca9003997be838730beef322b4}} 
+\index{QIO@{QIO}!ADAT\_filemode\_t@{ADAT\_filemode\_t}}
+\index{ADAT\_filemode\_t@{ADAT\_filemode\_t}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{ADAT\_filemode\_t}{ADAT\_filemode\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group__qio_ga669520ca9003997be838730beef322b4}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+\_\+filemode\+\_\+t}}}
+
+
+
+File open mode. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{QDPIO\_CREATE@{QDPIO\_CREATE}!QIO@{QIO}}\index{QIO@{QIO}!QDPIO\_CREATE@{QDPIO\_CREATE}}}\mbox{\Hypertarget{group__qio_gga669520ca9003997be838730beef322b4a26364b4509b37147465990b221a87326}\label{group__qio_gga669520ca9003997be838730beef322b4a26364b4509b37147465990b221a87326}} 
+Q\+D\+P\+I\+O\+\_\+\+C\+R\+E\+A\+TE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{QDPIO\_OPEN@{QDPIO\_OPEN}!QIO@{QIO}}\index{QIO@{QIO}!QDPIO\_OPEN@{QDPIO\_OPEN}}}\mbox{\Hypertarget{group__qio_gga669520ca9003997be838730beef322b4a700314a4acc8fad5ceb1e154792e27c9}\label{group__qio_gga669520ca9003997be838730beef322b4a700314a4acc8fad5ceb1e154792e27c9}} 
+Q\+D\+P\+I\+O\+\_\+\+O\+P\+EN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{QDPIO\_APPEND@{QDPIO\_APPEND}!QIO@{QIO}}\index{QIO@{QIO}!QDPIO\_APPEND@{QDPIO\_APPEND}}}\mbox{\Hypertarget{group__qio_gga669520ca9003997be838730beef322b4a3f4180520ebc75ea34f783aaea3ec69b}\label{group__qio_gga669520ca9003997be838730beef322b4a3f4180520ebc75ea34f783aaea3ec69b}} 
+Q\+D\+P\+I\+O\+\_\+\+A\+P\+P\+E\+ND&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group__qio_ga800c009d1400eb965cc04a7f90bf4f24}\label{group__qio_ga800c009d1400eb965cc04a7f90bf4f24}} 
+\index{QIO@{QIO}!ADATFileReader@{ADATFileReader}}
+\index{ADATFileReader@{ADATFileReader}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{ADATFileReader()}{ADATFileReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::\+A\+D\+A\+T\+File\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Partial constructor. 
+
+\mbox{\Hypertarget{group__qio_ga096a7060d69fd109067404e75f8a06ee}\label{group__qio_ga096a7060d69fd109067404e75f8a06ee}} 
+\index{QIO@{QIO}!ADATFileReader@{ADATFileReader}}
+\index{ADATFileReader@{ADATFileReader}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{ADATFileReader()}{ADATFileReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::\+A\+D\+A\+T\+File\+Reader (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Opens a file for reading. 
+
+Also reads the file user metadata record. File is only opened in serial mode. 
+\begin{DoxyParams}{Parameters}
+{\em xml} & Container for the file metadata. \\
+\hline
+{\em path} & The name of the file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga096a7060d69fd109067404e75f8a06ee_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gaddf83cb612ce869fe7a0a5f7e559fe72}\label{group__qio_gaddf83cb612ce869fe7a0a5f7e559fe72}} 
+\index{QIO@{QIO}!blowup@{blowup}}
+\index{blowup@{blowup}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{blowup()}{blowup()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::blowup (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{error\+\_\+string }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Convenience function for exiting. 
+
+\mbox{\Hypertarget{group__qio_ga8b86dba1600272d26539815146f04078}\label{group__qio_ga8b86dba1600272d26539815146f04078}} 
+\index{QIO@{QIO}!close@{close}}
+\index{close@{close}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{close()}{close()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::close (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Closes the last file opened. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga8b86dba1600272d26539815146f04078_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga8b86dba1600272d26539815146f04078_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d}\label{group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d}} 
+\index{QIO@{QIO}!close@{close}}
+\index{close@{close}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{close()}{close()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::close (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&}]{qsw }\end{DoxyParamCaption})}
+
+
+
+Close a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}. 
+
+Closes a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}\label{group__qio_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}} 
+\index{QIO@{QIO}!eof@{eof}}
+\index{eof@{eof}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{eof()}{eof()}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::eof (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Query whether the end-\/of-\/file has been reached. 
+
+\begin{DoxyReturn}{Returns}
+True if the end-\/of-\/file has been reached; false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group__qio_ga40c1ee10fe351724bdfc91f4fd655328}\label{group__qio_ga40c1ee10fe351724bdfc91f4fd655328}} 
+\index{QIO@{QIO}!get@{get}}
+\index{get@{get}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily Lime\+Reader$\ast$ A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::get (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Get access to the lime reader. 
+
+\mbox{\Hypertarget{group__qio_ga601972c66a6e6671d7b41ee1bce80e82}\label{group__qio_ga601972c66a6e6671d7b41ee1bce80e82}} 
+\index{QIO@{QIO}!is\_open@{is\_open}}
+\index{is\_open@{is\_open}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{is\_open()}{is\_open()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::is\+\_\+open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Queries whether a file is open. 
+
+\begin{DoxyReturn}{Returns}
+true if a file is open; false otherwise. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga601972c66a6e6671d7b41ee1bce80e82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gad9b8cab72f011dd46c24a51e8a1c756a}\label{group__qio_gad9b8cab72f011dd46c24a51e8a1c756a}} 
+\index{QIO@{QIO}!is\_open@{is\_open}}
+\index{is\_open@{is\_open}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{is\_open()}{is\_open()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+I\+O\+::is\+\_\+open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&}]{qsw }\end{DoxyParamCaption})}
+
+
+
+Is a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} open. 
+
+Queries whether a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} is open. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{db/de5/group__qio_gad9b8cab72f011dd46c24a51e8a1c756a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga3498ab9948d446056dee8f2808e05c78}\label{group__qio_ga3498ab9948d446056dee8f2808e05c78}} 
+\index{QIO@{QIO}!lattSize@{lattSize}}
+\index{lattSize@{lattSize}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{lattSize()}{lattSize()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$ A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::latt\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the lattice size. 
+
+This will not be valid if the file has not been opened \mbox{\Hypertarget{group__qio_ga032651053fa6b2de6d3977f15862c48e}\label{group__qio_ga032651053fa6b2de6d3977f15862c48e}} 
+\index{QIO@{QIO}!nextRecord@{nextRecord}}
+\index{nextRecord@{nextRecord}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{nextRecord()}{nextRecord()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::next\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Move to next record. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga032651053fa6b2de6d3977f15862c48e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga2b2ac967129dfd2d61a79e36034b400f}\label{group__qio_ga2b2ac967129dfd2d61a79e36034b400f}} 
+\index{QIO@{QIO}!open@{open}}
+\index{open@{open}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{open()}{open()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Opens a file for reading. 
+
+Also reads the file user metadata record. File is only opened in serial mode. 
+\begin{DoxyParams}{Parameters}
+{\em xml} & Container for the file metadata. \\
+\hline
+{\em path} & The name of the file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga2b2ac967129dfd2d61a79e36034b400f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga2b2ac967129dfd2d61a79e36034b400f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gac92ce1b0fee7c00b8a7dc988f3d4906e}\label{group__qio_gac92ce1b0fee7c00b8a7dc988f3d4906e}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [1/7]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{rec\+\_\+xml,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an E\+Scalar object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rec\+\_\+xml} & The (user) record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gac92ce1b0fee7c00b8a7dc988f3d4906e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gac92ce1b0fee7c00b8a7dc988f3d4906e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga32969d6bfdfe9da2912e92d1f0871c20}\label{group__qio_ga32969d6bfdfe9da2912e92d1f0871c20}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [2/7]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{rec\+\_\+xml,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an array of objects all in a single record. 
+
+Reads an array of E\+Scalar objects.
+
+This implementation is only correct for scalar I\+Lattice
+
+
+\begin{DoxyParams}{Parameters}
+{\em rec\+\_\+xml} & The (user) record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga32969d6bfdfe9da2912e92d1f0871c20_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga2179348a566e0224ed2122acfabf8bc9}\label{group__qio_ga2179348a566e0224ed2122acfabf8bc9}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [3/7]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{std\+::string \&}]{record\+\_\+xml\+\_\+str,  }\item[{\mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads as a string plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rec\+\_\+xml} & The (user) record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga2179348a566e0224ed2122acfabf8bc9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gadf1e0b4405e14798a0610efd8774f8d0}\label{group__qio_gadf1e0b4405e14798a0610efd8774f8d0}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [4/7]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{record\+\_\+xml,  }\item[{\mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an X\+M\+L\+Reader plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rec\+\_\+xml} & The (user) record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gadf1e0b4405e14798a0610efd8774f8d0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga3dd8ea4aebc2b69c0ad2996743816341}\label{group__qio_ga3dd8ea4aebc2b69c0ad2996743816341}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [5/7]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&}]{qsw,  }\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{rec\+\_\+xml,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an E\+Scalar object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qsw} & The reader \\
+\hline
+{\em rec\+\_\+xml} & The user record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga3dd8ea4aebc2b69c0ad2996743816341_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga2505d6fa25fdce3f9d953179afc3532e}\label{group__qio_ga2505d6fa25fdce3f9d953179afc3532e}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [6/7]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&}]{qsw,  }\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{rec\+\_\+xml,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an array of E\+Scalar object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qsw} & The reader \\
+\hline
+{\em rec\+\_\+xml} & The user record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga2505d6fa25fdce3f9d953179afc3532e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gad349a61627372c07f82a004b876423b8}\label{group__qio_gad349a61627372c07f82a004b876423b8}} 
+\index{QIO@{QIO}!read@{read}}
+\index{read@{read}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [7/7]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} \&}]{qsw,  }\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{rec\+\_\+xml,  }\item[{\mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&}]{s1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reads a \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qsw} & The reader \\
+\hline
+{\em rec\+\_\+xml} & The user record metadata. \\
+\hline
+{\em sl} & The data \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gad349a61627372c07f82a004b876423b8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga40b41bda2b27ce68a0ac0ee28124fc64}\label{group__qio_ga40b41bda2b27ce68a0ac0ee28124fc64}} 
+\index{QIO@{QIO}!readBinary@{readBinary}}
+\index{readBinary@{readBinary}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readBinary()}{readBinary()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Binary (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&}]{bin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read one single record filled with binary into a char array. 
+
+N\+O\+TE\+: we will always allocate one extra character to be used by the driver code, such as nulls.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bin} & The array that will hold the data \\
+\hline
+{\em word\+\_\+size} & The word size in bytes of each data. Used for byte reversal \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga40b41bda2b27ce68a0ac0ee28124fc64_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga40b41bda2b27ce68a0ac0ee28124fc64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga7d36d6dd7fef90986d0c435ddaa86eae}\label{group__qio_ga7d36d6dd7fef90986d0c435ddaa86eae}} 
+\index{QIO@{QIO}!readLogicalRecord@{readLogicalRecord}}
+\index{readLogicalRecord@{readLogicalRecord}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readLogicalRecord()}{readLogicalRecord()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Logical\+Record (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml\+\_\+in,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&}]{bin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Convenience function to read one logical record. 
+
+N\+O\+TE\+: we will always allocate one extra character to be used by the driver code, such as nulls. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga7d36d6dd7fef90986d0c435ddaa86eae_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga525c9902a7ee7ebe41c688897da0652e}\label{group__qio_ga525c9902a7ee7ebe41c688897da0652e}} 
+\index{QIO@{QIO}!readRecordData@{readRecordData}}
+\index{readRecordData@{readRecordData}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readRecordData()}{readRecordData()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Data (\begin{DoxyParamCaption}\item[{void $\ast$}]{bin,  }\item[{int}]{datum\+\_\+size,  }\item[{int}]{word\+\_\+size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read binary and checksum. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga525c9902a7ee7ebe41c688897da0652e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga525c9902a7ee7ebe41c688897da0652e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gade5b9d659e34ec9c9de267858a675d7d}\label{group__qio_gade5b9d659e34ec9c9de267858a675d7d}} 
+\index{QIO@{QIO}!readRecordInfo@{readRecordInfo}}
+\index{readRecordInfo@{readRecordInfo}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readRecordInfo()}{readRecordInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Info (\begin{DoxyParamCaption}\item[{std\+::string \&}]{xml\+\_\+str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read record info. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gade5b9d659e34ec9c9de267858a675d7d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gade5b9d659e34ec9c9de267858a675d7d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga4d771a46d7db77cd0ae5999113733795}\label{group__qio_ga4d771a46d7db77cd0ae5999113733795}} 
+\index{QIO@{QIO}!readRecordInfo@{readRecordInfo}}
+\index{readRecordInfo@{readRecordInfo}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readRecordInfo()}{readRecordInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml\+\_\+in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read record info. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga4d771a46d7db77cd0ae5999113733795_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_gae57feac2bf53666ac092bb0a43125226}\label{group__qio_gae57feac2bf53666ac092bb0a43125226}} 
+\index{QIO@{QIO}!readXML@{readXML}}
+\index{readXML@{readXML}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readXML()}{readXML()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+X\+ML (\begin{DoxyParamCaption}\item[{std\+::string \&}]{xml\+\_\+str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read one single record filled with a string. 
+
+Read one single record filled with X\+ML. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_gae57feac2bf53666ac092bb0a43125226_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga9a1ac411577bd50e643f483119318893}\label{group__qio_ga9a1ac411577bd50e643f483119318893}} 
+\index{QIO@{QIO}!readXML@{readXML}}
+\index{readXML@{readXML}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{readXML()}{readXML()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+X\+ML (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml\+\_\+in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read one single record filled with X\+ML. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga9a1ac411577bd50e643f483119318893_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{group__qio_ga54a5eea68d2a1c6f5b748f6ba75b7d22}\label{group__qio_ga54a5eea68d2a1c6f5b748f6ba75b7d22}} 
+\index{QIO@{QIO}!````~ADATFileReader@{$\sim$ADATFileReader}}
+\index{````~ADATFileReader@{$\sim$ADATFileReader}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{$\sim$ADATFileReader()}{~ADATFileReader()}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::$\sim$\+A\+D\+A\+T\+File\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes the last file opened. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/de5/group__qio_ga54a5eea68d2a1c6f5b748f6ba75b7d22_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{group__qio_gad7bee26b17d771036f2b87c847328b24}\label{group__qio_gad7bee26b17d771036f2b87c847328b24}} 
+\index{QIO@{QIO}!colors@{colors}}
+\index{colors@{colors}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{colors}{colors}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::colors}
+
+number of colors \mbox{\Hypertarget{group__qio_ga8051a480bb96231cfa758ddfab5ed415}\label{group__qio_ga8051a480bb96231cfa758ddfab5ed415}} 
+\index{QIO@{QIO}!datacount@{datacount}}
+\index{datacount@{datacount}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{datacount}{datacount}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::datacount}
+
+number of datum \mbox{\Hypertarget{group__qio_ga62e8335fcf5ac25dc36eaeee8519ee64}\label{group__qio_ga62e8335fcf5ac25dc36eaeee8519ee64}} 
+\index{QIO@{QIO}!datatype@{datatype}}
+\index{datatype@{datatype}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{datatype}{datatype}}
+{\footnotesize\ttfamily std\+::string A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::datatype}
+
+Some kind of Q\+LA like name \mbox{\Hypertarget{group__qio_ga1894a21fc67312581fac55295c8941e6}\label{group__qio_ga1894a21fc67312581fac55295c8941e6}} 
+\index{QIO@{QIO}!date@{date}}
+\index{date@{date}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{date}{date}}
+{\footnotesize\ttfamily std\+::string A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::date}
+
+Date written \mbox{\Hypertarget{group__qio_ga29f30bb416493194287e2a1314e99c86}\label{group__qio_ga29f30bb416493194287e2a1314e99c86}} 
+\index{QIO@{QIO}!dims@{dims}}
+\index{dims@{dims}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{dims}{dims}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$ A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+File\+Info\+\_\+t\+::dims}
+
+Lattice size \mbox{\Hypertarget{group__qio_gaba8466af5dd242de9e6d63fc5112e6df}\label{group__qio_gaba8466af5dd242de9e6d63fc5112e6df}} 
+\index{QIO@{QIO}!precision@{precision}}
+\index{precision@{precision}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{precision}{precision}}
+{\footnotesize\ttfamily std\+::string A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::precision}
+
+I, F, D, or S (random no state) \mbox{\Hypertarget{group__qio_ga88cd070912edbe6d09a2437d3d9c6d08}\label{group__qio_ga88cd070912edbe6d09a2437d3d9c6d08}} 
+\index{QIO@{QIO}!recordtype@{recordtype}}
+\index{recordtype@{recordtype}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{recordtype}{recordtype}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::recordtype}
+
+0 if field 1 if global 2 if hypercube subset 0 \mbox{\Hypertarget{group__qio_ga1a819261ad8c96e3e9378fc74742b1f4}\label{group__qio_ga1a819261ad8c96e3e9378fc74742b1f4}} 
+\index{QIO@{QIO}!spins@{spins}}
+\index{spins@{spins}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{spins}{spins}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::spins}
+
+number of spins \mbox{\Hypertarget{group__qio_ga14189398447447c3ff6d039d05033619}\label{group__qio_ga14189398447447c3ff6d039d05033619}} 
+\index{QIO@{QIO}!tname@{tname}}
+\index{tname@{tname}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{tname}{tname}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+char $\ast$ \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits}}$<$ T $>$\+::tname = \char`\"{}Q\+D\+P\+\_\+\+Generic\+Type\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Generic type. 
+
+\mbox{\Hypertarget{group__qio_gaf5e0f914e1c7e78a69472bffe5e470b7}\label{group__qio_gaf5e0f914e1c7e78a69472bffe5e470b7}} 
+\index{QIO@{QIO}!tname@{tname}}
+\index{tname@{tname}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{tname}{tname}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+char $\ast$ \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$\+::tname = \char`\"{}Scalar\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Scalar Type. 
+
+\mbox{\Hypertarget{group__qio_gab84af1dfbd36e1ce7eebd1603b371727}\label{group__qio_gab84af1dfbd36e1ce7eebd1603b371727}} 
+\index{QIO@{QIO}!tname@{tname}}
+\index{tname@{tname}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{tname}{tname}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+char $\ast$ \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits}}$<$ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ $>$\+::tname = \char`\"{}Scalar\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Array$<$\+Scalar\+Type$>$ 
+
+\mbox{\Hypertarget{group__qio_ga94d948248c229ef3f2935069425f550a}\label{group__qio_ga94d948248c229ef3f2935069425f550a}} 
+\index{QIO@{QIO}!tprec@{tprec}}
+\index{tprec@{tprec}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{tprec}{tprec}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+char $\ast$ \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits}}$<$ T $>$\+::tprec = \char`\"{}U\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Unknown precision string. 
+
+\mbox{\Hypertarget{group__qio_ga44058d03fc17a4d1cee98691456d4ae9}\label{group__qio_ga44058d03fc17a4d1cee98691456d4ae9}} 
+\index{QIO@{QIO}!tprec@{tprec}}
+\index{tprec@{tprec}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{tprec}{tprec}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+char$\ast$ \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$\+::tprec\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{group__qio_ga7ca53c00705c98636d0eb04347851f07}\label{group__qio_ga7ca53c00705c98636d0eb04347851f07}} 
+\index{QIO@{QIO}!tprec@{tprec}}
+\index{tprec@{tprec}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{tprec}{tprec}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+char$\ast$ \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits}}$<$ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ $>$\+::tprec\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{group__qio_ga415fb0076e8a07dddb97c8c5d6ea08f9}\label{group__qio_ga415fb0076e8a07dddb97c8c5d6ea08f9}} 
+\index{QIO@{QIO}!typesize@{typesize}}
+\index{typesize@{typesize}!QIO@{QIO}}
+\subsubsection{\texorpdfstring{typesize}{typesize}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t\+::typesize}
+
+byte length of datum 

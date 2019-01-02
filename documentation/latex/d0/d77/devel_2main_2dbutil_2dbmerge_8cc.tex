@@ -1,0 +1,100 @@
+\hypertarget{devel_2main_2dbutil_2dbmerge_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/main/dbutil/dbmerge.cc File Reference}
+\label{devel_2main_2dbutil_2dbmerge_8cc}\index{/Users/archanar/Kinematic\_factor/adat\_devel/main/dbutil/dbmerge.cc@{/Users/archanar/Kinematic\_factor/adat\_devel/main/dbutil/dbmerge.cc}}
+
+
+Merge many single dbs into one db.  
+
+
+{\ttfamily \#include $<$cstdio$>$}\newline
+{\ttfamily \#include $<$cctype$>$}\newline
+{\ttfamily \#include $<$sys/types.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}adat/singleton.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/funcmap.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}dbtype.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/hadron\+\_\+1pt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/hadron\+\_\+2pt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/hadron\+\_\+3pt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+npt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/su2\+\_\+corr/hadron\+\_\+npart\+\_\+npt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+timeslice.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+npart\+\_\+npt\+\_\+conn\+\_\+graph.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/key\+\_\+val\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}All\+Conf\+Store\+D\+B.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Conf\+Data\+D\+B\+Merger.\+h\char`\"{}}\newline
+Include dependency graph for dbmerge.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d6b/devel_2main_2dbutil_2dbmerge_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{devel_2main_2dbutil_2dbmerge_8cc_aaa3cdbe7635762272a40e8dc7887778c}{config\+\_\+infos}} (vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&\mbox{\hyperlink{structinfo}{info}}, const string \&lfile)
+\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{devel_2main_2dbutil_2dbmerge_8cc_a6c8a139a4e0f3c2eb65b1a9828dc910a}{merge\+Work}} (const string \&dbase, const string \&dbtype, const std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&\mbox{\hyperlink{structinfo}{info}}, unsigned int mem\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Does the actual work of merging -\/ handled as a template. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{devel_2main_2dbutil_2dbmerge_8cc_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Merge many single dbs into one db. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{devel_2main_2dbutil_2dbmerge_8cc_aaa3cdbe7635762272a40e8dc7887778c}\label{devel_2main_2dbutil_2dbmerge_8cc_aaa3cdbe7635762272a40e8dc7887778c}} 
+\index{dbmerge.cc@{dbmerge.cc}!config\_infos@{config\_infos}}
+\index{config\_infos@{config\_infos}!dbmerge.cc@{dbmerge.cc}}
+\subsubsection{\texorpdfstring{config\_infos()}{config\_infos()}}
+{\footnotesize\ttfamily int config\+\_\+infos (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{info,  }\item[{const string \&}]{lfile }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{d0/d77/devel_2main_2dbutil_2dbmerge_8cc_aaa3cdbe7635762272a40e8dc7887778c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2main_2dbutil_2dbmerge_8cc_a3c04138a5bfe5d72780bb7e82a18e627}\label{devel_2main_2dbutil_2dbmerge_8cc_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{dbmerge.cc@{dbmerge.cc}!main@{main}}
+\index{main@{main}!dbmerge.cc@{dbmerge.cc}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d77/devel_2main_2dbutil_2dbmerge_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{devel_2main_2dbutil_2dbmerge_8cc_a6c8a139a4e0f3c2eb65b1a9828dc910a}\label{devel_2main_2dbutil_2dbmerge_8cc_a6c8a139a4e0f3c2eb65b1a9828dc910a}} 
+\index{dbmerge.cc@{dbmerge.cc}!mergeWork@{mergeWork}}
+\index{mergeWork@{mergeWork}!dbmerge.cc@{dbmerge.cc}}
+\subsubsection{\texorpdfstring{mergeWork()}{mergeWork()}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void merge\+Work (\begin{DoxyParamCaption}\item[{const string \&}]{dbase,  }\item[{const string \&}]{dbtype,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{info,  }\item[{unsigned int}]{mem\+\_\+size }\end{DoxyParamCaption})}
+
+
+
+Does the actual work of merging -\/ handled as a template. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d77/devel_2main_2dbutil_2dbmerge_8cc_a6c8a139a4e0f3c2eb65b1a9828dc910a_cgraph}
+\end{center}
+\end{figure}

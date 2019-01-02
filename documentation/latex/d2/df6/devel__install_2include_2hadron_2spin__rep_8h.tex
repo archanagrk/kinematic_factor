@@ -1,0 +1,79 @@
+\hypertarget{devel__install_2include_2hadron_2spin__rep_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/hadron/spin\+\_\+rep.h File Reference}
+\label{devel__install_2include_2hadron_2spin__rep_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/hadron/spin\_rep.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/hadron/spin\_rep.h}}
+
+
+Sparse matrix representation of spin matrices.  
+
+
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/adat\+\_\+arrays.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+Include dependency graph for spin\+\_\+rep.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d3a/devel__install_2include_2hadron_2spin__rep_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1VectorSpinRep__t}{Hadron\+::\+Vector\+Spin\+Rep\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em The sparse representation of a spin vector. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1MatrixSpinRep__t}{Hadron\+::\+Matrix\+Spin\+Rep\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em The sparse representation of a spin matrix. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1Rank3SpinRep__t}{Hadron\+::\+Rank3\+Spin\+Rep\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em The sparse representation of a spin rank-\/3 tensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ Vector\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_a87528a5f45980257a1473a3f77301a5b}{Hadron\+::convert\+Two\+Quark\+Spin}} (const Spin\+Vector \&in)
+\begin{DoxyCompactList}\small\item\em Convert a generic spin vector into a sparse spin representation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ad46ef728c9d609cbf63217c66bdf0285}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Matrix\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Matrix\+Spin\+Rep reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a433908e65befd36f268196398b8469c7}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Matrix\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Matrix\+Spin\+Rep writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_af8ce56081c184ce7dd924a192bff08a6}{Hadron\+::read}} (Binary\+Reader \&bin, Matrix\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Matrix\+Spin\+Rep reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ae38baf2d1cfe9fdaf455f274e722b32f}{Hadron\+::write}} (Binary\+Writer \&bin, const Matrix\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Matrix\+Spin\+Rep writer. \end{DoxyCompactList}\item 
+Spin\+Matrix \mbox{\hyperlink{namespaceHadron_add425eaa856f87203aaf3bd1e3eb086d}{Hadron\+::construct\+Spin\+DR}} (int gamma)
+\begin{DoxyCompactList}\small\item\em Construct a spin matrix in the DR rep. \end{DoxyCompactList}\item 
+Spin\+Matrix \mbox{\hyperlink{namespaceHadron_af2328410f9a0a7191a4d319284425fed}{Hadron\+::construct\+Spin\+DP}} (int gamma)
+\begin{DoxyCompactList}\small\item\em Construct a spin matrix in the DP rep. \end{DoxyCompactList}\item 
+std\+::vector$<$ Matrix\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_aadefc7d519d40f16cb37c4df644944e7}{Hadron\+::convert\+Two\+Quark\+Spin\+DR}} (int gamma)
+\begin{DoxyCompactList}\small\item\em Convert a DR gamma matrix indexed by gamma into a sparse spin representation. \end{DoxyCompactList}\item 
+std\+::vector$<$ Matrix\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_a9d2555db4b8f920142f7c79e6752eccd}{Hadron\+::convert\+Two\+Quark\+Spin\+DP}} (int gamma)
+\begin{DoxyCompactList}\small\item\em Convert a DP gamma matrix indexed by gamma into a sparse spin representation. \end{DoxyCompactList}\item 
+std\+::vector$<$ Matrix\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_a6bcb90f42724a0f4ce09eeb64bd54c80}{Hadron\+::convert\+Two\+Quark\+Spin}} (const Spin\+Matrix \&in)
+\begin{DoxyCompactList}\small\item\em Convert a generic spin matrix into a sparse spin representation. \end{DoxyCompactList}\item 
+Matrix\+Spin\+Rep\+\_\+t \mbox{\hyperlink{namespaceHadron_aa258f26ea52528eac314f32a02bf8ac3}{Hadron\+::fold\+Source\+DP}} (const Matrix\+Spin\+Rep\+\_\+t \&spin, bool src)
+\begin{DoxyCompactList}\small\item\em Fold in gamma\+\_\+4 for source ops. \end{DoxyCompactList}\item 
+std\+::vector$<$ Matrix\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_a26162db6431302c5e52fbd5fafdbedae}{Hadron\+::fold\+Source\+DP}} (const std\+::vector$<$ Matrix\+Spin\+Rep\+\_\+t $>$ \&spin, bool src)
+\begin{DoxyCompactList}\small\item\em Fold in gamma\+\_\+4 for source ops. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a2d26ed6a48c098506babe8e03425a183}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Rank3\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Rank3\+Spin\+Rep reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a4286761aeb6d750c12bfba02d54b2b12}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Rank3\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Rank3\+Spin\+Rep writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_aa7d26a465958f014ffb6f4cb4d45a389}{Hadron\+::read}} (Binary\+Reader \&bin, Rank3\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Rank3\+Spin\+Rep reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ae2b761452803d14604c4471a4cf35ca3}{Hadron\+::write}} (Binary\+Writer \&bin, const Rank3\+Spin\+Rep\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Rank3\+Spin\+Rep writer. \end{DoxyCompactList}\item 
+std\+::vector$<$ Rank3\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_abbb775633773ccb52dcaef4974305df9}{Hadron\+::convert\+Three\+Quark\+Spin}} (const Array3dO$<$ Complex $>$ \&in)
+\begin{DoxyCompactList}\small\item\em Convert a generic spin tensor into a sparse spin representation. \end{DoxyCompactList}\item 
+Rank3\+Spin\+Rep\+\_\+t \mbox{\hyperlink{namespaceHadron_a9a1884dbfb0a2eb11bd7d4e6585e6966}{Hadron\+::fold\+Source\+DP}} (const Rank3\+Spin\+Rep\+\_\+t \&spin, bool src)
+\begin{DoxyCompactList}\small\item\em Fold in gamma\+\_\+4 for source ops. \end{DoxyCompactList}\item 
+std\+::vector$<$ Rank3\+Spin\+Rep\+\_\+t $>$ \mbox{\hyperlink{namespaceHadron_a121d64f8eb61ea3fc51116de1c659ee5}{Hadron\+::fold\+Source\+DP}} (const std\+::vector$<$ Rank3\+Spin\+Rep\+\_\+t $>$ \&spin, bool src)
+\begin{DoxyCompactList}\small\item\em Fold in gamma\+\_\+4 for source ops. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Sparse matrix representation of spin matrices. 
+

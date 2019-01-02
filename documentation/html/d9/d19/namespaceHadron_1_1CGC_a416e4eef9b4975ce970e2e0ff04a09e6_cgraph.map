@@ -1,0 +1,19 @@
+<map id="Hadron::CGC::createCGsCanon" name="Hadron::CGC::createCGsCanon">
+<area shape="rect" id="node1" title=" " alt="" coords="5,184,218,209"/>
+<area shape="rect" id="node2" href="$d9/d19/namespaceHadron_1_1CGC.html#a47b736ab1ac22edb39f4b0df589a7053" title=" " alt="" coords="266,177,478,216"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a8a4e39ac150585731d18fb970ec8a1bd" title="Conventional reference mom (for CGs) &#45; not the same as canonical mom." alt="" coords="560,81,719,107"/>
+<area shape="rect" id="node8" href="$d1/daf/namespaceHadron.html#ab874ef7e96f2c243de41a6ef639bf3c3" title="Generate a canonical combination of momenta for a given target momentum." alt="" coords="547,184,732,209"/>
+<area shape="rect" id="node9" href="$d9/d19/namespaceHadron_1_1CGC.html#acb590dcbf6bd9f515f07a8e64aa76c0b" title=" " alt="" coords="526,261,753,287"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a511bab858a88c02ec88a697fd5430e0d" title="The name of the little group corresponding to this momentum." alt="" coords="804,5,994,31"/>
+<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a12bd76a337723c31527ee95d46f170d1" title="Canonically order an array of momenta." alt="" coords="1060,31,1223,56"/>
+<area shape="rect" id="node7" href="$d1/daf/namespaceHadron.html#af72905f43cac8c79d2479565a6fe54d3" title="Helper function." alt="" coords="841,107,958,132"/>
+<area shape="rect" id="node6" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="1290,31,1441,56"/>
+<area shape="rect" id="node10" href="$d1/daf/namespaceHadron.html#a6c2109897dff664c15b3fe81aa7d8917" title="Remove G&#45;parity from an irrep name." alt="" coords="805,156,993,181"/>
+<area shape="rect" id="node11" href="$d1/daf/namespaceHadron.html#a951cfb9d3a3b24aaf558d2e22513cec1" title="Get G&#45;parity from an irrep name." alt="" coords="818,205,981,231"/>
+<area shape="rect" id="node12" href="$d1/d0f/namespaceHadron_1_1CGC_1_1CGCIrrepMomLGxLGtoOctEnv.html#afd66508df18d3aba9ecfc7d3ad09e448" title=" " alt="" coords="801,255,997,293"/>
+<area shape="rect" id="node13" href="$d1/daf/namespaceHadron.html#a79373fb0ae210931217ae33dc98f5ee9" title="Get little group of irrep." alt="" coords="1073,353,1210,379"/>
+<area shape="rect" id="node15" href="$d1/d0f/namespaceHadron_1_1CGC_1_1CGCIrrepMomLGxLGtoOctEnv.html#a326be3440106df05ce61c23e713f7312" title=" " alt="" coords="801,369,997,408"/>
+<area shape="rect" id="node16" href="$dd/d8a/namespaceHadron_1_1CGC_1_1CGCIrrepMomLGxLGtoLGEnv.html#aac28a74a71012455c31bc9ba558b35da" title=" " alt="" coords="801,432,997,471"/>
+<area shape="rect" id="node14" href="$d1/daf/namespaceHadron.html#a877ae1e797f5cf4d4ebb7e22d5bbe69b" title="Remove helicity from an irrep name." alt="" coords="1286,353,1446,379"/>
+<area shape="rect" id="node17" href="$d1/daf/namespaceHadron.html#a4467e73143184e2935f0f0f0e31079bc" title="Return the rotations for a LG." alt="" coords="1045,439,1238,464"/>
+</map>

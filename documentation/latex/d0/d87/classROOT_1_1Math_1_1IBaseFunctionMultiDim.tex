@@ -1,0 +1,166 @@
+\hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:I\+Base\+Function\+Multi\+Dim Class Reference}
+\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim}\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+
+
+{\ttfamily \#include $<$I\+Function.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d72/classROOT_1_1Math_1_1IBaseFunctionMultiDim__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}} \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}{Base\+Func}}
+\item 
+typedef \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}} \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}{Base\+Func}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_aef796a1f6a06fa1c4f183f001839aeac}{I\+Base\+Function\+Multi\+Dim}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a5133dc3b08b78281ddf471506810f1c4}{$\sim$\+I\+Base\+Function\+Multi\+Dim}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}} $\ast$ \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}{Clone}} () const =0
+\item 
+virtual unsigned int \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}{N\+Dim}} () const =0
+\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f}{operator()}} (const double $\ast$x) const
+\item 
+\mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_aef796a1f6a06fa1c4f183f001839aeac}{I\+Base\+Function\+Multi\+Dim}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a5133dc3b08b78281ddf471506810f1c4}{$\sim$\+I\+Base\+Function\+Multi\+Dim}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}} $\ast$ \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}{Clone}} () const =0
+\item 
+virtual unsigned int \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}{N\+Dim}} () const =0
+\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f}{operator()}} (const double $\ast$x) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Documentation for the abstract class \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}}. Interface (abstract class) for generic functions objects of multi-\/dimension Provides a method to evaluate the function given a vector of coordinate values, by implementing operator() (const double $\ast$). In addition it defines the interface for copying functions via the pure virtual method \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}{Clone()}}
+
+and the interface for getting the function dimension via the \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}{N\+Dim()}} method. Derived classes must implement the pure private virtual method Do\+Eval(const double $\ast$) for the function evaluation in addition to \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}{N\+Dim()}} and \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}{Clone()}}. 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!BaseFunc@{BaseFunc}}
+\index{BaseFunc@{BaseFunc}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{BaseFunc}{BaseFunc}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}} \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}{R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+Base\+Func}}}
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!BaseFunc@{BaseFunc}}
+\index{BaseFunc@{BaseFunc}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{BaseFunc}{BaseFunc}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}} \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a44c87c3e8c23d140cc3bf067d6480070}{R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+Base\+Func}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_aef796a1f6a06fa1c4f183f001839aeac}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_aef796a1f6a06fa1c4f183f001839aeac}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!IBaseFunctionMultiDim@{IBaseFunctionMultiDim}}
+\index{IBaseFunctionMultiDim@{IBaseFunctionMultiDim}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{IBaseFunctionMultiDim()}{IBaseFunctionMultiDim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+I\+Base\+Function\+Multi\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a5133dc3b08b78281ddf471506810f1c4}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a5133dc3b08b78281ddf471506810f1c4}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!````~IBaseFunctionMultiDim@{$\sim$IBaseFunctionMultiDim}}
+\index{````~IBaseFunctionMultiDim@{$\sim$IBaseFunctionMultiDim}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{$\sim$IBaseFunctionMultiDim()}{~IBaseFunctionMultiDim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::$\sim$\+I\+Base\+Function\+Multi\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+virtual destructor \mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_aef796a1f6a06fa1c4f183f001839aeac}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_aef796a1f6a06fa1c4f183f001839aeac}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!IBaseFunctionMultiDim@{IBaseFunctionMultiDim}}
+\index{IBaseFunctionMultiDim@{IBaseFunctionMultiDim}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{IBaseFunctionMultiDim()}{IBaseFunctionMultiDim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+I\+Base\+Function\+Multi\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a5133dc3b08b78281ddf471506810f1c4}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a5133dc3b08b78281ddf471506810f1c4}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!````~IBaseFunctionMultiDim@{$\sim$IBaseFunctionMultiDim}}
+\index{````~IBaseFunctionMultiDim@{$\sim$IBaseFunctionMultiDim}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{$\sim$IBaseFunctionMultiDim()}{~IBaseFunctionMultiDim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::$\sim$\+I\+Base\+Function\+Multi\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+virtual destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!Clone@{Clone}}
+\index{Clone@{Clone}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{Clone()}{Clone()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}}$\ast$ R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+Clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Clone a function. Each derived class must implement his version of the Clone method 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a21093c0d3001069e49ce6278b5a32a40}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a21093c0d3001069e49ce6278b5a32a40}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a989f9b6dd160ebe03911cdee00dacaad}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a989f9b6dd160ebe03911cdee00dacaad}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ab9f49fc9a151e8d921dbe9cb148c1fc8}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ab9f49fc9a151e8d921dbe9cb148c1fc8}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_aafa24e359a607b4278f1bf238bdbc336}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_aafa24e359a607b4278f1bf238bdbc336}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a57939204b1f525b43835b42e0635dd3b}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!Clone@{Clone}}
+\index{Clone@{Clone}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{Clone()}{Clone()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IBaseFunctionMultiDim}{I\+Base\+Function\+Multi\+Dim}}$\ast$ R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+Clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Clone a function. Each derived class must implement his version of the Clone method 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a21093c0d3001069e49ce6278b5a32a40}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a21093c0d3001069e49ce6278b5a32a40}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a989f9b6dd160ebe03911cdee00dacaad}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a989f9b6dd160ebe03911cdee00dacaad}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ab9f49fc9a151e8d921dbe9cb148c1fc8}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ab9f49fc9a151e8d921dbe9cb148c1fc8}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_aafa24e359a607b4278f1bf238bdbc336}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_aafa24e359a607b4278f1bf238bdbc336}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!NDim@{NDim}}
+\index{NDim@{NDim}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{NDim()}{NDim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual unsigned int R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+N\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Retrieve the dimension of the function 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a7ff4ed4ad6f7c17d74403a443990f069}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a7ff4ed4ad6f7c17d74403a443990f069}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a2544e2ed3c6a0420084c7b08eb3c3130}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a2544e2ed3c6a0420084c7b08eb3c3130}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ae9aaf3de1f2e1e6e1c1310fccdb06009}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ae9aaf3de1f2e1e6e1c1310fccdb06009}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_a99de9f7a6e26b03b1cdcf35d8c62d761}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_a99de9f7a6e26b03b1cdcf35d8c62d761}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!NDim@{NDim}}
+\index{NDim@{NDim}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{NDim()}{NDim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual unsigned int R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::\+N\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Retrieve the dimension of the function 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a7ff4ed4ad6f7c17d74403a443990f069}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1GradFunctor_a7ff4ed4ad6f7c17d74403a443990f069}{R\+O\+O\+T\+::\+Math\+::\+Grad\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a2544e2ed3c6a0420084c7b08eb3c3130}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1Functor_a2544e2ed3c6a0420084c7b08eb3c3130}{R\+O\+O\+T\+::\+Math\+::\+Functor}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ae9aaf3de1f2e1e6e1c1310fccdb06009}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMemMultiFunction_ae9aaf3de1f2e1e6e1c1310fccdb06009}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Mem\+Multi\+Function$<$ Func\+Obj, Mem\+Func\+Ptr $>$}}, \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_a99de9f7a6e26b03b1cdcf35d8c62d761}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1WrappedMultiFunction_a99de9f7a6e26b03b1cdcf35d8c62d761}{R\+O\+O\+T\+::\+Math\+::\+Wrapped\+Multi\+Function$<$ Func $>$}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d87/classROOT_1_1Math_1_1IBaseFunctionMultiDim_a16f37dc7a6d00c75ddeda0697741315d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::operator() (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Evaluate the function at a point x\mbox{[}\mbox{]}. Use the pure virtual private method Do\+Eval which must be implemented by the sub-\/classes Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d87/classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f}\label{classROOT_1_1Math_1_1IBaseFunctionMultiDim_a7efd1892dc6473b3f8aaaff3cbb8bb2f}} 
+\index{ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Math::IBaseFunctionMultiDim@{ROOT::Math::IBaseFunctionMultiDim}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Base\+Function\+Multi\+Dim\+::operator() (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Evaluate the function at a point x\mbox{[}\mbox{]}. Use the pure virtual private method Do\+Eval which must be implemented by the sub-\/classes 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Math/\mbox{\hyperlink{other__libs_2minuit_2inc_2Math_2IFunction_8h}{I\+Function.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,647 @@
+\hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Function\+Minimum Class Reference}
+\label{classROOT_1_1Minuit2_1_1FunctionMinimum}\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+
+
+{\ttfamily \#include $<$Function\+Minimum.\+h$>$}
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnAboveMaxEdm}{Mn\+Above\+Max\+Edm}}
+\item 
+class \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnReachedCallLimit}{Mn\+Reached\+Call\+Limit}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a907871106f0be755404d80f32fbe2041}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, double up)
+\begin{DoxyCompactList}\small\item\em constructor from only \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}}. Minimum is only from seed result not full minimization \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a0d5de11a4f528f8c0a0d061dbcf3e91e}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&states, double up)
+\begin{DoxyCompactList}\small\item\em constructor at the end of a successfull minimization from seed and vector of states \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aa68c6d1a70d47537fef4990cd797ebc0}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&states, double up, \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnReachedCallLimit}{Mn\+Reached\+Call\+Limit}})
+\begin{DoxyCompactList}\small\item\em constructor at the end of a failed minimization due to exceeding function call limit \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a70961c8a405bd4298247c9b353804154}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&states, double up, \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnAboveMaxEdm}{Mn\+Above\+Max\+Edm}})
+\begin{DoxyCompactList}\small\item\em constructor at the end of a failed minimization due to edm above maximum value \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a79c734eb76f50e7638255095bd0670aa}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&\mbox{\hyperlink{SU3__internal_8h_ab0f5fed3171eb00d1c5f037d9f518a23}{min}})
+\begin{DoxyCompactList}\small\item\em copy constructo \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb}{operator=}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&\mbox{\hyperlink{SU3__internal_8h_ab0f5fed3171eb00d1c5f037d9f518a23}{min}})
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aaaef452fc02a74a63a9390329ed1dd04}{$\sim$\+Function\+Minimum}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a13b69e2d431d568f4485eb8b79d6c781}{Add}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&state)
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a9812689b192b202a73ce1178e8098705}{Seed}} () const
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{R\+O\+O\+T\+::\+Minuit2\+::\+Minimum\+State}} $>$ \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a5f08def4f7ca92700393d42ded6eb237}{States}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e}{User\+State}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ac916253d7e29de7da4da5bf4b84a2ad5}{User\+Parameters}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aeb3d5cb9f9c49838fa4b08668c8556db}{User\+Covariance}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aa57279a22070860400c8854289c84314}{State}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e}{Parameters}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347}{Error}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ac97896abe1c4625c519c2b07e4e9b670}{Grad}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c}{Fval}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aef90d7ca242a7ea211d56b188679f4b9}{Edm}} () const
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f}{N\+Fcn}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a53be50e5f3a36b22144bb98fc55c9340}{Up}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69}{Is\+Valid}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a723b0ab6157e57113a142f1d4a31ace2}{Has\+Valid\+Parameters}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ac2510d8f560ddac6b2911bda454e2948}{Has\+Valid\+Covariance}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a5135f697042ef9ad81c68185c8610019}{Has\+Accurate\+Covar}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_acb9f7255fdd8afdb460bfe13e6d119c4}{Has\+Pos\+Def\+Covar}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a7c0f417444609960c3b55bc869bf04d8}{Has\+Made\+Pos\+Def\+Covar}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a6400b299323d7e632692229ce026056c}{Hesse\+Failed}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ae11c13bd945f21476482d928bf96b791}{Has\+Covariance}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aa87b9f0f50a77d219976b8767e39ac0f}{Is\+Above\+Max\+Edm}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb}{Has\+Reached\+Call\+Limit}} () const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_af45892d274c493850fc78e9917f17781}{Set\+Error\+Def}} (double up)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a907871106f0be755404d80f32fbe2041}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, double up)
+\begin{DoxyCompactList}\small\item\em constructor from only \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}}. Minimum is only from seed result not full minimization \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a0d5de11a4f528f8c0a0d061dbcf3e91e}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&states, double up)
+\begin{DoxyCompactList}\small\item\em constructor at the end of a successfull minimization from seed and vector of states \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aa68c6d1a70d47537fef4990cd797ebc0}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&states, double up, \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnReachedCallLimit}{Mn\+Reached\+Call\+Limit}})
+\begin{DoxyCompactList}\small\item\em constructor at the end of a failed minimization due to exceeding function call limit \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a70961c8a405bd4298247c9b353804154}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&seed, const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&states, double up, \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnAboveMaxEdm}{Mn\+Above\+Max\+Edm}})
+\begin{DoxyCompactList}\small\item\em constructor at the end of a failed minimization due to edm above maximum value \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a79c734eb76f50e7638255095bd0670aa}{Function\+Minimum}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&\mbox{\hyperlink{SU3__internal_8h_ab0f5fed3171eb00d1c5f037d9f518a23}{min}})
+\begin{DoxyCompactList}\small\item\em copy constructo \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb}{operator=}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&\mbox{\hyperlink{SU3__internal_8h_ab0f5fed3171eb00d1c5f037d9f518a23}{min}})
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aaaef452fc02a74a63a9390329ed1dd04}{$\sim$\+Function\+Minimum}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a13b69e2d431d568f4485eb8b79d6c781}{Add}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&state)
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a9812689b192b202a73ce1178e8098705}{Seed}} () const
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{R\+O\+O\+T\+::\+Minuit2\+::\+Minimum\+State}} $>$ \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a5f08def4f7ca92700393d42ded6eb237}{States}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e}{User\+State}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ac916253d7e29de7da4da5bf4b84a2ad5}{User\+Parameters}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aeb3d5cb9f9c49838fa4b08668c8556db}{User\+Covariance}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aa57279a22070860400c8854289c84314}{State}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e}{Parameters}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347}{Error}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ac97896abe1c4625c519c2b07e4e9b670}{Grad}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c}{Fval}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aef90d7ca242a7ea211d56b188679f4b9}{Edm}} () const
+\item 
+int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f}{N\+Fcn}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a53be50e5f3a36b22144bb98fc55c9340}{Up}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69}{Is\+Valid}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a723b0ab6157e57113a142f1d4a31ace2}{Has\+Valid\+Parameters}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ac2510d8f560ddac6b2911bda454e2948}{Has\+Valid\+Covariance}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a5135f697042ef9ad81c68185c8610019}{Has\+Accurate\+Covar}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_acb9f7255fdd8afdb460bfe13e6d119c4}{Has\+Pos\+Def\+Covar}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a7c0f417444609960c3b55bc869bf04d8}{Has\+Made\+Pos\+Def\+Covar}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a6400b299323d7e632692229ce026056c}{Hesse\+Failed}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_ae11c13bd945f21476482d928bf96b791}{Has\+Covariance}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_aa87b9f0f50a77d219976b8767e39ac0f}{Is\+Above\+Max\+Edm}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb}{Has\+Reached\+Call\+Limit}} () const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_af45892d274c493850fc78e9917f17781}{Set\+Error\+Def}} (double up)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+class holding the full result of the minimization; both internal and external (\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}}) representation available for the parameters at the Minimum 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a907871106f0be755404d80f32fbe2041}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a907871106f0be755404d80f32fbe2041}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor from only \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}}. Minimum is only from seed result not full minimization 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a0d5de11a4f528f8c0a0d061dbcf3e91e}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a0d5de11a4f528f8c0a0d061dbcf3e91e}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&}]{states,  }\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor at the end of a successfull minimization from seed and vector of states 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aa68c6d1a70d47537fef4990cd797ebc0}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aa68c6d1a70d47537fef4990cd797ebc0}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [3/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&}]{states,  }\item[{double}]{up,  }\item[{\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnReachedCallLimit}{Mn\+Reached\+Call\+Limit}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor at the end of a failed minimization due to exceeding function call limit 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a70961c8a405bd4298247c9b353804154}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a70961c8a405bd4298247c9b353804154}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [4/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&}]{states,  }\item[{double}]{up,  }\item[{\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnAboveMaxEdm}{Mn\+Above\+Max\+Edm}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor at the end of a failed minimization due to edm above maximum value 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a79c734eb76f50e7638255095bd0670aa}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a79c734eb76f50e7638255095bd0670aa}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [5/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&}]{min }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+copy constructo 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aaaef452fc02a74a63a9390329ed1dd04}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aaaef452fc02a74a63a9390329ed1dd04}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!````~FunctionMinimum@{$\sim$FunctionMinimum}}
+\index{````~FunctionMinimum@{$\sim$FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{$\sim$FunctionMinimum()}{~FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::$\sim$\+Function\+Minimum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a907871106f0be755404d80f32fbe2041}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a907871106f0be755404d80f32fbe2041}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [6/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor from only \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}}. Minimum is only from seed result not full minimization 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a0d5de11a4f528f8c0a0d061dbcf3e91e}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a0d5de11a4f528f8c0a0d061dbcf3e91e}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [7/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&}]{states,  }\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor at the end of a successfull minimization from seed and vector of states 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aa68c6d1a70d47537fef4990cd797ebc0}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aa68c6d1a70d47537fef4990cd797ebc0}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [8/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&}]{states,  }\item[{double}]{up,  }\item[{\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnReachedCallLimit}{Mn\+Reached\+Call\+Limit}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor at the end of a failed minimization due to exceeding function call limit 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a70961c8a405bd4298247c9b353804154}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a70961c8a405bd4298247c9b353804154}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [9/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}} \&}]{seed,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} $>$ \&}]{states,  }\item[{double}]{up,  }\item[{\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum_1_1MnAboveMaxEdm}{Mn\+Above\+Max\+Edm}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor at the end of a failed minimization due to edm above maximum value 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a79c734eb76f50e7638255095bd0670aa}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a79c734eb76f50e7638255095bd0670aa}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!FunctionMinimum@{FunctionMinimum}}
+\index{FunctionMinimum@{FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{FunctionMinimum()}{FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [10/10]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Function\+Minimum (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&}]{min }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+copy constructo 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aaaef452fc02a74a63a9390329ed1dd04}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aaaef452fc02a74a63a9390329ed1dd04}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!````~FunctionMinimum@{$\sim$FunctionMinimum}}
+\index{````~FunctionMinimum@{$\sim$FunctionMinimum}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{$\sim$FunctionMinimum()}{~FunctionMinimum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::$\sim$\+Function\+Minimum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a13b69e2d431d568f4485eb8b79d6c781}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a13b69e2d431d568f4485eb8b79d6c781}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Add@{Add}}
+\index{Add@{Add}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Add()}{Add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Add (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a13b69e2d431d568f4485eb8b79d6c781}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a13b69e2d431d568f4485eb8b79d6c781}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Add@{Add}}
+\index{Add@{Add}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Add()}{Add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Add (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aef90d7ca242a7ea211d56b188679f4b9}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aef90d7ca242a7ea211d56b188679f4b9}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Edm@{Edm}}
+\index{Edm@{Edm}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aef90d7ca242a7ea211d56b188679f4b9}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aef90d7ca242a7ea211d56b188679f4b9}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Edm@{Edm}}
+\index{Edm@{Edm}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Error@{Error}}
+\index{Error@{Error}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a24f73efe7b4ed139bcf28e62ab01b347}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Error@{Error}}
+\index{Error@{Error}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Fval@{Fval}}
+\index{Fval@{Fval}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Fval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Fval@{Fval}}
+\index{Fval@{Fval}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Fval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a72aa9fd2b33f1bb56c5b053d536cc32c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ac97896abe1c4625c519c2b07e4e9b670}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ac97896abe1c4625c519c2b07e4e9b670}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Grad@{Grad}}
+\index{Grad@{Grad}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Grad()}{Grad()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Grad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ac97896abe1c4625c519c2b07e4e9b670}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ac97896abe1c4625c519c2b07e4e9b670}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Grad@{Grad}}
+\index{Grad@{Grad}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Grad()}{Grad()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Grad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a5135f697042ef9ad81c68185c8610019}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a5135f697042ef9ad81c68185c8610019}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasAccurateCovar@{HasAccurateCovar}}
+\index{HasAccurateCovar@{HasAccurateCovar}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasAccurateCovar()}{HasAccurateCovar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Accurate\+Covar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a5135f697042ef9ad81c68185c8610019}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a5135f697042ef9ad81c68185c8610019}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasAccurateCovar@{HasAccurateCovar}}
+\index{HasAccurateCovar@{HasAccurateCovar}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasAccurateCovar()}{HasAccurateCovar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Accurate\+Covar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ae11c13bd945f21476482d928bf96b791}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ae11c13bd945f21476482d928bf96b791}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasCovariance@{HasCovariance}}
+\index{HasCovariance@{HasCovariance}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasCovariance()}{HasCovariance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Covariance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ae11c13bd945f21476482d928bf96b791}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ae11c13bd945f21476482d928bf96b791}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasCovariance@{HasCovariance}}
+\index{HasCovariance@{HasCovariance}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasCovariance()}{HasCovariance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Covariance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a7c0f417444609960c3b55bc869bf04d8}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a7c0f417444609960c3b55bc869bf04d8}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasMadePosDefCovar@{HasMadePosDefCovar}}
+\index{HasMadePosDefCovar@{HasMadePosDefCovar}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasMadePosDefCovar()}{HasMadePosDefCovar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Made\+Pos\+Def\+Covar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a7c0f417444609960c3b55bc869bf04d8}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a7c0f417444609960c3b55bc869bf04d8}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasMadePosDefCovar@{HasMadePosDefCovar}}
+\index{HasMadePosDefCovar@{HasMadePosDefCovar}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasMadePosDefCovar()}{HasMadePosDefCovar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Made\+Pos\+Def\+Covar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_acb9f7255fdd8afdb460bfe13e6d119c4}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_acb9f7255fdd8afdb460bfe13e6d119c4}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasPosDefCovar@{HasPosDefCovar}}
+\index{HasPosDefCovar@{HasPosDefCovar}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasPosDefCovar()}{HasPosDefCovar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Pos\+Def\+Covar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_acb9f7255fdd8afdb460bfe13e6d119c4}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_acb9f7255fdd8afdb460bfe13e6d119c4}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasPosDefCovar@{HasPosDefCovar}}
+\index{HasPosDefCovar@{HasPosDefCovar}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasPosDefCovar()}{HasPosDefCovar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Pos\+Def\+Covar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasReachedCallLimit@{HasReachedCallLimit}}
+\index{HasReachedCallLimit@{HasReachedCallLimit}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasReachedCallLimit()}{HasReachedCallLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Reached\+Call\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a524af3e3da7a975e7a104845c6a41ceb}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasReachedCallLimit@{HasReachedCallLimit}}
+\index{HasReachedCallLimit@{HasReachedCallLimit}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasReachedCallLimit()}{HasReachedCallLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Reached\+Call\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ac2510d8f560ddac6b2911bda454e2948}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ac2510d8f560ddac6b2911bda454e2948}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasValidCovariance@{HasValidCovariance}}
+\index{HasValidCovariance@{HasValidCovariance}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasValidCovariance()}{HasValidCovariance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Valid\+Covariance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ac2510d8f560ddac6b2911bda454e2948}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ac2510d8f560ddac6b2911bda454e2948}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasValidCovariance@{HasValidCovariance}}
+\index{HasValidCovariance@{HasValidCovariance}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasValidCovariance()}{HasValidCovariance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Valid\+Covariance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a723b0ab6157e57113a142f1d4a31ace2}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a723b0ab6157e57113a142f1d4a31ace2}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasValidParameters@{HasValidParameters}}
+\index{HasValidParameters@{HasValidParameters}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasValidParameters()}{HasValidParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Valid\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a723b0ab6157e57113a142f1d4a31ace2}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a723b0ab6157e57113a142f1d4a31ace2}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HasValidParameters@{HasValidParameters}}
+\index{HasValidParameters@{HasValidParameters}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HasValidParameters()}{HasValidParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Has\+Valid\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a6400b299323d7e632692229ce026056c}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a6400b299323d7e632692229ce026056c}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HesseFailed@{HesseFailed}}
+\index{HesseFailed@{HesseFailed}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HesseFailed()}{HesseFailed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Hesse\+Failed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a6400b299323d7e632692229ce026056c}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a6400b299323d7e632692229ce026056c}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!HesseFailed@{HesseFailed}}
+\index{HesseFailed@{HesseFailed}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{HesseFailed()}{HesseFailed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Hesse\+Failed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aa87b9f0f50a77d219976b8767e39ac0f}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aa87b9f0f50a77d219976b8767e39ac0f}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!IsAboveMaxEdm@{IsAboveMaxEdm}}
+\index{IsAboveMaxEdm@{IsAboveMaxEdm}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{IsAboveMaxEdm()}{IsAboveMaxEdm()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Is\+Above\+Max\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aa87b9f0f50a77d219976b8767e39ac0f}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aa87b9f0f50a77d219976b8767e39ac0f}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!IsAboveMaxEdm@{IsAboveMaxEdm}}
+\index{IsAboveMaxEdm@{IsAboveMaxEdm}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{IsAboveMaxEdm()}{IsAboveMaxEdm()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Is\+Above\+Max\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a6525270e63f1cf16206387257b247b69}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!NFcn@{NFcn}}
+\index{NFcn@{NFcn}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!NFcn@{NFcn}}
+\index{NFcn@{NFcn}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a8af0f1813c9ae51d7a57a1de0cbae42f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!operator=@{operator=}}
+\index{operator=@{operator=}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&}]{min }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!operator=@{operator=}}
+\index{operator=@{operator=}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionMinimum}{Function\+Minimum}} \&}]{min }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a107909f1a994436795eb310f951f14cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Parameters@{Parameters}}
+\index{Parameters@{Parameters}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a069ba097db08f87582b309330ef8aa6e}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Parameters@{Parameters}}
+\index{Parameters@{Parameters}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a9812689b192b202a73ce1178e8098705}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a9812689b192b202a73ce1178e8098705}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Seed@{Seed}}
+\index{Seed@{Seed}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Seed()}{Seed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Seed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a9812689b192b202a73ce1178e8098705}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a9812689b192b202a73ce1178e8098705}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Seed@{Seed}}
+\index{Seed@{Seed}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Seed()}{Seed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumSeed}{Minimum\+Seed}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Seed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_af45892d274c493850fc78e9917f17781}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_af45892d274c493850fc78e9917f17781}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!SetErrorDef@{SetErrorDef}}
+\index{SetErrorDef@{SetErrorDef}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{SetErrorDef()}{SetErrorDef()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Set\+Error\+Def (\begin{DoxyParamCaption}\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_af45892d274c493850fc78e9917f17781}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_af45892d274c493850fc78e9917f17781}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!SetErrorDef@{SetErrorDef}}
+\index{SetErrorDef@{SetErrorDef}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{SetErrorDef()}{SetErrorDef()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Set\+Error\+Def (\begin{DoxyParamCaption}\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aa57279a22070860400c8854289c84314}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aa57279a22070860400c8854289c84314}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!State@{State}}
+\index{State@{State}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aa57279a22070860400c8854289c84314}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aa57279a22070860400c8854289c84314}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!State@{State}}
+\index{State@{State}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a5f08def4f7ca92700393d42ded6eb237}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a5f08def4f7ca92700393d42ded6eb237}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!States@{States}}
+\index{States@{States}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{States()}{States()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const std\+::vector$<$\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{R\+O\+O\+T\+::\+Minuit2\+::\+Minimum\+State}}$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+States (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a5f08def4f7ca92700393d42ded6eb237}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a5f08def4f7ca92700393d42ded6eb237}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!States@{States}}
+\index{States@{States}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{States()}{States()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const std\+::vector$<$\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{R\+O\+O\+T\+::\+Minuit2\+::\+Minimum\+State}}$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+States (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a53be50e5f3a36b22144bb98fc55c9340}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a53be50e5f3a36b22144bb98fc55c9340}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Up@{Up}}
+\index{Up@{Up}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Up()}{Up()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a53be50e5f3a36b22144bb98fc55c9340}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a53be50e5f3a36b22144bb98fc55c9340}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!Up@{Up}}
+\index{Up@{Up}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{Up()}{Up()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aeb3d5cb9f9c49838fa4b08668c8556db}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aeb3d5cb9f9c49838fa4b08668c8556db}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!UserCovariance@{UserCovariance}}
+\index{UserCovariance@{UserCovariance}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{UserCovariance()}{UserCovariance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+User\+Covariance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_aeb3d5cb9f9c49838fa4b08668c8556db}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_aeb3d5cb9f9c49838fa4b08668c8556db}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!UserCovariance@{UserCovariance}}
+\index{UserCovariance@{UserCovariance}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{UserCovariance()}{UserCovariance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+User\+Covariance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ac916253d7e29de7da4da5bf4b84a2ad5}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ac916253d7e29de7da4da5bf4b84a2ad5}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!UserParameters@{UserParameters}}
+\index{UserParameters@{UserParameters}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{UserParameters()}{UserParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+User\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_ac916253d7e29de7da4da5bf4b84a2ad5}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_ac916253d7e29de7da4da5bf4b84a2ad5}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!UserParameters@{UserParameters}}
+\index{UserParameters@{UserParameters}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{UserParameters()}{UserParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+User\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!UserState@{UserState}}
+\index{UserState@{UserState}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{UserState()}{UserState()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+User\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e}\label{classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e}} 
+\index{ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}!UserState@{UserState}}
+\index{UserState@{UserState}!ROOT::Minuit2::FunctionMinimum@{ROOT::Minuit2::FunctionMinimum}}
+\subsubsection{\texorpdfstring{UserState()}{UserState()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Function\+Minimum\+::\+User\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dfb/classROOT_1_1Minuit2_1_1FunctionMinimum_a698dc320ec24e2288f391f160ef8213e_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2FunctionMinimum_8h}{Function\+Minimum.\+h}}\end{DoxyCompactItemize}

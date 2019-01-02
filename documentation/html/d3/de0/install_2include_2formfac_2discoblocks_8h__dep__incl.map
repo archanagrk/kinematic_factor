@@ -1,0 +1,8 @@
+<map id="/Users/archanar/Kinematic_factor/adat_devel_install/include/formfac/discoblocks.h" name="/Users/archanar/Kinematic_factor/adat_devel_install/include/formfac/discoblocks.h">
+<area shape="rect" id="node1" title="(disconnected diagram) building blocks" alt="" coords="414,5,613,57"/>
+<area shape="rect" id="node2" href="$d9/d64/discoblocks_8cc.html" title="Hadron 1pt correlators." alt="" coords="5,105,184,157"/>
+<area shape="rect" id="node3" href="$dd/d2c/ensem__filenames_8cc.html" title="Ensemble file names." alt="" coords="208,105,400,157"/>
+<area shape="rect" id="node4" href="$dd/db6/dbdisco_8cc.html" title="Generic operations on single config databases." alt="" coords="424,105,602,157"/>
+<area shape="rect" id="node5" href="$d9/d7e/dbgraph__convert_8cc.html" title="Generic operations on a ensem db file." alt="" coords="627,105,805,157"/>
+<area shape="rect" id="node6" href="$d7/d42/dbutil_8cc.html" title="Generic operations on a ensem db file." alt="" coords="829,105,1008,157"/>
+</map>

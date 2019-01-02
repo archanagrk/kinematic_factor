@@ -1,0 +1,177 @@
+\hypertarget{namespaceENSEM_1_1RNG}{}\section{E\+N\+S\+EM\+:\+:R\+NG Namespace Reference}
+\label{namespaceENSEM_1_1RNG}\index{ENSEM::RNG@{ENSEM::RNG}}
+
+
+Random number generator namespace.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{namespaceENSEM_1_1RNG_aa1f3f43467faf807cee97333f92173d4}{numbits}} (int x)
+\begin{DoxyCompactList}\small\item\em Find the number of bits required to represent x. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64}{init\+Default\+R\+NG}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the random number generator with a default seed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceENSEM_1_1RNG_a69ee665fc3157b2080c75a027343d449}{init\+R\+NG}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the internals of the random number generator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceENSEM_1_1RNG_ad0ec5508fb072a32d96927e5b752164a}{setrn}} (const \mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} \&seed)
+\begin{DoxyCompactList}\small\item\em Initialize the random number generator seed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceENSEM_1_1RNG_a5e6a21d205da8a5f8bf3c4732ab5d358}{savern}} (\mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} \&seed)
+\begin{DoxyCompactList}\small\item\em Return a copy of the random number seed. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{namespaceENSEM_1_1RNG_a169ccd1627df1ad9983c4ce344d0e36a}{sranf}} ()
+\begin{DoxyCompactList}\small\item\em Scalar random number generator. Done on the front end. $\ast$/. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} \mbox{\hyperlink{namespaceENSEM_1_1RNG_a3d617978a554c127dc164947d602b288}{ran\+\_\+seed}}
+\begin{DoxyCompactList}\small\item\em Global (current) seed. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} \mbox{\hyperlink{namespaceENSEM_1_1RNG_a934549765fb4b894a8dafd77fb0aa3d1}{ran\+\_\+mult}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}} multiplier. \end{DoxyCompactList}\item 
+const bool \mbox{\hyperlink{namespaceENSEM_1_1RNG_ac792bd2933a030bd73c2ffd2d289cc53}{registered}} = \mbox{\hyperlink{namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64}{init\+Default\+R\+NG}}()
+\begin{DoxyCompactList}\small\item\em Hook to get code to link. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Random number generator namespace. 
+
+A collection of routines and data for supporting random numbers
+
+It is a linear congruential with modulus m = 2$\ast$$\ast$47, increment c = 0, and multiplier a = (2$\ast$$\ast$36)$\ast$m3 + (2$\ast$$\ast$24)$\ast$m2 + (2$\ast$$\ast$12)$\ast$m1 + m0. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64}\label{namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!initDefaultRNG@{initDefaultRNG}}
+\index{initDefaultRNG@{initDefaultRNG}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{initDefaultRNG()}{initDefaultRNG()}}
+{\footnotesize\ttfamily bool E\+N\+S\+E\+M\+::\+R\+N\+G\+::init\+Default\+R\+NG (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize the random number generator with a default seed. 
+
+Default initialization of the \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}}.
+
+Uses arbitrary internal seed to initialize the \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}} Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d9c/namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_a69ee665fc3157b2080c75a027343d449}\label{namespaceENSEM_1_1RNG_a69ee665fc3157b2080c75a027343d449}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!initRNG@{initRNG}}
+\index{initRNG@{initRNG}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{initRNG()}{initRNG()}}
+{\footnotesize\ttfamily void E\+N\+S\+E\+M\+::\+R\+N\+G\+::init\+R\+NG (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialize the internals of the random number generator. 
+
+Initialize the internals of the \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}}. Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d9c/namespaceENSEM_1_1RNG_a69ee665fc3157b2080c75a027343d449_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_aa1f3f43467faf807cee97333f92173d4}\label{namespaceENSEM_1_1RNG_aa1f3f43467faf807cee97333f92173d4}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!numbits@{numbits}}
+\index{numbits@{numbits}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{numbits()}{numbits()}}
+{\footnotesize\ttfamily int E\+N\+S\+E\+M\+::\+R\+N\+G\+::numbits (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Find the number of bits required to represent x. 
+
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_a5e6a21d205da8a5f8bf3c4732ab5d358}\label{namespaceENSEM_1_1RNG_a5e6a21d205da8a5f8bf3c4732ab5d358}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!savern@{savern}}
+\index{savern@{savern}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{savern()}{savern()}}
+{\footnotesize\ttfamily void E\+N\+S\+E\+M\+::\+R\+N\+G\+::savern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} \&}]{lseed }\end{DoxyParamCaption})}
+
+
+
+Return a copy of the random number seed. 
+
+Recover the current \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}} seed.
+
+Seeds are big-\/ints \mbox{\Hypertarget{namespaceENSEM_1_1RNG_ad0ec5508fb072a32d96927e5b752164a}\label{namespaceENSEM_1_1RNG_ad0ec5508fb072a32d96927e5b752164a}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!setrn@{setrn}}
+\index{setrn@{setrn}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{setrn()}{setrn()}}
+{\footnotesize\ttfamily void E\+N\+S\+E\+M\+::\+R\+N\+G\+::setrn (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} \&}]{lseed }\end{DoxyParamCaption})}
+
+
+
+Initialize the random number generator seed. 
+
+Initialize the \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}} seed.
+
+Seeds are big-\/ints Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d9c/namespaceENSEM_1_1RNG_ad0ec5508fb072a32d96927e5b752164a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_a169ccd1627df1ad9983c4ce344d0e36a}\label{namespaceENSEM_1_1RNG_a169ccd1627df1ad9983c4ce344d0e36a}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!sranf@{sranf}}
+\index{sranf@{sranf}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{sranf()}{sranf()}}
+{\footnotesize\ttfamily float E\+N\+S\+E\+M\+::\+R\+N\+G\+::sranf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Scalar random number generator. Done on the front end. $\ast$/. 
+
+Internal \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}}.
+
+It is linear congruential with modulus m = 2$\ast$$\ast$47, increment c = 0, and multiplier a = (2$\ast$$\ast$36)$\ast$m3 + (2$\ast$$\ast$24)$\ast$m2 + (2$\ast$$\ast$12)$\ast$m1 + m0. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d9c/namespaceENSEM_1_1RNG_a169ccd1627df1ad9983c4ce344d0e36a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{d8/d9c/namespaceENSEM_1_1RNG_a169ccd1627df1ad9983c4ce344d0e36a_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_a934549765fb4b894a8dafd77fb0aa3d1}\label{namespaceENSEM_1_1RNG_a934549765fb4b894a8dafd77fb0aa3d1}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!ran\_mult@{ran\_mult}}
+\index{ran\_mult@{ran\_mult}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{ran\_mult}{ran\_mult}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} E\+N\+S\+E\+M\+::\+R\+N\+G\+::ran\+\_\+mult}
+
+
+
+\mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}} multiplier. 
+
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_a3d617978a554c127dc164947d602b288}\label{namespaceENSEM_1_1RNG_a3d617978a554c127dc164947d602b288}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!ran\_seed@{ran\_seed}}
+\index{ran\_seed@{ran\_seed}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{ran\_seed}{ran\_seed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group__defs_ga8a5a983ab64ca8f6a5419885bacd4c40}{Seed}} E\+N\+S\+E\+M\+::\+R\+N\+G\+::ran\+\_\+seed}
+
+
+
+Global (current) seed. 
+
+\mbox{\Hypertarget{namespaceENSEM_1_1RNG_ac792bd2933a030bd73c2ffd2d289cc53}\label{namespaceENSEM_1_1RNG_ac792bd2933a030bd73c2ffd2d289cc53}} 
+\index{ENSEM::RNG@{ENSEM::RNG}!registered@{registered}}
+\index{registered@{registered}!ENSEM::RNG@{ENSEM::RNG}}
+\subsubsection{\texorpdfstring{registered}{registered}}
+{\footnotesize\ttfamily const bool E\+N\+S\+E\+M\+::\+R\+N\+G\+::registered = \mbox{\hyperlink{namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64}{init\+Default\+R\+NG}}()}
+
+
+
+Hook to get code to link. 
+

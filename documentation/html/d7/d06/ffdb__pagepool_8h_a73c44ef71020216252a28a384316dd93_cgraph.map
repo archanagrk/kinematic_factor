@@ -1,0 +1,7 @@
+<map id="ffdb_pagepool_close" name="ffdb_pagepool_close">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,149,56"/>
+<area shape="rect" id="node2" href="$d9/d2a/ffdb__pagepool_8c.html#ae180f42208c9a87c2b8be32bb3ec93be" title=" " alt="" coords="197,5,338,31"/>
+<area shape="rect" id="node3" href="$db/de5/group__qio.html#gac32c771b58d87e4ef4af62a7ad2e5c0d" title="Close a ADATFileReader." alt="" coords="213,55,322,80"/>
+<area shape="rect" id="node4" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="386,48,563,87"/>
+<area shape="rect" id="node5" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="611,48,788,87"/>
+</map>

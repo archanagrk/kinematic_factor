@@ -1,0 +1,815 @@
+\hypertarget{classFILEDB_1_1AllConfStoreDB}{}\section{F\+I\+L\+E\+DB\+:\+:All\+Conf\+Store\+DB$<$ K, D $>$ Class Template Reference}
+\label{classFILEDB_1_1AllConfStoreDB}\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+
+
+{\ttfamily \#include $<$All\+Conf\+Store\+D\+B.\+h$>$}
+
+
+
+Inheritance diagram for F\+I\+L\+E\+DB\+:\+:All\+Conf\+Store\+DB$<$ K, D $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{d6/d56/classFILEDB_1_1AllConfStoreDB__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for F\+I\+L\+E\+DB\+:\+:All\+Conf\+Store\+DB$<$ K, D $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{d4/d50/classFILEDB_1_1AllConfStoreDB__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classFILEDB_1_1DBKeyIterator}{D\+B\+Key\+Iterator}}$<$ K, D $>$ \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}}
+\item 
+typedef \mbox{\hyperlink{classFILEDB_1_1DBKeyIterator}{D\+B\+Key\+Iterator}}$<$ K, D $>$ \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a72b72501b29029e2bfb682565f96eac0}{All\+Conf\+Store\+DB}} (void)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162}{All\+Conf\+Store\+DB}} (const std\+::vector$<$ int $>$ \&configs)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1}{All\+Conf\+Store\+DB}} (const std\+::vector$<$ int $>$ \&configs, const std\+::vector$<$ std\+::string $>$ \&names)
+\item 
+virtual int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f}{open}} (const std\+::string \&file, int open\+\_\+flags, int mode)
+\item 
+virtual \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ac5fe65eab60f20d7b8124c69c0bd5923}{$\sim$\+All\+Conf\+Store\+DB}} (void)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35}{get}} (const K \&key, std\+::vector$<$ D $>$ \&vs)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1}{get\+Binary\+Data}} (const std\+::string \&key, std\+::vector$<$ std\+::string $>$ \&vs)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f}{insert}} (const K \&key, const std\+::vector$<$ D $>$ \&\mbox{\hyperlink{hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60}{insert\+Binary\+Data}} (const std\+::string \&key, const std\+::vector$<$ std\+::string $>$ \&\mbox{\hyperlink{hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c}{update}} (const K \&key, const D \&\mbox{\hyperlink{hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, const int config, const int index)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d}{keys\+And\+Data}} (std\+::vector$<$ K $>$ \&\mbox{\hyperlink{classFILEDB_1_1ConfDataStoreDB_a794e05e3888ab95e0396a196b5a18e65}{keys}}, std\+::vector$<$ std\+::vector$<$ D $>$ $>$ \&values)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_afb092d33f9ca14ca30918d6cb8251fdb}{erase}} (const K \&key)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ac90e596f6c914145130719ec5ac13593}{update\+Done}} (void)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6}{size}} (void) const
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a}{set\+Config\+Info}} (const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&config)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770}{get\+Config\+Info}} (unsigned int confignum, \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&\mbox{\hyperlink{structinfo}{info}})
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632}{get\+All\+Config\+Info}} (std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&configs)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a7bb7f812d80471897860af5692eb5bd2}{begin}} (void) const
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a213c914b326e7769411e305ceb375b1d}{end}} (void) const
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a72b72501b29029e2bfb682565f96eac0}{All\+Conf\+Store\+DB}} (void)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162}{All\+Conf\+Store\+DB}} (const std\+::vector$<$ int $>$ \&configs)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1}{All\+Conf\+Store\+DB}} (const std\+::vector$<$ int $>$ \&configs, const std\+::vector$<$ std\+::string $>$ \&names)
+\item 
+virtual int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f}{open}} (const std\+::string \&file, int open\+\_\+flags, int mode)
+\item 
+virtual \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ac5fe65eab60f20d7b8124c69c0bd5923}{$\sim$\+All\+Conf\+Store\+DB}} (void)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35}{get}} (const K \&key, std\+::vector$<$ D $>$ \&vs)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1}{get\+Binary\+Data}} (const std\+::string \&key, std\+::vector$<$ std\+::string $>$ \&vs)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f}{insert}} (const K \&key, const std\+::vector$<$ D $>$ \&\mbox{\hyperlink{hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60}{insert\+Binary\+Data}} (const std\+::string \&key, const std\+::vector$<$ std\+::string $>$ \&\mbox{\hyperlink{hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}})
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c}{update}} (const K \&key, const D \&\mbox{\hyperlink{hadron__timeslice_8cc_a716fc87f5e814be3ceee2405ed6ff22a}{v}}, const int config, const int index)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d}{keys\+And\+Data}} (std\+::vector$<$ K $>$ \&\mbox{\hyperlink{classFILEDB_1_1ConfDataStoreDB_a794e05e3888ab95e0396a196b5a18e65}{keys}}, std\+::vector$<$ std\+::vector$<$ D $>$ $>$ \&values)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_afb092d33f9ca14ca30918d6cb8251fdb}{erase}} (const K \&key)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_ac90e596f6c914145130719ec5ac13593}{update\+Done}} (void)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6}{size}} (void) const
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a}{set\+Config\+Info}} (const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&config)
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770}{get\+Config\+Info}} (unsigned int confignum, \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&\mbox{\hyperlink{structinfo}{info}})
+\item 
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632}{get\+All\+Config\+Info}} (std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&configs)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a7bb7f812d80471897860af5692eb5bd2}{begin}} (void) const
+\item 
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a213c914b326e7769411e305ceb375b1d}{end}} (void) const
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename K, typename D$>$\newline
+class F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+D\+B$<$ K, D $>$}
+
+Class that store keys and corresponding data for all configurations 
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}\label{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!key\_iterator@{key\_iterator}}
+\index{key\_iterator@{key\_iterator}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{key\_iterator}{key\_iterator}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+typedef \mbox{\hyperlink{classFILEDB_1_1DBKeyIterator}{D\+B\+Key\+Iterator}}$<$ K, D $>$ \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}}}
+
+Define Key iterator \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}\label{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!key\_iterator@{key\_iterator}}
+\index{key\_iterator@{key\_iterator}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{key\_iterator}{key\_iterator}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+typedef \mbox{\hyperlink{classFILEDB_1_1DBKeyIterator}{D\+B\+Key\+Iterator}}$<$ K, D $>$ \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}}}
+
+Define Key iterator 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a72b72501b29029e2bfb682565f96eac0}\label{classFILEDB_1_1AllConfStoreDB_a72b72501b29029e2bfb682565f96eac0}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!AllConfStoreDB@{AllConfStoreDB}}
+\index{AllConfStoreDB@{AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{AllConfStoreDB()}{AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default constructor \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162}\label{classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!AllConfStoreDB@{AllConfStoreDB}}
+\index{AllConfStoreDB@{AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{AllConfStoreDB()}{AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{configs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor taking a vector of configuration information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1}\label{classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!AllConfStoreDB@{AllConfStoreDB}}
+\index{AllConfStoreDB@{AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{AllConfStoreDB()}{AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{configs,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor taking a vector of configuration information Plus names of databases Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ac5fe65eab60f20d7b8124c69c0bd5923}\label{classFILEDB_1_1AllConfStoreDB_ac5fe65eab60f20d7b8124c69c0bd5923}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!````~AllConfStoreDB@{$\sim$AllConfStoreDB}}
+\index{````~AllConfStoreDB@{$\sim$AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{$\sim$AllConfStoreDB()}{~AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+virtual \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::$\sim$\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Destructor \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a72b72501b29029e2bfb682565f96eac0}\label{classFILEDB_1_1AllConfStoreDB_a72b72501b29029e2bfb682565f96eac0}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!AllConfStoreDB@{AllConfStoreDB}}
+\index{AllConfStoreDB@{AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{AllConfStoreDB()}{AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default constructor \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162}\label{classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!AllConfStoreDB@{AllConfStoreDB}}
+\index{AllConfStoreDB@{AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{AllConfStoreDB()}{AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{configs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor taking a vector of configuration information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a9a8553b0ce3ac82be098130d08f62162_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1}\label{classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!AllConfStoreDB@{AllConfStoreDB}}
+\index{AllConfStoreDB@{AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{AllConfStoreDB()}{AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{configs,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor taking a vector of configuration information Plus names of databases Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_ab8b213578395f0ac7d436a82f4a26fe1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ac5fe65eab60f20d7b8124c69c0bd5923}\label{classFILEDB_1_1AllConfStoreDB_ac5fe65eab60f20d7b8124c69c0bd5923}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!````~AllConfStoreDB@{$\sim$AllConfStoreDB}}
+\index{````~AllConfStoreDB@{$\sim$AllConfStoreDB}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{$\sim$AllConfStoreDB()}{~AllConfStoreDB()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+virtual \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::$\sim$\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a7bb7f812d80471897860af5692eb5bd2}\label{classFILEDB_1_1AllConfStoreDB_a7bb7f812d80471897860af5692eb5bd2}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!begin@{begin}}
+\index{begin@{begin}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::begin (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return key iterator \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a7bb7f812d80471897860af5692eb5bd2}\label{classFILEDB_1_1AllConfStoreDB_a7bb7f812d80471897860af5692eb5bd2}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!begin@{begin}}
+\index{begin@{begin}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::begin (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return key iterator \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a213c914b326e7769411e305ceb375b1d}\label{classFILEDB_1_1AllConfStoreDB_a213c914b326e7769411e305ceb375b1d}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!end@{end}}
+\index{end@{end}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::end (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a213c914b326e7769411e305ceb375b1d}\label{classFILEDB_1_1AllConfStoreDB_a213c914b326e7769411e305ceb375b1d}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!end@{end}}
+\index{end@{end}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB_a2ce8981ca7049ed0c2c6e438873a9c1b}{key\+\_\+iterator}} \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::end (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_afb092d33f9ca14ca30918d6cb8251fdb}\label{classFILEDB_1_1AllConfStoreDB_afb092d33f9ca14ca30918d6cb8251fdb}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!erase@{erase}}
+\index{erase@{erase}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{erase()}{erase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::erase (\begin{DoxyParamCaption}\item[{const K \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Erase an entry from the storage This routine is always successful. If there is no this entry, this routine will return quietly 
+\begin{DoxyParams}{Parameters}
+{\em key} & a provided key object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_afb092d33f9ca14ca30918d6cb8251fdb}\label{classFILEDB_1_1AllConfStoreDB_afb092d33f9ca14ca30918d6cb8251fdb}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!erase@{erase}}
+\index{erase@{erase}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{erase()}{erase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::erase (\begin{DoxyParamCaption}\item[{const K \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Erase an entry from the storage This routine is always successful. If there is no this entry, this routine will return quietly 
+\begin{DoxyParams}{Parameters}
+{\em key} & a provided key object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35}\label{classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!get@{get}}
+\index{get@{get}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{std\+::vector$<$ D $>$ \&}]{vs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return a vector of complex numbers corresponding to a key 
+\begin{DoxyParams}{Parameters}
+{\em arg} & a key \\
+\hline
+{\em vectors} & user supplied ensemble -\/ here, an array single config corrs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 when there are something for this key. 1 wheen there are no 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35}\label{classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!get@{get}}
+\index{get@{get}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{std\+::vector$<$ D $>$ \&}]{vs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return a vector of complex numbers corresponding to a key 
+\begin{DoxyParams}{Parameters}
+{\em arg} & a key \\
+\hline
+{\em vectors} & user supplied ensemble -\/ here, an array single config corrs \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 when there are something for this key. 1 wheen there are no 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a848466f7dce25cacc4e8560c50240d35_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632}\label{classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!getAllConfigInfo@{getAllConfigInfo}}
+\index{getAllConfigInfo@{getAllConfigInfo}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{getAllConfigInfo()}{getAllConfigInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get\+All\+Config\+Info (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{configs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get all configuration information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632}\label{classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!getAllConfigInfo@{getAllConfigInfo}}
+\index{getAllConfigInfo@{getAllConfigInfo}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{getAllConfigInfo()}{getAllConfigInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get\+All\+Config\+Info (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{configs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get all configuration information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aeb8e6daf1a1f9b7a19899cf7db365632_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1}\label{classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!getBinaryData@{getBinaryData}}
+\index{getBinaryData@{getBinaryData}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{getBinaryData()}{getBinaryData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get\+Binary\+Data (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{vs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return a vector of complex numbers corresponding to a key in string form 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key in string format \\
+\hline
+{\em vectors} & user supplied ensemble in string format \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 when there are something for this key. 1 wheen there are no 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1}\label{classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!getBinaryData@{getBinaryData}}
+\index{getBinaryData@{getBinaryData}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{getBinaryData()}{getBinaryData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get\+Binary\+Data (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{vs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return a vector of complex numbers corresponding to a key in string form 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key in string format \\
+\hline
+{\em vectors} & user supplied ensemble in string format \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 when there are something for this key. 1 wheen there are no 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aa923faf368f0aa7d327c2a3702d261c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770}\label{classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!getConfigInfo@{getConfigInfo}}
+\index{getConfigInfo@{getConfigInfo}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{getConfigInfo()}{getConfigInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get\+Config\+Info (\begin{DoxyParamCaption}\item[{unsigned int}]{confignum,  }\item[{\mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get configuration information 
+\begin{DoxyParams}{Parameters}
+{\em confignum} & configuration number we are interesed \\
+\hline
+{\em config} & configuration information for this confignum. Caller allocates the memory\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, -\/1 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770}\label{classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!getConfigInfo@{getConfigInfo}}
+\index{getConfigInfo@{getConfigInfo}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{getConfigInfo()}{getConfigInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::get\+Config\+Info (\begin{DoxyParamCaption}\item[{unsigned int}]{confignum,  }\item[{\mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get configuration information 
+\begin{DoxyParams}{Parameters}
+{\em confignum} & configuration number we are interesed \\
+\hline
+{\em config} & configuration information for this confignum. Caller allocates the memory\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, -\/1 otherwise 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a351639b9e19297abfa7b8b1aca013770_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f}\label{classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!insert@{insert}}
+\index{insert@{insert}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::insert (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{const std\+::vector$<$ D $>$ \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a pair into the secondary storage 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key provided by caller \\
+\hline
+{\em v} & a vector containing all values \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f}\label{classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!insert@{insert}}
+\index{insert@{insert}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::insert (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{const std\+::vector$<$ D $>$ \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a pair into the secondary storage 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key provided by caller \\
+\hline
+{\em v} & a vector containing all values \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_abf4a1ccd7306de436ba1ec61b242e02f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60}\label{classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!insertBinaryData@{insertBinaryData}}
+\index{insertBinaryData@{insertBinaryData}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{insertBinaryData()}{insertBinaryData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::insert\+Binary\+Data (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a pair into the secondary storage 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key provided by caller in string format \\
+\hline
+{\em v} & a vector containing all values \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60}\label{classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!insertBinaryData@{insertBinaryData}}
+\index{insertBinaryData@{insertBinaryData}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{insertBinaryData()}{insertBinaryData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::insert\+Binary\+Data (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a pair into the secondary storage 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key provided by caller in string format \\
+\hline
+{\em v} & a vector containing all values \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{df/db6/classFILEDB_1_1AllConfStoreDB_ac2c898624d4b32c526951edfb6271d60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d}\label{classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!keysAndData@{keysAndData}}
+\index{keysAndData@{keysAndData}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{keysAndData()}{keysAndData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::keys\+And\+Data (\begin{DoxyParamCaption}\item[{std\+::vector$<$ K $>$ \&}]{keys,  }\item[{std\+::vector$<$ std\+::vector$<$ D $>$ $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d}\label{classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!keysAndData@{keysAndData}}
+\index{keysAndData@{keysAndData}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{keysAndData()}{keysAndData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::keys\+And\+Data (\begin{DoxyParamCaption}\item[{std\+::vector$<$ K $>$ \&}]{keys,  }\item[{std\+::vector$<$ std\+::vector$<$ D $>$ $>$ \&}]{values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a9150983c712d6b870a75886f92b10a9d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f}\label{classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!open@{open}}
+\index{open@{open}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+virtual int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::open (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file,  }\item[{int}]{open\+\_\+flags,  }\item[{int}]{mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Open 
+\begin{DoxyParams}{Parameters}
+{\em file} & filename holding all data and keys \\
+\hline
+{\em open\+\_\+flags} & can be regular U\+N\+IX file open flags such as\+: O\+\_\+\+R\+D\+O\+N\+LY, O\+\_\+\+R\+D\+WR, O\+\_\+\+T\+R\+U\+NC \\
+\hline
+{\em mode} & regular unix file mode\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, -\/1 on failure with proper errno set 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classFILEDB_1_1ConfDataStoreDB_ab87e2fb12067bfb19c1f381a433fd442}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+Store\+D\+B$<$ K, D $>$}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f}\label{classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!open@{open}}
+\index{open@{open}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+virtual int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::open (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file,  }\item[{int}]{open\+\_\+flags,  }\item[{int}]{mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Open 
+\begin{DoxyParams}{Parameters}
+{\em file} & filename holding all data and keys \\
+\hline
+{\em open\+\_\+flags} & can be regular U\+N\+IX file open flags such as\+: O\+\_\+\+R\+D\+O\+N\+LY, O\+\_\+\+R\+D\+WR, O\+\_\+\+T\+R\+U\+NC \\
+\hline
+{\em mode} & regular unix file mode\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, -\/1 on failure with proper errno set 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classFILEDB_1_1ConfDataStoreDB_ab87e2fb12067bfb19c1f381a433fd442}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+Store\+D\+B$<$ K, D $>$}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{df/db6/classFILEDB_1_1AllConfStoreDB_aa6e6deb3c33076d16db4ac0560f0d75f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a}\label{classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!setConfigInfo@{setConfigInfo}}
+\index{setConfigInfo@{setConfigInfo}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{setConfigInfo()}{setConfigInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::set\+Config\+Info (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{config }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Update configuration information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a}\label{classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!setConfigInfo@{setConfigInfo}}
+\index{setConfigInfo@{setConfigInfo}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{setConfigInfo()}{setConfigInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::set\+Config\+Info (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{config }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Update configuration information Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a2062f555d190a3c52cc942447a090b8a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6}\label{classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!size@{size}}
+\index{size@{size}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::size (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Number of configuration (bins) of this ensemble Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6}\label{classFILEDB_1_1AllConfStoreDB_a78dd830c5211b3b00b8eae6170ffc9d6}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!size@{size}}
+\index{size@{size}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::size (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Number of configuration (bins) of this ensemble \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c}\label{classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!update@{update}}
+\index{update@{update}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{update()}{update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::update (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{const D \&}]{v,  }\item[{const int}]{config,  }\item[{const int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Update a pair of data and key into the database data is not ensemble, but a single data 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key object \\
+\hline
+{\em v} & a single data object corresponding to a configuration \\
+\hline
+{\em config} & configuration number of this pair \\
+\hline
+{\em index} & when this data should be inside its ensemble \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c}\label{classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!update@{update}}
+\index{update@{update}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{update()}{update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+int \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::update (\begin{DoxyParamCaption}\item[{const K \&}]{key,  }\item[{const D \&}]{v,  }\item[{const int}]{config,  }\item[{const int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Update a pair of data and key into the database data is not ensemble, but a single data 
+\begin{DoxyParams}{Parameters}
+{\em key} & a key object \\
+\hline
+{\em v} & a single data object corresponding to a configuration \\
+\hline
+{\em config} & configuration number of this pair \\
+\hline
+{\em index} & when this data should be inside its ensemble \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/db6/classFILEDB_1_1AllConfStoreDB_a3beaa117f0ddf32de13d5f96643b626c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ac90e596f6c914145130719ec5ac13593}\label{classFILEDB_1_1AllConfStoreDB_ac90e596f6c914145130719ec5ac13593}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!updateDone@{updateDone}}
+\index{updateDone@{updateDone}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{updateDone()}{updateDone()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::update\+Done (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tell the storage handler updating process is finished This routine is for performance purpose to avoid close underlying database during multiple updates.
+
+This routine should be called after one configuration is finished. \mbox{\Hypertarget{classFILEDB_1_1AllConfStoreDB_ac90e596f6c914145130719ec5ac13593}\label{classFILEDB_1_1AllConfStoreDB_ac90e596f6c914145130719ec5ac13593}} 
+\index{FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}!updateDone@{updateDone}}
+\index{updateDone@{updateDone}!FILEDB::AllConfStoreDB$<$ K, D $>$@{FILEDB::AllConfStoreDB$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{updateDone()}{updateDone()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{F\+I\+L\+E\+D\+B\+::\+All\+Conf\+Store\+DB}}$<$ K, D $>$\+::update\+Done (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tell the storage handler updating process is finished This routine is for performance purpose to avoid close underlying database during multiple updates.
+
+This routine should be called after one configuration is finished. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/src/\mbox{\hyperlink{other__libs_2filedb_2src_2AllConfStoreDB_8h}{All\+Conf\+Store\+D\+B.\+h}}\end{DoxyCompactItemize}

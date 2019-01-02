@@ -1,0 +1,7 @@
+<map id="ENSEM::traceMultiply" name="ENSEM::traceMultiply">
+<area shape="rect" id="node1" title=" " alt="" coords="467,55,618,80"/>
+<area shape="rect" id="node2" href="$d8/d55/group__obsmatrix.html#ga465cbe792dfb205b829f653853253e8f" title=" " alt="" coords="252,5,403,31"/>
+<area shape="rect" id="node3" href="$d1/d71/group__obsscalar.html#gabe14ff90818892f233905fa6dad8eb49" title="OScalar = traceColor(OScalar * OScalar)" alt="" coords="236,55,419,80"/>
+<area shape="rect" id="node5" href="$d1/d71/group__obsscalar.html#ga4f302dae1d100fdae28fb6e784a8bc3b" title="OScalar = traceSpin(OScalar * OScalar)" alt="" coords="239,104,416,129"/>
+<area shape="rect" id="node4" href="$df/d0a/group__primmatrix.html#ga017dba078c2a41f5ca2a8d2b934b20aa" title=" " alt="" coords="5,55,188,80"/>
+</map>

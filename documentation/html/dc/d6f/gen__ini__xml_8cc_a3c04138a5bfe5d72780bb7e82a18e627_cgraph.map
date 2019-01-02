@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,87,56,112"/>
+<area shape="rect" id="node2" href="$d5/d0d/namespaceADAT.html#a38920c20e5e4ccb234f9a05e436a4faa" title="Write a MapObject in xml." alt="" coords="104,87,194,112"/>
+<area shape="rect" id="node3" href="$d7/da0/namespaceADATXML.html#a1e8531ea0cb1a302d918f3b427969425" title=" " alt="" coords="265,12,385,37"/>
+<area shape="rect" id="node5" href="$da/d29/classADAT_1_1MapObject.html#a7f4f6830f0efcc2fcd7bb2aebe0b0c95" title="Begin loop over keys." alt="" coords="242,61,408,87"/>
+<area shape="rect" id="node6" href="$da/d29/classADAT_1_1MapObject.html#a1162459ba16798247ab64ee38be25bca" title="End loop over keys." alt="" coords="247,111,403,136"/>
+<area shape="rect" id="node7" href="$d2/da3/group__io.html#gac235f191b977af85918b9a9d063ba5f4" title="Pop a group name." alt="" coords="268,160,381,185"/>
+<area shape="rect" id="node4" href="$da/da7/classADATXML_1_1XMLWriter.html#a8f9728743acfd9c15ab5d69bf8800a5e" title=" " alt="" coords="456,5,608,44"/>
+<area shape="rect" id="node8" href="$da/da7/classADATXML_1_1XMLWriter.html#ade5512a07806893fe3aaebb897580569" title=" " alt="" coords="456,153,608,192"/>
+<area shape="rect" id="node9" href="$da/da7/classADATXML_1_1XMLWriter.html#a13209ef7863272707bf8fea7c172e9f1" title=" " alt="" coords="656,153,809,192"/>
+</map>

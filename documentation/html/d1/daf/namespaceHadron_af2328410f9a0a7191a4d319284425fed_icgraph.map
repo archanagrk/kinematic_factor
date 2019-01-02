@@ -1,0 +1,4 @@
+<map id="Hadron::constructSpinDP" name="Hadron::constructSpinDP">
+<area shape="rect" id="node1" title="Construct a spin matrix in the DP rep." alt="" coords="276,5,447,31"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a9d2555db4b8f920142f7c79e6752eccd" title="Convert a DP gamma matrix indexed by gamma into a sparse spin representation." alt="" coords="5,5,228,31"/>
+</map>

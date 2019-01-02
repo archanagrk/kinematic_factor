@@ -1,0 +1,5 @@
+<map id="Hadron::getTwoIsospin" name="Hadron::getTwoIsospin">
+<area shape="rect" id="node1" title="Get flavor of particle id." alt="" coords="247,31,405,56"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a21a0c1cea8de6f0c457f10e22cd3d251" title="Build a npt irrep name." alt="" coords="18,5,187,31"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a870585feaeca280be18774aa6242e2e9" title="Convert a correlator key." alt="" coords="5,55,199,80"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ROOT::Minuit2::similarity" name="ROOT::Minuit2::similarity">
+<area shape="rect" id="node1" title=" " alt="" coords="528,107,696,132"/>
+<area shape="rect" id="node2" href="$d1/d0a/classROOT_1_1Minuit2_1_1DavidonErrorUpdator.html#afad671aa523cbd9f17af376c51c3ce97" title=" " alt="" coords="282,37,477,76"/>
+<area shape="rect" id="node4" href="$d7/de3/classROOT_1_1Minuit2_1_1VariableMetricEDMEstimator.html#a3c4d22f40ab9ea39de88cca47ddfcb5f" title=" " alt="" coords="279,131,480,169"/>
+<area shape="rect" id="node3" href="$d5/d52/classROOT_1_1Minuit2_1_1VariableMetricBuilder.html#a6214271e1802f110e94725295f3900fc" title=" " alt="" coords="18,5,218,44"/>
+<area shape="rect" id="node5" href="$dc/dcb/classROOT_1_1Minuit2_1_1FumiliBuilder.html#ac0df0ebc275b75e6a6831f102f1753d2" title=" " alt="" coords="22,68,215,107"/>
+<area shape="rect" id="node6" href="$d1/d02/classROOT_1_1Minuit2_1_1MnHesse.html#a4130de0190695811a4606f8ab229482d" title=" " alt="" coords="32,131,205,169"/>
+<area shape="rect" id="node7" href="$de/da5/classROOT_1_1Minuit2_1_1MnSeedGenerator.html#a654d0f1b67cd1a3a17de8334ba811ef0" title=" " alt="" coords="5,193,231,232"/>
+<area shape="rect" id="node8" href="$d3/d6b/classROOT_1_1Minuit2_1_1NegativeG2LineSearch.html#ac39ff4c0d14335bd8c8bdcede066ecdf" title=" " alt="" coords="25,256,212,295"/>
+<area shape="rect" id="node9" href="$d3/d36/classROOT_1_1Minuit2_1_1SimplexSeedGenerator.html#aa0c427acb85f9a47a0abaecbf85b1f5c" title=" " alt="" coords="21,319,216,357"/>
+</map>

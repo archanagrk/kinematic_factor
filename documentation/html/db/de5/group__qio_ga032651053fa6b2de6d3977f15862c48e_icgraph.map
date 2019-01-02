@@ -1,0 +1,9 @@
+<map id="ADATIO::ADATFileReader::nextRecord" name="ADATIO::ADATFileReader::nextRecord">
+<area shape="rect" id="node1" title="Move to next record." alt="" coords="456,68,633,107"/>
+<area shape="rect" id="node2" href="$db/de5/group__qio.html#ga2b2ac967129dfd2d61a79e36034b400f" title="Opens a file for reading." alt="" coords="231,5,408,44"/>
+<area shape="rect" id="node4" href="$db/de5/group__qio.html#gade5b9d659e34ec9c9de267858a675d7d" title="Read record info." alt="" coords="231,68,408,107"/>
+<area shape="rect" id="node7" href="$db/de5/group__qio.html#ga525c9902a7ee7ebe41c688897da0652e" title="Read binary and checksum." alt="" coords="231,131,408,169"/>
+<area shape="rect" id="node3" href="$db/de5/group__qio.html#ga096a7060d69fd109067404e75f8a06ee" title="Opens a file for reading." alt="" coords="5,5,183,44"/>
+<area shape="rect" id="node5" href="$db/de5/group__qio.html#ga4d771a46d7db77cd0ae5999113733795" title="Read record info." alt="" coords="5,68,183,107"/>
+<area shape="rect" id="node6" href="$db/de5/group__qio.html#ga2179348a566e0224ed2122acfabf8bc9" title="Reads as a string plus BinaryBufferReader pair." alt="" coords="5,131,183,169"/>
+</map>

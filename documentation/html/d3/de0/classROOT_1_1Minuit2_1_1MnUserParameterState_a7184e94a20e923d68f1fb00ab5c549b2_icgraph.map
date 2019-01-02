@@ -1,0 +1,12 @@
+<map id="ROOT::Minuit2::MnUserParameterState::Trafo" name="ROOT::Minuit2::MnUserParameterState::Trafo">
+<area shape="rect" id="node1" title=" " alt="" coords="568,163,793,201"/>
+<area shape="rect" id="node2" href="$db/da1/classROOT_1_1Minuit2_1_1FumiliMinimizer.html#a3da0ec7b2ba7f876809f72d2f3054eec" title=" " alt="" coords="303,5,511,44"/>
+<area shape="rect" id="node4" href="$d1/d02/classROOT_1_1Minuit2_1_1MnHesse.html#a4ebea568262a19a0cfec1473ce7a5f0f" title="FCN + MnUserParameterState." alt="" coords="321,68,493,107"/>
+<area shape="rect" id="node5" href="$de/da5/classROOT_1_1Minuit2_1_1MnSeedGenerator.html#a654d0f1b67cd1a3a17de8334ba811ef0" title=" " alt="" coords="294,131,520,169"/>
+<area shape="rect" id="node6" href="$d3/dc8/classROOT_1_1Minuit2_1_1ModularFunctionMinimizer.html#a1ae6ed90bc87c3db98388f3d26980a51" title=" " alt="" coords="299,193,515,232"/>
+<area shape="rect" id="node7" href="$d3/d76/classROOT_1_1Minuit2_1_1ParametricFunction.html#abe6cfa5c64c578101da1d6fcecfb2249" title=" " alt="" coords="317,256,497,295"/>
+<area shape="rect" id="node10" href="$d3/d36/classROOT_1_1Minuit2_1_1SimplexSeedGenerator.html#aa0c427acb85f9a47a0abaecbf85b1f5c" title=" " alt="" coords="310,319,504,357"/>
+<area shape="rect" id="node3" href="$dc/d88/classROOT_1_1Minuit2_1_1MnFumiliMinimize.html#a408e4cc7d16335d7a9bfbb8765acec6d" title="overwrite Minimize to use FumiliFCNBase" alt="" coords="14,5,237,44"/>
+<area shape="rect" id="node8" href="$d8/db2/classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN.html#a76f42b6e5d2a92961a9fd8feca38b582" title=" " alt="" coords="23,224,229,263"/>
+<area shape="rect" id="node9" href="$dd/d40/classROOT_1_1Minuit2_1_1FumiliStandardMaximumLikelihoodFCN.html#a1faea776f7da3c238e522748b573caab" title=" " alt="" coords="5,287,246,325"/>
+</map>

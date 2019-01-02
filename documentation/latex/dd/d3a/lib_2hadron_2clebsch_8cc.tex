@@ -1,0 +1,70 @@
+\hypertarget{lib_2hadron_2clebsch_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat/lib/hadron/clebsch.cc File Reference}
+\label{lib_2hadron_2clebsch_8cc}\index{/Users/archanar/Kinematic\_factor/adat/lib/hadron/clebsch.cc@{/Users/archanar/Kinematic\_factor/adat/lib/hadron/clebsch.cc}}
+
+
+CG routines.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}clebsch.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}recipes/nr.\+h\char`\"{}}\newline
+Include dependency graph for clebsch.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d97/lib_2hadron_2clebsch_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{lib_2hadron_2clebsch_8cc_aacc3ee1a7f283f8ef65cea31f4436a95}{M\+AX}}(x,  y)~(x$>$y ? x \+: y)
+\item 
+\#define \mbox{\hyperlink{lib_2hadron_2clebsch_8cc_a74e75242132eaabbc1c512488a135926}{M\+IN}}(x,  y)~(x$<$y ? x \+: y)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{namespaceHadron_a5851b4dcb78567e53c44241a6db6c87e}{Hadron\+::dfact}} (double \+\_\+\+\_\+x)
+\begin{DoxyCompactList}\small\item\em Utility function used by Clebsch. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceHadron_a0df3fb454ec05867e44777d4f5a6b7f7}{Hadron\+::factorial}} (int i)
+\begin{DoxyCompactList}\small\item\em Returns i! -\/ but gives junk for i $>$12. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceHadron_ac4cba1d4aa3863fdc7991c208b3b9594}{Hadron\+::clebsch}} (int j1, int m1, int j2, int m2, int J, int M)
+\begin{DoxyCompactList}\small\item\em Calcultates Clebsch-\/\+Gordon coeficents. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{namespaceHadron_a63c49af65c1d943a78205d3b8b63079a}{Hadron\+::\+Wigner\+\_\+d}} (int J, int M, int \mbox{\hyperlink{devel_2lib_2hadron_2operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, double \+\_\+\+\_\+beta)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceHadron_a4d99a17c00bdddfc88a14c0571b74338}{Hadron\+::\+Wigner\+\_\+D}} (int J, int M, int \mbox{\hyperlink{devel_2lib_2hadron_2operator__name__util_8cc_a7722c8ecbb62d99aee7ce68b1752f337}{N}}, double \+\_\+\+\_\+alpha, double \+\_\+\+\_\+beta, double \+\_\+\+\_\+gamma)
+\item 
+double \mbox{\hyperlink{namespaceHadron_a78e0e843ad34636504d3ab3f2280e5e5}{Hadron\+::\+Clebsch1O}} (int j1, int m1, int j2, int m2, int J, int M)
+\begin{DoxyCompactList}\small\item\em Calculates Clebsch-\/\+Gordon coeficents. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+CG routines. 
+
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{lib_2hadron_2clebsch_8cc_aacc3ee1a7f283f8ef65cea31f4436a95}\label{lib_2hadron_2clebsch_8cc_aacc3ee1a7f283f8ef65cea31f4436a95}} 
+\index{clebsch.cc@{clebsch.cc}!MAX@{MAX}}
+\index{MAX@{MAX}!clebsch.cc@{clebsch.cc}}
+\subsubsection{\texorpdfstring{MAX}{MAX}}
+{\footnotesize\ttfamily \#define M\+AX(\begin{DoxyParamCaption}\item[{}]{x,  }\item[{}]{y }\end{DoxyParamCaption})~(x$>$y ? x \+: y)}
+
+\mbox{\Hypertarget{lib_2hadron_2clebsch_8cc_a74e75242132eaabbc1c512488a135926}\label{lib_2hadron_2clebsch_8cc_a74e75242132eaabbc1c512488a135926}} 
+\index{clebsch.cc@{clebsch.cc}!MIN@{MIN}}
+\index{MIN@{MIN}!clebsch.cc@{clebsch.cc}}
+\subsubsection{\texorpdfstring{MIN}{MIN}}
+{\footnotesize\ttfamily \#define M\+IN(\begin{DoxyParamCaption}\item[{}]{x,  }\item[{}]{y }\end{DoxyParamCaption})~(x$<$y ? x \+: y)}
+

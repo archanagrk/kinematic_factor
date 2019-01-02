@@ -1,0 +1,1056 @@
+\hypertarget{classADATXML_1_1XMLReader}{}\section{A\+D\+A\+T\+X\+ML\+:\+:X\+M\+L\+Reader Class Reference}
+\label{classADATXML_1_1XMLReader}\index{ADATXML::XMLReader@{ADATXML::XMLReader}}
+
+
+X\+ML reader class.  
+
+
+
+
+{\ttfamily \#include $<$adat\+\_\+xmlio.\+h$>$}
+
+
+
+Inheritance diagram for A\+D\+A\+T\+X\+ML\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{d6/dd2/classADATXML_1_1XMLReader__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for A\+D\+A\+T\+X\+ML\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{d8/d60/classADATXML_1_1XMLReader__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a1934189445871612ae9b93f35e17c468}{X\+M\+L\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Empty constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32}{X\+M\+L\+Reader}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct from contents of file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b}{X\+M\+L\+Reader}} (std\+::istream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Construct from contents of stream. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1}{X\+M\+L\+Reader}} (const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&mw)
+\begin{DoxyCompactList}\small\item\em Construct from contents of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723}{X\+M\+L\+Reader}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&old, const std\+::string \&xpath)
+\begin{DoxyCompactList}\small\item\em Clone and set path -- the new side effect free interface. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a}{$\sim$\+X\+M\+L\+Reader}} ()
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0}{open}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Opens and reads an X\+ML file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97}{open}} (std\+::istream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Opens and reads an X\+ML file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c}{open}} (const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&mw)
+\begin{DoxyCompactList}\small\item\em Reads content of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f}{is\+\_\+open}} ()
+\begin{DoxyCompactList}\small\item\em Queries whether the binary file is open. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7}{is\+\_\+derived}} () const
+\begin{DoxyCompactList}\small\item\em Queries whether the X\+ML data has been obtained from another \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36}{close}} ()
+\begin{DoxyCompactList}\small\item\em Closes the last file opened. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189}{register\+Namespace}} (const std\+::string \&prefix, const std\+::string \&uri)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee}{get}} (const std\+::string \&s, std\+::string \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca}{get}} (const std\+::string \&s, int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf}{get}} (const std\+::string \&s, unsigned int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5}{get}} (const std\+::string \&s, short int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8}{get}} (const std\+::string \&s, unsigned short int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb}{get}} (const std\+::string \&s, long int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a}{get}} (const std\+::string \&s, unsigned long int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586}{get}} (const std\+::string \&s, float \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba}{get}} (const std\+::string \&s, double \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b}{get}} (const std\+::string \&s, bool \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50}{print}} (std\+::ostream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Return the entire contents of the Reader as a stream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a732a08c1605f8c01663105bb3586b575}{print\+Root}} (std\+::ostream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Return the root element of the Reader as a stream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec}{print\+Current\+Context}} (std\+::ostream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Print the current context. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718}{count}} (const std\+::string \&xpath)
+\begin{DoxyCompactList}\small\item\em Count the number of occurances from the xpath query. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32}{print\+X\+Path\+Node}} (std\+::ostream \&os, const std\+::string \&xpath\+\_\+to\+\_\+node)
+\begin{DoxyCompactList}\small\item\em Print an element selected by X\+Path. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a1934189445871612ae9b93f35e17c468}{X\+M\+L\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Empty constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32}{X\+M\+L\+Reader}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Construct from contents of file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b}{X\+M\+L\+Reader}} (std\+::istream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Construct from contents of stream. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1}{X\+M\+L\+Reader}} (const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&mw)
+\begin{DoxyCompactList}\small\item\em Construct from contents of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723}{X\+M\+L\+Reader}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&old, const std\+::string \&xpath)
+\begin{DoxyCompactList}\small\item\em Clone and set path -- the new side effect free interface. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a}{$\sim$\+X\+M\+L\+Reader}} ()
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0}{open}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Opens and reads an X\+ML file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97}{open}} (std\+::istream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Opens and reads an X\+ML file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c}{open}} (const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&mw)
+\begin{DoxyCompactList}\small\item\em Reads content of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f}{is\+\_\+open}} ()
+\begin{DoxyCompactList}\small\item\em Queries whether the binary file is open. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7}{is\+\_\+derived}} () const
+\begin{DoxyCompactList}\small\item\em Queries whether the X\+ML data has been obtained from another \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36}{close}} ()
+\begin{DoxyCompactList}\small\item\em Closes the last file opened. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189}{register\+Namespace}} (const std\+::string \&prefix, const std\+::string \&uri)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee}{get}} (const std\+::string \&s, std\+::string \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca}{get}} (const std\+::string \&s, int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf}{get}} (const std\+::string \&s, unsigned int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5}{get}} (const std\+::string \&s, short int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8}{get}} (const std\+::string \&s, unsigned short int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb}{get}} (const std\+::string \&s, long int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a}{get}} (const std\+::string \&s, unsigned long int \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586}{get}} (const std\+::string \&s, float \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba}{get}} (const std\+::string \&s, double \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b}{get}} (const std\+::string \&s, bool \&result)
+\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50}{print}} (std\+::ostream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Return the entire contents of the Reader as a stream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a732a08c1605f8c01663105bb3586b575}{print\+Root}} (std\+::ostream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Return the root element of the Reader as a stream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec}{print\+Current\+Context}} (std\+::ostream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\begin{DoxyCompactList}\small\item\em Print the current context. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718}{count}} (const std\+::string \&xpath)
+\begin{DoxyCompactList}\small\item\em Count the number of occurances from the xpath query. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32}{print\+X\+Path\+Node}} (std\+::ostream \&os, const std\+::string \&xpath\+\_\+to\+\_\+node)
+\begin{DoxyCompactList}\small\item\em Print an element selected by X\+Path. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+X\+ML reader class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a1934189445871612ae9b93f35e17c468}\label{classADATXML_1_1XMLReader_a1934189445871612ae9b93f35e17c468}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Empty constructor. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32}\label{classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct from contents of file. 
+
+Opens and reads an X\+ML file. 
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b}\label{classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [3/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct from contents of stream. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1}\label{classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [4/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&}]{mw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct from contents of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723}\label{classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [5/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{old,  }\item[{const std\+::string \&}]{xpath }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clone and set path -- the new side effect free interface. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a}\label{classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!````~XMLReader@{$\sim$XMLReader}}
+\index{````~XMLReader@{$\sim$XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{$\sim$XMLReader()}{~XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::$\sim$\+X\+M\+L\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a1934189445871612ae9b93f35e17c468}\label{classADATXML_1_1XMLReader_a1934189445871612ae9b93f35e17c468}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [6/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Empty constructor. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32}\label{classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [7/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct from contents of file. 
+
+Opens and reads an X\+ML file. 
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a85d8af8a27febdd66251e20bd96ccc32_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b}\label{classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [8/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct from contents of stream. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a8025cb1c53d6ceb8a694bdbd8e1f383b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1}\label{classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [9/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&}]{mw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct from contents of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a6829255c2dd448f4bf315f6fd0b380a1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723}\label{classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!XMLReader@{XMLReader}}
+\index{XMLReader@{XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{XMLReader()}{XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [10/10]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::\+X\+M\+L\+Reader (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{old,  }\item[{const std\+::string \&}]{xpath }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clone and set path -- the new side effect free interface. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_aef69d83a0f47db461436fc2fd3bb7723_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a}\label{classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!````~XMLReader@{$\sim$XMLReader}}
+\index{````~XMLReader@{$\sim$XMLReader}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{$\sim$XMLReader()}{~XMLReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::$\sim$\+X\+M\+L\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a98c4936a3366f39443113290b7bd164a_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36}\label{classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!close@{close}}
+\index{close@{close}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{close()}{close()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::close (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Closes the last file opened. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36}\label{classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!close@{close}}
+\index{close@{close}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{close()}{close()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::close (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Closes the last file opened. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a0e5f84d85bb03e1ba3c01a20b1642a36_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718}\label{classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!count@{count}}
+\index{count@{count}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{count()}{count()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::count (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{xpath }\end{DoxyParamCaption})}
+
+
+
+Count the number of occurances from the xpath query. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718}\label{classADATXML_1_1XMLReader_a59584913f1338d956de60adef16a0718}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!count@{count}}
+\index{count@{count}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{count()}{count()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::count (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{xpath }\end{DoxyParamCaption})}
+
+
+
+Count the number of occurances from the xpath query. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee}\label{classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [1/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{std\+::string \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee}\label{classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [2/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{std\+::string \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a5ed2bbc9de7ba505e6ce37c1a5f90fee_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca}\label{classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [3/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca}\label{classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [4/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a39ab72e2e614e1baed6ac3de0ce9cdca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf}\label{classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [5/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{unsigned int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf}\label{classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [6/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{unsigned int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_aa716f255bed8a98d555abcf5509d75cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5}\label{classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [7/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5}\label{classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [8/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a235808802ae29fa06b6fd441f7e50ac5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8}\label{classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [9/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{unsigned short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8}\label{classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [10/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{unsigned short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ac7b357f5d7f8b71ad0cd98c37283e2f8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb}\label{classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [11/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb}\label{classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [12/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a6b20ab012a431d51ee5bfd7b40eee3fb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a}\label{classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [13/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{unsigned long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a}\label{classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [14/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{unsigned long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ad9e43f867d48ac2b39291e2af9ec6b4a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586}\label{classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [15/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{float \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586}\label{classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [16/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{float \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a5b96d00a5503d62acd8cfbb296e6b586_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba}\label{classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [17/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{double \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba}\label{classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [18/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{double \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ac5f530295603b483a1b63f3b0c6e7eba_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b}\label{classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [19/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{bool \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b}\label{classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!get@{get}}
+\index{get@{get}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [20/20]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::get (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{bool \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ae3ba71a241315a5e90ba745fdc7e045b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7}\label{classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!is\_derived@{is\_derived}}
+\index{is\_derived@{is\_derived}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{is\_derived()}{is\_derived()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::is\+\_\+derived (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Queries whether the X\+ML data has been obtained from another \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}}. 
+
+A private method allows this \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} to be copy the contents of another. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7}\label{classADATXML_1_1XMLReader_a64fb149ae8809f993a7750aa5fe1f4b7}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!is\_derived@{is\_derived}}
+\index{is\_derived@{is\_derived}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{is\_derived()}{is\_derived()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::is\+\_\+derived (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Queries whether the X\+ML data has been obtained from another \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}}. 
+
+A private method allows this \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} to be copy the contents of another. \mbox{\Hypertarget{classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f}\label{classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!is\_open@{is\_open}}
+\index{is\_open@{is\_open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{is\_open()}{is\_open()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::is\+\_\+open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Queries whether the binary file is open. 
+
+\begin{DoxyReturn}{Returns}
+true if the binary file is open; false otherwise. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f}\label{classADATXML_1_1XMLReader_ae9e467fca3d4bf34351dc00e9797a06f}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!is\_open@{is\_open}}
+\index{is\_open@{is\_open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{is\_open()}{is\_open()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::is\+\_\+open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Queries whether the binary file is open. 
+
+\begin{DoxyReturn}{Returns}
+true if the binary file is open; false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0}\label{classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!open@{open}}
+\index{open@{open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::open (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens and reads an X\+ML file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Any previously opened file is closed. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0}\label{classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!open@{open}}
+\index{open@{open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::open (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens and reads an X\+ML file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Any previously opened file is closed. 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ad5dcbd08800bc67ac4a91f93cb1504b0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97}\label{classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!open@{open}}
+\index{open@{open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::open (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens and reads an X\+ML file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The input stream of the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Any previously opened file is closed 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97}\label{classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!open@{open}}
+\index{open@{open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::open (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens and reads an X\+ML file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The input stream of the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Any previously opened file is closed 
+\end{DoxyPostcond}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a7938cc7e08b0381e467eb7b916cbbd97_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c}\label{classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!open@{open}}
+\index{open@{open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::open (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&}]{mw }\end{DoxyParamCaption})}
+
+
+
+Reads content of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c}\label{classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!open@{open}}
+\index{open@{open}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{open()}{open()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::open (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}} \&}]{mw }\end{DoxyParamCaption})}
+
+
+
+Reads content of a \mbox{\hyperlink{classADATXML_1_1XMLBufferWriter}{X\+M\+L\+Buffer\+Writer}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a38615b0ae22722bd15a47e27953dc77c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50}\label{classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!print@{print}}
+\index{print@{print}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{print()}{print()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{is }\end{DoxyParamCaption})}
+
+
+
+Return the entire contents of the Reader as a stream. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50}\label{classADATXML_1_1XMLReader_a72513fe6f299e02428bdf4d225163f50}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!print@{print}}
+\index{print@{print}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{print()}{print()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{is }\end{DoxyParamCaption})}
+
+
+
+Return the entire contents of the Reader as a stream. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec}\label{classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!printCurrentContext@{printCurrentContext}}
+\index{printCurrentContext@{printCurrentContext}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{printCurrentContext()}{printCurrentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print\+Current\+Context (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{is }\end{DoxyParamCaption})}
+
+
+
+Print the current context. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec}\label{classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!printCurrentContext@{printCurrentContext}}
+\index{printCurrentContext@{printCurrentContext}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{printCurrentContext()}{printCurrentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print\+Current\+Context (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{is }\end{DoxyParamCaption})}
+
+
+
+Print the current context. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_a424f9e30746b4fdc106b57b5ce95f7ec_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a732a08c1605f8c01663105bb3586b575}\label{classADATXML_1_1XMLReader_a732a08c1605f8c01663105bb3586b575}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!printRoot@{printRoot}}
+\index{printRoot@{printRoot}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{printRoot()}{printRoot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print\+Root (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{is }\end{DoxyParamCaption})}
+
+
+
+Return the root element of the Reader as a stream. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_a732a08c1605f8c01663105bb3586b575}\label{classADATXML_1_1XMLReader_a732a08c1605f8c01663105bb3586b575}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!printRoot@{printRoot}}
+\index{printRoot@{printRoot}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{printRoot()}{printRoot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print\+Root (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{is }\end{DoxyParamCaption})}
+
+
+
+Return the root element of the Reader as a stream. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32}\label{classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!printXPathNode@{printXPathNode}}
+\index{printXPathNode@{printXPathNode}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{printXPathNode()}{printXPathNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print\+X\+Path\+Node (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::string \&}]{xpath\+\_\+to\+\_\+node }\end{DoxyParamCaption})}
+
+
+
+Print an element selected by X\+Path. 
+
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32}\label{classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!printXPathNode@{printXPathNode}}
+\index{printXPathNode@{printXPathNode}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{printXPathNode()}{printXPathNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::print\+X\+Path\+Node (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const std\+::string \&}]{xpath\+\_\+to\+\_\+node }\end{DoxyParamCaption})}
+
+
+
+Print an element selected by X\+Path. 
+
+This is not in the Q\+D\+P++ \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} -\/ expose this function. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_ae1bbeacb282c3e9b33750d36aea11d32_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189}\label{classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!registerNamespace@{registerNamespace}}
+\index{registerNamespace@{registerNamespace}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{registerNamespace()}{registerNamespace()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::register\+Namespace (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{prefix,  }\item[{const std\+::string \&}]{uri }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189}\label{classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189}} 
+\index{ADATXML::XMLReader@{ADATXML::XMLReader}!registerNamespace@{registerNamespace}}
+\index{registerNamespace@{registerNamespace}!ADATXML::XMLReader@{ADATXML::XMLReader}}
+\subsubsection{\texorpdfstring{registerNamespace()}{registerNamespace()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+X\+M\+L\+::\+X\+M\+L\+Reader\+::register\+Namespace (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{prefix,  }\item[{const std\+::string \&}]{uri }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3f/classADATXML_1_1XMLReader_aeb735523fc1858850ae8a2be61a34189_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/\mbox{\hyperlink{lib_2io_2adat__xmlio_8h}{adat\+\_\+xmlio.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/\mbox{\hyperlink{adat__xmlio_8cc}{adat\+\_\+xmlio.\+cc}}\end{DoxyCompactItemize}

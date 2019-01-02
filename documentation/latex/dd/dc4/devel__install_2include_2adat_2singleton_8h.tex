@@ -1,0 +1,72 @@
+\hypertarget{devel__install_2include_2adat_2singleton_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/adat/singleton.h File Reference}
+\label{devel__install_2include_2adat_2singleton_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/adat/singleton.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/adat/singleton.h}}
+
+
+Singleton support.  
+
+
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$stdexcept$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$new$>$}\newline
+Include dependency graph for singleton.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d38/devel__install_2include_2adat_2singleton_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded$<$ Host $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1SingleThreaded_1_1Lock}{Util\+::\+Single\+Threaded$<$ Host $>$\+::\+Lock}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1Private_1_1LifetimeTracker}{Util\+::\+Private\+::\+Lifetime\+Tracker}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1Deleter}{Util\+::\+Private\+::\+Deleter$<$ T $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1Private_1_1ConcreteLifetimeTracker}{Util\+::\+Private\+::\+Concrete\+Lifetime\+Tracker$<$ T, Destroyer $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1CreateUsingNew}{Util\+::\+Create\+Using\+New$<$ T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1CreateUsingMalloc}{Util\+::\+Create\+Using\+Malloc$<$ T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1CreateStatic}{Util\+::\+Create\+Static$<$ T $>$}}
+\item 
+union \mbox{\hyperlink{unionUtil_1_1CreateStatic_1_1MaxAlign}{Util\+::\+Create\+Static$<$ T $>$\+::\+Max\+Align}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1DefaultLifetime}{Util\+::\+Default\+Lifetime$<$ T $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1PhoenixSingleton}{Util\+::\+Phoenix\+Singleton$<$ T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1Adapter}{Util\+::\+Private\+::\+Adapter$<$ T $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1SingletonWithLongevity}{Util\+::\+Singleton\+With\+Longevity$<$ T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1NoDestroy}{Util\+::\+No\+Destroy$<$ T $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1SingletonHolder}{Util\+::\+Singleton\+Holder$<$ T, Creation\+Policy, Lifetime\+Policy, Threading\+Model $>$}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceUtil}{Util}}
+\item 
+ \mbox{\hyperlink{namespaceUtil_1_1Private}{Util\+::\+Private}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespaceUtil_1_1Private_a98e2ffcf46d002cf16c15c8ab26e7818}{Util\+::\+Private\+::\+At\+Exit\+Fn}} ()
+\item 
+{\footnotesize template$<$typename T , typename Destroyer $>$ }\\void \mbox{\hyperlink{namespaceUtil_a3883209db7bb694594e3cbde04febb5d}{Util\+::\+Set\+Longevity}} (T $\ast$p\+Dyn\+Object, unsigned int longevity, Destroyer d=Private\+::\+Deleter$<$ T $>$\+::Delete)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Singleton support. 
+

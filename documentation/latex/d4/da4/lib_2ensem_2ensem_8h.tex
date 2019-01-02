@@ -1,0 +1,397 @@
+\hypertarget{lib_2ensem_2ensem_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/ensem/ensem.h File Reference}
+\label{lib_2ensem_2ensem_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/ensem/ensem.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/ensem/ensem.h}}
+
+
+Primary include file for \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} ensbc.  
+
+
+{\ttfamily \#include $<$xml\+\_\+array.\+h$>$}\newline
+{\ttfamily \#include $<$xml\+\_\+array2d.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xmlio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+precision.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+type\+\_\+computations.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+operator\+\_\+tags.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+forward.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+params.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+traits.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+newops.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+simpleword.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+reality.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+primitive.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+observable.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+scalarsite\+\_\+defs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+specializations.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+random.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem\+\_\+scalar\+\_\+specific.\+h\char`\"{}}\newline
+Include dependency graph for ensem.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d4c/lib_2ensem_2ensem_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ T, Op $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote}{E\+N\+S\+E\+M\+::\+Promote$<$ T1, T2 $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01bool_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ bool, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01char_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ char, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01short_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ short, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01int_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ int, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01long_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ long, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01float_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ float, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01bool_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, bool $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01char_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, char $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01short_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, short $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01int_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, int $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01long_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, long $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01float_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, float $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1Promote_3_01double_00_01double_01_4}{E\+N\+S\+E\+M\+::\+Promote$<$ double, double $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1TrinaryReturn}{E\+N\+S\+E\+M\+::\+Trinary\+Return$<$ T1, T2, T3, Op $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnArcCos}{E\+N\+S\+E\+M\+::\+Fn\+Arc\+Cos}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnArcSin}{E\+N\+S\+E\+M\+::\+Fn\+Arc\+Sin}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnArcTan}{E\+N\+S\+E\+M\+::\+Fn\+Arc\+Tan}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnCeil}{E\+N\+S\+E\+M\+::\+Fn\+Ceil}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnCos}{E\+N\+S\+E\+M\+::\+Fn\+Cos}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnHypCos}{E\+N\+S\+E\+M\+::\+Fn\+Hyp\+Cos}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnExp}{E\+N\+S\+E\+M\+::\+Fn\+Exp}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnFabs}{E\+N\+S\+E\+M\+::\+Fn\+Fabs}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnFloor}{E\+N\+S\+E\+M\+::\+Fn\+Floor}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnLog}{E\+N\+S\+E\+M\+::\+Fn\+Log}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnLog10}{E\+N\+S\+E\+M\+::\+Fn\+Log10}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnSin}{E\+N\+S\+E\+M\+::\+Fn\+Sin}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnHypSin}{E\+N\+S\+E\+M\+::\+Fn\+Hyp\+Sin}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnSqrt}{E\+N\+S\+E\+M\+::\+Fn\+Sqrt}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnTan}{E\+N\+S\+E\+M\+::\+Fn\+Tan}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnHypTan}{E\+N\+S\+E\+M\+::\+Fn\+Hyp\+Tan}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpUnaryMinus}{E\+N\+S\+E\+M\+::\+Op\+Unary\+Minus}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpUnaryPlus}{E\+N\+S\+E\+M\+::\+Op\+Unary\+Plus}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseNot}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+Not}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpIdentity}{E\+N\+S\+E\+M\+::\+Op\+Identity}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpNot}{E\+N\+S\+E\+M\+::\+Op\+Not}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01T_00_01OpNot_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ T, Op\+Not $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpCast}{E\+N\+S\+E\+M\+::\+Op\+Cast$<$ T1 $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1UnaryReturn_3_01T2_00_01OpCast_3_01T1_01_4_01_4}{E\+N\+S\+E\+M\+::\+Unary\+Return$<$ T2, Op\+Cast$<$ T1 $>$ $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpAdd}{E\+N\+S\+E\+M\+::\+Op\+Add}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpSubtract}{E\+N\+S\+E\+M\+::\+Op\+Subtract}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpMultiply}{E\+N\+S\+E\+M\+::\+Op\+Multiply}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpDivide}{E\+N\+S\+E\+M\+::\+Op\+Divide}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpMod}{E\+N\+S\+E\+M\+::\+Op\+Mod}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseAnd}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+And}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseOr}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+Or}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseXor}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+Xor}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnLdexp}{E\+N\+S\+E\+M\+::\+Fn\+Ldexp}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnPow}{E\+N\+S\+E\+M\+::\+Fn\+Pow}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnFmod}{E\+N\+S\+E\+M\+::\+Fn\+Fmod}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnArcTan2}{E\+N\+S\+E\+M\+::\+Fn\+Arc\+Tan2}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpLT}{E\+N\+S\+E\+M\+::\+Op\+LT}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpLT_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+L\+T $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpLE}{E\+N\+S\+E\+M\+::\+Op\+LE}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpLE_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+L\+E $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpGT}{E\+N\+S\+E\+M\+::\+Op\+GT}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpGT_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+G\+T $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpGE}{E\+N\+S\+E\+M\+::\+Op\+GE}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpGE_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+G\+E $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpEQ}{E\+N\+S\+E\+M\+::\+Op\+EQ}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpEQ_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+E\+Q $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpNE}{E\+N\+S\+E\+M\+::\+Op\+NE}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpNE_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+N\+E $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpAnd}{E\+N\+S\+E\+M\+::\+Op\+And}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpAnd_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+And $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpOr}{E\+N\+S\+E\+M\+::\+Op\+Or}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpOr_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Or $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpLeftShift}{E\+N\+S\+E\+M\+::\+Op\+Left\+Shift}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpLeftShift_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Left\+Shift $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpRightShift}{E\+N\+S\+E\+M\+::\+Op\+Right\+Shift}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpRightShift_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Right\+Shift $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpAddAssign}{E\+N\+S\+E\+M\+::\+Op\+Add\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpAddAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Add\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpSubtractAssign}{E\+N\+S\+E\+M\+::\+Op\+Subtract\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpSubtractAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Subtract\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpMultiplyAssign}{E\+N\+S\+E\+M\+::\+Op\+Multiply\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpMultiplyAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Multiply\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpDivideAssign}{E\+N\+S\+E\+M\+::\+Op\+Divide\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpDivideAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Divide\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpModAssign}{E\+N\+S\+E\+M\+::\+Op\+Mod\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpModAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Mod\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseOrAssign}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+Or\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpBitwiseOrAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Bitwise\+Or\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseAndAssign}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+And\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpBitwiseAndAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Bitwise\+And\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpBitwiseXorAssign}{E\+N\+S\+E\+M\+::\+Op\+Bitwise\+Xor\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpBitwiseXorAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Bitwise\+Xor\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpLeftShiftAssign}{E\+N\+S\+E\+M\+::\+Op\+Left\+Shift\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpLeftShiftAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Left\+Shift\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpRightShiftAssign}{E\+N\+S\+E\+M\+::\+Op\+Right\+Shift\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpRightShiftAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Right\+Shift\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1OpAssign}{E\+N\+S\+E\+M\+::\+Op\+Assign}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1BinaryReturn_3_01T1_00_01T2_00_01OpAssign_01_4}{E\+N\+S\+E\+M\+::\+Binary\+Return$<$ T1, T2, Op\+Assign $>$}}
+\item 
+struct \mbox{\hyperlink{structENSEM_1_1FnWhere}{E\+N\+S\+E\+M\+::\+Fn\+Where}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_a42b8b80d59d026314dcec0b090273d49}{E\+N\+S\+E\+M\+\_\+\+A\+L\+I\+G\+N8}}
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_a13e73f6d219980e649589b0ce3f31984}{E\+N\+S\+E\+M\+\_\+\+A\+L\+I\+G\+N16}}
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_aa5201403fe8be88967b018862bee8657}{E\+N\+S\+E\+M\+\_\+\+I\+N\+L\+I\+NE}}
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_af995ed3857359aae4ed4dc23dfb487aa}{E\+N\+S\+E\+M\+\_\+\+C\+O\+N\+ST}}
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_ae7dca35e469c04f5f86bc3694b771069}{E\+N\+S\+E\+M\+\_\+\+C\+I\+N\+L\+I\+NE}}
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_ac682d27b20fe2f2027eb00d506be4813}{E\+N\+S\+E\+M\+\_\+\+A\+L\+I\+G\+N\+M\+E\+N\+T\+\_\+\+S\+I\+ZE}}~16
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_a97ea3a1d467b65f448446ba3046ddd00}{P\+E\+T\+E\+\_\+\+E\+M\+P\+T\+Y\+\_\+\+C\+O\+N\+S\+T\+R\+U\+C\+T\+O\+RS}}(C\+L\+A\+SS)
+\item 
+\#define \mbox{\hyperlink{lib_2ensem_2ensem_8h_af2f0cc2144f5bf18803b56edbfa78c41}{P\+E\+T\+E\+\_\+\+E\+M\+P\+T\+Y\+\_\+\+C\+O\+N\+S\+T\+R\+U\+C\+T\+O\+R\+S\+\_\+\+T\+E\+M\+P\+L\+A\+TE}}(C\+L\+A\+SS,  A\+RG)
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef int \mbox{\hyperlink{namespaceENSEM_a6a58e5c07422c48c5d547184b36719bf}{E\+N\+S\+E\+M\+::\+I\+N\+T\+E\+G\+E\+R32}}
+\item 
+typedef float \mbox{\hyperlink{namespaceENSEM_a7540d01191172323e9073283d772576d}{E\+N\+S\+E\+M\+::\+R\+E\+A\+L32}}
+\item 
+typedef double \mbox{\hyperlink{namespaceENSEM_a85b215b9f1f43715aebee01718e25082}{E\+N\+S\+E\+M\+::\+R\+E\+A\+L64}}
+\item 
+typedef bool \mbox{\hyperlink{namespaceENSEM_ade7c8d5976e979516f8c2ecd223dd0b6}{E\+N\+S\+E\+M\+::\+L\+O\+G\+I\+C\+AL}}
+\item 
+typedef \mbox{\hyperlink{lib_2ensem_2ensem__precision_8h_aa31d9c0fbe9c64fbd64dd463f6e63178}{R\+E\+A\+L64}} \mbox{\hyperlink{namespaceENSEM_a6dd9aa6508168f545c861787e63ddd1e}{E\+N\+S\+E\+M\+::\+R\+E\+AL}}
+\item 
+typedef \mbox{\hyperlink{lib_2ensem_2ensem__precision_8h_aa31d9c0fbe9c64fbd64dd463f6e63178}{R\+E\+A\+L64}} \mbox{\hyperlink{namespaceENSEM_adcbd0de4e9e0e7ef6aa9b681a554e2c5}{E\+N\+S\+E\+M\+::\+D\+O\+U\+B\+LE}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Primary include file for \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}} ensbc. 
+
+No other file should be included by the user 
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_a13e73f6d219980e649589b0ce3f31984}\label{lib_2ensem_2ensem_8h_a13e73f6d219980e649589b0ce3f31984}} 
+\index{ensem.h@{ensem.h}!ENSEM\_ALIGN16@{ENSEM\_ALIGN16}}
+\index{ENSEM\_ALIGN16@{ENSEM\_ALIGN16}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{ENSEM\_ALIGN16}{ENSEM\_ALIGN16}}
+{\footnotesize\ttfamily \#define E\+N\+S\+E\+M\+\_\+\+A\+L\+I\+G\+N16}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_a42b8b80d59d026314dcec0b090273d49}\label{lib_2ensem_2ensem_8h_a42b8b80d59d026314dcec0b090273d49}} 
+\index{ensem.h@{ensem.h}!ENSEM\_ALIGN8@{ENSEM\_ALIGN8}}
+\index{ENSEM\_ALIGN8@{ENSEM\_ALIGN8}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{ENSEM\_ALIGN8}{ENSEM\_ALIGN8}}
+{\footnotesize\ttfamily \#define E\+N\+S\+E\+M\+\_\+\+A\+L\+I\+G\+N8}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_ac682d27b20fe2f2027eb00d506be4813}\label{lib_2ensem_2ensem_8h_ac682d27b20fe2f2027eb00d506be4813}} 
+\index{ensem.h@{ensem.h}!ENSEM\_ALIGNMENT\_SIZE@{ENSEM\_ALIGNMENT\_SIZE}}
+\index{ENSEM\_ALIGNMENT\_SIZE@{ENSEM\_ALIGNMENT\_SIZE}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{ENSEM\_ALIGNMENT\_SIZE}{ENSEM\_ALIGNMENT\_SIZE}}
+{\footnotesize\ttfamily \#define E\+N\+S\+E\+M\+\_\+\+A\+L\+I\+G\+N\+M\+E\+N\+T\+\_\+\+S\+I\+ZE~16}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_ae7dca35e469c04f5f86bc3694b771069}\label{lib_2ensem_2ensem_8h_ae7dca35e469c04f5f86bc3694b771069}} 
+\index{ensem.h@{ensem.h}!ENSEM\_CINLINE@{ENSEM\_CINLINE}}
+\index{ENSEM\_CINLINE@{ENSEM\_CINLINE}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{ENSEM\_CINLINE}{ENSEM\_CINLINE}}
+{\footnotesize\ttfamily \#define E\+N\+S\+E\+M\+\_\+\+C\+I\+N\+L\+I\+NE}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_af995ed3857359aae4ed4dc23dfb487aa}\label{lib_2ensem_2ensem_8h_af995ed3857359aae4ed4dc23dfb487aa}} 
+\index{ensem.h@{ensem.h}!ENSEM\_CONST@{ENSEM\_CONST}}
+\index{ENSEM\_CONST@{ENSEM\_CONST}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{ENSEM\_CONST}{ENSEM\_CONST}}
+{\footnotesize\ttfamily \#define E\+N\+S\+E\+M\+\_\+\+C\+O\+N\+ST}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_aa5201403fe8be88967b018862bee8657}\label{lib_2ensem_2ensem_8h_aa5201403fe8be88967b018862bee8657}} 
+\index{ensem.h@{ensem.h}!ENSEM\_INLINE@{ENSEM\_INLINE}}
+\index{ENSEM\_INLINE@{ENSEM\_INLINE}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{ENSEM\_INLINE}{ENSEM\_INLINE}}
+{\footnotesize\ttfamily \#define E\+N\+S\+E\+M\+\_\+\+I\+N\+L\+I\+NE}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_a97ea3a1d467b65f448446ba3046ddd00}\label{lib_2ensem_2ensem_8h_a97ea3a1d467b65f448446ba3046ddd00}} 
+\index{ensem.h@{ensem.h}!PETE\_EMPTY\_CONSTRUCTORS@{PETE\_EMPTY\_CONSTRUCTORS}}
+\index{PETE\_EMPTY\_CONSTRUCTORS@{PETE\_EMPTY\_CONSTRUCTORS}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{PETE\_EMPTY\_CONSTRUCTORS}{PETE\_EMPTY\_CONSTRUCTORS}}
+{\footnotesize\ttfamily \#define P\+E\+T\+E\+\_\+\+E\+M\+P\+T\+Y\+\_\+\+C\+O\+N\+S\+T\+R\+U\+C\+T\+O\+RS(\begin{DoxyParamCaption}\item[{}]{C\+L\+A\+SS }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lib_2ensem_2ensem_8h_af2f0cc2144f5bf18803b56edbfa78c41}\label{lib_2ensem_2ensem_8h_af2f0cc2144f5bf18803b56edbfa78c41}} 
+\index{ensem.h@{ensem.h}!PETE\_EMPTY\_CONSTRUCTORS\_TEMPLATE@{PETE\_EMPTY\_CONSTRUCTORS\_TEMPLATE}}
+\index{PETE\_EMPTY\_CONSTRUCTORS\_TEMPLATE@{PETE\_EMPTY\_CONSTRUCTORS\_TEMPLATE}!ensem.h@{ensem.h}}
+\subsubsection{\texorpdfstring{PETE\_EMPTY\_CONSTRUCTORS\_TEMPLATE}{PETE\_EMPTY\_CONSTRUCTORS\_TEMPLATE}}
+{\footnotesize\ttfamily \#define P\+E\+T\+E\+\_\+\+E\+M\+P\+T\+Y\+\_\+\+C\+O\+N\+S\+T\+R\+U\+C\+T\+O\+R\+S\+\_\+\+T\+E\+M\+P\+L\+A\+TE(\begin{DoxyParamCaption}\item[{}]{C\+L\+A\+SS,  }\item[{}]{A\+RG }\end{DoxyParamCaption})}
+

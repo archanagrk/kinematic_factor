@@ -1,0 +1,15 @@
+<map id="Hadron::Mom3d" name="Hadron::Mom3d">
+<area shape="rect" id="node1" title="Helper function." alt="" coords="764,203,881,228"/>
+<area shape="rect" id="node2" href="$d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59" title=" " alt="" coords="538,5,705,31"/>
+<area shape="rect" id="node3" href="$de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b" title=" " alt="" coords="539,55,703,80"/>
+<area shape="rect" id="node4" href="$d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19" title=" " alt="" coords="539,104,703,129"/>
+<area shape="rect" id="node5" href="$de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb" title=" " alt="" coords="539,153,703,179"/>
+<area shape="rect" id="node6" href="$da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23" title=" " alt="" coords="526,203,716,228"/>
+<area shape="rect" id="node7" href="$d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6" title=" " alt="" coords="526,252,716,277"/>
+<area shape="rect" id="node8" href="$d1/daf/namespaceHadron.html#a8a4e39ac150585731d18fb970ec8a1bd" title="Conventional reference mom (for CGs) &#45; not the same as canonical mom." alt="" coords="542,301,700,327"/>
+<area shape="rect" id="node12" href="$d1/daf/namespaceHadron.html#ab3424b316e2a4d8e820c88f8027742e1" title="Scale momentum to get to form 100, 110, 111, 210, 221 or 321." alt="" coords="555,351,688,376"/>
+<area shape="rect" id="node13" href="$d1/daf/namespaceHadron.html#ad5e2b22f66d2effe70db7f0ba129eae1" title="Unscale momentum from form 100, 110, 111, 210, 221 or 321." alt="" coords="547,400,695,425"/>
+<area shape="rect" id="node9" href="$d9/d19/namespaceHadron_1_1CGC.html#a47b736ab1ac22edb39f4b0df589a7053" title=" " alt="" coords="266,295,478,333"/>
+<area shape="rect" id="node10" href="$d9/d19/namespaceHadron_1_1CGC.html#a416e4eef9b4975ce970e2e0ff04a09e6" title=" " alt="" coords="5,276,218,301"/>
+<area shape="rect" id="node11" href="$db/d9c/cgs__table_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="86,325,137,351"/>
+</map>

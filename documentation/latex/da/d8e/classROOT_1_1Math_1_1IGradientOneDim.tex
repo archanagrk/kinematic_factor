@@ -1,0 +1,176 @@
+\hypertarget{classROOT_1_1Math_1_1IGradientOneDim}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:I\+Gradient\+One\+Dim Class Reference}
+\label{classROOT_1_1Math_1_1IGradientOneDim}\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+
+
+{\ttfamily \#include $<$I\+Function.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{d9/de4/classROOT_1_1Math_1_1IGradientOneDim__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_ab3a9fce54752c72f4ee4ed520f5cb80f}{$\sim$\+I\+Gradient\+One\+Dim}} ()
+\begin{DoxyCompactList}\small\item\em virtual destructor \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f}{Derivative}} (double x) const
+\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc}{FdF}} (double x, double \&f, double \&df) const =0
+\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_ab28c444cba126cc1b380d21120dd437f}{Derivative}} (const double $\ast$x) const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_ac00c2cdc7a93ea4358f2f1df8e3499eb}{Gradient}} (const double $\ast$x, double $\ast$g) const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e}{FdF}} (const double $\ast$x, double \&f, double $\ast$df) const
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_ab3a9fce54752c72f4ee4ed520f5cb80f}{$\sim$\+I\+Gradient\+One\+Dim}} ()
+\begin{DoxyCompactList}\small\item\em virtual destructor \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f}{Derivative}} (double x) const
+\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc}{FdF}} (double x, double \&f, double \&df) const =0
+\item 
+double \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_ab28c444cba126cc1b380d21120dd437f}{Derivative}} (const double $\ast$x) const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_ac00c2cdc7a93ea4358f2f1df8e3499eb}{Gradient}} (const double $\ast$x, double $\ast$g) const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e}{FdF}} (const double $\ast$x, double \&f, double $\ast$df) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Specialized Gradient interface(abstract class) for one dimensional functions It provides a method to evaluate the derivative of the function, Derivative and a method to evaluate at the same time the function and the derivative FdF
+
+Concrete classes should derive from \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionOneDim}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+One\+Dim}} and not from this class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_ab3a9fce54752c72f4ee4ed520f5cb80f}\label{classROOT_1_1Math_1_1IGradientOneDim_ab3a9fce54752c72f4ee4ed520f5cb80f}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!````~IGradientOneDim@{$\sim$IGradientOneDim}}
+\index{````~IGradientOneDim@{$\sim$IGradientOneDim}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{$\sim$IGradientOneDim()}{~IGradientOneDim()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::$\sim$\+I\+Gradient\+One\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+virtual destructor 
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_ab3a9fce54752c72f4ee4ed520f5cb80f}\label{classROOT_1_1Math_1_1IGradientOneDim_ab3a9fce54752c72f4ee4ed520f5cb80f}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!````~IGradientOneDim@{$\sim$IGradientOneDim}}
+\index{````~IGradientOneDim@{$\sim$IGradientOneDim}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{$\sim$IGradientOneDim()}{~IGradientOneDim()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::$\sim$\+I\+Gradient\+One\+Dim (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+virtual destructor 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f}\label{classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!Derivative@{Derivative}}
+\index{Derivative@{Derivative}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{Derivative()}{Derivative()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+Derivative (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return the derivative of the function at a point x Use the private method Do\+Derivative Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8e/classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f}\label{classROOT_1_1Math_1_1IGradientOneDim_a1fd109c1ddc7bae1c647f096e1fd527f}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!Derivative@{Derivative}}
+\index{Derivative@{Derivative}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{Derivative()}{Derivative()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+Derivative (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return the derivative of the function at a point x Use the private method Do\+Derivative \mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_ab28c444cba126cc1b380d21120dd437f}\label{classROOT_1_1Math_1_1IGradientOneDim_ab28c444cba126cc1b380d21120dd437f}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!Derivative@{Derivative}}
+\index{Derivative@{Derivative}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{Derivative()}{Derivative()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+Derivative (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compatibility method with multi-\/dimensional interface for partial derivative \mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_ab28c444cba126cc1b380d21120dd437f}\label{classROOT_1_1Math_1_1IGradientOneDim_ab28c444cba126cc1b380d21120dd437f}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!Derivative@{Derivative}}
+\index{Derivative@{Derivative}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{Derivative()}{Derivative()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+Derivative (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compatibility method with multi-\/dimensional interface for partial derivative \mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc}\label{classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!FdF@{FdF}}
+\index{FdF@{FdF}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{FdF()}{FdF()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+FdF (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double \&}]{f,  }\item[{double \&}]{df }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionOneDim_a01eaedb2ae1dfa5722f11281acf7a72b}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+One\+Dim}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionOneDim_a01eaedb2ae1dfa5722f11281acf7a72b}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+One\+Dim}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8e/classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc}\label{classROOT_1_1Math_1_1IGradientOneDim_aef5560ea7d43e64d94bf875713e2a5fc}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!FdF@{FdF}}
+\index{FdF@{FdF}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{FdF()}{FdF()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+FdF (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double \&}]{f,  }\item[{double \&}]{df }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time 
+
+Implemented in \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionOneDim_a01eaedb2ae1dfa5722f11281acf7a72b}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+One\+Dim}}, and \mbox{\hyperlink{classROOT_1_1Math_1_1IGradientFunctionOneDim_a01eaedb2ae1dfa5722f11281acf7a72b}{R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+Function\+One\+Dim}}.
+
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e}\label{classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!FdF@{FdF}}
+\index{FdF@{FdF}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{FdF()}{FdF()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+FdF (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double \&}]{f,  }\item[{double $\ast$}]{df }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compatibility method with multi-\/dimensional interface for Gradient and function evaluation Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8e/classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e}\label{classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!FdF@{FdF}}
+\index{FdF@{FdF}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{FdF()}{FdF()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+FdF (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double \&}]{f,  }\item[{double $\ast$}]{df }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compatibility method with multi-\/dimensional interface for Gradient and function evaluation Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8e/classROOT_1_1Math_1_1IGradientOneDim_a4d51d8a5bfdb547348b6da33008f6a9e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_ac00c2cdc7a93ea4358f2f1df8e3499eb}\label{classROOT_1_1Math_1_1IGradientOneDim_ac00c2cdc7a93ea4358f2f1df8e3499eb}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!Gradient@{Gradient}}
+\index{Gradient@{Gradient}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+Gradient (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double $\ast$}]{g }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compatibility method with multi-\/dimensional interface for Gradient \mbox{\Hypertarget{classROOT_1_1Math_1_1IGradientOneDim_ac00c2cdc7a93ea4358f2f1df8e3499eb}\label{classROOT_1_1Math_1_1IGradientOneDim_ac00c2cdc7a93ea4358f2f1df8e3499eb}} 
+\index{ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}!Gradient@{Gradient}}
+\index{Gradient@{Gradient}!ROOT::Math::IGradientOneDim@{ROOT::Math::IGradientOneDim}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Math\+::\+I\+Gradient\+One\+Dim\+::\+Gradient (\begin{DoxyParamCaption}\item[{const double $\ast$}]{x,  }\item[{double $\ast$}]{g }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compatibility method with multi-\/dimensional interface for Gradient 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Math/\mbox{\hyperlink{other__libs_2minuit_2inc_2Math_2IFunction_8h}{I\+Function.\+h}}\end{DoxyCompactItemize}

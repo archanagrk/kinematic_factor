@@ -1,0 +1,5 @@
+<map id="ADATIO::read" name="ADATIO::read">
+<area shape="rect" id="node1" title="Read a binary std::list object." alt="" coords="5,12,109,37"/>
+<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="157,12,261,37"/>
+<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="309,5,468,44"/>
+</map>

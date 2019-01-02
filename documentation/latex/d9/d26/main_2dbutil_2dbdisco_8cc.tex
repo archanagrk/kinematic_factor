@@ -1,0 +1,146 @@
+\hypertarget{main_2dbutil_2dbdisco_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat/main/dbutil/dbdisco.cc File Reference}
+\label{main_2dbutil_2dbdisco_8cc}\index{/Users/archanar/Kinematic\_factor/adat/main/dbutil/dbdisco.cc@{/Users/archanar/Kinematic\_factor/adat/main/dbutil/dbdisco.cc}}
+
+
+Generic operations on single config databases.  
+
+
+{\ttfamily \#include \char`\"{}adat/singleton.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/funcmap.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xmlio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/key\+\_\+val\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}dbtype.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}D\+B\+String.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}formfac/discoblocks.\+h\char`\"{}}\newline
+Include dependency graph for dbdisco.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/df4/main_2dbutil_2dbdisco_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename K $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbdisco_8cc_a05c6483ffb9fa71112b451a5dd7eb935}{print\+Keys}} (const string \&dbase)
+\begin{DoxyCompactList}\small\item\em Print all the keys. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbdisco_8cc_a44428d59560cb466420c5c0ca60315e5}{print\+Keys\+X\+ML}} (const string \&xml\+\_\+file, const string \&dbase)
+\begin{DoxyCompactList}\small\item\em Print all the keys to a xml file. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbdisco_8cc_a9c4b0a95ff975fd696e640d75b7963cf}{check\+Keys\+X\+ML}} (const string \&xml\+\_\+file, const string \&dbase)
+\begin{DoxyCompactList}\small\item\em Check all the keys in an xml file. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbdisco_8cc_a2a05b9e7e7b5e73b14c7c9fc65dd9122}{print\+Key\+Vals\+X\+ML}} (const string \&xml\+\_\+file, const string \&out\+\_\+xml, const string \&dbase)
+\begin{DoxyCompactList}\small\item\em Check all the keys in an xml file. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename K , typename V $>$ }\\void \mbox{\hyperlink{main_2dbutil_2dbdisco_8cc_a57918e290614430413950cb4fdfd967e}{key\+Handler}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Print all the keys to a xml file. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_2dbutil_2dbdisco_8cc_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic operations on single config databases. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_2dbutil_2dbdisco_8cc_a9c4b0a95ff975fd696e640d75b7963cf}\label{main_2dbutil_2dbdisco_8cc_a9c4b0a95ff975fd696e640d75b7963cf}} 
+\index{dbdisco.cc@{dbdisco.cc}!checkKeysXML@{checkKeysXML}}
+\index{checkKeysXML@{checkKeysXML}!dbdisco.cc@{dbdisco.cc}}
+\subsubsection{\texorpdfstring{checkKeysXML()}{checkKeysXML()}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+void check\+Keys\+X\+ML (\begin{DoxyParamCaption}\item[{const string \&}]{xml\+\_\+file,  }\item[{const string \&}]{dbase }\end{DoxyParamCaption})}
+
+
+
+Check all the keys in an xml file. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/d26/main_2dbutil_2dbdisco_8cc_a9c4b0a95ff975fd696e640d75b7963cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbdisco_8cc_a57918e290614430413950cb4fdfd967e}\label{main_2dbutil_2dbdisco_8cc_a57918e290614430413950cb4fdfd967e}} 
+\index{dbdisco.cc@{dbdisco.cc}!keyHandler@{keyHandler}}
+\index{keyHandler@{keyHandler}!dbdisco.cc@{dbdisco.cc}}
+\subsubsection{\texorpdfstring{keyHandler()}{keyHandler()}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void key\+Handler (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Print all the keys to a xml file. 
+
+\mbox{\Hypertarget{main_2dbutil_2dbdisco_8cc_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_2dbutil_2dbdisco_8cc_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{dbdisco.cc@{dbdisco.cc}!main@{main}}
+\index{main@{main}!dbdisco.cc@{dbdisco.cc}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/d26/main_2dbutil_2dbdisco_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbdisco_8cc_a05c6483ffb9fa71112b451a5dd7eb935}\label{main_2dbutil_2dbdisco_8cc_a05c6483ffb9fa71112b451a5dd7eb935}} 
+\index{dbdisco.cc@{dbdisco.cc}!printKeys@{printKeys}}
+\index{printKeys@{printKeys}!dbdisco.cc@{dbdisco.cc}}
+\subsubsection{\texorpdfstring{printKeys()}{printKeys()}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+void print\+Keys (\begin{DoxyParamCaption}\item[{const string \&}]{dbase }\end{DoxyParamCaption})}
+
+
+
+Print all the keys. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{d9/d26/main_2dbutil_2dbdisco_8cc_a05c6483ffb9fa71112b451a5dd7eb935_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbdisco_8cc_a44428d59560cb466420c5c0ca60315e5}\label{main_2dbutil_2dbdisco_8cc_a44428d59560cb466420c5c0ca60315e5}} 
+\index{dbdisco.cc@{dbdisco.cc}!printKeysXML@{printKeysXML}}
+\index{printKeysXML@{printKeysXML}!dbdisco.cc@{dbdisco.cc}}
+\subsubsection{\texorpdfstring{printKeysXML()}{printKeysXML()}}
+{\footnotesize\ttfamily template$<$typename K $>$ \\
+void print\+Keys\+X\+ML (\begin{DoxyParamCaption}\item[{const string \&}]{xml\+\_\+file,  }\item[{const string \&}]{dbase }\end{DoxyParamCaption})}
+
+
+
+Print all the keys to a xml file. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/d26/main_2dbutil_2dbdisco_8cc_a44428d59560cb466420c5c0ca60315e5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_2dbutil_2dbdisco_8cc_a2a05b9e7e7b5e73b14c7c9fc65dd9122}\label{main_2dbutil_2dbdisco_8cc_a2a05b9e7e7b5e73b14c7c9fc65dd9122}} 
+\index{dbdisco.cc@{dbdisco.cc}!printKeyValsXML@{printKeyValsXML}}
+\index{printKeyValsXML@{printKeyValsXML}!dbdisco.cc@{dbdisco.cc}}
+\subsubsection{\texorpdfstring{printKeyValsXML()}{printKeyValsXML()}}
+{\footnotesize\ttfamily template$<$typename K , typename V $>$ \\
+void print\+Key\+Vals\+X\+ML (\begin{DoxyParamCaption}\item[{const string \&}]{xml\+\_\+file,  }\item[{const string \&}]{out\+\_\+xml,  }\item[{const string \&}]{dbase }\end{DoxyParamCaption})}
+
+
+
+Check all the keys in an xml file. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/d26/main_2dbutil_2dbdisco_8cc_a2a05b9e7e7b5e73b14c7c9fc65dd9122_cgraph}
+\end{center}
+\end{figure}

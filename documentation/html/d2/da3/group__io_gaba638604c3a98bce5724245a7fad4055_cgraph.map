@@ -1,0 +1,12 @@
+<map id="ADATXML::read" name="ADATXML::read">
+<area shape="rect" id="node1" title="Read a XML Array1dO element." alt="" coords="5,131,123,156"/>
+<area shape="rect" id="node2" href="$db/d3f/classADATXML_1_1XMLReader.html#a59584913f1338d956de60adef16a0718" title="Count the number of occurances from the xpath query." alt="" coords="171,5,333,44"/>
+<area shape="rect" id="node3" href="$db/d3f/classADATXML_1_1XMLReader.html#a0e5f84d85bb03e1ba3c01a20b1642a36" title="Closes the last file opened." alt="" coords="171,68,333,107"/>
+<area shape="rect" id="node6" href="$db/d5c/classADAT_1_1Array1dO.html#afc98b7076e43428faae90d7cb1dab3bf" title=" " alt="" coords="171,131,333,156"/>
+<area shape="rect" id="node7" href="$db/d5c/classADAT_1_1Array1dO.html#a749307d8e42867d6fac39dc9aca84978" title=" " alt="" coords="177,180,327,205"/>
+<area shape="rect" id="node8" href="$d7/da0/namespaceADATXML.html#a569ed4d03ded383a8aaf0ce90b7c80ba" title=" " alt="" coords="193,229,310,255"/>
+<area shape="rect" id="node4" href="$db/d3f/classADATXML_1_1XMLReader.html#ae9e467fca3d4bf34351dc00e9797a06f" title="Queries whether the binary file is open." alt="" coords="402,37,564,76"/>
+<area shape="rect" id="node5" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#acd03bd5e585de0a5077544314cd8fb9a" title=" " alt="" coords="381,100,586,139"/>
+<area shape="rect" id="node9" href="$db/d3f/classADATXML_1_1XMLReader.html#a5ed2bbc9de7ba505e6ce37c1a5f90fee" title=" " alt="" coords="389,229,577,255"/>
+<area shape="rect" id="node10" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a167f3e878414daf1c5804ee1de3235e9" title=" " alt="" coords="634,223,839,261"/>
+</map>

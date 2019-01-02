@@ -1,0 +1,210 @@
+\hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat/other\+\_\+libs/filedb/filehash/ffdb\+\_\+hash.c File Reference}
+\label{other__libs_2filedb_2filehash_2ffdb__hash_8c}\index{/Users/archanar/Kinematic\_factor/adat/other\_libs/filedb/filehash/ffdb\_hash.c@{/Users/archanar/Kinematic\_factor/adat/other\_libs/filedb/filehash/ffdb\_hash.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$errno.\+h$>$}\newline
+{\ttfamily \#include $<$sys/types.\+h$>$}\newline
+{\ttfamily \#include $<$sys/stat.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+pagepool.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+page.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+hash\+\_\+func.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+hash.\+h\char`\"{}}\newline
+Include dependency graph for ffdb\+\_\+hash.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d5a/other__libs_2filedb_2filehash_2ffdb__hash_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_a62b95f19364737720151b6cdd62015ea}{\+\_\+ffdb\+\_\+hget\+\_\+header}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, unsigned int page\+\_\+size)
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae249c66e95687ce85bfd206872a6e64e}{\+\_\+\+\_\+ffdb\+\_\+hash\+\_\+open}} (const char $\ast$fname, int flags, int mode, const void $\ast$arg)
+\item 
+unsigned int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_a2f4a425a3740bb0320ef61b8c9fdcef1}{\+\_\+ffdb\+\_\+call\+\_\+hash}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, const void $\ast$k, unsigned int len)
+\item 
+int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_a025a0fd1b0b76b024679498011af4bc3}{ffdb\+\_\+set\+\_\+all\+\_\+configs}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}}, \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$configs)
+\item 
+int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_a4c5be24458701f3a88770dc202be8a0c}{ffdb\+\_\+get\+\_\+all\+\_\+configs}} (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}}, \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$configs)
+\item 
+unsigned int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_aa3722865ae0e52878e2fc443f4f1a0a8}{ffdb\+\_\+num\+\_\+configs}} (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}})
+\item 
+int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae36e14bba7052f0de66a7b5d1308f9ba}{ffdb\+\_\+set\+\_\+config}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}}, \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$config)
+\item 
+int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_a02bc33564d34e6fe08e28f3bad609cfb}{ffdb\+\_\+get\+\_\+config}} (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}}, unsigned int confignum, \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$config)
+\item 
+int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_aa9be22f501b0567050accbc8c9026c11}{ffdb\+\_\+set\+\_\+user\+\_\+info}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}}, unsigned char $\ast$data, unsigned int len)
+\item 
+int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_a92fefe6ca23ce778c0d595a7d93a3689}{ffdb\+\_\+get\+\_\+user\+\_\+info}} (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}}, unsigned char data\mbox{[}$\,$\mbox{]}, unsigned int $\ast$len)
+\item 
+unsigned int \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae8a9ae9edc3fe45e5e342d0fabcc56e9}{ffdb\+\_\+max\+\_\+user\+\_\+info\+\_\+len}} (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$\mbox{\hyperlink{structdb}{db}})
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae249c66e95687ce85bfd206872a6e64e}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae249c66e95687ce85bfd206872a6e64e}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!\_\_ffdb\_hash\_open@{\_\_ffdb\_hash\_open}}
+\index{\_\_ffdb\_hash\_open@{\_\_ffdb\_hash\_open}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{\_\_ffdb\_hash\_open()}{\_\_ffdb\_hash\_open()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}}$\ast$ \+\_\+\+\_\+ffdb\+\_\+hash\+\_\+open (\begin{DoxyParamCaption}\item[{const char $\ast$}]{fname,  }\item[{int}]{flags,  }\item[{int}]{mode,  }\item[{const void $\ast$}]{arg }\end{DoxyParamCaption})}
+
+Interface to outside DB calls We are not going to have write only system \+:-\/)
+
+We are not going to allow null filename
+
+Create the memory resident hash table
+
+Check whether this is a new database
+
+Now open file according to flags and mode
+
+Get ready to open pagepool cachesize from info is in bytes. We converted into number of pages
+
+Create page pool first
+
+Open memory page pool
+
+Now add page in and out filter
+
+Now save the file nameHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{d6/dee/other__libs_2filedb_2filehash_2ffdb__hash_8c_ae249c66e95687ce85bfd206872a6e64e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_a2f4a425a3740bb0320ef61b8c9fdcef1}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_a2f4a425a3740bb0320ef61b8c9fdcef1}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!\_ffdb\_call\_hash@{\_ffdb\_call\_hash}}
+\index{\_ffdb\_call\_hash@{\_ffdb\_call\_hash}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{\_ffdb\_call\_hash()}{\_ffdb\_call\_hash()}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+call\+\_\+hash (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{const void $\ast$}]{k,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+One of the most important function\+: hash function return bucket number \mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_a62b95f19364737720151b6cdd62015ea}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_a62b95f19364737720151b6cdd62015ea}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!\_ffdb\_hget\_header@{\_ffdb\_hget\_header}}
+\index{\_ffdb\_hget\_header@{\_ffdb\_hget\_header}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{\_ffdb\_hget\_header()}{\_ffdb\_hget\_header()}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+hget\+\_\+header (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{unsigned int}]{page\+\_\+size }\end{DoxyParamCaption})}
+
+Functions to get/put hash header. We access the file directly. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/dee/other__libs_2filedb_2filehash_2ffdb__hash_8c_a62b95f19364737720151b6cdd62015ea_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_a4c5be24458701f3a88770dc202be8a0c}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_a4c5be24458701f3a88770dc202be8a0c}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_get\_all\_configs@{ffdb\_get\_all\_configs}}
+\index{ffdb\_get\_all\_configs@{ffdb\_get\_all\_configs}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_all\_configs()}{ffdb\_get\_all\_configs()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+all\+\_\+configs (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db,  }\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{configs }\end{DoxyParamCaption})}
+
+Get all configurations caller should free memory of configs-\/$>$allconfigs
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & pointer to underlying database \\
+\hline
+{\em configs} & all configuration information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success -\/1 on failure with a proper errno set 
+\end{DoxyReturn}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_a02bc33564d34e6fe08e28f3bad609cfb}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_a02bc33564d34e6fe08e28f3bad609cfb}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_get\_config@{ffdb\_get\_config}}
+\index{ffdb\_get\_config@{ffdb\_get\_config}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_config()}{ffdb\_get\_config()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+config (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db,  }\item[{unsigned int}]{confignum,  }\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{config }\end{DoxyParamCaption})}
+
+Get a paticular configuration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & pointer to underlying database \\
+\hline
+{\em confignum} & the configuration number \\
+\hline
+{\em config} & retrieved configuration information will be here\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success, -\/1 on failure with a proper errno set 
+\end{DoxyReturn}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_a92fefe6ca23ce778c0d595a7d93a3689}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_a92fefe6ca23ce778c0d595a7d93a3689}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_get\_user\_info@{ffdb\_get\_user\_info}}
+\index{ffdb\_get\_user\_info@{ffdb\_get\_user\_info}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_user\_info()}{ffdb\_get\_user\_info()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+user\+\_\+info (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db,  }\item[{unsigned char}]{data\mbox{[}$\,$\mbox{]},  }\item[{unsigned int $\ast$}]{len }\end{DoxyParamCaption})}
+
+Set user information \mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae8a9ae9edc3fe45e5e342d0fabcc56e9}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae8a9ae9edc3fe45e5e342d0fabcc56e9}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_max\_user\_info\_len@{ffdb\_max\_user\_info\_len}}
+\index{ffdb\_max\_user\_info\_len@{ffdb\_max\_user\_info\_len}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_max\_user\_info\_len()}{ffdb\_max\_user\_info\_len()}}
+{\footnotesize\ttfamily unsigned int ffdb\+\_\+max\+\_\+user\+\_\+info\+\_\+len (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db }\end{DoxyParamCaption})}
+
+Get maximum user information length in bytes allocated
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & pointer to underlying database \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+number of bytes allocated for user information 
+\end{DoxyReturn}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_aa3722865ae0e52878e2fc443f4f1a0a8}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_aa3722865ae0e52878e2fc443f4f1a0a8}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_num\_configs@{ffdb\_num\_configs}}
+\index{ffdb\_num\_configs@{ffdb\_num\_configs}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_num\_configs()}{ffdb\_num\_configs()}}
+{\footnotesize\ttfamily unsigned int ffdb\+\_\+num\+\_\+configs (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db }\end{DoxyParamCaption})}
+
+Get number of configurations information
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & pointer to underlying database\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+number of configurations allocated 
+\end{DoxyReturn}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_a025a0fd1b0b76b024679498011af4bc3}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_a025a0fd1b0b76b024679498011af4bc3}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_set\_all\_configs@{ffdb\_set\_all\_configs}}
+\index{ffdb\_set\_all\_configs@{ffdb\_set\_all\_configs}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_set\_all\_configs()}{ffdb\_set\_all\_configs()}}
+{\footnotesize\ttfamily int ffdb\+\_\+set\+\_\+all\+\_\+configs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db,  }\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{configs }\end{DoxyParamCaption})}
+
+Code related to configuration and user information which are particular to Q\+CD code \mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae36e14bba7052f0de66a7b5d1308f9ba}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_ae36e14bba7052f0de66a7b5d1308f9ba}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_set\_config@{ffdb\_set\_config}}
+\index{ffdb\_set\_config@{ffdb\_set\_config}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_set\_config()}{ffdb\_set\_config()}}
+{\footnotesize\ttfamily int ffdb\+\_\+set\+\_\+config (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db,  }\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{config }\end{DoxyParamCaption})}
+
+Set a paticular configuration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & pointer to underlying database \\
+\hline
+{\em config} & a configuration structure to be set\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success. -\/1 on failure with a proper errno set 
+\end{DoxyReturn}
+\mbox{\Hypertarget{other__libs_2filedb_2filehash_2ffdb__hash_8c_aa9be22f501b0567050accbc8c9026c11}\label{other__libs_2filedb_2filehash_2ffdb__hash_8c_aa9be22f501b0567050accbc8c9026c11}} 
+\index{ffdb\_hash.c@{ffdb\_hash.c}!ffdb\_set\_user\_info@{ffdb\_set\_user\_info}}
+\index{ffdb\_set\_user\_info@{ffdb\_set\_user\_info}!ffdb\_hash.c@{ffdb\_hash.c}}
+\subsubsection{\texorpdfstring{ffdb\_set\_user\_info()}{ffdb\_set\_user\_info()}}
+{\footnotesize\ttfamily int ffdb\+\_\+set\+\_\+user\+\_\+info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{db,  }\item[{unsigned char $\ast$}]{data,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+Set user information 

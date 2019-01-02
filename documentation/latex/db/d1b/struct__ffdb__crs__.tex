@@ -1,0 +1,75 @@
+\hypertarget{struct__ffdb__crs__}{}\section{\+\_\+ffdb\+\_\+crs\+\_\+ Struct Reference}
+\label{struct__ffdb__crs__}\index{\_ffdb\_crs\_@{\_ffdb\_crs\_}}
+
+
+{\ttfamily \#include $<$ffdb\+\_\+hash.\+h$>$}
+
+
+
+Collaboration diagram for \+\_\+ffdb\+\_\+crs\+\_\+\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d73/struct__ffdb__crs____coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct__ffdb__crs___ab69f088c55ed68ebc0cc2ed6342ef782}{F\+F\+D\+B\+\_\+\+T\+A\+I\+L\+Q\+\_\+\+E\+N\+T\+RY}} (\mbox{\hyperlink{struct__ffdb__crs__}{\+\_\+ffdb\+\_\+crs\+\_\+}}) queue
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$ \mbox{\hyperlink{struct__ffdb__crs___a24de063362cf44602bfa5d56c9bae574}{hashp}}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a1383f6fb3966b0ca74206ba93b687fd9}{ffdb\+\_\+cursor\+\_\+t}} $\ast$ \mbox{\hyperlink{struct__ffdb__crs___ad0d04ea484ea452ea3f04c9685b69a01}{pcursor}}
+\item 
+\mbox{\hyperlink{ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} \mbox{\hyperlink{struct__ffdb__crs___afa4e8bde8a789a61d3078df069fd70d1}{item}}
+\item 
+pthread\+\_\+mutex\+\_\+t \mbox{\hyperlink{struct__ffdb__crs___a91ff97087fd24de639a6efce36da30e2}{lock}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Cursor of database supporting only get for now 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct__ffdb__crs___ab69f088c55ed68ebc0cc2ed6342ef782}\label{struct__ffdb__crs___ab69f088c55ed68ebc0cc2ed6342ef782}} 
+\index{\_ffdb\_crs\_@{\_ffdb\_crs\_}!FFDB\_TAILQ\_ENTRY@{FFDB\_TAILQ\_ENTRY}}
+\index{FFDB\_TAILQ\_ENTRY@{FFDB\_TAILQ\_ENTRY}!\_ffdb\_crs\_@{\_ffdb\_crs\_}}
+\subsubsection{\texorpdfstring{FFDB\_TAILQ\_ENTRY()}{FFDB\_TAILQ\_ENTRY()}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+crs\+\_\+\+::\+F\+F\+D\+B\+\_\+\+T\+A\+I\+L\+Q\+\_\+\+E\+N\+T\+RY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct__ffdb__crs__}{\+\_\+ffdb\+\_\+crs\+\_\+}}}]{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct__ffdb__crs___a24de063362cf44602bfa5d56c9bae574}\label{struct__ffdb__crs___a24de063362cf44602bfa5d56c9bae574}} 
+\index{\_ffdb\_crs\_@{\_ffdb\_crs\_}!hashp@{hashp}}
+\index{hashp@{hashp}!\_ffdb\_crs\_@{\_ffdb\_crs\_}}
+\subsubsection{\texorpdfstring{hashp}{hashp}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}}$\ast$ \+\_\+ffdb\+\_\+crs\+\_\+\+::hashp}
+
+\mbox{\Hypertarget{struct__ffdb__crs___afa4e8bde8a789a61d3078df069fd70d1}\label{struct__ffdb__crs___afa4e8bde8a789a61d3078df069fd70d1}} 
+\index{\_ffdb\_crs\_@{\_ffdb\_crs\_}!item@{item}}
+\index{item@{item}!\_ffdb\_crs\_@{\_ffdb\_crs\_}}
+\subsubsection{\texorpdfstring{item}{item}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} \+\_\+ffdb\+\_\+crs\+\_\+\+::item}
+
+\mbox{\Hypertarget{struct__ffdb__crs___a91ff97087fd24de639a6efce36da30e2}\label{struct__ffdb__crs___a91ff97087fd24de639a6efce36da30e2}} 
+\index{\_ffdb\_crs\_@{\_ffdb\_crs\_}!lock@{lock}}
+\index{lock@{lock}!\_ffdb\_crs\_@{\_ffdb\_crs\_}}
+\subsubsection{\texorpdfstring{lock}{lock}}
+{\footnotesize\ttfamily pthread\+\_\+mutex\+\_\+t \+\_\+ffdb\+\_\+crs\+\_\+\+::lock}
+
+\mbox{\Hypertarget{struct__ffdb__crs___ad0d04ea484ea452ea3f04c9685b69a01}\label{struct__ffdb__crs___ad0d04ea484ea452ea3f04c9685b69a01}} 
+\index{\_ffdb\_crs\_@{\_ffdb\_crs\_}!pcursor@{pcursor}}
+\index{pcursor@{pcursor}!\_ffdb\_crs\_@{\_ffdb\_crs\_}}
+\subsubsection{\texorpdfstring{pcursor}{pcursor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a1383f6fb3966b0ca74206ba93b687fd9}{ffdb\+\_\+cursor\+\_\+t}}$\ast$ \+\_\+ffdb\+\_\+crs\+\_\+\+::pcursor}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/\mbox{\hyperlink{ffdb__hash_8h}{ffdb\+\_\+hash.\+h}}\end{DoxyCompactItemize}

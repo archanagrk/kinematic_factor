@@ -1,0 +1,6 @@
+<map id="Hadron::allowedMomentaCombin" name="Hadron::allowedMomentaCombin">
+<area shape="rect" id="node1" title="Find posible source 1 and source 2 momentum orientations for fixed target momentum." alt="" coords="5,5,225,31"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a12d4f9d40cac2700ebb7a7420f20987b" title="Generate momentum for a little group from a canonical momentum." alt="" coords="273,5,493,31"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a79373fb0ae210931217ae33dc98f5ee9" title="Get little group of irrep." alt="" coords="541,5,677,31"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a877ae1e797f5cf4d4ebb7e22d5bbe69b" title="Remove helicity from an irrep name." alt="" coords="725,5,885,31"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="ROOT::Minuit2::MinimumState::Gradient" name="ROOT::Minuit2::MinimumState::Gradient">
+<area shape="rect" id="node1" title=" " alt="" coords="505,183,706,221"/>
+<area shape="rect" id="node2" href="$de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed.html#ab61377b63a177c93629ccb3e69e173db" title=" " alt="" coords="254,5,457,44"/>
+<area shape="rect" id="node3" href="$d1/d0a/classROOT_1_1Minuit2_1_1DavidonErrorUpdator.html#afad671aa523cbd9f17af376c51c3ce97" title=" " alt="" coords="258,68,453,107"/>
+<area shape="rect" id="node4" href="$d5/d52/classROOT_1_1Minuit2_1_1VariableMetricBuilder.html#a6214271e1802f110e94725295f3900fc" title=" " alt="" coords="5,97,206,136"/>
+<area shape="rect" id="node5" href="$dc/dcb/classROOT_1_1Minuit2_1_1FumiliBuilder.html#ac0df0ebc275b75e6a6831f102f1753d2" title=" " alt="" coords="259,183,452,221"/>
+<area shape="rect" id="node6" href="$d1/d02/classROOT_1_1Minuit2_1_1MnHesse.html#a4130de0190695811a4606f8ab229482d" title=" " alt="" coords="269,245,441,284"/>
+<area shape="rect" id="node7" href="$d0/dab/classROOT_1_1Minuit2_1_1MnPosDef.html#a5a550c841e9b62d3c09cdf9df61a88f4" title=" " alt="" coords="266,308,444,347"/>
+<area shape="rect" id="node8" href="$d3/d6b/classROOT_1_1Minuit2_1_1NegativeG2LineSearch.html#ac39ff4c0d14335bd8c8bdcede066ecdf" title=" " alt="" coords="262,371,448,409"/>
+</map>

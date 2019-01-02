@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,165,56,191"/>
+<area shape="rect" id="node2" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a453ed92ad20f71b672f3b92e91e40b1c" title=" " alt="" coords="104,33,309,72"/>
+<area shape="rect" id="node7" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a6c6d6e977694344a70506a24bebe853d" title=" " alt="" coords="104,96,309,135"/>
+<area shape="rect" id="node8" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a0d2f7c3da72b0669541bef2e1d35f973" title=" " alt="" coords="104,159,309,197"/>
+<area shape="rect" id="node9" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a719ba9bbd4ae77d6be9a6544a2d0ccaf" title=" " alt="" coords="104,221,309,260"/>
+<area shape="rect" id="node10" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#acd03bd5e585de0a5077544314cd8fb9a" title=" " alt="" coords="104,284,309,323"/>
+<area shape="rect" id="node3" href="$db/de5/group__qio.html#gac32c771b58d87e4ef4af62a7ad2e5c0d" title="Close a ADATFileReader." alt="" coords="415,12,523,37"/>
+<area shape="rect" id="node6" href="$d5/dfd/classXMLXPathReader_1_1XMLDocument.html#ac39670aea17809a726dc6a2cc91c9710" title=" " alt="" coords="357,61,581,100"/>
+<area shape="rect" id="node4" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="629,5,806,44"/>
+<area shape="rect" id="node5" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="854,5,1031,44"/>
+</map>

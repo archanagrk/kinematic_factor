@@ -1,0 +1,135 @@
+\hypertarget{struct__ffdb__pagepool__}{}\section{\+\_\+ffdb\+\_\+pagepool\+\_\+ Struct Reference}
+\label{struct__ffdb__pagepool__}\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+
+
+{\ttfamily \#include $<$ffdb\+\_\+pagepool.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct__ffdb__pagepool___a79c89b7ffac9b5303ed9e38be070120e}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+H\+E\+AD}} (\+\_\+ffdb\+\_\+lqh, \mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}) lqh
+\item 
+\mbox{\hyperlink{struct__ffdb__pagepool___a96aa19721486d848d70d403dad214389}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+H\+E\+AD}} (\+\_\+ffdb\+\_\+hqh, \mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}) hqh\mbox{[}\mbox{\hyperlink{ffdb__pagepool_8h_abe1c2fbde9b4b6a95b8a164d7479286f}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+S\+I\+ZE}}\mbox{]}
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \mbox{\hyperlink{struct__ffdb__pagepool___af9f1c3ffb27cc6c3681315e5a9041c6d}{curcache}}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \mbox{\hyperlink{struct__ffdb__pagepool___ae5bd28d10237990065e0d2ea509bcdcd}{maxcache}}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \mbox{\hyperlink{struct__ffdb__pagepool___a03e1704e405a74b8c1d78e60cb7a502d}{npages}}
+\item 
+\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \mbox{\hyperlink{struct__ffdb__pagepool___a2f0ea8a42e82177f171e049c43a36719}{maxpgno}}
+\item 
+unsigned int \mbox{\hyperlink{struct__ffdb__pagepool___a890e1c5c8749a2017bd030e3cac3b10c}{pagesize}}
+\item 
+unsigned int \mbox{\hyperlink{struct__ffdb__pagepool___a48eaa5e6d2afd16276e8bf102934792f}{fileflags}}
+\item 
+int \mbox{\hyperlink{struct__ffdb__pagepool___ac2c0751805a5c58aa828d2ad9016ff54}{fd}}
+\item 
+int \mbox{\hyperlink{struct__ffdb__pagepool___a994eb6de8b3d0330669e68339d841a72}{close\+\_\+fd}}
+\item 
+\mbox{\hyperlink{ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}} \mbox{\hyperlink{struct__ffdb__pagepool___a924150097b3bab2a4cc04415b9cf5ed4}{pgin}}
+\item 
+\mbox{\hyperlink{ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}} \mbox{\hyperlink{struct__ffdb__pagepool___aea51254f721e3ef10da84d3afade7f4c}{pgout}}
+\item 
+void $\ast$ \mbox{\hyperlink{struct__ffdb__pagepool___a195cda3aa567698eabdd06798e92a040}{pgcookie}}
+\item 
+pthread\+\_\+mutex\+\_\+t \mbox{\hyperlink{struct__ffdb__pagepool___aede7931cd8b0e8d9d3e5c3734e3841a0}{lock}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct__ffdb__pagepool___a79c89b7ffac9b5303ed9e38be070120e}\label{struct__ffdb__pagepool___a79c89b7ffac9b5303ed9e38be070120e}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!FFDB\_CIRCLEQ\_HEAD@{FFDB\_CIRCLEQ\_HEAD}}
+\index{FFDB\_CIRCLEQ\_HEAD@{FFDB\_CIRCLEQ\_HEAD}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_HEAD()}{FFDB\_CIRCLEQ\_HEAD()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+pagepool\+\_\+\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+H\+E\+AD (\begin{DoxyParamCaption}\item[{\+\_\+ffdb\+\_\+lqh}]{,  }\item[{\mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a96aa19721486d848d70d403dad214389}\label{struct__ffdb__pagepool___a96aa19721486d848d70d403dad214389}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!FFDB\_CIRCLEQ\_HEAD@{FFDB\_CIRCLEQ\_HEAD}}
+\index{FFDB\_CIRCLEQ\_HEAD@{FFDB\_CIRCLEQ\_HEAD}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_HEAD()}{FFDB\_CIRCLEQ\_HEAD()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+pagepool\+\_\+\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+H\+E\+AD (\begin{DoxyParamCaption}\item[{\+\_\+ffdb\+\_\+hqh}]{,  }\item[{\mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}}]{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{struct__ffdb__pagepool___a994eb6de8b3d0330669e68339d841a72}\label{struct__ffdb__pagepool___a994eb6de8b3d0330669e68339d841a72}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!close\_fd@{close\_fd}}
+\index{close\_fd@{close\_fd}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{close\_fd}{close\_fd}}
+{\footnotesize\ttfamily int \+\_\+ffdb\+\_\+pagepool\+\_\+\+::close\+\_\+fd}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___af9f1c3ffb27cc6c3681315e5a9041c6d}\label{struct__ffdb__pagepool___af9f1c3ffb27cc6c3681315e5a9041c6d}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!curcache@{curcache}}
+\index{curcache@{curcache}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{curcache}{curcache}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \+\_\+ffdb\+\_\+pagepool\+\_\+\+::curcache}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___ac2c0751805a5c58aa828d2ad9016ff54}\label{struct__ffdb__pagepool___ac2c0751805a5c58aa828d2ad9016ff54}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!fd@{fd}}
+\index{fd@{fd}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{fd}{fd}}
+{\footnotesize\ttfamily int \+\_\+ffdb\+\_\+pagepool\+\_\+\+::fd}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a48eaa5e6d2afd16276e8bf102934792f}\label{struct__ffdb__pagepool___a48eaa5e6d2afd16276e8bf102934792f}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!fileflags@{fileflags}}
+\index{fileflags@{fileflags}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{fileflags}{fileflags}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+pagepool\+\_\+\+::fileflags}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___aede7931cd8b0e8d9d3e5c3734e3841a0}\label{struct__ffdb__pagepool___aede7931cd8b0e8d9d3e5c3734e3841a0}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!lock@{lock}}
+\index{lock@{lock}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{lock}{lock}}
+{\footnotesize\ttfamily pthread\+\_\+mutex\+\_\+t \+\_\+ffdb\+\_\+pagepool\+\_\+\+::lock}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___ae5bd28d10237990065e0d2ea509bcdcd}\label{struct__ffdb__pagepool___ae5bd28d10237990065e0d2ea509bcdcd}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!maxcache@{maxcache}}
+\index{maxcache@{maxcache}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{maxcache}{maxcache}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \+\_\+ffdb\+\_\+pagepool\+\_\+\+::maxcache}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a2f0ea8a42e82177f171e049c43a36719}\label{struct__ffdb__pagepool___a2f0ea8a42e82177f171e049c43a36719}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!maxpgno@{maxpgno}}
+\index{maxpgno@{maxpgno}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{maxpgno}{maxpgno}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \+\_\+ffdb\+\_\+pagepool\+\_\+\+::maxpgno}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a03e1704e405a74b8c1d78e60cb7a502d}\label{struct__ffdb__pagepool___a03e1704e405a74b8c1d78e60cb7a502d}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!npages@{npages}}
+\index{npages@{npages}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{npages}{npages}}
+{\footnotesize\ttfamily \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \+\_\+ffdb\+\_\+pagepool\+\_\+\+::npages}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a890e1c5c8749a2017bd030e3cac3b10c}\label{struct__ffdb__pagepool___a890e1c5c8749a2017bd030e3cac3b10c}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!pagesize@{pagesize}}
+\index{pagesize@{pagesize}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{pagesize}{pagesize}}
+{\footnotesize\ttfamily unsigned int \+\_\+ffdb\+\_\+pagepool\+\_\+\+::pagesize}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a195cda3aa567698eabdd06798e92a040}\label{struct__ffdb__pagepool___a195cda3aa567698eabdd06798e92a040}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!pgcookie@{pgcookie}}
+\index{pgcookie@{pgcookie}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{pgcookie}{pgcookie}}
+{\footnotesize\ttfamily void$\ast$ \+\_\+ffdb\+\_\+pagepool\+\_\+\+::pgcookie}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___a924150097b3bab2a4cc04415b9cf5ed4}\label{struct__ffdb__pagepool___a924150097b3bab2a4cc04415b9cf5ed4}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!pgin@{pgin}}
+\index{pgin@{pgin}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{pgin}{pgin}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}} \+\_\+ffdb\+\_\+pagepool\+\_\+\+::pgin}
+
+\mbox{\Hypertarget{struct__ffdb__pagepool___aea51254f721e3ef10da84d3afade7f4c}\label{struct__ffdb__pagepool___aea51254f721e3ef10da84d3afade7f4c}} 
+\index{\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}!pgout@{pgout}}
+\index{pgout@{pgout}!\_ffdb\_pagepool\_@{\_ffdb\_pagepool\_}}
+\subsubsection{\texorpdfstring{pgout}{pgout}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}} \+\_\+ffdb\+\_\+pagepool\+\_\+\+::pgout}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/\mbox{\hyperlink{ffdb__pagepool_8h}{ffdb\+\_\+pagepool.\+h}}\end{DoxyCompactItemize}

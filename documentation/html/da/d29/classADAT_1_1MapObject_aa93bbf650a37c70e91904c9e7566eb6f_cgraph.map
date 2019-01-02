@@ -1,0 +1,12 @@
+<map id="ADAT::MapObject::erase" name="ADAT::MapObject::erase">
+<area shape="rect" id="node1" title="Erase a key&#45;value." alt="" coords="5,112,172,137"/>
+<area shape="rect" id="node2" href="$d5/d0d/namespaceADAT.html#a38920c20e5e4ccb234f9a05e436a4faa" title="Write a MapObject in xml." alt="" coords="279,87,369,112"/>
+<area shape="rect" id="node10" href="$d8/d90/classADATIO_1_1BinaryBufferWriter.html#a5c4f9b9c049173452e1cc70fe27ee188" title="Return entire buffer as a string." alt="" coords="220,136,428,161"/>
+<area shape="rect" id="node3" href="$d7/da0/namespaceADATXML.html#a1e8531ea0cb1a302d918f3b427969425" title=" " alt="" coords="500,12,619,37"/>
+<area shape="rect" id="node5" href="$da/d29/classADAT_1_1MapObject.html#a7f4f6830f0efcc2fcd7bb2aebe0b0c95" title="Begin loop over keys." alt="" coords="476,61,643,87"/>
+<area shape="rect" id="node6" href="$da/d29/classADAT_1_1MapObject.html#a1162459ba16798247ab64ee38be25bca" title="End loop over keys." alt="" coords="482,111,638,136"/>
+<area shape="rect" id="node7" href="$d2/da3/group__io.html#gac235f191b977af85918b9a9d063ba5f4" title="Pop a group name." alt="" coords="503,160,616,185"/>
+<area shape="rect" id="node4" href="$da/da7/classADATXML_1_1XMLWriter.html#a8f9728743acfd9c15ab5d69bf8800a5e" title=" " alt="" coords="691,5,843,44"/>
+<area shape="rect" id="node8" href="$da/da7/classADATXML_1_1XMLWriter.html#ade5512a07806893fe3aaebb897580569" title=" " alt="" coords="691,153,843,192"/>
+<area shape="rect" id="node9" href="$da/da7/classADATXML_1_1XMLWriter.html#a13209ef7863272707bf8fea7c172e9f1" title=" " alt="" coords="891,153,1044,192"/>
+</map>

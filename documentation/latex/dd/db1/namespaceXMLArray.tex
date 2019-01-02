@@ -1,0 +1,620 @@
+\hypertarget{namespaceXMLArray}{}\section{X\+M\+L\+Array Namespace Reference}
+\label{namespaceXMLArray}\index{XMLArray@{XMLArray}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}
+\begin{DoxyCompactList}\small\item\em Container for a multi-\/dimensional 1D array. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classXMLArray_1_1Array2d}{Array2d}}
+\begin{DoxyCompactList}\small\item\em Container for a Array-\/dimensional 2D array. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}
+\begin{DoxyCompactList}\small\item\em Container for a Array-\/dimensional 3D array. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classXMLArray_1_1Array4d}{Array4d}}
+\begin{DoxyCompactList}\small\item\em Container for a Array-\/dimensional 4D array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_af16029dd462356447ca4c8264203335a}{concat}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&l, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&r)
+\begin{DoxyCompactList}\small\item\em Concatenate two \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}\textquotesingle{}s. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\bool \mbox{\hyperlink{namespaceXMLArray_a832b56f8c7a9d6415cadd0d6e60635f1}{operator==}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&n1, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&n2)
+\begin{DoxyCompactList}\small\item\em Check if two \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}\textquotesingle{}s are the same. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\bool \mbox{\hyperlink{namespaceXMLArray_a1cfa3f5a98b382e585af567e51479053}{operator!=}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&n1, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&n2)
+\begin{DoxyCompactList}\small\item\em Check if two \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}\textquotesingle{}s are no the same. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\bool \mbox{\hyperlink{namespaceXMLArray_a6cdc9d50a3fbbd96cfbbef4bbaf78fa4}{operator$<$}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em a $<$ b \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\bool \mbox{\hyperlink{namespaceXMLArray_ad9684cbf7b3089e446a523042d2818c1}{operator$>$}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em a $>$ b \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\bool \mbox{\hyperlink{namespaceXMLArray_a874058edffc8dde49083322f99229c95}{operator$<$=}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em a $<$= b \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\bool \mbox{\hyperlink{namespaceXMLArray_a77b282c1c52b2e07215ed808a0646e10}{operator$>$=}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em a $>$= b \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a1d51bbb3ee59a78dd9e705ecd3db1571}{operator-\/}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em unary -\/ \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_aaa831f7e352068ed72289b0dd0b9ec4d}{operator+}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em add Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_ae8e0bb6934e99151ecdd65abfad39763}{operator-\/}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em subtract Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_ac9f5d1fb8f1862f3d57ddf2745f55b62}{operator$\ast$}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em multiply Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a3f57a2620a7685e7c85e5a363ee053d1}{operator/}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em divide Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a4e97a656e19bfbb4c5574c3a60b2ed93}{operator \&}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em and Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_acde7f1ff51638a7a8f4cf4a096e08e1c}{operator$\vert$}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em or Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a2aca927799841b80136c3d48bc8d3e29}{operator$^\wedge$}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em $^\wedge$ Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a39a31427301b9eee1d81eafe77f67c47}{operator+}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar + \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a1276f5294299ad880d814c929988bf93}{operator+}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} + scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_af485f313cac886a054ed3ca2f9507cab}{operator-\/}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar -\/ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_acf50974b3d3fee37dd81c3ad47b2715d}{operator-\/}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} -\/ scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_aaa1966396ac690ebef94472a82eb3aff}{operator$\ast$}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar $\ast$ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_afa646c57d753c6caf977c840d370394e}{operator$\ast$}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} $\ast$ scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a664f129a59f9d36a6e46ee4af2de6116}{operator/}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar / \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a719499a85d182af00fc9ecd23c8928e0}{operator/}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} / scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a6b3f8ee1d76ecaf106e799ed6278b303}{sqrt}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em sqrt \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_adea4803e894b23debf6555f41722fc8a}{log}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em log \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a2d0e4bcea1d1d685dc5ba46bba31ff5b}{sin}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em sin \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_afae227c9b7f0e447f5e058acd82cc580}{cos}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em cos \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a2683239081c39ed11300a85ee984a25d}{tan}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em tan \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_ad218b241e0898d122bf3c722a16a1741}{asin}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em asin \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a8fa6c5656b58ed00c7cff9fcdf6dbb96}{acos}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em acos \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a961e9e4f133045c069214c97704aa349}{atan}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em atan \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{namespaceXMLArray_a86ac84a2d19bf404766498fc122af036}{norm2}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em norm2 of an array \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_abf0b390db9be6de84a10b451c1dfc18f}{operator-\/}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em unary -\/ \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a63ffde7a3ab533938f603805d5b517e8}{operator+}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em add Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a84aa6790ab54770ccc98e82864af7d7b}{operator-\/}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em subtract Arrays \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a38e9584aa25b1b93bbdeda1cc0d680c6}{operator+}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar + \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_ab4d92c674c66f7fcce8e97c5c9a2a665}{operator+}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} + scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_afa891f2c8719af6106397c0e160656a3}{operator-\/}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar -\/ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a87b6f705aa4d225a13f5d6857be44459}{operator-\/}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} -\/ scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a09c6c9bdce753a6c7ccd4efbdda02e23}{operator$\ast$}} (const T \&s, const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a)
+\begin{DoxyCompactList}\small\item\em scalar $\ast$ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a6e9dd6864853158f18b5f406e398c570}{operator$\ast$}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} $\ast$ scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_af90bb7d526be91f27f5ae1bdf5bd5a44}{operator/}} (const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&a, const T \&s)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} / scalar. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \mbox{\hyperlink{namespaceXMLArray_a4e97a656e19bfbb4c5574c3a60b2ed93}{operator \&}} (const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&a, const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&b)
+\begin{DoxyCompactList}\small\item\em and Arrays \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceXMLArray_a8fa6c5656b58ed00c7cff9fcdf6dbb96}\label{namespaceXMLArray_a8fa6c5656b58ed00c7cff9fcdf6dbb96}} 
+\index{XMLArray@{XMLArray}!acos@{acos}}
+\index{acos@{acos}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{acos()}{acos()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::acos (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+acos 
+
+\mbox{\Hypertarget{namespaceXMLArray_ad218b241e0898d122bf3c722a16a1741}\label{namespaceXMLArray_ad218b241e0898d122bf3c722a16a1741}} 
+\index{XMLArray@{XMLArray}!asin@{asin}}
+\index{asin@{asin}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{asin()}{asin()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::asin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+asin 
+
+\mbox{\Hypertarget{namespaceXMLArray_a961e9e4f133045c069214c97704aa349}\label{namespaceXMLArray_a961e9e4f133045c069214c97704aa349}} 
+\index{XMLArray@{XMLArray}!atan@{atan}}
+\index{atan@{atan}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{atan()}{atan()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::atan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+atan 
+
+\mbox{\Hypertarget{namespaceXMLArray_af16029dd462356447ca4c8264203335a}\label{namespaceXMLArray_af16029dd462356447ca4c8264203335a}} 
+\index{XMLArray@{XMLArray}!concat@{concat}}
+\index{concat@{concat}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{concat()}{concat()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::concat (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{l,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Concatenate two \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}\textquotesingle{}s. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{dd/db1/namespaceXMLArray_af16029dd462356447ca4c8264203335a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{dd/db1/namespaceXMLArray_af16029dd462356447ca4c8264203335a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceXMLArray_afae227c9b7f0e447f5e058acd82cc580}\label{namespaceXMLArray_afae227c9b7f0e447f5e058acd82cc580}} 
+\index{XMLArray@{XMLArray}!cos@{cos}}
+\index{cos@{cos}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{cos()}{cos()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::cos (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+cos 
+
+\mbox{\Hypertarget{namespaceXMLArray_adea4803e894b23debf6555f41722fc8a}\label{namespaceXMLArray_adea4803e894b23debf6555f41722fc8a}} 
+\index{XMLArray@{XMLArray}!log@{log}}
+\index{log@{log}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::log (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+log 
+
+\mbox{\Hypertarget{namespaceXMLArray_a86ac84a2d19bf404766498fc122af036}\label{namespaceXMLArray_a86ac84a2d19bf404766498fc122af036}} 
+\index{XMLArray@{XMLArray}!norm2@{norm2}}
+\index{norm2@{norm2}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{norm2()}{norm2()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T X\+M\+L\+Array\+::norm2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+norm2 of an array 
+
+\mbox{\Hypertarget{namespaceXMLArray_a4e97a656e19bfbb4c5574c3a60b2ed93}\label{namespaceXMLArray_a4e97a656e19bfbb4c5574c3a60b2ed93}} 
+\index{XMLArray@{XMLArray}!operator \&@{operator \&}}
+\index{operator \&@{operator \&}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator \&()}{operator \&()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$T$>$ X\+M\+L\+Array\+::operator\& (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+and Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_a4e97a656e19bfbb4c5574c3a60b2ed93}\label{namespaceXMLArray_a4e97a656e19bfbb4c5574c3a60b2ed93}} 
+\index{XMLArray@{XMLArray}!operator \&@{operator \&}}
+\index{operator \&@{operator \&}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator \&()}{operator \&()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$T$>$ X\+M\+L\+Array\+::operator\& (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+and Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_a1cfa3f5a98b382e585af567e51479053}\label{namespaceXMLArray_a1cfa3f5a98b382e585af567e51479053}} 
+\index{XMLArray@{XMLArray}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool X\+M\+L\+Array\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{n1,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{n2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Check if two \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}\textquotesingle{}s are no the same. 
+
+\mbox{\Hypertarget{namespaceXMLArray_a09c6c9bdce753a6c7ccd4efbdda02e23}\label{namespaceXMLArray_a09c6c9bdce753a6c7ccd4efbdda02e23}} 
+\index{XMLArray@{XMLArray}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar $\ast$ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_a6e9dd6864853158f18b5f406e398c570}\label{namespaceXMLArray_a6e9dd6864853158f18b5f406e398c570}} 
+\index{XMLArray@{XMLArray}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} $\ast$ scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_ac9f5d1fb8f1862f3d57ddf2745f55b62}\label{namespaceXMLArray_ac9f5d1fb8f1862f3d57ddf2745f55b62}} 
+\index{XMLArray@{XMLArray}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+multiply Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_aaa1966396ac690ebef94472a82eb3aff}\label{namespaceXMLArray_aaa1966396ac690ebef94472a82eb3aff}} 
+\index{XMLArray@{XMLArray}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar $\ast$ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_afa646c57d753c6caf977c840d370394e}\label{namespaceXMLArray_afa646c57d753c6caf977c840d370394e}} 
+\index{XMLArray@{XMLArray}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} $\ast$ scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_a63ffde7a3ab533938f603805d5b517e8}\label{namespaceXMLArray_a63ffde7a3ab533938f603805d5b517e8}} 
+\index{XMLArray@{XMLArray}!operator+@{operator+}}
+\index{operator+@{operator+}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+add Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_a38e9584aa25b1b93bbdeda1cc0d680c6}\label{namespaceXMLArray_a38e9584aa25b1b93bbdeda1cc0d680c6}} 
+\index{XMLArray@{XMLArray}!operator+@{operator+}}
+\index{operator+@{operator+}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator+ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar + \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_ab4d92c674c66f7fcce8e97c5c9a2a665}\label{namespaceXMLArray_ab4d92c674c66f7fcce8e97c5c9a2a665}} 
+\index{XMLArray@{XMLArray}!operator+@{operator+}}
+\index{operator+@{operator+}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} + scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_aaa831f7e352068ed72289b0dd0b9ec4d}\label{namespaceXMLArray_aaa831f7e352068ed72289b0dd0b9ec4d}} 
+\index{XMLArray@{XMLArray}!operator+@{operator+}}
+\index{operator+@{operator+}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+add Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_a39a31427301b9eee1d81eafe77f67c47}\label{namespaceXMLArray_a39a31427301b9eee1d81eafe77f67c47}} 
+\index{XMLArray@{XMLArray}!operator+@{operator+}}
+\index{operator+@{operator+}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator+ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar + \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_a1276f5294299ad880d814c929988bf93}\label{namespaceXMLArray_a1276f5294299ad880d814c929988bf93}} 
+\index{XMLArray@{XMLArray}!operator+@{operator+}}
+\index{operator+@{operator+}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} + scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_abf0b390db9be6de84a10b451c1dfc18f}\label{namespaceXMLArray_abf0b390db9be6de84a10b451c1dfc18f}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unary -\/ 
+
+\mbox{\Hypertarget{namespaceXMLArray_a84aa6790ab54770ccc98e82864af7d7b}\label{namespaceXMLArray_a84aa6790ab54770ccc98e82864af7d7b}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+subtract Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_afa891f2c8719af6106397c0e160656a3}\label{namespaceXMLArray_afa891f2c8719af6106397c0e160656a3}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar -\/ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_a87b6f705aa4d225a13f5d6857be44459}\label{namespaceXMLArray_a87b6f705aa4d225a13f5d6857be44459}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} -\/ scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_a1d51bbb3ee59a78dd9e705ecd3db1571}\label{namespaceXMLArray_a1d51bbb3ee59a78dd9e705ecd3db1571}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unary -\/ 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{dd/db1/namespaceXMLArray_a1d51bbb3ee59a78dd9e705ecd3db1571_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceXMLArray_ae8e0bb6934e99151ecdd65abfad39763}\label{namespaceXMLArray_ae8e0bb6934e99151ecdd65abfad39763}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+subtract Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_af485f313cac886a054ed3ca2f9507cab}\label{namespaceXMLArray_af485f313cac886a054ed3ca2f9507cab}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar -\/ \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_acf50974b3d3fee37dd81c3ad47b2715d}\label{namespaceXMLArray_acf50974b3d3fee37dd81c3ad47b2715d}} 
+\index{XMLArray@{XMLArray}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} -\/ scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_af90bb7d526be91f27f5ae1bdf5bd5a44}\label{namespaceXMLArray_af90bb7d526be91f27f5ae1bdf5bd5a44}} 
+\index{XMLArray@{XMLArray}!operator/@{operator/}}
+\index{operator/@{operator/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ X\+M\+L\+Array\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array3d}{Array3d}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} / scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_a3f57a2620a7685e7c85e5a363ee053d1}\label{namespaceXMLArray_a3f57a2620a7685e7c85e5a363ee053d1}} 
+\index{XMLArray@{XMLArray}!operator/@{operator/}}
+\index{operator/@{operator/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+divide Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_a664f129a59f9d36a6e46ee4af2de6116}\label{namespaceXMLArray_a664f129a59f9d36a6e46ee4af2de6116}} 
+\index{XMLArray@{XMLArray}!operator/@{operator/}}
+\index{operator/@{operator/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator/ (\begin{DoxyParamCaption}\item[{const T \&}]{s,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scalar / \mbox{\hyperlink{classXMLArray_1_1Array}{Array}} 
+
+\mbox{\Hypertarget{namespaceXMLArray_a719499a85d182af00fc9ecd23c8928e0}\label{namespaceXMLArray_a719499a85d182af00fc9ecd23c8928e0}} 
+\index{XMLArray@{XMLArray}!operator/@{operator/}}
+\index{operator/@{operator/}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const T \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}} / scalar. 
+
+\mbox{\Hypertarget{namespaceXMLArray_a6cdc9d50a3fbbd96cfbbef4bbaf78fa4}\label{namespaceXMLArray_a6cdc9d50a3fbbd96cfbbef4bbaf78fa4}} 
+\index{XMLArray@{XMLArray}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool X\+M\+L\+Array\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a $<$ b 
+
+This definition follows that of string comparison Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{dd/db1/namespaceXMLArray_a6cdc9d50a3fbbd96cfbbef4bbaf78fa4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceXMLArray_a874058edffc8dde49083322f99229c95}\label{namespaceXMLArray_a874058edffc8dde49083322f99229c95}} 
+\index{XMLArray@{XMLArray}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool X\+M\+L\+Array\+::operator$<$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a $<$= b 
+
+This definition follows that of string comparison \mbox{\Hypertarget{namespaceXMLArray_a832b56f8c7a9d6415cadd0d6e60635f1}\label{namespaceXMLArray_a832b56f8c7a9d6415cadd0d6e60635f1}} 
+\index{XMLArray@{XMLArray}!operator==@{operator==}}
+\index{operator==@{operator==}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool X\+M\+L\+Array\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{n1,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{n2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Check if two \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}\textquotesingle{}s are the same. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{dd/db1/namespaceXMLArray_a832b56f8c7a9d6415cadd0d6e60635f1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceXMLArray_ad9684cbf7b3089e446a523042d2818c1}\label{namespaceXMLArray_ad9684cbf7b3089e446a523042d2818c1}} 
+\index{XMLArray@{XMLArray}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool X\+M\+L\+Array\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a $>$ b 
+
+This definition follows that of string comparison Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{dd/db1/namespaceXMLArray_ad9684cbf7b3089e446a523042d2818c1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceXMLArray_a77b282c1c52b2e07215ed808a0646e10}\label{namespaceXMLArray_a77b282c1c52b2e07215ed808a0646e10}} 
+\index{XMLArray@{XMLArray}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool X\+M\+L\+Array\+::operator$>$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+a $>$= b 
+
+This definition follows that of string comparison \mbox{\Hypertarget{namespaceXMLArray_a2aca927799841b80136c3d48bc8d3e29}\label{namespaceXMLArray_a2aca927799841b80136c3d48bc8d3e29}} 
+\index{XMLArray@{XMLArray}!operator$^\wedge$@{operator$^\wedge$}}
+\index{operator$^\wedge$@{operator$^\wedge$}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator$^\wedge$()}{operator^()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator$^\wedge$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+$^\wedge$ Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_acde7f1ff51638a7a8f4cf4a096e08e1c}\label{namespaceXMLArray_acde7f1ff51638a7a8f4cf4a096e08e1c}} 
+\index{XMLArray@{XMLArray}!operator\texttt{"|}@{operator\texttt{"|}}}
+\index{operator\texttt{"|}@{operator\texttt{"|}}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{operator\texttt{"|}()}{operator|()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::operator$\vert$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a,  }\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+or Arrays 
+
+\mbox{\Hypertarget{namespaceXMLArray_a2d0e4bcea1d1d685dc5ba46bba31ff5b}\label{namespaceXMLArray_a2d0e4bcea1d1d685dc5ba46bba31ff5b}} 
+\index{XMLArray@{XMLArray}!sin@{sin}}
+\index{sin@{sin}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{sin()}{sin()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::sin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+sin 
+
+\mbox{\Hypertarget{namespaceXMLArray_a6b3f8ee1d76ecaf106e799ed6278b303}\label{namespaceXMLArray_a6b3f8ee1d76ecaf106e799ed6278b303}} 
+\index{XMLArray@{XMLArray}!sqrt@{sqrt}}
+\index{sqrt@{sqrt}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{sqrt()}{sqrt()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::sqrt (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+sqrt 
+
+\mbox{\Hypertarget{namespaceXMLArray_a2683239081c39ed11300a85ee984a25d}\label{namespaceXMLArray_a2683239081c39ed11300a85ee984a25d}} 
+\index{XMLArray@{XMLArray}!tan@{tan}}
+\index{tan@{tan}!XMLArray@{XMLArray}}
+\subsubsection{\texorpdfstring{tan()}{tan()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ X\+M\+L\+Array\+::tan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ T $>$ \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+tan 
+

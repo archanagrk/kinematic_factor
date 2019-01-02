@@ -1,0 +1,527 @@
+\hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Minuit\+Parameter Class Reference}
+\label{classROOT_1_1Minuit2_1_1MinuitParameter}\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+
+
+{\ttfamily \#include $<$Minuit\+Parameter.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_afa9a57b4990491316502a21e09b756bc}{Minuit\+Parameter}} (unsigned int num, const std\+::string \&name, double val)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a56d290ba2abc3c599cff99187329a91a}{Minuit\+Parameter}} (unsigned int num, const std\+::string \&name, double val, double err)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990}{Minuit\+Parameter}} (unsigned int num, const std\+::string \&name, double val, double err, double \mbox{\hyperlink{SU3__internal_8h_ab0f5fed3171eb00d1c5f037d9f518a23}{min}}, double \mbox{\hyperlink{SU3__internal_8h_ace7f45ceb252a2dfbf29b98bc81cb8ba}{max}})
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a487d895f06a46c8c2e1e3dbc97dd0a26}{$\sim$\+Minuit\+Parameter}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a0ac95809b18c619597764fcfabcb70fe}{Minuit\+Parameter}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&par)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_ae26eba9113194d198e988d7c87057398}{operator=}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&par)
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_aaa2361c2954576d90a0dffcf2e049eea}{Number}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7}{Get\+Name}} () const
+\item 
+const char $\ast$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a151958b5dbcc194a090753e0b2605fbc}{Name}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c}{Value}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d}{Error}} () const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a535d59656c70ba8a0cc0ff196bac2d93}{Set\+Value}} (double val)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_affa3dbe5755e6345181b98d168722a60}{Set\+Error}} (double err)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_aeb1a61d3c007780ec388e11dd39274fc}{Set\+Limits}} (double low, double up)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a9e0c6225558635b19b5d10d0c6d9bb86}{Set\+Upper\+Limit}} (double up)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_abf4e64af27e615b90fff7a21e2831488}{Set\+Lower\+Limit}} (double low)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a8c120aa76754c8c8209d0a8c78605137}{Remove\+Limits}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_ad0857ffbf012d785401c111cacc79085}{Fix}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a9bf4bb232de53b61fc264c62b44d0b27}{Release}} ()
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c}{Is\+Const}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32}{Is\+Fixed}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b}{Has\+Limits}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda}{Has\+Lower\+Limit}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02}{Has\+Upper\+Limit}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4}{Lower\+Limit}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9}{Upper\+Limit}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_afa9a57b4990491316502a21e09b756bc}{Minuit\+Parameter}} (unsigned int num, const std\+::string \&name, double val)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a56d290ba2abc3c599cff99187329a91a}{Minuit\+Parameter}} (unsigned int num, const std\+::string \&name, double val, double err)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990}{Minuit\+Parameter}} (unsigned int num, const std\+::string \&name, double val, double err, double \mbox{\hyperlink{SU3__internal_8h_ab0f5fed3171eb00d1c5f037d9f518a23}{min}}, double \mbox{\hyperlink{SU3__internal_8h_ace7f45ceb252a2dfbf29b98bc81cb8ba}{max}})
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a487d895f06a46c8c2e1e3dbc97dd0a26}{$\sim$\+Minuit\+Parameter}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a0ac95809b18c619597764fcfabcb70fe}{Minuit\+Parameter}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&par)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_ae26eba9113194d198e988d7c87057398}{operator=}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&par)
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_aaa2361c2954576d90a0dffcf2e049eea}{Number}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7}{Get\+Name}} () const
+\item 
+const char $\ast$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a151958b5dbcc194a090753e0b2605fbc}{Name}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c}{Value}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d}{Error}} () const
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a535d59656c70ba8a0cc0ff196bac2d93}{Set\+Value}} (double val)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_affa3dbe5755e6345181b98d168722a60}{Set\+Error}} (double err)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_aeb1a61d3c007780ec388e11dd39274fc}{Set\+Limits}} (double low, double up)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a9e0c6225558635b19b5d10d0c6d9bb86}{Set\+Upper\+Limit}} (double up)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_abf4e64af27e615b90fff7a21e2831488}{Set\+Lower\+Limit}} (double low)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a8c120aa76754c8c8209d0a8c78605137}{Remove\+Limits}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_ad0857ffbf012d785401c111cacc79085}{Fix}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a9bf4bb232de53b61fc264c62b44d0b27}{Release}} ()
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c}{Is\+Const}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32}{Is\+Fixed}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b}{Has\+Limits}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda}{Has\+Lower\+Limit}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02}{Has\+Upper\+Limit}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4}{Lower\+Limit}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9}{Upper\+Limit}} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+class for the individual Minuit Parameter with Name and number; contains the input numbers for the minimization or the output result from minimization; possible interactions\+: Fix/release, set/remove limits, set Value/error;
+
+From version 5.\+20\+: use string to store the name to avoid limitation of name length of 20 characters 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_afa9a57b4990491316502a21e09b756bc}\label{classROOT_1_1Minuit2_1_1MinuitParameter_afa9a57b4990491316502a21e09b756bc}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{unsigned int}]{num,  }\item[{const std\+::string \&}]{name,  }\item[{double}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a56d290ba2abc3c599cff99187329a91a}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a56d290ba2abc3c599cff99187329a91a}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{unsigned int}]{num,  }\item[{const std\+::string \&}]{name,  }\item[{double}]{val,  }\item[{double}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [3/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{unsigned int}]{num,  }\item[{const std\+::string \&}]{name,  }\item[{double}]{val,  }\item[{double}]{err,  }\item[{double}]{min,  }\item[{double}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a487d895f06a46c8c2e1e3dbc97dd0a26}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a487d895f06a46c8c2e1e3dbc97dd0a26}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!````~MinuitParameter@{$\sim$MinuitParameter}}
+\index{````~MinuitParameter@{$\sim$MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{$\sim$MinuitParameter()}{~MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::$\sim$\+Minuit\+Parameter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a0ac95809b18c619597764fcfabcb70fe}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a0ac95809b18c619597764fcfabcb70fe}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [4/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_afa9a57b4990491316502a21e09b756bc}\label{classROOT_1_1Minuit2_1_1MinuitParameter_afa9a57b4990491316502a21e09b756bc}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [5/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{unsigned int}]{num,  }\item[{const std\+::string \&}]{name,  }\item[{double}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a56d290ba2abc3c599cff99187329a91a}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a56d290ba2abc3c599cff99187329a91a}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [6/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{unsigned int}]{num,  }\item[{const std\+::string \&}]{name,  }\item[{double}]{val,  }\item[{double}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [7/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{unsigned int}]{num,  }\item[{const std\+::string \&}]{name,  }\item[{double}]{val,  }\item[{double}]{err,  }\item[{double}]{min,  }\item[{double}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a13b433906347405bf85ef2bdf5803990_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a487d895f06a46c8c2e1e3dbc97dd0a26}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a487d895f06a46c8c2e1e3dbc97dd0a26}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!````~MinuitParameter@{$\sim$MinuitParameter}}
+\index{````~MinuitParameter@{$\sim$MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{$\sim$MinuitParameter()}{~MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::$\sim$\+Minuit\+Parameter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a0ac95809b18c619597764fcfabcb70fe}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a0ac95809b18c619597764fcfabcb70fe}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!MinuitParameter@{MinuitParameter}}
+\index{MinuitParameter@{MinuitParameter}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{MinuitParameter()}{MinuitParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [8/8]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Minuit\+Parameter (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d}\label{classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Error@{Error}}
+\index{Error@{Error}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d}\label{classROOT_1_1Minuit2_1_1MinuitParameter_af92997a2e9a7209fbddd286bbd1dbc3d}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Error@{Error}}
+\index{Error@{Error}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_ad0857ffbf012d785401c111cacc79085}\label{classROOT_1_1Minuit2_1_1MinuitParameter_ad0857ffbf012d785401c111cacc79085}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Fix@{Fix}}
+\index{Fix@{Fix}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Fix()}{Fix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Fix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_ad0857ffbf012d785401c111cacc79085}\label{classROOT_1_1Minuit2_1_1MinuitParameter_ad0857ffbf012d785401c111cacc79085}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Fix@{Fix}}
+\index{Fix@{Fix}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Fix()}{Fix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Fix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7}\label{classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!GetName@{GetName}}
+\index{GetName@{GetName}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{GetName()}{GetName()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const std\+::string\& R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7}\label{classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!GetName@{GetName}}
+\index{GetName@{GetName}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{GetName()}{GetName()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const std\+::string\& R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_adc67abcb32783aed362068ee38cb24b7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!HasLimits@{HasLimits}}
+\index{HasLimits@{HasLimits}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{HasLimits()}{HasLimits()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Has\+Limits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a6319fe000027da162c4adad8782ef27b}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!HasLimits@{HasLimits}}
+\index{HasLimits@{HasLimits}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{HasLimits()}{HasLimits()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Has\+Limits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!HasLowerLimit@{HasLowerLimit}}
+\index{HasLowerLimit@{HasLowerLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{HasLowerLimit()}{HasLowerLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Has\+Lower\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a61b9c27aff1b1d7bf85bed898dd50dda}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!HasLowerLimit@{HasLowerLimit}}
+\index{HasLowerLimit@{HasLowerLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{HasLowerLimit()}{HasLowerLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Has\+Lower\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!HasUpperLimit@{HasUpperLimit}}
+\index{HasUpperLimit@{HasUpperLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{HasUpperLimit()}{HasUpperLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Has\+Upper\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a821e242fbbf23461e3b66a59126f3f02}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!HasUpperLimit@{HasUpperLimit}}
+\index{HasUpperLimit@{HasUpperLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{HasUpperLimit()}{HasUpperLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Has\+Upper\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c}\label{classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!IsConst@{IsConst}}
+\index{IsConst@{IsConst}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{IsConst()}{IsConst()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Is\+Const (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c}\label{classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!IsConst@{IsConst}}
+\index{IsConst@{IsConst}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{IsConst()}{IsConst()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Is\+Const (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_afa82fc56a19c43531f469efc1fa34c2c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!IsFixed@{IsFixed}}
+\index{IsFixed@{IsFixed}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{IsFixed()}{IsFixed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Is\+Fixed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!IsFixed@{IsFixed}}
+\index{IsFixed@{IsFixed}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{IsFixed()}{IsFixed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Is\+Fixed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a2d7f48ed0d6d1ac124e390e54df4de32_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!LowerLimit@{LowerLimit}}
+\index{LowerLimit@{LowerLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{LowerLimit()}{LowerLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Lower\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a25c7f30fc42264f1df96a3852d2e11a4}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!LowerLimit@{LowerLimit}}
+\index{LowerLimit@{LowerLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{LowerLimit()}{LowerLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Lower\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a151958b5dbcc194a090753e0b2605fbc}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a151958b5dbcc194a090753e0b2605fbc}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Name@{Name}}
+\index{Name@{Name}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Name()}{Name()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const char$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a151958b5dbcc194a090753e0b2605fbc}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a151958b5dbcc194a090753e0b2605fbc}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Name@{Name}}
+\index{Name@{Name}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Name()}{Name()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const char$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_aaa2361c2954576d90a0dffcf2e049eea}\label{classROOT_1_1Minuit2_1_1MinuitParameter_aaa2361c2954576d90a0dffcf2e049eea}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Number@{Number}}
+\index{Number@{Number}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Number()}{Number()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_aaa2361c2954576d90a0dffcf2e049eea}\label{classROOT_1_1Minuit2_1_1MinuitParameter_aaa2361c2954576d90a0dffcf2e049eea}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Number@{Number}}
+\index{Number@{Number}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Number()}{Number()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_ae26eba9113194d198e988d7c87057398}\label{classROOT_1_1Minuit2_1_1MinuitParameter_ae26eba9113194d198e988d7c87057398}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!operator=@{operator=}}
+\index{operator=@{operator=}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_ae26eba9113194d198e988d7c87057398}\label{classROOT_1_1Minuit2_1_1MinuitParameter_ae26eba9113194d198e988d7c87057398}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!operator=@{operator=}}
+\index{operator=@{operator=}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinuitParameter}{Minuit\+Parameter}} \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a9bf4bb232de53b61fc264c62b44d0b27}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a9bf4bb232de53b61fc264c62b44d0b27}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Release@{Release}}
+\index{Release@{Release}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Release()}{Release()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a9bf4bb232de53b61fc264c62b44d0b27}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a9bf4bb232de53b61fc264c62b44d0b27}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Release@{Release}}
+\index{Release@{Release}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Release()}{Release()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a8c120aa76754c8c8209d0a8c78605137}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a8c120aa76754c8c8209d0a8c78605137}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!RemoveLimits@{RemoveLimits}}
+\index{RemoveLimits@{RemoveLimits}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{RemoveLimits()}{RemoveLimits()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Remove\+Limits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a8c120aa76754c8c8209d0a8c78605137}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a8c120aa76754c8c8209d0a8c78605137}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!RemoveLimits@{RemoveLimits}}
+\index{RemoveLimits@{RemoveLimits}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{RemoveLimits()}{RemoveLimits()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Remove\+Limits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_affa3dbe5755e6345181b98d168722a60}\label{classROOT_1_1Minuit2_1_1MinuitParameter_affa3dbe5755e6345181b98d168722a60}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetError@{SetError}}
+\index{SetError@{SetError}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetError()}{SetError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Error (\begin{DoxyParamCaption}\item[{double}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_affa3dbe5755e6345181b98d168722a60}\label{classROOT_1_1Minuit2_1_1MinuitParameter_affa3dbe5755e6345181b98d168722a60}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetError@{SetError}}
+\index{SetError@{SetError}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetError()}{SetError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Error (\begin{DoxyParamCaption}\item[{double}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_aeb1a61d3c007780ec388e11dd39274fc}\label{classROOT_1_1Minuit2_1_1MinuitParameter_aeb1a61d3c007780ec388e11dd39274fc}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetLimits@{SetLimits}}
+\index{SetLimits@{SetLimits}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetLimits()}{SetLimits()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Limits (\begin{DoxyParamCaption}\item[{double}]{low,  }\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_aeb1a61d3c007780ec388e11dd39274fc}\label{classROOT_1_1Minuit2_1_1MinuitParameter_aeb1a61d3c007780ec388e11dd39274fc}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetLimits@{SetLimits}}
+\index{SetLimits@{SetLimits}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetLimits()}{SetLimits()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Limits (\begin{DoxyParamCaption}\item[{double}]{low,  }\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_abf4e64af27e615b90fff7a21e2831488}\label{classROOT_1_1Minuit2_1_1MinuitParameter_abf4e64af27e615b90fff7a21e2831488}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetLowerLimit@{SetLowerLimit}}
+\index{SetLowerLimit@{SetLowerLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetLowerLimit()}{SetLowerLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Lower\+Limit (\begin{DoxyParamCaption}\item[{double}]{low }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_abf4e64af27e615b90fff7a21e2831488}\label{classROOT_1_1Minuit2_1_1MinuitParameter_abf4e64af27e615b90fff7a21e2831488}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetLowerLimit@{SetLowerLimit}}
+\index{SetLowerLimit@{SetLowerLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetLowerLimit()}{SetLowerLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Lower\+Limit (\begin{DoxyParamCaption}\item[{double}]{low }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a9e0c6225558635b19b5d10d0c6d9bb86}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a9e0c6225558635b19b5d10d0c6d9bb86}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetUpperLimit@{SetUpperLimit}}
+\index{SetUpperLimit@{SetUpperLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetUpperLimit()}{SetUpperLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Upper\+Limit (\begin{DoxyParamCaption}\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a9e0c6225558635b19b5d10d0c6d9bb86}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a9e0c6225558635b19b5d10d0c6d9bb86}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetUpperLimit@{SetUpperLimit}}
+\index{SetUpperLimit@{SetUpperLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetUpperLimit()}{SetUpperLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Upper\+Limit (\begin{DoxyParamCaption}\item[{double}]{up }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a535d59656c70ba8a0cc0ff196bac2d93}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a535d59656c70ba8a0cc0ff196bac2d93}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetValue@{SetValue}}
+\index{SetValue@{SetValue}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetValue()}{SetValue()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Value (\begin{DoxyParamCaption}\item[{double}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a535d59656c70ba8a0cc0ff196bac2d93}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a535d59656c70ba8a0cc0ff196bac2d93}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!SetValue@{SetValue}}
+\index{SetValue@{SetValue}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{SetValue()}{SetValue()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Set\+Value (\begin{DoxyParamCaption}\item[{double}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!UpperLimit@{UpperLimit}}
+\index{UpperLimit@{UpperLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{UpperLimit()}{UpperLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Upper\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9}\label{classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!UpperLimit@{UpperLimit}}
+\index{UpperLimit@{UpperLimit}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{UpperLimit()}{UpperLimit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Upper\+Limit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_a285e254a9574807222d2a74bb05e18d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c}\label{classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Value@{Value}}
+\index{Value@{Value}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Value()}{Value()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c}\label{classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c}} 
+\index{ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}!Value@{Value}}
+\index{Value@{Value}!ROOT::Minuit2::MinuitParameter@{ROOT::Minuit2::MinuitParameter}}
+\subsubsection{\texorpdfstring{Value()}{Value()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Minuit\+Parameter\+::\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/dfb/classROOT_1_1Minuit2_1_1MinuitParameter_ac77aed82006ba9e9598df49a1753d31c_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2MinuitParameter_8h}{Minuit\+Parameter.\+h}}\end{DoxyCompactItemize}

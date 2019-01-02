@@ -1,0 +1,327 @@
+\hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Hessian\+Gradient\+Calculator Class Reference}
+\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator}\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+
+
+{\ttfamily \#include $<$Hessian\+Gradient\+Calculator.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{d2/dbb/classROOT_1_1Minuit2_1_1HessianGradientCalculator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{db/d76/classROOT_1_1Minuit2_1_1HessianGradientCalculator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af298f780f59cb2be1ac5e676af07f82b}{Hessian\+Gradient\+Calculator}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&stra)
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_abb91fad11c0bbff5199e4da1f03b1fb3}{$\sim$\+Hessian\+Gradient\+Calculator}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ada968380aae7c1c6b6d0716d6a9804b5}{operator()}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&) const
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae8832c265494484c65aed77f023b843f}{operator()}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&) const
+\item 
+std\+::pair$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ace21cdfb201391d53a015e373977c2d1}{Delta\+Gradient}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&) const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09}{Fcn}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a4b122eecb0217cab813601572ccbac74}{Trafo}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_afeacc0589b4f4d6a1e6e6b985f24cc3b}{Precision}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d}{Strategy}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138}{Ncycle}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d}{Step\+Tolerance}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db}{Grad\+Tolerance}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af298f780f59cb2be1ac5e676af07f82b}{Hessian\+Gradient\+Calculator}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&stra)
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_abb91fad11c0bbff5199e4da1f03b1fb3}{$\sim$\+Hessian\+Gradient\+Calculator}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af65e43d99c763df00e3d082d59a7a24d}{operator()}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&) const
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af6fed0f29a33ec23f97451562d41cfaa}{operator()}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&) const
+\item 
+std\+::pair$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a808c1f808c436fbb6b67cb8af13d0480}{Delta\+Gradient}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&) const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09}{Fcn}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a4b122eecb0217cab813601572ccbac74}{Trafo}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a256d75d036a5c53b0b679830ca4ac714}{Precision}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d}{Strategy}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138}{Ncycle}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d}{Step\+Tolerance}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db}{Grad\+Tolerance}} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1HessianGradientCalculator}{Hessian\+Gradient\+Calculator}}\+: class to calculate Gradient for Hessian 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af298f780f59cb2be1ac5e676af07f82b}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af298f780f59cb2be1ac5e676af07f82b}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!HessianGradientCalculator@{HessianGradientCalculator}}
+\index{HessianGradientCalculator@{HessianGradientCalculator}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{HessianGradientCalculator()}{HessianGradientCalculator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Hessian\+Gradient\+Calculator (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{stra }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_abb91fad11c0bbff5199e4da1f03b1fb3}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_abb91fad11c0bbff5199e4da1f03b1fb3}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!````~HessianGradientCalculator@{$\sim$HessianGradientCalculator}}
+\index{````~HessianGradientCalculator@{$\sim$HessianGradientCalculator}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{$\sim$HessianGradientCalculator()}{~HessianGradientCalculator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::$\sim$\+Hessian\+Gradient\+Calculator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af298f780f59cb2be1ac5e676af07f82b}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af298f780f59cb2be1ac5e676af07f82b}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!HessianGradientCalculator@{HessianGradientCalculator}}
+\index{HessianGradientCalculator@{HessianGradientCalculator}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{HessianGradientCalculator()}{HessianGradientCalculator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Hessian\+Gradient\+Calculator (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{stra }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_abb91fad11c0bbff5199e4da1f03b1fb3}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_abb91fad11c0bbff5199e4da1f03b1fb3}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!````~HessianGradientCalculator@{$\sim$HessianGradientCalculator}}
+\index{````~HessianGradientCalculator@{$\sim$HessianGradientCalculator}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{$\sim$HessianGradientCalculator()}{~HessianGradientCalculator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::$\sim$\+Hessian\+Gradient\+Calculator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ace21cdfb201391d53a015e373977c2d1}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ace21cdfb201391d53a015e373977c2d1}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!DeltaGradient@{DeltaGradient}}
+\index{DeltaGradient@{DeltaGradient}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{DeltaGradient()}{DeltaGradient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::pair$<$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Delta\+Gradient (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&}]{Gradient }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_ace21cdfb201391d53a015e373977c2d1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_ace21cdfb201391d53a015e373977c2d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a808c1f808c436fbb6b67cb8af13d0480}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a808c1f808c436fbb6b67cb8af13d0480}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!DeltaGradient@{DeltaGradient}}
+\index{DeltaGradient@{DeltaGradient}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{DeltaGradient()}{DeltaGradient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::pair$<$\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Delta\+Gradient (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&}]{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Fcn@{Fcn}}
+\index{Fcn@{Fcn}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Fcn()}{Fcn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae23f4348f9a64595c39db48aa48d9e09}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Fcn@{Fcn}}
+\index{Fcn@{Fcn}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Fcn()}{Fcn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnFcn}{Mn\+Fcn}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!GradTolerance@{GradTolerance}}
+\index{GradTolerance@{GradTolerance}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{GradTolerance()}{GradTolerance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Grad\+Tolerance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a17febf33fcbeafa556e703d8bbe3d1db}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!GradTolerance@{GradTolerance}}
+\index{GradTolerance@{GradTolerance}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{GradTolerance()}{GradTolerance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Grad\+Tolerance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Ncycle@{Ncycle}}
+\index{Ncycle@{Ncycle}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Ncycle()}{Ncycle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Ncycle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a234641f72296f007b2d95b514be07138}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Ncycle@{Ncycle}}
+\index{Ncycle@{Ncycle}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Ncycle()}{Ncycle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Ncycle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af65e43d99c763df00e3d082d59a7a24d}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af65e43d99c763df00e3d082d59a7a24d}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator_a1bae913e96ffc9ece28664a5f6f79cb0}{R\+O\+O\+T\+::\+Minuit2\+::\+Gradient\+Calculator}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ada968380aae7c1c6b6d0716d6a9804b5}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ada968380aae7c1c6b6d0716d6a9804b5}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{par }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator_a1bae913e96ffc9ece28664a5f6f79cb0}{R\+O\+O\+T\+::\+Minuit2\+::\+Gradient\+Calculator}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae8832c265494484c65aed77f023b843f}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae8832c265494484c65aed77f023b843f}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&}]{Gradient }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator_a1809c1e8a89d32aabf7835e9690c2916}{R\+O\+O\+T\+::\+Minuit2\+::\+Gradient\+Calculator}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_ae8832c265494484c65aed77f023b843f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af6fed0f29a33ec23f97451562d41cfaa}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_af6fed0f29a33ec23f97451562d41cfaa}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator_a1809c1e8a89d32aabf7835e9690c2916}{R\+O\+O\+T\+::\+Minuit2\+::\+Gradient\+Calculator}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a256d75d036a5c53b0b679830ca4ac714}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a256d75d036a5c53b0b679830ca4ac714}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Precision@{Precision}}
+\index{Precision@{Precision}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_afeacc0589b4f4d6a1e6e6b985f24cc3b}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_afeacc0589b4f4d6a1e6e6b985f24cc3b}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Precision@{Precision}}
+\index{Precision@{Precision}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_afeacc0589b4f4d6a1e6e6b985f24cc3b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_afeacc0589b4f4d6a1e6e6b985f24cc3b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!StepTolerance@{StepTolerance}}
+\index{StepTolerance@{StepTolerance}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{StepTolerance()}{StepTolerance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Step\+Tolerance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_ac66592218817d4cbc8a3be76938b435d}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!StepTolerance@{StepTolerance}}
+\index{StepTolerance@{StepTolerance}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{StepTolerance()}{StepTolerance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Step\+Tolerance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Strategy@{Strategy}}
+\index{Strategy@{Strategy}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Strategy()}{Strategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Strategy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Strategy@{Strategy}}
+\index{Strategy@{Strategy}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Strategy()}{Strategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Strategy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator_a407171e2df12fa67e92c0e5b7a97bb8d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a4b122eecb0217cab813601572ccbac74}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a4b122eecb0217cab813601572ccbac74}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Trafo@{Trafo}}
+\index{Trafo@{Trafo}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Trafo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a4b122eecb0217cab813601572ccbac74}\label{classROOT_1_1Minuit2_1_1HessianGradientCalculator_a4b122eecb0217cab813601572ccbac74}} 
+\index{ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}!Trafo@{Trafo}}
+\index{Trafo@{Trafo}!ROOT::Minuit2::HessianGradientCalculator@{ROOT::Minuit2::HessianGradientCalculator}}
+\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Hessian\+Gradient\+Calculator\+::\+Trafo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2HessianGradientCalculator_8h}{Hessian\+Gradient\+Calculator.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{HessianGradientCalculator_8cxx}{Hessian\+Gradient\+Calculator.\+cxx}}\end{DoxyCompactItemize}

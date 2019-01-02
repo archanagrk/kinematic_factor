@@ -1,0 +1,92 @@
+\hypertarget{lib_2io_2adat__crc32_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat/lib/io/adat\+\_\+crc32.cc File Reference}
+\label{lib_2io_2adat__crc32_8cc}\index{/Users/archanar/Kinematic\_factor/adat/lib/io/adat\_crc32.cc@{/Users/archanar/Kinematic\_factor/adat/lib/io/adat\_crc32.cc}}
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+byteorder.\+h\char`\"{}}\newline
+Include dependency graph for adat\+\_\+crc32.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{db/d46/lib_2io_2adat__crc32_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceADATUtil}{A\+D\+A\+T\+Util}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{lib_2io_2adat__crc32_8cc_ad15afa2776b41b2f4d8582dd152bd736}{Z\+\_\+\+N\+U\+LL}}~0  /$\ast$ for initializing zalloc, zfree, opaque $\ast$/
+\item 
+\#define \mbox{\hyperlink{lib_2io_2adat__crc32_8cc_a08023ea6765c99d60a6a3840cd07156e}{local}}~static
+\item 
+\#define \mbox{\hyperlink{lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}{D\+O1}}(buf)~crc = crc\+\_\+table\mbox{[}((int)crc $^\wedge$ ($\ast$buf++)) \& 0xff\mbox{]} $^\wedge$ (crc $>$$>$ 8);
+\item 
+\#define \mbox{\hyperlink{lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}{D\+O2}}(buf)~\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}{D\+O1}}(buf); \mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}{D\+O1}}(buf);
+\item 
+\#define \mbox{\hyperlink{lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}{D\+O4}}(buf)~\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}{D\+O2}}(buf); \mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}{D\+O2}}(buf);
+\item 
+\#define \mbox{\hyperlink{lib_2io_2adat__crc32_8cc_a0a4c30f665eefffb860606b683278bfe}{D\+O8}}(buf)~\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}{D\+O4}}(buf); \mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}{D\+O4}}(buf);
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef n\+\_\+uint32\+\_\+t \mbox{\hyperlink{namespaceADATUtil_a51b60d81747dd992a62e9f1dea60fb13}{A\+D\+A\+T\+Util\+::u\+Long}}
+\item 
+typedef unsigned char \mbox{\hyperlink{namespaceADATUtil_a420451c5593252de7271d104b24079b5}{A\+D\+A\+T\+Util\+::\+Byte}}
+\item 
+typedef u\+Long \mbox{\hyperlink{namespaceADATUtil_adf7f8db2cc2f19fe6143cf8a2ad881f4}{A\+D\+A\+T\+Util\+::u\+Longf}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+n\+\_\+uint32\+\_\+t \mbox{\hyperlink{namespaceADATUtil_a61372c5ac63a8bd3ce0aec8f04f386d9}{A\+D\+A\+T\+Util\+::crc32}} (n\+\_\+uint32\+\_\+t crc, const unsigned char $\ast$buf, size\+\_\+t len)
+\begin{DoxyCompactList}\small\item\em crc32 \end{DoxyCompactList}\item 
+n\+\_\+uint32\+\_\+t \mbox{\hyperlink{namespaceADATUtil_aea7a30b468249f17899ebbb9902fb330}{A\+D\+A\+T\+Util\+::crc32}} (n\+\_\+uint32\+\_\+t crc, const char $\ast$buf, size\+\_\+t len)
+\begin{DoxyCompactList}\small\item\em crc32 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a08023ea6765c99d60a6a3840cd07156e}{local}} u\+Longf \mbox{\hyperlink{namespaceADATUtil_a3936457e43366b1c492c10870155ef6c}{A\+D\+A\+T\+Util\+::crc\+\_\+table}} \mbox{[}256\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}\label{lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}} 
+\index{adat\_crc32.cc@{adat\_crc32.cc}!DO1@{DO1}}
+\index{DO1@{DO1}!adat\_crc32.cc@{adat\_crc32.cc}}
+\subsubsection{\texorpdfstring{DO1}{DO1}}
+{\footnotesize\ttfamily \#define D\+O1(\begin{DoxyParamCaption}\item[{}]{buf }\end{DoxyParamCaption})~crc = crc\+\_\+table\mbox{[}((int)crc $^\wedge$ ($\ast$buf++)) \& 0xff\mbox{]} $^\wedge$ (crc $>$$>$ 8);}
+
+\mbox{\Hypertarget{lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}\label{lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}} 
+\index{adat\_crc32.cc@{adat\_crc32.cc}!DO2@{DO2}}
+\index{DO2@{DO2}!adat\_crc32.cc@{adat\_crc32.cc}}
+\subsubsection{\texorpdfstring{DO2}{DO2}}
+{\footnotesize\ttfamily \#define D\+O2(\begin{DoxyParamCaption}\item[{}]{buf }\end{DoxyParamCaption})~\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}{D\+O1}}(buf); \mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a6d5587d9c0724d87e000dec844eb48aa}{D\+O1}}(buf);}
+
+\mbox{\Hypertarget{lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}\label{lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}} 
+\index{adat\_crc32.cc@{adat\_crc32.cc}!DO4@{DO4}}
+\index{DO4@{DO4}!adat\_crc32.cc@{adat\_crc32.cc}}
+\subsubsection{\texorpdfstring{DO4}{DO4}}
+{\footnotesize\ttfamily \#define D\+O4(\begin{DoxyParamCaption}\item[{}]{buf }\end{DoxyParamCaption})~\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}{D\+O2}}(buf); \mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_a075b45261620b7f357f8dc54fd365f85}{D\+O2}}(buf);}
+
+\mbox{\Hypertarget{lib_2io_2adat__crc32_8cc_a0a4c30f665eefffb860606b683278bfe}\label{lib_2io_2adat__crc32_8cc_a0a4c30f665eefffb860606b683278bfe}} 
+\index{adat\_crc32.cc@{adat\_crc32.cc}!DO8@{DO8}}
+\index{DO8@{DO8}!adat\_crc32.cc@{adat\_crc32.cc}}
+\subsubsection{\texorpdfstring{DO8}{DO8}}
+{\footnotesize\ttfamily \#define D\+O8(\begin{DoxyParamCaption}\item[{}]{buf }\end{DoxyParamCaption})~\mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}{D\+O4}}(buf); \mbox{\hyperlink{devel_2lib_2io_2adat__crc32_8cc_aa6d6c63201e33bb8a064ae16954d1862}{D\+O4}}(buf);}
+
+\mbox{\Hypertarget{lib_2io_2adat__crc32_8cc_a08023ea6765c99d60a6a3840cd07156e}\label{lib_2io_2adat__crc32_8cc_a08023ea6765c99d60a6a3840cd07156e}} 
+\index{adat\_crc32.cc@{adat\_crc32.cc}!local@{local}}
+\index{local@{local}!adat\_crc32.cc@{adat\_crc32.cc}}
+\subsubsection{\texorpdfstring{local}{local}}
+{\footnotesize\ttfamily \#define local~static}
+
+\mbox{\Hypertarget{lib_2io_2adat__crc32_8cc_ad15afa2776b41b2f4d8582dd152bd736}\label{lib_2io_2adat__crc32_8cc_ad15afa2776b41b2f4d8582dd152bd736}} 
+\index{adat\_crc32.cc@{adat\_crc32.cc}!Z\_NULL@{Z\_NULL}}
+\index{Z\_NULL@{Z\_NULL}!adat\_crc32.cc@{adat\_crc32.cc}}
+\subsubsection{\texorpdfstring{Z\_NULL}{Z\_NULL}}
+{\footnotesize\ttfamily \#define Z\+\_\+\+N\+U\+LL~0  /$\ast$ for initializing zalloc, zfree, opaque $\ast$/}
+

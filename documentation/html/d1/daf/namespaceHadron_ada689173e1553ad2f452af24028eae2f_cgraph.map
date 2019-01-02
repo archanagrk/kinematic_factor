@@ -1,0 +1,13 @@
+<map id="Hadron::cubicCanonicalRotation" name="Hadron::cubicCanonicalRotation">
+<area shape="rect" id="node1" title="Return rotation angles for a vector to a canonical direction." alt="" coords="5,153,218,179"/>
+<area shape="rect" id="node2" href="$d4/dca/group__escalar.html#gac8e90d16773622bd9971db55f0c125c9" title=" " alt="" coords="309,5,413,31"/>
+<area shape="rect" id="node4" href="$d9/d0b/sqrat_8cc.html#a4eaa086f75083f409944caa419ec9a8b" title=" " alt="" coords="339,55,383,80"/>
+<area shape="rect" id="node5" href="$d4/dca/group__escalar.html#ga3169598490417ab5713660967ec6b658" title=" " alt="" coords="310,104,412,129"/>
+<area shape="rect" id="node6" href="$d4/dca/group__escalar.html#gaa3f8d5129f1ded089d42af89bd94827d" title="EScalar = pow(EScalar, EScalar)" alt="" coords="311,153,411,179"/>
+<area shape="rect" id="node7" href="$da/d46/namespaceNR.html#a060c1496967431dfd707b603985a33b7" title=" " alt="" coords="324,203,398,228"/>
+<area shape="rect" id="node8" href="$d1/daf/namespaceHadron.html#a511bab858a88c02ec88a697fd5430e0d" title="The name of the little group corresponding to this momentum." alt="" coords="266,301,456,327"/>
+<area shape="rect" id="node11" href="$d4/dca/group__escalar.html#ga9a9d48948d119981259ad0ebcb0acfea" title="EScalar = atan2(EScalar, EScalar)" alt="" coords="306,252,416,277"/>
+<area shape="rect" id="node3" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="506,129,665,155"/>
+<area shape="rect" id="node9" href="$d1/daf/namespaceHadron.html#a12bd76a337723c31527ee95d46f170d1" title="Canonically order an array of momenta." alt="" coords="504,301,667,327"/>
+<area shape="rect" id="node10" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="715,301,866,327"/>
+</map>

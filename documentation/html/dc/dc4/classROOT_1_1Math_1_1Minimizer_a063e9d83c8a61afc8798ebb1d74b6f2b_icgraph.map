@@ -1,0 +1,4 @@
+<map id="ROOT::Math::Minimizer::SetFixedVariable" name="ROOT::Math::Minimizer::SetFixedVariable">
+<area shape="rect" id="node1" title="set fixed variable (override if minimizer supports them )" alt="" coords="213,5,373,44"/>
+<area shape="rect" id="node2" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#a314040274ee907fba52726275a28c9f7" title="add variables . Return number of variables succesfully added" alt="" coords="5,5,165,44"/>
+</map>

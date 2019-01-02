@@ -1,0 +1,9 @@
+<map id="ENSEM::pokeSpin" name="ENSEM::pokeSpin">
+<area shape="rect" id="node1" title="Insert spin vector components." alt="" coords="5,107,137,132"/>
+<area shape="rect" id="node2" href="$d7/d3e/classENSEM_1_1Ensem.html#a32978c0e251d9731bdb83c6069eb059d" title=" " alt="" coords="199,5,385,31"/>
+<area shape="rect" id="node3" href="$d7/d3e/classENSEM_1_1Ensem.html#ae8cf08459492240dcab13d4ab3a21216" title="Number of configurations." alt="" coords="452,31,601,56"/>
+<area shape="rect" id="node4" href="$d7/d3e/classENSEM_1_1Ensem.html#aa2cfc665852c06f9b058a1a2233d249e" title="Return the ensemble type." alt="" coords="185,107,399,132"/>
+<area shape="rect" id="node5" href="$d4/dca/group__escalar.html#gae8b2f2d3c5fedfb458392f11d78f2c88" title="Insert spin vector components." alt="" coords="226,156,358,181"/>
+<area shape="rect" id="node7" href="$d7/d3e/classENSEM_1_1Ensem.html#a4927ebde99b1f0a03cdcfe3fc88458a5" title=" " alt="" coords="215,205,369,231"/>
+<area shape="rect" id="node6" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="447,156,606,181"/>
+</map>

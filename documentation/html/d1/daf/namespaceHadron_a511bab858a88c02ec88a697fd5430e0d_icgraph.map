@@ -1,0 +1,13 @@
+<map id="Hadron::generateLittleGroup" name="Hadron::generateLittleGroup">
+<area shape="rect" id="node1" title="The name of the little group corresponding to this momentum." alt="" coords="787,179,977,204"/>
+<area shape="rect" id="node2" href="$d9/d19/namespaceHadron_1_1CGC.html#a6508b0e362ceb9df82bdd26575736fc6" title=" " alt="" coords="528,5,737,31"/>
+<area shape="rect" id="node3" href="$d9/d19/namespaceHadron_1_1CGC.html#aa7e28e013e98896d3053e95ce419f31e" title=" " alt="" coords="531,55,734,80"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#ada689173e1553ad2f452af24028eae2f" title="Return rotation angles for a vector to a canonical direction." alt="" coords="526,104,739,129"/>
+<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a8bd515c92e3dbbe8e9741b25d71edc60" title="Inverse of momIrrepName. Turn an opList name back into irrep names (including LG) and momentum." alt="" coords="543,153,722,179"/>
+<area shape="rect" id="node6" href="$d1/daf/namespaceHadron.html#a8a4e39ac150585731d18fb970ec8a1bd" title="Conventional reference mom (for CGs) &#45; not the same as canonical mom." alt="" coords="553,203,712,228"/>
+<area shape="rect" id="node9" href="$db/d9c/cgs__table_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="86,249,137,275"/>
+<area shape="rect" id="node10" href="$d1/daf/namespaceHadron.html#ab3424b316e2a4d8e820c88f8027742e1" title="Scale momentum to get to form 100, 110, 111, 210, 221 or 321." alt="" coords="566,304,699,329"/>
+<area shape="rect" id="node11" href="$d1/daf/namespaceHadron.html#ad5e2b22f66d2effe70db7f0ba129eae1" title="Unscale momentum from form 100, 110, 111, 210, 221 or 321." alt="" coords="559,353,707,379"/>
+<area shape="rect" id="node7" href="$d9/d19/namespaceHadron_1_1CGC.html#a47b736ab1ac22edb39f4b0df589a7053" title=" " alt="" coords="266,189,478,228"/>
+<area shape="rect" id="node8" href="$d9/d19/namespaceHadron_1_1CGC.html#a416e4eef9b4975ce970e2e0ff04a09e6" title=" " alt="" coords="5,196,218,221"/>
+</map>

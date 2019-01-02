@@ -1,0 +1,7 @@
+<map id="ENSEM::OTensor::resize" name="ENSEM::OTensor::resize">
+<area shape="rect" id="node1" title="Resize the number of configs." alt="" coords="502,55,672,80"/>
+<area shape="rect" id="node2" href="$da/d8a/classENSEM_1_1OTensor.html#aa273eae7f1de4b37e91302da5edf279b" title=" " alt="" coords="245,55,454,80"/>
+<area shape="rect" id="node3" href="$da/d8a/classENSEM_1_1OTensor.html#a49dbc01d4f79e52900b10dd220cdc546" title="Conversion constructor." alt="" coords="9,5,193,31"/>
+<area shape="rect" id="node4" href="$da/d8a/classENSEM_1_1OTensor.html#a08690a1808269fccd113a9d634c7a73f" title="OTensor = OTensor." alt="" coords="5,55,197,80"/>
+<area shape="rect" id="node5" href="$de/d87/group__obstensor.html#ga5461ae19cc6cfc4271fe13264bbda77d" title="dest = gaussian" alt="" coords="26,104,176,129"/>
+</map>

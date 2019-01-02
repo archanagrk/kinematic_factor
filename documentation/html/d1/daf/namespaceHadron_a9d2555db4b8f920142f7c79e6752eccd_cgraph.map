@@ -1,0 +1,7 @@
+<map id="Hadron::convertTwoQuarkSpinDP" name="Hadron::convertTwoQuarkSpinDP">
+<area shape="rect" id="node1" title="Convert a DP gamma matrix indexed by gamma into a sparse spin representation." alt="" coords="5,31,228,56"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a87528a5f45980257a1473a3f77301a5b" title="Convert a generic spin vector into a sparse spin representation." alt="" coords="276,5,479,31"/>
+<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#af2328410f9a0a7191a4d319284425fed" title="Construct a spin matrix in the DP rep." alt="" coords="291,55,463,80"/>
+<area shape="rect" id="node3" href="$d4/dca/group__escalar.html#gaa833c21339250a427d537f2c3431f9e2" title=" " alt="" coords="527,5,659,31"/>
+<area shape="rect" id="node4" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="707,5,866,31"/>
+</map>

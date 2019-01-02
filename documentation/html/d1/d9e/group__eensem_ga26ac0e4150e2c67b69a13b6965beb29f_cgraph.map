@@ -1,0 +1,13 @@
+<map id="ENSEM::binEnsem" name="ENSEM::binEnsem">
+<area shape="rect" id="node1" title="Bin the ensemble." alt="" coords="5,212,141,237"/>
+<area shape="rect" id="node2" href="$d7/d3e/classENSEM_1_1Ensem.html#a32978c0e251d9731bdb83c6069eb059d" title=" " alt="" coords="451,63,637,88"/>
+<area shape="rect" id="node3" href="$d7/d3e/classENSEM_1_1Ensem.html#ae8cf08459492240dcab13d4ab3a21216" title="Number of configurations." alt="" coords="685,37,833,63"/>
+<area shape="rect" id="node4" href="$d7/d3e/classENSEM_1_1Ensem.html#a495a563176192200eca2f16978158750" title="Number of elements of observable." alt="" coords="205,163,386,188"/>
+<area shape="rect" id="node5" href="$d7/d3e/classENSEM_1_1Ensem.html#a4927ebde99b1f0a03cdcfe3fc88458a5" title=" " alt="" coords="467,163,621,188"/>
+<area shape="rect" id="node6" href="$d7/d3e/classENSEM_1_1Ensem.html#a5fdfac362fd4347e4383b4e0a8537aec" title="Force the ensemble to have certain statistics." alt="" coords="189,212,402,237"/>
+<area shape="rect" id="node7" href="$d7/d3e/classENSEM_1_1Ensem.html#aa2cfc665852c06f9b058a1a2233d249e" title="Return the ensemble type." alt="" coords="189,261,403,287"/>
+<area shape="rect" id="node8" href="$d7/d3e/classENSEM_1_1Ensem.html#ae43aa68aaca92143baffe83310657f4a" title="Resize the number of configs." alt="" coords="215,311,376,336"/>
+<area shape="rect" id="node9" href="$d7/d3e/classENSEM_1_1Ensem.html#a20ee27dffc4b1db635103ce40fb0d5c2" title=" " alt="" coords="203,113,388,139"/>
+<area shape="rect" id="node10" href="$d4/dca/group__escalar.html#gacea96299b1b52d3a75cdb109c3b03b05" title="dest = 0" alt="" coords="231,412,360,437"/>
+<area shape="rect" id="node11" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="464,412,623,437"/>
+</map>

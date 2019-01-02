@@ -1,0 +1,73 @@
+\hypertarget{lib_2hadron_2su2__corr_2hadron__npart__irrep__op_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/su2\+\_\+corr/hadron\+\_\+npart\+\_\+irrep\+\_\+op.h File Reference}
+\label{lib_2hadron_2su2__corr_2hadron__npart__irrep__op_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/su2\_corr/hadron\_npart\_irrep\_op.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/su2\_corr/hadron\_npart\_irrep\_op.h}}
+
+
+\mbox{\hyperlink{namespaceHadron}{Hadron}} multi-\/particle operators projected onto an irrep.  
+
+
+{\ttfamily \#include \char`\"{}hadron/particle\+\_\+op.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/adat\+\_\+arrays.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for hadron\+\_\+npart\+\_\+irrep\+\_\+op.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/dda/lib_2hadron_2su2__corr_2hadron__npart__irrep__op_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d56/lib_2hadron_2su2__corr_2hadron__npart__irrep__op_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyHadronNPartIrrepOp__t}{Hadron\+::\+Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Time slice collection of operators projected onto a definite irrep. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyHadronNPartIrrepOp__t_1_1CGPair__t}{Hadron\+::\+Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyHadronNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t}{Hadron\+::\+Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t\+::\+Slot\+\_\+t}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a6d4dd7ed7a6efa27888f4ea9bdd20e51}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Used for output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ab955c28b5566e0df089a26a611d4bf03}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t\+::\+Slot\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a005000ac92ae829ca325627dae07fb51}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t\+::\+Slot\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a7d8926bf48de7c75f93c8ffc8b6bab3e}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_ad194604b0eb61ca7e7ffa89d1ef4c879}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_ac345c2bc828c82e6774e6bc01e57535e}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Hadron\+N\+Part\+Irrep reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a6789ce2b1b787b1f3136c9a2836448a1}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Hadron\+N\+Part\+Irrep writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ae19da1a7e40c864440841a389b468c8d}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t\+::\+Slot\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a4beaf6ce4a67fc85ae046f257141250e}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t\+::\+Slot\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a0567f3fb8f2db68b0a93251138c13a62}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_aa05ac649ec39cb98483ab55274129758}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t\+::\+C\+G\+Pair\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a205a666e574892fd5fc22e723a24399e}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Hadron\+N\+Part\+Irrep reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_aa056cb1973613af20ddde740db299944}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Hadron\+N\+Part\+Irrep\+Op\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Hadron\+N\+Part\+Irrep writer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{namespaceHadron}{Hadron}} multi-\/particle operators projected onto an irrep. 
+

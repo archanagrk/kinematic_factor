@@ -1,0 +1,9 @@
+<map id="Hadron::read" name="Hadron::read">
+<area shape="rect" id="node1" title="KeyParticleOp reader." alt="" coords="5,68,104,93"/>
+<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a61520b9a5ce2b207d1c01e1508a5c470" title="Read a key." alt="" coords="184,12,284,37"/>
+<area shape="rect" id="node5" href="$db/d3f/classADATXML_1_1XMLReader.html#a59584913f1338d956de60adef16a0718" title="Count the number of occurances from the xpath query." alt="" coords="153,61,315,100"/>
+<area shape="rect" id="node6" href="$d1/daf/namespaceHadron.html#a12bd76a337723c31527ee95d46f170d1" title="Canonically order an array of momenta." alt="" coords="152,124,315,149"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#ae87d364dcd64ddf5c60a1b4d6237e633" title="BaryonElementalOperator reader." alt="" coords="389,12,488,37"/>
+<area shape="rect" id="node4" href="$db/da0/classXMLArray_1_1Array3d.html#afe27b06ef40efdd87dbea00eafa35287" title="Allocate mem for the array." alt="" coords="562,5,704,44"/>
+<area shape="rect" id="node7" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="363,124,514,149"/>
+</map>

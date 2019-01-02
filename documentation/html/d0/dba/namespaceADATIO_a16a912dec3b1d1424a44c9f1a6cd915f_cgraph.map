@@ -1,0 +1,7 @@
+<map id="ADATIO::read" name="ADATIO::read">
+<area shape="rect" id="node1" title="Read a binary XMLArray::Array object." alt="" coords="5,61,109,87"/>
+<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="187,12,291,37"/>
+<area shape="rect" id="node4" href="$db/d6c/classXMLArray_1_1Array.html#a470913fde270ad0e578041654e2390f0" title="Allocate mem for the array." alt="" coords="157,61,320,87"/>
+<area shape="rect" id="node5" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="163,111,314,136"/>
+<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="368,5,527,44"/>
+</map>

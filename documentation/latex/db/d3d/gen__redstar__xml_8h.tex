@@ -1,0 +1,93 @@
+\hypertarget{gen__redstar__xml_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/compute\+\_\+\+Kfactors/src/io/gen\+\_\+redstar\+\_\+xml.h File Reference}
+\label{gen__redstar__xml_8h}\index{/Users/archanar/Kinematic\_factor/compute\_Kfactors/src/io/gen\_redstar\_xml.h@{/Users/archanar/Kinematic\_factor/compute\_Kfactors/src/io/gen\_redstar\_xml.h}}
+{\ttfamily \#include $<$Eigen/\+Dense$>$}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xml\+\_\+group\+\_\+reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+npt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/particle\+\_\+op.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+irrep.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+irrep\+\_\+op.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/singleton.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/objfactory.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$adat/handle.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}hadron/cgc\+\_\+irrep\+\_\+mom.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/cgc\+\_\+su3.\+h\char`\"{}}\newline
+Include dependency graph for gen\+\_\+redstar\+\_\+xml.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d05/gen__redstar__xml_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/d86/gen__redstar__xml_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structhad__npt__layout}{had\+\_\+npt\+\_\+layout}}
+\item 
+struct \mbox{\hyperlink{structdb}{db}}
+\item 
+struct \mbox{\hyperlink{structhadron}{hadron}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{gen__redstar__xml_8h_a3d5b9096aeabfe672ed069f9214e3d57}{write\+\_\+had\+\_\+layout}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&xml, const std\+::string \&path, const \mbox{\hyperlink{structhad__npt__layout}{had\+\_\+npt\+\_\+layout}} \&label)
+\item 
+void \mbox{\hyperlink{gen__redstar__xml_8h_acb4770836054b0c31bd444780f0d74a1}{write\+\_\+ei}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&xml, const std\+::string \&path, const Eigen\+::\+Vector3d \&input)
+\item 
+void \mbox{\hyperlink{gen__redstar__xml_8h_aa7efc94fbd042b7451a817170b69ff65}{write\+\_\+db\+\_\+keys}} (\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&xml, const std\+::string \&path, const \mbox{\hyperlink{structdb}{db}} \&label)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{gen__redstar__xml_8h_aa7efc94fbd042b7451a817170b69ff65}\label{gen__redstar__xml_8h_aa7efc94fbd042b7451a817170b69ff65}} 
+\index{gen\_redstar\_xml.h@{gen\_redstar\_xml.h}!write\_db\_keys@{write\_db\_keys}}
+\index{write\_db\_keys@{write\_db\_keys}!gen\_redstar\_xml.h@{gen\_redstar\_xml.h}}
+\subsubsection{\texorpdfstring{write\_db\_keys()}{write\_db\_keys()}}
+{\footnotesize\ttfamily void write\+\_\+db\+\_\+keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{const \mbox{\hyperlink{structdb}{db}} \&}]{label }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3d/gen__redstar__xml_8h_aa7efc94fbd042b7451a817170b69ff65_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{gen__redstar__xml_8h_acb4770836054b0c31bd444780f0d74a1}\label{gen__redstar__xml_8h_acb4770836054b0c31bd444780f0d74a1}} 
+\index{gen\_redstar\_xml.h@{gen\_redstar\_xml.h}!write\_ei@{write\_ei}}
+\index{write\_ei@{write\_ei}!gen\_redstar\_xml.h@{gen\_redstar\_xml.h}}
+\subsubsection{\texorpdfstring{write\_ei()}{write\_ei()}}
+{\footnotesize\ttfamily void write\+\_\+ei (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{const Eigen\+::\+Vector3d \&}]{input }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3d/gen__redstar__xml_8h_acb4770836054b0c31bd444780f0d74a1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{gen__redstar__xml_8h_a3d5b9096aeabfe672ed069f9214e3d57}\label{gen__redstar__xml_8h_a3d5b9096aeabfe672ed069f9214e3d57}} 
+\index{gen\_redstar\_xml.h@{gen\_redstar\_xml.h}!write\_had\_layout@{write\_had\_layout}}
+\index{write\_had\_layout@{write\_had\_layout}!gen\_redstar\_xml.h@{gen\_redstar\_xml.h}}
+\subsubsection{\texorpdfstring{write\_had\_layout()}{write\_had\_layout()}}
+{\footnotesize\ttfamily void write\+\_\+had\+\_\+layout (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLWriter}{X\+M\+L\+Writer}} \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{const \mbox{\hyperlink{structhad__npt__layout}{had\+\_\+npt\+\_\+layout}} \&}]{label }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d3d/gen__redstar__xml_8h_a3d5b9096aeabfe672ed069f9214e3d57_cgraph}
+\end{center}
+\end{figure}

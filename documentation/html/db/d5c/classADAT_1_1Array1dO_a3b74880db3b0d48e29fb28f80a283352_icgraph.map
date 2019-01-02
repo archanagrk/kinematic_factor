@@ -1,0 +1,8 @@
+<map id="ADAT::Array1dO::ref" name="ADAT::Array1dO::ref">
+<area shape="rect" id="node1" title="Return ref to underlying array." alt="" coords="223,104,365,129"/>
+<area shape="rect" id="node2" href="$d5/d0d/namespaceADAT.html#a38346a215cc728771b946bbdaa59e62f" title="unary &#45;" alt="" coords="32,5,148,31"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a427c61121d387abc689b090161709921" title="Build a graph file name." alt="" coords="5,55,175,80"/>
+<area shape="rect" id="node4" href="$d0/dba/namespaceADATIO.html#aee4123faea4044073f3c166dab12cb9e" title="Read a binary ADAT::Array1dO object." alt="" coords="38,104,142,129"/>
+<area shape="rect" id="node5" href="$d0/dba/namespaceADATIO.html#aea9e3ff6a488ce22e363d16085c76a85" title="Write all of a binary ADAT::Array object." alt="" coords="37,153,143,179"/>
+<area shape="rect" id="node6" href="$d2/da3/group__io.html#gaa6e09c5b36ae52183896f9566e971ca5" title=" " alt="" coords="31,203,150,228"/>
+</map>

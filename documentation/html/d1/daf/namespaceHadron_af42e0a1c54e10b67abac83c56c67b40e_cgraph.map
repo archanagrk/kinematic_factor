@@ -1,0 +1,7 @@
+<map id="Hadron::generateCanonMoms" name="Hadron::generateCanonMoms">
+<area shape="rect" id="node1" title="Generate canonical momenta up to some maximum value." alt="" coords="5,31,206,56"/>
+<area shape="rect" id="node2" href="$d2/d94/namespaceENSEM.html#a846e917e7120ca978ffdb7146357bf07" title="EScalar = norm2(trace(adj(source)*source))" alt="" coords="254,31,368,56"/>
+<area shape="rect" id="node3" href="$d4/dca/group__escalar.html#gae544517401e03767c9194bfe3736df37" title=" " alt="" coords="437,5,538,31"/>
+<area shape="rect" id="node5" href="$d4/dca/group__escalar.html#ga5612cd39905e848db7ef691d10437811" title=" " alt="" coords="416,55,560,80"/>
+<area shape="rect" id="node4" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="608,31,767,56"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ROOT::Math::Minimizer::SetVariableValue" name="ROOT::Math::Minimizer::SetVariableValue">
+<area shape="rect" id="node1" title="set the value of an existing variable" alt="" coords="213,5,373,44"/>
+<area shape="rect" id="node2" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html#ac8368efbd59da8e0b8bc0a0966309609" title="set the values of all existing variables (array must be dimensioned to the size of the existing param..." alt="" coords="5,5,165,44"/>
+</map>

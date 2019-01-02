@@ -1,0 +1,5 @@
+<map id="ROOT::Minuit2::FumiliMinimizer::SeedGenerator" name="ROOT::Minuit2::FumiliMinimizer::SeedGenerator">
+<area shape="rect" id="node1" title=" " alt="" coords="533,5,742,44"/>
+<area shape="rect" id="node2" href="$db/da1/classROOT_1_1Minuit2_1_1FumiliMinimizer.html#a3da0ec7b2ba7f876809f72d2f3054eec" title=" " alt="" coords="276,5,485,44"/>
+<area shape="rect" id="node3" href="$dc/d88/classROOT_1_1Minuit2_1_1MnFumiliMinimize.html#a408e4cc7d16335d7a9bfbb8765acec6d" title="overwrite Minimize to use FumiliFCNBase" alt="" coords="5,5,228,44"/>
+</map>

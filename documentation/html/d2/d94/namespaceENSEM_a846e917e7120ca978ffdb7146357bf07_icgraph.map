@@ -1,0 +1,6 @@
+<map id="ENSEM::norm2" name="ENSEM::norm2">
+<area shape="rect" id="node1" title="EScalar = norm2(trace(adj(source)*source))" alt="" coords="254,55,368,80"/>
+<area shape="rect" id="node2" href="$d5/da6/namespaceFF.html#a5f456c76a7fdfa1dd9305ebda8793354" title="Writer." alt="" coords="69,5,142,31"/>
+<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#aa0ad60c011c7668c5389ce9286b3c8dd" title="Generate all momentum up to a maximum." alt="" coords="21,55,190,80"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#af42e0a1c54e10b67abac83c56c67b40e" title="Generate canonical momenta up to some maximum value." alt="" coords="5,104,206,129"/>
+</map>

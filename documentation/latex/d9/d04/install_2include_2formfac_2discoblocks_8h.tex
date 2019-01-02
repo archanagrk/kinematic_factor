@@ -1,0 +1,68 @@
+\hypertarget{install_2include_2formfac_2discoblocks_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/formfac/discoblocks.h File Reference}
+\label{install_2include_2formfac_2discoblocks_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/formfac/discoblocks.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/formfac/discoblocks.h}}
+
+
+(disconnected diagram) building blocks  
+
+
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/map\+\_\+obj.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/key\+\_\+val\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Conf\+Data\+Store\+D\+B.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for discoblocks.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d9c/install_2include_2formfac_2discoblocks_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/de0/install_2include_2formfac_2discoblocks_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structFF_1_1DiscoKeyOperator__t}{F\+F\+::\+Disco\+Key\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Meson operator. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classFF_1_1DiscoValOperator__t}{F\+F\+::\+Disco\+Val\+Operator\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structFF_1_1DiscoKeyVal__t}{F\+F\+::\+Disco\+Key\+Val\+\_\+t}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceFF}{FF}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespaceFF_a84e77b5ad9222ac85655c36949abf276}{F\+F\+::operator$<$}} (const Disco\+Key\+Operator\+\_\+t \&a, const Disco\+Key\+Operator\+\_\+t \&b)
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceFF_ac2ee6d46f8316f1f3631105fbeab604c}{F\+F\+::operator$<$$<$}} (std\+::ostream \&os, const Disco\+Key\+Operator\+\_\+t \&d)
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceFF_a16521aca33d733f874a91677f71769e5}{F\+F\+::operator$<$$<$}} (std\+::ostream \&os, const Disco\+Val\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em stream IO \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_a90d854af01e30d52191dff4341fcd4ad}{F\+F\+::read}} (Binary\+Reader \&bin, Disco\+Key\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Key\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_a5c3e38934ee51ae23bc9d39dca34acc1}{F\+F\+::write}} (Binary\+Writer \&bin, const Disco\+Key\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Key\+Operator writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_adbbf0211a7578841555412497b4f18c4}{F\+F\+::read}} (Binary\+Reader \&bin, Disco\+Val\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Val\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_a6906b2ce111930a390f4a8e81b1730b6}{F\+F\+::write}} (Binary\+Writer \&bin, const Disco\+Val\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Val\+Operator writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_a4e59e8e764d20bb787e2992c247ca80f}{F\+F\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Disco\+Key\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em reader \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_a831b58b450a964b114e0fce65fc4de99}{F\+F\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Disco\+Key\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Hadron1\+Pt\+Corr writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceFF_a941e3f6fd9d8acd3d0c6b1f03c4be71b}{F\+F\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Disco\+Val\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em writer \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+(disconnected diagram) building blocks 
+

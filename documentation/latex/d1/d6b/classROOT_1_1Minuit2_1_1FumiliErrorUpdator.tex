@@ -1,0 +1,183 @@
+\hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator}{}\section{R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\+:Fumili\+Error\+Updator Class Reference}
+\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator}\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+
+
+{\ttfamily \#include $<$Fumili\+Error\+Updator.\+h$>$}
+
+
+
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{d9/d85/classROOT_1_1Minuit2_1_1FumiliErrorUpdator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{d0/d1b/classROOT_1_1Minuit2_1_1FumiliErrorUpdator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a6f6a3c5b10d58710f4d26b431e89907b}{Fumili\+Error\+Updator}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a601351a2ef04f881819b0115f88696e5}{$\sim$\+Fumili\+Error\+Updator}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a56adeed7f507548e61a3563182f3caaf}{Update}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&f\+Minimum\+State, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&f\+Minimum\+Parameters, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator}{Gradient\+Calculator}} \&f\+Gradient\+Calculator, double lambda) const
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_ae5ee7f2052c474169dd19ffbc3755bd3}{Update}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&) const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a6f6a3c5b10d58710f4d26b431e89907b}{Fumili\+Error\+Updator}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a601351a2ef04f881819b0115f88696e5}{$\sim$\+Fumili\+Error\+Updator}} ()
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a8aea4f3c69cee306853aee2b9f302b76}{Update}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&f\+Minimum\+State, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&f\+Minimum\+Parameters, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator}{Gradient\+Calculator}} \&f\+Gradient\+Calculator, double lambda) const
+\item 
+virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a7a634a18816d8cdc6db8d92b27b69095}{Update}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+In the case of the Fumili algorithm the Error matrix (or the Hessian matrix containing the (approximate) second derivatives) is calculated using a linearization of the model function negleting second derivatives. (In some sense the Name Updator is a little bit misleading as the Error matrix is not calculated by iteratively updating, like in Davidon\textquotesingle{}s or other similar variable metric methods, but by recalculating each time).
+
+\begin{DoxyAuthor}{Author}
+Andras Zsenei and Lorenzo Moneta, Creation date\+: 28 Sep 2004
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\href{http://www.cern.ch/winkler/minuit/tutorial/mntutorial.pdf}{\texttt{ M\+I\+N\+U\+IT Tutorial}} on function minimization, section 5
+
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1DavidonErrorUpdator}{Davidon\+Error\+Updator}} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a6f6a3c5b10d58710f4d26b431e89907b}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a6f6a3c5b10d58710f4d26b431e89907b}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!FumiliErrorUpdator@{FumiliErrorUpdator}}
+\index{FumiliErrorUpdator@{FumiliErrorUpdator}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{FumiliErrorUpdator()}{FumiliErrorUpdator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::\+Fumili\+Error\+Updator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a601351a2ef04f881819b0115f88696e5}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a601351a2ef04f881819b0115f88696e5}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!````~FumiliErrorUpdator@{$\sim$FumiliErrorUpdator}}
+\index{````~FumiliErrorUpdator@{$\sim$FumiliErrorUpdator}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{$\sim$FumiliErrorUpdator()}{~FumiliErrorUpdator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::$\sim$\+Fumili\+Error\+Updator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a6f6a3c5b10d58710f4d26b431e89907b}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a6f6a3c5b10d58710f4d26b431e89907b}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!FumiliErrorUpdator@{FumiliErrorUpdator}}
+\index{FumiliErrorUpdator@{FumiliErrorUpdator}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{FumiliErrorUpdator()}{FumiliErrorUpdator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::\+Fumili\+Error\+Updator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a601351a2ef04f881819b0115f88696e5}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a601351a2ef04f881819b0115f88696e5}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!````~FumiliErrorUpdator@{$\sim$FumiliErrorUpdator}}
+\index{````~FumiliErrorUpdator@{$\sim$FumiliErrorUpdator}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{$\sim$FumiliErrorUpdator()}{~FumiliErrorUpdator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::$\sim$\+Fumili\+Error\+Updator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a56adeed7f507548e61a3563182f3caaf}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a56adeed7f507548e61a3563182f3caaf}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!Update@{Update}}
+\index{Update@{Update}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::\+Update (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{f\+Minimum\+State,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{f\+Minimum\+Parameters,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator}{Gradient\+Calculator}} \&}]{f\+Gradient\+Calculator,  }\item[{double}]{lambda }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Member function that calculates the Error matrix (or the Hessian matrix containing the (approximate) second derivatives) using a linearization of the model function negleting second derivatives.
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Minimum\+State} & used to calculate the change in the covariance matrix between the two iterations\\
+\hline
+{\em f\+Minimum\+Parameters} & the parameters at the present iteration\\
+\hline
+{\em f\+Gradient\+Calculator} & the Gradient calculator used to retrieved the Parameter transformation\\
+\hline
+{\em f\+Fumili\+F\+C\+N\+Base} & the function calculating the figure of merit.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000006}{Todo}}]Some nice latex mathematical formuli...\end{DoxyRefDesc}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d6b/classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a56adeed7f507548e61a3563182f3caaf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d6b/classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a56adeed7f507548e61a3563182f3caaf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a8aea4f3c69cee306853aee2b9f302b76}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a8aea4f3c69cee306853aee2b9f302b76}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!Update@{Update}}
+\index{Update@{Update}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::\+Update (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{f\+Minimum\+State,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{f\+Minimum\+Parameters,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1GradientCalculator}{Gradient\+Calculator}} \&}]{f\+Gradient\+Calculator,  }\item[{double}]{lambda }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Member function that calculates the Error matrix (or the Hessian matrix containing the (approximate) second derivatives) using a linearization of the model function negleting second derivatives.
+
+
+\begin{DoxyParams}{Parameters}
+{\em f\+Minimum\+State} & used to calculate the change in the covariance matrix between the two iterations\\
+\hline
+{\em f\+Minimum\+Parameters} & the parameters at the present iteration\\
+\hline
+{\em f\+Gradient\+Calculator} & the Gradient calculator used to retrieved the Parameter transformation\\
+\hline
+{\em f\+Fumili\+F\+C\+N\+Base} & the function calculating the figure of merit.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000018}{Todo}}]Some nice latex mathematical formuli...\end{DoxyRefDesc}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a7a634a18816d8cdc6db8d92b27b69095}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_a7a634a18816d8cdc6db8d92b27b69095}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!Update@{Update}}
+\index{Update@{Update}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::\+Update (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Member function which is only present due to the design already in place of the software. As all classes calculating the Error matrix are supposed inherit from the \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumErrorUpdator}{Minimum\+Error\+Updator}} they must inherit this method. In some methods calculating the aforementioned matrix some of these parameters are not needed and other parameters are necessary... Hopefully, a more elegant solution will be found in the future.
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000019}{Todo}}]How to get rid of this dummy method which is only due to the inheritance\end{DoxyRefDesc}
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumErrorUpdator_ae75c33152c49ebf34e6119adc0bbbda9}{R\+O\+O\+T\+::\+Minuit2\+::\+Minimum\+Error\+Updator}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_ae5ee7f2052c474169dd19ffbc3755bd3}\label{classROOT_1_1Minuit2_1_1FumiliErrorUpdator_ae5ee7f2052c474169dd19ffbc3755bd3}} 
+\index{ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}!Update@{Update}}
+\index{Update@{Update}!ROOT::Minuit2::FumiliErrorUpdator@{ROOT::Minuit2::FumiliErrorUpdator}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Error\+Updator\+::\+Update (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{s0,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \&}]{p1,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \&}]{g1 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Member function which is only present due to the design already in place of the software. As all classes calculating the Error matrix are supposed inherit from the \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumErrorUpdator}{Minimum\+Error\+Updator}} they must inherit this method. In some methods calculating the aforementioned matrix some of these parameters are not needed and other parameters are necessary... Hopefully, a more elegant solution will be found in the future.
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000007}{Todo}}]How to get rid of this dummy method which is only due to the inheritance\end{DoxyRefDesc}
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumErrorUpdator_ae75c33152c49ebf34e6119adc0bbbda9}{R\+O\+O\+T\+::\+Minuit2\+::\+Minimum\+Error\+Updator}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d6b/classROOT_1_1Minuit2_1_1FumiliErrorUpdator_ae5ee7f2052c474169dd19ffbc3755bd3_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2FumiliErrorUpdator_8h}{Fumili\+Error\+Updator.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{FumiliErrorUpdator_8cxx}{Fumili\+Error\+Updator.\+cxx}}\end{DoxyCompactItemize}
