@@ -1,0 +1,87 @@
+AMPLITUDES:: code up Jost functions in the new code 
+
+MATCHING :: design a method that'll work properly with separated energy regions -- keeping level ordering is important
+
+SHEET STRUCTURE IN SPINNING PARTICLES CASE:: if there are two different ell, are there two cuts? I don't think so, but the code probably treats it as though there are
+
+
+
+---> pull stuff out of xml using command-line tools
+adat_install/bin/print_nodeset X.xml 'Amplitudes'
+
+
+
+CORRELATED_DATA:: extremely slow reading the CORR object for the find_poles output when e.g. there are 280 DATA entries
+... also seems to require HUGE amounts of memory ... there's soemthing fishy about reading xml for large
+map< pair<string, string>, double> objects --- need to look into it
+*** presumably it's the insert's into an ORDERED map that is slow
+*** considering ficing this by using an unordered map or similar (will be slower on read though)
+... for poles, you should also keep the stdout when you run find_poles until I work out a fix
+... it is overkill to be keeping the correlation between everything
+
+
+
+PLOTTING::
+==> code up Argand plots, and other forms we used in the a0 paper
+==> fix-up phase-boundary stuff in dde so jackknife errors don't go crazy
+==> add some threading to speed it up
+
+
+
+FIND_POLES::
+==> add some threading for a speed-up 
+
+
+
+FIT FV SPECTRUM::
+==> find a way to dump the chisq xml 'as we go' rather than at the very end, in case the user aborts the run
+    can be tricky given the threading ... possible now if we're not using minuit threading ...
+
+==> levels that appear at energy boundaries, which may or may not get associated with a lattice 
+    level near the boundary ... don't know what to do about this apart from dropping the lattice level
+    --> have at least expanded the searching region, which might help a bit 
+
+
+LEVEL FINDING IN FIT FV SPECTRUM::
+==> problem is when t-matrix has a divergence below threshold ... then can get a det zero very close to that div
+    and the zero finding has trouble finding it
+    -- a proper solution would be to have the code find the t-matrix divergence and add it to the list of known
+       divergences, but this is not yet done
+    -- it's a fairly rare problem, so not high priority to fix it	
+
+
+
+DETERMINANT::
+==> Add plotter
+    --> added to get_finite_volume_spectrum.cc in a minimal way
+==> S-D mixing problem
+    --> removed off-diagonal entries for different embeddings. *** your change looks correct to me, jjd ***
+==> More simple checks should be done.
+
+
+
+
+
+
+
+FIXED:::::
+
+==> a common problem is level finding missing levels that were found with very similar parameter values, so the
+    chisq has a discontinuous jump ... if it's near the minimum it causes Minuit to reject the minimum
+   ---> write something that checks the chisq against the previous value when a 'similar' set of param values is found
+   ---> stdout gets a warning written, can grep on '>.>.' to see them
+
+==> locate the source of the excessive memory build-up (is it the chisq 'database?)
+    -- djw: I investigated this with no luck
+    -- I was suspicious of the insert( make_pair ( new LuescherM (...) ) ) around line 114 of determinant.cc
+       all the checks I came up with suggested this wasn't a problem. There's also a delete not far below in 
+       the code. The way it is set up the insert should never fail, but I wondered maybe sometimes it does?
+    -- it was the the delete line which wasn't running over all entries ... fixed it now, should not be any further leaks 
+	for(map< pair<string, string>, LuescherM* >::iterator it = luM_h1h2.begin(); it != luM_h1h2.end(); it++){
+	
+
+==> FIND_POLES:: coupling/residue issues solved, factorization testing was flawed. large uncertainties on imag couplings was due to sqrt 
+phase fluctuating over jacknife bins... should be solved now.
+
+
+==> MAKE_ECM:: add something to check for nan's which stop the reader from working  --> added a check on the mean value of Ecm

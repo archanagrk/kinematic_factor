@@ -1,0 +1,9114 @@
+<?xml version="1.0"?>
+
+
+<kfac>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>OhA1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D4A2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 0 -1</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>2</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>0</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>1</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 -1 0</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>OhT1</irrep>
+      <row>3</row>
+      <mom>0 0 0</mom>
+      <msq>0</msq>
+      <lam>-1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>-1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>-1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 -1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>2</row>
+      <mom>0 -1 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D4E2</irrep>
+      <row>1</row>
+      <mom>1 0 0</mom>
+      <msq>1</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B1</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <elem>
+    <elem>
+      <irrep>D2A2</irrep>
+      <row>1</row>
+      <mom>1 1 0</mom>
+      <msq>2</msq>
+      <lam>0</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>0 -1 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+    <elem>
+      <irrep>D2B2</irrep>
+      <row>1</row>
+      <mom>1 0 1</mom>
+      <msq>2</msq>
+      <lam>1</lam>
+    </elem>
+  </elem>
+  <pts>396</pts>
+</kfac>
