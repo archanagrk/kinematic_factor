@@ -35,7 +35,7 @@ var searchData=
   ['singletonholder',['SingletonHolder',['../dc/de4/classUtil_1_1SingletonHolder.html',1,'Util']]],
   ['singletonwithlongevity',['SingletonWithLongevity',['../d0/de9/classUtil_1_1SingletonWithLongevity.html',1,'Util']]],
   ['sinparametertransformation',['SinParameterTransformation',['../de/d62/classROOT_1_1Minuit2_1_1SinParameterTransformation.html',1,'ROOT::Minuit2']]],
-  ['slot_5ft',['Slot_t',['../d7/df1/structHadron_1_1KeyHadronNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t.html',1,'Hadron::KeyHadronNPartIrrepOp_t::CGPair_t::Slot_t'],['../d6/d9d/structHadron_1_1KeyHadronSUNNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t.html',1,'Hadron::KeyHadronSUNNPartIrrepOp_t::CGPair_t::Slot_t']]],
+  ['slot_5ft',['Slot_t',['../d6/d9d/structHadron_1_1KeyHadronSUNNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t.html',1,'Hadron::KeyHadronSUNNPartIrrepOp_t::CGPair_t::Slot_t'],['../d7/df1/structHadron_1_1KeyHadronNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t.html',1,'Hadron::KeyHadronNPartIrrepOp_t::CGPair_t::Slot_t']]],
   ['spin_5ft',['Spin_t',['../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html',1,'Hadron::HadronDistOperatorRep_t']]],
   ['sqrat',['sqrat',['../df/d67/classsqrat.html',1,'']]],
   ['sqrtlowparametertransformation',['SqrtLowParameterTransformation',['../df/db9/classROOT_1_1Minuit2_1_1SqrtLowParameterTransformation.html',1,'ROOT::Minuit2']]],

@@ -1,5 +1,5 @@
 lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
- ../../src/lib/rot_matrx.h ../../src/lib/kfac_utils.h \
+ ../../src/lib/kfac_utils.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/cmath \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/c++config.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/os_defines.h \
@@ -411,28 +411,44 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
  /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/eigen/src/Eigenvalues/RealQZ.h \
  /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h \
+ ../../src/lib/phase.h ../../src/lib/rot_matrx.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iostream \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iomanip \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/locale \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ctime \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/time_members.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/messages_members.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.tcc \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_conv.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stringfwd.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/allocator.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unique_ptr.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/quoted_string.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/vector \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_uninitialized.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_vector.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_bvector.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/vector.tcc \
+ ../../src/lib/little_group.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/map \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_tree.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ext/aligned_buffer.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_map.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_multimap.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_factory.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/singleton.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/objfactory.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/typeinfo.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/typelist.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/typemanip.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/map \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_tree.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ext/aligned_buffer.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_map.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_multimap.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/unordered_map \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/hashtable.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/hashtable_policy.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unordered_map.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/vector \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_uninitialized.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_vector.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_bvector.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/vector.tcc \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/ensem/ensem.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/xml_array.h \
@@ -440,7 +456,6 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/xml_array.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/io/adat_xmlio.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/fstream \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/basic_file.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/c++io.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/fstream.tcc \
@@ -522,23 +537,24 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity_factory.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iomanip \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/locale \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ctime \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/time_members.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/messages_members.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.tcc \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_conv.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stringfwd.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/allocator.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unique_ptr.h \
- /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/quoted_string.h
+ ../../src/lib/subduction.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/io/adat_xml_group_reader.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/io/adat_xmlio.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/clebsch.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_oct_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_lg_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom_auto.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgcs.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_oct.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_lg.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h
 
 ../../src/lib/pol_vec.h:
-
-../../src/lib/rot_matrx.h:
 
 ../../src/lib/kfac_utils.h:
 
@@ -1364,9 +1380,63 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
 
 /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
-/Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h:
+../../src/lib/phase.h:
+
+../../src/lib/rot_matrx.h:
 
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iostream:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iomanip:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/locale:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ctime:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/time_members.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/messages_members.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.tcc:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_conv.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stringfwd.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/allocator.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unique_ptr.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/quoted_string.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/vector:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_uninitialized.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_vector.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_bvector.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/vector.tcc:
+
+../../src/lib/little_group.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/map:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_tree.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ext/aligned_buffer.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_map.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_multimap.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h:
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_factory.h:
 
@@ -1380,16 +1450,6 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/typemanip.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/map:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_tree.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ext/aligned_buffer.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_map.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_multimap.h:
-
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/unordered_map:
 
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/hashtable.h:
@@ -1397,16 +1457,6 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/hashtable_policy.h:
 
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unordered_map.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/vector:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_uninitialized.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_vector.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stl_bvector.h:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/vector.tcc:
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic.h:
 
@@ -1421,8 +1471,6 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
 /Users/archanar/Kinematic_factor/adat_devel_install/include/io/adat_xmlio.h:
 
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/fstream:
-
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h:
 
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/basic_file.h:
 
@@ -1586,28 +1634,34 @@ lib/pol_vec.o: ../../src/lib/pol_vec.cc ../../src/lib/pol_vec.h \
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iomanip:
+../../src/lib/subduction.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/locale:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/io/adat_xml_group_reader.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/io/adat_xmlio.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ctime:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/clebsch.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/time_members.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_factory.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/messages_members.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.tcc:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_oct_factory.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_conv.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_lg_factory.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stringfwd.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom_auto.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/allocator.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgcs.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unique_ptr.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_oct.h:
 
-/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/quoted_string.h:
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_lg.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h:

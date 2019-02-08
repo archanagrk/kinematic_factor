@@ -1,4 +1,4 @@
-#include "hadron_3pt.xml.h"
+#include "gen_redstar_xml.h"
 
 
 void write_had_layout( XMLWriter& xml, const std::string& path, const had_npt_layout& label){

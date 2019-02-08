@@ -16,10 +16,13 @@
 
 using namespace std;
 
+
+
 namespace Rot {
+  
+  /*  Euler matrix - converted from itpp to Eigen3 - z-y-z convention */
   Eigen::MatrixXd eulerRotMat(double alpha, double beta, double gamma);
-  Eigen::MatrixXd getRotMat(Eigen::Vector3d mom2, Eigen::Vector3d mom1);
-  std::vector<double> euAng(Eigen::MatrixXd R);
+
 }
 
 

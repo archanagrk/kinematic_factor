@@ -11,6 +11,10 @@
 #include "math.h"
 #include <Eigen/Dense>
 
+
+//kfac lib
+#include "kfac_utils.h"
+
 //adat
 #include <adat/handle.h>
 #include "hadron/irreps_cubic_factory.h"
@@ -26,15 +30,23 @@ using namespace Hadron;
 using namespace Eigen;
 
 
+  //**********************************************************************************************************************
+
+
 namespace LittleGrp{
+
+  /* Find the little group based on the momentum */
   string generateLittleGroup(Eigen::Vector3d& mom_);
-  //std::vector<double> refAngles(string little_group);
+
+/* Angles that take pz to the given p */
+/*  Get the reference angles for each LG - Appendix E Table VI - Helicity ops for Mesons - z-y-z  Jacob-Wick convention */
   std::vector<double> refAngles(Eigen::Vector3d mom1);
 }
 
-
+/* function to check equality */
 namespace{ bool is_equal(double a, double b); }
-namespace{ const double PI = (atan(double(1)) * double(4.0)); }
 
+
+  //**********************************************************************************************************************
 
 #endif

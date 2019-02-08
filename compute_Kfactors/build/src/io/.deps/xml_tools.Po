@@ -1,4 +1,4 @@
-io/xml_tools.o: ../../src/io/xml_tools.cc ../../src/io/hadron_3pt.xml.h \
+io/xml_tools.o: ../../src/io/xml_tools.cc ../../src/io/gen_redstar_xml.h \
  /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/Dense \
  /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/Core \
  /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -526,9 +526,44 @@ io/xml_tools.o: ../../src/io/xml_tools.cc ../../src/io/hadron_3pt.xml.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/hashtable.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/hashtable_policy.h \
  /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unordered_map.h \
- /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h \
+ ../../src/io/../lib/kfac_utils.h ../../src/io/../lib/phase.h \
+ ../../src/io/../lib/rot_matrx.h ../../src/io/../lib/kfac_utils.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iomanip \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/locale \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ctime \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/time_members.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/messages_members.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.tcc \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_conv.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stringfwd.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/allocator.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unique_ptr.h \
+ /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/quoted_string.h \
+ ../../src/io/../lib/little_group.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h \
+ ../../src/io/../lib/subduction.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/clebsch.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_oct_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_lg_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom_auto.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_oct.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_lg.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h \
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h
 
-../../src/io/hadron_3pt.xml.h:
+../../src/io/gen_redstar_xml.h:
 
 /usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include/Eigen/Dense:
 
@@ -1585,3 +1620,77 @@ io/xml_tools.o: ../../src/io/xml_tools.cc ../../src/io/hadron_3pt.xml.h \
 /usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unordered_map.h:
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/handle.h:
+
+../../src/io/../lib/kfac_utils.h:
+
+../../src/io/../lib/phase.h:
+
+../../src/io/../lib/rot_matrx.h:
+
+../../src/io/../lib/kfac_utils.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/iomanip:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/locale:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/ctime:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/time_members.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/x86_64-apple-darwin18.0.0/bits/messages_members.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_facets_nonio.tcc:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/locale_conv.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/stringfwd.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/allocator.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/codecvt.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/unique_ptr.h:
+
+/usr/local/Cellar/gcc/8.2.0/include/c++/8.2.0/bits/quoted_string.h:
+
+../../src/io/../lib/little_group.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h:
+
+../../src/io/../lib/subduction.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/clebsch.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_oct_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/subduce_tables_lg_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom_auto.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cgc_irrep_mom.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_oct.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_lg.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h:
+
+/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h:

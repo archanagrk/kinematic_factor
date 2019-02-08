@@ -6,6 +6,9 @@
 #include "math.h"
 #include <Eigen/Dense>
 
+//some kfac libs
+#include "phase.h"
+
 
 //adat
 #include <adat/handle.h>
@@ -20,22 +23,36 @@ using namespace std;
 using namespace ADAT;
 using namespace ADATXML;
 using namespace Hadron;
+using namespace Eigen;
 
 
-using namespace std;
+  //**********************************************************************************************************************
 
 
 namespace KfUt{
+
+  /* Truncate small numbers  */
+
   double truncate(double num,int precision);
-  //XMLArray::Array<int> toArray(Eigen::Vector3d input);
+
+  /* Gmunu matrix */
+
+  Eigen::MatrixXcd Gmunu();
+
+  /* Convert Eigen and Array1dO to array data type */
   
   class ToArray {
   public:
     static XMLArray::Array<int> toArray(Eigen::Vector3d input);
     static XMLArray::Array<int> toArray(Array1dO<int> input);
   };
+
   
 }
+
+ /* Define π */
+
+namespace { const double PI = (atan(double(1)) * double(4.0));}
 
 
 #endif

@@ -1,4 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$dc/dc4/classROOT_1_1Math_1_1Minimizer.html" title=" " alt="" coords="5,5,165,31"/>
-<area shape="rect" id="node2" href="$d0/d9c/classROOT_1_1Minuit2_1_1Minuit2Minimizer.html" title=" " alt="" coords="213,5,429,31"/>
+<area shape="rect" id="node1" href="$d0/d87/classROOT_1_1Math_1_1IBaseFunctionMultiDim.html" title=" " alt="" coords="16,89,204,128"/>
+<area shape="rect" id="node2" href="$da/d8e/classROOT_1_1Math_1_1Functor.html" title=" " alt="" coords="304,68,452,93"/>
+<area shape="rect" id="node3" href="$da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html" title=" " alt="" coords="273,5,482,44"/>
+<area shape="rect" id="node5" href="$d3/dd9/classROOT_1_1Math_1_1WrappedMemMultiFunction.html" title=" " alt="" coords="263,117,492,156"/>
+<area shape="rect" id="node6" href="$de/da4/classROOT_1_1Math_1_1WrappedMultiFunction.html" title=" " alt="" coords="285,180,470,219"/>
+<area shape="rect" id="node4" href="$de/d74/classROOT_1_1Math_1_1GradFunctor.html" title=" " alt="" coords="540,12,718,37"/>
+<area shape="rect" id="node7" href="$d1/d71/classROOT_1_1Math_1_1IGradientMultiDim.html" title=" " alt="" coords="5,12,215,37"/>
 </map>

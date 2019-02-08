@@ -1,8 +1,12 @@
-/* Jo's code - Euler matrix - converted from itpp to Eigen3 - z-y-z convention */
-
 #include "rot_matrx.h"
 
 namespace Rot {
+
+  //**********************************************************************************************************************
+
+    /* Rotation Matrix using euler angles z-y-z convention */
+
+  //**********************************************************************************************************************
 
 Eigen::MatrixXd eulerRotMat(double alpha, double beta, double gamma)
 {
@@ -31,6 +35,7 @@ Eigen::MatrixXd eulerRotMat(double alpha, double beta, double gamma)
   return Rza * Ryb * Rzg;
  }
 
+  
 };
 
 

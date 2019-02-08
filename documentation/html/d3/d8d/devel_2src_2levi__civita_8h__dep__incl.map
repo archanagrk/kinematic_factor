@@ -1,9 +1,12 @@
 <map id="/Users/archanar/Kinematic_factor/compute_Kfactors_devel/src/levi_civita.h" name="/Users/archanar/Kinematic_factor/compute_Kfactors_devel/src/levi_civita.h">
-<area shape="rect" id="node1" title=" " alt="" coords="208,5,386,57"/>
-<area shape="rect" id="node2" href="$dd/d6d/devel_2src_2k__factor_8h.html" title=" " alt="" coords="81,105,260,157"/>
-<area shape="rect" id="node4" href="$d5/d6e/devel_2src_2kfactors_8h.html" title=" " alt="" coords="208,205,386,257"/>
-<area shape="rect" id="node7" href="$d5/d58/devel_2src_2levi__civita_8cc.html" title=" " alt="" coords="335,105,513,157"/>
-<area shape="rect" id="node3" href="$d5/dbc/devel_2src_2k__factor_8cc.html" title=" " alt="" coords="5,205,184,257"/>
-<area shape="rect" id="node5" href="$da/d89/devel_2src_2exe_2compute__kfactors_8cc.html" title=" " alt="" coords="57,312,290,364"/>
-<area shape="rect" id="node6" href="$d2/d76/devel_2src_2exe_2compute__kfactors__with__phases_8cc.html" title=" " alt="" coords="314,305,531,371"/>
+<area shape="rect" id="node1" title=" " alt="" coords="411,5,589,57"/>
+<area shape="rect" id="node2" href="$d1/d3e/dump_2k__factor_8h.html" title=" " alt="" coords="5,105,184,157"/>
+<area shape="rect" id="node4" href="$d9/d4c/dump_2kfactors_8h.html" title=" " alt="" coords="208,105,386,157"/>
+<area shape="rect" id="node5" href="$dd/d6d/devel_2src_2k__factor_8h.html" title=" " alt="" coords="411,105,589,157"/>
+<area shape="rect" id="node7" href="$d5/d6e/devel_2src_2kfactors_8h.html" title=" " alt="" coords="537,205,716,257"/>
+<area shape="rect" id="node10" href="$d5/d58/devel_2src_2levi__civita_8cc.html" title=" " alt="" coords="664,105,842,157"/>
+<area shape="rect" id="node3" href="$d8/d78/dump_2k__factor_8cc.html" title=" " alt="" coords="5,205,184,257"/>
+<area shape="rect" id="node6" href="$d5/dbc/devel_2src_2k__factor_8cc.html" title=" " alt="" coords="335,205,513,257"/>
+<area shape="rect" id="node8" href="$da/d89/devel_2src_2exe_2compute__kfactors_8cc.html" title=" " alt="" coords="386,312,619,364"/>
+<area shape="rect" id="node9" href="$d2/d76/devel_2src_2exe_2compute__kfactors__with__phases_8cc.html" title=" " alt="" coords="644,305,860,371"/>
 </map>

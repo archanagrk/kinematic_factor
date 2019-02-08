@@ -1,13 +1,22 @@
 <map id="KfUt::truncate" name="KfUt::truncate">
-<area shape="rect" id="node1" title=" " alt="" coords="331,173,434,199"/>
-<area shape="rect" id="node2" href="$d2/d89/namespaceKFac.html#a9c2aaf9fd1ca6172ffc09b8cf0c30d0e" title=" " alt="" coords="135,5,252,31"/>
-<area shape="rect" id="node4" href="$d2/d89/namespaceKFac.html#a3fc08fc4d40cb022d9e68ea0e9e39044" title=" " alt="" coords="135,55,252,80"/>
-<area shape="rect" id="node5" href="$d2/d89/namespaceKFac.html#a87a5304db9d4c659637da23e363cf4a4" title=" " alt="" coords="104,104,283,143"/>
-<area shape="rect" id="node7" href="$d2/d89/namespaceKFac.html#ac10b1bd8db1661c292e327a3eabcebb9" title=" " alt="" coords="104,167,283,205"/>
-<area shape="rect" id="node9" href="$d2/d89/namespaceKFac.html#a56130e258872427e83c530a5a471cf5c" title=" " alt="" coords="115,229,272,255"/>
-<area shape="rect" id="node10" href="$d2/d89/namespaceKFac.html#a6f8f443ade2532c958e4dc168d7da1c7" title=" " alt="" coords="107,279,281,304"/>
-<area shape="rect" id="node11" href="$dc/d90/extract__ph_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="168,328,219,353"/>
-<area shape="rect" id="node3" href="$d8/d3d/compute__kf_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,56,56"/>
-<area shape="rect" id="node6" href="$d4/d0d/compute__kfactors__with__phases__j0_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,111,56,136"/>
-<area shape="rect" id="node8" href="$d9/db3/src_2test_2compute__kfactors__with__phases_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,173,56,199"/>
+<area shape="rect" id="node1" title=" " alt="" coords="344,353,447,379"/>
+<area shape="rect" id="node2" href="$d2/d89/namespaceKFac.html#a3226cfdfe24c39b0713ca6ede04de295" title=" " alt="" coords="145,5,254,31"/>
+<area shape="rect" id="node3" href="$d2/d89/namespaceKFac.html#a02b5c2876eea15ce628ac7cc58a4b746" title=" " alt="" coords="141,55,259,80"/>
+<area shape="rect" id="node5" href="$d2/d89/namespaceKFac.html#a4cb65a4089c62e25d5511e2711fed59d" title=" " alt="" coords="141,104,259,129"/>
+<area shape="rect" id="node7" href="$d2/d89/namespaceKFac.html#a87a5304db9d4c659637da23e363cf4a4" title=" " alt="" coords="110,153,290,192"/>
+<area shape="rect" id="node9" href="$d2/d89/namespaceKFac.html#ac10b1bd8db1661c292e327a3eabcebb9" title=" " alt="" coords="110,216,290,255"/>
+<area shape="rect" id="node11" href="$d2/d89/namespaceKFac.html#a2f18ad8b36ac24cc9534755cccb8c780" title=" " alt="" coords="141,279,258,304"/>
+<area shape="rect" id="node13" href="$d2/d89/namespaceKFac.html#a2ae9d69821729f6946651703e8990e58" title=" " alt="" coords="132,328,268,353"/>
+<area shape="rect" id="node14" href="$d2/d89/namespaceKFac.html#a56130e258872427e83c530a5a471cf5c" title=" " alt="" coords="122,377,278,403"/>
+<area shape="rect" id="node15" href="$d2/d89/namespaceKFac.html#a6f8f443ade2532c958e4dc168d7da1c7" title=" " alt="" coords="113,427,287,452"/>
+<area shape="rect" id="node16" href="$dc/d90/extract__ph_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="175,476,225,501"/>
+<area shape="rect" id="node17" href="$d8/d76/classKfacSSV.html#ad9bddcf643847eebae9926bbc646c56c" title=" " alt="" coords="130,525,270,551"/>
+<area shape="rect" id="node18" href="$d3/d61/classKfacSVV.html#abc4b565ae1fbf1109bbed4b05b3d5ee7" title=" " alt="" coords="130,575,270,600"/>
+<area shape="rect" id="node19" href="$df/df0/classKfacSSVwPhCorr.html#abe3adeddc111ac5016b07086242fd7f1" title=" " alt="" coords="104,624,296,649"/>
+<area shape="rect" id="node20" href="$d5/dd2/classKfacSVVwPhCorr.html#a16ca2be4bad507ad67ab2ce96f056917" title=" " alt="" coords="104,673,296,699"/>
+<area shape="rect" id="node4" href="$d3/d14/dump_2test_2compute__kfactors_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,55,56,80"/>
+<area shape="rect" id="node6" href="$d8/d3d/compute__kf_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,104,56,129"/>
+<area shape="rect" id="node8" href="$d4/d0d/compute__kfactors__with__phases__j0_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,160,56,185"/>
+<area shape="rect" id="node10" href="$db/d05/dump_2test_2compute__kfactors__with__phases_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,223,56,248"/>
+<area shape="rect" id="node12" href="$d0/d58/ckfac__w__sud_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,303,56,328"/>
 </map>

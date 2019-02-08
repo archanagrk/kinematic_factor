@@ -26,5 +26,11 @@ var searchData=
   ['keysinglehadronquarkflavorcolor_5ft',['KeySingleHadronQuarkFlavorColor_t',['../d7/d4d/structHadron_1_1KeySingleHadronQuarkFlavorColor__t.html',1,'Hadron']]],
   ['keysinglehadronquarkspin_5ft',['KeySingleHadronQuarkSpin_t',['../da/d1a/structHadron_1_1KeySingleHadronQuarkSpin__t.html',1,'Hadron']]],
   ['keytetraquarkelementaloperator_5ft',['KeyTetraQuarkElementalOperator_t',['../d6/d29/structHadron_1_1KeyTetraQuarkElementalOperator__t.html',1,'Hadron']]],
-  ['keyunsmearedmesonelementaloperator_5ft',['KeyUnsmearedMesonElementalOperator_t',['../dd/d95/structHadron_1_1KeyUnsmearedMesonElementalOperator__t.html',1,'Hadron']]]
+  ['keyunsmearedmesonelementaloperator_5ft',['KeyUnsmearedMesonElementalOperator_t',['../dd/d95/structHadron_1_1KeyUnsmearedMesonElementalOperator__t.html',1,'Hadron']]],
+  ['kfacparams',['KFacParams',['../d7/d41/classKFacParams.html',1,'']]],
+  ['kfacssv',['KfacSSV',['../d8/d76/classKfacSSV.html',1,'']]],
+  ['kfacssvwphcorr',['KfacSSVwPhCorr',['../df/df0/classKfacSSVwPhCorr.html',1,'']]],
+  ['kfacsvv',['KfacSVV',['../d3/d61/classKfacSVV.html',1,'']]],
+  ['kfacsvvwphcorr',['KfacSVVwPhCorr',['../d5/dd2/classKfacSVVwPhCorr.html',1,'']]],
+  ['kfactor',['KFactor',['../d9/d65/classKFactor.html',1,'']]]
 ];

@@ -1,0 +1,26 @@
+<hadron>
+  <npt>3</npt>
+  <had>
+    <elem>
+      <twoJ>0</twoJ>
+      <P>-1</P>
+      <msq>0.05</msq>
+      <max_mom>2</max_mom>
+    </elem>
+    <elem>
+        <twoJ>2</twoJ>
+        <P>-1</P>
+        <msq>0</msq>
+        <max_mom>2</max_mom>
+    </elem>
+    <elem>
+        <twoJ>2</twoJ>
+        <P>-1</P>
+        <msq>0.05</msq>
+        <max_mom>2</max_mom>
+    </elem>
+  </had>
+  <matrix_type>kin_fac_vector_vector_scalar</matrix_type>
+  <phase>false</phase>
+</hadron>
+

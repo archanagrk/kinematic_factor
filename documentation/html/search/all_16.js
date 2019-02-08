@@ -2,7 +2,7 @@ var searchData=
 [
   ['vector_20observable',['Vector observable',['../da/d59/group__obsvector.html',1,'']]],
   ['vector_20primitive',['Vector primitive',['../d3/dc4/group__primvector.html',1,'']]],
-  ['v',['V',['../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382',1,'Hadron::HadronDistOperatorRep_t::V()'],['../d7/d4d/structFF_1_1DiscoKeyVal__t.html#ae0d9c7724d26fd2b0c5118b65651b443',1,'FF::DiscoKeyVal_t::v()'],['../d6/da7/hadron__timeslice_8cc.html#a716fc87f5e814be3ceee2405ed6ff22a',1,'v():&#160;hadron_timeslice.cc']]],
+  ['v',['v',['../d7/d4d/structFF_1_1DiscoKeyVal__t.html#ae0d9c7724d26fd2b0c5118b65651b443',1,'FF::DiscoKeyVal_t::v()'],['../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382',1,'Hadron::HadronDistOperatorRep_t::V()'],['../d6/da7/hadron__timeslice_8cc.html#a716fc87f5e814be3ceee2405ed6ff22a',1,'v():&#160;hadron_timeslice.cc']]],
   ['val',['val',['../d4/d7a/structHadron_1_1CGCReturnType.html#ae84be939a57b9598ac24e018e399cc38',1,'Hadron::CGCReturnType::val()'],['../df/ddd/structHadron_1_1ValTimeSlice__t.html#a4dbe94564e02d7c73010153fc1bc227f',1,'Hadron::ValTimeSlice_t::val()']]],
   ['valbaryonelementaloperator_5ft',['ValBaryonElementalOperator_t',['../d3/d68/structHadron_1_1ValBaryonElementalOperator__t.html',1,'Hadron']]],
   ['valgenpropelementaloperator_5ft',['ValGenPropElementalOperator_t',['../d3/d71/structHadron_1_1ValGenPropElementalOperator__t.html',1,'Hadron']]],

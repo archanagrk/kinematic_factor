@@ -2,13 +2,23 @@
 
 #include "little_group.h"
 
+  //**********************************************************************************************************************
+
+    /* function to check equality */
+
+  //**********************************************************************************************************************
+
 namespace{
   bool is_equal(double a, double b){
     return std::abs(a - b) < std::numeric_limits<float>::epsilon();
   }
 }
 
+  //**********************************************************************************************************************
 
+    /* Find the little group based on the momentum */
+
+  //**********************************************************************************************************************
 
 namespace LittleGrp{
 
@@ -42,28 +52,21 @@ string generateLittleGroup(Eigen::Vector3d& mom_)
   return littleGroup;
 };
 
-/* Get the reference angles for each LG - copied from Jo - Appendix E Table VI - Helicity ops for Mesons - z-y-z  Jacob-Wick convention */
 
 
-/*std::vector<double> refAngles(string little_group){
-  std::vector<double> ref;
-  double R1_phi, R1_theta, R1_psi; //reference rotation angles
+  //**********************************************************************************************************************
 
-  if(little_group == "Oh"){ R1_phi = 0.0; R1_theta = 0.0; R1_psi = 0.0;}
-  else if(little_group == "D4"){ R1_phi = 0.0; R1_theta = 0.0; R1_psi = 0.0;} // (00n)
-  else if(little_group == "D2"){ R1_phi = PI/2.0; R1_theta = PI/4.0; R1_psi = -PI/2.0;}// (0nn)
-  else if(little_group == "D3"){ R1_phi = PI/4.0; R1_theta = acos(1.0/sqrt(3.0)); R1_psi = 0.0;}// (nnn)
-  else if(little_group == "C4"){ cerr << "C4 not coded" << endl; exit(1); }// ???????
-  else if(little_group == "C2"){ cerr << "C2 not coded" << endl; exit(1); }// ???????
-  ref.push_back(R1_phi); ref.push_back(R1_theta); ref.push_back(R1_psi);
+/* Angles that take pz to the given p */
+/*  Get the reference angles for each LG - Appendix E Table VI - Helicity ops for Mesons - z-y-z  Jacob-Wick convention */
 
-  return ref;
-  }*/
+  //**********************************************************************************************************************
 
 std::vector<double> refAngles(Eigen::Vector3d mom1){
     std::vector<double> ref;
     double R_phi, R_theta, R_psi;
     XMLArray::Array<int> mom(3);
+
+
 
     mom[0] = round(mom1(0));
     mom[1] = round(mom1(1));
@@ -78,6 +81,9 @@ std::vector<double> refAngles(Eigen::Vector3d mom1){
       rot = Hadron::cubicCanonicalRotation(mom);
       ref.push_back(rot.alpha);ref.push_back(rot.beta);ref.push_back(rot.gamma);
     }
+
+    //cout << "refs" << ref[0] <<  "refs"  << ref [1] <<  "refs" << ref[2] << "refs" << "\n";
+    
     return ref;
  }
 

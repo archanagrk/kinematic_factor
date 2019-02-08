@@ -547,8 +547,8 @@ lib/subduction.o: ../../src/lib/subduction.cc ../../src/lib/subduction.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h \
- ../../src/lib/pol_vec.h ../../src/lib/rot_matrx.h \
- ../../src/lib/kfac_utils.h \
+ ../../src/lib/kfac_utils.h ../../src/lib/phase.h \
+ ../../src/lib/rot_matrx.h ../../src/lib/little_group.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity_factory.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity.h
 
@@ -1650,11 +1650,13 @@ lib/subduction.o: ../../src/lib/subduction.cc ../../src/lib/subduction.h \
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irrep_util.h:
 
-../../src/lib/pol_vec.h:
+../../src/lib/kfac_utils.h:
+
+../../src/lib/phase.h:
 
 ../../src/lib/rot_matrx.h:
 
-../../src/lib/kfac_utils.h:
+../../src/lib/little_group.h:
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_helicity_factory.h:
 

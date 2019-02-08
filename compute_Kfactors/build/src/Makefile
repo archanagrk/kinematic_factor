@@ -86,13 +86,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = compute_kfactors$(EXEEXT) \
-	compute_kfactors_with_phases$(EXEEXT) \
-	compute_kfactors_j0$(EXEEXT) \
-	compute_kfactors_with_phases_j0$(EXEEXT) \
-	hadron_3pt_xml$(EXEEXT) redstar_intrfc$(EXEEXT) \
-	compute_kf$(EXEEXT) redstar_intr$(EXEEXT)
-check_PROGRAMS = tes_ph$(EXEEXT) extract_ph$(EXEEXT)
+bin_PROGRAMS = compute_matrix_prefactor$(EXEEXT) \
+	gen_redstar_xml$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/pac_adat_link_cxx_func.m4 \
@@ -106,94 +101,24 @@ CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am__dirstamp = $(am__leading_dot)dirstamp
-am_compute_kf_OBJECTS = exe/compute_kf.$(OBJEXT) \
+am_compute_matrix_prefactor_OBJECTS =  \
+	exe/compute_matrix_prefactor.$(OBJEXT) \
 	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
 	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT)
-compute_kf_OBJECTS = $(am_compute_kf_OBJECTS)
-compute_kf_LDADD = $(LDADD)
-compute_kf_DEPENDENCIES =
-am_compute_kfactors_OBJECTS = exe/compute_kfactors.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT)
-compute_kfactors_OBJECTS = $(am_compute_kfactors_OBJECTS)
-compute_kfactors_LDADD = $(LDADD)
-compute_kfactors_DEPENDENCIES =
-am_compute_kfactors_j0_OBJECTS = exe/compute_kfactors_j0.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT)
-compute_kfactors_j0_OBJECTS = $(am_compute_kfactors_j0_OBJECTS)
-compute_kfactors_j0_LDADD = $(LDADD)
-compute_kfactors_j0_DEPENDENCIES =
-am_compute_kfactors_with_phases_OBJECTS =  \
-	exe/compute_kfactors_with_phases.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
+	lib/subd_pol_vec.$(OBJEXT) lib/pol_vec.$(OBJEXT) \
+	lib/rot_matrx.$(OBJEXT) lib/kfactor_pigammarho.$(OBJEXT) \
+	lib/kfac_params.$(OBJEXT) lib/k_factor_factory.$(OBJEXT) \
+	lib/levi_civita.$(OBJEXT) io/xml_tools.$(OBJEXT) \
 	lib/phase.$(OBJEXT)
-compute_kfactors_with_phases_OBJECTS =  \
-	$(am_compute_kfactors_with_phases_OBJECTS)
-compute_kfactors_with_phases_LDADD = $(LDADD)
-compute_kfactors_with_phases_DEPENDENCIES =
-am_compute_kfactors_with_phases_j0_OBJECTS =  \
-	exe/compute_kfactors_with_phases_j0.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	lib/phase.$(OBJEXT)
-compute_kfactors_with_phases_j0_OBJECTS =  \
-	$(am_compute_kfactors_with_phases_j0_OBJECTS)
-compute_kfactors_with_phases_j0_LDADD = $(LDADD)
-compute_kfactors_with_phases_j0_DEPENDENCIES =
-am_extract_ph_OBJECTS = test/extract_ph.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	lib/phase.$(OBJEXT)
-extract_ph_OBJECTS = $(am_extract_ph_OBJECTS)
-extract_ph_LDADD = $(LDADD)
-extract_ph_DEPENDENCIES =
-am_hadron_3pt_xml_OBJECTS = io/hadron_3pt.xml.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT)
-hadron_3pt_xml_OBJECTS = $(am_hadron_3pt_xml_OBJECTS)
-hadron_3pt_xml_LDADD = $(LDADD)
-hadron_3pt_xml_DEPENDENCIES =
-am_redstar_intr_OBJECTS = io/redstar_intr.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT)
-redstar_intr_OBJECTS = $(am_redstar_intr_OBJECTS)
-redstar_intr_LDADD = $(LDADD)
-redstar_intr_DEPENDENCIES =
-am_redstar_intrfc_OBJECTS = io/redstar_intrfc.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
-	lib/pol_vec.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/k_factor.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT)
-redstar_intrfc_OBJECTS = $(am_redstar_intrfc_OBJECTS)
-redstar_intrfc_LDADD = $(LDADD)
-redstar_intrfc_DEPENDENCIES =
-am_tes_ph_OBJECTS = test/tes_ph.$(OBJEXT) lib/rot_matrx.$(OBJEXT) \
-	lib/little_group.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
-	lib/subduction.$(OBJEXT) lib/k_factor.$(OBJEXT) \
-	lib/levi_civita.$(OBJEXT) lib/pol_vec.$(OBJEXT) \
-	lib/irreps_and_rows.$(OBJEXT)
-tes_ph_OBJECTS = $(am_tes_ph_OBJECTS)
-tes_ph_LDADD = $(LDADD)
-tes_ph_DEPENDENCIES =
+compute_matrix_prefactor_OBJECTS =  \
+	$(am_compute_matrix_prefactor_OBJECTS)
+compute_matrix_prefactor_LDADD = $(LDADD)
+compute_matrix_prefactor_DEPENDENCIES =
+am_gen_redstar_xml_OBJECTS = io/gen_redstar_xml.$(OBJEXT) \
+	lib/kfac_utils.$(OBJEXT) io/xml_tools.$(OBJEXT)
+gen_redstar_xml_OBJECTS = $(am_gen_redstar_xml_OBJECTS)
+gen_redstar_xml_LDADD = $(LDADD)
+gen_redstar_xml_DEPENDENCIES =
 AM_V_P = $(am__v_P_$(V))
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
 am__v_P_0 = false
@@ -209,19 +134,16 @@ am__v_at_1 =
 DEFAULT_INCLUDES = -I. -I$(srcdir)
 depcomp = $(SHELL) $(top_srcdir)/config/depcomp
 am__maybe_remake_depfiles = depfiles
-am__depfiles_remade = exe/$(DEPDIR)/compute_kf.Po \
-	exe/$(DEPDIR)/compute_kfactors.Po \
-	exe/$(DEPDIR)/compute_kfactors_j0.Po \
-	exe/$(DEPDIR)/compute_kfactors_with_phases.Po \
-	exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po \
-	io/$(DEPDIR)/hadron_3pt.xml.Po io/$(DEPDIR)/redstar_intr.Po \
-	io/$(DEPDIR)/redstar_intrfc.Po io/$(DEPDIR)/xml_tools.Po \
-	lib/$(DEPDIR)/irreps_and_rows.Po lib/$(DEPDIR)/k_factor.Po \
-	lib/$(DEPDIR)/kfac_utils.Po lib/$(DEPDIR)/levi_civita.Po \
-	lib/$(DEPDIR)/little_group.Po lib/$(DEPDIR)/phase.Po \
-	lib/$(DEPDIR)/pol_vec.Po lib/$(DEPDIR)/rot_matrx.Po \
-	lib/$(DEPDIR)/subduction.Po test/$(DEPDIR)/extract_ph.Po \
-	test/$(DEPDIR)/tes_ph.Po
+am__depfiles_remade = exe/$(DEPDIR)/compute_matrix_prefactor.Po \
+	io/$(DEPDIR)/gen_redstar_xml.Po io/$(DEPDIR)/xml_tools.Po \
+	lib/$(DEPDIR)/irreps_and_rows.Po \
+	lib/$(DEPDIR)/k_factor_factory.Po lib/$(DEPDIR)/kfac_params.Po \
+	lib/$(DEPDIR)/kfac_utils.Po \
+	lib/$(DEPDIR)/kfactor_pigammarho.Po \
+	lib/$(DEPDIR)/levi_civita.Po lib/$(DEPDIR)/little_group.Po \
+	lib/$(DEPDIR)/phase.Po lib/$(DEPDIR)/pol_vec.Po \
+	lib/$(DEPDIR)/rot_matrx.Po lib/$(DEPDIR)/subd_pol_vec.Po \
+	lib/$(DEPDIR)/subduction.Po
 am__mv = mv -f
 CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
@@ -236,20 +158,10 @@ AM_V_CXXLD = $(am__v_CXXLD_$(V))
 am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
 am__v_CXXLD_1 = 
-SOURCES = $(compute_kf_SOURCES) $(compute_kfactors_SOURCES) \
-	$(compute_kfactors_j0_SOURCES) \
-	$(compute_kfactors_with_phases_SOURCES) \
-	$(compute_kfactors_with_phases_j0_SOURCES) \
-	$(extract_ph_SOURCES) $(hadron_3pt_xml_SOURCES) \
-	$(redstar_intr_SOURCES) $(redstar_intrfc_SOURCES) \
-	$(tes_ph_SOURCES)
-DIST_SOURCES = $(compute_kf_SOURCES) $(compute_kfactors_SOURCES) \
-	$(compute_kfactors_j0_SOURCES) \
-	$(compute_kfactors_with_phases_SOURCES) \
-	$(compute_kfactors_with_phases_j0_SOURCES) \
-	$(extract_ph_SOURCES) $(hadron_3pt_xml_SOURCES) \
-	$(redstar_intr_SOURCES) $(redstar_intrfc_SOURCES) \
-	$(tes_ph_SOURCES)
+SOURCES = $(compute_matrix_prefactor_SOURCES) \
+	$(gen_redstar_xml_SOURCES)
+DIST_SOURCES = $(compute_matrix_prefactor_SOURCES) \
+	$(gen_redstar_xml_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -383,16 +295,8 @@ AM_LDFLAGS = -L../src \
 LDADD = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/Users/archanar/anaconda/lib -lxml2 -lz -L/Users/archanar/anaconda/lib -liconv -lm  
 
 ##############################################################
-compute_kfactors_SOURCES = exe/compute_kfactors.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc 
-compute_kfactors_with_phases_SOURCES = exe/compute_kfactors_with_phases.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
-compute_kfactors_with_phases_j0_SOURCES = exe/compute_kfactors_with_phases_j0.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
-compute_kfactors_j0_SOURCES = exe/compute_kfactors_j0.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc
-tes_ph_SOURCES = test/tes_ph.cc  lib/rot_matrx.cc lib/little_group.cc lib/kfac_utils.cc lib/subduction.cc    lib/k_factor.cc  lib/levi_civita.cc  lib/pol_vec.cc    lib/irreps_and_rows.cc
-extract_ph_SOURCES = test/extract_ph.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  lib/phase.cc
-hadron_3pt_xml_SOURCES = io/hadron_3pt.xml.cc io/xml_tools.cc
-compute_kf_SOURCES = exe/compute_kf.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
-redstar_intrfc_SOURCES = io/redstar_intrfc.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
-redstar_intr_SOURCES = io/redstar_intr.cc  lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc lib/pol_vec.cc  lib/rot_matrx.cc  lib/k_factor.cc  lib/levi_civita.cc  io/xml_tools.cc
+compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc
+gen_redstar_xml_SOURCES = io/gen_redstar_xml.cc  lib/kfac_utils.cc  io/xml_tools.cc
 
 ##############################################################
 
@@ -481,16 +385,13 @@ uninstall-binPROGRAMS:
 
 clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
-
-clean-checkPROGRAMS:
-	-test -z "$(check_PROGRAMS)" || rm -f $(check_PROGRAMS)
 exe/$(am__dirstamp):
 	@$(MKDIR_P) exe
 	@: > exe/$(am__dirstamp)
 exe/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) exe/$(DEPDIR)
 	@: > exe/$(DEPDIR)/$(am__dirstamp)
-exe/compute_kf.$(OBJEXT): exe/$(am__dirstamp) \
+exe/compute_matrix_prefactor.$(OBJEXT): exe/$(am__dirstamp) \
 	exe/$(DEPDIR)/$(am__dirstamp)
 lib/$(am__dirstamp):
 	@$(MKDIR_P) lib
@@ -506,11 +407,17 @@ lib/little_group.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/subduction.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
+lib/subd_pol_vec.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
 lib/pol_vec.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/rot_matrx.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
-lib/k_factor.$(OBJEXT): lib/$(am__dirstamp) \
+lib/kfactor_pigammarho.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
+lib/kfac_params.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
+lib/k_factor_factory.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/levi_civita.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
@@ -522,102 +429,42 @@ io/$(DEPDIR)/$(am__dirstamp):
 	@: > io/$(DEPDIR)/$(am__dirstamp)
 io/xml_tools.$(OBJEXT): io/$(am__dirstamp) \
 	io/$(DEPDIR)/$(am__dirstamp)
-
-compute_kf$(EXEEXT): $(compute_kf_OBJECTS) $(compute_kf_DEPENDENCIES) $(EXTRA_compute_kf_DEPENDENCIES) 
-	@rm -f compute_kf$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(compute_kf_OBJECTS) $(compute_kf_LDADD) $(LIBS)
-exe/compute_kfactors.$(OBJEXT): exe/$(am__dirstamp) \
-	exe/$(DEPDIR)/$(am__dirstamp)
-
-compute_kfactors$(EXEEXT): $(compute_kfactors_OBJECTS) $(compute_kfactors_DEPENDENCIES) $(EXTRA_compute_kfactors_DEPENDENCIES) 
-	@rm -f compute_kfactors$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_OBJECTS) $(compute_kfactors_LDADD) $(LIBS)
-exe/compute_kfactors_j0.$(OBJEXT): exe/$(am__dirstamp) \
-	exe/$(DEPDIR)/$(am__dirstamp)
-
-compute_kfactors_j0$(EXEEXT): $(compute_kfactors_j0_OBJECTS) $(compute_kfactors_j0_DEPENDENCIES) $(EXTRA_compute_kfactors_j0_DEPENDENCIES) 
-	@rm -f compute_kfactors_j0$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_j0_OBJECTS) $(compute_kfactors_j0_LDADD) $(LIBS)
-exe/compute_kfactors_with_phases.$(OBJEXT): exe/$(am__dirstamp) \
-	exe/$(DEPDIR)/$(am__dirstamp)
 lib/phase.$(OBJEXT): lib/$(am__dirstamp) lib/$(DEPDIR)/$(am__dirstamp)
 
-compute_kfactors_with_phases$(EXEEXT): $(compute_kfactors_with_phases_OBJECTS) $(compute_kfactors_with_phases_DEPENDENCIES) $(EXTRA_compute_kfactors_with_phases_DEPENDENCIES) 
-	@rm -f compute_kfactors_with_phases$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_with_phases_OBJECTS) $(compute_kfactors_with_phases_LDADD) $(LIBS)
-exe/compute_kfactors_with_phases_j0.$(OBJEXT): exe/$(am__dirstamp) \
-	exe/$(DEPDIR)/$(am__dirstamp)
-
-compute_kfactors_with_phases_j0$(EXEEXT): $(compute_kfactors_with_phases_j0_OBJECTS) $(compute_kfactors_with_phases_j0_DEPENDENCIES) $(EXTRA_compute_kfactors_with_phases_j0_DEPENDENCIES) 
-	@rm -f compute_kfactors_with_phases_j0$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(compute_kfactors_with_phases_j0_OBJECTS) $(compute_kfactors_with_phases_j0_LDADD) $(LIBS)
-test/$(am__dirstamp):
-	@$(MKDIR_P) test
-	@: > test/$(am__dirstamp)
-test/$(DEPDIR)/$(am__dirstamp):
-	@$(MKDIR_P) test/$(DEPDIR)
-	@: > test/$(DEPDIR)/$(am__dirstamp)
-test/extract_ph.$(OBJEXT): test/$(am__dirstamp) \
-	test/$(DEPDIR)/$(am__dirstamp)
-
-extract_ph$(EXEEXT): $(extract_ph_OBJECTS) $(extract_ph_DEPENDENCIES) $(EXTRA_extract_ph_DEPENDENCIES) 
-	@rm -f extract_ph$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(extract_ph_OBJECTS) $(extract_ph_LDADD) $(LIBS)
-io/hadron_3pt.xml.$(OBJEXT): io/$(am__dirstamp) \
+compute_matrix_prefactor$(EXEEXT): $(compute_matrix_prefactor_OBJECTS) $(compute_matrix_prefactor_DEPENDENCIES) $(EXTRA_compute_matrix_prefactor_DEPENDENCIES) 
+	@rm -f compute_matrix_prefactor$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(compute_matrix_prefactor_OBJECTS) $(compute_matrix_prefactor_LDADD) $(LIBS)
+io/gen_redstar_xml.$(OBJEXT): io/$(am__dirstamp) \
 	io/$(DEPDIR)/$(am__dirstamp)
 
-hadron_3pt_xml$(EXEEXT): $(hadron_3pt_xml_OBJECTS) $(hadron_3pt_xml_DEPENDENCIES) $(EXTRA_hadron_3pt_xml_DEPENDENCIES) 
-	@rm -f hadron_3pt_xml$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(hadron_3pt_xml_OBJECTS) $(hadron_3pt_xml_LDADD) $(LIBS)
-io/redstar_intr.$(OBJEXT): io/$(am__dirstamp) \
-	io/$(DEPDIR)/$(am__dirstamp)
-
-redstar_intr$(EXEEXT): $(redstar_intr_OBJECTS) $(redstar_intr_DEPENDENCIES) $(EXTRA_redstar_intr_DEPENDENCIES) 
-	@rm -f redstar_intr$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(redstar_intr_OBJECTS) $(redstar_intr_LDADD) $(LIBS)
-io/redstar_intrfc.$(OBJEXT): io/$(am__dirstamp) \
-	io/$(DEPDIR)/$(am__dirstamp)
-
-redstar_intrfc$(EXEEXT): $(redstar_intrfc_OBJECTS) $(redstar_intrfc_DEPENDENCIES) $(EXTRA_redstar_intrfc_DEPENDENCIES) 
-	@rm -f redstar_intrfc$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(redstar_intrfc_OBJECTS) $(redstar_intrfc_LDADD) $(LIBS)
-test/tes_ph.$(OBJEXT): test/$(am__dirstamp) \
-	test/$(DEPDIR)/$(am__dirstamp)
-
-tes_ph$(EXEEXT): $(tes_ph_OBJECTS) $(tes_ph_DEPENDENCIES) $(EXTRA_tes_ph_DEPENDENCIES) 
-	@rm -f tes_ph$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(tes_ph_OBJECTS) $(tes_ph_LDADD) $(LIBS)
+gen_redstar_xml$(EXEEXT): $(gen_redstar_xml_OBJECTS) $(gen_redstar_xml_DEPENDENCIES) $(EXTRA_gen_redstar_xml_DEPENDENCIES) 
+	@rm -f gen_redstar_xml$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(gen_redstar_xml_OBJECTS) $(gen_redstar_xml_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
 	-rm -f exe/*.$(OBJEXT)
 	-rm -f io/*.$(OBJEXT)
 	-rm -f lib/*.$(OBJEXT)
-	-rm -f test/*.$(OBJEXT)
 
 distclean-compile:
 	-rm -f *.tab.c
 
-include exe/$(DEPDIR)/compute_kf.Po # am--include-marker
-include exe/$(DEPDIR)/compute_kfactors.Po # am--include-marker
-include exe/$(DEPDIR)/compute_kfactors_j0.Po # am--include-marker
-include exe/$(DEPDIR)/compute_kfactors_with_phases.Po # am--include-marker
-include exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po # am--include-marker
-include io/$(DEPDIR)/hadron_3pt.xml.Po # am--include-marker
-include io/$(DEPDIR)/redstar_intr.Po # am--include-marker
-include io/$(DEPDIR)/redstar_intrfc.Po # am--include-marker
+include exe/$(DEPDIR)/compute_matrix_prefactor.Po # am--include-marker
+include io/$(DEPDIR)/gen_redstar_xml.Po # am--include-marker
 include io/$(DEPDIR)/xml_tools.Po # am--include-marker
 include lib/$(DEPDIR)/irreps_and_rows.Po # am--include-marker
-include lib/$(DEPDIR)/k_factor.Po # am--include-marker
+include lib/$(DEPDIR)/k_factor_factory.Po # am--include-marker
+include lib/$(DEPDIR)/kfac_params.Po # am--include-marker
 include lib/$(DEPDIR)/kfac_utils.Po # am--include-marker
+include lib/$(DEPDIR)/kfactor_pigammarho.Po # am--include-marker
 include lib/$(DEPDIR)/levi_civita.Po # am--include-marker
 include lib/$(DEPDIR)/little_group.Po # am--include-marker
 include lib/$(DEPDIR)/phase.Po # am--include-marker
 include lib/$(DEPDIR)/pol_vec.Po # am--include-marker
 include lib/$(DEPDIR)/rot_matrx.Po # am--include-marker
+include lib/$(DEPDIR)/subd_pol_vec.Po # am--include-marker
 include lib/$(DEPDIR)/subduction.Po # am--include-marker
-include test/$(DEPDIR)/extract_ph.Po # am--include-marker
-include test/$(DEPDIR)/tes_ph.Po # am--include-marker
 
 $(am__depfiles_remade):
 	@$(MKDIR_P) $(@D)
@@ -727,7 +574,6 @@ distdir-am: $(DISTFILES)
 	  fi; \
 	done
 check-am: all-am
-	$(MAKE) $(AM_MAKEFLAGS) $(check_PROGRAMS)
 check: check-am
 all-am: Makefile $(PROGRAMS)
 installdirs:
@@ -766,38 +612,30 @@ distclean-generic:
 	-rm -f io/$(am__dirstamp)
 	-rm -f lib/$(DEPDIR)/$(am__dirstamp)
 	-rm -f lib/$(am__dirstamp)
-	-rm -f test/$(DEPDIR)/$(am__dirstamp)
-	-rm -f test/$(am__dirstamp)
 
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
 clean: clean-am
 
-clean-am: clean-binPROGRAMS clean-checkPROGRAMS clean-generic \
-	mostlyclean-am
+clean-am: clean-binPROGRAMS clean-generic mostlyclean-am
 
 distclean: distclean-am
-		-rm -f exe/$(DEPDIR)/compute_kf.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors_j0.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po
-	-rm -f io/$(DEPDIR)/hadron_3pt.xml.Po
-	-rm -f io/$(DEPDIR)/redstar_intr.Po
-	-rm -f io/$(DEPDIR)/redstar_intrfc.Po
+		-rm -f exe/$(DEPDIR)/compute_matrix_prefactor.Po
+	-rm -f io/$(DEPDIR)/gen_redstar_xml.Po
 	-rm -f io/$(DEPDIR)/xml_tools.Po
 	-rm -f lib/$(DEPDIR)/irreps_and_rows.Po
-	-rm -f lib/$(DEPDIR)/k_factor.Po
+	-rm -f lib/$(DEPDIR)/k_factor_factory.Po
+	-rm -f lib/$(DEPDIR)/kfac_params.Po
 	-rm -f lib/$(DEPDIR)/kfac_utils.Po
+	-rm -f lib/$(DEPDIR)/kfactor_pigammarho.Po
 	-rm -f lib/$(DEPDIR)/levi_civita.Po
 	-rm -f lib/$(DEPDIR)/little_group.Po
 	-rm -f lib/$(DEPDIR)/phase.Po
 	-rm -f lib/$(DEPDIR)/pol_vec.Po
 	-rm -f lib/$(DEPDIR)/rot_matrx.Po
+	-rm -f lib/$(DEPDIR)/subd_pol_vec.Po
 	-rm -f lib/$(DEPDIR)/subduction.Po
-	-rm -f test/$(DEPDIR)/extract_ph.Po
-	-rm -f test/$(DEPDIR)/tes_ph.Po
 	-rm -f Makefile
 distclean-am: clean-am distclean-compile distclean-generic \
 	distclean-tags
@@ -843,26 +681,21 @@ install-ps-am:
 installcheck-am:
 
 maintainer-clean: maintainer-clean-am
-		-rm -f exe/$(DEPDIR)/compute_kf.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors_j0.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases.Po
-	-rm -f exe/$(DEPDIR)/compute_kfactors_with_phases_j0.Po
-	-rm -f io/$(DEPDIR)/hadron_3pt.xml.Po
-	-rm -f io/$(DEPDIR)/redstar_intr.Po
-	-rm -f io/$(DEPDIR)/redstar_intrfc.Po
+		-rm -f exe/$(DEPDIR)/compute_matrix_prefactor.Po
+	-rm -f io/$(DEPDIR)/gen_redstar_xml.Po
 	-rm -f io/$(DEPDIR)/xml_tools.Po
 	-rm -f lib/$(DEPDIR)/irreps_and_rows.Po
-	-rm -f lib/$(DEPDIR)/k_factor.Po
+	-rm -f lib/$(DEPDIR)/k_factor_factory.Po
+	-rm -f lib/$(DEPDIR)/kfac_params.Po
 	-rm -f lib/$(DEPDIR)/kfac_utils.Po
+	-rm -f lib/$(DEPDIR)/kfactor_pigammarho.Po
 	-rm -f lib/$(DEPDIR)/levi_civita.Po
 	-rm -f lib/$(DEPDIR)/little_group.Po
 	-rm -f lib/$(DEPDIR)/phase.Po
 	-rm -f lib/$(DEPDIR)/pol_vec.Po
 	-rm -f lib/$(DEPDIR)/rot_matrx.Po
+	-rm -f lib/$(DEPDIR)/subd_pol_vec.Po
 	-rm -f lib/$(DEPDIR)/subduction.Po
-	-rm -f test/$(DEPDIR)/extract_ph.Po
-	-rm -f test/$(DEPDIR)/tes_ph.Po
 	-rm -f Makefile
 maintainer-clean-am: distclean-am maintainer-clean-generic
 
@@ -880,21 +713,21 @@ ps-am:
 
 uninstall-am: uninstall-binPROGRAMS
 
-.MAKE: check-am install-am install-strip
+.MAKE: install-am install-strip
 
 .PHONY: CTAGS GTAGS TAGS all all-am am--depfiles check check-am clean \
-	clean-binPROGRAMS clean-checkPROGRAMS clean-generic \
-	cscopelist-am ctags ctags-am distclean distclean-compile \
-	distclean-generic distclean-tags distdir dvi dvi-am html \
-	html-am info info-am install install-am install-binPROGRAMS \
-	install-data install-data-am install-dvi install-dvi-am \
-	install-exec install-exec-am install-html install-html-am \
-	install-info install-info-am install-man install-pdf \
-	install-pdf-am install-ps install-ps-am install-strip \
-	installcheck installcheck-am installdirs maintainer-clean \
-	maintainer-clean-generic mostlyclean mostlyclean-compile \
-	mostlyclean-generic pdf pdf-am ps ps-am tags tags-am uninstall \
-	uninstall-am uninstall-binPROGRAMS
+	clean-binPROGRAMS clean-generic cscopelist-am ctags ctags-am \
+	distclean distclean-compile distclean-generic distclean-tags \
+	distdir dvi dvi-am html html-am info info-am install \
+	install-am install-binPROGRAMS install-data install-data-am \
+	install-dvi install-dvi-am install-exec install-exec-am \
+	install-html install-html-am install-info install-info-am \
+	install-man install-pdf install-pdf-am install-ps \
+	install-ps-am install-strip installcheck installcheck-am \
+	installdirs maintainer-clean maintainer-clean-generic \
+	mostlyclean mostlyclean-compile mostlyclean-generic pdf pdf-am \
+	ps ps-am tags tags-am uninstall uninstall-am \
+	uninstall-binPROGRAMS
 
 .PRECIOUS: Makefile
 

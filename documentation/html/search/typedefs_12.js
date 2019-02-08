@@ -17,6 +17,7 @@ var searchData=
   ['theirrepssu2factory',['TheIrrepsSU2Factory',['../d1/daf/namespaceHadron.html#a48c24ae97c1fd9057ed63227b8d89834',1,'Hadron']]],
   ['theirrepssu2subgroupfactory',['TheIrrepsSU2SubGroupFactory',['../dc/dc6/namespaceHadron_1_1IrrepsSU3Env.html#a9181cfdbbaf06ae969f8608df49cdd7b',1,'Hadron::IrrepsSU3Env']]],
   ['theirrepssu3reginfofactory',['TheIrrepsSU3RegInfoFactory',['../dc/dc6/namespaceHadron_1_1IrrepsSU3Env.html#afae3999d49fb44dd4174d52c7857e0a0',1,'Hadron::IrrepsSU3Env']]],
+  ['thekfactorfactory',['TheKFactorFactory',['../d2/d46/k__factor__factory_8h.html#abd940d192f6b2a2b0c0ec15a2e0e91f4',1,'k_factor_factory.h']]],
   ['thelatticegroupsfactory',['TheLatticeGroupsFactory',['../d1/daf/namespaceHadron.html#a02f5300bae0fd0f2966756ba9c021b49',1,'Hadron']]],
   ['thesubducetablefactory',['TheSubduceTableFactory',['../d1/daf/namespaceHadron.html#a48cb722d69c0afc5a2ebda0eaf6fea13',1,'Hadron']]],
   ['thread_5finfo_5ft',['thread_info_t',['../d0/d68/tread-th_8c.html#a9b5e9da8d3952d6ccc173282d0a5fcf8',1,'tread-th.c']]],

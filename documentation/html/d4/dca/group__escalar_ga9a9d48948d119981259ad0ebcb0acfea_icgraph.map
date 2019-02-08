@@ -1,6 +1,9 @@
 <map id="ENSEM::atan2" name="ENSEM::atan2">
-<area shape="rect" id="node1" title="EScalar = atan2(EScalar, EScalar)" alt="" coords="266,55,375,80"/>
-<area shape="rect" id="node2" href="$d1/d9e/group__eensem.html#ga4a9f9b7400c5d7cbbb6f6118ca6a3c47" title="Ensem = atan2(Ensem, Ensem)" alt="" coords="57,5,166,31"/>
-<area shape="rect" id="node3" href="$d0/d07/structFnArcTan2.html#a919de5b0c020758f5280cc89b30e6133" title=" " alt="" coords="36,55,187,80"/>
-<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#ada689173e1553ad2f452af24028eae2f" title="Return rotation angles for a vector to a canonical direction." alt="" coords="5,104,218,129"/>
+<area shape="rect" id="node1" title="EScalar = atan2(EScalar, EScalar)" alt="" coords="715,55,824,80"/>
+<area shape="rect" id="node2" href="$d1/d9e/group__eensem.html#ga4a9f9b7400c5d7cbbb6f6118ca6a3c47" title="Ensem = atan2(Ensem, Ensem)" alt="" coords="506,5,615,31"/>
+<area shape="rect" id="node3" href="$d0/d07/structFnArcTan2.html#a919de5b0c020758f5280cc89b30e6133" title=" " alt="" coords="485,55,636,80"/>
+<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#ada689173e1553ad2f452af24028eae2f" title="Return rotation angles for a vector to a canonical direction." alt="" coords="454,104,667,129"/>
+<area shape="rect" id="node5" href="$d1/d4c/namespaceLittleGrp.html#a93937e135b6b9c963ae9ad26516e252d" title=" " alt="" coords="271,104,406,129"/>
+<area shape="rect" id="node6" href="$d6/d3c/namespacePh.html#ad2fd8f885053b0833441c8388a9218b8" title=" " alt="" coords="104,104,223,129"/>
+<area shape="rect" id="node7" href="$d0/d58/ckfac__w__sud_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,104,56,129"/>
 </map>

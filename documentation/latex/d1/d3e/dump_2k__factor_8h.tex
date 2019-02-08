@@ -1,0 +1,66 @@
+\hypertarget{dump_2k__factor_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/compute\+\_\+\+Kfactors/dump/k\+\_\+factor.h File Reference}
+\label{dump_2k__factor_8h}\index{/Users/archanar/Kinematic\_factor/compute\_Kfactors/dump/k\_factor.h@{/Users/archanar/Kinematic\_factor/compute\_Kfactors/dump/k\_factor.h}}
+{\ttfamily \#include $<$Eigen/\+Dense$>$}\newline
+{\ttfamily \#include $<$float.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}levi\+\_\+civita.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}kfac\+\_\+utils.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}phase.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}pol\+\_\+vec.\+h\char`\"{}}\newline
+Include dependency graph for k\+\_\+factor.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d0c/dump_2k__factor_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{d1/dad/dump_2k__factor_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceKFac}{K\+Fac}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{dump_2k__factor_8h_a7a2deeb0dadc5494cdf32626bfd01f49}{U\+L\+P\+\_\+N}}~8
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespaceKFac_a07acf360038cc03b8c6bd73f6724a7f5}{K\+Fac\+::nearlyequal}} (complex$<$ double $>$ \&a, complex$<$ double $>$ \&b)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a02b5c2876eea15ce628ac7cc58a4b746}{K\+Fac\+::\+K\+Fac\+S\+VV}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a4cb65a4089c62e25d5511e2711fed59d}{K\+Fac\+::\+K\+Fac\+S\+SV}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a3226cfdfe24c39b0713ca6ede04de295}{K\+Fac\+::\+K\+Facold}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, Eigen\+::\+Matrix\+Xcd \&Sub1, Eigen\+::\+Matrix\+Xcd \&Sub\+Curr, Eigen\+::\+Matrix\+Xcd \&Sub3)
+\item 
+Eigen\+::\+Matrix\+Xcd \mbox{\hyperlink{namespaceKFac_ac23a25c1e9762e3c46e69835193075df}{K\+Fac\+::sub\+Ph\+Sum}} (map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub2, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
+\item 
+Eigen\+::\+Matrix\+Xcd \mbox{\hyperlink{namespaceKFac_a3eefd3c3b1834112b9b76444ef00895e}{K\+Fac\+::sub\+Sum}} (map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub2)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_ac10b1bd8db1661c292e327a3eabcebb9}{K\+Fac\+::\+Kinematic\+Factorwith\+Phase}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a87a5304db9d4c659637da23e363cf4a4}{K\+Fac\+::\+Kinematic\+Factorwith\+Phase\+\_\+j0}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a2f18ad8b36ac24cc9534755cccb8c780}{K\+Fac\+::\+K\+FacwoS}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, std\+::vector$<$ double $>$ \&r3, double \&mom3\+\_\+sq, const int \&two\+\_\+lam3, double \&m3\+\_\+sq, std\+::vector$<$ double $>$ \&r\+\_\+curr, double \&mom\+\_\+curr\+\_\+sq, const int \&two\+\_\+lam\+\_\+curr, double \&m\+\_\+curr\+\_\+sq)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a2ae9d69821729f6946651703e8990e58}{K\+Fac\+::\+K\+Facwo\+SwP}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, const int \&two\+\_\+lam1, std\+::vector$<$ double $>$ \&r3, double \&mom3\+\_\+sq, const int \&two\+\_\+lam3, double \&m3\+\_\+sq, std\+::vector$<$ double $>$ \&r\+\_\+curr, double \&mom\+\_\+curr\+\_\+sq, const int \&two\+\_\+lam\+\_\+curr, double \&m\+\_\+curr\+\_\+sq, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{dump_2k__factor_8h_a7a2deeb0dadc5494cdf32626bfd01f49}\label{dump_2k__factor_8h_a7a2deeb0dadc5494cdf32626bfd01f49}} 
+\index{k\_factor.h@{k\_factor.h}!ULP\_N@{ULP\_N}}
+\index{ULP\_N@{ULP\_N}!k\_factor.h@{k\_factor.h}}
+\subsubsection{\texorpdfstring{ULP\_N}{ULP\_N}}
+{\footnotesize\ttfamily \#define U\+L\+P\+\_\+N~8}
+

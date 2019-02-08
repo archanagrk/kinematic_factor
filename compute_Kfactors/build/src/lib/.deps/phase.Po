@@ -550,8 +550,7 @@ lib/phase.o: ../../src/lib/phase.cc ../../src/lib/phase.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_lg.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h \
- /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h \
- ../../src/lib/pol_vec.h
+ /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h
 
 ../../src/lib/phase.h:
 
@@ -1662,5 +1661,3 @@ lib/phase.o: ../../src/lib/phase.cc ../../src/lib/phase.h \
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h:
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h:
-
-../../src/lib/pol_vec.h:

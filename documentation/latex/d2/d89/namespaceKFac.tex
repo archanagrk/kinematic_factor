@@ -3,15 +3,25 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a9c2aaf9fd1ca6172ffc09b8cf0c30d0e}{K\+Fac\+S\+VV}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, Eigen\+::\+Matrix\+Xcd \&Sub1, Eigen\+::\+Matrix\+Xcd \&Sub\+Curr, Eigen\+::\+Matrix\+Xcd \&Sub3)
+bool \mbox{\hyperlink{namespaceKFac_a07acf360038cc03b8c6bd73f6724a7f5}{nearlyequal}} (complex$<$ double $>$ \&a, complex$<$ double $>$ \&b)
 \item 
-std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a3fc08fc4d40cb022d9e68ea0e9e39044}{K\+Fac\+S\+SV}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, Eigen\+::\+Matrix\+Xcd \&Sub1, Eigen\+::\+Matrix\+Xcd \&Sub\+Curr, Eigen\+::\+Matrix\+Xcd \&Sub3)
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a02b5c2876eea15ce628ac7cc58a4b746}{K\+Fac\+S\+VV}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a4cb65a4089c62e25d5511e2711fed59d}{K\+Fac\+S\+SV}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a3226cfdfe24c39b0713ca6ede04de295}{K\+Facold}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, Eigen\+::\+Matrix\+Xcd \&Sub1, Eigen\+::\+Matrix\+Xcd \&Sub\+Curr, Eigen\+::\+Matrix\+Xcd \&Sub3)
 \item 
 Eigen\+::\+Matrix\+Xcd \mbox{\hyperlink{namespaceKFac_ac23a25c1e9762e3c46e69835193075df}{sub\+Ph\+Sum}} (map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub2, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
+\item 
+Eigen\+::\+Matrix\+Xcd \mbox{\hyperlink{namespaceKFac_a3eefd3c3b1834112b9b76444ef00895e}{sub\+Sum}} (map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub2)
 \item 
 std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_ac10b1bd8db1661c292e327a3eabcebb9}{Kinematic\+Factorwith\+Phase}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
 \item 
 std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a87a5304db9d4c659637da23e363cf4a4}{Kinematic\+Factorwith\+Phase\+\_\+j0}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub1, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub\+Curr, map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&Sub3, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a2f18ad8b36ac24cc9534755cccb8c780}{K\+FacwoS}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, std\+::vector$<$ double $>$ \&r3, double \&mom3\+\_\+sq, const int \&two\+\_\+lam3, double \&m3\+\_\+sq, std\+::vector$<$ double $>$ \&r\+\_\+curr, double \&mom\+\_\+curr\+\_\+sq, const int \&two\+\_\+lam\+\_\+curr, double \&m\+\_\+curr\+\_\+sq)
+\item 
+std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a2ae9d69821729f6946651703e8990e58}{K\+Facwo\+SwP}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, const int \&two\+\_\+lam1, std\+::vector$<$ double $>$ \&r3, double \&mom3\+\_\+sq, const int \&two\+\_\+lam3, double \&m3\+\_\+sq, std\+::vector$<$ double $>$ \&r\+\_\+curr, double \&mom\+\_\+curr\+\_\+sq, const int \&two\+\_\+lam\+\_\+curr, double \&m\+\_\+curr\+\_\+sq, \mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&phase)
 \item 
 std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a56130e258872427e83c530a5a471cf5c}{Kinematic\+Factor}} (Eigen\+::\+Vector\+Xd \&qp, Eigen\+::\+Vector\+Xd \&qm, Eigen\+::\+Matrix\+Xcd \&Sub1, Eigen\+::\+Matrix\+Xcd \&Sub\+Curr, Eigen\+::\+Matrix\+Xcd \&Sub3)
 \item 
@@ -28,18 +38,32 @@ std\+::complex$<$ double $>$ \mbox{\hyperlink{namespaceKFac_a8a20f176fbf91758f86
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{namespaceKFac_a3fc08fc4d40cb022d9e68ea0e9e39044}\label{namespaceKFac_a3fc08fc4d40cb022d9e68ea0e9e39044}} 
+\mbox{\Hypertarget{namespaceKFac_a3226cfdfe24c39b0713ca6ede04de295}\label{namespaceKFac_a3226cfdfe24c39b0713ca6ede04de295}} 
+\index{KFac@{KFac}!KFacold@{KFacold}}
+\index{KFacold@{KFacold}!KFac@{KFac}}
+\subsubsection{\texorpdfstring{KFacold()}{KFacold()}}
+{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+Facold (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub1,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub\+Curr,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub3 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d89/namespaceKFac_a3226cfdfe24c39b0713ca6ede04de295_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceKFac_a4cb65a4089c62e25d5511e2711fed59d}\label{namespaceKFac_a4cb65a4089c62e25d5511e2711fed59d}} 
 \index{KFac@{KFac}!KFacSSV@{KFacSSV}}
 \index{KFacSSV@{KFacSSV}!KFac@{KFac}}
 \subsubsection{\texorpdfstring{KFacSSV()}{KFacSSV()}}
-{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+Fac\+S\+SV (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub1,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub\+Curr,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub3 }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+Fac\+S\+SV (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub1,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub\+Curr,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub3 }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{d2/d89/namespaceKFac_a3fc08fc4d40cb022d9e68ea0e9e39044_cgraph}
+\includegraphics[width=350pt]{d2/d89/namespaceKFac_a4cb65a4089c62e25d5511e2711fed59d_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -47,21 +71,21 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=242pt]{d2/d89/namespaceKFac_a3fc08fc4d40cb022d9e68ea0e9e39044_icgraph}
+\includegraphics[width=242pt]{d2/d89/namespaceKFac_a4cb65a4089c62e25d5511e2711fed59d_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{namespaceKFac_a9c2aaf9fd1ca6172ffc09b8cf0c30d0e}\label{namespaceKFac_a9c2aaf9fd1ca6172ffc09b8cf0c30d0e}} 
+\mbox{\Hypertarget{namespaceKFac_a02b5c2876eea15ce628ac7cc58a4b746}\label{namespaceKFac_a02b5c2876eea15ce628ac7cc58a4b746}} 
 \index{KFac@{KFac}!KFacSVV@{KFacSVV}}
 \index{KFacSVV@{KFacSVV}!KFac@{KFac}}
 \subsubsection{\texorpdfstring{KFacSVV()}{KFacSVV()}}
-{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+Fac\+S\+VV (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub1,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub\+Curr,  }\item[{Eigen\+::\+Matrix\+Xcd \&}]{Sub3 }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+Fac\+S\+VV (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub1,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub\+Curr,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub3 }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:
 \nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{d2/d89/namespaceKFac_a9c2aaf9fd1ca6172ffc09b8cf0c30d0e_cgraph}
+\includegraphics[width=350pt]{d2/d89/namespaceKFac_a02b5c2876eea15ce628ac7cc58a4b746_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -69,7 +93,51 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=242pt]{d2/d89/namespaceKFac_a9c2aaf9fd1ca6172ffc09b8cf0c30d0e_icgraph}
+\includegraphics[width=242pt]{d2/d89/namespaceKFac_a02b5c2876eea15ce628ac7cc58a4b746_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceKFac_a2f18ad8b36ac24cc9534755cccb8c780}\label{namespaceKFac_a2f18ad8b36ac24cc9534755cccb8c780}} 
+\index{KFac@{KFac}!KFacwoS@{KFacwoS}}
+\index{KFacwoS@{KFacwoS}!KFac@{KFac}}
+\subsubsection{\texorpdfstring{KFacwoS()}{KFacwoS()}}
+{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+FacwoS (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{std\+::vector$<$ double $>$ \&}]{r3,  }\item[{double \&}]{mom3\+\_\+sq,  }\item[{const int \&}]{two\+\_\+lam3,  }\item[{double \&}]{m3\+\_\+sq,  }\item[{std\+::vector$<$ double $>$ \&}]{r\+\_\+curr,  }\item[{double \&}]{mom\+\_\+curr\+\_\+sq,  }\item[{const int \&}]{two\+\_\+lam\+\_\+curr,  }\item[{double \&}]{m\+\_\+curr\+\_\+sq }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d89/namespaceKFac_a2f18ad8b36ac24cc9534755cccb8c780_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=241pt]{d2/d89/namespaceKFac_a2f18ad8b36ac24cc9534755cccb8c780_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceKFac_a2ae9d69821729f6946651703e8990e58}\label{namespaceKFac_a2ae9d69821729f6946651703e8990e58}} 
+\index{KFac@{KFac}!KFacwoSwP@{KFacwoSwP}}
+\index{KFacwoSwP@{KFacwoSwP}!KFac@{KFac}}
+\subsubsection{\texorpdfstring{KFacwoSwP()}{KFacwoSwP()}}
+{\footnotesize\ttfamily complex$<$ double $>$ K\+Fac\+::\+K\+Facwo\+SwP (\begin{DoxyParamCaption}\item[{Eigen\+::\+Vector\+Xd \&}]{qp,  }\item[{Eigen\+::\+Vector\+Xd \&}]{qm,  }\item[{const int \&}]{two\+\_\+lam1,  }\item[{std\+::vector$<$ double $>$ \&}]{r3,  }\item[{double \&}]{mom3\+\_\+sq,  }\item[{const int \&}]{two\+\_\+lam3,  }\item[{double \&}]{m3\+\_\+sq,  }\item[{std\+::vector$<$ double $>$ \&}]{r\+\_\+curr,  }\item[{double \&}]{mom\+\_\+curr\+\_\+sq,  }\item[{const int \&}]{two\+\_\+lam\+\_\+curr,  }\item[{double \&}]{m\+\_\+curr\+\_\+sq,  }\item[{\mbox{\hyperlink{structPh_1_1phChars}{Ph\+::ph\+Chars}} \&}]{phase }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d89/namespaceKFac_a2ae9d69821729f6946651703e8990e58_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{d2/d89/namespaceKFac_a2ae9d69821729f6946651703e8990e58_icgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{namespaceKFac_a56130e258872427e83c530a5a471cf5c}\label{namespaceKFac_a56130e258872427e83c530a5a471cf5c}} 
@@ -172,6 +240,12 @@ Here is the caller graph for this function\+:
 \includegraphics[width=289pt]{d2/d89/namespaceKFac_a87a5304db9d4c659637da23e363cf4a4_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{namespaceKFac_a07acf360038cc03b8c6bd73f6724a7f5}\label{namespaceKFac_a07acf360038cc03b8c6bd73f6724a7f5}} 
+\index{KFac@{KFac}!nearlyequal@{nearlyequal}}
+\index{nearlyequal@{nearlyequal}!KFac@{KFac}}
+\subsubsection{\texorpdfstring{nearlyequal()}{nearlyequal()}}
+{\footnotesize\ttfamily bool K\+Fac\+::nearlyequal (\begin{DoxyParamCaption}\item[{complex$<$ double $>$ \&}]{a,  }\item[{complex$<$ double $>$ \&}]{b }\end{DoxyParamCaption})}
+
 \mbox{\Hypertarget{namespaceKFac_a87e82af0cfc26fdde23953fb315dc9d5}\label{namespaceKFac_a87e82af0cfc26fdde23953fb315dc9d5}} 
 \index{KFac@{KFac}!subPhSum@{subPhSum}}
 \index{subPhSum@{subPhSum}!KFac@{KFac}}
@@ -204,5 +278,19 @@ Here is the caller graph for this function\+:
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d2/d89/namespaceKFac_abb86856b8424632f8f879408ce2cc05b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceKFac_a3eefd3c3b1834112b9b76444ef00895e}\label{namespaceKFac_a3eefd3c3b1834112b9b76444ef00895e}} 
+\index{KFac@{KFac}!subSum@{subSum}}
+\index{subSum@{subSum}!KFac@{KFac}}
+\subsubsection{\texorpdfstring{subSum()}{subSum()}}
+{\footnotesize\ttfamily Eigen\+::\+Matrix\+Xcd K\+Fac\+::sub\+Sum (\begin{DoxyParamCaption}\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub1,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub\+Curr,  }\item[{map$<$ int, Eigen\+::\+Matrix\+Xcd $>$ \&}]{Sub2 }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d89/namespaceKFac_a3eefd3c3b1834112b9b76444ef00895e_icgraph}
 \end{center}
 \end{figure}

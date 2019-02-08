@@ -1,0 +1,9 @@
+PROGRAM TO COMPUTE THE PREFACTORS OF THREE-POINT FUNCTIONS
+
+To compute the prefactors and get the output for redstar:
+
+1. Run compute_matrix_prefactor: this requires an input xml that specifies your J's and P's and masses of each particle and
+                                 the current. The matrix element type - could be a <scalar|vector|vector> etc (Add more functions to                                 the factory if required). The phase for the matrix elements related by rotations can be set to the                                  same value by using the option phase - true.
+
+2. Run gen_redstar_xml:          this has two input xmls: one which specifies the characteristics of lattice used and the second 
+                                 is the output xml of 1. 
