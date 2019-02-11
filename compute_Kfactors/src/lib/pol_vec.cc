@@ -15,31 +15,36 @@ namespace PolVec {
   
   //**********************************************************************************************************************
 
-  Eigen::MatrixXcd getPolz4(double& mom_sq, const int& two_helicity, double& mass_sq){
+  Eigen::MatrixXcd getPolz4(double& mom_sq, const int& two_helicity, double& mass_sq)
+
+  {
   
-  Eigen::MatrixXcd pol_z = Eigen::MatrixXcd::Zero(4,1);    // For spin 1 particles extra polarization degree of freedom
-  
-  typedef std::complex<double> cd;
-  
-  if(two_helicity == 0){
-    if(mass_sq == 0){pol_z << cd(0,0),cd(0,0),cd(0,0),cd(0,0);}            // Massless particles have only two physical polarizations
-      
-      else{
-        if(mom_sq != 0){
-         
-          std::complex<double> energy = std::sqrt(std::complex<double>(mom_sq+mass_sq,0));
-        
-          pol_z << std::sqrt(std::complex<double>(mom_sq/mass_sq,0)) ,cd(0,0),cd(0,0),energy/std::sqrt(std::complex<double>(mass_sq,0));   // k.pol = 0
-          
-        }
-        else{pol_z << cd(0,0),cd(0,0),cd(0,0),cd(1,0);}
-      }}
-      
-      else if(two_helicity == 2){pol_z <<  cd(0,0),cd(-sqrt(0.5),0),cd(0,-sqrt(0.5)),cd(0,0);}        // k.pol = 0
-      else if(two_helicity == -2){pol_z << cd(0,0),cd(sqrt(0.5),0),cd(0,-sqrt(0.5)),cd(0,0);}
+    Eigen::MatrixXcd pol_z = Eigen::MatrixXcd::Zero(4,1);    // For spin 1 particles extra polarization degree of freedom
     
-      else{cerr << "Not valid" << endl; exit(1);}
-      return pol_z;
+    typedef std::complex<double> cd;
+    
+    if(two_helicity == 0){
+      
+      if(mass_sq == 0){pol_z << cd(0,0),cd(0,0),cd(0,0),cd(0,0);}            // Massless particles have only two physical polarizations
+        
+        else{
+          if(mom_sq != 0){
+
+            std::complex<double> energy = std::sqrt(std::complex<double>(mom_sq+mass_sq,0));
+          
+            pol_z << std::sqrt(std::complex<double>(mom_sq/mass_sq,0)) ,cd(0,0),cd(0,0),energy/std::sqrt(std::complex<double>(mass_sq,0));   // k.pol = 0
+            
+          }
+
+          else{pol_z << cd(0,0),cd(0,0),cd(0,0),cd(1,0);}
+        }
+      }
+        
+        else if(two_helicity == 2){pol_z <<  cd(0,0),cd(-sqrt(0.5),0),cd(0,-sqrt(0.5)),cd(0,0);}        // k.pol = 0
+        else if(two_helicity == -2){pol_z << cd(0,0),cd(sqrt(0.5),0),cd(0,-sqrt(0.5)),cd(0,0);}
+      
+        else{cerr << "Not valid" << endl; exit(1);}
+        return pol_z;
   }
   
   //**********************************************************************************************************************
@@ -48,7 +53,9 @@ namespace PolVec {
 
   //**********************************************************************************************************************
 
-  Eigen::MatrixXcd getPolz3(double& mom_sq, const int& two_helicity, double& mass_sq){
+  Eigen::MatrixXcd getPolz3(double& mom_sq, const int& two_helicity, double& mass_sq)
+
+  {
     
     Eigen::MatrixXcd pol_z = Eigen::MatrixXcd::Zero(3,1);    // For spin 1 particles extra polarization degree of freedom
     
@@ -82,7 +89,9 @@ namespace PolVec {
   //**********************************************************************************************************************
 
 
- Eigen::MatrixXcd getPol4(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi){
+ Eigen::MatrixXcd getPol4(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi)
+ 
+ {
    Eigen:: MatrixXcd pol = Eigen::MatrixXcd::Zero(4,1);
    
    Eigen::MatrixXcd pol_z = Eigen::MatrixXcd::Zero(4,1);    // For spin 1 particles extra polarization degree of freedom
@@ -92,7 +101,6 @@ namespace PolVec {
    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z;                              // multiplies by the euler matrix to convert p_ref to p_canonical
 
    return pol;
-
  }
 
   //**********************************************************************************************************************
@@ -101,7 +109,9 @@ namespace PolVec {
 
   //**********************************************************************************************************************
   
-  Eigen::MatrixXcd getPol3(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi){
+  Eigen::MatrixXcd getPol3(double& mom_sq, const int& two_helicity, double& mass_sq, double& phi, double& theta, double& psi)
+  
+  {
     
     Eigen:: MatrixXcd pol = Eigen::MatrixXcd::Zero(3,1);
     
@@ -118,7 +128,5 @@ namespace PolVec {
     
   }
   
-
-
 
 };

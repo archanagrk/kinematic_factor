@@ -13,12 +13,14 @@ std::vector<std::string>  IrrepName::getIrrep(int& twoJ, int& P, string& lg)
 {
 
  std::vector<std::string> Irrep;                                // Irreps for twoJ=0 and Parity = -1
- if (lg == "Oh" && twoJ == 0 && P == -1){
+ if (lg == "Oh" && twoJ == 0){
         Irrep.push_back("A1");
         }
 
- else if(lg != "Oh" && twoJ == 0 && P == -1){
-        Irrep.push_back("A2");
+ else if(lg != "Oh" && twoJ == 0){
+
+       if(P == -1){Irrep.push_back("A2");}     // J=0 and P=-1 can only be H0+ so use the subductions of H0+
+       else{Irrep.push_back("A1");}  
         }
 
 
@@ -26,20 +28,29 @@ std::vector<std::string>  IrrepName::getIrrep(int& twoJ, int& P, string& lg)
          Irrep.push_back("T1");
         }
 
- else if(lg == "D4" && twoJ == 2){
+ else if(lg == "D4" && twoJ == 2){                              // J=1 can have H=0,+-1. Thus all the irreps should be here for H0 and H1.
         Irrep.push_back("E2");
+
+        if(P == -1){ Irrep.push_back("A1"); }
+        else{ Irrep.push_back("A2"); }
         }
 
  else if(lg == "D2" && twoJ == 2){
         Irrep.push_back("B1"); Irrep.push_back("B2");
+
+        if(P == -1){ Irrep.push_back("A1"); }
+        else{ Irrep.push_back("A2"); }
         }
 
  else if(lg == "D3" && twoJ == 2){
         Irrep.push_back("E2");
+
+        if(P == -1){ Irrep.push_back("A1"); }
+        else{ Irrep.push_back("A2"); }
         }
 
  else if(lg == "C4" && twoJ == 2){
- Irrep.push_back("A1"); Irrep.push_back("A2");
+        Irrep.push_back("A1"); Irrep.push_back("A2");
         }
 
  else{

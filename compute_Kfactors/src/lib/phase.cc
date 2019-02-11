@@ -83,6 +83,7 @@ Ph::phChars Ph::phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d 
         n_mom1 << round(n_mom1_f(1,0)), round(n_mom1_f(2,0)), round(n_mom1_f(3,0));
 
 
+
         std::vector<double> r_n_mom1 = LittleGrp::refAngles(n_mom1);
 
 
@@ -93,6 +94,32 @@ Ph::phChars Ph::phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d 
         double mom1_sq = mom1.squaredNorm();
         double mom2_sq = mom2.squaredNorm();
         double mom_curr_sq = mom_curr.squaredNorm();
+
+
+        if((n_mom1 == mom1 && mom2_ref == mom2) || mom_curr_sq == 0) {
+
+
+            for(int two_abs_lam1 = -twoJ1; two_abs_lam1 <= twoJ1; two_abs_lam1 = two_abs_lam1 +2 ){
+                    for(int two_abs_lam2 = -twoJ2; two_abs_lam2 <= twoJ2; two_abs_lam2 = two_abs_lam2 +2 ){
+                        for(int two_abs_lamCurr = -twoJCurr; two_abs_lamCurr <= twoJCurr; two_abs_lamCurr = two_abs_lamCurr +2 ){
+
+                            lambd = std::make_tuple(two_abs_lam1, two_abs_lam2 , two_abs_lamCurr);
+                            ph = 1;
+                            phase_hel.insert( std::make_pair( lambd, ph  ) );
+
+                        }
+                    }
+                }
+
+            out.mom1 = mom1; //mom1
+            out.mom2 = mom2; // mom2
+            out.lam_phase = phase_hel; //phase
+            out.r = MatrixXd::Identity(4, 4);; // the rotation is identity
+
+            return out;
+
+        }
+
 
 
         std::vector<double> r_mom_curr = LittleGrp::refAngles(mom_curr);

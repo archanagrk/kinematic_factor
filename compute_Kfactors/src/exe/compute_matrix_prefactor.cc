@@ -38,8 +38,10 @@ int main(int argc, char** argv){
   for(int j =1;j<=npt;j++){
   read(xml_in, "/hadron/had/elem["+std::to_string(j)+"]/twoJ", had_tmp.twoJ);
   read(xml_in, "/hadron/had/elem["+std::to_string(j)+"]/P", had_tmp.P);
+  read(xml_in, "/hadron/had/elem["+std::to_string(j)+"]/ell", had_tmp.ell);
   read(xml_in, "/hadron/had/elem["+std::to_string(j)+"]/msq", had_tmp.msq);
   read(xml_in, "/hadron/had/elem["+std::to_string(j)+"]/max_mom", had_tmp.max_mom);
+
   had.push_back(had_tmp);
   }
   read(xml_in, "/hadron/matrix_type", matrix_type);
@@ -50,12 +52,12 @@ int main(int argc, char** argv){
   //=================
 
   int two_J1 = had[0].twoJ;
-  int P1  = had[0].P;
+  int P1  = had[0].P*pow(-1,had[0].ell);
   double m1_sq = had[0].msq;
   int two_J2 = had[1].twoJ;
-  int P2 = had[1].P;
+  int P2 = had[1].P*pow(-1,had[1].ell);
   int two_J3 = had[2].twoJ;
-  int P3 = had[2].P;
+  int P3 = had[2].P*pow(-1,had[2].ell);
   double m3_sq = had[2].msq;
   int max_mom1 = had[0].max_mom;
   int max_mom2 = had[1].max_mom;
@@ -64,6 +66,7 @@ int main(int argc, char** argv){
   complex<double> Coeff;
   KFactor* kfac;
   Ph::phChars phase;
+
 
 
   //output xml
@@ -175,9 +178,6 @@ int main(int argc, char** argv){
                                 map< int, Eigen::MatrixXcd > Sub3    = Subduce_with_pol(mom3_sq, m3_sq, two_J3 , rep3, LG3, r3[0], r3[1], r3[2]);
                                 map< int, Eigen::MatrixXcd >SubCurr  = Subduce_with_pol(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
-                                //int helicity1 = Sub1.two_hel/2;
-                                //int helicity_curr = SubCurr.two_hel/2;
-                                //int helicity3 = Sub3.two_hel/2;
 
                                 KFacParams* kfac_params = new KFacParams(Sub1,SubCurr,Sub3,phase,qp,qm);
                                         
@@ -197,8 +197,7 @@ int main(int argc, char** argv){
                                   cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
                                   cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";  
                                   cout << "The factor is:" << Coeff << endl;                              
-
-
+                                  //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
 
                                   //=================
                                   //WRITE THE OUTPUT

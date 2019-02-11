@@ -18,10 +18,12 @@ MatrixXcd KFacParams::subPhSum() const{
   MatrixXcd S2 = MatrixXcd::Zero(4,1);
   MatrixXcd SCurr = MatrixXcd::Zero(4,1);
   Ph::tripKey lambd;  
+
   
   for(map<  int, MatrixXcd  >::const_iterator  it1 = Sub1.begin(); it1 != Sub1.end(); it1++){
     for(map<  int, MatrixXcd >::const_iterator  it2 = Sub3.begin(); it2 != Sub3.end(); it2++){
       for(map<  int, MatrixXcd >::const_iterator  it3 = SubCurr.begin(); it3 != SubCurr.end(); it3++){
+
 
         if((it1->first)+(it2->first)+(it3->first)){continue;}
 
@@ -30,7 +32,6 @@ MatrixXcd KFacParams::subPhSum() const{
           S2 = (it2->second);
           SCurr = (it3->second);
           lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
-          
           sub_phase_sum += phase.lam_phase.find(lambd)->second * S1(2,0) * S2 * (SCurr.transpose()).conjugate();
 
 
@@ -40,6 +41,7 @@ MatrixXcd KFacParams::subPhSum() const{
     }
   }
 
+  //cout << sub_phase_sum << endl;
   return sub_phase_sum;
 };
 

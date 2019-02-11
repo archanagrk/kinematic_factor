@@ -67,6 +67,7 @@ struct hadron{
 
   int twoJ;
   int P;
+  int ell;
   double msq;
   double max_mom;
 
