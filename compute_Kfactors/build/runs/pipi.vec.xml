@@ -23,7 +23,7 @@
         <max_mom>8</max_mom>
     </elem>
   </had>
-  <matrix_type>kin_fac_scalar_vector_vector</matrix_type>
-  <phase>false</phase>
+  <matrix_type>kin_fac_scalar_vector_vector_with_ph_corr</matrix_type>
+  <phase>true</phase>
 </hadron>
 

@@ -24,18 +24,12 @@ MatrixXcd KFacParams::subPhSum() const{
     for(map<  int, MatrixXcd >::const_iterator  it2 = Sub3.begin(); it2 != Sub3.end(); it2++){
       for(map<  int, MatrixXcd >::const_iterator  it3 = SubCurr.begin(); it3 != SubCurr.end(); it3++){
 
+        S1 = (it1->second);
+        S2 = (it2->second);
+        SCurr = (it3->second);
+        lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
+        sub_phase_sum += phase.lam_phase.find(lambd)->second * S1(2,0) * S2 * (SCurr.transpose()).conjugate();
 
-        if((it1->first)+(it2->first)+(it3->first)){continue;}
-
-        else{
-          S1 = (it1->second);
-          S2 = (it2->second);
-          SCurr = (it3->second);
-          lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
-          sub_phase_sum += phase.lam_phase.find(lambd)->second * S1(2,0) * S2 * (SCurr.transpose()).conjugate();
-
-
-        }
         
       }   
     }
@@ -54,11 +48,9 @@ Ph::tripKey KFacParams::two_abs_lam() const{
   for(map<  int, MatrixXcd  >::const_iterator  it1 = Sub1.begin(); it1 != Sub1.end(); it1++){
     for(map<  int, MatrixXcd >::const_iterator  it2 = Sub3.begin(); it2 != Sub3.end(); it2++){
       for(map<  int, MatrixXcd >::const_iterator  it3 = SubCurr.begin(); it3 != SubCurr.end(); it3++){
-        if((it1->first)+(it2->first)+(it3->first)){continue;}
-        else{
-          twice_abs_lam = std::make_tuple(abs(it1->first),abs(it2->first),abs(it3->first));
-          break;
-        }
+         
+        twice_abs_lam = std::make_tuple(abs(it1->first),abs(it2->first),abs(it3->first));
+
       }
     }
   }

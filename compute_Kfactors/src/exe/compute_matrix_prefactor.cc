@@ -67,6 +67,14 @@ int main(int argc, char** argv){
   KFactor* kfac;
   Ph::phChars phase;
 
+  complex<double> r_Coeff;
+  KFactor* r_kfac;
+  Ph::phChars r_phase;
+
+  complex<double> l_Coeff;
+  KFactor* l_kfac;
+  Ph::phChars l_phase;
+
 
 
   //output xml
@@ -81,7 +89,7 @@ int main(int argc, char** argv){
 
   int count =0;
 
-  Vector3d mom1(3,1);    Vector3d mom3(3,1);    Vector3d mom_curr(3,1);    Vector3d n_mom_curr(3,1);
+  Vector3d mom1(3,1);    Vector3d mom3(3,1);    Vector3d mom_curr(3,1);    Vector3d r_mom_curr(3,1);    Vector3d l_mom_curr(3,1);
 
   // Looping over all mom_1
   for(int i=-int(sqrt(max_mom1)); i <= int(sqrt(max_mom1)); i++){
@@ -112,34 +120,50 @@ int main(int argc, char** argv){
                   if(max_mom2 >= mom_curr_sq){
 
 
-                    phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false);
+                    r_phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false, true);
+                    l_phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false, false);
+                    phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, false, false);
 
-                    double n_mom1_sq = phase.mom1.squaredNorm();
-                    double n_mom3_sq = phase.mom2.squaredNorm();
 
-                    n_mom_curr = phase.mom2 - phase.mom1;
+                    r_mom_curr = r_phase.mom2 - r_phase.mom1; l_mom_curr = l_phase.mom2 - l_phase.mom1;
 
 
 
                     VectorXd  qp(4,1);  VectorXd  qm(4,1);    // q+ = (p1-p2) q- = (p1+p2)
-
+                    VectorXd  r_qp(4,1);  VectorXd  r_qm(4,1);    // q+ = R(p1-p2) q- = R(p1+p2)
+                    VectorXd  l_qp(4,1);  VectorXd  l_qm(4,1);    // q+ = R(p1-p2) q- = R(p1+p2)
                     
-                    qp << (sqrt(m1_sq+n_mom1_sq)+sqrt(m3_sq+n_mom3_sq)),-(phase.mom1(0) + phase.mom2(0)),-(phase.mom1(1) + phase.mom2(1)),-(phase.mom1(2) + phase.mom2(2));
-                    qm  << (sqrt(m3_sq+n_mom3_sq)-sqrt(m1_sq+n_mom1_sq)),-(phase.mom2(0)-phase.mom1(0)),-(phase.mom2(1)-phase.mom1(1)),-(phase.mom2(2)-phase.mom1(2));
+                    r_qp << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),-(r_phase.mom1(0) + r_phase.mom2(0)),-(r_phase.mom1(1) + r_phase.mom2(1)),-(r_phase.mom1(2) + r_phase.mom2(2));
+                    r_qm  << (sqrt(m3_sq+mom3_sq)-sqrt(m1_sq+mom1_sq)),-(r_phase.mom2(0)-r_phase.mom1(0)),-(r_phase.mom2(1)-r_phase.mom1(1)),-(r_phase.mom2(2)-r_phase.mom1(2));
+
+                    l_qp << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),-(l_phase.mom1(0) + l_phase.mom2(0)),-(l_phase.mom1(1) + l_phase.mom2(1)),-(l_phase.mom1(2) + l_phase.mom2(2));
+                    l_qm  << (sqrt(m3_sq+mom3_sq)-sqrt(m1_sq+mom1_sq)),-(l_phase.mom2(0)-l_phase.mom1(0)),-(l_phase.mom2(1)-l_phase.mom1(1)),-(l_phase.mom2(2)-l_phase.mom1(2));
 
 
-                    double m_curr_sq =  pow(sqrt(n_mom3_sq + m3_sq)-sqrt(n_mom1_sq + m1_sq) ,2) - n_mom_curr.squaredNorm();
+                    qp << (sqrt(m1_sq+mom1_sq)+sqrt(m3_sq+mom3_sq)),-(mom1(0) + mom3(0)),-(mom1(1) + mom3(1)),-(mom1(2) + mom3(2));
+                    qm  << (sqrt(m3_sq+mom3_sq)-sqrt(m1_sq+mom1_sq)),-(mom3(0)-mom1(0)),-(mom3(1)-mom1(1)),-(mom3(2)-mom1(2));
 
 
-                    string LG1 = generateLittleGroup(phase.mom1);
-                    string LG3 = generateLittleGroup(phase.mom2);
-                    string LG_curr = generateLittleGroup(n_mom_curr);
+                    double m_curr_sq =  pow(sqrt(mom3_sq + m3_sq)-sqrt(mom1_sq + m1_sq) ,2) - mom_curr.squaredNorm();
+
+
+                    string LG1 = generateLittleGroup(mom1);
+                    string LG3 = generateLittleGroup(mom3);
+                    string LG_curr = generateLittleGroup(mom_curr);
 
 
                     //the ref angles for each mom from adat
-		                std::vector<double> r1 = refAngles(phase.mom1);
-		                std::vector<double> r_curr = refAngles(n_mom_curr);
-		                std::vector<double> r3 = refAngles(phase.mom2);                       
+		                std::vector<double> r_r1 = refAngles(r_phase.mom1);
+		                std::vector<double> r_r_curr = refAngles(r_mom_curr);
+		                std::vector<double> r_r3 = refAngles(r_phase.mom2);    
+
+		                std::vector<double> l_r1 = refAngles(l_phase.mom1);
+		                std::vector<double> l_r_curr = refAngles(l_mom_curr);
+		                std::vector<double> l_r3 = refAngles(l_phase.mom2);    
+
+		                std::vector<double> r1 = refAngles(mom1);
+		                std::vector<double> r_curr = refAngles(mom_curr);
+		                std::vector<double> r3 = refAngles(mom3);                     
                        
 
                     std::vector<std::string> irrep1 = getIrrep(two_J1,P1,LG1);
@@ -179,25 +203,51 @@ int main(int argc, char** argv){
                                 map< int, Eigen::MatrixXcd >SubCurr  = Subduce_with_pol(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2]);
 
 
+                                map< int, Eigen::MatrixXcd > r_Sub1    = Subduce_with_pol(mom1_sq, m1_sq, two_J1 , rep1, LG1, r_r1[0], r_r1[1], r_r1[2]);
+                                map< int, Eigen::MatrixXcd > r_Sub3    = Subduce_with_pol(mom3_sq, m3_sq, two_J3 , rep3, LG3, r_r3[0], r_r3[1], r_r3[2]);
+                                map< int, Eigen::MatrixXcd > r_SubCurr = Subduce_with_pol(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_r_curr[0], r_r_curr[1], r_r_curr[2]);
+
+
+                                map< int, Eigen::MatrixXcd > l_Sub1    = Subduce_with_pol(mom1_sq, m1_sq, two_J1 , rep1, LG1, l_r1[0], l_r1[1], l_r1[2]);
+                                map< int, Eigen::MatrixXcd > l_Sub3    = Subduce_with_pol(mom3_sq, m3_sq, two_J3 , rep3, LG3, l_r3[0], l_r3[1], l_r3[2]);
+                                map< int, Eigen::MatrixXcd > l_SubCurr = Subduce_with_pol(mom_curr_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, l_r_curr[0], l_r_curr[1], l_r_curr[2]);
+
+
                                 KFacParams* kfac_params = new KFacParams(Sub1,SubCurr,Sub3,phase,qp,qm);
-                                        
+                                KFacParams* r_kfac_params = new KFacParams(r_Sub1,r_SubCurr,r_Sub3,r_phase,r_qp,r_qm);
+                                KFacParams* l_kfac_params = new KFacParams(l_Sub1,l_SubCurr,l_Sub3,l_phase,l_qp,l_qm);
+
                                 // for scalar vector with vector insertion
 
                                 XMLReader xml;
                                 kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
+                                r_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
+                                l_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
+
 
                                 Coeff = (*kfac)(*kfac_params);
+                                r_Coeff = (*r_kfac)(*r_kfac_params);
+                                l_Coeff = (*l_kfac)(*l_kfac_params);                                
 
                                 Ph::tripKey two_abs_lam = (*kfac_params).two_abs_lam();
                                   
 
                                 if(std::real(Coeff) || std::imag(Coeff)){
-                                  
+
                                   cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
-                                  cout << mom_curr.transpose()  << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
-                                  cout << mom3.transpose()  << rep3.irrep << "["<< rep3.row <<"]"<< "\n";  
-                                  cout << "The factor is:" << Coeff << endl;                              
-                                  //cout << "The abs_factor is:" << pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) << "\n";
+                                  cout << mom_curr.transpose() << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
+                                  cout << mom3.transpose() << rep3.irrep << "["<< rep3.row <<"]"<< "\n";  
+
+
+                                  if(pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) == pow(std::real(r_Coeff),2)+pow(std::imag(r_Coeff),2)){
+                                    cout << "The factor is:" << r_Coeff << endl;
+                                  } 
+                                  else if(pow(std::real(Coeff),2)+pow(std::imag(Coeff),2) == pow(std::real(l_Coeff),2)+pow(std::imag(l_Coeff),2)){
+                                    cout << "The factor is:" << l_Coeff << endl;
+                                  } 
+                                  else{cout << "The factor is:" << Coeff << endl;}
+
+
 
                                   //=================
                                   //WRITE THE OUTPUT
@@ -231,6 +281,8 @@ int main(int argc, char** argv){
                                   write(xml_out, "psq", mom3_sq);
                                   write(xml_out, "abs_lam", get<1>(two_abs_lam));
                                   pop(xml_out);
+                                  write(xml_out, "Coeff_real", std::real(Coeff));
+                                  write(xml_out, "Coeff_imag", std::imag(Coeff));
                                   pop(xml_out);
                                   count++;
 

@@ -30,7 +30,7 @@ namespace Ph {
 
   /* Compute the phase factor after rotation of a helicity operator or state from Appendix A of Shulz paper */
 
-  Ph::phChars phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d mom1, Eigen::Vector3d mom2, bool compute);
+  Ph::phChars phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d mom1, Eigen::Vector3d mom2, bool compute, bool right);
 
 
 

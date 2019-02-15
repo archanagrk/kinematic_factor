@@ -17,7 +17,7 @@ complex<double> KfacSSV::operator()( const KFacParams& params ) const {
     }}
   }
 
-  Coeff = {KfUt::truncate(Coeff.real(),10),KfUt::truncate(Coeff.imag(),10)};
+  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
   return Coeff;
 };
 //*****************************************************************************************************************
@@ -37,7 +37,7 @@ complex<double> KfacSVV::operator()( const KFacParams& params ) const {
     }}
   }}
 
-  Coeff = {KfUt::truncate(Coeff.real(),10),KfUt::truncate(Coeff.imag(),10)};
+  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
   return Coeff;
       
 };
@@ -59,7 +59,7 @@ complex<double> KfacSSVwPhCorr::operator()( const KFacParams& params ) const {
     }}
   }
 
-  Coeff = {KfUt::truncate(Coeff.real(),10),KfUt::truncate(Coeff.imag(),10)};
+  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
   return Coeff;
 
 };
@@ -81,7 +81,7 @@ complex<double> KfacSVVwPhCorr::operator()( const KFacParams& params ) const {
     }}
   }}
 
-  Coeff = {KfUt::truncate(Coeff.real(),10),KfUt::truncate(Coeff.imag(),10)};
+  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
   return Coeff;
 
 };
