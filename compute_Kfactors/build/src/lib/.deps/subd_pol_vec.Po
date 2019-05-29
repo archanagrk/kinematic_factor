@@ -464,30 +464,29 @@ lib/subd_pol_vec.o: ../../src/lib/subd_pol_vec.cc \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/xml_attribute.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/xpath_reader.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/basic_xpath_reader.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlmemory.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlversion.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlexports.h \
- /Users/archanar/anaconda/include/libxml2/libxml/threads.h \
- /Users/archanar/anaconda/include/libxml2/libxml/globals.h \
- /Users/archanar/anaconda/include/libxml2/libxml/parser.h \
- /Users/archanar/anaconda/include/libxml2/libxml/tree.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlstring.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlregexp.h \
- /Users/archanar/anaconda/include/libxml2/libxml/dict.h \
- /Users/archanar/anaconda/include/libxml2/libxml/hash.h \
- /Users/archanar/anaconda/include/libxml2/libxml/valid.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlerror.h \
- /Users/archanar/anaconda/include/libxml2/libxml/list.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlautomata.h \
- /Users/archanar/anaconda/include/libxml2/libxml/entities.h \
- /Users/archanar/anaconda/include/libxml2/libxml/encoding.h \
- /Users/archanar/anaconda/include/iconv.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xmlIO.h \
- /Users/archanar/anaconda/include/libxml2/libxml/SAX.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xlink.h \
- /Users/archanar/anaconda/include/libxml2/libxml/SAX2.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xpath.h \
- /Users/archanar/anaconda/include/libxml2/libxml/xpathInternals.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlmemory.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlversion.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlexports.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/threads.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/globals.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/parser.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/tree.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlstring.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlregexp.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/dict.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/hash.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/valid.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlerror.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/list.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlautomata.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/entities.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/encoding.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/iconv.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlIO.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/SAX2.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xlink.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xpath.h \
+ /usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xpathInternals.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/xml_document.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/xml_tcomplex.h \
  /Users/archanar/Kinematic_factor/adat_devel_install/include/adat/singleton.h \
@@ -1486,53 +1485,51 @@ lib/subd_pol_vec.o: ../../src/lib/subd_pol_vec.cc \
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/basic_xpath_reader.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlmemory.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlmemory.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlversion.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlversion.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlexports.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlexports.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/threads.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/threads.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/globals.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/globals.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/parser.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/parser.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/tree.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/tree.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlstring.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlstring.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlregexp.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlregexp.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/dict.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/dict.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/hash.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/hash.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/valid.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/valid.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlerror.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlerror.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/list.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/list.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlautomata.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlautomata.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/entities.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/entities.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/encoding.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/encoding.h:
 
-/Users/archanar/anaconda/include/iconv.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/iconv.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xmlIO.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xmlIO.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/SAX.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/SAX2.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xlink.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xlink.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/SAX2.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xpath.h:
 
-/Users/archanar/anaconda/include/libxml2/libxml/xpath.h:
-
-/Users/archanar/anaconda/include/libxml2/libxml/xpathInternals.h:
+/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2/libxml/xpathInternals.h:
 
 /Users/archanar/Kinematic_factor/adat_devel_install/include/xml_document.h:
 

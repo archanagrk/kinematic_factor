@@ -1,0 +1,131 @@
+\hypertarget{adat__devel_2lib_2hadron_2single__hadron__coeffs_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/single\+\_\+hadron\+\_\+coeffs.cc File Reference}
+\label{adat__devel_2lib_2hadron_2single__hadron__coeffs_8cc}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/single\_hadron\_coeffs.cc@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/single\_hadron\_coeffs.cc}}
+
+
+Single hadron coefficients.  
+
+
+{\ttfamily \#include \char`\"{}single\+\_\+hadron\+\_\+coeffs.\+h\char`\"{}}\newline
+Include dependency graph for single\+\_\+hadron\+\_\+coeffs.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/dc0/adat__devel_2lib_2hadron_2single__hadron__coeffs_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a0dfff614f40f815cfb78d828c07bc8aa}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Single\+Hadron\+Quark\+Spin\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a35b28e298745916c37daa929a874e099}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Single\+Hadron\+Quark\+Spin\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a536d0c7d1bd20e64ba84b0588b3696f9}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Single\+Hadron\+Quark\+Spin\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a02133bc62e51d4baa57fb5ba0742ff43}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Single\+Hadron\+Quark\+Spin\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a780fbaaa0f7e3ba3453b4994b3ecd7d0}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Single\+Hadron\+Quark\+Spin\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_af9e168289a71f406cf53d10783cc513c}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s1)
+\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a1ff2284ca0eec3b56aa1c075484c995f}{Hadron\+::operator$\ast$}} (double s1, const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Multiply a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_ab9e06323f5f25fbcb53926b3898935a6}{Hadron\+::operator$\ast$}} (const std\+::complex$<$ double $>$ \&s1, const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Multiply a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_af6e03647b0a1cac007a84d630c583dcb}{Hadron\+::operator-\/}} (const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Negate. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a47e695607c9fe7e70da22c43d0065b91}{Hadron\+::operator-\/}} (const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s1, const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Subtract two expressions. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a9ca80acd77b748f912b330709f8c294a}{Hadron\+::operator+}} (const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s1, const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Add two expressions. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a5b62c8e194d4e04483d980199eff43fa}{Hadron\+::conj}} (const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s1)
+\begin{DoxyCompactList}\small\item\em Conjugate the imaginary parts -\/ down inside spin. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a3ea046027140669df443a45763de3e2c}{Hadron\+::fold\+Source\+DP}} (const Map\+Single\+Hadron\+Quark\+Spin\+\_\+t \&s1, bool src)
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_af6547a2cdd6369eda030067e469096bf}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Single\+Hadron\+Quark\+Deriv\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a0b9e3ade4af9d7765000d9cd6477956e}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Single\+Hadron\+Quark\+Deriv\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a2e0c9a892aa8790addf90c28db1eaf28}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Single\+Hadron\+Quark\+Deriv\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ad5dee2ca1e22f01bd860ef607035e36f}{Hadron\+::read}} (Binary\+Reader \&bin, Single\+Hadron\+Quark\+Deriv\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_aca06b6220f81ed284c829138c237b84e}{Hadron\+::write}} (Binary\+Writer \&bin, const Single\+Hadron\+Quark\+Deriv\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a4875d0c001c7eed8b1cb2f65a5e9fb6f}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a41f47831ad3fb4b08af916cdee176a33}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_ad598d89ca80f65de661af491b2ee51e2}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a14726c9fa76350682d7ef85457af512b}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a3d7c7b8fcc5310fee44294d5900816fb}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a800dbac093bd07f370068965de5868b3}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s1)
+\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_a559c56047e1679b244bd6770b9f3c3b8}{Hadron\+::operator$\ast$}} (double s1, const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Multiply a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_aee77eafb416d7080a53fa0bd52528d11}{Hadron\+::operator$\ast$}} (const std\+::complex$<$ double $>$ \&s1, const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Multiply a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_a3420e25a6674cbce229ba6b98f1fa85a}{Hadron\+::operator-\/}} (const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Negate. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_a064800b32b071a140c16ef8416cfa165}{Hadron\+::operator-\/}} (const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s1, const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Subtract two expressions. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_afa83538fb097946f87e6f98180c378b5}{Hadron\+::operator+}} (const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s1, const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Add two expressions. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_aee22779796ebd9e7ee8772c1eb965b6c}{Hadron\+::operator/}} (const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s1, double s2)
+\begin{DoxyCompactList}\small\item\em Divide a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_a218b77b239d871def6267d4b34bdf7c1}{Hadron\+::conj}} (const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s1)
+\begin{DoxyCompactList}\small\item\em Conjugate the imaginary parts -\/ down inside spin. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \mbox{\hyperlink{namespaceHadron_af80d375e34002f168b53c74370f8dd3a}{Hadron\+::fold\+Source\+DP}} (const Map\+Single\+Hadron\+Quark\+Deriv\+\_\+t \&s1, bool src)
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a7b979b64d9a0ab8025031a090f9494c0}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Single\+Hadron\+Quark\+Flavor\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_af2bd5c5dd10efe01fefda4ec1c5ce04d}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Single\+Hadron\+Quark\+Flavor\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_aa1f03b8b2d78349da848f9a9bcf19e33}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Single\+Hadron\+Quark\+Flavor\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ae80a1bcfb7767fb7993d4a439d6493ba}{Hadron\+::read}} (Binary\+Reader \&bin, Single\+Hadron\+Quark\+Flavor\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a2994f8fc2ad609574b948b8671232dd8}{Hadron\+::write}} (Binary\+Writer \&bin, const Single\+Hadron\+Quark\+Flavor\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_ac39a55fe17a7ba63e515041398ff55e4}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Single\+Hadron\+Quark\+Flavor\+Color\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a3b1ec7d213815eedf06fcd0e518eb5d3}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Single\+Hadron\+Quark\+Flavor\+Color\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a64d17f6dc5e4987b14cc4a2d33401b7c}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Single\+Hadron\+Quark\+Flavor\+Color\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_afc23e5e61669cc277e94a613ee812b0f}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Single\+Hadron\+Quark\+Flavor\+Color\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a36eb0d304eb3644075b1598cde742d87}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Single\+Hadron\+Quark\+Flavor\+Color\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_aa68c7efacb8bc21a4d87aede8544def5}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s1)
+\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_af8f26e76a642072270a910f3326d758f}{Hadron\+::operator$\ast$}} (double s1, const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Multiply a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_afeecee88605be038ceda273e796e53fd}{Hadron\+::operator$\ast$}} (const std\+::complex$<$ double $>$ \&s1, const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Multiply a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a2cee38a50a5e1ed5fbff1d9e4df08bdd}{Hadron\+::operator-\/}} (const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Negate. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_ad7c424c3185becdcc1423060951ff98e}{Hadron\+::operator-\/}} (const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s1, const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Subtract two expressions. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a168571d9c710321169dad756440c1952}{Hadron\+::operator+}} (const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s1, const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s2)
+\begin{DoxyCompactList}\small\item\em Add two expressions. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_ae43d51b030dac0dd81991cf7c401507a}{Hadron\+::operator/}} (const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s1, double s2)
+\begin{DoxyCompactList}\small\item\em Divde a number onto an expression. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a225bbef2231c488eb28201396913bae0}{Hadron\+::conj}} (const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s1)
+\begin{DoxyCompactList}\small\item\em Conjugate the imaginary parts -\/ down inside spin. \end{DoxyCompactList}\item 
+Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \mbox{\hyperlink{namespaceHadron_a273b8ceda53ab61615d67cead7c42d94}{Hadron\+::fold\+Source\+DP}} (const Map\+Single\+Hadron\+Quark\+Flavor\+Color\+Spin\+\_\+t \&s2, bool src)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Single hadron coefficients. 
+

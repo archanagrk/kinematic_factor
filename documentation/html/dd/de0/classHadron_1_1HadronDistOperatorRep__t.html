@@ -80,7 +80,7 @@ $(function() {
 <p>Distillution and spin matrix element.  
  <a href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/dd3/hadron__dist__obj_8h_source.html">hadron_dist_obj.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/d9d/adat-devel_2lib_2hadron_2do__not__use_2hadron__dist__obj_8h_source.html">hadron_dist_obj.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -90,6 +90,12 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a670c7409bfd80616aeb0159590bcdb6b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a></td></tr>
+<tr class="separator:a670c7409bfd80616aeb0159590bcdb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f37383ae57b1d0bbf944d698a10382"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a></td></tr>
+<tr class="separator:a40f37383ae57b1d0bbf944d698a10382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28874b1705be0d32099d426de9fb44c0"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a>, <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a>, <a class="el" href="../../dd/d81/structADAT_1_1UnorderedMapTraits.html">UnorderedMapTraits</a>&lt; <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a> &gt;, <a class="el" href="../../dd/d81/structADAT_1_1UnorderedMapTraits.html">UnorderedMapTraits</a>&lt; <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a28874b1705be0d32099d426de9fb44c0">MapType_t</a></td></tr>
+<tr class="separator:a28874b1705be0d32099d426de9fb44c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a670c7409bfd80616aeb0159590bcdb6b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a></td></tr>
 <tr class="separator:a670c7409bfd80616aeb0159590bcdb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f37383ae57b1d0bbf944d698a10382"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a></td></tr>
@@ -182,9 +188,95 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05856fbd2f2205ddc461685d987713b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a05856fbd2f2205ddc461685d987713b9">insert</a> (const <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a> &amp;key, const <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a> &amp;val)</td></tr>
 <tr class="memdesc:a05856fbd2f2205ddc461685d987713b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic insert.  <a href="#a05856fbd2f2205ddc461685d987713b9">More...</a><br /></td></tr>
 <tr class="separator:a05856fbd2f2205ddc461685d987713b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697bc290991416e1c06d018553c1d9b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a697bc290991416e1c06d018553c1d9b7">HadronDistOperatorRep_t</a> ()</td></tr>
+<tr class="memdesc:a697bc290991416e1c06d018553c1d9b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default construction only.  <a href="#a697bc290991416e1c06d018553c1d9b7">More...</a><br /></td></tr>
+<tr class="separator:a697bc290991416e1c06d018553c1d9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4c5288c2e0dd19b4af4127eb26a9cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a8d4c5288c2e0dd19b4af4127eb26a9cd">clear</a> ()</td></tr>
+<tr class="memdesc:a8d4c5288c2e0dd19b4af4127eb26a9cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the representation.  <a href="#a8d4c5288c2e0dd19b4af4127eb26a9cd">More...</a><br /></td></tr>
+<tr class="separator:a8d4c5288c2e0dd19b4af4127eb26a9cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde38342364887f39b718d5ab981cd1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#adde38342364887f39b718d5ab981cd1e">setNumDils</a> (int left_num_dils, int right_num_dils)</td></tr>
+<tr class="memdesc:adde38342364887f39b718d5ab981cd1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the size of the representation to be 2d.  <a href="#adde38342364887f39b718d5ab981cd1e">More...</a><br /></td></tr>
+<tr class="separator:adde38342364887f39b718d5ab981cd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e971d8bbb79f0024b87f54b4db56083"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a3e971d8bbb79f0024b87f54b4db56083">setNumDils</a> (int left_num_dils, int middle_num_dils, int right_num_dils)</td></tr>
+<tr class="memdesc:a3e971d8bbb79f0024b87f54b4db56083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the size of the representation to be 3d.  <a href="#a3e971d8bbb79f0024b87f54b4db56083">More...</a><br /></td></tr>
+<tr class="separator:a3e971d8bbb79f0024b87f54b4db56083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1052d3d087b32a01f02eda6e802d196"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#ae1052d3d087b32a01f02eda6e802d196">setNumDils</a> (const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;num_dils)</td></tr>
+<tr class="memdesc:ae1052d3d087b32a01f02eda6e802d196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the size of the representation from an array.  <a href="#ae1052d3d087b32a01f02eda6e802d196">More...</a><br /></td></tr>
+<tr class="separator:ae1052d3d087b32a01f02eda6e802d196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03543084705a6d1349dfd54b79e0aef9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a03543084705a6d1349dfd54b79e0aef9">getLeftNumDils</a> () const</td></tr>
+<tr class="memdesc:a03543084705a6d1349dfd54b79e0aef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the representation.  <a href="#a03543084705a6d1349dfd54b79e0aef9">More...</a><br /></td></tr>
+<tr class="separator:a03543084705a6d1349dfd54b79e0aef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae196ed58711577cab052c88056654613"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#ae196ed58711577cab052c88056654613">getMiddleNumDils</a> () const</td></tr>
+<tr class="separator:ae196ed58711577cab052c88056654613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f1a0e6b68e409027be775990dd2970"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#ae7f1a0e6b68e409027be775990dd2970">getRightNumDils</a> () const</td></tr>
+<tr class="separator:ae7f1a0e6b68e409027be775990dd2970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68199c0a94ee84df4223a1ea93787b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#ae68199c0a94ee84df4223a1ea93787b3">getNumDils</a> () const</td></tr>
+<tr class="memdesc:ae68199c0a94ee84df4223a1ea93787b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the representation as an array.  <a href="#ae68199c0a94ee84df4223a1ea93787b3">More...</a><br /></td></tr>
+<tr class="separator:ae68199c0a94ee84df4223a1ea93787b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ee3c70f7ac127fbc534b0f69304b37"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a19ee3c70f7ac127fbc534b0f69304b37">getNumDims</a> () const</td></tr>
+<tr class="memdesc:a19ee3c70f7ac127fbc534b0f69304b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dimensionality of the representation.  <a href="#a19ee3c70f7ac127fbc534b0f69304b37">More...</a><br /></td></tr>
+<tr class="separator:a19ee3c70f7ac127fbc534b0f69304b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac868a7abd1608ad40c67679bec5edb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#acac868a7abd1608ad40c67679bec5edb">spin</a> (int spin_1, int spin_2)</td></tr>
+<tr class="memdesc:acac868a7abd1608ad40c67679bec5edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - 2 indices. This will initialize the object.  <a href="#acac868a7abd1608ad40c67679bec5edb">More...</a><br /></td></tr>
+<tr class="separator:acac868a7abd1608ad40c67679bec5edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd74c5a5f53f24a68bb544e4f8027f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#afdd74c5a5f53f24a68bb544e4f8027f0">spin</a> (int spin_1, int spin_2) const</td></tr>
+<tr class="memdesc:afdd74c5a5f53f24a68bb544e4f8027f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - 2 indices. This will fail if the object does not exist.  <a href="#afdd74c5a5f53f24a68bb544e4f8027f0">More...</a><br /></td></tr>
+<tr class="separator:afdd74c5a5f53f24a68bb544e4f8027f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c133a0da748a0504683cfa5e711eeb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a4c133a0da748a0504683cfa5e711eeb6">exist</a> (int spin_1, int spin_2) const</td></tr>
+<tr class="memdesc:a4c133a0da748a0504683cfa5e711eeb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exists?  <a href="#a4c133a0da748a0504683cfa5e711eeb6">More...</a><br /></td></tr>
+<tr class="separator:a4c133a0da748a0504683cfa5e711eeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16cb713c1d0591585af379b01467696c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a16cb713c1d0591585af379b01467696c">spin</a> (int spin_1, int spin_2, int spin_3)</td></tr>
+<tr class="memdesc:a16cb713c1d0591585af379b01467696c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - 3 indices. This will initialize the object.  <a href="#a16cb713c1d0591585af379b01467696c">More...</a><br /></td></tr>
+<tr class="separator:a16cb713c1d0591585af379b01467696c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3cfc81ccf8666a8e8bb0b5cb7e919e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a7d3cfc81ccf8666a8e8bb0b5cb7e919e">spin</a> (int spin_1, int spin_2, int spin_3) const</td></tr>
+<tr class="memdesc:a7d3cfc81ccf8666a8e8bb0b5cb7e919e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - 3 indices. This will fail if the object does not exist.  <a href="#a7d3cfc81ccf8666a8e8bb0b5cb7e919e">More...</a><br /></td></tr>
+<tr class="separator:a7d3cfc81ccf8666a8e8bb0b5cb7e919e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae795fcc4b7bc12cadef8f26884cee3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a1ae795fcc4b7bc12cadef8f26884cee3">exist</a> (int spin_1, int spin_2, int spin_3) const</td></tr>
+<tr class="memdesc:a1ae795fcc4b7bc12cadef8f26884cee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exists?  <a href="#a1ae795fcc4b7bc12cadef8f26884cee3">More...</a><br /></td></tr>
+<tr class="separator:a1ae795fcc4b7bc12cadef8f26884cee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e487417c5103150be6302d8fd3024b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a9e487417c5103150be6302d8fd3024b9">spin</a> (int spin_1, int spin_2, int spin_3, int spin_4)</td></tr>
+<tr class="memdesc:a9e487417c5103150be6302d8fd3024b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - 4 indices. This will initialize the object.  <a href="#a9e487417c5103150be6302d8fd3024b9">More...</a><br /></td></tr>
+<tr class="separator:a9e487417c5103150be6302d8fd3024b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5de005933a0604179b38b5aa483a77"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a4e5de005933a0604179b38b5aa483a77">spin</a> (int spin_1, int spin_2, int spin_3, int spin_4) const</td></tr>
+<tr class="memdesc:a4e5de005933a0604179b38b5aa483a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - 4 indices. This will fail if the object does not exist.  <a href="#a4e5de005933a0604179b38b5aa483a77">More...</a><br /></td></tr>
+<tr class="separator:a4e5de005933a0604179b38b5aa483a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb8fd51f21253d65fcc02b6517fd593"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#affb8fd51f21253d65fcc02b6517fd593">exist</a> (int spin_1, int spin_2, int spin_3, int spin_4) const</td></tr>
+<tr class="memdesc:affb8fd51f21253d65fcc02b6517fd593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exists?  <a href="#affb8fd51f21253d65fcc02b6517fd593">More...</a><br /></td></tr>
+<tr class="separator:affb8fd51f21253d65fcc02b6517fd593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a70f79b843bb042a113d74798c3ed3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a5a70f79b843bb042a113d74798c3ed3d">spin</a> (const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;spin_indices)</td></tr>
+<tr class="memdesc:a5a70f79b843bb042a113d74798c3ed3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element - generic indices. This will initialize the object.  <a href="#a5a70f79b843bb042a113d74798c3ed3d">More...</a><br /></td></tr>
+<tr class="separator:a5a70f79b843bb042a113d74798c3ed3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c269c3646ef76094aecedcc745f611"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a30c269c3646ef76094aecedcc745f611">spin</a> (const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;spin_indices) const</td></tr>
+<tr class="memdesc:a30c269c3646ef76094aecedcc745f611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element. This will fail if the object does not exist.  <a href="#a30c269c3646ef76094aecedcc745f611">More...</a><br /></td></tr>
+<tr class="separator:a30c269c3646ef76094aecedcc745f611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac19d4174b14052f09070df85c789d43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#aac19d4174b14052f09070df85c789d43">exist</a> (const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;spin_indices) const</td></tr>
+<tr class="memdesc:aac19d4174b14052f09070df85c789d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exists?  <a href="#aac19d4174b14052f09070df85c789d43">More...</a><br /></td></tr>
+<tr class="separator:aac19d4174b14052f09070df85c789d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1744e95c70a52b3f1706d62b4298a7e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#af1744e95c70a52b3f1706d62b4298a7e">print</a> (std::ostream &amp;os) const</td></tr>
+<tr class="memdesc:af1744e95c70a52b3f1706d62b4298a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the operator.  <a href="#af1744e95c70a52b3f1706d62b4298a7e">More...</a><br /></td></tr>
+<tr class="separator:af1744e95c70a52b3f1706d62b4298a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17387b2569f243bf0aecc9c6f4160051"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a17387b2569f243bf0aecc9c6f4160051">read</a> (<a class="el" href="../../da/dd9/classADATIO_1_1BinaryReader.html">ADATIO::BinaryReader</a> &amp;bin)</td></tr>
+<tr class="memdesc:a17387b2569f243bf0aecc9c6f4160051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary reader.  <a href="#a17387b2569f243bf0aecc9c6f4160051">More...</a><br /></td></tr>
+<tr class="separator:a17387b2569f243bf0aecc9c6f4160051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13c4b6d851e65136c55ccee152e72a12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a13c4b6d851e65136c55ccee152e72a12">write</a> (<a class="el" href="../../db/dee/classADATIO_1_1BinaryWriter.html">ADATIO::BinaryWriter</a> &amp;bin) const</td></tr>
+<tr class="memdesc:a13c4b6d851e65136c55ccee152e72a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary writer.  <a href="#a13c4b6d851e65136c55ccee152e72a12">More...</a><br /></td></tr>
+<tr class="separator:a13c4b6d851e65136c55ccee152e72a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29061d2a7319319dd6ea0a918acd8db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#aa29061d2a7319319dd6ea0a918acd8db">size</a> () const</td></tr>
+<tr class="memdesc:aa29061d2a7319319dd6ea0a918acd8db"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of non-zero spin entries.  <a href="#aa29061d2a7319319dd6ea0a918acd8db">More...</a><br /></td></tr>
+<tr class="separator:aa29061d2a7319319dd6ea0a918acd8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f649024c217a2e43643a096c7bd512"><td class="memItemLeft" align="right" valign="top">MapType_t::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#af2f649024c217a2e43643a096c7bd512">begin</a> () const</td></tr>
+<tr class="separator:af2f649024c217a2e43643a096c7bd512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5619645b5dc3bfb3ab0f15cebe15ecf6"><td class="memItemLeft" align="right" valign="top">MapType_t::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a5619645b5dc3bfb3ab0f15cebe15ecf6">end</a> () const</td></tr>
+<tr class="separator:a5619645b5dc3bfb3ab0f15cebe15ecf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05856fbd2f2205ddc461685d987713b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a05856fbd2f2205ddc461685d987713b9">insert</a> (const <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a> &amp;key, const <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a> &amp;val)</td></tr>
+<tr class="memdesc:a05856fbd2f2205ddc461685d987713b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic insert.  <a href="#a05856fbd2f2205ddc461685d987713b9">More...</a><br /></td></tr>
+<tr class="separator:a05856fbd2f2205ddc461685d987713b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a5d71057f500ecb252c0d204434d45ccd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a5d71057f500ecb252c0d204434d45ccd">create</a> (const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;spin_indices)</td></tr>
+<tr class="memdesc:a5d71057f500ecb252c0d204434d45ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and initialize a spin element.  <a href="#a5d71057f500ecb252c0d204434d45ccd">More...</a><br /></td></tr>
+<tr class="separator:a5d71057f500ecb252c0d204434d45ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d71057f500ecb252c0d204434d45ccd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a5d71057f500ecb252c0d204434d45ccd">create</a> (const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;spin_indices)</td></tr>
 <tr class="memdesc:a5d71057f500ecb252c0d204434d45ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and initialize a spin element.  <a href="#a5d71057f500ecb252c0d204434d45ccd">More...</a><br /></td></tr>
 <tr class="separator:a5d71057f500ecb252c0d204434d45ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,7 +285,21 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p class="">Distillution and spin matrix element. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a670c7409bfd80616aeb0159590bcdb6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a670c7409bfd80616aeb0159590bcdb6b">&#9670;&nbsp;</a></span>K</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a670c7409bfd80616aeb0159590bcdb6b">&#9670;&nbsp;</a></span>K <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt;int&gt; <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">Hadron::HadronDistOperatorRep_t::K</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a670c7409bfd80616aeb0159590bcdb6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a670c7409bfd80616aeb0159590bcdb6b">&#9670;&nbsp;</a></span>K <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +313,21 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a28874b1705be0d32099d426de9fb44c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28874b1705be0d32099d426de9fb44c0">&#9670;&nbsp;</a></span>MapType_t</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28874b1705be0d32099d426de9fb44c0">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a>, <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a>, <a class="el" href="../../dd/d81/structADAT_1_1UnorderedMapTraits.html">UnorderedMapTraits</a>&lt;<a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a>&gt;, <a class="el" href="../../dd/d81/structADAT_1_1UnorderedMapTraits.html">UnorderedMapTraits</a>&lt;<a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a>&gt; &gt; <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a28874b1705be0d32099d426de9fb44c0">Hadron::HadronDistOperatorRep_t::MapType_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28874b1705be0d32099d426de9fb44c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28874b1705be0d32099d426de9fb44c0">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +341,21 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a40f37383ae57b1d0bbf944d698a10382"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40f37383ae57b1d0bbf944d698a10382">&#9670;&nbsp;</a></span>V</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f37383ae57b1d0bbf944d698a10382">&#9670;&nbsp;</a></span>V <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a> <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">Hadron::HadronDistOperatorRep_t::V</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40f37383ae57b1d0bbf944d698a10382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f37383ae57b1d0bbf944d698a10382">&#9670;&nbsp;</a></span>V <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +370,26 @@ Protected Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a697bc290991416e1c06d018553c1d9b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a697bc290991416e1c06d018553c1d9b7">&#9670;&nbsp;</a></span>HadronDistOperatorRep_t()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a697bc290991416e1c06d018553c1d9b7">&#9670;&nbsp;</a></span>HadronDistOperatorRep_t() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Hadron::HadronDistOperatorRep_t::HadronDistOperatorRep_t </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default construction only. </p>
+
+</div>
+</div>
+<a id="a697bc290991416e1c06d018553c1d9b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697bc290991416e1c06d018553c1d9b7">&#9670;&nbsp;</a></span>HadronDistOperatorRep_t() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +409,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a77caca753b9c9b1d433898627e6bd3de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77caca753b9c9b1d433898627e6bd3de">&#9670;&nbsp;</a></span>begin()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a77caca753b9c9b1d433898627e6bd3de">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,8 +425,44 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af2f649024c217a2e43643a096c7bd512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f649024c217a2e43643a096c7bd512">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MapType_t::const_iterator Hadron::HadronDistOperatorRep_t::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8d4c5288c2e0dd19b4af4127eb26a9cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d4c5288c2e0dd19b4af4127eb26a9cd">&#9670;&nbsp;</a></span>clear()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4c5288c2e0dd19b4af4127eb26a9cd">&#9670;&nbsp;</a></span>clear() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the representation. </p>
+
+</div>
+</div>
+<a id="a8d4c5288c2e0dd19b4af4127eb26a9cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4c5288c2e0dd19b4af4127eb26a9cd">&#9670;&nbsp;</a></span>clear() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +481,35 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a5d71057f500ecb252c0d204434d45ccd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d71057f500ecb252c0d204434d45ccd">&#9670;&nbsp;</a></span>create()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d71057f500ecb252c0d204434d45ccd">&#9670;&nbsp;</a></span>create() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::create </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>spin_indices</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create and initialize a spin element. </p>
+
+</div>
+</div>
+<a id="a5d71057f500ecb252c0d204434d45ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d71057f500ecb252c0d204434d45ccd">&#9670;&nbsp;</a></span>create() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +537,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae811537842e96e1161375ffe7dd65ca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae811537842e96e1161375ffe7dd65ca2">&#9670;&nbsp;</a></span>end()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae811537842e96e1161375ffe7dd65ca2">&#9670;&nbsp;</a></span>end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,8 +553,55 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5619645b5dc3bfb3ab0f15cebe15ecf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5619645b5dc3bfb3ab0f15cebe15ecf6">&#9670;&nbsp;</a></span>end() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MapType_t::const_iterator Hadron::HadronDistOperatorRep_t::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4c133a0da748a0504683cfa5e711eeb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c133a0da748a0504683cfa5e711eeb6">&#9670;&nbsp;</a></span>exist() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c133a0da748a0504683cfa5e711eeb6">&#9670;&nbsp;</a></span>exist() <span class="overload">[1/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hadron::HadronDistOperatorRep_t::exist </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exists? </p>
+
+</div>
+</div>
+<a id="a4c133a0da748a0504683cfa5e711eeb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c133a0da748a0504683cfa5e711eeb6">&#9670;&nbsp;</a></span>exist() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +631,43 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1ae795fcc4b7bc12cadef8f26884cee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ae795fcc4b7bc12cadef8f26884cee3">&#9670;&nbsp;</a></span>exist() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae795fcc4b7bc12cadef8f26884cee3">&#9670;&nbsp;</a></span>exist() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hadron::HadronDistOperatorRep_t::exist </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exists? </p>
+
+</div>
+</div>
+<a id="a1ae795fcc4b7bc12cadef8f26884cee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae795fcc4b7bc12cadef8f26884cee3">&#9670;&nbsp;</a></span>exist() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,7 +703,49 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="affb8fd51f21253d65fcc02b6517fd593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affb8fd51f21253d65fcc02b6517fd593">&#9670;&nbsp;</a></span>exist() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#affb8fd51f21253d65fcc02b6517fd593">&#9670;&nbsp;</a></span>exist() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hadron::HadronDistOperatorRep_t::exist </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exists? </p>
+
+</div>
+</div>
+<a id="affb8fd51f21253d65fcc02b6517fd593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb8fd51f21253d65fcc02b6517fd593">&#9670;&nbsp;</a></span>exist() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +787,27 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="aac19d4174b14052f09070df85c789d43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac19d4174b14052f09070df85c789d43">&#9670;&nbsp;</a></span>exist() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac19d4174b14052f09070df85c789d43">&#9670;&nbsp;</a></span>exist() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hadron::HadronDistOperatorRep_t::exist </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>spin_indices</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exists? </p>
+
+</div>
+</div>
+<a id="aac19d4174b14052f09070df85c789d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac19d4174b14052f09070df85c789d43">&#9670;&nbsp;</a></span>exist() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,7 +827,26 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a03543084705a6d1349dfd54b79e0aef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03543084705a6d1349dfd54b79e0aef9">&#9670;&nbsp;</a></span>getLeftNumDils()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03543084705a6d1349dfd54b79e0aef9">&#9670;&nbsp;</a></span>getLeftNumDils() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::HadronDistOperatorRep_t::getLeftNumDils </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the size of the representation. </p>
+
+</div>
+</div>
+<a id="a03543084705a6d1349dfd54b79e0aef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03543084705a6d1349dfd54b79e0aef9">&#9670;&nbsp;</a></span>getLeftNumDils() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +865,24 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae196ed58711577cab052c88056654613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae196ed58711577cab052c88056654613">&#9670;&nbsp;</a></span>getMiddleNumDils()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae196ed58711577cab052c88056654613">&#9670;&nbsp;</a></span>getMiddleNumDils() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::HadronDistOperatorRep_t::getMiddleNumDils </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae196ed58711577cab052c88056654613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae196ed58711577cab052c88056654613">&#9670;&nbsp;</a></span>getMiddleNumDils() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -501,7 +899,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="af1ecef910eda615c9626072adc38e3e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1ecef910eda615c9626072adc38e3e8">&#9670;&nbsp;</a></span>getNumDils()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ecef910eda615c9626072adc38e3e8">&#9670;&nbsp;</a></span>getNumDils() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -519,8 +917,27 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae68199c0a94ee84df4223a1ea93787b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68199c0a94ee84df4223a1ea93787b3">&#9670;&nbsp;</a></span>getNumDils() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt;int&gt; Hadron::HadronDistOperatorRep_t::getNumDils </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the size of the representation as an array. </p>
+
+</div>
+</div>
 <a id="a19ee3c70f7ac127fbc534b0f69304b37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19ee3c70f7ac127fbc534b0f69304b37">&#9670;&nbsp;</a></span>getNumDims()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ee3c70f7ac127fbc534b0f69304b37">&#9670;&nbsp;</a></span>getNumDims() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,8 +964,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a19ee3c70f7ac127fbc534b0f69304b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ee3c70f7ac127fbc534b0f69304b37">&#9670;&nbsp;</a></span>getNumDims() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::HadronDistOperatorRep_t::getNumDims </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the dimensionality of the representation. </p>
+
+</div>
+</div>
 <a id="ae7f1a0e6b68e409027be775990dd2970"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f1a0e6b68e409027be775990dd2970">&#9670;&nbsp;</a></span>getRightNumDils()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f1a0e6b68e409027be775990dd2970">&#9670;&nbsp;</a></span>getRightNumDils() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::HadronDistOperatorRep_t::getRightNumDils </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7f1a0e6b68e409027be775990dd2970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f1a0e6b68e409027be775990dd2970">&#9670;&nbsp;</a></span>getRightNumDils() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,7 +1018,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a05856fbd2f2205ddc461685d987713b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05856fbd2f2205ddc461685d987713b9">&#9670;&nbsp;</a></span>insert()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a05856fbd2f2205ddc461685d987713b9">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -603,8 +1056,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a05856fbd2f2205ddc461685d987713b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05856fbd2f2205ddc461685d987713b9">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::insert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a670c7409bfd80616aeb0159590bcdb6b">K</a> &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/de0/classHadron_1_1HadronDistOperatorRep__t.html#a40f37383ae57b1d0bbf944d698a10382">V</a> &amp;&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generic insert. </p>
+
+</div>
+</div>
 <a id="a800e1844116007d2ca372628f2388ee5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a800e1844116007d2ca372628f2388ee5">&#9670;&nbsp;</a></span>print()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a800e1844116007d2ca372628f2388ee5">&#9670;&nbsp;</a></span>print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -632,8 +1115,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af1744e95c70a52b3f1706d62b4298a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1744e95c70a52b3f1706d62b4298a7e">&#9670;&nbsp;</a></span>print() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; Hadron::HadronDistOperatorRep_t::print </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the operator. </p>
+
+</div>
+</div>
 <a id="a17387b2569f243bf0aecc9c6f4160051"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17387b2569f243bf0aecc9c6f4160051">&#9670;&nbsp;</a></span>read()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17387b2569f243bf0aecc9c6f4160051">&#9670;&nbsp;</a></span>read() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,8 +1175,58 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a17387b2569f243bf0aecc9c6f4160051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17387b2569f243bf0aecc9c6f4160051">&#9670;&nbsp;</a></span>read() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dd9/classADATIO_1_1BinaryReader.html">ADATIO::BinaryReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>bin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Binary reader. </p>
+
+</div>
+</div>
 <a id="adde38342364887f39b718d5ab981cd1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adde38342364887f39b718d5ab981cd1e">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adde38342364887f39b718d5ab981cd1e">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::setNumDils </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left_num_dils</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right_num_dils</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the size of the representation to be 2d. </p>
+
+</div>
+</div>
+<a id="adde38342364887f39b718d5ab981cd1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde38342364887f39b718d5ab981cd1e">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -703,7 +1256,43 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a3e971d8bbb79f0024b87f54b4db56083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e971d8bbb79f0024b87f54b4db56083">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e971d8bbb79f0024b87f54b4db56083">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::setNumDils </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left_num_dils</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>middle_num_dils</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right_num_dils</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the size of the representation to be 3d. </p>
+
+</div>
+</div>
+<a id="a3e971d8bbb79f0024b87f54b4db56083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e971d8bbb79f0024b87f54b4db56083">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,7 +1328,27 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="ae1052d3d087b32a01f02eda6e802d196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1052d3d087b32a01f02eda6e802d196">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1052d3d087b32a01f02eda6e802d196">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::setNumDils </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>num_dils</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the size of the representation from an array. </p>
+
+</div>
+</div>
+<a id="ae1052d3d087b32a01f02eda6e802d196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1052d3d087b32a01f02eda6e802d196">&#9670;&nbsp;</a></span>setNumDils() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -759,7 +1368,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="aa29061d2a7319319dd6ea0a918acd8db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa29061d2a7319319dd6ea0a918acd8db">&#9670;&nbsp;</a></span>size()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29061d2a7319319dd6ea0a918acd8db">&#9670;&nbsp;</a></span>size() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -777,8 +1386,57 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa29061d2a7319319dd6ea0a918acd8db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29061d2a7319319dd6ea0a918acd8db">&#9670;&nbsp;</a></span>size() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::HadronDistOperatorRep_t::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of non-zero spin entries. </p>
+
+</div>
+</div>
+<a id="acac868a7abd1608ad40c67679bec5edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac868a7abd1608ad40c67679bec5edb">&#9670;&nbsp;</a></span>spin() <span class="overload">[1/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - 2 indices. This will initialize the object. </p>
+
+</div>
+</div>
 <a id="a654e35d182a22243a644b62836a5564d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a654e35d182a22243a644b62836a5564d">&#9670;&nbsp;</a></span>spin() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a654e35d182a22243a644b62836a5564d">&#9670;&nbsp;</a></span>spin() <span class="overload">[2/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -807,8 +1465,38 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="afdd74c5a5f53f24a68bb544e4f8027f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd74c5a5f53f24a68bb544e4f8027f0">&#9670;&nbsp;</a></span>spin() <span class="overload">[3/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - 2 indices. This will fail if the object does not exist. </p>
+
+</div>
+</div>
 <a id="a6d2afd90c11aaf4fcbac9bd8091f61a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d2afd90c11aaf4fcbac9bd8091f61a2">&#9670;&nbsp;</a></span>spin() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d2afd90c11aaf4fcbac9bd8091f61a2">&#9670;&nbsp;</a></span>spin() <span class="overload">[4/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -838,7 +1526,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a215985252fdaecbbecab777de4591cd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a215985252fdaecbbecab777de4591cd4">&#9670;&nbsp;</a></span>spin() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a215985252fdaecbbecab777de4591cd4">&#9670;&nbsp;</a></span>spin() <span class="overload">[5/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -873,8 +1561,80 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a16cb713c1d0591585af379b01467696c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16cb713c1d0591585af379b01467696c">&#9670;&nbsp;</a></span>spin() <span class="overload">[6/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - 3 indices. This will initialize the object. </p>
+
+</div>
+</div>
+<a id="a7d3cfc81ccf8666a8e8bb0b5cb7e919e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3cfc81ccf8666a8e8bb0b5cb7e919e">&#9670;&nbsp;</a></span>spin() <span class="overload">[7/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - 3 indices. This will fail if the object does not exist. </p>
+
+</div>
+</div>
 <a id="a436620dfee9ff1c98febcc5ae7b0ff3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a436620dfee9ff1c98febcc5ae7b0ff3a">&#9670;&nbsp;</a></span>spin() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a436620dfee9ff1c98febcc5ae7b0ff3a">&#9670;&nbsp;</a></span>spin() <span class="overload">[8/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -910,7 +1670,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a42ba0b0eff80de32178f0cee67dcbfa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42ba0b0eff80de32178f0cee67dcbfa1">&#9670;&nbsp;</a></span>spin() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ba0b0eff80de32178f0cee67dcbfa1">&#9670;&nbsp;</a></span>spin() <span class="overload">[9/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -951,8 +1711,92 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a9e487417c5103150be6302d8fd3024b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e487417c5103150be6302d8fd3024b9">&#9670;&nbsp;</a></span>spin() <span class="overload">[10/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - 4 indices. This will initialize the object. </p>
+
+</div>
+</div>
+<a id="a4e5de005933a0604179b38b5aa483a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5de005933a0604179b38b5aa483a77">&#9670;&nbsp;</a></span>spin() <span class="overload">[11/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>spin_4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - 4 indices. This will fail if the object does not exist. </p>
+
+</div>
+</div>
 <a id="a61528fe44909a8f4926e21b54681c1e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61528fe44909a8f4926e21b54681c1e0">&#9670;&nbsp;</a></span>spin() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61528fe44909a8f4926e21b54681c1e0">&#9670;&nbsp;</a></span>spin() <span class="overload">[12/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -994,7 +1838,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="ad889e6377702e72419f259860142225f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad889e6377702e72419f259860142225f">&#9670;&nbsp;</a></span>spin() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad889e6377702e72419f259860142225f">&#9670;&nbsp;</a></span>spin() <span class="overload">[13/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1022,8 +1866,48 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a5a70f79b843bb042a113d74798c3ed3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a70f79b843bb042a113d74798c3ed3d">&#9670;&nbsp;</a></span>spin() <span class="overload">[14/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>spin_indices</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element - generic indices. This will initialize the object. </p>
+
+</div>
+</div>
+<a id="a30c269c3646ef76094aecedcc745f611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c269c3646ef76094aecedcc745f611">&#9670;&nbsp;</a></span>spin() <span class="overload">[15/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d82/structHadron_1_1HadronDistOperatorRep__t_1_1Spin__t.html">Spin_t</a>&amp; Hadron::HadronDistOperatorRep_t::spin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>spin_indices</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an element. This will fail if the object does not exist. </p>
+
+</div>
+</div>
 <a id="afdc4b290b39dd14deb08a54cec303f5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdc4b290b39dd14deb08a54cec303f5f">&#9670;&nbsp;</a></span>spin() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc4b290b39dd14deb08a54cec303f5f">&#9670;&nbsp;</a></span>spin() <span class="overload">[16/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1052,7 +1936,27 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a13c4b6d851e65136c55ccee152e72a12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13c4b6d851e65136c55ccee152e72a12">&#9670;&nbsp;</a></span>write()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c4b6d851e65136c55ccee152e72a12">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hadron::HadronDistOperatorRep_t::write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dee/classADATIO_1_1BinaryWriter.html">ADATIO::BinaryWriter</a> &amp;&#160;</td>
+          <td class="paramname"><em>bin</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Binary writer. </p>
+
+</div>
+</div>
+<a id="a13c4b6d851e65136c55ccee152e72a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c4b6d851e65136c55ccee152e72a12">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1092,8 +1996,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/Users/archanar/Kinematic_factor/adat_devel/lib/hadron/do_not_use/<a class="el" href="../../d2/dd3/hadron__dist__obj_8h_source.html">hadron_dist_obj.h</a></li>
-<li>/Users/archanar/Kinematic_factor/adat_devel/lib/hadron/do_not_use/<a class="el" href="../../d2/d1f/hadron__dist__obj_8cc.html">hadron_dist_obj.cc</a></li>
+<li>/Users/archanar/Kinematic_factor/adat-devel/lib/hadron/do_not_use/<a class="el" href="../../d2/d9d/adat-devel_2lib_2hadron_2do__not__use_2hadron__dist__obj_8h_source.html">hadron_dist_obj.h</a></li>
+<li>/Users/archanar/Kinematic_factor/adat-devel/lib/hadron/do_not_use/<a class="el" href="../../df/da5/adat-devel_2lib_2hadron_2do__not__use_2hadron__dist__obj_8cc.html">hadron_dist_obj.cc</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,5 +1,5 @@
-#ifndef __KFACPARAMS__
-#define __KFACPARAMS__
+#ifndef __KFPARAMS__
+#define __KFPARAMS__
 
 //std lib
 #include <cmath>

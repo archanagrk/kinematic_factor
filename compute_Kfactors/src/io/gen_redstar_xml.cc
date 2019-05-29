@@ -47,28 +47,33 @@ int main(int argc, char** argv){
       
       
     
-      
-  read(xml_in, "/doc/config/Nt_corr", label.Nt_corr);
-  read(xml_in, "/doc/config/t_origin", label.t_origin);
-  read(xml_in, "/doc/config/bc_spec", label.bc_spec);
-  read(xml_in, "/doc/config/convertUDtoL", label.convertUDtoL);
-  read(xml_in, "/doc/config/convertUDtoS", label.convertUDtoS);
-  read(xml_in, "/doc/config/average_1pt_diagrams", label.average_1pt_diagrams);
-  read(xml_in, "/doc/config/zeroUnsmearedGraphsP", label.zeroUnsmearedGraphsP);
-  read(xml_in, "/doc/config/ensemble", label.ensemble);
-  read(xml_in, "/doc/config/decayDir", label.decayDir);
-  read(xml_in, "/doc/config/lattSize", label.lattSize);
-      
-      
-  read(xml_in, "/doc/Npts", npt);
-  read(xml_in, "/doc/creation_op", creation_op);
-  read(xml_in, "/doc/smearedP", smearedP);
-  read(xml_in, "/doc/t_slice", t_slice);
-      
-  read(xml_in, "/doc/fl/twoI", twoI);
-  read(xml_in, "/doc/fl/threeY", threeY);
-  read(xml_in, "/doc/fl/twoI_z", twoI_z);
-  
+   try{    
+    read(xml_in, "/doc/config/Nt_corr", label.Nt_corr);
+    read(xml_in, "/doc/config/t_origin", label.t_origin);
+    read(xml_in, "/doc/config/bc_spec", label.bc_spec);
+    read(xml_in, "/doc/config/convertUDtoL", label.convertUDtoL);
+    read(xml_in, "/doc/config/convertUDtoS", label.convertUDtoS);
+    read(xml_in, "/doc/config/average_1pt_diagrams", label.average_1pt_diagrams);
+    read(xml_in, "/doc/config/zeroUnsmearedGraphsP", label.zeroUnsmearedGraphsP);
+    read(xml_in, "/doc/config/ensemble", label.ensemble);
+    read(xml_in, "/doc/config/decayDir", label.decayDir);
+    read(xml_in, "/doc/config/lattSize", label.lattSize);
+        
+        
+    read(xml_in, "/doc/Npts", npt);
+    read(xml_in, "/doc/creation_op", creation_op);
+    read(xml_in, "/doc/smearedP", smearedP);
+    read(xml_in, "/doc/t_slice", t_slice);
+        
+    read(xml_in, "/doc/fl/twoI", twoI);
+    read(xml_in, "/doc/fl/threeY", threeY);
+    read(xml_in, "/doc/fl/twoI_z", twoI_z);
+   }
+
+   catch( const string& error ){
+    cerr << "Error reading input file : " << error << endl;
+    }
+    
   //xml_in.close();
   
   
@@ -86,20 +91,25 @@ int main(int argc, char** argv){
   XMLReader xml_kf_in(kf_in);
   
   
-  read(xml_kf_in, "/kfac/pts", pts);
+  try{read(xml_kf_in, "/kfac/pts", pts);}
+  catch( const string& error ){cerr << "Error reading kfac input file : " << error << endl;}
+  
   
   for(int k =1;k <= pts;k++){
     for(int i = 1; i <= npt; i++ ){
       
       
       
-      
+     try{
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/irrep", irrep_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/row", row_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/mom", mom_tmp );
-      read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/abs_lam", lam_tmp);
+      read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/lam", lam_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/psq", psq_tmp);
-      
+     }
+     catch( const string& error ){
+      cerr << "Error reading kfac input file : " << error << endl;
+     }
       
 
       key.npoint[i].t_slice = t_slice[i];
@@ -164,7 +174,7 @@ int main(int argc, char** argv){
 
   db db_lab;
 
-
+ try{
   read(xml_in, "/doc/DBFiles/proj_op_xmls", db_lab.proj_op_xmls);
   read(xml_in, "/doc/DBFiles/corr_graph_db", db_lab.corr_graph_db);
   read(xml_in, "/doc/DBFiles/noneval_graph_xml", db_lab.noneval_graph_xml);
@@ -173,6 +183,11 @@ int main(int argc, char** argv){
   read(xml_in, "/doc/DBFiles/hadron_npt_graph_db", db_lab.hadron_npt_graph_db);
   read(xml_in, "/doc/DBFiles/hadron_node_dbs", db_lab.hadron_node_dbs);
   read(xml_in, "/doc/DBFiles/output_db", db_lab.output_db);
+ }
+
+ catch( const string& error ){
+  cerr << "Error reading input file : " << error << endl;
+  }
 
 
   xml_in.close();

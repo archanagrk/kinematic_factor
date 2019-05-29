@@ -1,0 +1,93 @@
+\hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\+La\+Sum.h File Reference}
+\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h}\index{/Users/archanar/Kinematic\_factor/adat-\/devel/other\_libs/minuit/inc/Minuit2/LaSum.h@{/Users/archanar/Kinematic\_factor/adat-\/devel/other\_libs/minuit/inc/Minuit2/LaSum.h}}
+{\ttfamily \#include \char`\"{}Minuit2/\+A\+B\+Sum.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Minuit2/\+L\+A\+Vector.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Minuit2/\+L\+A\+Sym\+Matrix.\+h\char`\"{}}\newline
+Include dependency graph for La\+Sum.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d10/adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceROOT}{R\+O\+OT}}
+\item 
+ \mbox{\hyperlink{namespaceROOT_1_1Minuit2}{R\+O\+O\+T\+::\+Minuit2}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a1e1aec448e0ac3d142381b3d18396d9c}{O\+P\+\_\+\+A\+D\+D1}}(MT,  M\+A\+T1,  T)
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a98526d803fb3de255b8696ed09b270da}{O\+P\+\_\+\+S\+C\+A\+LE}}(MT,  M\+A\+T1,  T)
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a32b0d04af0cbd6fbaec10329792413f8}{O\+P\+\_\+\+S\+C\+A\+L\+E1}}(MT,  M\+A\+T1,  T)
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a0d8d8b86f6d09edd6c9bce3bc55262af}{O\+P\+\_\+\+M\+IN}}(MT,  M\+A\+T1,  T)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a1e1aec448e0ac3d142381b3d18396d9c}\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a1e1aec448e0ac3d142381b3d18396d9c}} 
+\index{LaSum.h@{LaSum.h}!OP\_ADD1@{OP\_ADD1}}
+\index{OP\_ADD1@{OP\_ADD1}!LaSum.h@{LaSum.h}}
+\subsubsection{\texorpdfstring{OP\_ADD1}{OP\_ADD1}}
+{\footnotesize\ttfamily \#define O\+P\+\_\+\+A\+D\+D1(\begin{DoxyParamCaption}\item[{}]{MT,  }\item[{}]{M\+A\+T1,  }\item[{}]{T }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{inline} ABObj<MT,MAT1,T>  \mbox{\hyperlink{namespaceADAT_a38346a215cc728771b946bbdaa59e62f}{operator-}}(\textcolor{keyword}{const} ABObj<MT,MAT1,T>\& m) \{\(\backslash\)}
+\DoxyCodeLine{  return ABObj<MT,MAT1,T> (m.Obj(), T(-1.)*m.f());\(\backslash\)}
+\DoxyCodeLine{\}\(\backslash\)}
+\DoxyCodeLine{              \(\backslash\)}
+\DoxyCodeLine{inline ABObj<MT,ABSum<ABObj<MT,MAT1,T>, ABObj<MT,MAT1,T> >,T>  \mbox{\hyperlink{group__escalar_ga45a6583b8f7490b2e54b5c88ff07ba94}{operator+}}(\textcolor{keyword}{const} ABObj<MT,MAT1,T>\& a, \textcolor{keyword}{const} ABObj<MT,MAT1,T>\& b) \{     \(\backslash\)}
+\DoxyCodeLine{  return ABObj<MT,ABSum<ABObj<MT,MAT1,T>, ABObj<MT,MAT1,T> >,T>(ABSum<ABObj<MT,MAT1,T>, ABObj<MT,MAT1,T> >(a, b));            \(\backslash\)}
+\DoxyCodeLine{\}                                                          \(\backslash\)}
+\DoxyCodeLine{inline ABObj<MT,ABSum<ABObj<MT,MAT1,T>, ABObj<MT,MAT1,T> >,T>  \mbox{\hyperlink{namespaceADAT_a38346a215cc728771b946bbdaa59e62f}{operator-}}(\textcolor{keyword}{const} ABObj<MT,MAT1,T>\& a, \textcolor{keyword}{const} ABObj<MT,MAT1,T>\& b) \{          \(\backslash\)}
+\DoxyCodeLine{  return ABObj<MT,ABSum<ABObj<MT,MAT1,T>, ABObj<MT,MAT1,T> >,T>(ABSum<ABObj<MT,MAT1,T>, ABObj<MT,MAT1,T> >(a,ABObj<MT,MAT1,T> (b.Obj(),T(-1.)*b.f())));        \(\backslash\)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a0d8d8b86f6d09edd6c9bce3bc55262af}\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a0d8d8b86f6d09edd6c9bce3bc55262af}} 
+\index{LaSum.h@{LaSum.h}!OP\_MIN@{OP\_MIN}}
+\index{OP\_MIN@{OP\_MIN}!LaSum.h@{LaSum.h}}
+\subsubsection{\texorpdfstring{OP\_MIN}{OP\_MIN}}
+{\footnotesize\ttfamily \#define O\+P\+\_\+\+M\+IN(\begin{DoxyParamCaption}\item[{}]{MT,  }\item[{}]{M\+A\+T1,  }\item[{}]{T }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{inline} ABObj<MT,MAT1,T> \mbox{\hyperlink{namespaceADAT_a38346a215cc728771b946bbdaa59e62f}{operator-}}(\textcolor{keyword}{const} MAT1\& obj) \{ \(\backslash\)}
+\DoxyCodeLine{  return ABObj<MT,MAT1,T>(obj, T(-1.)); \(\backslash\)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a98526d803fb3de255b8696ed09b270da}\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a98526d803fb3de255b8696ed09b270da}} 
+\index{LaSum.h@{LaSum.h}!OP\_SCALE@{OP\_SCALE}}
+\index{OP\_SCALE@{OP\_SCALE}!LaSum.h@{LaSum.h}}
+\subsubsection{\texorpdfstring{OP\_SCALE}{OP\_SCALE}}
+{\footnotesize\ttfamily \#define O\+P\+\_\+\+S\+C\+A\+LE(\begin{DoxyParamCaption}\item[{}]{MT,  }\item[{}]{M\+A\+T1,  }\item[{}]{T }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{inline} ABObj<MT,MAT1,T> \mbox{\hyperlink{namespaceADAT_af3b34c2746ded9a7804cc7f35945a02e}{operator*}}(T f, \textcolor{keyword}{const} MAT1\& obj) \{ \(\backslash\)}
+\DoxyCodeLine{  return ABObj<MT,MAT1,T>(obj, f); \(\backslash\)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a32b0d04af0cbd6fbaec10329792413f8}\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaSum_8h_a32b0d04af0cbd6fbaec10329792413f8}} 
+\index{LaSum.h@{LaSum.h}!OP\_SCALE1@{OP\_SCALE1}}
+\index{OP\_SCALE1@{OP\_SCALE1}!LaSum.h@{LaSum.h}}
+\subsubsection{\texorpdfstring{OP\_SCALE1}{OP\_SCALE1}}
+{\footnotesize\ttfamily \#define O\+P\+\_\+\+S\+C\+A\+L\+E1(\begin{DoxyParamCaption}\item[{}]{MT,  }\item[{}]{M\+A\+T1,  }\item[{}]{T }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{inline} ABObj<MT,MAT1,T> \mbox{\hyperlink{namespaceADAT_a32b40ea36b55f2b40457eb0c0ad63d90}{operator/}}(\textcolor{keyword}{const} MAT1\& obj, T f) \{ \(\backslash\)}
+\DoxyCodeLine{  return ABObj<MT,MAT1,T>(obj, 1./f); \(\backslash\)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}

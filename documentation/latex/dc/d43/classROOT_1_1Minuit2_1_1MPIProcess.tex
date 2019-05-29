@@ -54,9 +54,45 @@ bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05
 bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}{Sync\+Sym\+Matrix\+Off\+Diagonal}} (\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a9e74ad97f5537a2e80e52b04d98ecc6e}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Sym\+Matrix}} \&mnmatrix)
 \item 
 void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}{Sum\+Reduce}} (const double \&sub, double \&total)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}{M\+P\+I\+Process}} (unsigned int nelements, unsigned int index\+Comm)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}{$\sim$\+M\+P\+I\+Process}} ()
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}{Num\+Elements4\+Job\+In}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}{Num\+Elements4\+Job\+Out}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}{Num\+Elements4\+Job}} (unsigned int rank) const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}{Start\+Element\+Index}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}{End\+Element\+Index}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}{Get\+M\+P\+I\+Size}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}{Get\+M\+P\+I\+Rank}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}{Sync\+Vector}} (\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Vector}} \&mnvector)
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}{Sync\+Sym\+Matrix\+Off\+Diagonal}} (\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a9e74ad97f5537a2e80e52b04d98ecc6e}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Sym\+Matrix}} \&mnmatrix)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}{Sum\+Reduce}} (const double \&sub, double \&total)
 \end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
+\item 
+static unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}{Get\+M\+P\+I\+Global\+Rank}} ()
+\item 
+static unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}{Get\+M\+P\+I\+Global\+Size}} ()
+\item 
+static void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}{Start\+M\+PI}} ()
+\item 
+static void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}{Terminate\+M\+PI}} ()
+\item 
+static bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}{Set\+Cart\+Dimension}} (unsigned int dimX, unsigned int dimY)
+\item 
+static bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}{Set\+Do\+First\+M\+P\+I\+Call}} (bool do\+First\+M\+P\+I\+Call=true)
 \item 
 static unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}{Get\+M\+P\+I\+Global\+Rank}} ()
 \item 
@@ -88,7 +124,7 @@ static bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}\label{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!MPIProcess@{MPIProcess}}
 \index{MPIProcess@{MPIProcess}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{MPIProcess()}{MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{MPIProcess()}{MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+M\+P\+I\+Process (\begin{DoxyParamCaption}\item[{unsigned int}]{nelements,  }\item[{unsigned int}]{index\+Comm }\end{DoxyParamCaption})}
 
 Here is the call graph for this function\+:\nopagebreak
@@ -101,19 +137,31 @@ Here is the call graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!````~MPIProcess@{$\sim$MPIProcess}}
 \index{````~MPIProcess@{$\sim$MPIProcess}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{$\sim$MPIProcess()}{~MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$MPIProcess()}{~MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::$\sim$\+M\+P\+I\+Process (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}\label{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!MPIProcess@{MPIProcess}}
 \index{MPIProcess@{MPIProcess}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{MPIProcess()}{MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{MPIProcess()}{MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+M\+P\+I\+Process (\begin{DoxyParamCaption}\item[{unsigned int}]{nelements,  }\item[{unsigned int}]{index\+Comm }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!````~MPIProcess@{$\sim$MPIProcess}}
 \index{````~MPIProcess@{$\sim$MPIProcess}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{$\sim$MPIProcess()}{~MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$MPIProcess()}{~MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::$\sim$\+M\+P\+I\+Process (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}\label{classROOT_1_1Minuit2_1_1MPIProcess_a43d72185b19c2e99f914ff408fd2755b}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!MPIProcess@{MPIProcess}}
+\index{MPIProcess@{MPIProcess}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{MPIProcess()}{MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+M\+P\+I\+Process (\begin{DoxyParamCaption}\item[{unsigned int}]{nelements,  }\item[{unsigned int}]{index\+Comm }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac2be6e4b9a721d7f1bf9512580bc113b}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!````~MPIProcess@{$\sim$MPIProcess}}
+\index{````~MPIProcess@{$\sim$MPIProcess}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{$\sim$MPIProcess()}{~MPIProcess()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::$\sim$\+M\+P\+I\+Process (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
@@ -122,7 +170,7 @@ Here is the call graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}\label{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!EndElementIndex@{EndElementIndex}}
 \index{EndElementIndex@{EndElementIndex}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{EndElementIndex()}{EndElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{EndElementIndex()}{EndElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+End\+Element\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -133,7 +181,8 @@ Here is the call graph for this function\+:
 \includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -143,7 +192,21 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}\label{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!EndElementIndex@{EndElementIndex}}
 \index{EndElementIndex@{EndElementIndex}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{EndElementIndex()}{EndElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{EndElementIndex()}{EndElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+End\+Element\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}\label{classROOT_1_1Minuit2_1_1MPIProcess_af4445148831dec4961d5f8aa99aeb2c1}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!EndElementIndex@{EndElementIndex}}
+\index{EndElementIndex@{EndElementIndex}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{EndElementIndex()}{EndElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+End\+Element\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -157,7 +220,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}\label{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIGlobalRank@{GetMPIGlobalRank}}
 \index{GetMPIGlobalRank@{GetMPIGlobalRank}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPIGlobalRank()}{GetMPIGlobalRank()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{GetMPIGlobalRank()}{GetMPIGlobalRank()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily static unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Global\+Rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Here is the call graph for this function\+:
@@ -171,7 +234,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}\label{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIGlobalRank@{GetMPIGlobalRank}}
 \index{GetMPIGlobalRank@{GetMPIGlobalRank}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPIGlobalRank()}{GetMPIGlobalRank()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{GetMPIGlobalRank()}{GetMPIGlobalRank()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Global\+Rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}\label{classROOT_1_1Minuit2_1_1MPIProcess_aa7c524a7980698bf9bba3a652e2f9a13}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIGlobalRank@{GetMPIGlobalRank}}
+\index{GetMPIGlobalRank@{GetMPIGlobalRank}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{GetMPIGlobalRank()}{GetMPIGlobalRank()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily static unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Global\+Rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Here is the call graph for this function\+:
@@ -185,7 +262,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}\label{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIGlobalSize@{GetMPIGlobalSize}}
 \index{GetMPIGlobalSize@{GetMPIGlobalSize}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPIGlobalSize()}{GetMPIGlobalSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{GetMPIGlobalSize()}{GetMPIGlobalSize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily static unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Global\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Here is the call graph for this function\+:
@@ -199,7 +276,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}\label{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIGlobalSize@{GetMPIGlobalSize}}
 \index{GetMPIGlobalSize@{GetMPIGlobalSize}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPIGlobalSize()}{GetMPIGlobalSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{GetMPIGlobalSize()}{GetMPIGlobalSize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Global\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}\label{classROOT_1_1Minuit2_1_1MPIProcess_acfa3106122ad8f8c7d6bb3777c3d1ccc}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIGlobalSize@{GetMPIGlobalSize}}
+\index{GetMPIGlobalSize@{GetMPIGlobalSize}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{GetMPIGlobalSize()}{GetMPIGlobalSize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily static unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Global\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 Here is the call graph for this function\+:
@@ -213,31 +304,43 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}\label{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIRank@{GetMPIRank}}
 \index{GetMPIRank@{GetMPIRank}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPIRank()}{GetMPIRank()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{GetMPIRank()}{GetMPIRank()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}\label{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIRank@{GetMPIRank}}
 \index{GetMPIRank@{GetMPIRank}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPIRank()}{GetMPIRank()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{GetMPIRank()}{GetMPIRank()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}\label{classROOT_1_1Minuit2_1_1MPIProcess_a86c50a55e3ae2651b74fa18443a13dd3}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPIRank@{GetMPIRank}}
+\index{GetMPIRank@{GetMPIRank}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{GetMPIRank()}{GetMPIRank()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Rank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPISize@{GetMPISize}}
 \index{GetMPISize@{GetMPISize}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPISize()}{GetMPISize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{GetMPISize()}{GetMPISize()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPISize@{GetMPISize}}
 \index{GetMPISize@{GetMPISize}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{GetMPISize()}{GetMPISize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{GetMPISize()}{GetMPISize()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9bd9f26ca9de3967741e014fcab5bb59}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!GetMPISize@{GetMPISize}}
+\index{GetMPISize@{GetMPISize}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{GetMPISize()}{GetMPISize()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Get\+M\+P\+I\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4Job@{NumElements4Job}}
 \index{NumElements4Job@{NumElements4Job}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{NumElements4Job()}{NumElements4Job()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{NumElements4Job()}{NumElements4Job()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job (\begin{DoxyParamCaption}\item[{unsigned int}]{rank }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -251,7 +354,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4Job@{NumElements4Job}}
 \index{NumElements4Job@{NumElements4Job}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{NumElements4Job()}{NumElements4Job()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{NumElements4Job()}{NumElements4Job()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job (\begin{DoxyParamCaption}\item[{unsigned int}]{rank }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -262,7 +365,22 @@ Here is the call graph for this function\+:
 \includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4Job@{NumElements4Job}}
+\index{NumElements4Job@{NumElements4Job}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{NumElements4Job()}{NumElements4Job()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job (\begin{DoxyParamCaption}\item[{unsigned int}]{rank }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_a9d9453545f311f9f9f995800ed518258_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -272,16 +390,23 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}\label{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4JobIn@{NumElements4JobIn}}
 \index{NumElements4JobIn@{NumElements4JobIn}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{NumElements4JobIn()}{NumElements4JobIn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{NumElements4JobIn()}{NumElements4JobIn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}\label{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4JobIn@{NumElements4JobIn}}
 \index{NumElements4JobIn@{NumElements4JobIn}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{NumElements4JobIn()}{NumElements4JobIn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{NumElements4JobIn()}{NumElements4JobIn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}\label{classROOT_1_1Minuit2_1_1MPIProcess_ada3f8f6f1b28844db6cb6bd717521ffd}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4JobIn@{NumElements4JobIn}}
+\index{NumElements4JobIn@{NumElements4JobIn}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{NumElements4JobIn()}{NumElements4JobIn()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -291,16 +416,23 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}\label{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4JobOut@{NumElements4JobOut}}
 \index{NumElements4JobOut@{NumElements4JobOut}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{NumElements4JobOut()}{NumElements4JobOut()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{NumElements4JobOut()}{NumElements4JobOut()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}\label{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4JobOut@{NumElements4JobOut}}
 \index{NumElements4JobOut@{NumElements4JobOut}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{NumElements4JobOut()}{NumElements4JobOut()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{NumElements4JobOut()}{NumElements4JobOut()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}\label{classROOT_1_1Minuit2_1_1MPIProcess_a8ab54fbeb2dd760265e0121573361c3f}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!NumElements4JobOut@{NumElements4JobOut}}
+\index{NumElements4JobOut@{NumElements4JobOut}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{NumElements4JobOut()}{NumElements4JobOut()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Num\+Elements4\+Job\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -310,31 +442,43 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}\label{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SetCartDimension@{SetCartDimension}}
 \index{SetCartDimension@{SetCartDimension}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SetCartDimension()}{SetCartDimension()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SetCartDimension()}{SetCartDimension()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily static bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Set\+Cart\+Dimension (\begin{DoxyParamCaption}\item[{unsigned int}]{dimX,  }\item[{unsigned int}]{dimY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}\label{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SetCartDimension@{SetCartDimension}}
 \index{SetCartDimension@{SetCartDimension}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SetCartDimension()}{SetCartDimension()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{SetCartDimension()}{SetCartDimension()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Set\+Cart\+Dimension (\begin{DoxyParamCaption}\item[{unsigned int}]{dimX,  }\item[{unsigned int}]{dimY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}\label{classROOT_1_1Minuit2_1_1MPIProcess_a225f9dc66bcc0098c9f9ac0ec7c498b1}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SetCartDimension@{SetCartDimension}}
+\index{SetCartDimension@{SetCartDimension}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{SetCartDimension()}{SetCartDimension()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily static bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Set\+Cart\+Dimension (\begin{DoxyParamCaption}\item[{unsigned int}]{dimX,  }\item[{unsigned int}]{dimY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}\label{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SetDoFirstMPICall@{SetDoFirstMPICall}}
 \index{SetDoFirstMPICall@{SetDoFirstMPICall}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SetDoFirstMPICall()}{SetDoFirstMPICall()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SetDoFirstMPICall()}{SetDoFirstMPICall()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily static bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Set\+Do\+First\+M\+P\+I\+Call (\begin{DoxyParamCaption}\item[{bool}]{do\+First\+M\+P\+I\+Call = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}\label{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SetDoFirstMPICall@{SetDoFirstMPICall}}
 \index{SetDoFirstMPICall@{SetDoFirstMPICall}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SetDoFirstMPICall()}{SetDoFirstMPICall()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{SetDoFirstMPICall()}{SetDoFirstMPICall()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Set\+Do\+First\+M\+P\+I\+Call (\begin{DoxyParamCaption}\item[{bool}]{do\+First\+M\+P\+I\+Call = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}\label{classROOT_1_1Minuit2_1_1MPIProcess_ae4e6932bbb197c4bff1a17ed3a8b0670}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SetDoFirstMPICall@{SetDoFirstMPICall}}
+\index{SetDoFirstMPICall@{SetDoFirstMPICall}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{SetDoFirstMPICall()}{SetDoFirstMPICall()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily static bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Set\+Do\+First\+M\+P\+I\+Call (\begin{DoxyParamCaption}\item[{bool}]{do\+First\+M\+P\+I\+Call = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!StartElementIndex@{StartElementIndex}}
 \index{StartElementIndex@{StartElementIndex}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{StartElementIndex()}{StartElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{StartElementIndex()}{StartElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Start\+Element\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -345,7 +489,8 @@ Here is the call graph for this function\+:
 \includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -355,7 +500,21 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!StartElementIndex@{StartElementIndex}}
 \index{StartElementIndex@{StartElementIndex}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{StartElementIndex()}{StartElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{StartElementIndex()}{StartElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Start\+Element\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}\label{classROOT_1_1Minuit2_1_1MPIProcess_a9e6b2dc6f57cc91bb11637b50ba15957}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!StartElementIndex@{StartElementIndex}}
+\index{StartElementIndex@{StartElementIndex}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{StartElementIndex()}{StartElementIndex()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Start\+Element\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -369,10 +528,11 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}\label{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!StartMPI@{StartMPI}}
 \index{StartMPI@{StartMPI}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{StartMPI()}{StartMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{StartMPI()}{StartMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily static void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Start\+M\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -382,67 +542,95 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}\label{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!StartMPI@{StartMPI}}
 \index{StartMPI@{StartMPI}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{StartMPI()}{StartMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{StartMPI()}{StartMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Start\+M\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}\label{classROOT_1_1Minuit2_1_1MPIProcess_a235146d3dbd688de458e09425e546d96}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!StartMPI@{StartMPI}}
+\index{StartMPI@{StartMPI}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{StartMPI()}{StartMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily static void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Start\+M\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SumReduce@{SumReduce}}
 \index{SumReduce@{SumReduce}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SumReduce()}{SumReduce()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SumReduce()}{SumReduce()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sum\+Reduce (\begin{DoxyParamCaption}\item[{const double \&}]{sub,  }\item[{double \&}]{total }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SumReduce@{SumReduce}}
 \index{SumReduce@{SumReduce}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SumReduce()}{SumReduce()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{SumReduce()}{SumReduce()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sum\+Reduce (\begin{DoxyParamCaption}\item[{const double \&}]{sub,  }\item[{double \&}]{total }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac28c4a6a09a1518bbfa5ed09b676bd7c}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SumReduce@{SumReduce}}
+\index{SumReduce@{SumReduce}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{SumReduce()}{SumReduce()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sum\+Reduce (\begin{DoxyParamCaption}\item[{const double \&}]{sub,  }\item[{double \&}]{total }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}}
 \index{SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SyncSymMatrixOffDiagonal()}{SyncSymMatrixOffDiagonal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SyncSymMatrixOffDiagonal()}{SyncSymMatrixOffDiagonal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Sym\+Matrix\+Off\+Diagonal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a9e74ad97f5537a2e80e52b04d98ecc6e}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Sym\+Matrix}} \&}]{mnmatrix }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}}
+\index{SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{SyncSymMatrixOffDiagonal()}{SyncSymMatrixOffDiagonal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Sym\+Matrix\+Off\+Diagonal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a9e74ad97f5537a2e80e52b04d98ecc6e}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Sym\+Matrix}} \&}]{mnmatrix }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}}
+\index{SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{SyncSymMatrixOffDiagonal()}{SyncSymMatrixOffDiagonal()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Sym\+Matrix\+Off\+Diagonal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a9e74ad97f5537a2e80e52b04d98ecc6e}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Sym\+Matrix}} \&}]{mnmatrix }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}\label{classROOT_1_1Minuit2_1_1MPIProcess_ac00f83396ec6b7985dad640981a07657}} 
-\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}}
-\index{SyncSymMatrixOffDiagonal@{SyncSymMatrixOffDiagonal}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SyncSymMatrixOffDiagonal()}{SyncSymMatrixOffDiagonal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Sym\+Matrix\+Off\+Diagonal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a9e74ad97f5537a2e80e52b04d98ecc6e}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Sym\+Matrix}} \&}]{mnmatrix }\end{DoxyParamCaption})}
-
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}\label{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncVector@{SyncVector}}
 \index{SyncVector@{SyncVector}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SyncVector()}{SyncVector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SyncVector()}{SyncVector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Vector (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Vector}} \&}]{mnvector }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}\label{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncVector@{SyncVector}}
 \index{SyncVector@{SyncVector}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{SyncVector()}{SyncVector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{SyncVector()}{SyncVector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Vector (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Vector}} \&}]{mnvector }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}\label{classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!SyncVector@{SyncVector}}
+\index{SyncVector@{SyncVector}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{SyncVector()}{SyncVector()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Sync\+Vector (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Algebraic\+Vector}} \&}]{mnvector }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{dc/d43/classROOT_1_1Minuit2_1_1MPIProcess_a179f3ea817399a73cbce05d1778ec128_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -452,18 +640,24 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}\label{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!TerminateMPI@{TerminateMPI}}
 \index{TerminateMPI@{TerminateMPI}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{TerminateMPI()}{TerminateMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{TerminateMPI()}{TerminateMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily static void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Terminate\+M\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}\label{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}} 
 \index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!TerminateMPI@{TerminateMPI}}
 \index{TerminateMPI@{TerminateMPI}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
-\subsubsection{\texorpdfstring{TerminateMPI()}{TerminateMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{TerminateMPI()}{TerminateMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Terminate\+M\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}\label{classROOT_1_1Minuit2_1_1MPIProcess_aa870a057a256be2d95fb7e9d03a9c298}} 
+\index{ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}!TerminateMPI@{TerminateMPI}}
+\index{TerminateMPI@{TerminateMPI}!ROOT::Minuit2::MPIProcess@{ROOT::Minuit2::MPIProcess}}
+\subsubsection{\texorpdfstring{TerminateMPI()}{TerminateMPI()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily static void R\+O\+O\+T\+::\+Minuit2\+::\+M\+P\+I\+Process\+::\+Terminate\+M\+PI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2MPIProcess_8h}{M\+P\+I\+Process.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{MPIProcess_8cxx}{M\+P\+I\+Process.\+cxx}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2MPIProcess_8h}{M\+P\+I\+Process.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2src_2MPIProcess_8cxx}{M\+P\+I\+Process.\+cxx}}\end{DoxyCompactItemize}

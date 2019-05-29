@@ -1,0 +1,62 @@
+\hypertarget{adat__devel_2lib_2hadron_2tetraquark__elem__type_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/tetraquark\+\_\+elem\+\_\+type.h File Reference}
+\label{adat__devel_2lib_2hadron_2tetraquark__elem__type_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/tetraquark\_elem\_type.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/tetraquark\_elem\_type.h}}
+
+
+Tetraquark elemental operators.  
+
+
+{\ttfamily \#include \char`\"{}xml\+\_\+array.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xml\+\_\+array4d.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+Include dependency graph for tetraquark\+\_\+elem\+\_\+type.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d55/adat__devel_2lib_2hadron_2tetraquark__elem__type_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{d2/d87/adat__devel_2lib_2hadron_2tetraquark__elem__type_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyTetraQuarkElementalOperator__t}{Hadron\+::\+Key\+Tetra\+Quark\+Elemental\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Key for Tetra\+Quark operator. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1ValTetraQuarkElementalOperator__t}{Hadron\+::\+Val\+Tetra\+Quark\+Elemental\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Value for Tetra\+Quark operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a7065bb8b0e72a1c7d300230e08cdfdde}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Used for error output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ab1a8a0ffcdeeae3ff66ed453c1609de7}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Read a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a4b91e53beed52be0c8431a4464285dfd}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a10d99bb52996f8aec8a87612e98d5684}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Tetra\+Quark\+Elemental\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a4fefcfe0419c7e64ff031011643eb810}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Tetra\+Quark\+Elemental\+Operator write. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a614faa9c1c7ae1880f009d5c9aa672ec}{Hadron\+::read}} (Binary\+Reader \&bin, Val\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Tetra\+Quark\+Elemental\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ac78ff88ef705b3eaa48d7d440fe2a299}{Hadron\+::write}} (Binary\+Writer \&bin, const Val\+Tetra\+Quark\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Tetra\+Quark\+Elemental\+Operator write. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tetraquark elemental operators. 
+

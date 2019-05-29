@@ -49,6 +49,7 @@ string generateLittleGroup(Eigen::Vector3d& mom_)
     else   // n m p
       littleGroup = "C2";
   }
+  
   return littleGroup;
 };
 

@@ -191,9 +191,9 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/config/depcomp \
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 ACLOCAL = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing aclocal-1.16
 ADAT_CONFIG = /Users/archanar/Kinematic_factor/adat_devel_install/bin/adat-config
-ADAT_CXXFLAGS = -O2 -I/Users/archanar/Kinematic_factor/adat_devel_install/include -I/Users/archanar/anaconda/include/libxml2 -I/Users/archanar/anaconda/include
-ADAT_LDFLAGS = -L/usr/local/opt/libxml2/lib -L/Users/archanar/Kinematic_factor/adat_devel_install/lib
-ADAT_LIBS = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/Users/archanar/anaconda/lib -lxml2 -lz -L/Users/archanar/anaconda/lib -liconv -lm
+ADAT_CXXFLAGS = -O2 -I/Users/archanar/Kinematic_factor/adat_devel_install/include -I/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2
+ADAT_LDFLAGS = -L/Users/archanar/Kinematic_factor/adat_devel_install/lib
+ADAT_LIBS = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.9_2/lib -lxml2 -lz -lpthread -liconv -lm
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AUTOCONF = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoconf
@@ -287,12 +287,12 @@ top_srcdir = ../..
 # Boiler Plate stuff: Autoconf Substitutions etc
 #
 AM_CXXFLAGS = -I../../src \
-		-O3 -mtune=native -fopenmp -fbounds-check -O2 -I/Users/archanar/Kinematic_factor/adat_devel_install/include -I/Users/archanar/anaconda/include/libxml2 -I/Users/archanar/anaconda/include 
+		-O3 -mtune=native -fopenmp -fbounds-check -O2 -I/Users/archanar/Kinematic_factor/adat_devel_install/include -I/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2 
 
 AM_LDFLAGS = -L../src \
-                -L/usr/local/opt/libxml2/lib -L/Users/archanar/Kinematic_factor/adat_devel_install/lib
+                -L/Users/archanar/Kinematic_factor/adat_devel_install/lib
 
-LDADD = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/Users/archanar/anaconda/lib -lxml2 -lz -L/Users/archanar/anaconda/lib -liconv -lm  
+LDADD = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.9_2/lib -lxml2 -lz -lpthread -liconv -lm  
 
 ##############################################################
 compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc

@@ -1,0 +1,45 @@
+\hypertarget{adat__devel_2lib_2io_2do__not__use_2adat__qdpio_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/do\+\_\+not\+\_\+use/adat\+\_\+qdpio.cc File Reference}
+\label{adat__devel_2lib_2io_2do__not__use_2adat__qdpio_8cc}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/io/do\_not\_use/adat\_qdpio.cc@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/io/do\_not\_use/adat\_qdpio.cc}}
+
+
+IO support via Q\+IO.  
+
+
+{\ttfamily \#include \char`\"{}io/adat\+\_\+qdpio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+byteorder.\+h\char`\"{}}\newline
+Include dependency graph for adat\+\_\+qdpio.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{d7/de2/adat__devel_2lib_2io_2do__not__use_2adat__qdpio_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOChecksumInfo__t}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Checksum\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO record checksum. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceADATIO}{A\+D\+A\+T\+IO}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespaceADATIO_ac8ef7ea6a40421510ad5578b6fad884e}{A\+D\+A\+T\+I\+O\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Q\+I\+O\+File\+Info\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Read a private file info struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_ac5827e268402afb3a0bb4ebbcec97706}{A\+D\+A\+T\+I\+O\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Q\+I\+O\+Record\+Info\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Read a private record info struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceADATIO_ab39e59b5ba8a584a1c5afd164173b9e7}{A\+D\+A\+T\+I\+O\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Q\+I\+O\+Checksum\+Info\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Read a checksum info struct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d}{A\+D\+A\+T\+I\+O\+::close}} (A\+D\+A\+T\+File\+Reader \&qsw)
+\begin{DoxyCompactList}\small\item\em Close a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__qio_gad9b8cab72f011dd46c24a51e8a1c756a}{A\+D\+A\+T\+I\+O\+::is\+\_\+open}} (A\+D\+A\+T\+File\+Reader \&qsw)
+\begin{DoxyCompactList}\small\item\em Is a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} open. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+IO support via Q\+IO. 
+

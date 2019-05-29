@@ -70,6 +70,38 @@ double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070be
 unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}{N\+Fcn}} () const
 \item 
 bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}{Is\+Valid}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}{Basic\+Minimum\+Seed}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&state, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&trafo)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}{$\sim$\+Basic\+Minimum\+Seed}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}{Basic\+Minimum\+Seed}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&seed)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}{operator=}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&seed)
+\item 
+void $\ast$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}{operator new}} (size\+\_\+t nbytes)
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}{operator delete}} (void $\ast$p, size\+\_\+t)
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}{State}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}{Parameters}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}{Error}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}{Gradient}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}{Trafo}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}{Precision}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}{Fval}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}{Edm}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}{N\+Fcn}} () const
+\item 
+bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}{Is\+Valid}} () const
 \end{DoxyCompactItemize}
 
 
@@ -77,37 +109,55 @@ bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!BasicMinimumSeed@{BasicMinimumSeed}}
 \index{BasicMinimumSeed@{BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{state,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&}]{trafo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!````~BasicMinimumSeed@{$\sim$BasicMinimumSeed}}
 \index{````~BasicMinimumSeed@{$\sim$BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{$\sim$BasicMinimumSeed()}{~BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$BasicMinimumSeed()}{~BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::$\sim$\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!BasicMinimumSeed@{BasicMinimumSeed}}
 \index{BasicMinimumSeed@{BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!BasicMinimumSeed@{BasicMinimumSeed}}
 \index{BasicMinimumSeed@{BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{state,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&}]{trafo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!````~BasicMinimumSeed@{$\sim$BasicMinimumSeed}}
 \index{````~BasicMinimumSeed@{$\sim$BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{$\sim$BasicMinimumSeed()}{~BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$BasicMinimumSeed()}{~BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::$\sim$\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!BasicMinimumSeed@{BasicMinimumSeed}}
 \index{BasicMinimumSeed@{BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aae0d1c36a05bf57a221d1930a9ffbb87}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!BasicMinimumSeed@{BasicMinimumSeed}}
+\index{BasicMinimumSeed@{BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}} \&}]{state,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}} \&}]{trafo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab0106865fff141f6f402cc934ea292d7}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!````~BasicMinimumSeed@{$\sim$BasicMinimumSeed}}
+\index{````~BasicMinimumSeed@{$\sim$BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{$\sim$BasicMinimumSeed()}{~BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::$\sim$\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a9bd68bcfd30880f67566bfd4f70a2ca6}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!BasicMinimumSeed@{BasicMinimumSeed}}
+\index{BasicMinimumSeed@{BasicMinimumSeed}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{BasicMinimumSeed()}{BasicMinimumSeed()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Basic\+Minimum\+Seed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -116,7 +166,7 @@ bool \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Edm@{Edm}}
 \index{Edm@{Edm}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -130,7 +180,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Edm@{Edm}}
 \index{Edm@{Edm}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a10659878d070bed73df23682eab3e88e}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Edm@{Edm}}
+\index{Edm@{Edm}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -144,7 +208,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Error@{Error}}
 \index{Error@{Error}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -158,7 +222,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Error@{Error}}
 \index{Error@{Error}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a108de61cfe9f1766c3d7e251202a29df}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Error@{Error}}
+\index{Error@{Error}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Error()}{Error()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumError}{Minimum\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -172,7 +250,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Fval@{Fval}}
 \index{Fval@{Fval}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Fval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -186,7 +264,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Fval@{Fval}}
 \index{Fval@{Fval}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Fval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a40b43b611717121256cd72bf40a3d5d7}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Fval@{Fval}}
+\index{Fval@{Fval}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Fval()}{Fval()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Fval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -200,7 +292,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Gradient@{Gradient}}
 \index{Gradient@{Gradient}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Gradient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -214,7 +306,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Gradient@{Gradient}}
 \index{Gradient@{Gradient}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Gradient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab61377b63a177c93629ccb3e69e173db}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Gradient@{Gradient}}
+\index{Gradient@{Gradient}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Gradient()}{Gradient()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FunctionGradient}{Function\+Gradient}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Gradient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -228,19 +334,25 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!IsValid@{IsValid}}
 \index{IsValid@{IsValid}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!IsValid@{IsValid}}
 \index{IsValid@{IsValid}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ab53f2619d2b6be3d3d9303f8de29ab28}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{IsValid()}{IsValid()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily bool R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!NFcn@{NFcn}}
 \index{NFcn@{NFcn}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -254,7 +366,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!NFcn@{NFcn}}
 \index{NFcn@{NFcn}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a1d34718bf163936432ef05dea799c469}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!NFcn@{NFcn}}
+\index{NFcn@{NFcn}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -268,7 +394,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator delete@{operator delete}}
 \index{operator delete@{operator delete}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{operator delete()}{operator delete()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{operator delete()}{operator delete()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p,  }\item[{size\+\_\+t}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -282,7 +408,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator delete@{operator delete}}
 \index{operator delete@{operator delete}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{operator delete()}{operator delete()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{operator delete()}{operator delete()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p,  }\item[{size\+\_\+t}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae2af98f9f03cfe5e5202153b914ff120}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator delete@{operator delete}}
+\index{operator delete@{operator delete}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{operator delete()}{operator delete()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p,  }\item[{size\+\_\+t}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -296,7 +436,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator new@{operator new}}
 \index{operator new@{operator new}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{operator new()}{operator new()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{operator new()}{operator new()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator new (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{nbytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -310,7 +450,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator new@{operator new}}
 \index{operator new@{operator new}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{operator new()}{operator new()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{operator new()}{operator new()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator new (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{nbytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_ae9ee17ec0140aa209e488b064675f3c3}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator new@{operator new}}
+\index{operator new@{operator new}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{operator new()}{operator new()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily void$\ast$ R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator new (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{nbytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -324,19 +478,25 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator=@{operator=}}
 \index{operator=@{operator=}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator=@{operator=}}
 \index{operator=@{operator=}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aeffefca123cbfd95d19fa7fb7e087431}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!operator=@{operator=}}
+\index{operator=@{operator=}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1BasicMinimumSeed}{Basic\+Minimum\+Seed}} \&}]{seed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Parameters@{Parameters}}
 \index{Parameters@{Parameters}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -350,7 +510,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Parameters@{Parameters}}
 \index{Parameters@{Parameters}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a0aec3622cdc4f1c52a4be74f8b96059a}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Parameters@{Parameters}}
+\index{Parameters@{Parameters}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Parameters()}{Parameters()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumParameters}{Minimum\+Parameters}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -364,7 +538,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Precision@{Precision}}
 \index{Precision@{Precision}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -378,7 +552,21 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Precision@{Precision}}
 \index{Precision@{Precision}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d50/classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_af06c66e8851f7314915e01e0bedb200c}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Precision@{Precision}}
+\index{Precision@{Precision}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Precision()}{Precision()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -392,16 +580,23 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!State@{State}}
 \index{State@{State}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!State@{State}}
 \index{State@{State}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_a92e671b9a963d83076238c2e2b283e7c}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!State@{State}}
+\index{State@{State}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{State()}{State()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinimumState}{Minimum\+State}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -411,17 +606,23 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Trafo@{Trafo}}
 \index{Trafo@{Trafo}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Trafo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}} 
 \index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Trafo@{Trafo}}
 \index{Trafo@{Trafo}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
-\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Trafo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}\label{classROOT_1_1Minuit2_1_1BasicMinimumSeed_aa40157cea0a8a75b56af25bbc64f8d39}} 
+\index{ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}!Trafo@{Trafo}}
+\index{Trafo@{Trafo}!ROOT::Minuit2::BasicMinimumSeed@{ROOT::Minuit2::BasicMinimumSeed}}
+\subsubsection{\texorpdfstring{Trafo()}{Trafo()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserTransformation}{Mn\+User\+Transformation}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Basic\+Minimum\+Seed\+::\+Trafo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2BasicMinimumSeed_8h}{Basic\+Minimum\+Seed.\+h}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2BasicMinimumSeed_8h}{Basic\+Minimum\+Seed.\+h}}\end{DoxyCompactItemize}

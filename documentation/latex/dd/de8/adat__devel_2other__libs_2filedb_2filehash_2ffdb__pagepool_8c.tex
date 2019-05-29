@@ -1,0 +1,326 @@
+\hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/ffdb\+\_\+pagepool.c File Reference}
+\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c}\index{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/filehash/ffdb\_pagepool.c@{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/filehash/ffdb\_pagepool.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$sys/types.\+h$>$}\newline
+{\ttfamily \#include $<$sys/stat.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include $<$errno.\+h$>$}\newline
+{\ttfamily \#include $<$ffdb\+\_\+db.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+pagepool.\+h\char`\"{}}\newline
+Include dependency graph for ffdb\+\_\+pagepool.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d58/adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a285ae8236e7a984a6692acf6530cd505}{\+\_\+\+\_\+\+U\+S\+E\+\_\+\+L\+A\+R\+G\+E\+F\+I\+L\+E64}}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a0ad46bd6ea251794aca41ed6eff0266a}{\+\_\+\+\_\+\+L\+A\+R\+G\+E\+F\+I\+L\+E64\+\_\+\+S\+O\+U\+R\+CE}}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a55eb99244f26f6a99486bb00c529d6d1}{\+\_\+\+\_\+\+U\+S\+E\+\_\+\+X\+O\+P\+E\+N2\+K8}}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_adc4cc5c67b56f34138d786ef6331e3f4}{\+\_\+\+\_\+\+U\+S\+E\+\_\+\+G\+NU}}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_aa84e2538b999de01bd9a979db9fdeffa}{I\+S\+\_\+\+V\+A\+L\+I\+D\+\_\+\+P\+A\+G\+E\+S\+I\+ZE}}(x)~(\mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_aad891cad4d93571b9eaaf397018e623f}{F\+F\+D\+B\+\_\+\+P\+O\+W\+E\+R\+\_\+\+O\+F\+\_\+\+T\+WO}}(x) \&\& (x) $>$= \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a4ec72f941ddb4abac0537aad839ae0d1}{F\+F\+D\+B\+\_\+\+M\+I\+N\+\_\+\+P\+G\+S\+I\+ZE}} \&\& ((x) $<$= \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a160d085e2bf39c78d1adf6e1af9e7d60}{F\+F\+D\+B\+\_\+\+M\+A\+X\+\_\+\+P\+G\+S\+I\+ZE}}))
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a72c44f8ab92d09c2def5eadf818b8173}{ffdb\+\_\+dump\+\_\+stack}} (void)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a07a68c49feb01ff2b1348323e3f90801}{ffdb\+\_\+pagepool\+\_\+create}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$$\ast$pgp, unsigned int flags)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ac2ee0d0b33af66cbccec9b243e2e3bc2}{ffdb\+\_\+pagepool\+\_\+open}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, const char $\ast$filename, unsigned int flags, int mode, const unsigned int pagesize, const unsigned int maxcache)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a99e8cd4bfa26d6f079224a140267e29d}{ffdb\+\_\+pagepool\+\_\+open\+\_\+fd}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, int fd, const unsigned int pagesize, const unsigned int maxcache)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a64907f28abdad3f859641b235e76bb42}{ffdb\+\_\+pagepool\+\_\+new\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} $\ast$pageno, unsigned int flags, void $\ast$$\ast$mem)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a5b3c5e95803e8cb5f6eee48855f12f27}{ffdb\+\_\+pagepool\+\_\+get\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} $\ast$pageno, unsigned int flags, void $\ast$$\ast$mem)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad7f00ff4f29b50aaa1bc5444087b9bb5}{ffdb\+\_\+pagepool\+\_\+put\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, void $\ast$mem, unsigned int flags)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a8a56a4dfe872f7c75dd8064ca7bffedf}{ffdb\+\_\+pagepool\+\_\+change\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, void $\ast$mem, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} newpagenum)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ae180f42208c9a87c2b8be32bb3ec93be}{ffdb\+\_\+pagepool\+\_\+sync}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a73c44ef71020216252a28a384316dd93}{ffdb\+\_\+pagepool\+\_\+close}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad53e778be42420ab49a02b1d238b7533}{ffdb\+\_\+pagepool\+\_\+delete}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, void $\ast$mem)
+\item 
+void \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ab7ffdd556982a46d76ab1237f2f6d4cf}{ffdb\+\_\+pagepool\+\_\+filter}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$pgp, \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}} pgin, \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}} pgout, void $\ast$arg)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a0ad46bd6ea251794aca41ed6eff0266a}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a0ad46bd6ea251794aca41ed6eff0266a}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!\_\_LARGEFILE64\_SOURCE@{\_\_LARGEFILE64\_SOURCE}}
+\index{\_\_LARGEFILE64\_SOURCE@{\_\_LARGEFILE64\_SOURCE}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{\_\_LARGEFILE64\_SOURCE}{\_\_LARGEFILE64\_SOURCE}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+L\+A\+R\+G\+E\+F\+I\+L\+E64\+\_\+\+S\+O\+U\+R\+CE}
+
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_adc4cc5c67b56f34138d786ef6331e3f4}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_adc4cc5c67b56f34138d786ef6331e3f4}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!\_\_USE\_GNU@{\_\_USE\_GNU}}
+\index{\_\_USE\_GNU@{\_\_USE\_GNU}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{\_\_USE\_GNU}{\_\_USE\_GNU}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+U\+S\+E\+\_\+\+G\+NU}
+
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a285ae8236e7a984a6692acf6530cd505}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a285ae8236e7a984a6692acf6530cd505}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!\_\_USE\_LARGEFILE64@{\_\_USE\_LARGEFILE64}}
+\index{\_\_USE\_LARGEFILE64@{\_\_USE\_LARGEFILE64}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{\_\_USE\_LARGEFILE64}{\_\_USE\_LARGEFILE64}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+U\+S\+E\+\_\+\+L\+A\+R\+G\+E\+F\+I\+L\+E64}
+
+Copyright (C) $<$2008$>$ Jefferson Science Associates, L\+LC Under U.\+S. D\+OE Contract No. D\+E-\/\+A\+C05-\/06\+O\+R23177
+
+Thomas Jefferson National Accelerator Facility
+
+Jefferson Lab Scientific Computing Group, 12000 Jefferson Ave.,
+
+Newport News, VA 23606
+
+This program is free software\+: you can redistribute it and/or modify it under the terms of the G\+NU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but W\+I\+T\+H\+O\+UT A\+NY W\+A\+R\+R\+A\+N\+TY; without even the implied warranty of M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY or F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE. See the G\+NU General Public License for more details.
+
+You should have received a copy of the G\+NU General Public License along with this program. If not, see \href{http://www.gnu.org/licenses/}{\texttt{ http\+://www.\+gnu.\+org/licenses/}}. 
+
+ Description\+: Memory Cache Page Pool Implementation based on both old and new Berkeley DB
+
+Author\+: Jie Chen Scientific Computing Group Jefferson Lab
+
+Revision History\+: \begin{DoxyParagraph}{Log}
+ffdb\+\_\+pagepool.\+c,v 
+\end{DoxyParagraph}
+Revision 1.\+7 2009-\/07-\/18 2136 chen Fix a bug when cache size is not big enough by changing pgp-\/$>$npages to be number of pages in the file and maxpgno to be maximum page number currently in use
+
+Revision 1.\+6 2009/05/08 1731 chen Fix a major bug (not clean out moved page inside page pool cache)
+
+Revision 1.\+5 2009/04/21 1820 chen Fix bugs related to number of pages upon moving pages in addition to clean pages on disk when the pages has been moved
+
+Revision 1.\+4 2009/04/17 0014 chen add dump stack routine
+
+Revision 1.\+3 2009/03/04 0126 chen Combine multiple writes
+
+Revision 1.\+2 2009/02/24 0405 edwards Check if O\+\_\+\+L\+A\+R\+G\+E\+F\+I\+LE is defined before attempting to add it to the lflags used in the \char`\"{}open\char`\"{} call.
+
+Revision 1.\+1 2009/02/20 2047 chen initial import \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a55eb99244f26f6a99486bb00c529d6d1}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a55eb99244f26f6a99486bb00c529d6d1}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!\_\_USE\_XOPEN2K8@{\_\_USE\_XOPEN2K8}}
+\index{\_\_USE\_XOPEN2K8@{\_\_USE\_XOPEN2K8}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{\_\_USE\_XOPEN2K8}{\_\_USE\_XOPEN2K8}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+U\+S\+E\+\_\+\+X\+O\+P\+E\+N2\+K8}
+
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_aa84e2538b999de01bd9a979db9fdeffa}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_aa84e2538b999de01bd9a979db9fdeffa}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!IS\_VALID\_PAGESIZE@{IS\_VALID\_PAGESIZE}}
+\index{IS\_VALID\_PAGESIZE@{IS\_VALID\_PAGESIZE}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{IS\_VALID\_PAGESIZE}{IS\_VALID\_PAGESIZE}}
+{\footnotesize\ttfamily \#define I\+S\+\_\+\+V\+A\+L\+I\+D\+\_\+\+P\+A\+G\+E\+S\+I\+ZE(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~(\mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_aad891cad4d93571b9eaaf397018e623f}{F\+F\+D\+B\+\_\+\+P\+O\+W\+E\+R\+\_\+\+O\+F\+\_\+\+T\+WO}}(x) \&\& (x) $>$= \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a4ec72f941ddb4abac0537aad839ae0d1}{F\+F\+D\+B\+\_\+\+M\+I\+N\+\_\+\+P\+G\+S\+I\+ZE}} \&\& ((x) $<$= \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a160d085e2bf39c78d1adf6e1af9e7d60}{F\+F\+D\+B\+\_\+\+M\+A\+X\+\_\+\+P\+G\+S\+I\+ZE}}))}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a72c44f8ab92d09c2def5eadf818b8173}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a72c44f8ab92d09c2def5eadf818b8173}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_dump\_stack@{ffdb\_dump\_stack}}
+\index{ffdb\_dump\_stack@{ffdb\_dump\_stack}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_dump\_stack()}{ffdb\_dump\_stack()}}
+{\footnotesize\ttfamily void ffdb\+\_\+dump\+\_\+stack (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Simple utility to dump stack trace Now it only has implementation on linux \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a8a56a4dfe872f7c75dd8064ca7bffedf}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a8a56a4dfe872f7c75dd8064ca7bffedf}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_change\_page@{ffdb\_pagepool\_change\_page}}
+\index{ffdb\_pagepool\_change\_page@{ffdb\_pagepool\_change\_page}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_change\_page()}{ffdb\_pagepool\_change\_page()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+change\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{void $\ast$}]{mem,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}}}]{newpagenum }\end{DoxyParamCaption})}
+
+Put a page back into the cache so that other threads can access this page with new page number for this page
+
+
+\begin{DoxyParams}{Parameters}
+{\em pgp} & cache page pool pointer \\
+\hline
+{\em mem} & user cached page memory will be returned \\
+\hline
+{\em newpgnum} & a new pagenumber associated with this page\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if this page is successfully be put back into the cache. Otherwise return -\/1 with an appropriate errno set 
+\end{DoxyReturn}
+if there are waiters, we cannot change this page just do a regular put and come back later to change
+
+Here is a scary thing, if the flags has D\+I\+R\+TY bit set, but bp-\/$>$flags does not have the D\+I\+R\+TY bit set, how do we control multiple threads simultaneous writes suggestion\+: always set flag when you create pages
+
+Derefence the page
+
+Remember old pagenumber
+
+Change page number
+
+Now Unpin the page and wake up other threads waiting
+
+Now add this entry back to the lists
+
+Change number of pages if pages are moved back
+
+Clean out old disk contentHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de8/adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a8a56a4dfe872f7c75dd8064ca7bffedf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a73c44ef71020216252a28a384316dd93}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a73c44ef71020216252a28a384316dd93}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_close@{ffdb\_pagepool\_close}}
+\index{ffdb\_pagepool\_close@{ffdb\_pagepool\_close}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_close()}{ffdb\_pagepool\_close()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+close (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp }\end{DoxyParamCaption})}
+
+Close the page poll pointer and any resource associated with this file This implies all dirty pages are flushed out,
+
+
+\begin{DoxyParams}{Parameters}
+{\em pgp} & cache page poll pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 the file is closed successfully and all pages are written back to th back file. If there are still pinned pages by other threads, return -\/1 and errno is set to E\+A\+G\+A\+IN. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/de8/adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a73c44ef71020216252a28a384316dd93_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a07a68c49feb01ff2b1348323e3f90801}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a07a68c49feb01ff2b1348323e3f90801}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_create@{ffdb\_pagepool\_create}}
+\index{ffdb\_pagepool\_create@{ffdb\_pagepool\_create}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_create()}{ffdb\_pagepool\_create()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+create (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$$\ast$}]{pgp,  }\item[{unsigned int}]{flags }\end{DoxyParamCaption})}
+
+Create ffdb\+\_\+pagepool handle used by all threads of a process initialize each element of this structure
+
+Initialize L\+RU and hash table
+
+Create a pthread mutex lock\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad53e778be42420ab49a02b1d238b7533}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad53e778be42420ab49a02b1d238b7533}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_delete@{ffdb\_pagepool\_delete}}
+\index{ffdb\_pagepool\_delete@{ffdb\_pagepool\_delete}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_delete()}{ffdb\_pagepool\_delete()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+delete (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{void $\ast$}]{mem }\end{DoxyParamCaption})}
+
+Really delete page from cache. This is used either by internal other routines or user knows this page is not used anymore 
+\begin{DoxyParams}{Parameters}
+{\em pgp} & cache page poll pointer \\
+\hline
+{\em mem} & memory pointer of this page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 this page is deleted and memory is freed. Otherwise return -\/1 
+\end{DoxyReturn}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ab7ffdd556982a46d76ab1237f2f6d4cf}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ab7ffdd556982a46d76ab1237f2f6d4cf}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_filter@{ffdb\_pagepool\_filter}}
+\index{ffdb\_pagepool\_filter@{ffdb\_pagepool\_filter}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_filter()}{ffdb\_pagepool\_filter()}}
+{\footnotesize\ttfamily void ffdb\+\_\+pagepool\+\_\+filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{\mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}}}]{pgin,  }\item[{\mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_abe9c83a47a1f5babe21df1582aeb8022}{ffdb\+\_\+pgiofunc\+\_\+t}}}]{pgout,  }\item[{void $\ast$}]{arg }\end{DoxyParamCaption})}
+
+User supplied filter code \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a5b3c5e95803e8cb5f6eee48855f12f27}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a5b3c5e95803e8cb5f6eee48855f12f27}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_get\_page@{ffdb\_pagepool\_get\_page}}
+\index{ffdb\_pagepool\_get\_page@{ffdb\_pagepool\_get\_page}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_get\_page()}{ffdb\_pagepool\_get\_page()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+get\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} $\ast$}]{pageno,  }\item[{unsigned int}]{flags,  }\item[{void $\ast$$\ast$}]{mem }\end{DoxyParamCaption})}
+
+Get a cached page from the page poll There will be no difference of treatment on the thread getting this page, i.\+e. readonly or write flags can be 0 or OR\textquotesingle{}I\+NG the following values F\+F\+D\+B\+\_\+\+P\+A\+G\+E\+\_\+\+C\+R\+E\+A\+TE if the specified page does not exist, create it. F\+F\+D\+B\+\_\+\+P\+A\+G\+E\+\_\+\+D\+I\+R\+TY this page will be modified before leaving the cache F\+F\+D\+B\+\_\+\+P\+A\+G\+E\+\_\+\+L\+O\+CK this page will stay in cache number to the memory location of the pagno F\+F\+D\+B\+\_\+\+N\+EW create a new page in the file, and copy its page number into the the memory localtion of the pageno.
+
+Since each page is locked by checking whether pinned flag is set, so as long as pinned flag is changed, one is ok to modify other attribute of the page Check flag for consistence
+
+Handle the case of new page No need to lock page here because each page is a new alloced page
+
+Try to find a page from existing cache. This page has to be not pinned by other threads
+
+If I am the owner, the bp will be returned
+
+A different thread try to access this page
+
+The following removal and reinsert must be done at the same time. If the item is removed first, the lock is given up when a thread is waiting on the conditional variable. Another thread come in to request the same page, it will not find the page and will create a new page with the same page number. One will have two entries in the hash and L\+RU with the same page number
+
+We cannot find this page with provided page number if flag F\+F\+D\+B\+\_\+\+P\+A\+G\+E\+\_\+\+C\+R\+E\+A\+TE is set, we have to create this page\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a64907f28abdad3f859641b235e76bb42}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a64907f28abdad3f859641b235e76bb42}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_new\_page@{ffdb\_pagepool\_new\_page}}
+\index{ffdb\_pagepool\_new\_page@{ffdb\_pagepool\_new\_page}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_new\_page()}{ffdb\_pagepool\_new\_page()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+new\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} $\ast$}]{pageno,  }\item[{unsigned int}]{flags,  }\item[{void $\ast$$\ast$}]{mem }\end{DoxyParamCaption})}
+
+Create a new page not from the back source file \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ac2ee0d0b33af66cbccec9b243e2e3bc2}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ac2ee0d0b33af66cbccec9b243e2e3bc2}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_open@{ffdb\_pagepool\_open}}
+\index{ffdb\_pagepool\_open@{ffdb\_pagepool\_open}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_open()}{ffdb\_pagepool\_open()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{const char $\ast$}]{filename,  }\item[{unsigned int}]{flags,  }\item[{int}]{mode,  }\item[{const unsigned int}]{pagesize,  }\item[{const unsigned int}]{maxcache }\end{DoxyParamCaption})}
+
+Open a page cache poll object using a given file first check open flags
+
+Check page size
+
+Let us open the file
+
+Always support large file if I am on a 32bit linux machine\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a99e8cd4bfa26d6f079224a140267e29d}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_a99e8cd4bfa26d6f079224a140267e29d}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_open\_fd@{ffdb\_pagepool\_open\_fd}}
+\index{ffdb\_pagepool\_open\_fd@{ffdb\_pagepool\_open\_fd}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_open\_fd()}{ffdb\_pagepool\_open\_fd()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+open\+\_\+fd (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{int}]{fd,  }\item[{const unsigned int}]{pagesize,  }\item[{const unsigned int}]{maxcache }\end{DoxyParamCaption})}
+
+Open a page cache poll object using a given file first check open flags
+
+Check page size\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad7f00ff4f29b50aaa1bc5444087b9bb5}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad7f00ff4f29b50aaa1bc5444087b9bb5}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_put\_page@{ffdb\_pagepool\_put\_page}}
+\index{ffdb\_pagepool\_put\_page@{ffdb\_pagepool\_put\_page}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_put\_page()}{ffdb\_pagepool\_put\_page()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+put\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp,  }\item[{void $\ast$}]{mem,  }\item[{unsigned int}]{flags }\end{DoxyParamCaption})}
+
+Put a page back into the cache so that other threads can access this page
+
+
+\begin{DoxyParams}{Parameters}
+{\em pgp} & cache page pool pointer \\
+\hline
+{\em mem} & user cached page memory will be returned \\
+\hline
+{\em flags} & this flags can be F\+F\+D\+B\+\_\+\+P\+A\+G\+E\+\_\+\+D\+I\+R\+TY if this page has been modified\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if this page is successfully be put back into the cache. Otherwise return -\/1 with an appropriate errno set 
+\end{DoxyReturn}
+Here is a scary thing, if the flags has D\+I\+R\+TY bit set, but bp-\/$>$flags does not have the D\+I\+R\+TY bit set, how do we control multiple threads simultaneous writes suggestion\+: always set flag when you create pages
+
+Derefence the page
+
+Now Unpin the page and wake up other threads waitingHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{dd/de8/adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ad7f00ff4f29b50aaa1bc5444087b9bb5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ae180f42208c9a87c2b8be32bb3ec93be}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8c_ae180f42208c9a87c2b8be32bb3ec93be}} 
+\index{ffdb\_pagepool.c@{ffdb\_pagepool.c}!ffdb\_pagepool\_sync@{ffdb\_pagepool\_sync}}
+\index{ffdb\_pagepool\_sync@{ffdb\_pagepool\_sync}!ffdb\_pagepool.c@{ffdb\_pagepool.c}}
+\subsubsection{\texorpdfstring{ffdb\_pagepool\_sync()}{ffdb\_pagepool\_sync()}}
+{\footnotesize\ttfamily int ffdb\+\_\+pagepool\+\_\+sync (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_a73290f737b0e5f8be90a0fa96ddf6ab6}{ffdb\+\_\+pagepool\+\_\+t}} $\ast$}]{pgp }\end{DoxyParamCaption})}
+
+Flush all dirty pages back to the back end file. However, if any modified pages are in use. They will be ignored
+
+
+\begin{DoxyParams}{Parameters}
+{\em pgp} & cache page pool pointer \\
+\hline
+\end{DoxyParams}

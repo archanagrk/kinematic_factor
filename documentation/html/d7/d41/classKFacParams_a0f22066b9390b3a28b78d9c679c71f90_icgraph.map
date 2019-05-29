@@ -1,7 +1,5 @@
 <map id="KFacParams::subPhSum" name="KFacParams::subPhSum">
-<area shape="rect" id="node1" title=" " alt="" coords="246,80,417,105"/>
-<area shape="rect" id="node2" href="$d8/d76/classKfacSSV.html#ad9bddcf643847eebae9926bbc646c56c" title=" " alt="" coords="32,5,172,31"/>
-<area shape="rect" id="node3" href="$d3/d61/classKfacSVV.html#abc4b565ae1fbf1109bbed4b05b3d5ee7" title=" " alt="" coords="32,55,172,80"/>
-<area shape="rect" id="node4" href="$df/df0/classKfacSSVwPhCorr.html#abe3adeddc111ac5016b07086242fd7f1" title=" " alt="" coords="5,104,198,129"/>
-<area shape="rect" id="node5" href="$d5/dd2/classKfacSVVwPhCorr.html#a16ca2be4bad507ad67ab2ce96f056917" title=" " alt="" coords="5,153,198,179"/>
+<area shape="rect" id="node1" title=" " alt="" coords="193,31,365,56"/>
+<area shape="rect" id="node2" href="$d8/d76/classKfacSSV.html#ad9bddcf643847eebae9926bbc646c56c" title=" " alt="" coords="5,5,145,31"/>
+<area shape="rect" id="node3" href="$d3/d61/classKfacSVV.html#abc4b565ae1fbf1109bbed4b05b3d5ee7" title=" " alt="" coords="5,55,145,80"/>
 </map>

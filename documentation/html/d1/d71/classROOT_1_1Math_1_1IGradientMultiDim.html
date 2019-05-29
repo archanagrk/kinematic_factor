@@ -74,7 +74,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d56/other__libs_2minuit_2inc_2Math_2IFunction_8h_source.html">IFunction.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/d88/adat-devel_2other__libs_2minuit_2inc_2Math_2IFunction_8h_source.html">IFunction.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ROOT:&#x1f44d;&#x1f44d;</div>
 <div class="dyncontent">
@@ -106,6 +106,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae131d6cc942c8fcf90a3b575335b30a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d0e31b786327014524483a708d8f82"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d71/classROOT_1_1Math_1_1IGradientMultiDim.html#ad8d0e31b786327014524483a708d8f82">FdF</a> (const double *x, double &amp;f, double *df) const =0</td></tr>
 <tr class="separator:ad8d0e31b786327014524483a708d8f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ce0f439481e78992945f7d8b8fb42e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d71/classROOT_1_1Math_1_1IGradientMultiDim.html#a68ce0f439481e78992945f7d8b8fb42e">~IGradientMultiDim</a> ()</td></tr>
+<tr class="memdesc:a68ce0f439481e78992945f7d8b8fb42e"><td class="mdescLeft">&#160;</td><td class="mdescRight">virual destructor  <a href="#a68ce0f439481e78992945f7d8b8fb42e">More...</a><br /></td></tr>
+<tr class="separator:a68ce0f439481e78992945f7d8b8fb42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5785e2df4fa36061bf9ddbb9ce4dde0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d71/classROOT_1_1Math_1_1IGradientMultiDim.html#ac5785e2df4fa36061bf9ddbb9ce4dde0">Gradient</a> (const double *x, double *grad) const =0</td></tr>
+<tr class="separator:ac5785e2df4fa36061bf9ddbb9ce4dde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae131d6cc942c8fcf90a3b575335b30a7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d71/classROOT_1_1Math_1_1IGradientMultiDim.html#ae131d6cc942c8fcf90a3b575335b30a7">Derivative</a> (const double *x, unsigned int icoord=0) const</td></tr>
+<tr class="separator:ae131d6cc942c8fcf90a3b575335b30a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d0e31b786327014524483a708d8f82"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d71/classROOT_1_1Math_1_1IGradientMultiDim.html#ad8d0e31b786327014524483a708d8f82">FdF</a> (const double *x, double &amp;f, double *df) const =0</td></tr>
+<tr class="separator:ad8d0e31b786327014524483a708d8f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p class="">Gradient interface (abstract class) defining the signature for calculating the gradient of a multi-dimensional function. Three methods are provided:</p><ul>
@@ -116,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <p class="">Concrete classes should derive from <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html">ROOT::Math::IGradientFunctionMultiDim</a> and not from this class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a68ce0f439481e78992945f7d8b8fb42e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68ce0f439481e78992945f7d8b8fb42e">&#9670;&nbsp;</a></span>~IGradientMultiDim() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ce0f439481e78992945f7d8b8fb42e">&#9670;&nbsp;</a></span>~IGradientMultiDim() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,7 +152,34 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a68ce0f439481e78992945f7d8b8fb42e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68ce0f439481e78992945f7d8b8fb42e">&#9670;&nbsp;</a></span>~IGradientMultiDim() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ce0f439481e78992945f7d8b8fb42e">&#9670;&nbsp;</a></span>~IGradientMultiDim() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ROOT::Math::IGradientMultiDim::~IGradientMultiDim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>virual destructor </p>
+
+</div>
+</div>
+<a id="a68ce0f439481e78992945f7d8b8fb42e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ce0f439481e78992945f7d8b8fb42e">&#9670;&nbsp;</a></span>~IGradientMultiDim() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +207,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae131d6cc942c8fcf90a3b575335b30a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae131d6cc942c8fcf90a3b575335b30a7">&#9670;&nbsp;</a></span>Derivative() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae131d6cc942c8fcf90a3b575335b30a7">&#9670;&nbsp;</a></span>Derivative() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,7 +254,44 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="ae131d6cc942c8fcf90a3b575335b30a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae131d6cc942c8fcf90a3b575335b30a7">&#9670;&nbsp;</a></span>Derivative() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae131d6cc942c8fcf90a3b575335b30a7">&#9670;&nbsp;</a></span>Derivative() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ROOT::Math::IGradientMultiDim::Derivative </td>
+          <td>(</td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>icoord</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">Return the partial derivative with respect to the passed coordinate </p>
+
+</div>
+</div>
+<a id="ae131d6cc942c8fcf90a3b575335b30a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae131d6cc942c8fcf90a3b575335b30a7">&#9670;&nbsp;</a></span>Derivative() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +328,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="ad8d0e31b786327014524483a708d8f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8d0e31b786327014524483a708d8f82">&#9670;&nbsp;</a></span>FdF() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d0e31b786327014524483a708d8f82">&#9670;&nbsp;</a></span>FdF() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,12 +368,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time </p>
 
-<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
 
 </div>
 </div>
 <a id="ad8d0e31b786327014524483a708d8f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8d0e31b786327014524483a708d8f82">&#9670;&nbsp;</a></span>FdF() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d0e31b786327014524483a708d8f82">&#9670;&nbsp;</a></span>FdF() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,12 +413,57 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time </p>
 
-<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
+
+</div>
+</div>
+<a id="ad8d0e31b786327014524483a708d8f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d0e31b786327014524483a708d8f82">&#9670;&nbsp;</a></span>FdF() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ROOT::Math::IGradientMultiDim::FdF </td>
+          <td>(</td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>df</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">Optimized method to evaluate at the same time the function value and derivative at a point x. Often both value and derivatives are needed and it is often more efficient to compute them at the same time. Derived class should implement this method if performances play an important role and if it is faster to evaluate value and derivative at the same time </p>
+
+<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#a58cefd2806ec7b9d389911800ed60386">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
 
 </div>
 </div>
 <a id="ac5785e2df4fa36061bf9ddbb9ce4dde0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5785e2df4fa36061bf9ddbb9ce4dde0">&#9670;&nbsp;</a></span>Gradient() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5785e2df4fa36061bf9ddbb9ce4dde0">&#9670;&nbsp;</a></span>Gradient() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,12 +497,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">Evaluate all the vector of function derivatives (gradient) at a point x. Derived classes must re-implement if it is more efficient than evaluting one at a time </p>
 
-<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
 
 </div>
 </div>
 <a id="ac5785e2df4fa36061bf9ddbb9ce4dde0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5785e2df4fa36061bf9ddbb9ce4dde0">&#9670;&nbsp;</a></span>Gradient() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5785e2df4fa36061bf9ddbb9ce4dde0">&#9670;&nbsp;</a></span>Gradient() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,12 +536,51 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">Evaluate all the vector of function derivatives (gradient) at a point x. Derived classes must re-implement if it is more efficient than evaluting one at a time </p>
 
-<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
+
+</div>
+</div>
+<a id="ac5785e2df4fa36061bf9ddbb9ce4dde0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5785e2df4fa36061bf9ddbb9ce4dde0">&#9670;&nbsp;</a></span>Gradient() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ROOT::Math::IGradientMultiDim::Gradient </td>
+          <td>(</td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>grad</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">Evaluate all the vector of function derivatives (gradient) at a point x. Derived classes must re-implement if it is more efficient than evaluting one at a time </p>
+
+<p>Implemented in <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>, and <a class="el" href="../../da/d1a/classROOT_1_1Math_1_1IGradientFunctionMultiDim.html#ab65a713d2637c69b334d2119ef4f0e26">ROOT::Math::IGradientFunctionMultiDim</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/archanar/Kinematic_factor/adat_devel/other_libs/minuit/inc/Math/<a class="el" href="../../d6/d56/other__libs_2minuit_2inc_2Math_2IFunction_8h_source.html">IFunction.h</a></li>
+<li>/Users/archanar/Kinematic_factor/adat-devel/other_libs/minuit/inc/Math/<a class="el" href="../../d1/d88/adat-devel_2other__libs_2minuit_2inc_2Math_2IFunction_8h_source.html">IFunction.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

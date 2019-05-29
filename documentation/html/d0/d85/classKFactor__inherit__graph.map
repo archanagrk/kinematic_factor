@@ -1,7 +1,5 @@
 <map id="KFactor" name="KFactor">
-<area shape="rect" id="node1" title=" " alt="" coords="194,5,262,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="58,5,126,31"/>
 <area shape="rect" id="node2" href="$d8/d76/classKfacSSV.html" title=" " alt="" coords="5,79,80,104"/>
-<area shape="rect" id="node3" href="$df/df0/classKfacSSVwPhCorr.html" title=" " alt="" coords="103,79,230,104"/>
-<area shape="rect" id="node4" href="$d3/d61/classKfacSVV.html" title=" " alt="" coords="253,79,328,104"/>
-<area shape="rect" id="node5" href="$d5/dd2/classKfacSVVwPhCorr.html" title=" " alt="" coords="351,79,478,104"/>
+<area shape="rect" id="node3" href="$d3/d61/classKfacSVV.html" title=" " alt="" coords="104,79,179,104"/>
 </map>

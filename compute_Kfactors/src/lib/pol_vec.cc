@@ -30,9 +30,9 @@ namespace PolVec {
         else{
           if(mom_sq != 0){
 
-            std::complex<double> energy = std::sqrt(std::complex<double>(mom_sq+mass_sq,0));
+            std::complex<double> E = std::sqrt(std::complex<double>(mom_sq+mass_sq,0));
           
-            pol_z << std::sqrt(std::complex<double>(mom_sq/mass_sq,0)) ,cd(0,0),cd(0,0),energy/std::sqrt(std::complex<double>(mass_sq,0));   // k.pol = 0
+            pol_z << std::sqrt(std::complex<double>(mom_sq/mass_sq,0)) ,cd(0,0),cd(0,0),E/std::sqrt(std::complex<double>(mass_sq,0));   // k.pol = 0
             
           }
 
@@ -67,9 +67,9 @@ namespace PolVec {
       else{
         if(mom_sq != 0){
         
-          std::complex<double> energy = std::sqrt(std::complex<double>(mom_sq+mass_sq,0));
+          std::complex<double> E = std::sqrt(std::complex<double>(mom_sq+mass_sq,0));
             
-          pol_z << cd(0,0),cd(0,0),energy/std::sqrt(std::complex<double>(mass_sq,0));   // from helicity ops paper
+          pol_z << cd(0,0),cd(0,0),E/std::sqrt(std::complex<double>(mass_sq,0));   // from helicity ops paper
                     
         }
         else{pol_z << cd(0,0),cd(0,0),cd(1,0);}
@@ -99,6 +99,7 @@ namespace PolVec {
    pol_z = getPolz4(mom_sq,two_helicity,mass_sq);
 
    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z;                              // multiplies by the euler matrix to convert p_ref to p_canonical
+   
 
    return pol;
  }

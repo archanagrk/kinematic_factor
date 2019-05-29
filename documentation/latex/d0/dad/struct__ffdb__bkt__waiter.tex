@@ -17,13 +17,15 @@ Collaboration diagram for \+\_\+ffdb\+\_\+bkt\+\_\+waiter\+:\nopagebreak
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{struct__ffdb__bkt__waiter_a46ff621e44918a826d983ac183c59c5c}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY}} (\mbox{\hyperlink{struct__ffdb__bkt__waiter}{\+\_\+ffdb\+\_\+bkt\+\_\+waiter}}) q
+\item 
+\mbox{\hyperlink{struct__ffdb__bkt__waiter_a46ff621e44918a826d983ac183c59c5c}{F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY}} (\mbox{\hyperlink{struct__ffdb__bkt__waiter}{\+\_\+ffdb\+\_\+bkt\+\_\+waiter}}) q
 \end{DoxyCompactItemize}
 \subsection*{Data Fields}
 \begin{DoxyCompactItemize}
 \item 
 int \mbox{\hyperlink{struct__ffdb__bkt__waiter_a9677f7593396ca503610bd92c4430835}{wakeup}}
 \item 
-struct \mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}} $\ast$ \mbox{\hyperlink{struct__ffdb__bkt__waiter_aa1e724eb12131337168b07b4ab071e01}{bp}}
+struct \mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}} $\ast$ \mbox{\hyperlink{struct__ffdb__bkt__waiter_ad0a79a0bbf4f48827956b35c98b14b23}{bp}}
 \item 
 pthread\+\_\+cond\+\_\+t \mbox{\hyperlink{struct__ffdb__bkt__waiter_a508c044094f22ad3c61725a3719147f3}{cv}}
 \end{DoxyCompactItemize}
@@ -36,17 +38,23 @@ The waiters of a bucket defined in the following
 \mbox{\Hypertarget{struct__ffdb__bkt__waiter_a46ff621e44918a826d983ac183c59c5c}\label{struct__ffdb__bkt__waiter_a46ff621e44918a826d983ac183c59c5c}} 
 \index{\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}!FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}}
 \index{FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}!\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}}
-\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_ENTRY()}{FFDB\_CIRCLEQ\_ENTRY()}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_ENTRY()}{FFDB\_CIRCLEQ\_ENTRY()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \+\_\+ffdb\+\_\+bkt\+\_\+waiter\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct__ffdb__bkt__waiter}{\+\_\+ffdb\+\_\+bkt\+\_\+waiter}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{struct__ffdb__bkt__waiter_a46ff621e44918a826d983ac183c59c5c}\label{struct__ffdb__bkt__waiter_a46ff621e44918a826d983ac183c59c5c}} 
+\index{\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}!FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}}
+\index{FFDB\_CIRCLEQ\_ENTRY@{FFDB\_CIRCLEQ\_ENTRY}!\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}}
+\subsubsection{\texorpdfstring{FFDB\_CIRCLEQ\_ENTRY()}{FFDB\_CIRCLEQ\_ENTRY()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily \+\_\+ffdb\+\_\+bkt\+\_\+waiter\+::\+F\+F\+D\+B\+\_\+\+C\+I\+R\+C\+L\+E\+Q\+\_\+\+E\+N\+T\+RY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct__ffdb__bkt__waiter}{\+\_\+ffdb\+\_\+bkt\+\_\+waiter}}}]{ }\end{DoxyParamCaption})}
 
 
 
 \subsection{Field Documentation}
-\mbox{\Hypertarget{struct__ffdb__bkt__waiter_aa1e724eb12131337168b07b4ab071e01}\label{struct__ffdb__bkt__waiter_aa1e724eb12131337168b07b4ab071e01}} 
+\mbox{\Hypertarget{struct__ffdb__bkt__waiter_ad0a79a0bbf4f48827956b35c98b14b23}\label{struct__ffdb__bkt__waiter_ad0a79a0bbf4f48827956b35c98b14b23}} 
 \index{\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}!bp@{bp}}
 \index{bp@{bp}!\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}}
 \subsubsection{\texorpdfstring{bp}{bp}}
-{\footnotesize\ttfamily struct \mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}}$\ast$ \+\_\+ffdb\+\_\+bkt\+\_\+waiter\+::bp}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{struct__ffdb__bkt}{\+\_\+ffdb\+\_\+bkt}} $\ast$ \+\_\+ffdb\+\_\+bkt\+\_\+waiter\+::bp}
 
 \mbox{\Hypertarget{struct__ffdb__bkt__waiter_a508c044094f22ad3c61725a3719147f3}\label{struct__ffdb__bkt__waiter_a508c044094f22ad3c61725a3719147f3}} 
 \index{\_ffdb\_bkt\_waiter@{\_ffdb\_bkt\_waiter}!cv@{cv}}
@@ -64,4 +72,4 @@ The waiters of a bucket defined in the following
 
 The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/\mbox{\hyperlink{ffdb__pagepool_8h}{ffdb\+\_\+pagepool.\+h}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/filedb/filehash/\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h}{ffdb\+\_\+pagepool.\+h}}\end{DoxyCompactItemize}

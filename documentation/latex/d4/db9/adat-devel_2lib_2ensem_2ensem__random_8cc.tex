@@ -1,0 +1,42 @@
+\hypertarget{adat-devel_2lib_2ensem_2ensem__random_8cc}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/ensem/ensem\+\_\+random.cc File Reference}
+\label{adat-devel_2lib_2ensem_2ensem__random_8cc}\index{/Users/archanar/Kinematic\_factor/adat-\/devel/lib/ensem/ensem\_random.cc@{/Users/archanar/Kinematic\_factor/adat-\/devel/lib/ensem/ensem\_random.cc}}
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+Include dependency graph for ensem\+\_\+random.\+cc\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{dc/d74/adat-devel_2lib_2ensem_2ensem__random_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceENSEM}{E\+N\+S\+EM}}
+\item 
+ \mbox{\hyperlink{namespaceENSEM_1_1RNG}{E\+N\+S\+E\+M\+::\+R\+NG}}
+\begin{DoxyCompactList}\small\item\em Random number generator namespace. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{namespaceENSEM_1_1RNG_aa1f3f43467faf807cee97333f92173d4}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::numbits}} (int x)
+\begin{DoxyCompactList}\small\item\em Find the number of bits required to represent x. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{namespaceENSEM_1_1RNG_a4a7ec2d430ab092440b9c3b2b5fd9e64}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::init\+Default\+R\+NG}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the random number generator with a default seed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceENSEM_1_1RNG_a69ee665fc3157b2080c75a027343d449}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::init\+R\+NG}} ()
+\begin{DoxyCompactList}\small\item\em Initialize the internals of the random number generator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceENSEM_1_1RNG_ad0ec5508fb072a32d96927e5b752164a}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::setrn}} (const Seed \&seed)
+\begin{DoxyCompactList}\small\item\em Initialize the random number generator seed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceENSEM_1_1RNG_a5e6a21d205da8a5f8bf3c4732ab5d358}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::savern}} (Seed \&seed)
+\begin{DoxyCompactList}\small\item\em Return a copy of the random number seed. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{namespaceENSEM_1_1RNG_a169ccd1627df1ad9983c4ce344d0e36a}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::sranf}} ()
+\begin{DoxyCompactList}\small\item\em Scalar random number generator. Done on the front end. $\ast$/. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+Seed \mbox{\hyperlink{namespaceENSEM_1_1RNG_a3d617978a554c127dc164947d602b288}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::ran\+\_\+seed}}
+\begin{DoxyCompactList}\small\item\em Global (current) seed. \end{DoxyCompactList}\item 
+Seed \mbox{\hyperlink{namespaceENSEM_1_1RNG_a934549765fb4b894a8dafd77fb0aa3d1}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::ran\+\_\+mult}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespaceENSEM_1_1RNG}{R\+NG}} multiplier. \end{DoxyCompactList}\item 
+const bool \mbox{\hyperlink{namespaceENSEM_1_1RNG_ac792bd2933a030bd73c2ffd2d289cc53}{E\+N\+S\+E\+M\+::\+R\+N\+G\+::registered}} = init\+Default\+R\+NG()
+\begin{DoxyCompactList}\small\item\em Hook to get code to link. \end{DoxyCompactList}\end{DoxyCompactItemize}

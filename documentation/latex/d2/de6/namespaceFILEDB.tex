@@ -42,46 +42,46 @@ class \mbox{\hyperlink{classFILEDB_1_1VFloatData}{V\+Float\+Data}}
 \item 
 typedef unsigned int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a62446cf48b614494d5708110ddc414bf}{ffdb\+\_\+key\+\_\+hash}}) (const void $\ast$bytes, unsigned int len)
 \item 
-typedef int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a1d3bd589ccfab62ecdd78b46aba576e2}{ffdb\+\_\+key\+\_\+compare}}) (const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k1, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k2)
+typedef int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a1d3bd589ccfab62ecdd78b46aba576e2}{ffdb\+\_\+key\+\_\+compare}}) (const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k1, const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k2)
 \item 
 typedef unsigned int($\ast$ \mbox{\hyperlink{namespaceFILEDB_a9e945e165dd500023ad29b4fcb2332b8}{hash\+\_\+func}}) (char $\ast$str, unsigned int len)
 \end{DoxyCompactItemize}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-ostream \& \mbox{\hyperlink{namespaceFILEDB_ac5576dc30e75253b40f2dc1e148abb8b}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&\mbox{\hyperlink{structinfo}{info}})
+ostream \& \mbox{\hyperlink{namespaceFILEDB_a81be1da26a44e7de301f9b93d784ce3f}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&\mbox{\hyperlink{structinfo}{info}})
 \item 
-void \mbox{\hyperlink{namespaceFILEDB_a28e01191edebd63edee882e8c7af9325}{flush\+Database}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh)
+void \mbox{\hyperlink{namespaceFILEDB_a28e01191edebd63edee882e8c7af9325}{flush\+Database}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh)
 \item 
 bool \mbox{\hyperlink{namespaceFILEDB_ae588550e41a7b104b78a0e81ceb24a46}{file\+Exists}} (const std\+::string \&filename)
 \item 
 std\+::string \mbox{\hyperlink{namespaceFILEDB_a7e76510d94991fb0a4e18acc02214900}{unix\+Directory\+Name}} (const std\+::string \&filename)
 \item 
-void \mbox{\hyperlink{namespaceFILEDB_a208d694e308a85bd3b04277ffe369377}{binary\+All\+Keys}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ std\+::string $>$ \&keys)  throw (\+File\+Hash\+D\+B\+Exception)
+void \mbox{\hyperlink{namespaceFILEDB_a208d694e308a85bd3b04277ffe369377}{binary\+All\+Keys}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ std\+::string $>$ \&keys)  throw (\+File\+Hash\+D\+B\+Exception)
 \item 
-void \mbox{\hyperlink{namespaceFILEDB_ac242fd8f47258576482a692de8d1eaf3}{binary\+All\+Pairs}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ std\+::string $>$ \&keys, std\+::vector$<$ std\+::string $>$ \&data)  throw (\+File\+Hash\+D\+B\+Exception)
+void \mbox{\hyperlink{namespaceFILEDB_ac242fd8f47258576482a692de8d1eaf3}{binary\+All\+Pairs}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ std\+::string $>$ \&keys, std\+::vector$<$ std\+::string $>$ \&data)  throw (\+File\+Hash\+D\+B\+Exception)
 \item 
-int \mbox{\hyperlink{namespaceFILEDB_a0de8699301294566d0e11786f4016a2a}{get\+Binary\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const std\+::string \&key, std\+::string \&data)
+int \mbox{\hyperlink{namespaceFILEDB_a0de8699301294566d0e11786f4016a2a}{get\+Binary\+Data}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const std\+::string \&key, std\+::string \&data)
 \item 
-int \mbox{\hyperlink{namespaceFILEDB_a517749615adc5aa798175fb429115366}{insert\+Binary\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const std\+::string \&key, const std\+::string \&data)
+int \mbox{\hyperlink{namespaceFILEDB_a517749615adc5aa798175fb429115366}{insert\+Binary\+Data}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const std\+::string \&key, const std\+::string \&data)
 \item 
-{\footnotesize template$<$typename K $>$ }\\\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ \mbox{\hyperlink{namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72}{open\+Database}} (const std\+::string \&dbase, int open\+\_\+flags, int mode, \mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$\mbox{\hyperlink{structinfo}{info}})
+{\footnotesize template$<$typename K $>$ }\\\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ \mbox{\hyperlink{namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72}{open\+Database}} (const std\+::string \&dbase, int open\+\_\+flags, int mode, \mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$\mbox{\hyperlink{structinfo}{info}})
 \item 
-{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a63f788f0f11a571f254ac8cfa8d19132}{insert\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, const D \&data, unsigned int flag=0)  throw (\+Serialize\+Exception)
+{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a63f788f0f11a571f254ac8cfa8d19132}{insert\+Data}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, const D \&data, unsigned int flag=0)  throw (\+Serialize\+Exception)
 \item 
-{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_aeadc0ee930c4a7b2ddae220799008bd6}{insert\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, const std\+::string \&data, unsigned int flag=0)  throw (\+Serialize\+Exception)
+{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_aeadc0ee930c4a7b2ddae220799008bd6}{insert\+Data}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, const std\+::string \&data, unsigned int flag=0)  throw (\+Serialize\+Exception)
 \item 
-{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a0d18d10ad6d490786b6fe538fbd45dc3}{get\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, D \&data)  throw (\+Serialize\+Exception)
+{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a0d18d10ad6d490786b6fe538fbd45dc3}{get\+Data}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, D \&data)  throw (\+Serialize\+Exception)
 \item 
-{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a7381d9e3dd76dc6eb741797e16c3052c}{get\+Data}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, std\+::string \&data)  throw (\+Serialize\+Exception)
+{\footnotesize template$<$typename K , typename D $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a7381d9e3dd76dc6eb741797e16c3052c}{get\+Data}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&key, std\+::string \&data)  throw (\+Serialize\+Exception)
 \item 
-{\footnotesize template$<$typename K , typename D $>$ }\\void \mbox{\hyperlink{namespaceFILEDB_a3d87ecce7111516944b8b8e532aad4ea}{all\+Keys}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ K $>$ \&keys)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
+{\footnotesize template$<$typename K , typename D $>$ }\\void \mbox{\hyperlink{namespaceFILEDB_a3d87ecce7111516944b8b8e532aad4ea}{all\+Keys}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ K $>$ \&keys)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
 \item 
-{\footnotesize template$<$typename K , typename D $>$ }\\void \mbox{\hyperlink{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}{all\+Pairs}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ K $>$ \&keys, std\+::vector$<$ D $>$ \&data)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
+{\footnotesize template$<$typename K , typename D $>$ }\\void \mbox{\hyperlink{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}{all\+Pairs}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, std\+::vector$<$ K $>$ \&keys, std\+::vector$<$ D $>$ \&data)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
 \item 
-{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a25ba56393bd11f7e104de43478a253de}{is\+Database\+Empty}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
+{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a25ba56393bd11f7e104de43478a253de}{is\+Database\+Empty}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh)  throw (\+Serialize\+Exception, File\+Hash\+D\+B\+Exception)
 \item 
-{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a693e2659d01ea18edb88d796d7cbd5de}{key\+Exist}} (\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&arg)  throw (\+Serialize\+Exception)
+{\footnotesize template$<$typename K $>$ }\\int \mbox{\hyperlink{namespaceFILEDB_a693e2659d01ea18edb88d796d7cbd5de}{key\+Exist}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$dbh, const K \&arg)  throw (\+Serialize\+Exception)
 \item 
 double \mbox{\hyperlink{namespaceFILEDB_a52d0505cdd535797c05bffb0598ef2a5}{current\+\_\+time}} (void)
 \item 
@@ -143,7 +143,7 @@ const int \mbox{\hyperlink{namespaceFILEDB_a791b55170820bb840d3e7d583f363415}{H\
 \index{FILEDB@{FILEDB}!ffdb\_key\_compare@{ffdb\_key\_compare}}
 \index{ffdb\_key\_compare@{ffdb\_key\_compare}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{ffdb\_key\_compare}{ffdb\_key\_compare}}
-{\footnotesize\ttfamily typedef int($\ast$ F\+I\+L\+E\+D\+B\+::ffdb\+\_\+key\+\_\+compare)(const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k1, const \mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k2)}
+{\footnotesize\ttfamily typedef int($\ast$ F\+I\+L\+E\+D\+B\+::ffdb\+\_\+key\+\_\+compare)(const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k1, const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$k2)}
 
 Database Key compare function definition \mbox{\Hypertarget{namespaceFILEDB_a62446cf48b614494d5708110ddc414bf}\label{namespaceFILEDB_a62446cf48b614494d5708110ddc414bf}} 
 \index{FILEDB@{FILEDB}!ffdb\_key\_hash@{ffdb\_key\_hash}}
@@ -165,14 +165,14 @@ Database Hash function definition \mbox{\Hypertarget{namespaceFILEDB_a9e945e165d
 \index{allKeys@{allKeys}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{allKeys()}{allKeys()}}
 {\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
-void F\+I\+L\+E\+D\+B\+::all\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ K $>$ \&}]{keys }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
+void F\+I\+L\+E\+D\+B\+::all\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ K $>$ \&}]{keys }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
 
 Return all keys to a vector provided by an application \mbox{\Hypertarget{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}\label{namespaceFILEDB_a94222bc861d65f1c5f139529a5643cd4}} 
 \index{FILEDB@{FILEDB}!allPairs@{allPairs}}
 \index{allPairs@{allPairs}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{allPairs()}{allPairs()}}
 {\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
-void F\+I\+L\+E\+D\+B\+::all\+Pairs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ K $>$ \&}]{keys,  }\item[{std\+::vector$<$ D $>$ \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
+void F\+I\+L\+E\+D\+B\+::all\+Pairs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ K $>$ \&}]{keys,  }\item[{std\+::vector$<$ D $>$ \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
 
 Return all keys and data to vectors provided by an application \mbox{\Hypertarget{namespaceFILEDB_a23c71972866e86f222ad440284380f45}\label{namespaceFILEDB_a23c71972866e86f222ad440284380f45}} 
 \index{FILEDB@{FILEDB}!APHash@{APHash}}
@@ -184,9 +184,10 @@ Return all keys and data to vectors provided by an application \mbox{\Hypertarge
 \index{FILEDB@{FILEDB}!binaryAllKeys@{binaryAllKeys}}
 \index{binaryAllKeys@{binaryAllKeys}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{binaryAllKeys()}{binaryAllKeys()}}
-{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::binary\+All\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{keys }\end{DoxyParamCaption}) throw ( File\+Hash\+D\+B\+Exception) }
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::binary\+All\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{keys }\end{DoxyParamCaption}) throw ( File\+Hash\+D\+B\+Exception) }
 
-Return all keys to vectors in binary form of strings Here is the caller graph for this function\+:\nopagebreak
+Return all keys to vectors in binary form of strings Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -197,9 +198,10 @@ Return all keys to vectors in binary form of strings Here is the caller graph fo
 \index{FILEDB@{FILEDB}!binaryAllPairs@{binaryAllPairs}}
 \index{binaryAllPairs@{binaryAllPairs}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{binaryAllPairs()}{binaryAllPairs()}}
-{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::binary\+All\+Pairs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{keys,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{data }\end{DoxyParamCaption}) throw ( File\+Hash\+D\+B\+Exception) }
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::binary\+All\+Pairs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{keys,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{data }\end{DoxyParamCaption}) throw ( File\+Hash\+D\+B\+Exception) }
 
-Return all keys and data to vectors in binary form of strings Here is the caller graph for this function\+:\nopagebreak
+Return all keys and data to vectors in binary form of strings Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -234,7 +236,8 @@ Calculate C\+R\+C32 check sum of a buffer with size len Start by passing in an i
 
 This routine initialize the C\+RC table above
 
-Initialize C\+R\+C32 table Here is the caller graph for this function\+:\nopagebreak
+Initialize C\+R\+C32 table Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -247,7 +250,8 @@ Initialize C\+R\+C32 table Here is the caller graph for this function\+:\nopageb
 \subsubsection{\texorpdfstring{current\_time()}{current\_time()}}
 {\footnotesize\ttfamily double F\+I\+L\+E\+D\+B\+::current\+\_\+time (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
-Get current time in seconds Here is the caller graph for this function\+:\nopagebreak
+Get current time in seconds Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -284,7 +288,8 @@ Get current time in seconds Here is the caller graph for this function\+:\nopage
 \subsubsection{\texorpdfstring{fileExists()}{fileExists()}}
 {\footnotesize\ttfamily bool F\+I\+L\+E\+D\+B\+::file\+Exists (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
 
-Check if a file exists Here is the caller graph for this function\+:\nopagebreak
+Check if a file exists Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -295,9 +300,10 @@ Check if a file exists Here is the caller graph for this function\+:\nopagebreak
 \index{FILEDB@{FILEDB}!flushDatabase@{flushDatabase}}
 \index{flushDatabase@{flushDatabase}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{flushDatabase()}{flushDatabase()}}
-{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::flush\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void F\+I\+L\+E\+D\+B\+::flush\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh }\end{DoxyParamCaption})}
 
-flush data base to disk Here is the caller graph for this function\+:\nopagebreak
+flush data base to disk Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -314,7 +320,7 @@ flush data base to disk Here is the caller graph for this function\+:\nopagebrea
 \index{FILEDB@{FILEDB}!getBinaryData@{getBinaryData}}
 \index{getBinaryData@{getBinaryData}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{getBinaryData()}{getBinaryData()}}
-{\footnotesize\ttfamily int F\+I\+L\+E\+D\+B\+::get\+Binary\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const std\+::string \&}]{key,  }\item[{std\+::string \&}]{data }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int F\+I\+L\+E\+D\+B\+::get\+Binary\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const std\+::string \&}]{key,  }\item[{std\+::string \&}]{data }\end{DoxyParamCaption})}
 
 get key and data pair from a database pointed by pointer dbh
 
@@ -326,7 +332,8 @@ get key and data pair from a database pointed by pointer dbh
 \begin{DoxyReturn}{Returns}
 0 on success. Otherwise failure 
 \end{DoxyReturn}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -338,7 +345,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \index{getData@{getData}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{getData()}{getData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
-int F\+I\+L\+E\+D\+B\+::get\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{D \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+int F\+I\+L\+E\+D\+B\+::get\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{D \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
 
 get key and data pair from a database pointed by pointer dbh
 
@@ -355,7 +362,7 @@ get key and data pair from a database pointed by pointer dbh
 \index{getData@{getData}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{getData()}{getData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
-int F\+I\+L\+E\+D\+B\+::get\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{std\+::string \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+int F\+I\+L\+E\+D\+B\+::get\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{std\+::string \&}]{data }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
 
 Get key and data pair from a database pointed by pointer dbh The data item is in binary string form
 
@@ -373,7 +380,8 @@ Get key and data pair from a database pointed by pointer dbh The data item is in
 \subsubsection{\texorpdfstring{hton\_int()}{hton\_int()}}
 {\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::hton\+\_\+int (\begin{DoxyParamCaption}\item[{unsigned int}]{ival }\end{DoxyParamCaption})}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -392,7 +400,8 @@ Here is the caller graph for this function\+:\nopagebreak
 \subsubsection{\texorpdfstring{hton\_short()}{hton\_short()}}
 {\footnotesize\ttfamily unsigned short F\+I\+L\+E\+D\+B\+::hton\+\_\+short (\begin{DoxyParamCaption}\item[{unsigned short}]{sval }\end{DoxyParamCaption})}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -403,7 +412,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \index{FILEDB@{FILEDB}!insertBinaryData@{insertBinaryData}}
 \index{insertBinaryData@{insertBinaryData}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{insertBinaryData()}{insertBinaryData()}}
-{\footnotesize\ttfamily int F\+I\+L\+E\+D\+B\+::insert\+Binary\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const std\+::string \&}]{key,  }\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int F\+I\+L\+E\+D\+B\+::insert\+Binary\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const std\+::string \&}]{key,  }\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})}
 
 Insert key and data pair in string format into the database
 
@@ -415,7 +424,8 @@ Insert key and data pair in string format into the database
 \begin{DoxyReturn}{Returns}
 0 on success. Otherwise failure 
 \end{DoxyReturn}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -427,7 +437,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \index{insertData@{insertData}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{insertData()}{insertData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily template$<$typename K , typename D $>$ \\
-int F\+I\+L\+E\+D\+B\+::insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{const D \&}]{data,  }\item[{unsigned int}]{flag = {\ttfamily 0} }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+int F\+I\+L\+E\+D\+B\+::insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{const D \&}]{data,  }\item[{unsigned int}]{flag = {\ttfamily 0} }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
 
 Insert key and data pair into a database pointed by pointer dbh
 
@@ -446,7 +456,7 @@ Insert key and data pair into a database pointed by pointer dbh
 \index{insertData@{insertData}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{insertData()}{insertData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily template$<$typename K $>$ \\
-int F\+I\+L\+E\+D\+B\+::insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{const std\+::string \&}]{data,  }\item[{unsigned int}]{flag = {\ttfamily 0} }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+int F\+I\+L\+E\+D\+B\+::insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{key,  }\item[{const std\+::string \&}]{data,  }\item[{unsigned int}]{flag = {\ttfamily 0} }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
 
 Insert key and data pair into a database pointed by pointer dbh
 
@@ -465,7 +475,7 @@ Insert key and data pair into a database pointed by pointer dbh
 \index{isDatabaseEmpty@{isDatabaseEmpty}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{isDatabaseEmpty()}{isDatabaseEmpty()}}
 {\footnotesize\ttfamily template$<$typename K $>$ \\
-int F\+I\+L\+E\+D\+B\+::is\+Database\+Empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
+int F\+I\+L\+E\+D\+B\+::is\+Database\+Empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh }\end{DoxyParamCaption}) throw ( Serialize\+Exception, File\+Hash\+D\+B\+Exception) }
 
 Check whether this database is empty or not \mbox{\Hypertarget{namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3}\label{namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3}} 
 \index{FILEDB@{FILEDB}!itostr@{itostr}}
@@ -475,7 +485,8 @@ Check whether this database is empty or not \mbox{\Hypertarget{namespaceFILEDB_a
 
 Convert integer to string
 
-Convert a integer into a string Here is the caller graph for this function\+:\nopagebreak
+Convert a integer into a string Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -493,7 +504,7 @@ Convert a integer into a string Here is the caller graph for this function\+:\no
 \index{keyExist@{keyExist}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{keyExist()}{keyExist()}}
 {\footnotesize\ttfamily template$<$typename K $>$ \\
-int F\+I\+L\+E\+D\+B\+::key\+Exist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{arg }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
+int F\+I\+L\+E\+D\+B\+::key\+Exist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$}]{dbh,  }\item[{const K \&}]{arg }\end{DoxyParamCaption}) throw ( Serialize\+Exception) }
 
 Check whether this key exists in the database
 
@@ -513,7 +524,8 @@ Check whether this key exists in the database
 \subsubsection{\texorpdfstring{ntoh\_int()}{ntoh\_int()}}
 {\footnotesize\ttfamily unsigned int F\+I\+L\+E\+D\+B\+::ntoh\+\_\+int (\begin{DoxyParamCaption}\item[{unsigned int}]{ival }\end{DoxyParamCaption})}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -532,7 +544,8 @@ Here is the caller graph for this function\+:\nopagebreak
 \subsubsection{\texorpdfstring{ntoh\_short()}{ntoh\_short()}}
 {\footnotesize\ttfamily unsigned short F\+I\+L\+E\+D\+B\+::ntoh\+\_\+short (\begin{DoxyParamCaption}\item[{unsigned short}]{usval }\end{DoxyParamCaption})}
 
-Several byte swaping routines replacing reguler htonl etc The primary reason to have these routines is to not include some header files that may not be available on some platforms Here is the caller graph for this function\+:\nopagebreak
+Several byte swaping routines replacing reguler htonl etc The primary reason to have these routines is to not include some header files that may not be available on some platforms Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -544,7 +557,7 @@ Several byte swaping routines replacing reguler htonl etc The primary reason to 
 \index{openDatabase@{openDatabase}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{openDatabase()}{openDatabase()}}
 {\footnotesize\ttfamily template$<$typename K $>$ \\
-\mbox{\hyperlink{other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ F\+I\+L\+E\+D\+B\+::open\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dbase,  }\item[{int}]{open\+\_\+flags,  }\item[{int}]{mode,  }\item[{\mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$}]{info }\end{DoxyParamCaption})}
+\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a0b27b956926453a7a8141ea8e10f0df8}{F\+F\+D\+B\+\_\+\+DB}} $\ast$ F\+I\+L\+E\+D\+B\+::open\+Database (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dbase,  }\item[{int}]{open\+\_\+flags,  }\item[{int}]{mode,  }\item[{\mbox{\hyperlink{structFFDB__HASHINFO}{F\+F\+D\+B\+\_\+\+H\+A\+S\+H\+I\+N\+FO}} $\ast$}]{info }\end{DoxyParamCaption})}
 
 Open a database with name dbase. If this database does not exist, a new database will be created.
 
@@ -560,18 +573,19 @@ Open a database with name dbase. If this database does not exist, a new database
 \begin{DoxyReturn}{Returns}
 Database pointer. If something wrong, a N\+U\+LL pointer is returned 
 \end{DoxyReturn}
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{d2/de6/namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72_cgraph}
+\includegraphics[width=309pt]{d2/de6/namespaceFILEDB_a9ed602db52c9c9d3bbf1324426376c72_cgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{namespaceFILEDB_ac5576dc30e75253b40f2dc1e148abb8b}\label{namespaceFILEDB_ac5576dc30e75253b40f2dc1e148abb8b}} 
+\mbox{\Hypertarget{namespaceFILEDB_a81be1da26a44e7de301f9b93d784ce3f}\label{namespaceFILEDB_a81be1da26a44e7de301f9b93d784ce3f}} 
 \index{FILEDB@{FILEDB}!operator$<$$<$@{operator$<$$<$}}
 \index{operator$<$$<$@{operator$<$$<$}!FILEDB@{FILEDB}}
 \subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
-{\footnotesize\ttfamily ostream\& F\+I\+L\+E\+D\+B\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{info }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily ostream \& F\+I\+L\+E\+D\+B\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} \&}]{info }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{namespaceFILEDB_ab2508d2100ad31133a86ce47aada4241}\label{namespaceFILEDB_ab2508d2100ad31133a86ce47aada4241}} 
 \index{FILEDB@{FILEDB}!PJWHash@{PJWHash}}

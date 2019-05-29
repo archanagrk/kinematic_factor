@@ -1,52 +1,52 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,461,56,487"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,489,56,515"/>
 <area shape="rect" id="node2" href="$d5/d0d/namespaceADAT.html#ab1cb4aab951dd138f8f0a73f5c3ead6d" title="Read a MapObject via xml." alt="" coords="154,103,243,128"/>
 <area shape="rect" id="node8" href="$db/d3d/gen__redstar__xml_8h.html#a3d5b9096aeabfe672ed069f9214e3d57" title=" " alt="" coords="138,257,260,283"/>
-<area shape="rect" id="node17" href="$d9/d0b/sqrat_8cc.html#a4eaa086f75083f409944caa419ec9a8b" title=" " alt="" coords="674,384,717,409"/>
-<area shape="rect" id="node18" href="$d4/dca/group__escalar.html#gaa3f8d5129f1ded089d42af89bd94827d" title="EScalar = pow(EScalar, EScalar)" alt="" coords="148,447,249,472"/>
-<area shape="rect" id="node20" href="$d1/daf/namespaceHadron.html#a511bab858a88c02ec88a697fd5430e0d" title="The name of the little group corresponding to this momentum." alt="" coords="104,659,294,684"/>
-<area shape="rect" id="node23" href="$d9/da6/dump_2main_8cc.html#add59a3ec35736b66c25ab259067dcf65" title=" " alt="" coords="405,333,482,359"/>
-<area shape="rect" id="node25" href="$d1/daf/namespaceHadron.html#a33d1d1e15a13f881d974049a8ae1c3dc" title="Get irrep name from operator name." alt="" coords="140,757,258,783"/>
-<area shape="rect" id="node28" href="$d9/da6/dump_2main_8cc.html#afd4830be51e4ed550218eeb45b03fa94" title=" " alt="" coords="342,536,545,561"/>
-<area shape="rect" id="node32" href="$d9/da6/dump_2main_8cc.html#a07ee291a68508927bb84216921710700" title=" " alt="" coords="158,807,239,832"/>
-<area shape="rect" id="node33" href="$db/d8a/namespaceSubdPol.html#ad6ba4f4261604a40b788b2922ed2871e" title=" " alt="" coords="105,585,293,611"/>
+<area shape="rect" id="node17" href="$d4/dca/group__escalar.html#ga4e0889a609d84d3ddac113e68bfccfa4" title=" " alt="" coords="646,387,745,412"/>
+<area shape="rect" id="node19" href="$d4/dca/group__escalar.html#gaa3f8d5129f1ded089d42af89bd94827d" title="EScalar = pow(EScalar, EScalar)" alt="" coords="148,335,249,360"/>
+<area shape="rect" id="node20" href="$d1/daf/namespaceHadron.html#a511bab858a88c02ec88a697fd5430e0d" title="The name of the little group corresponding to this momentum." alt="" coords="104,663,294,688"/>
+<area shape="rect" id="node23" href="$d9/da6/dump_2main_8cc.html#add59a3ec35736b66c25ab259067dcf65" title=" " alt="" coords="405,437,482,463"/>
+<area shape="rect" id="node25" href="$d1/daf/namespaceHadron.html#a33d1d1e15a13f881d974049a8ae1c3dc" title="Get irrep name from operator name." alt="" coords="140,761,258,787"/>
+<area shape="rect" id="node28" href="$d9/da6/dump_2main_8cc.html#afd4830be51e4ed550218eeb45b03fa94" title=" " alt="" coords="342,539,545,564"/>
+<area shape="rect" id="node32" href="$d9/da6/dump_2main_8cc.html#a07ee291a68508927bb84216921710700" title=" " alt="" coords="158,811,239,836"/>
+<area shape="rect" id="node33" href="$db/d8a/namespaceSubdPol.html#ad6ba4f4261604a40b788b2922ed2871e" title=" " alt="" coords="105,589,293,615"/>
 <area shape="rect" id="node3" href="$db/d3f/classADATXML_1_1XMLReader.html#a59584913f1338d956de60adef16a0718" title="Count the number of occurances from the xpath query." alt="" coords="362,5,524,44"/>
 <area shape="rect" id="node4" href="$db/d3f/classADATXML_1_1XMLReader.html#a0e5f84d85bb03e1ba3c01a20b1642a36" title="Closes the last file opened." alt="" coords="362,68,524,107"/>
 <area shape="rect" id="node7" href="$da/d29/classADAT_1_1MapObject.html#a5389738841dca1228aefe6935c464a78" title="Insert." alt="" coords="360,131,527,156"/>
-<area shape="rect" id="node5" href="$db/d3f/classADATXML_1_1XMLReader.html#ae9e467fca3d4bf34351dc00e9797a06f" title="Queries whether the binary file is open." alt="" coords="614,71,776,109"/>
-<area shape="rect" id="node6" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#acd03bd5e585de0a5077544314cd8fb9a" title=" " alt="" coords="593,8,798,47"/>
+<area shape="rect" id="node5" href="$db/d3f/classADATXML_1_1XMLReader.html#ae9e467fca3d4bf34351dc00e9797a06f" title="Queries whether the binary file is open." alt="" coords="614,69,776,108"/>
+<area shape="rect" id="node6" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#acd03bd5e585de0a5077544314cd8fb9a" title=" " alt="" coords="593,7,798,45"/>
 <area shape="rect" id="node9" href="$d7/da0/namespaceADATXML.html#a1e8531ea0cb1a302d918f3b427969425" title=" " alt="" coords="636,135,755,160"/>
 <area shape="rect" id="node11" href="$d5/d0d/namespaceADAT.html#a38920c20e5e4ccb234f9a05e436a4faa" title="Write a MapObject in xml." alt="" coords="398,232,488,257"/>
 <area shape="rect" id="node14" href="$d2/da3/group__io.html#gac235f191b977af85918b9a9d063ba5f4" title="Pop a group name." alt="" coords="639,283,752,308"/>
 <area shape="rect" id="node10" href="$da/da7/classADATXML_1_1XMLWriter.html#a8f9728743acfd9c15ab5d69bf8800a5e" title=" " alt="" coords="860,128,1012,167"/>
 <area shape="rect" id="node12" href="$da/d29/classADAT_1_1MapObject.html#a7f4f6830f0efcc2fcd7bb2aebe0b0c95" title="Begin loop over keys." alt="" coords="612,233,779,259"/>
 <area shape="rect" id="node13" href="$da/d29/classADAT_1_1MapObject.html#a1162459ba16798247ab64ee38be25bca" title="End loop over keys." alt="" coords="617,184,773,209"/>
-<area shape="rect" id="node15" href="$da/da7/classADATXML_1_1XMLWriter.html#ade5512a07806893fe3aaebb897580569" title=" " alt="" coords="860,273,1012,312"/>
-<area shape="rect" id="node16" href="$da/da7/classADATXML_1_1XMLWriter.html#a13209ef7863272707bf8fea7c172e9f1" title=" " alt="" coords="1098,273,1251,312"/>
-<area shape="rect" id="node19" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="1095,412,1254,437"/>
-<area shape="rect" id="node21" href="$d1/daf/namespaceHadron.html#a12bd76a337723c31527ee95d46f170d1" title="Canonically order an array of momenta." alt="" coords="362,733,525,759"/>
-<area shape="rect" id="node22" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="620,1127,771,1152"/>
-<area shape="rect" id="node24" href="$d4/dca/group__escalar.html#gac8e90d16773622bd9971db55f0c125c9" title=" " alt="" coords="884,336,988,361"/>
-<area shape="rect" id="node26" href="$d1/daf/namespaceHadron.html#a877ae1e797f5cf4d4ebb7e22d5bbe69b" title="Remove helicity from an irrep name." alt="" coords="363,832,523,857"/>
-<area shape="rect" id="node27" href="$d1/daf/namespaceHadron.html#a0451202d2f27c90c438c0d23da609c62" title="Get dimension of irrep." alt="" coords="372,783,514,808"/>
-<area shape="rect" id="node29" href="$d9/da6/dump_2main_8cc.html#a20b1521788fc43e429dddb97f464d58b" title=" " alt="" coords="661,636,730,661"/>
-<area shape="rect" id="node30" href="$dc/de4/classUtil_1_1SingletonHolder.html#aaebc14e9f950be2eb5f30207db23e2f5" title=" " alt="" coords="1323,824,1466,863"/>
-<area shape="rect" id="node31" href="$d9/da6/dump_2main_8cc.html#abfce241f494c3782671d3634b595327f" title=" " alt="" coords="673,587,718,612"/>
-<area shape="rect" id="node34" href="$d8/d2b/namespaceSubd.html#aa8b77162377de658856d44a4ac5aad26" title=" " alt="" coords="376,684,511,709"/>
-<area shape="rect" id="node44" href="$d8/da5/namespaceKfUt.html#ac090f8c3b57fe35c462bd3c3c2d8f08b" title=" " alt="" coords="394,635,493,660"/>
-<area shape="rect" id="node45" href="$d7/d0c/namespacePolVec.html#a893f95fc9856b40243deeba6939e5318" title=" " alt="" coords="386,485,501,511"/>
-<area shape="rect" id="node50" href="$d8/d2b/namespaceSubd.html#a5f31b3ef70ad25320a8010ec3017eb04" title=" " alt="" coords="357,585,529,611"/>
-<area shape="rect" id="node35" href="$da/d9f/src_2lib_2subduction_8cc.html#ad33cb6edfd7ce5c6dc560a6d901668c6" title=" " alt="" coords="648,737,742,763"/>
-<area shape="rect" id="node36" href="$dd/da5/namespaceHadron_1_1SubduceTableEnv.html#a168dd05273b8d8f0ca1cfb57fbe63e23" title=" " alt="" coords="846,949,1026,988"/>
-<area shape="rect" id="node39" href="$d2/d0e/namespaceHadron_1_1CubicGroupsEnv.html#a72c88213059f1ce4ac24ef0b5032307b" title=" " alt="" coords="1088,699,1261,737"/>
-<area shape="rect" id="node40" href="$d6/d00/namespaceHadron_1_1IrrepsCubicEnv.html#a180ad30fa93d4d682cf36167092198ba" title=" " alt="" coords="854,801,1018,840"/>
-<area shape="rect" id="node37" href="$d7/db0/namespaceHadron_1_1SubduceTablesOctEnv.html#a51ef987c89c5e4509cb7c7c24fb152d6" title=" " alt="" coords="1082,949,1267,988"/>
-<area shape="rect" id="node38" href="$d7/df2/namespaceHadron_1_1SubduceTablesLgEnv.html#abb63f9dacfb5b881f3052ce08000b859" title=" " alt="" coords="1074,1012,1275,1051"/>
-<area shape="rect" id="node41" href="$db/d79/namespaceHadron_1_1IrrepsCubicOctEnv.html#add350f077e8bf956336f99fe5dc1c29d" title=" " alt="" coords="1083,824,1267,863"/>
-<area shape="rect" id="node42" href="$d0/d66/namespaceHadron_1_1IrrepsCubicLGEnv.html#a4c9a3cd2351dacf5ec8f2f58df4b7e3a" title=" " alt="" coords="1084,887,1265,925"/>
-<area shape="rect" id="node43" href="$dc/ddc/namespaceHadron_1_1IrrepsCubicHelicityEnv.html#a3c43156ee3e7bda6a9a9536083bfdeff" title=" " alt="" coords="1083,761,1266,800"/>
-<area shape="rect" id="node46" href="$d7/dcc/namespaceRot.html#adcd0cec8d1616e5f74d30cb3ad1aca99" title=" " alt="" coords="634,485,756,511"/>
-<area shape="rect" id="node47" href="$d4/dca/group__escalar.html#ga841db2f3f6d6a553733b1b75a638f052" title=" " alt="" coords="888,437,984,463"/>
-<area shape="rect" id="node48" href="$d4/dca/group__escalar.html#ga373122acba11edfbe0eff82093788afe" title=" " alt="" coords="889,487,983,512"/>
-<area shape="rect" id="node49" href="$da/d46/namespaceNR.html#a060c1496967431dfd707b603985a33b7" title=" " alt="" coords="899,536,973,561"/>
+<area shape="rect" id="node15" href="$da/da7/classADATXML_1_1XMLWriter.html#ade5512a07806893fe3aaebb897580569" title=" " alt="" coords="860,269,1012,308"/>
+<area shape="rect" id="node16" href="$da/da7/classADATXML_1_1XMLWriter.html#a13209ef7863272707bf8fea7c172e9f1" title=" " alt="" coords="1098,269,1251,308"/>
+<area shape="rect" id="node18" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="1095,435,1254,460"/>
+<area shape="rect" id="node21" href="$d1/daf/namespaceHadron.html#a12bd76a337723c31527ee95d46f170d1" title="Canonically order an array of momenta." alt="" coords="362,737,525,763"/>
+<area shape="rect" id="node22" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="620,1163,771,1188"/>
+<area shape="rect" id="node24" href="$d4/dca/group__escalar.html#gac8e90d16773622bd9971db55f0c125c9" title=" " alt="" coords="884,435,988,460"/>
+<area shape="rect" id="node26" href="$d1/daf/namespaceHadron.html#a877ae1e797f5cf4d4ebb7e22d5bbe69b" title="Remove helicity from an irrep name." alt="" coords="363,836,523,861"/>
+<area shape="rect" id="node27" href="$d1/daf/namespaceHadron.html#a0451202d2f27c90c438c0d23da609c62" title="Get dimension of irrep." alt="" coords="372,787,514,812"/>
+<area shape="rect" id="node29" href="$d9/da6/dump_2main_8cc.html#a20b1521788fc43e429dddb97f464d58b" title=" " alt="" coords="661,639,730,664"/>
+<area shape="rect" id="node30" href="$dc/de4/classUtil_1_1SingletonHolder.html#aaebc14e9f950be2eb5f30207db23e2f5" title=" " alt="" coords="1323,860,1466,899"/>
+<area shape="rect" id="node31" href="$d9/da6/dump_2main_8cc.html#abfce241f494c3782671d3634b595327f" title=" " alt="" coords="673,589,718,615"/>
+<area shape="rect" id="node34" href="$d8/d2b/namespaceSubd.html#aa8b77162377de658856d44a4ac5aad26" title=" " alt="" coords="376,688,511,713"/>
+<area shape="rect" id="node44" href="$d8/da5/namespaceKfUt.html#ac090f8c3b57fe35c462bd3c3c2d8f08b" title=" " alt="" coords="394,639,493,664"/>
+<area shape="rect" id="node45" href="$d7/d0c/namespacePolVec.html#a893f95fc9856b40243deeba6939e5318" title=" " alt="" coords="386,488,501,513"/>
+<area shape="rect" id="node50" href="$d8/d2b/namespaceSubd.html#a5f31b3ef70ad25320a8010ec3017eb04" title=" " alt="" coords="357,589,529,615"/>
+<area shape="rect" id="node35" href="$da/d9f/src_2lib_2subduction_8cc.html#ad33cb6edfd7ce5c6dc560a6d901668c6" title=" " alt="" coords="648,741,742,767"/>
+<area shape="rect" id="node36" href="$dd/da5/namespaceHadron_1_1SubduceTableEnv.html#a168dd05273b8d8f0ca1cfb57fbe63e23" title=" " alt="" coords="846,985,1026,1024"/>
+<area shape="rect" id="node39" href="$d2/d0e/namespaceHadron_1_1CubicGroupsEnv.html#a72c88213059f1ce4ac24ef0b5032307b" title=" " alt="" coords="1088,735,1261,773"/>
+<area shape="rect" id="node40" href="$d6/d00/namespaceHadron_1_1IrrepsCubicEnv.html#a180ad30fa93d4d682cf36167092198ba" title=" " alt="" coords="854,829,1018,868"/>
+<area shape="rect" id="node37" href="$d7/db0/namespaceHadron_1_1SubduceTablesOctEnv.html#a51ef987c89c5e4509cb7c7c24fb152d6" title=" " alt="" coords="1082,985,1267,1024"/>
+<area shape="rect" id="node38" href="$d7/df2/namespaceHadron_1_1SubduceTablesLgEnv.html#abb63f9dacfb5b881f3052ce08000b859" title=" " alt="" coords="1074,1048,1275,1087"/>
+<area shape="rect" id="node41" href="$db/d79/namespaceHadron_1_1IrrepsCubicOctEnv.html#add350f077e8bf956336f99fe5dc1c29d" title=" " alt="" coords="1083,923,1267,961"/>
+<area shape="rect" id="node42" href="$d0/d66/namespaceHadron_1_1IrrepsCubicLGEnv.html#a4c9a3cd2351dacf5ec8f2f58df4b7e3a" title=" " alt="" coords="1084,797,1265,836"/>
+<area shape="rect" id="node43" href="$dc/ddc/namespaceHadron_1_1IrrepsCubicHelicityEnv.html#a3c43156ee3e7bda6a9a9536083bfdeff" title=" " alt="" coords="1083,860,1266,899"/>
+<area shape="rect" id="node46" href="$d7/dcc/namespaceRot.html#adcd0cec8d1616e5f74d30cb3ad1aca99" title=" " alt="" coords="634,488,756,513"/>
+<area shape="rect" id="node47" href="$d4/dca/group__escalar.html#ga841db2f3f6d6a553733b1b75a638f052" title=" " alt="" coords="888,533,984,559"/>
+<area shape="rect" id="node48" href="$d4/dca/group__escalar.html#ga373122acba11edfbe0eff82093788afe" title=" " alt="" coords="889,484,983,509"/>
+<area shape="rect" id="node49" href="$da/d46/namespaceNR.html#a060c1496967431dfd707b603985a33b7" title=" " alt="" coords="899,583,973,608"/>
 </map>

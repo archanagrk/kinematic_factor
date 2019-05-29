@@ -1,5 +1,6 @@
 <map id="Hadron::conj" name="Hadron::conj">
-<area shape="rect" id="node1" title="Conjugate the imaginary parts &#45; down inside spin." alt="" coords="183,31,280,56"/>
+<area shape="rect" id="node1" title="Conjugate the imaginary parts &#45; down inside spin." alt="" coords="183,55,280,80"/>
 <area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#aad081d14cd95160e164751fe86cff3af" title=" " alt="" coords="5,5,135,31"/>
 <area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a218b77b239d871def6267d4b34bdf7c1" title="Conjugate the imaginary parts &#45; down inside spin." alt="" coords="22,55,119,80"/>
+<area shape="rect" id="node4" href="$d9/d83/db__rephase__corrs_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="45,104,95,129"/>
 </map>

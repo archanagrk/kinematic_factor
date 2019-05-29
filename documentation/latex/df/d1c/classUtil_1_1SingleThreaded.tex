@@ -19,9 +19,29 @@ typedef int \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced
 typedef Host \mbox{\hyperlink{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}{Volatile\+Type}}
 \item 
 typedef int \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}
+\item 
+typedef Host \mbox{\hyperlink{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}{Volatile\+Type}}
+\item 
+typedef int \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}
 \end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}{Atomic\+Add}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} val)
+\item 
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}{Atomic\+Subtract}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} val)
+\item 
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}{Atomic\+Multiply}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} val)
+\item 
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}{Atomic\+Divide}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} val)
+\item 
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}{Atomic\+Increment}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval)
+\item 
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}{Atomic\+Divide}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval)
+\item 
+static void \mbox{\hyperlink{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}{Atomic\+Assign}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} val)
+\item 
+static void \mbox{\hyperlink{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}{Atomic\+Assign}} (\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&val)
 \item 
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}{Atomic\+Add}} (volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&lval, \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} val)
 \item 
@@ -61,28 +81,42 @@ static void \mbox{\hyperlink{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}\label{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!IntType@{IntType}}
 \index{IntType@{IntType}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{IntType}{IntType}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{IntType}{IntType}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 typedef int \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}\label{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!IntType@{IntType}}
 \index{IntType@{IntType}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{IntType}{IntType}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{IntType}{IntType}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+typedef int \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}\label{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!IntType@{IntType}}
+\index{IntType@{IntType}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{IntType}{IntType}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 typedef int \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}\label{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!VolatileType@{VolatileType}}
 \index{VolatileType@{VolatileType}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{VolatileType}{VolatileType}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{VolatileType}{VolatileType}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 typedef Host \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::\mbox{\hyperlink{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}{Volatile\+Type}}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}\label{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!VolatileType@{VolatileType}}
 \index{VolatileType@{VolatileType}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{VolatileType}{VolatileType}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{VolatileType}{VolatileType}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+typedef Host \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::\mbox{\hyperlink{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}{Volatile\+Type}}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}\label{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!VolatileType@{VolatileType}}
+\index{VolatileType@{VolatileType}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{VolatileType}{VolatileType}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 typedef Host \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::\mbox{\hyperlink{classUtil_1_1SingleThreaded_a2181651ae6fb27288205435da7c5df22}{Volatile\+Type}}}
 
@@ -92,112 +126,168 @@ typedef Host \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Thr
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}\label{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAdd@{AtomicAdd}}
 \index{AtomicAdd@{AtomicAdd}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicAdd()}{AtomicAdd()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{AtomicAdd()}{AtomicAdd()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Add (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}\label{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAdd@{AtomicAdd}}
 \index{AtomicAdd@{AtomicAdd}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicAdd()}{AtomicAdd()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{AtomicAdd()}{AtomicAdd()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Add (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}\label{classUtil_1_1SingleThreaded_a8ecefde4f84af6dc4632e82d4898da2e}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAdd@{AtomicAdd}}
+\index{AtomicAdd@{AtomicAdd}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicAdd()}{AtomicAdd()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Add (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}\label{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAssign@{AtomicAssign}}
 \index{AtomicAssign@{AtomicAssign}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static void \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Assign (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}\label{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAssign@{AtomicAssign}}
 \index{AtomicAssign@{AtomicAssign}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static void \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Assign (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}\label{classUtil_1_1SingleThreaded_a712bba75b676a88de414ccbd4df775eb}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAssign@{AtomicAssign}}
+\index{AtomicAssign@{AtomicAssign}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static void \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Assign (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}\label{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAssign@{AtomicAssign}}
 \index{AtomicAssign@{AtomicAssign}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static void \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Assign (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}\label{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAssign@{AtomicAssign}}
 \index{AtomicAssign@{AtomicAssign}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static void \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Assign (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}\label{classUtil_1_1SingleThreaded_a013f12cfed48924a184b58e9d614dc6a}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicAssign@{AtomicAssign}}
+\index{AtomicAssign@{AtomicAssign}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicAssign()}{AtomicAssign()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static void \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Assign (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}\label{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicDivide@{AtomicDivide}}
 \index{AtomicDivide@{AtomicDivide}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Divide (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}\label{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicDivide@{AtomicDivide}}
 \index{AtomicDivide@{AtomicDivide}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Divide (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}\label{classUtil_1_1SingleThreaded_ab6c6cc9b62833f2a6e9f52aac7243a74}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicDivide@{AtomicDivide}}
+\index{AtomicDivide@{AtomicDivide}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Divide (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}\label{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicDivide@{AtomicDivide}}
 \index{AtomicDivide@{AtomicDivide}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Divide (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}\label{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicDivide@{AtomicDivide}}
 \index{AtomicDivide@{AtomicDivide}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Divide (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}\label{classUtil_1_1SingleThreaded_afb0bc74b0e21b32b31c4895fa22a3337}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicDivide@{AtomicDivide}}
+\index{AtomicDivide@{AtomicDivide}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicDivide()}{AtomicDivide()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Divide (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}\label{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicIncrement@{AtomicIncrement}}
 \index{AtomicIncrement@{AtomicIncrement}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicIncrement()}{AtomicIncrement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{AtomicIncrement()}{AtomicIncrement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Increment (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}\label{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicIncrement@{AtomicIncrement}}
 \index{AtomicIncrement@{AtomicIncrement}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicIncrement()}{AtomicIncrement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{AtomicIncrement()}{AtomicIncrement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Increment (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}\label{classUtil_1_1SingleThreaded_a72d41f77da5c6174b1ffb08cb21f1c39}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicIncrement@{AtomicIncrement}}
+\index{AtomicIncrement@{AtomicIncrement}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicIncrement()}{AtomicIncrement()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Increment (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}\label{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicMultiply@{AtomicMultiply}}
 \index{AtomicMultiply@{AtomicMultiply}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicMultiply()}{AtomicMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{AtomicMultiply()}{AtomicMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Multiply (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}\label{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicMultiply@{AtomicMultiply}}
 \index{AtomicMultiply@{AtomicMultiply}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicMultiply()}{AtomicMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{AtomicMultiply()}{AtomicMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Multiply (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}\label{classUtil_1_1SingleThreaded_a9cd0831ac28b49d1fa7bd8d24bf282bd}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicMultiply@{AtomicMultiply}}
+\index{AtomicMultiply@{AtomicMultiply}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicMultiply()}{AtomicMultiply()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Multiply (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}\label{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicSubtract@{AtomicSubtract}}
 \index{AtomicSubtract@{AtomicSubtract}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicSubtract()}{AtomicSubtract()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{AtomicSubtract()}{AtomicSubtract()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Subtract (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
 \mbox{\Hypertarget{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}\label{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}} 
 \index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicSubtract@{AtomicSubtract}}
 \index{AtomicSubtract@{AtomicSubtract}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
-\subsubsection{\texorpdfstring{AtomicSubtract()}{AtomicSubtract()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{AtomicSubtract()}{AtomicSubtract()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class Host $>$ \\
+static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Subtract (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}\label{classUtil_1_1SingleThreaded_a69e02798b76b46c5df8ed4cfe37ac9c5}} 
+\index{Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}!AtomicSubtract@{AtomicSubtract}}
+\index{AtomicSubtract@{AtomicSubtract}!Util::SingleThreaded$<$ Host $>$@{Util::SingleThreaded$<$ Host $>$}}
+\subsubsection{\texorpdfstring{AtomicSubtract()}{AtomicSubtract()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$class Host $>$ \\
 static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \mbox{\hyperlink{classUtil_1_1SingleThreaded}{Util\+::\+Single\+Threaded}}$<$ Host $>$\+::Atomic\+Subtract (\begin{DoxyParamCaption}\item[{volatile \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}} \&}]{lval,  }\item[{\mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2af4c6}{Int\+Type}}}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
 
@@ -205,4 +295,4 @@ static \mbox{\hyperlink{classUtil_1_1SingleThreaded_a35932213fb0c15a7b67ced79bc2
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/adat/\mbox{\hyperlink{lib_2adat_2singleton_8h}{singleton.\+h}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/adat/\mbox{\hyperlink{adat-devel_2lib_2adat_2singleton_8h}{singleton.\+h}}\end{DoxyCompactItemize}

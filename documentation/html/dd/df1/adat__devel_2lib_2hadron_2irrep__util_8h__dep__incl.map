@@ -1,0 +1,10 @@
+<map id="/Users/archanar/Kinematic_factor/adat_devel/lib/hadron/irrep_util.h" name="/Users/archanar/Kinematic_factor/adat_devel/lib/hadron/irrep_util.h">
+<area shape="rect" id="node1" title="Generate array of flavor strings for a particular hadron." alt="" coords="496,5,674,57"/>
+<area shape="rect" id="node2" href="$d0/d20/adat__devel_2lib_2hadron_2cubic__groups_8h.html" title="Cubic group and little groups." alt="" coords="90,105,269,157"/>
+<area shape="rect" id="node5" href="$d7/d29/adat__devel_2lib_2hadron_2irrep__util_8cc.html" title="Generate graphs." alt="" coords="293,105,471,157"/>
+<area shape="rect" id="node6" href="$d1/dcd/adat__devel_2lib_2hadron_2irreps__cubic_8h.html" title="Cubic group irreps." alt="" coords="496,105,674,157"/>
+<area shape="rect" id="node7" href="$d6/d88/adat__devel_2lib_2hadron_2operator__name__util_8cc.html" title="Generate graphs." alt="" coords="698,105,901,157"/>
+<area shape="rect" id="node8" href="$dc/dd4/adat__devel_2lib_2hadron_2particle__op_8cc.html" title="Hadron&#45;like particle operators." alt="" coords="925,105,1103,157"/>
+<area shape="rect" id="node3" href="$dd/da9/adat__devel_2lib_2hadron_2cubic__groups__factory_8h.html" title="Registration for all the group factories." alt="" coords="5,205,212,257"/>
+<area shape="rect" id="node4" href="$dd/d2e/adat__devel_2lib_2hadron_2cubic__groups__factory_8cc.html" title="Register all the other factories." alt="" coords="73,305,286,357"/>
+</map>

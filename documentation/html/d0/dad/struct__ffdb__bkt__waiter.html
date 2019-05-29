@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/d06/ffdb__pagepool_8h_source.html">ffdb_pagepool.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d7/d11/adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_source.html">ffdb_pagepool.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for _ffdb_bkt_waiter:</div>
 <div class="dyncontent">
@@ -86,13 +86,15 @@ Collaboration diagram for _ffdb_bkt_waiter:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a46ff621e44918a826d983ac183c59c5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html#a46ff621e44918a826d983ac183c59c5c">FFDB_CIRCLEQ_ENTRY</a> (<a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html">_ffdb_bkt_waiter</a>) q</td></tr>
 <tr class="separator:a46ff621e44918a826d983ac183c59c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46ff621e44918a826d983ac183c59c5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html#a46ff621e44918a826d983ac183c59c5c">FFDB_CIRCLEQ_ENTRY</a> (<a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html">_ffdb_bkt_waiter</a>) q</td></tr>
+<tr class="separator:a46ff621e44918a826d983ac183c59c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a9677f7593396ca503610bd92c4430835"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html#a9677f7593396ca503610bd92c4430835">wakeup</a></td></tr>
 <tr class="separator:a9677f7593396ca503610bd92c4430835"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e724eb12131337168b07b4ab071e01"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d1/d7c/struct__ffdb__bkt.html">_ffdb_bkt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html#aa1e724eb12131337168b07b4ab071e01">bp</a></td></tr>
-<tr class="separator:aa1e724eb12131337168b07b4ab071e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0a79a0bbf4f48827956b35c98b14b23"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d1/d7c/struct__ffdb__bkt.html">_ffdb_bkt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html#ad0a79a0bbf4f48827956b35c98b14b23">bp</a></td></tr>
+<tr class="separator:ad0a79a0bbf4f48827956b35c98b14b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a508c044094f22ad3c61725a3719147f3"><td class="memItemLeft" align="right" valign="top">pthread_cond_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html#a508c044094f22ad3c61725a3719147f3">cv</a></td></tr>
 <tr class="separator:a508c044094f22ad3c61725a3719147f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -100,7 +102,25 @@ Data Fields</h2></td></tr>
 <div class="textblock"><p class="">The waiters of a bucket defined in the following </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a46ff621e44918a826d983ac183c59c5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ff621e44918a826d983ac183c59c5c">&#9670;&nbsp;</a></span>FFDB_CIRCLEQ_ENTRY()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a46ff621e44918a826d983ac183c59c5c">&#9670;&nbsp;</a></span>FFDB_CIRCLEQ_ENTRY() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">_ffdb_bkt_waiter::FFDB_CIRCLEQ_ENTRY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dad/struct__ffdb__bkt__waiter.html">_ffdb_bkt_waiter</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46ff621e44918a826d983ac183c59c5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46ff621e44918a826d983ac183c59c5c">&#9670;&nbsp;</a></span>FFDB_CIRCLEQ_ENTRY() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,14 +138,14 @@ Data Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
-<a id="aa1e724eb12131337168b07b4ab071e01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1e724eb12131337168b07b4ab071e01">&#9670;&nbsp;</a></span>bp</h2>
+<a id="ad0a79a0bbf4f48827956b35c98b14b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0a79a0bbf4f48827956b35c98b14b23">&#9670;&nbsp;</a></span>bp</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d1/d7c/struct__ffdb__bkt.html">_ffdb_bkt</a>* _ffdb_bkt_waiter::bp</td>
+          <td class="memname">struct <a class="el" href="../../d1/d7c/struct__ffdb__bkt.html">_ffdb_bkt</a> * _ffdb_bkt_waiter::bp</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,7 +181,7 @@ Data Fields</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/Users/archanar/Kinematic_factor/adat_devel/other_libs/filedb/filehash/<a class="el" href="../../d7/d06/ffdb__pagepool_8h_source.html">ffdb_pagepool.h</a></li>
+<li>/Users/archanar/Kinematic_factor/adat-devel/other_libs/filedb/filehash/<a class="el" href="../../d7/d11/adat-devel_2other__libs_2filedb_2filehash_2ffdb__pagepool_8h_source.html">ffdb_pagepool.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

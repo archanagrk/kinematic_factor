@@ -29,8 +29,6 @@ var searchData=
   ['keyunsmearedmesonelementaloperator_5ft',['KeyUnsmearedMesonElementalOperator_t',['../dd/d95/structHadron_1_1KeyUnsmearedMesonElementalOperator__t.html',1,'Hadron']]],
   ['kfacparams',['KFacParams',['../d7/d41/classKFacParams.html',1,'']]],
   ['kfacssv',['KfacSSV',['../d8/d76/classKfacSSV.html',1,'']]],
-  ['kfacssvwphcorr',['KfacSSVwPhCorr',['../df/df0/classKfacSSVwPhCorr.html',1,'']]],
   ['kfacsvv',['KfacSVV',['../d3/d61/classKfacSVV.html',1,'']]],
-  ['kfacsvvwphcorr',['KfacSVVwPhCorr',['../d5/dd2/classKfacSVVwPhCorr.html',1,'']]],
   ['kfactor',['KFactor',['../d9/d65/classKFactor.html',1,'']]]
 ];

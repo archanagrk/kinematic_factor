@@ -1,0 +1,42 @@
+\hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaProd_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\+La\+Prod.h File Reference}
+\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaProd_8h}\index{/Users/archanar/Kinematic\_factor/adat-\/devel/other\_libs/minuit/inc/Minuit2/LaProd.h@{/Users/archanar/Kinematic\_factor/adat-\/devel/other\_libs/minuit/inc/Minuit2/LaProd.h}}
+{\ttfamily \#include \char`\"{}Minuit2/\+A\+B\+Prod.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Minuit2/\+L\+A\+Vector.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Minuit2/\+L\+A\+Sym\+Matrix.\+h\char`\"{}}\newline
+Include dependency graph for La\+Prod.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d33/adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaProd_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceROOT}{R\+O\+OT}}
+\item 
+ \mbox{\hyperlink{namespaceROOT_1_1Minuit2}{R\+O\+O\+T\+::\+Minuit2}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaProd_8h_ac3dc7f6e38114355c8815fb08af8aa47}{O\+P\+\_\+\+M\+U\+L\+T1}}(M\+T1,  M\+T2,  M\+A\+T1,  M\+A\+T2,  T)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaProd_8h_ac3dc7f6e38114355c8815fb08af8aa47}\label{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2LaProd_8h_ac3dc7f6e38114355c8815fb08af8aa47}} 
+\index{LaProd.h@{LaProd.h}!OP\_MULT1@{OP\_MULT1}}
+\index{OP\_MULT1@{OP\_MULT1}!LaProd.h@{LaProd.h}}
+\subsubsection{\texorpdfstring{OP\_MULT1}{OP\_MULT1}}
+{\footnotesize\ttfamily \#define O\+P\+\_\+\+M\+U\+L\+T1(\begin{DoxyParamCaption}\item[{}]{M\+T1,  }\item[{}]{M\+T2,  }\item[{}]{M\+A\+T1,  }\item[{}]{M\+A\+T2,  }\item[{}]{T }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{inline} ABObj<AlgebraicProdType<MT1,MT2>::Type,ABProd<ABObj<MT1,MAT1,T>, ABObj<MT2,MAT2,T> >,T>  
+      \mbox{\hyperlink{namespaceADAT_af3b34c2746ded9a7804cc7f35945a02e}{operator*}}(\textcolor{keyword}{const} ABObj<MT1,MAT1,T>\& a, \textcolor{keyword}{const} ABObj<MT2,MAT2,T>\& b) \{      \(\backslash\)}
+\DoxyCodeLine{  return ABObj<AlgebraicProdType<MT1,MT2>::Type,ABProd<ABObj<MT1,MAT1,T>, ABObj<MT2,MAT2,T> >,T>(ABProd<ABObj<MT1,MAT1,T>, ABObj<MT2,MAT2,T> >(a, b));  \(\backslash\)}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}

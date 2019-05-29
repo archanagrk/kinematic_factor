@@ -34,6 +34,20 @@ double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5
 double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}{Eps2}} () const
 \begin{DoxyCompactList}\small\item\em eps2 returns 2$\ast$sqrt(eps) \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}{Set\+Precision}} (double prec)
+\begin{DoxyCompactList}\small\item\em override Minuit\textquotesingle{}s own determination \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}{Mn\+Machine\+Precision}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}{$\sim$\+Mn\+Machine\+Precision}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}{Mn\+Machine\+Precision}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&prec)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}{operator=}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&prec)
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}{Eps}} () const
+\begin{DoxyCompactList}\small\item\em eps returns the smallest possible number so that 1.+eps $>$ 1. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}{Eps2}} () const
+\begin{DoxyCompactList}\small\item\em eps2 returns 2$\ast$sqrt(eps) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}{Set\+Precision}} (double prec)
 \begin{DoxyCompactList}\small\item\em override Minuit\textquotesingle{}s own determination \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -44,44 +58,63 @@ determines the relative floating point arithmetic precision. The \mbox{\hyperlin
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!MnMachinePrecision@{MnMachinePrecision}}
 \index{MnMachinePrecision@{MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=304pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316_cgraph}
+\includegraphics[width=350pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316_cgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!````~MnMachinePrecision@{$\sim$MnMachinePrecision}}
 \index{````~MnMachinePrecision@{$\sim$MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{$\sim$MnMachinePrecision()}{~MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$MnMachinePrecision()}{~MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::$\sim$\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!MnMachinePrecision@{MnMachinePrecision}}
 \index{MnMachinePrecision@{MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!MnMachinePrecision@{MnMachinePrecision}}
 \index{MnMachinePrecision@{MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!````~MnMachinePrecision@{$\sim$MnMachinePrecision}}
 \index{````~MnMachinePrecision@{$\sim$MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{$\sim$MnMachinePrecision()}{~MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$MnMachinePrecision()}{~MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::$\sim$\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!MnMachinePrecision@{MnMachinePrecision}}
 \index{MnMachinePrecision@{MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa40e069e8ca7ffc87ac53cdfebaf6316}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!MnMachinePrecision@{MnMachinePrecision}}
+\index{MnMachinePrecision@{MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_abcef7b80562b246252decc15b6fabc71}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!````~MnMachinePrecision@{$\sim$MnMachinePrecision}}
+\index{````~MnMachinePrecision@{$\sim$MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{$\sim$MnMachinePrecision()}{~MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::$\sim$\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a7b8520f8d3479d7dd1b91a3bc3236281}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!MnMachinePrecision@{MnMachinePrecision}}
+\index{MnMachinePrecision@{MnMachinePrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{MnMachinePrecision()}{MnMachinePrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Mn\+Machine\+Precision (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -90,14 +123,15 @@ Here is the call graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!Eps@{Eps}}
 \index{Eps@{Eps}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{Eps()}{Eps()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Eps()}{Eps()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Eps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
 eps returns the smallest possible number so that 1.+eps $>$ 1. 
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -107,7 +141,17 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!Eps@{Eps}}
 \index{Eps@{Eps}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{Eps()}{Eps()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Eps()}{Eps()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Eps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+eps returns the smallest possible number so that 1.+eps $>$ 1. 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a3a56da6043c5df1a98e5c8b1aa9f6d9f}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!Eps@{Eps}}
+\index{Eps@{Eps}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{Eps()}{Eps()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Eps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -117,7 +161,7 @@ eps returns the smallest possible number so that 1.+eps $>$ 1.
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!Eps2@{Eps2}}
 \index{Eps2@{Eps2}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{Eps2()}{Eps2()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Eps2()}{Eps2()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Eps2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -127,36 +171,53 @@ eps2 returns 2$\ast$sqrt(eps)
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!Eps2@{Eps2}}
 \index{Eps2@{Eps2}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{Eps2()}{Eps2()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Eps2()}{Eps2()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Eps2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
 eps2 returns 2$\ast$sqrt(eps) 
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_aa71de131bc08f19d18dfeba4cb8191ce}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!Eps2@{Eps2}}
+\index{Eps2@{Eps2}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{Eps2()}{Eps2()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Eps2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+eps2 returns 2$\ast$sqrt(eps) 
+
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!operator=@{operator=}}
 \index{operator=@{operator=}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!operator=@{operator=}}
 \index{operator=@{operator=}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a89ded7be0c8fe34ad55585e45a078355}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!operator=@{operator=}}
+\index{operator=@{operator=}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnMachinePrecision}{Mn\+Machine\+Precision}} \&}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!SetPrecision@{SetPrecision}}
 \index{SetPrecision@{SetPrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{SetPrecision()}{SetPrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SetPrecision()}{SetPrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Set\+Precision (\begin{DoxyParamCaption}\item[{double}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -168,13 +229,13 @@ Here is the call graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=287pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6_cgraph}
+\includegraphics[width=350pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6_cgraph}
 \end{center}
 \end{figure}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}} 
 \index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!SetPrecision@{SetPrecision}}
 \index{SetPrecision@{SetPrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
-\subsubsection{\texorpdfstring{SetPrecision()}{SetPrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{SetPrecision()}{SetPrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Set\+Precision (\begin{DoxyParamCaption}\item[{double}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -186,19 +247,38 @@ Here is the call graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=287pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6_cgraph}
+\includegraphics[width=350pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}\label{classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6}} 
+\index{ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}!SetPrecision@{SetPrecision}}
+\index{SetPrecision@{SetPrecision}!ROOT::Minuit2::MnMachinePrecision@{ROOT::Minuit2::MnMachinePrecision}}
+\subsubsection{\texorpdfstring{SetPrecision()}{SetPrecision()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Machine\+Precision\+::\+Set\+Precision (\begin{DoxyParamCaption}\item[{double}]{prec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+override Minuit\textquotesingle{}s own determination 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision_a625938e3c6362a06d09fc76e59f366b6_cgraph}
+\end{center}
+\end{figure}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2MnMachinePrecision_8h}{Mn\+Machine\+Precision.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{MnMachinePrecision_8cxx}{Mn\+Machine\+Precision.\+cxx}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2MnMachinePrecision_8h}{Mn\+Machine\+Precision.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2src_2MnMachinePrecision_8cxx}{Mn\+Machine\+Precision.\+cxx}}\end{DoxyCompactItemize}

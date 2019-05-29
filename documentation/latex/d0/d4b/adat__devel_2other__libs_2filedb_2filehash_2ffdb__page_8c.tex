@@ -1,0 +1,449 @@
+\hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/filehash/ffdb\+\_\+page.c File Reference}
+\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c}\index{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/filehash/ffdb\_page.c@{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/filehash/ffdb\_page.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$errno.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+db.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+page.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+hash.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ffdb\+\_\+hash\+\_\+func.\+h\char`\"{}}\newline
+Include dependency graph for ffdb\+\_\+page.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d01/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a530943e90468133a0cc53d0fb752cfcb}{M\+\_\+\+D\+A\+T\+A\+P\+\_\+\+S\+W\+AP}}(dp)
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a66223908ca98eb9b0172bd57425ee6c6}{M\+\_\+\+D\+A\+T\+A\+\_\+\+H\+E\+A\+D\+E\+R\+\_\+\+S\+W\+AP}}(header)
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ad1406cd2c8fb1cb6be848850dc9b6e59}{M\+\_\+\+C\+O\+N\+F\+I\+G\+\_\+\+I\+N\+F\+O\+\_\+\+S\+W\+AP}}(cinfo)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a1af7c7a984e68481194b1457fc9e2165}{ffdb\+\_\+pgin\+\_\+routine}} (void $\ast$arg, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} pgno, void $\ast$page)
+\item 
+void \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a29e873047c5bbb8214d85f3061c2b48c}{ffdb\+\_\+pgout\+\_\+routine}} (void $\ast$arg, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} pgno, void $\ast$page)
+\item 
+\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ab18204b922b3c1431b8bcbd71fbe19d7}{ffdb\+\_\+last\+\_\+data\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} start)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aee8d402020a44a72f40cff30ae2f9bd9}{ffdb\+\_\+put\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, void $\ast$mem, unsigned int addrtype, int dirty)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a3781c690210dc9ff030bca63ca76b521}{ffdb\+\_\+new\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} addr, unsigned int addrtype)
+\item 
+void $\ast$ \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a7a41e5d3aa641eaa3588ee323469147a}{ffdb\+\_\+get\+\_\+page}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} addr, unsigned int addrtype, unsigned flags, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} $\ast$page)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_abcfe17261335c76475086e59ab020290}{ffdb\+\_\+release\+\_\+item}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$item)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a6b562b83ef436a322dbd03ffc1970a91}{ffdb\+\_\+find\+\_\+item}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$key, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$val, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$item)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a01023f0331a47b7f4dd66a1ab2008356}{ffdb\+\_\+get\+\_\+item}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$key, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$val, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$item, int freepage)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a9f4cca81e82f747a9f92160b9d1f421b}{ffdb\+\_\+add\+\_\+pair}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$key, const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$val, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$item, int replace)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a4c01318294eb0c4c8414f1a48a4e2ca4}{ffdb\+\_\+add\+\_\+ovflpage}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$key, const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$val, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$item)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2fef4034e4e48cba8a413957ac8cfbe2}{ffdb\+\_\+split\+\_\+bucket}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, unsigned int oldbucket, unsigned int newbucket, int isdoubling)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a4dd9a21b6c522b97b005a32d7149984c}{ffdb\+\_\+rearrage\+\_\+pages\+\_\+on\+\_\+close}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a74b695499c18e8c1739c945a84cb675a}{ffdb\+\_\+rearrage\+\_\+pages\+\_\+on\+\_\+open}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp)
+\item 
+void \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a89850b387b69a4649b1bd92d0e3c5d12}{ffdb\+\_\+reduce\+\_\+filesize}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a57a72b4c0d4aaeef58f11a8c96f5b572}{ffdb\+\_\+set\+\_\+configs}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$configs)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_acb33ae9d0409ad9cb7d805d9448a5742}{ffdb\+\_\+get\+\_\+configs}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$configs)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a187d2e04a74842fa855ee5799174d260}{ffdb\+\_\+set\+\_\+config\+\_\+info}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$config)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2f92d56d49194d24debc9f14bb4edef8}{ffdb\+\_\+get\+\_\+config\+\_\+info}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, unsigned int confignum, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$config)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5c4cb0f890a593a92981b8f03d221337}{ffdb\+\_\+set\+\_\+uinfo}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, unsigned char $\ast$data, unsigned int len)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5376ee9beb2809fb31f0e5b5531ee91c}{ffdb\+\_\+get\+\_\+uinfo}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, unsigned char data\mbox{[}$\,$\mbox{]}, unsigned int $\ast$len)
+\item 
+int \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aea5399416023115e9fbfa5a593963786}{ffdb\+\_\+cursor\+\_\+find\+\_\+by\+\_\+key}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_a103d84beefb6d7306cb252c4d7f25479}{ffdb\+\_\+crs\+\_\+t}} $\ast$cursor, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$key, \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$data, unsigned int flags)
+\item 
+void \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ac254808e8682b803227a95d1af805d24}{ffdb\+\_\+disp\+\_\+all\+\_\+page\+\_\+info}} (\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$hashp)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ad1406cd2c8fb1cb6be848850dc9b6e59}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ad1406cd2c8fb1cb6be848850dc9b6e59}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!M\_CONFIG\_INFO\_SWAP@{M\_CONFIG\_INFO\_SWAP}}
+\index{M\_CONFIG\_INFO\_SWAP@{M\_CONFIG\_INFO\_SWAP}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{M\_CONFIG\_INFO\_SWAP}{M\_CONFIG\_INFO\_SWAP}}
+{\footnotesize\ttfamily \#define M\+\_\+\+C\+O\+N\+F\+I\+G\+\_\+\+I\+N\+F\+O\+\_\+\+S\+W\+AP(\begin{DoxyParamCaption}\item[{}]{cinfo }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordflow}{do} \{                                                         \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((cinfo)->config);                                \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((cinfo)->index);                                 \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((cinfo)->inserted);                              \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((cinfo)->type);                                  \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((cinfo)->mtime);                                 \(\backslash\)}
+\DoxyCodeLine{  \}\textcolor{keywordflow}{while}(0)}
+
+\end{DoxyCode}
+Swap configuration information structure \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a66223908ca98eb9b0172bd57425ee6c6}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a66223908ca98eb9b0172bd57425ee6c6}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!M\_DATA\_HEADER\_SWAP@{M\_DATA\_HEADER\_SWAP}}
+\index{M\_DATA\_HEADER\_SWAP@{M\_DATA\_HEADER\_SWAP}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{M\_DATA\_HEADER\_SWAP}{M\_DATA\_HEADER\_SWAP}}
+{\footnotesize\ttfamily \#define M\+\_\+\+D\+A\+T\+A\+\_\+\+H\+E\+A\+D\+E\+R\+\_\+\+S\+W\+AP(\begin{DoxyParamCaption}\item[{}]{header }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordflow}{do} \{                                                          \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((header)->len);                   \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((header)->status);                \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((header)->next);                  \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((header)->key\_page);              \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((header)->key\_idx);               \(\backslash\)}
+\DoxyCodeLine{  \}\textcolor{keywordflow}{while}(0)}
+
+\end{DoxyCode}
+Swap data header \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a530943e90468133a0cc53d0fb752cfcb}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a530943e90468133a0cc53d0fb752cfcb}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!M\_DATAP\_SWAP@{M\_DATAP\_SWAP}}
+\index{M\_DATAP\_SWAP@{M\_DATAP\_SWAP}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{M\_DATAP\_SWAP}{M\_DATAP\_SWAP}}
+{\footnotesize\ttfamily \#define M\+\_\+\+D\+A\+T\+A\+P\+\_\+\+S\+W\+AP(\begin{DoxyParamCaption}\item[{}]{dp }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordflow}{do} \{                    \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((dp)->first);                 \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((dp)->offset);                                    \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((dp)->len);                                       \(\backslash\)}
+\DoxyCodeLine{    M\_32\_SWAP((dp)->chksum);                    \(\backslash\)}
+\DoxyCodeLine{  \}\textcolor{keywordflow}{while}(0)}
+
+\end{DoxyCode}
+Swap data pointer 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a4c01318294eb0c4c8414f1a48a4e2ca4}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a4c01318294eb0c4c8414f1a48a4e2ca4}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_add\_ovflpage@{ffdb\_add\_ovflpage}}
+\index{ffdb\_add\_ovflpage@{ffdb\_add\_ovflpage}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_add\_ovflpage()}{ffdb\_add\_ovflpage()}}
+{\footnotesize\ttfamily int ffdb\+\_\+add\+\_\+ovflpage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{key,  }\item[{const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{val,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$}]{item }\end{DoxyParamCaption})}
+
+Add a pair to an overflow page \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a9f4cca81e82f747a9f92160b9d1f421b}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a9f4cca81e82f747a9f92160b9d1f421b}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_add\_pair@{ffdb\_add\_pair}}
+\index{ffdb\_add\_pair@{ffdb\_add\_pair}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_add\_pair()}{ffdb\_add\_pair()}}
+{\footnotesize\ttfamily int ffdb\+\_\+add\+\_\+pair (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{key,  }\item[{const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{val,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$}]{item,  }\item[{int}]{replace }\end{DoxyParamCaption})}
+
+Add a pair of key and data into the hash database
+
+The page associated with this pair should be cached \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aea5399416023115e9fbfa5a593963786}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aea5399416023115e9fbfa5a593963786}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_cursor\_find\_by\_key@{ffdb\_cursor\_find\_by\_key}}
+\index{ffdb\_cursor\_find\_by\_key@{ffdb\_cursor\_find\_by\_key}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_cursor\_find\_by\_key()}{ffdb\_cursor\_find\_by\_key()}}
+{\footnotesize\ttfamily int ffdb\+\_\+cursor\+\_\+find\+\_\+by\+\_\+key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_a103d84beefb6d7306cb252c4d7f25479}{ffdb\+\_\+crs\+\_\+t}} $\ast$}]{cursor,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{key,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{data,  }\item[{unsigned int}]{flags }\end{DoxyParamCaption})}
+
+Cursor Get routine Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aea5399416023115e9fbfa5a593963786_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ac254808e8682b803227a95d1af805d24}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ac254808e8682b803227a95d1af805d24}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_disp\_all\_page\_info@{ffdb\_disp\_all\_page\_info}}
+\index{ffdb\_disp\_all\_page\_info@{ffdb\_disp\_all\_page\_info}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_disp\_all\_page\_info()}{ffdb\_disp\_all\_page\_info()}}
+{\footnotesize\ttfamily void ffdb\+\_\+disp\+\_\+all\+\_\+page\+\_\+info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp }\end{DoxyParamCaption})}
+
+Dump out all page information for debug purpose Dump header page firstHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ac254808e8682b803227a95d1af805d24_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a6b562b83ef436a322dbd03ffc1970a91}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a6b562b83ef436a322dbd03ffc1970a91}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_find\_item@{ffdb\_find\_item}}
+\index{ffdb\_find\_item@{ffdb\_find\_item}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_find\_item()}{ffdb\_find\_item()}}
+{\footnotesize\ttfamily int ffdb\+\_\+find\+\_\+item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{key,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{val,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$}]{item }\end{DoxyParamCaption})}
+
+Routines to find a page for key and data pair Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a6b562b83ef436a322dbd03ffc1970a91_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2f92d56d49194d24debc9f14bb4edef8}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2f92d56d49194d24debc9f14bb4edef8}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_get\_config\_info@{ffdb\_get\_config\_info}}
+\index{ffdb\_get\_config\_info@{ffdb\_get\_config\_info}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_config\_info()}{ffdb\_get\_config\_info()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+config\+\_\+info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{unsigned int}]{confignum,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{config }\end{DoxyParamCaption})}
+
+Get a particular configuration information 
+\begin{DoxyParams}{Parameters}
+{\em hashp} & the pointer to the hash table @paran confignum a particuler config number @paran config a configuration information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success -\/1 on failure with a proper errno set 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2f92d56d49194d24debc9f14bb4edef8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_acb33ae9d0409ad9cb7d805d9448a5742}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_acb33ae9d0409ad9cb7d805d9448a5742}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_get\_configs@{ffdb\_get\_configs}}
+\index{ffdb\_get\_configs@{ffdb\_get\_configs}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_configs()}{ffdb\_get\_configs()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+configs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{configs }\end{DoxyParamCaption})}
+
+Get configuration information
+
+
+\begin{DoxyParams}{Parameters}
+{\em hashp} & the pointer to the hash table @paran configs all configuration information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success -\/1 on failure with a proper errno set 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_acb33ae9d0409ad9cb7d805d9448a5742_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a01023f0331a47b7f4dd66a1ab2008356}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a01023f0331a47b7f4dd66a1ab2008356}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_get\_item@{ffdb\_get\_item}}
+\index{ffdb\_get\_item@{ffdb\_get\_item}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_item()}{ffdb\_get\_item()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{const \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{key,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_aa2e0984399491df0fdd20898ca8758f9}{F\+F\+D\+B\+\_\+\+D\+BT}} $\ast$}]{val,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$}]{item,  }\item[{int}]{freepage }\end{DoxyParamCaption})}
+
+Get item from database. The item contains page and index information obtained from ffdb\+\_\+find\+\_\+item call
+
+
+\begin{DoxyParams}{Parameters}
+{\em hashp} & the hash table pointer \\
+\hline
+{\em key} & the key \\
+\hline
+{\em val} & the data pointer \\
+\hline
+{\em item} & the information for the hash entry \\
+\hline
+{\em freepage} & whether to put page back pointed by item\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+return 0 (always since we know the key is there). return -\/1 otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a7a41e5d3aa641eaa3588ee323469147a}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a7a41e5d3aa641eaa3588ee323469147a}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_get\_page@{ffdb\_get\_page}}
+\index{ffdb\_get\_page@{ffdb\_get\_page}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_page()}{ffdb\_get\_page()}}
+{\footnotesize\ttfamily void$\ast$ ffdb\+\_\+get\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}}}]{addr,  }\item[{unsigned int}]{addrtype,  }\item[{unsigned flags}]{,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} $\ast$}]{page }\end{DoxyParamCaption})}
+
+Get a page Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a7a41e5d3aa641eaa3588ee323469147a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5376ee9beb2809fb31f0e5b5531ee91c}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5376ee9beb2809fb31f0e5b5531ee91c}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_get\_uinfo@{ffdb\_get\_uinfo}}
+\index{ffdb\_get\_uinfo@{ffdb\_get\_uinfo}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_get\_uinfo()}{ffdb\_get\_uinfo()}}
+{\footnotesize\ttfamily int ffdb\+\_\+get\+\_\+uinfo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{unsigned char}]{data\mbox{[}$\,$\mbox{]},  }\item[{unsigned int $\ast$}]{len }\end{DoxyParamCaption})}
+
+Get user meta information in the 2nd page Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5376ee9beb2809fb31f0e5b5531ee91c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ab18204b922b3c1431b8bcbd71fbe19d7}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ab18204b922b3c1431b8bcbd71fbe19d7}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_last\_data\_page@{ffdb\_last\_data\_page}}
+\index{ffdb\_last\_data\_page@{ffdb\_last\_data\_page}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_last\_data\_page()}{ffdb\_last\_data\_page()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}} ffdb\+\_\+last\+\_\+data\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}}}]{start }\end{DoxyParamCaption})}
+
+Search for the last data page on this level starting from the last going backward to search
+
+This routine has to success since there is at least one data page at any level Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_ab18204b922b3c1431b8bcbd71fbe19d7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a3781c690210dc9ff030bca63ca76b521}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a3781c690210dc9ff030bca63ca76b521}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_new\_page@{ffdb\_new\_page}}
+\index{ffdb\_new\_page@{ffdb\_new\_page}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_new\_page()}{ffdb\_new\_page()}}
+{\footnotesize\ttfamily int ffdb\+\_\+new\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}}}]{addr,  }\item[{unsigned int}]{addrtype }\end{DoxyParamCaption})}
+
+get a brand new page Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a3781c690210dc9ff030bca63ca76b521_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a1af7c7a984e68481194b1457fc9e2165}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a1af7c7a984e68481194b1457fc9e2165}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_pgin\_routine@{ffdb\_pgin\_routine}}
+\index{ffdb\_pgin\_routine@{ffdb\_pgin\_routine}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_pgin\_routine()}{ffdb\_pgin\_routine()}}
+{\footnotesize\ttfamily void ffdb\+\_\+pgin\+\_\+routine (\begin{DoxyParamCaption}\item[{void $\ast$}]{arg,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}}}]{pgno,  }\item[{void $\ast$}]{page }\end{DoxyParamCaption})}
+
+This is the routine called right after a page is read \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a29e873047c5bbb8214d85f3061c2b48c}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a29e873047c5bbb8214d85f3061c2b48c}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_pgout\_routine@{ffdb\_pgout\_routine}}
+\index{ffdb\_pgout\_routine@{ffdb\_pgout\_routine}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_pgout\_routine()}{ffdb\_pgout\_routine()}}
+{\footnotesize\ttfamily void ffdb\+\_\+pgout\+\_\+routine (\begin{DoxyParamCaption}\item[{void $\ast$}]{arg,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_a000813331643d38481142bcce7de1501}{pgno\+\_\+t}}}]{pgno,  }\item[{void $\ast$}]{page }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aee8d402020a44a72f40cff30ae2f9bd9}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aee8d402020a44a72f40cff30ae2f9bd9}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_put\_page@{ffdb\_put\_page}}
+\index{ffdb\_put\_page@{ffdb\_put\_page}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_put\_page()}{ffdb\_put\_page()}}
+{\footnotesize\ttfamily int ffdb\+\_\+put\+\_\+page (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{void $\ast$}]{mem,  }\item[{unsigned int}]{addrtype,  }\item[{int}]{dirty }\end{DoxyParamCaption})}
+
+Put a page back into pagepool Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_aee8d402020a44a72f40cff30ae2f9bd9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a4dd9a21b6c522b97b005a32d7149984c}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a4dd9a21b6c522b97b005a32d7149984c}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_rearrage\_pages\_on\_close@{ffdb\_rearrage\_pages\_on\_close}}
+\index{ffdb\_rearrage\_pages\_on\_close@{ffdb\_rearrage\_pages\_on\_close}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_rearrage\_pages\_on\_close()}{ffdb\_rearrage\_pages\_on\_close()}}
+{\footnotesize\ttfamily int ffdb\+\_\+rearrage\+\_\+pages\+\_\+on\+\_\+close (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp }\end{DoxyParamCaption})}
+
+Optional to reorganize the pages to fill holes left by not fully using all buckets pages at a particular level \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a74b695499c18e8c1739c945a84cb675a}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a74b695499c18e8c1739c945a84cb675a}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_rearrage\_pages\_on\_open@{ffdb\_rearrage\_pages\_on\_open}}
+\index{ffdb\_rearrage\_pages\_on\_open@{ffdb\_rearrage\_pages\_on\_open}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_rearrage\_pages\_on\_open()}{ffdb\_rearrage\_pages\_on\_open()}}
+{\footnotesize\ttfamily int ffdb\+\_\+rearrage\+\_\+pages\+\_\+on\+\_\+open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp }\end{DoxyParamCaption})}
+
+Optional to reorganize the pages to move pages occuping reguler hash pages when the database expects new inserts \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a89850b387b69a4649b1bd92d0e3c5d12}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a89850b387b69a4649b1bd92d0e3c5d12}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_reduce\_filesize@{ffdb\_reduce\_filesize}}
+\index{ffdb\_reduce\_filesize@{ffdb\_reduce\_filesize}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_reduce\_filesize()}{ffdb\_reduce\_filesize()}}
+{\footnotesize\ttfamily void ffdb\+\_\+reduce\+\_\+filesize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp }\end{DoxyParamCaption})}
+
+Reduce file size if possible. For example, the first time a file was not doing rearrange pages and second time this file is doing page rearrange
+
+
+\begin{DoxyParams}{Parameters}
+{\em hashp} & the pointer to hash table \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_abcfe17261335c76475086e59ab020290}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_abcfe17261335c76475086e59ab020290}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_release\_item@{ffdb\_release\_item}}
+\index{ffdb\_release\_item@{ffdb\_release\_item}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_release\_item()}{ffdb\_release\_item()}}
+{\footnotesize\ttfamily int ffdb\+\_\+release\+\_\+item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_aa1cea5ccbd6513ed152988f7a71a936d}{ffdb\+\_\+hent\+\_\+t}} $\ast$}]{item }\end{DoxyParamCaption})}
+
+Release item and the related page associated with this item
+
+This routine is used when the item is no longer needed, which usually happened when hash\+\_\+get did not get anything Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_abcfe17261335c76475086e59ab020290_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a187d2e04a74842fa855ee5799174d260}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a187d2e04a74842fa855ee5799174d260}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_set\_config\_info@{ffdb\_set\_config\_info}}
+\index{ffdb\_set\_config\_info@{ffdb\_set\_config\_info}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_set\_config\_info()}{ffdb\_set\_config\_info()}}
+{\footnotesize\ttfamily int ffdb\+\_\+set\+\_\+config\+\_\+info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_acc961fbd2faf6a849a1620309100fda1}{ffdb\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{config }\end{DoxyParamCaption})}
+
+Set a particular configuration information 
+\begin{DoxyParams}{Parameters}
+{\em hashp} & the pointer to the hash table @paran config a configuration information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on success -\/1 on failure with a proper errno set 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a187d2e04a74842fa855ee5799174d260_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a57a72b4c0d4aaeef58f11a8c96f5b572}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a57a72b4c0d4aaeef58f11a8c96f5b572}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_set\_configs@{ffdb\_set\_configs}}
+\index{ffdb\_set\_configs@{ffdb\_set\_configs}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_set\_configs()}{ffdb\_set\_configs()}}
+{\footnotesize\ttfamily int ffdb\+\_\+set\+\_\+configs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__db_8h_afc17234e7cd387e11de55b92df6bb0e5}{ffdb\+\_\+all\+\_\+config\+\_\+info\+\_\+t}} $\ast$}]{configs }\end{DoxyParamCaption})}
+
+Code related to configurations Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a57a72b4c0d4aaeef58f11a8c96f5b572_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5c4cb0f890a593a92981b8f03d221337}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5c4cb0f890a593a92981b8f03d221337}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_set\_uinfo@{ffdb\_set\_uinfo}}
+\index{ffdb\_set\_uinfo@{ffdb\_set\_uinfo}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_set\_uinfo()}{ffdb\_set\_uinfo()}}
+{\footnotesize\ttfamily int ffdb\+\_\+set\+\_\+uinfo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{unsigned char $\ast$}]{data,  }\item[{unsigned int}]{len }\end{DoxyParamCaption})}
+
+Set user meta information in the 2nd page Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a5c4cb0f890a593a92981b8f03d221337_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2fef4034e4e48cba8a413957ac8cfbe2}\label{adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2fef4034e4e48cba8a413957ac8cfbe2}} 
+\index{ffdb\_page.c@{ffdb\_page.c}!ffdb\_split\_bucket@{ffdb\_split\_bucket}}
+\index{ffdb\_split\_bucket@{ffdb\_split\_bucket}!ffdb\_page.c@{ffdb\_page.c}}
+\subsubsection{\texorpdfstring{ffdb\_split\_bucket()}{ffdb\_split\_bucket()}}
+{\footnotesize\ttfamily int ffdb\+\_\+split\+\_\+bucket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2ffdb__hash_8h_ae592010ed2bedc975d3cc0b7d074b9d1}{ffdb\+\_\+htab\+\_\+t}} $\ast$}]{hashp,  }\item[{unsigned int}]{oldbucket,  }\item[{unsigned int}]{newbucket,  }\item[{int}]{isdoubling }\end{DoxyParamCaption})}
+
+Split a bucket\+: this happens when a bucket is full. This bucket may not be splitted right away (overflow pages needed), but it will eventually will be splitted Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d4b/adat__devel_2other__libs_2filedb_2filehash_2ffdb__page_8c_a2fef4034e4e48cba8a413957ac8cfbe2_cgraph}
+\end{center}
+\end{figure}

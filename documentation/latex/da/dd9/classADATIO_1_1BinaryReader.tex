@@ -11,7 +11,8 @@ Binary reader base class.
 
 
 
-Inheritance diagram for A\+D\+A\+T\+IO\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+Inheritance diagram for A\+D\+A\+T\+IO\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -88,9 +89,49 @@ virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a20d0ff738cbb83d0b266a
 virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a2239e093aff4d32cd3d717a7178d121a}{read}} (bool \&result)
 \item 
 virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}} \mbox{\hyperlink{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}{get\+Checksum}} () const =0
+\begin{DoxyCompactList}\small\item\em Get the current checksum. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}{Binary\+Reader}} ()
+\item 
+virtual \mbox{\hyperlink{classADATIO_1_1BinaryReader_a0410bcb7a122066b009e538ed5d47c5c}{$\sim$\+Binary\+Reader}} ()
+\item 
+virtual bool \mbox{\hyperlink{classADATIO_1_1BinaryReader_a4db0ebc0b7edd371bf0daa98e3bc696b}{fail}} ()
+\begin{DoxyCompactList}\small\item\em Return true if some failure occurred in previous IO operation. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_aba9bb1d3a6af4b6ab28388f6bd003d91}{read\+Array}} (char $\ast$output, size\+\_\+t nbytes, size\+\_\+t nmemb)
+\begin{DoxyCompactList}\small\item\em Read array of bytes and broadcast to all nodes. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}{read\+Desc}} (std\+::string \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}{read}} (std\+::string \&result, size\+\_\+t nbytes)
+\begin{DoxyCompactList}\small\item\em Read some max number of characters -\/ 1 upto and excluding a newline. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a04c653824b3819b4b02ea5eed6fd57f5}{read}} (char \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a865909a3033e753939e5d634a8fbff05}{read}} (int \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_ac8fdf69d46dd08e49c676202927247a4}{read}} (unsigned int \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_acd797e0f037099dc050f4444b13179be}{read}} (short int \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a02af26ba1942510d3b9510253945b346}{read}} (unsigned short int \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a5b0788893198274f244f3f04384af660}{read}} (long int \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}{read}} (unsigned long int \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_aa9a2094a98b7786a69a9b051b1f5d81a}{read}} (float \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a20d0ff738cbb83d0b266a38c7e5466be}{read}} (double \&result)
+\item 
+virtual void \mbox{\hyperlink{classADATIO_1_1BinaryReader_a2239e093aff4d32cd3d717a7178d121a}{read}} (bool \&result)
+\item 
+virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}} \mbox{\hyperlink{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}{get\+Checksum}} () const =0
 \begin{DoxyCompactList}\small\item\em Get the current checksum. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}{read\+Primitive}} (T \&output)
+\item 
+virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}} \& \mbox{\hyperlink{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}{set\+Checksum}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the current checksum to modify. \end{DoxyCompactList}\item 
+virtual std\+::istream \& \mbox{\hyperlink{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}{get\+Istream}} ()=0
 \item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}{read\+Primitive}} (T \&output)
 \item 
@@ -113,7 +154,7 @@ Binary reader base class.
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}\label{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!BinaryReader@{BinaryReader}}
 \index{BinaryReader@{BinaryReader}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{BinaryReader()}{BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{BinaryReader()}{BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::\+Binary\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
@@ -123,19 +164,31 @@ Binary reader support.
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aeead13e32ec4228418b5b34f9de88c9d}\label{classADATIO_1_1BinaryReader_aeead13e32ec4228418b5b34f9de88c9d}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!````~BinaryReader@{$\sim$BinaryReader}}
 \index{````~BinaryReader@{$\sim$BinaryReader}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{$\sim$BinaryReader()}{~BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$BinaryReader()}{~BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::$\sim$\+Binary\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}\label{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!BinaryReader@{BinaryReader}}
 \index{BinaryReader@{BinaryReader}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{BinaryReader()}{BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{BinaryReader()}{BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::\+Binary\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a0410bcb7a122066b009e538ed5d47c5c}\label{classADATIO_1_1BinaryReader_a0410bcb7a122066b009e538ed5d47c5c}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!````~BinaryReader@{$\sim$BinaryReader}}
 \index{````~BinaryReader@{$\sim$BinaryReader}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{$\sim$BinaryReader()}{~BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$BinaryReader()}{~BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::$\sim$\+Binary\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}\label{classADATIO_1_1BinaryReader_a19220cacd1c2fce407b2606d202ff1c5}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!BinaryReader@{BinaryReader}}
+\index{BinaryReader@{BinaryReader}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{BinaryReader()}{BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::\+Binary\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a0410bcb7a122066b009e538ed5d47c5c}\label{classADATIO_1_1BinaryReader_a0410bcb7a122066b009e538ed5d47c5c}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!````~BinaryReader@{$\sim$BinaryReader}}
+\index{````~BinaryReader@{$\sim$BinaryReader}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{$\sim$BinaryReader()}{~BinaryReader()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily virtual A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::$\sim$\+Binary\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
@@ -144,14 +197,15 @@ Binary reader support.
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a74e6bd6e0add2d0af3266b2c0578ae5f}\label{classADATIO_1_1BinaryReader_a74e6bd6e0add2d0af3266b2c0578ae5f}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!fail@{fail}}
 \index{fail@{fail}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{fail()}{fail()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{fail()}{fail()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily bool A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::fail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
 Return true if some failure occurred in previous IO operation. 
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -161,7 +215,17 @@ Here is the call graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a4db0ebc0b7edd371bf0daa98e3bc696b}\label{classADATIO_1_1BinaryReader_a4db0ebc0b7edd371bf0daa98e3bc696b}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!fail@{fail}}
 \index{fail@{fail}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{fail()}{fail()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{fail()}{fail()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual bool A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::fail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Return true if some failure occurred in previous IO operation. 
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a4db0ebc0b7edd371bf0daa98e3bc696b}\label{classADATIO_1_1BinaryReader_a4db0ebc0b7edd371bf0daa98e3bc696b}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!fail@{fail}}
+\index{fail@{fail}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{fail()}{fail()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily virtual bool A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::fail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
@@ -171,7 +235,7 @@ Return true if some failure occurred in previous IO operation.
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}\label{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!getChecksum@{getChecksum}}
 \index{getChecksum@{getChecksum}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{getChecksum()}{getChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{getChecksum()}{getChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}} A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::get\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
 
 
@@ -180,12 +244,12 @@ Get the current checksum.
 
 
 
-Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}\label{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!getChecksum@{getChecksum}}
 \index{getChecksum@{getChecksum}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{getChecksum()}{getChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{getChecksum()}{getChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}} A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::get\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
 
 
@@ -194,26 +258,42 @@ Get the current checksum.
 
 
 
-Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{da/dd9/classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}\label{classADATIO_1_1BinaryReader_acd705bb96d557a5437410b55beb40bda}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!getChecksum@{getChecksum}}
+\index{getChecksum@{getChecksum}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{getChecksum()}{getChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}} A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::get\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the current checksum. 
+
+
+
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_addb0cfdf4c3df174327b1abc136cfc68}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_ae8e6c22be76223f5e2ce2613e70be4bf}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}\label{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!getIstream@{getIstream}}
 \index{getIstream@{getIstream}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{getIstream()}{getIstream()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{getIstream()}{getIstream()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily virtual std\+::istream\& A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::get\+Istream (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
 
-Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -223,24 +303,35 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}\label{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!getIstream@{getIstream}}
 \index{getIstream@{getIstream}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{getIstream()}{getIstream()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{getIstream()}{getIstream()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily virtual std\+::istream\& A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::get\+Istream (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
 
-Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}\label{classADATIO_1_1BinaryReader_aa34e73d5f1e6b2b3b48c27e97f6a85a0}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!getIstream@{getIstream}}
+\index{getIstream@{getIstream}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{getIstream()}{getIstream()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual std\+::istream\& A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::get\+Istream (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_ae0985a1157f9baa87580606cfcf98908}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a32d746446a4c990f3c592a32753d7207}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}\label{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [1/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [1/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result,  }\item[{size\+\_\+t}]{nbytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
 Read some max number of characters -\/ 1 upto and excluding a newline. 
 
-This is the getline function for the underlying stream Here is the caller graph for this function\+:\nopagebreak
+This is the getline function for the underlying stream Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -250,151 +341,223 @@ This is the getline function for the underlying stream Here is the caller graph 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}\label{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [2/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [2/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result,  }\item[{size\+\_\+t}]{nbytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
 Read some max number of characters -\/ 1 upto and excluding a newline. 
 
-This is the getline function for the underlying stream \mbox{\Hypertarget{classADATIO_1_1BinaryReader_ae570afc4063058ada2653bbe7b7d7998}\label{classADATIO_1_1BinaryReader_ae570afc4063058ada2653bbe7b7d7998}} 
+This is the getline function for the underlying stream \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}\label{classADATIO_1_1BinaryReader_a4d79cabea18fccc818eaf2c45ed21b1f}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [3/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [3/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result,  }\item[{size\+\_\+t}]{nbytes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Read some max number of characters -\/ 1 upto and excluding a newline. 
+
+This is the getline function for the underlying stream \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a04c653824b3819b4b02ea5eed6fd57f5}\label{classADATIO_1_1BinaryReader_a04c653824b3819b4b02ea5eed6fd57f5}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [4/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{char \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_ae570afc4063058ada2653bbe7b7d7998}\label{classADATIO_1_1BinaryReader_ae570afc4063058ada2653bbe7b7d7998}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [5/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{char \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a04c653824b3819b4b02ea5eed6fd57f5}\label{classADATIO_1_1BinaryReader_a04c653824b3819b4b02ea5eed6fd57f5}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [4/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [6/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{char \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a865909a3033e753939e5d634a8fbff05}\label{classADATIO_1_1BinaryReader_a865909a3033e753939e5d634a8fbff05}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [5/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [7/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a865909a3033e753939e5d634a8fbff05}\label{classADATIO_1_1BinaryReader_a865909a3033e753939e5d634a8fbff05}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [8/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a3e4c97af4775a75b10ce2aba55776614}\label{classADATIO_1_1BinaryReader_a3e4c97af4775a75b10ce2aba55776614}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [6/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [9/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_ac8fdf69d46dd08e49c676202927247a4}\label{classADATIO_1_1BinaryReader_ac8fdf69d46dd08e49c676202927247a4}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [7/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [10/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_ac8fdf69d46dd08e49c676202927247a4}\label{classADATIO_1_1BinaryReader_ac8fdf69d46dd08e49c676202927247a4}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [11/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a79b60cbc85fa4d509ed0b9f09ad8eec0}\label{classADATIO_1_1BinaryReader_a79b60cbc85fa4d509ed0b9f09ad8eec0}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [8/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [12/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a801cac241b2dfded7f194e538e2f0e64}\label{classADATIO_1_1BinaryReader_a801cac241b2dfded7f194e538e2f0e64}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [9/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [13/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_acd797e0f037099dc050f4444b13179be}\label{classADATIO_1_1BinaryReader_acd797e0f037099dc050f4444b13179be}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [10/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [14/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_acd797e0f037099dc050f4444b13179be}\label{classADATIO_1_1BinaryReader_acd797e0f037099dc050f4444b13179be}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [15/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a6848f34fe230f8816d2f6e05555c8986}\label{classADATIO_1_1BinaryReader_a6848f34fe230f8816d2f6e05555c8986}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [11/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [16/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a02af26ba1942510d3b9510253945b346}\label{classADATIO_1_1BinaryReader_a02af26ba1942510d3b9510253945b346}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [12/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [17/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a02af26ba1942510d3b9510253945b346}\label{classADATIO_1_1BinaryReader_a02af26ba1942510d3b9510253945b346}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [18/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned short int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a54d1773f6ade89cf751ae06b578676e2}\label{classADATIO_1_1BinaryReader_a54d1773f6ade89cf751ae06b578676e2}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [13/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [19/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a5b0788893198274f244f3f04384af660}\label{classADATIO_1_1BinaryReader_a5b0788893198274f244f3f04384af660}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [14/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [20/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
-\mbox{\Hypertarget{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}\label{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}} 
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a5b0788893198274f244f3f04384af660}\label{classADATIO_1_1BinaryReader_a5b0788893198274f244f3f04384af660}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [15/22]}}
-{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [21/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a178aa7c188be98be42be14e4c5e93166}\label{classADATIO_1_1BinaryReader_a178aa7c188be98be42be14e4c5e93166}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [16/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [22/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}\label{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [23/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}\label{classADATIO_1_1BinaryReader_ae488df4a515666e5516d5a3c30d28f08}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [24/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{unsigned long int \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_aa9a2094a98b7786a69a9b051b1f5d81a}\label{classADATIO_1_1BinaryReader_aa9a2094a98b7786a69a9b051b1f5d81a}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [25/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{float \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_ac45d4457ae358122030b5b9338bab3d2}\label{classADATIO_1_1BinaryReader_ac45d4457ae358122030b5b9338bab3d2}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [17/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [26/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{float \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aa9a2094a98b7786a69a9b051b1f5d81a}\label{classADATIO_1_1BinaryReader_aa9a2094a98b7786a69a9b051b1f5d81a}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [18/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [27/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{float \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a20d0ff738cbb83d0b266a38c7e5466be}\label{classADATIO_1_1BinaryReader_a20d0ff738cbb83d0b266a38c7e5466be}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [19/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [28/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{double \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a20d0ff738cbb83d0b266a38c7e5466be}\label{classADATIO_1_1BinaryReader_a20d0ff738cbb83d0b266a38c7e5466be}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [29/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{double \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a484af95f04e83aef68a6be054df84876}\label{classADATIO_1_1BinaryReader_a484af95f04e83aef68a6be054df84876}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [20/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [30/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{double \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a2239e093aff4d32cd3d717a7178d121a}\label{classADATIO_1_1BinaryReader_a2239e093aff4d32cd3d717a7178d121a}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [21/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [31/33]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{bool \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a2239e093aff4d32cd3d717a7178d121a}\label{classADATIO_1_1BinaryReader_a2239e093aff4d32cd3d717a7178d121a}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
+\index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [32/33]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{bool \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aa4339bc0d5545d2697e498b6da4118a7}\label{classADATIO_1_1BinaryReader_aa4339bc0d5545d2697e498b6da4118a7}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!read@{read}}
 \index{read@{read}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [22/22]}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [33/33]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read (\begin{DoxyParamCaption}\item[{bool \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a9c68e2d4ecd86773a48a3a38f0c90677}\label{classADATIO_1_1BinaryReader_a9c68e2d4ecd86773a48a3a38f0c90677}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readArray@{readArray}}
 \index{readArray@{readArray}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{readArray()}{readArray()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{readArray()}{readArray()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Array (\begin{DoxyParamCaption}\item[{char $\ast$}]{output,  }\item[{size\+\_\+t}]{nbytes,  }\item[{size\+\_\+t}]{nmemb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
 Read array of bytes and broadcast to all nodes. 
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{da/dd9/classADATIO_1_1BinaryReader_a9c68e2d4ecd86773a48a3a38f0c90677_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -404,7 +567,17 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aba9bb1d3a6af4b6ab28388f6bd003d91}\label{classADATIO_1_1BinaryReader_aba9bb1d3a6af4b6ab28388f6bd003d91}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readArray@{readArray}}
 \index{readArray@{readArray}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{readArray()}{readArray()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{readArray()}{readArray()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Array (\begin{DoxyParamCaption}\item[{char $\ast$}]{output,  }\item[{size\+\_\+t}]{nbytes,  }\item[{size\+\_\+t}]{nmemb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Read array of bytes and broadcast to all nodes. 
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_aba9bb1d3a6af4b6ab28388f6bd003d91}\label{classADATIO_1_1BinaryReader_aba9bb1d3a6af4b6ab28388f6bd003d91}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readArray@{readArray}}
+\index{readArray@{readArray}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{readArray()}{readArray()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Array (\begin{DoxyParamCaption}\item[{char $\ast$}]{output,  }\item[{size\+\_\+t}]{nbytes,  }\item[{size\+\_\+t}]{nmemb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
@@ -414,30 +587,45 @@ Read array of bytes and broadcast to all nodes.
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}\label{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readDesc@{readDesc}}
 \index{readDesc@{readDesc}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{readDesc()}{readDesc()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{readDesc()}{readDesc()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Desc (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
-\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}\label{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}} 
-\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readDesc@{readDesc}}
-\index{readDesc@{readDesc}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{readDesc()}{readDesc()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Desc (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
-
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{da/dd9/classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}\label{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readDesc@{readDesc}}
+\index{readDesc@{readDesc}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{readDesc()}{readDesc()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Desc (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}\label{classADATIO_1_1BinaryReader_a70de2f31f59d9846f4ee688c3590bf31}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readDesc@{readDesc}}
+\index{readDesc@{readDesc}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{readDesc()}{readDesc()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Desc (\begin{DoxyParamCaption}\item[{std\+::string \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}\label{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readPrimitive@{readPrimitive}}
 \index{readPrimitive@{readPrimitive}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{readPrimitive()}{readPrimitive()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{readPrimitive()}{readPrimitive()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Primitive (\begin{DoxyParamCaption}\item[{T \&}]{output }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
 
-Here is the call graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}\label{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readPrimitive@{readPrimitive}}
+\index{readPrimitive@{readPrimitive}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{readPrimitive()}{readPrimitive()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Primitive (\begin{DoxyParamCaption}\item[{T \&}]{output }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -447,14 +635,14 @@ Here is the call graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}\label{classADATIO_1_1BinaryReader_aeb7e739afca615aff19646e64b8da320}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!readPrimitive@{readPrimitive}}
 \index{readPrimitive@{readPrimitive}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{readPrimitive()}{readPrimitive()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{readPrimitive()}{readPrimitive()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::read\+Primitive (\begin{DoxyParamCaption}\item[{T \&}]{output }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}\label{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!setChecksum@{setChecksum}}
 \index{setChecksum@{setChecksum}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{setChecksum()}{setChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{setChecksum()}{setChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}}\& A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::set\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
@@ -463,9 +651,10 @@ Get the current checksum to modify.
 
 
 
-Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -475,7 +664,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}\label{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}} 
 \index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!setChecksum@{setChecksum}}
 \index{setChecksum@{setChecksum}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
-\subsubsection{\texorpdfstring{setChecksum()}{setChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{setChecksum()}{setChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}}\& A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::set\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
@@ -484,11 +673,25 @@ Get the current checksum to modify.
 
 
 
-Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
+
+\mbox{\Hypertarget{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}\label{classADATIO_1_1BinaryReader_a33d291f073bf2e1f71f6bdbe40ce343a}} 
+\index{ADATIO::BinaryReader@{ADATIO::BinaryReader}!setChecksum@{setChecksum}}
+\index{setChecksum@{setChecksum}!ADATIO::BinaryReader@{ADATIO::BinaryReader}}
+\subsubsection{\texorpdfstring{setChecksum()}{setChecksum()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{namespaceADATUtil_ad945a8afa4db2d1f89b731964adae97e}{A\+D\+A\+T\+Util\+::n\+\_\+uint32\+\_\+t}}\& A\+D\+A\+T\+I\+O\+::\+Binary\+Reader\+::set\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Get the current checksum to modify. 
+
+
+
+Implemented in \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryFileReader_a9279d31577b7fffa174df067c72ebcc4}{A\+D\+A\+T\+I\+O\+::\+Binary\+File\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}, and \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader_a3976e5ece3392d04158307f864a84bb7}{A\+D\+A\+T\+I\+O\+::\+Binary\+Buffer\+Reader}}.
 
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/\mbox{\hyperlink{lib_2io_2adat__io_8h}{adat\+\_\+io.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/\mbox{\hyperlink{adat__io_8cc}{adat\+\_\+io.\+cc}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/io/\mbox{\hyperlink{adat-devel_2lib_2io_2adat__io_8h}{adat\+\_\+io.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/io/\mbox{\hyperlink{adat-devel_2lib_2io_2adat__io_8cc}{adat\+\_\+io.\+cc}}\end{DoxyCompactItemize}

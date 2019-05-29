@@ -1,7 +1,9 @@
 <map id="Hadron::Wigner_D" name="Hadron::Wigner_D">
-<area shape="rect" id="node1" title=" " alt="" coords="461,56,593,81"/>
-<area shape="rect" id="node2" href="$d6/d3c/namespacePh.html#a47fd4e2846a9ce86464940bc5f4cccf8" title=" " alt="" coords="271,5,413,31"/>
-<area shape="rect" id="node3" href="$d6/d3c/namespacePh.html#ad2fd8f885053b0833441c8388a9218b8" title=" " alt="" coords="104,31,223,56"/>
-<area shape="rect" id="node5" href="$d7/d0c/namespacePolVec.html#ade3c809bd4af71b85d16a9363ac33ee6" title=" " alt="" coords="284,107,400,132"/>
-<area shape="rect" id="node4" href="$d0/d58/ckfac__w__sud_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,56,56"/>
+<area shape="rect" id="node1" title=" " alt="" coords="628,55,760,80"/>
+<area shape="rect" id="node2" href="$d6/d3c/namespacePh.html#a47fd4e2846a9ce86464940bc5f4cccf8" title=" " alt="" coords="438,29,580,55"/>
+<area shape="rect" id="node3" href="$d6/d3c/namespacePh.html#a8662b8eefea46c114386b136878a461c" title=" " alt="" coords="274,5,387,31"/>
+<area shape="rect" id="node6" href="$d6/d3c/namespacePh.html#a51140cf285f02c028134a1e40807b54b" title=" " alt="" coords="271,55,390,80"/>
+<area shape="rect" id="node7" href="$d7/d0c/namespacePolVec.html#ade3c809bd4af71b85d16a9363ac33ee6" title=" " alt="" coords="451,131,567,156"/>
+<area shape="rect" id="node4" href="$d6/d3c/namespacePh.html#abd30593224e56992e6e15dc98728ad0b" title=" " alt="" coords="104,5,223,31"/>
+<area shape="rect" id="node5" href="$d0/d58/ckfac__w__sud_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,56,31"/>
 </map>

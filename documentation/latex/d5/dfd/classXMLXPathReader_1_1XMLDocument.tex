@@ -18,9 +18,23 @@
 \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}{X\+M\+L\+Document}} (std\+::istream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
 \item 
 \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}{$\sim$\+X\+M\+L\+Document}} (void)
+\item 
+\mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}{X\+M\+L\+Document}} (const std\+::string \&filename)
+\item 
+\mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}{X\+M\+L\+Document}} (std\+::istream \&\mbox{\hyperlink{x_8cc_a81abbbdef81e25584a2eab888e643d3d}{is}})
+\item 
+\mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}{$\sim$\+X\+M\+L\+Document}} (void)
 \end{DoxyCompactItemize}
 \subsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}{increase\+Refcount}} ()
+\item 
+void \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}{decrease\+Refcount}} ()
+\item 
+int \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}{get\+Refcount}} ()
+\item 
+xml\+Doc\+Ptr \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}{get\+Doc}} (void)
 \item 
 void \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}{increase\+Refcount}} ()
 \item 
@@ -49,37 +63,55 @@ class \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_aab456070fa37ace014ac6
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}\label{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!XMLDocument@{XMLDocument}}
 \index{XMLDocument@{XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}\label{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!XMLDocument@{XMLDocument}}
 \index{XMLDocument@{XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}\label{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!````~XMLDocument@{$\sim$XMLDocument}}
 \index{````~XMLDocument@{$\sim$XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{$\sim$XMLDocument()}{~XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$XMLDocument()}{~XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::$\sim$\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}\label{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!XMLDocument@{XMLDocument}}
 \index{XMLDocument@{XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}\label{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!XMLDocument@{XMLDocument}}
 \index{XMLDocument@{XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}\label{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!````~XMLDocument@{$\sim$XMLDocument}}
 \index{````~XMLDocument@{$\sim$XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{$\sim$XMLDocument()}{~XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$XMLDocument()}{~XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::$\sim$\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}\label{classXMLXPathReader_1_1XMLDocument_aa7385c1ff92fb49af6fee17de7e6a7d3}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!XMLDocument@{XMLDocument}}
+\index{XMLDocument@{XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}\label{classXMLXPathReader_1_1XMLDocument_aea901941e2389a6c2b0d2d52686f6a99}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!XMLDocument@{XMLDocument}}
+\index{XMLDocument@{XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{XMLDocument()}{XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}\label{classXMLXPathReader_1_1XMLDocument_a118c246b3d6018c9d725fdfbafafe46f}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!````~XMLDocument@{$\sim$XMLDocument}}
+\index{````~XMLDocument@{$\sim$XMLDocument}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{$\sim$XMLDocument()}{~XMLDocument()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::$\sim$\+X\+M\+L\+Document (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -88,22 +120,35 @@ class \mbox{\hyperlink{classXMLXPathReader_1_1XMLDocument_aab456070fa37ace014ac6
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}\label{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!decreaseRefcount@{decreaseRefcount}}
 \index{decreaseRefcount@{decreaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{decreaseRefcount()}{decreaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{decreaseRefcount()}{decreaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::decrease\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}\label{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!decreaseRefcount@{decreaseRefcount}}
 \index{decreaseRefcount@{decreaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{decreaseRefcount()}{decreaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{decreaseRefcount()}{decreaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::decrease\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}\label{classXMLXPathReader_1_1XMLDocument_af1e14d662e9ebf8ce5288d5c77ca4ac6}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!decreaseRefcount@{decreaseRefcount}}
+\index{decreaseRefcount@{decreaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{decreaseRefcount()}{decreaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::decrease\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}\label{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!getDoc@{getDoc}}
 \index{getDoc@{getDoc}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{getDoc()}{getDoc()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{getDoc()}{getDoc()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily xml\+Doc\+Ptr X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::get\+Doc (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}\label{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!getDoc@{getDoc}}
+\index{getDoc@{getDoc}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{getDoc()}{getDoc()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily xml\+Doc\+Ptr X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::get\+Doc (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -113,40 +158,53 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}\label{classXMLXPathReader_1_1XMLDocument_aa4fceaafd3c764004b6da33a26acc16d}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!getDoc@{getDoc}}
 \index{getDoc@{getDoc}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{getDoc()}{getDoc()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{getDoc()}{getDoc()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily xml\+Doc\+Ptr X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::get\+Doc (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}\label{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!getRefcount@{getRefcount}}
 \index{getRefcount@{getRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{getRefcount()}{getRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{getRefcount()}{getRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily int X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::get\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}\label{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!getRefcount@{getRefcount}}
 \index{getRefcount@{getRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{getRefcount()}{getRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{getRefcount()}{getRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily int X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::get\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}\label{classXMLXPathReader_1_1XMLDocument_af2b6cf36ebceab808e4856d3e7a20921}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!getRefcount@{getRefcount}}
+\index{getRefcount@{getRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{getRefcount()}{getRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily int X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::get\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}\label{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}} 
 \index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!increaseRefcount@{increaseRefcount}}
 \index{increaseRefcount@{increaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{increaseRefcount()}{increaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{increaseRefcount()}{increaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::increase\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}\label{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!increaseRefcount@{increaseRefcount}}
+\index{increaseRefcount@{increaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{increaseRefcount()}{increaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::increase\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}\label{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}} 
+\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!increaseRefcount@{increaseRefcount}}
+\index{increaseRefcount@{increaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
+\subsubsection{\texorpdfstring{increaseRefcount()}{increaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::increase\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d5/dfd/classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710_icgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}\label{classXMLXPathReader_1_1XMLDocument_ac39670aea17809a726dc6a2cc91c9710}} 
-\index{XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}!increaseRefcount@{increaseRefcount}}
-\index{increaseRefcount@{increaseRefcount}!XMLXPathReader::XMLDocument@{XMLXPathReader::XMLDocument}}
-\subsubsection{\texorpdfstring{increaseRefcount()}{increaseRefcount()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily void X\+M\+L\+X\+Path\+Reader\+::\+X\+M\+L\+Document\+::increase\+Refcount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
-
 
 
 \subsection{Friends And Related Function Documentation}
@@ -160,4 +218,4 @@ Here is the caller graph for this function\+:\nopagebreak
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/xpath\+\_\+reader/include/\mbox{\hyperlink{other__libs_2xpath__reader_2include_2xml__document_8h}{xml\+\_\+document.\+h}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/xpath\+\_\+reader/include/\mbox{\hyperlink{adat-devel_2other__libs_2xpath__reader_2include_2xml__document_8h}{xml\+\_\+document.\+h}}\end{DoxyCompactItemize}

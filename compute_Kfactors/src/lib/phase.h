@@ -6,6 +6,9 @@
 #include "kfac_utils.h"
 #include "subduction.h"
 
+
+double Round(double x);
+
   //**********************************************************************************************************************
 
 
@@ -33,10 +36,22 @@ namespace Ph {
   Ph::phChars phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d mom1, Eigen::Vector3d mom2, bool compute, bool right);
 
 
+  /* Return the list of given sqrt of mom */
+
+  vector<Eigen::Vector3d> list_mom(double mom);
+
 
   /* Composition of two Wigner-D matrices R'R, R'^-1R, R'R^-1 */
 
   std::complex <double> comp_Wigner_d(int twoJ, int twolam1,int twolam2, double a1, double b1, double c1, double a2, double b2, double c2, int n);
+
+
+  /* Calculate the phases */
+
+  map < Ph::tripKey , complex<double>> calc_phase(int twoJ1, int twoJ2, int twoJCurr, double mom1_sq, double mom2_sq, double mom_curr_sq, vector<double> r_mom1, 
+                            vector<double> r_n_mom1, vector<double> r_mom2, vector<double> r2, vector<double> r_mom_curr, vector<double> r_n_mom_curr);
+
+  map < Ph::tripKey , complex<double>> cnst_phase(int twoJ1, int twoJ2, int twoJCurr);
     
   //**********************************************************************************************************************
  

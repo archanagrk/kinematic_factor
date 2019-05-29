@@ -78,7 +78,7 @@ $(function() {
 <p>Iterator for a <a class="el" href="../../da/d29/classADAT_1_1MapObject.html" title="A wrapper over maps.">MapObject</a>.  
  <a href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/d8e/lib_2adat_2map__obj_8h_source.html">map_obj.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d5/dd9/adat-devel_2lib_2adat_2map__obj_8h_source.html">map_obj.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ADAT::MapObjectIterator&lt; K, V &gt;:</div>
 <div class="dyncontent">
@@ -100,6 +100,9 @@ Collaboration diagram for ADAT::MapObjectIterator&lt; K, V &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:ad159a70384669e35c10ddb298c4d1ba8"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; std::string, std::pair&lt; K, V &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#ad159a70384669e35c10ddb298c4d1ba8">MapType_t</a></td></tr>
+<tr class="memdesc:ad159a70384669e35c10ddb298c4d1ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map type convenience.  <a href="#ad159a70384669e35c10ddb298c4d1ba8">More...</a><br /></td></tr>
+<tr class="separator:ad159a70384669e35c10ddb298c4d1ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad159a70384669e35c10ddb298c4d1ba8"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; std::string, std::pair&lt; K, V &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#ad159a70384669e35c10ddb298c4d1ba8">MapType_t</a></td></tr>
 <tr class="memdesc:ad159a70384669e35c10ddb298c4d1ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map type convenience.  <a href="#ad159a70384669e35c10ddb298c4d1ba8">More...</a><br /></td></tr>
 <tr class="separator:ad159a70384669e35c10ddb298c4d1ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +156,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3faecdcae68181e91e40dad404296ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa56a13020c9fac807f99312923610dbd"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; K, V &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#aa56a13020c9fac807f99312923610dbd">operator-&gt;</a> () const</td></tr>
 <tr class="separator:aa56a13020c9fac807f99312923610dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b23220f6791a2793bb16a898a515926"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a2b23220f6791a2793bb16a898a515926">MapObjectIterator</a> (const typename MapType_t::const_iterator &amp;iter_)</td></tr>
+<tr class="memdesc:a2b23220f6791a2793bb16a898a515926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take an input iterator coming from <a class="el" href="../../da/d29/classADAT_1_1MapObject.html" title="A wrapper over maps.">MapObject</a>.  <a href="#a2b23220f6791a2793bb16a898a515926">More...</a><br /></td></tr>
+<tr class="separator:a2b23220f6791a2793bb16a898a515926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62eb4a3a1c1bab1329e51a3d857d4065"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a62eb4a3a1c1bab1329e51a3d857d4065">MapObjectIterator</a> (const <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> &amp;p)</td></tr>
+<tr class="memdesc:a62eb4a3a1c1bab1329e51a3d857d4065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a62eb4a3a1c1bab1329e51a3d857d4065">More...</a><br /></td></tr>
+<tr class="separator:a62eb4a3a1c1bab1329e51a3d857d4065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eedaf3b2fc70d48afd45bd37c5e6e69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a2eedaf3b2fc70d48afd45bd37c5e6e69">operator++</a> ()</td></tr>
+<tr class="memdesc:a2eedaf3b2fc70d48afd45bd37c5e6e69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefix increment.  <a href="#a2eedaf3b2fc70d48afd45bd37c5e6e69">More...</a><br /></td></tr>
+<tr class="separator:a2eedaf3b2fc70d48afd45bd37c5e6e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90809a5488988dd0d49ce25df35756ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a90809a5488988dd0d49ce25df35756ae">operator++</a> (int)</td></tr>
+<tr class="memdesc:a90809a5488988dd0d49ce25df35756ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postfix increment.  <a href="#a90809a5488988dd0d49ce25df35756ae">More...</a><br /></td></tr>
+<tr class="separator:a90809a5488988dd0d49ce25df35756ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3153929ca4103b625790fb1d09f33e71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a3153929ca4103b625790fb1d09f33e71">operator==</a> (const <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:a3153929ca4103b625790fb1d09f33e71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality.  <a href="#a3153929ca4103b625790fb1d09f33e71">More...</a><br /></td></tr>
+<tr class="separator:a3153929ca4103b625790fb1d09f33e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1110663c46b0e652d8ecd0dbe80bd255"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a1110663c46b0e652d8ecd0dbe80bd255">operator!=</a> (const <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:a1110663c46b0e652d8ecd0dbe80bd255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rather obvious.  <a href="#a1110663c46b0e652d8ecd0dbe80bd255">More...</a><br /></td></tr>
+<tr class="separator:a1110663c46b0e652d8ecd0dbe80bd255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3faecdcae68181e91e40dad404296ed7"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; K, V &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a3faecdcae68181e91e40dad404296ed7">operator*</a> () const</td></tr>
+<tr class="separator:a3faecdcae68181e91e40dad404296ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56a13020c9fac807f99312923610dbd"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; K, V &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#aa56a13020c9fac807f99312923610dbd">operator-&gt;</a> () const</td></tr>
+<tr class="separator:aa56a13020c9fac807f99312923610dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename K, typename V&gt;<br />
@@ -161,7 +186,7 @@ class ADAT::MapObjectIterator&lt; K, V &gt;</h3>
 <p class="">Iterator for a <a class="el" href="../../da/d29/classADAT_1_1MapObject.html" title="A wrapper over maps.">MapObject</a>. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad159a70384669e35c10ddb298c4d1ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad159a70384669e35c10ddb298c4d1ba8">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad159a70384669e35c10ddb298c4d1ba8">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +204,25 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ad159a70384669e35c10ddb298c4d1ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad159a70384669e35c10ddb298c4d1ba8">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad159a70384669e35c10ddb298c4d1ba8">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;std::string, std::pair&lt;K,V&gt; &gt; <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::<a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#ad159a70384669e35c10ddb298c4d1ba8">MapType_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Map type convenience. </p>
+
+</div>
+</div>
+<a id="ad159a70384669e35c10ddb298c4d1ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad159a70384669e35c10ddb298c4d1ba8">&#9670;&nbsp;</a></span>MapType_t <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -198,7 +241,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2b23220f6791a2793bb16a898a515926"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b23220f6791a2793bb16a898a515926">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b23220f6791a2793bb16a898a515926">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +271,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a62eb4a3a1c1bab1329e51a3d857d4065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62eb4a3a1c1bab1329e51a3d857d4065">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a62eb4a3a1c1bab1329e51a3d857d4065">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,7 +301,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a2b23220f6791a2793bb16a898a515926"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b23220f6791a2793bb16a898a515926">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b23220f6791a2793bb16a898a515926">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +331,67 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a62eb4a3a1c1bab1329e51a3d857d4065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62eb4a3a1c1bab1329e51a3d857d4065">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a62eb4a3a1c1bab1329e51a3d857d4065">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::<a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a>&lt; K, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy constructor. </p>
+
+</div>
+</div>
+<a id="a2b23220f6791a2793bb16a898a515926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b23220f6791a2793bb16a898a515926">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::<a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> </td>
+          <td>(</td>
+          <td class="paramtype">const typename MapType_t::const_iterator &amp;&#160;</td>
+          <td class="paramname"><em>iter_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Take an input iterator coming from <a class="el" href="../../da/d29/classADAT_1_1MapObject.html" title="A wrapper over maps.">MapObject</a>. </p>
+
+</div>
+</div>
+<a id="a62eb4a3a1c1bab1329e51a3d857d4065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62eb4a3a1c1bab1329e51a3d857d4065">&#9670;&nbsp;</a></span>MapObjectIterator() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +422,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1110663c46b0e652d8ecd0dbe80bd255"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1110663c46b0e652d8ecd0dbe80bd255">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1110663c46b0e652d8ecd0dbe80bd255">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,7 +452,37 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a1110663c46b0e652d8ecd0dbe80bd255"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1110663c46b0e652d8ecd0dbe80bd255">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1110663c46b0e652d8ecd0dbe80bd255">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a>&lt; K, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rather obvious. </p>
+
+</div>
+</div>
+<a id="a1110663c46b0e652d8ecd0dbe80bd255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1110663c46b0e652d8ecd0dbe80bd255">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +512,35 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a3faecdcae68181e91e40dad404296ed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3faecdcae68181e91e40dad404296ed7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3faecdcae68181e91e40dad404296ed7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::pair&lt;K,V&gt;&amp; <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3faecdcae68181e91e40dad404296ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3faecdcae68181e91e40dad404296ed7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,7 +567,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a3faecdcae68181e91e40dad404296ed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3faecdcae68181e91e40dad404296ed7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3faecdcae68181e91e40dad404296ed7">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -434,7 +595,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a2eedaf3b2fc70d48afd45bd37c5e6e69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eedaf3b2fc70d48afd45bd37c5e6e69">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eedaf3b2fc70d48afd45bd37c5e6e69">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +633,37 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a2eedaf3b2fc70d48afd45bd37c5e6e69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eedaf3b2fc70d48afd45bd37c5e6e69">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eedaf3b2fc70d48afd45bd37c5e6e69">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a>&amp; <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prefix increment. </p>
+
+</div>
+</div>
+<a id="a2eedaf3b2fc70d48afd45bd37c5e6e69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eedaf3b2fc70d48afd45bd37c5e6e69">&#9670;&nbsp;</a></span>operator++() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -502,7 +693,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a90809a5488988dd0d49ce25df35756ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90809a5488988dd0d49ce25df35756ae">&#9670;&nbsp;</a></span>operator++() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a90809a5488988dd0d49ce25df35756ae">&#9670;&nbsp;</a></span>operator++() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,7 +732,46 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a90809a5488988dd0d49ce25df35756ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90809a5488988dd0d49ce25df35756ae">&#9670;&nbsp;</a></span>operator++() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a90809a5488988dd0d49ce25df35756ae">&#9670;&nbsp;</a></span>operator++() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a> <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Postfix increment. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d4b/classADAT_1_1MapObjectIterator_a90809a5488988dd0d49ce25df35756ae_cgraph.png" border="0" usemap="#d2/d4b/classADAT_1_1MapObjectIterator_a90809a5488988dd0d49ce25df35756ae_cgraph" alt=""/></div>
+<map name="d2/d4b/classADAT_1_1MapObjectIterator_a90809a5488988dd0d49ce25df35756ae_cgraph" id="d2/d4b/classADAT_1_1MapObjectIterator_a90809a5488988dd0d49ce25df35756ae_cgraph">
+<area shape="rect" id="node1" title="Postfix increment." alt="" coords="5,5,174,44"/>
+<area shape="rect" id="node2" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html#a2eedaf3b2fc70d48afd45bd37c5e6e69" title="Prefix increment." alt="" coords="222,5,390,44"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a90809a5488988dd0d49ce25df35756ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90809a5488988dd0d49ce25df35756ae">&#9670;&nbsp;</a></span>operator++() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -580,34 +810,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aa56a13020c9fac807f99312923610dbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa56a13020c9fac807f99312923610dbd">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename K, typename V&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::pair&lt;K,V&gt;* <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator-&gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa56a13020c9fac807f99312923610dbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa56a13020c9fac807f99312923610dbd">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56a13020c9fac807f99312923610dbd">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -634,8 +837,63 @@ template&lt;typename K, typename V&gt; </div>
 
 </div>
 </div>
+<a id="aa56a13020c9fac807f99312923610dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56a13020c9fac807f99312923610dbd">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::pair&lt;K,V&gt;* <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa56a13020c9fac807f99312923610dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56a13020c9fac807f99312923610dbd">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::pair&lt;K,V&gt;* <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3153929ca4103b625790fb1d09f33e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3153929ca4103b625790fb1d09f33e71">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3153929ca4103b625790fb1d09f33e71">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,7 +923,37 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="a3153929ca4103b625790fb1d09f33e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3153929ca4103b625790fb1d09f33e71">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3153929ca4103b625790fb1d09f33e71">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">ADAT::MapObjectIterator</a>&lt; K, V &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d4b/classADAT_1_1MapObjectIterator.html">MapObjectIterator</a>&lt; K, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality. </p>
+
+</div>
+</div>
+<a id="a3153929ca4103b625790fb1d09f33e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3153929ca4103b625790fb1d09f33e71">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -695,7 +983,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/archanar/Kinematic_factor/adat_devel/lib/adat/<a class="el" href="../../d9/d8e/lib_2adat_2map__obj_8h_source.html">map_obj.h</a></li>
+<li>/Users/archanar/Kinematic_factor/adat-devel/lib/adat/<a class="el" href="../../d5/dd9/adat-devel_2lib_2adat_2map__obj_8h_source.html">map_obj.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

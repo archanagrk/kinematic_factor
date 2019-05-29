@@ -1,0 +1,101 @@
+\hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/filedb/filehash/tread-\/th.c File Reference}
+\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c}\index{/Users/archanar/Kinematic\_factor/adat-\/devel/other\_libs/filedb/filehash/tread-\/th.c@{/Users/archanar/Kinematic\_factor/adat-\/devel/other\_libs/filedb/filehash/tread-\/th.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$sys/types.\+h$>$}\newline
+{\ttfamily \#include $<$sys/stat.\+h$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include $<$sys/file.\+h$>$}\newline
+{\ttfamily \#include $<$pthread.\+h$>$}\newline
+{\ttfamily \#include $<$ffdb\+\_\+db.\+h$>$}\newline
+Include dependency graph for tread-\/th.c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d50/adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structinfo}{info}}
+\item 
+struct \mbox{\hyperlink{struct__thread__info__}{\+\_\+thread\+\_\+info\+\_\+}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aa3d063564f6ab16f6d408b8369d0e9ff}{I\+N\+I\+T\+I\+AL}}~500000
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aa6b319146daf33409da1bbe4194553dc}{M\+A\+X\+W\+O\+R\+DS}}~500000	       /$\ast$ \# of elements in search table $\ast$/
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aabf4f709c8199e41cf279c77112345fe}{M\+A\+X\+\_\+\+L\+EN}}~32768
+\item 
+\#define \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a8b5173357adb02a86c027316e0acdfa0}{M\+A\+X\+\_\+\+T\+H\+R\+E\+A\+DS}}~100
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{struct__thread__info__}{\+\_\+thread\+\_\+info\+\_\+}} \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a9b5e9da8d3952d6ccc173282d0a5fcf8}{thread\+\_\+info\+\_\+t}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aa3d063564f6ab16f6d408b8369d0e9ff}\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aa3d063564f6ab16f6d408b8369d0e9ff}} 
+\index{tread-\/th.c@{tread-\/th.c}!INITIAL@{INITIAL}}
+\index{INITIAL@{INITIAL}!tread-\/th.c@{tread-\/th.c}}
+\subsubsection{\texorpdfstring{INITIAL}{INITIAL}}
+{\footnotesize\ttfamily \#define I\+N\+I\+T\+I\+AL~500000}
+
+Simple code to test threaded read database \mbox{\Hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aabf4f709c8199e41cf279c77112345fe}\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aabf4f709c8199e41cf279c77112345fe}} 
+\index{tread-\/th.c@{tread-\/th.c}!MAX\_LEN@{MAX\_LEN}}
+\index{MAX\_LEN@{MAX\_LEN}!tread-\/th.c@{tread-\/th.c}}
+\subsubsection{\texorpdfstring{MAX\_LEN}{MAX\_LEN}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+L\+EN~32768}
+
+\mbox{\Hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a8b5173357adb02a86c027316e0acdfa0}\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a8b5173357adb02a86c027316e0acdfa0}} 
+\index{tread-\/th.c@{tread-\/th.c}!MAX\_THREADS@{MAX\_THREADS}}
+\index{MAX\_THREADS@{MAX\_THREADS}!tread-\/th.c@{tread-\/th.c}}
+\subsubsection{\texorpdfstring{MAX\_THREADS}{MAX\_THREADS}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+T\+H\+R\+E\+A\+DS~100}
+
+\mbox{\Hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aa6b319146daf33409da1bbe4194553dc}\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_aa6b319146daf33409da1bbe4194553dc}} 
+\index{tread-\/th.c@{tread-\/th.c}!MAXWORDS@{MAXWORDS}}
+\index{MAXWORDS@{MAXWORDS}!tread-\/th.c@{tread-\/th.c}}
+\subsubsection{\texorpdfstring{MAXWORDS}{MAXWORDS}}
+{\footnotesize\ttfamily \#define M\+A\+X\+W\+O\+R\+DS~500000	       /$\ast$ \# of elements in search table $\ast$/}
+
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a9b5e9da8d3952d6ccc173282d0a5fcf8}\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a9b5e9da8d3952d6ccc173282d0a5fcf8}} 
+\index{tread-\/th.c@{tread-\/th.c}!thread\_info\_t@{thread\_info\_t}}
+\index{thread\_info\_t@{thread\_info\_t}!tread-\/th.c@{tread-\/th.c}}
+\subsubsection{\texorpdfstring{thread\_info\_t}{thread\_info\_t}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct__thread__info__}{\+\_\+thread\+\_\+info\+\_\+}} \mbox{\hyperlink{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a9b5e9da8d3952d6ccc173282d0a5fcf8}{thread\+\_\+info\+\_\+t}}}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{tread-\/th.c@{tread-\/th.c}!main@{main}}
+\index{main@{main}!tread-\/th.c@{tread-\/th.c}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{d4/dda/adat-devel_2other__libs_2filedb_2filehash_2tread-th_8c_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}

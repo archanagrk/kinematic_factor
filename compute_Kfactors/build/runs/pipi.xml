@@ -1,26 +1,32 @@
 <hadron>
   <npt>3</npt>
+  <L>16</L>
+  <Xi>3.445</Xi>
+  <XiError>0.001</XiError> <!-- Not taken to consideration as of now -->
   <had>
     <elem>
       <twoJ>0</twoJ>
       <P>-1</P>
       <ell>0</ell>
-      <msq>0.06906</msq>
-      <max_mom>8</max_mom>
-    </elem>
-    <elem>
-        <twoJ>2</twoJ>
-        <P>-1</P>
-        <ell>1</ell>
-        <msq>0</msq>
-        <max_mom>8</max_mom>
+      <msq>0.00477</msq> <!-- m = 0.06906 -->
+      <msqError>0.00001</msqError> <!-- Not considered -->
+      <max_mom>3</max_mom>
     </elem>
     <elem>
         <twoJ>2</twoJ>
         <P>-1</P>
         <ell>0</ell>
-        <msq>0.13812</msq>
-        <max_mom>8</max_mom>
+        <msq>0</msq>
+        <msqError>0</msqError> <!-- Not considered -->
+        <max_mom>3</max_mom>
+    </elem>
+    <elem>
+        <twoJ>2</twoJ>
+        <P>-1</P>
+        <ell>0</ell>
+        <msq>0.01908</msq> <!-- m = 0.13812 -->
+        <msqError>0.00001</msqError> <!-- Not considered -->
+        <max_mom>3</max_mom>
     </elem>
   </had>
   <matrix_type>kin_fac_scalar_vector_vector</matrix_type>

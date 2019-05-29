@@ -1,0 +1,78 @@
+\hypertarget{adat__devel_2lib_2adat_2typemanip_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/adat/typemanip.h File Reference}
+\label{adat__devel_2lib_2adat_2typemanip_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/adat/typemanip.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/adat/typemanip.h}}
+
+
+Type manipulator support.  
+
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Int2Type}{Util\+::\+Int2\+Type$<$ v $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Type2Type}{Util\+::\+Type2\+Type$<$ T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Select}{Util\+::\+Select$<$ flag, T, U $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Select_3_01false_00_01T_00_01U_01_4}{Util\+::\+Select$<$ false, T, U $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1ConversionHelper}{Util\+::\+Private\+::\+Conversion\+Helper$<$ T, U $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Private_1_1ConversionHelper_1_1Big}{Util\+::\+Private\+::\+Conversion\+Helper$<$ T, U $>$\+::\+Big}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Conversion}{Util\+::\+Conversion$<$ T, U $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Conversion_3_01T_00_01T_01_4}{Util\+::\+Conversion$<$ T, T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Conversion_3_01void_00_01T_01_4}{Util\+::\+Conversion$<$ void, T $>$}}
+\item 
+struct \mbox{\hyperlink{structUtil_1_1Conversion_3_01T_00_01void_01_4}{Util\+::\+Conversion$<$ T, void $>$}}
+\item 
+class \mbox{\hyperlink{classUtil_1_1Conversion_3_01void_00_01void_01_4}{Util\+::\+Conversion$<$ void, void $>$}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceUtil}{Util}}
+\item 
+ \mbox{\hyperlink{namespaceUtil_1_1Private}{Util\+::\+Private}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2lib_2adat_2typemanip_8h_a2820bb39352560126da663542139bd9b}{S\+U\+P\+E\+R\+S\+U\+B\+C\+L\+A\+SS}}(T,  U)
+\item 
+\#define \mbox{\hyperlink{adat__devel_2lib_2adat_2typemanip_8h_a1fc3ad32150bb48c1b2053d488b5f46f}{S\+U\+P\+E\+R\+S\+U\+B\+C\+L\+A\+S\+S\+\_\+\+S\+T\+R\+I\+CT}}(T,  U)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Type manipulator support. 
+
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat__devel_2lib_2adat_2typemanip_8h_a2820bb39352560126da663542139bd9b}\label{adat__devel_2lib_2adat_2typemanip_8h_a2820bb39352560126da663542139bd9b}} 
+\index{typemanip.h@{typemanip.h}!SUPERSUBCLASS@{SUPERSUBCLASS}}
+\index{SUPERSUBCLASS@{SUPERSUBCLASS}!typemanip.h@{typemanip.h}}
+\subsubsection{\texorpdfstring{SUPERSUBCLASS}{SUPERSUBCLASS}}
+{\footnotesize\ttfamily \#define S\+U\+P\+E\+R\+S\+U\+B\+C\+L\+A\+SS(\begin{DoxyParamCaption}\item[{}]{T,  }\item[{}]{U }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{(\mbox{\hyperlink{structUtil_1_1Conversion}{::Util::Conversion<const U*, const T*>::exists}} \&\& \(\backslash\)}
+\DoxyCodeLine{    !\mbox{\hyperlink{structUtil_1_1Conversion}{::Util::Conversion<const T*, const void*>::sameType}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{adat__devel_2lib_2adat_2typemanip_8h_a1fc3ad32150bb48c1b2053d488b5f46f}\label{adat__devel_2lib_2adat_2typemanip_8h_a1fc3ad32150bb48c1b2053d488b5f46f}} 
+\index{typemanip.h@{typemanip.h}!SUPERSUBCLASS\_STRICT@{SUPERSUBCLASS\_STRICT}}
+\index{SUPERSUBCLASS\_STRICT@{SUPERSUBCLASS\_STRICT}!typemanip.h@{typemanip.h}}
+\subsubsection{\texorpdfstring{SUPERSUBCLASS\_STRICT}{SUPERSUBCLASS\_STRICT}}
+{\footnotesize\ttfamily \#define S\+U\+P\+E\+R\+S\+U\+B\+C\+L\+A\+S\+S\+\_\+\+S\+T\+R\+I\+CT(\begin{DoxyParamCaption}\item[{}]{T,  }\item[{}]{U }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{(\mbox{\hyperlink{adat__devel_2lib_2adat_2typemanip_8h_a2820bb39352560126da663542139bd9b}{SUPERSUBCLASS}}(T, U) \&\& \(\backslash\)}
+\DoxyCodeLine{    !\mbox{\hyperlink{structUtil_1_1Conversion}{::Util::Conversion<const T, const U>::sameType}})}
+
+\end{DoxyCode}

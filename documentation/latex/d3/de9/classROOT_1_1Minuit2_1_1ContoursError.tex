@@ -62,6 +62,34 @@ unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb156
 double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}{X\+Min}} () const
 \item 
 double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}{Y\+Min}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}{Contours\+Error}} (unsigned int parx, unsigned int pary, const std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \&points, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&xmnos, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&ymnos, unsigned int nfcn)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}{$\sim$\+Contours\+Error}} ()
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}{Contours\+Error}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&cont)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}{operator()}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&cont)
+\item 
+const std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}{operator()}} () const
+\item 
+std\+::pair$<$ double, double $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}{X\+Minos}} () const
+\item 
+std\+::pair$<$ double, double $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}{Y\+Minos}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}{Xpar}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}{Ypar}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}{X\+Minos\+Error}} () const
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}{Y\+Minos\+Error}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}{N\+Fcn}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}{X\+Min}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}{Y\+Min}} () const
 \end{DoxyCompactItemize}
 
 
@@ -69,37 +97,55 @@ double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}\label{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!ContoursError@{ContoursError}}
 \index{ContoursError@{ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Contours\+Error (\begin{DoxyParamCaption}\item[{unsigned int}]{parx,  }\item[{unsigned int}]{pary,  }\item[{const std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \&}]{points,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&}]{xmnos,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&}]{ymnos,  }\item[{unsigned int}]{nfcn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}\label{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!````~ContoursError@{$\sim$ContoursError}}
 \index{````~ContoursError@{$\sim$ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{$\sim$ContoursError()}{~ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$ContoursError()}{~ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::$\sim$\+Contours\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}\label{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!ContoursError@{ContoursError}}
 \index{ContoursError@{ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Contours\+Error (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}\label{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!ContoursError@{ContoursError}}
 \index{ContoursError@{ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Contours\+Error (\begin{DoxyParamCaption}\item[{unsigned int}]{parx,  }\item[{unsigned int}]{pary,  }\item[{const std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \&}]{points,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&}]{xmnos,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&}]{ymnos,  }\item[{unsigned int}]{nfcn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}\label{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!````~ContoursError@{$\sim$ContoursError}}
 \index{````~ContoursError@{$\sim$ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{$\sim$ContoursError()}{~ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$ContoursError()}{~ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::$\sim$\+Contours\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}\label{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!ContoursError@{ContoursError}}
 \index{ContoursError@{ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Contours\+Error (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}\label{classROOT_1_1Minuit2_1_1ContoursError_abe494ac0098e41bf38fd4023e018e340}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!ContoursError@{ContoursError}}
+\index{ContoursError@{ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Contours\+Error (\begin{DoxyParamCaption}\item[{unsigned int}]{parx,  }\item[{unsigned int}]{pary,  }\item[{const std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \&}]{points,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&}]{xmnos,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}} \&}]{ymnos,  }\item[{unsigned int}]{nfcn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}\label{classROOT_1_1Minuit2_1_1ContoursError_a712a4699d5a022af68106524be05d862}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!````~ContoursError@{$\sim$ContoursError}}
+\index{````~ContoursError@{$\sim$ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{$\sim$ContoursError()}{~ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::$\sim$\+Contours\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}\label{classROOT_1_1Minuit2_1_1ContoursError_a270e1882e03ca939a8a910f9c6f3cbeb}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!ContoursError@{ContoursError}}
+\index{ContoursError@{ContoursError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{ContoursError()}{ContoursError()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Contours\+Error (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -108,10 +154,11 @@ double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}\label{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!NFcn@{NFcn}}
 \index{NFcn@{NFcn}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -121,37 +168,55 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}\label{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!NFcn@{NFcn}}
 \index{NFcn@{NFcn}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}\label{classROOT_1_1Minuit2_1_1ContoursError_a1342abcb15690e6897ad860e7f05026d}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!NFcn@{NFcn}}
+\index{NFcn@{NFcn}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{NFcn()}{NFcn()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+N\+Fcn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}\label{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!operator()@{operator()}}
 \index{operator()@{operator()}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}\label{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!operator()@{operator()}}
 \index{operator()@{operator()}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}\label{classROOT_1_1Minuit2_1_1ContoursError_a17f1d0a4579d605cd25da8e0e27bf4ba}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::operator() (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ContoursError}{Contours\+Error}} \&}]{cont }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}\label{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!operator()@{operator()}}
 \index{operator()@{operator()}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double,double$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::operator() (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}\label{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!operator()@{operator()}}
 \index{operator()@{operator()}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double,double$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::operator() (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}\label{classROOT_1_1Minuit2_1_1ContoursError_ad73e9dd73b1b7480342dd523e78a8def}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
 {\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double,double$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::operator() (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}\label{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMin@{XMin}}
 \index{XMin@{XMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{XMin()}{XMin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{XMin()}{XMin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -162,7 +227,22 @@ Here is the call graph for this function\+:
 \includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}\label{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMin@{XMin}}
+\index{XMin@{XMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{XMin()}{XMin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -172,7 +252,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}\label{classROOT_1_1Minuit2_1_1ContoursError_ac0dbac1ec08765a632908c88c5f24822}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMin@{XMin}}
 \index{XMin@{XMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{XMin()}{XMin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{XMin()}{XMin()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -186,28 +266,41 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}\label{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMinos@{XMinos}}
 \index{XMinos@{XMinos}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{XMinos()}{XMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{XMinos()}{XMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily std\+::pair$<$double,double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Minos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}\label{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMinos@{XMinos}}
 \index{XMinos@{XMinos}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{XMinos()}{XMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{XMinos()}{XMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily std\+::pair$<$double,double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Minos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}\label{classROOT_1_1Minuit2_1_1ContoursError_afd1906c6e1b9ddd74363df072590183f}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMinos@{XMinos}}
+\index{XMinos@{XMinos}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{XMinos()}{XMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily std\+::pair$<$double,double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Minos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}\label{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMinosError@{XMinosError}}
 \index{XMinosError@{XMinosError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{XMinosError()}{XMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{XMinosError()}{XMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Minos\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}\label{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMinosError@{XMinosError}}
 \index{XMinosError@{XMinosError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{XMinosError()}{XMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{XMinosError()}{XMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Minos\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}\label{classROOT_1_1Minuit2_1_1ContoursError_a0d14fdab181f06ddd1b38e7dc763718b}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!XMinosError@{XMinosError}}
+\index{XMinosError@{XMinosError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{XMinosError()}{XMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+X\+Minos\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -217,19 +310,25 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}\label{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!Xpar@{Xpar}}
 \index{Xpar@{Xpar}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{Xpar()}{Xpar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Xpar()}{Xpar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Xpar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}\label{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!Xpar@{Xpar}}
 \index{Xpar@{Xpar}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{Xpar()}{Xpar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Xpar()}{Xpar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Xpar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}\label{classROOT_1_1Minuit2_1_1ContoursError_a4f04b22b326b30c5a1bf3c0435544e8d}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!Xpar@{Xpar}}
+\index{Xpar@{Xpar}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{Xpar()}{Xpar()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Xpar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}\label{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMin@{YMin}}
 \index{YMin@{YMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{YMin()}{YMin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{YMin()}{YMin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -240,72 +339,106 @@ Here is the call graph for this function\+:
 \includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3_cgraph}
 \end{center}
 \end{figure}
-\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}\label{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}} 
-\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMin@{YMin}}
-\index{YMin@{YMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{YMin()}{YMin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
-
-Here is the call graph for this function\+:
+Here is the caller graph for this function\+:
 \nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3_cgraph}
-\end{center}
-\end{figure}
-Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}\label{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMin@{YMin}}
+\index{YMin@{YMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{YMin()}{YMin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}\label{classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMin@{YMin}}
+\index{YMin@{YMin}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{YMin()}{YMin()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_ac2bd4c328fe62d04b2809d9e0730efe3_cgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}\label{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMinos@{YMinos}}
 \index{YMinos@{YMinos}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{YMinos()}{YMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{YMinos()}{YMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily std\+::pair$<$double,double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Minos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}\label{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMinos@{YMinos}}
 \index{YMinos@{YMinos}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{YMinos()}{YMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{YMinos()}{YMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily std\+::pair$<$double,double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Minos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}\label{classROOT_1_1Minuit2_1_1ContoursError_a181d8326a32d95dd0f619bcb63076c00}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMinos@{YMinos}}
+\index{YMinos@{YMinos}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{YMinos()}{YMinos()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily std\+::pair$<$double,double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Minos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}\label{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMinosError@{YMinosError}}
 \index{YMinosError@{YMinosError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{YMinosError()}{YMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{YMinosError()}{YMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Minos\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}\label{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMinosError@{YMinosError}}
 \index{YMinosError@{YMinosError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{YMinosError()}{YMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{YMinosError()}{YMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Minos\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d3/de9/classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}\label{classROOT_1_1Minuit2_1_1ContoursError_a7ca7b0f224597473592c8da5a5825d61}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!YMinosError@{YMinosError}}
+\index{YMinosError@{YMinosError}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{YMinosError()}{YMinosError()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MinosError}{Minos\+Error}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Y\+Minos\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}\label{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!Ypar@{Ypar}}
 \index{Ypar@{Ypar}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{Ypar()}{Ypar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Ypar()}{Ypar()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Ypar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}\label{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}} 
 \index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!Ypar@{Ypar}}
 \index{Ypar@{Ypar}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
-\subsubsection{\texorpdfstring{Ypar()}{Ypar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Ypar()}{Ypar()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Ypar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}\label{classROOT_1_1Minuit2_1_1ContoursError_a3d118d7b9c49e6835130e0ce50b94b18}} 
+\index{ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}!Ypar@{Ypar}}
+\index{Ypar@{Ypar}!ROOT::Minuit2::ContoursError@{ROOT::Minuit2::ContoursError}}
+\subsubsection{\texorpdfstring{Ypar()}{Ypar()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Contours\+Error\+::\+Ypar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2ContoursError_8h}{Contours\+Error.\+h}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2ContoursError_8h}{Contours\+Error.\+h}}\end{DoxyCompactItemize}

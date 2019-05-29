@@ -18,8 +18,6 @@ double LevCiv::LeviCivita(int arr[], int n){ //modifies the input and sorts it
         if (arr_copy[j] == arr_copy[j+1] ){return 0;}
         else if (arr_copy[j] > arr_copy[j+1]){swap(arr_copy[j], arr_copy[j+1]); ++cnt;}}}; //gives the result based on the number of swaps
  
-
-   //cout << "lev" << pow(-1,cnt) << "lev";  
    return pow(-1,cnt);
  
 

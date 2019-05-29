@@ -1,5 +1,5 @@
-#ifndef __POLVEC__
-#define __POLVEC__
+#ifndef __POLV__
+#define __POLV__
 
 #include "kfac_utils.h"
 #include "rot_matrx.h"

@@ -1,0 +1,70 @@
+\hypertarget{adat-devel_2lib_2io_2do__not__use_2adat__qdpio_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/io/do\+\_\+not\+\_\+use/adat\+\_\+qdpio.h File Reference}
+\label{adat-devel_2lib_2io_2do__not__use_2adat__qdpio_8h}\index{/Users/archanar/Kinematic\_factor/adat-\/devel/lib/io/do\_not\_use/adat\_qdpio.h@{/Users/archanar/Kinematic\_factor/adat-\/devel/lib/io/do\_not\_use/adat\_qdpio.h}}
+
+
+IO support via Q\+IO.  
+
+
+{\ttfamily \#include \char`\"{}xml\+\_\+array.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xmlio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$lime.\+h$>$}\newline
+Include dependency graph for adat\+\_\+qdpio.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/da1/adat-devel_2lib_2io_2do__not__use_2adat__qdpio_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOFileInfo__t}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+File\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO private file info. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIORecordInfo__t}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+Record\+Info\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Q\+IO private record info. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ T $>$}}
+\begin{DoxyCompactList}\small\item\em Q\+IO Type and precision strings. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits_3_01EScalar_3_01T_01_4_01_4}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ E\+Scalar$<$ T $>$ $>$}}
+\begin{DoxyCompactList}\small\item\em Partial(?) Specialisation for E\+Scalar Objects. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structADATIO_1_1QIOStringTraits_3_01Array_3_01EScalar_3_01T_01_4_01_4_01_4}{A\+D\+A\+T\+I\+O\+::\+Q\+I\+O\+String\+Traits$<$ Array$<$ E\+Scalar$<$ T $>$ $>$ $>$}}
+\begin{DoxyCompactList}\small\item\em Partial(?) Specialisation for E\+Scalar Objects. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader}}
+\begin{DoxyCompactList}\small\item\em Q\+IO class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceADATIO}{A\+D\+A\+T\+IO}}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group__qio_ga669520ca9003997be838730beef322b4}{A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+\_\+filemode\+\_\+t}} \{ \newline
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a977eb79b8f4ae7cfd75c9dbcc992b84f}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+C\+R\+E\+A\+TE}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a6dd4c4da4f92babb9ab4c28f4aa13231}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+O\+P\+EN}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4aae9e16570c37ba9ace5529d3bc48b9a8}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+A\+P\+P\+E\+ND}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a977eb79b8f4ae7cfd75c9dbcc992b84f}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+C\+R\+E\+A\+TE}}, 
+\newline
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4a6dd4c4da4f92babb9ab4c28f4aa13231}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+O\+P\+EN}}, 
+\mbox{\hyperlink{group__qio_gga669520ca9003997be838730beef322b4aae9e16570c37ba9ace5529d3bc48b9a8}{A\+D\+A\+T\+I\+O\+::\+Q\+D\+P\+I\+O\+\_\+\+A\+P\+P\+E\+ND}}
+ \}
+\begin{DoxyCompactList}\small\item\em File open mode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga3dd8ea4aebc2b69c0ad2996743816341}{A\+D\+A\+T\+I\+O\+::read}} (A\+D\+A\+T\+File\+Reader \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an E\+Scalar object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{group__qio_ga2505d6fa25fdce3f9d953179afc3532e}{A\+D\+A\+T\+I\+O\+::read}} (A\+D\+A\+T\+File\+Reader \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, Array$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an array of E\+Scalar object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gad349a61627372c07f82a004b876423b8}{A\+D\+A\+T\+I\+O\+::read}} (A\+D\+A\+T\+File\+Reader \&qsw, \mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&rec\+\_\+xml, Binary\+Buffer\+Reader \&s1)
+\begin{DoxyCompactList}\small\item\em Reads a \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__qio_gac32c771b58d87e4ef4af62a7ad2e5c0d}{A\+D\+A\+T\+I\+O\+::close}} (A\+D\+A\+T\+File\+Reader \&qsw)
+\begin{DoxyCompactList}\small\item\em Close a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__qio_gad9b8cab72f011dd46c24a51e8a1c756a}{A\+D\+A\+T\+I\+O\+::is\+\_\+open}} (A\+D\+A\+T\+File\+Reader \&qsw)
+\begin{DoxyCompactList}\small\item\em Is a \mbox{\hyperlink{classADATIO_1_1ADATFileReader}{A\+D\+A\+T\+File\+Reader}} open. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+IO support via Q\+IO. 
+

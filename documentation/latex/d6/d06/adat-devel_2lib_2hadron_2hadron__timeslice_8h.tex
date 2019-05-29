@@ -1,0 +1,55 @@
+\hypertarget{adat-devel_2lib_2hadron_2hadron__timeslice_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/hadron/hadron\+\_\+timeslice.h File Reference}
+\label{adat-devel_2lib_2hadron_2hadron__timeslice_8h}\index{/Users/archanar/Kinematic\_factor/adat-\/devel/lib/hadron/hadron\_timeslice.h@{/Users/archanar/Kinematic\_factor/adat-\/devel/lib/hadron/hadron\_timeslice.h}}
+
+
+Time-\/slice value for graphs.  
+
+
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+Include dependency graph for hadron\+\_\+timeslice.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/dd8/adat-devel_2lib_2hadron_2hadron__timeslice_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{d0/d05/adat-devel_2lib_2hadron_2hadron__timeslice_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1ValTimeSlice__t}{Hadron\+::\+Val\+Time\+Slice\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Map to hold time-\/slices -\/$>$ complex values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_ab6f642c04562e34b1b2aa6e4bcfa60e7}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Val\+Time\+Slice\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Used for output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_aa4df93329eeddeec176cd9df5abe9ce1}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Val\+Time\+Slice\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ab3f6a936fc8ba9b50904aca066146f48}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Val\+Time\+Slice\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ad59dd6905268b9fa8e1bf10fef767b9b}{Hadron\+::read}} (Binary\+Reader \&bin, Val\+Time\+Slice\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Rreader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a7b503b82bc88cdec19d5b7173957b35e}{Hadron\+::write}} (Binary\+Writer \&bin, const Val\+Time\+Slice\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Writer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Time-\/slice value for graphs. 
+

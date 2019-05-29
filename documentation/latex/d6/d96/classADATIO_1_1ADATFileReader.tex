@@ -35,6 +35,30 @@ void \mbox{\hyperlink{group__qio_gadf1e0b4405e14798a0610efd8774f8d0}{read}} (\mb
 bool \mbox{\hyperlink{group__qio_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}{eof}} () const
 \begin{DoxyCompactList}\small\item\em Query whether the end-\/of-\/file has been reached. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \mbox{\hyperlink{group__qio_ga3498ab9948d446056dee8f2808e05c78}{latt\+Size}} () const
+\begin{DoxyCompactList}\small\item\em Return the lattice size. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga800c009d1400eb965cc04a7f90bf4f24}{A\+D\+A\+T\+File\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Partial constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga54a5eea68d2a1c6f5b748f6ba75b7d22}{$\sim$\+A\+D\+A\+T\+File\+Reader}} ()
+\begin{DoxyCompactList}\small\item\em Closes the last file opened. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga096a7060d69fd109067404e75f8a06ee}{A\+D\+A\+T\+File\+Reader}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Opens a file for reading. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga2b2ac967129dfd2d61a79e36034b400f}{open}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Opens a file for reading. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga8b86dba1600272d26539815146f04078}{close}} ()
+\begin{DoxyCompactList}\small\item\em Closes the last file opened. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga601972c66a6e6671d7b41ee1bce80e82}{is\+\_\+open}} ()
+\begin{DoxyCompactList}\small\item\em Queries whether a file is open. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_gac92ce1b0fee7c00b8a7dc988f3d4906e}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an E\+Scalar object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga32969d6bfdfe9da2912e92d1f0871c20}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an array of objects all in a single record. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga2179348a566e0224ed2122acfabf8bc9}{read}} (std\+::string \&xml\+\_\+str, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&s1)
+\begin{DoxyCompactList}\small\item\em Reads as a string plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_gadf1e0b4405e14798a0610efd8774f8d0}{read}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml, \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&s1)
+\begin{DoxyCompactList}\small\item\em Reads an X\+M\+L\+Reader plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}{eof}} () const
+\begin{DoxyCompactList}\small\item\em Query whether the end-\/of-\/file has been reached. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ int $>$ \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga3498ab9948d446056dee8f2808e05c78}{latt\+Size}} () const
 \begin{DoxyCompactList}\small\item\em Return the lattice size. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
@@ -58,6 +82,26 @@ void \mbox{\hyperlink{group__qio_ga525c9902a7ee7ebe41c688897da0652e}{read\+Recor
 void \mbox{\hyperlink{group__qio_ga032651053fa6b2de6d3977f15862c48e}{next\+Record}} ()
 \begin{DoxyCompactList}\small\item\em Move to next record. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group__qio_gaddf83cb612ce869fe7a0a5f7e559fe72}{blowup}} (const std\+::string \&error\+\_\+string)
+\begin{DoxyCompactList}\small\item\em Convenience function for exiting. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_gae57feac2bf53666ac092bb0a43125226}{read\+X\+ML}} (std\+::string \&xml\+\_\+str)
+\begin{DoxyCompactList}\small\item\em Read one single record filled with a string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga9a1ac411577bd50e643f483119318893}{read\+X\+ML}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml\+\_\+in)
+\begin{DoxyCompactList}\small\item\em Read one single record filled with X\+ML. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga40b41bda2b27ce68a0ac0ee28124fc64}{read\+Binary}} (\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&bin)
+\begin{DoxyCompactList}\small\item\em Read one single record filled with binary into a char array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga7d36d6dd7fef90986d0c435ddaa86eae}{read\+Logical\+Record}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml\+\_\+in, \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&bin)
+\begin{DoxyCompactList}\small\item\em Convenience function to read one logical record. \end{DoxyCompactList}\item 
+Lime\+Reader $\ast$ \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga40c1ee10fe351724bdfc91f4fd655328}{get}} () const
+\begin{DoxyCompactList}\small\item\em Get access to the lime reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_gade5b9d659e34ec9c9de267858a675d7d}{read\+Record\+Info}} (std\+::string \&xml\+\_\+str)
+\begin{DoxyCompactList}\small\item\em Read record info. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga4d771a46d7db77cd0ae5999113733795}{read\+Record\+Info}} (\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&xml\+\_\+in)
+\begin{DoxyCompactList}\small\item\em Read record info. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga525c9902a7ee7ebe41c688897da0652e}{read\+Record\+Data}} (void $\ast$bin, int datum\+\_\+size, int word\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Read binary and checksum. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_ga032651053fa6b2de6d3977f15862c48e}{next\+Record}} ()
+\begin{DoxyCompactList}\small\item\em Move to next record. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classADATIO_1_1ADATFileReader_gaddf83cb612ce869fe7a0a5f7e559fe72}{blowup}} (const std\+::string \&error\+\_\+string)
 \begin{DoxyCompactList}\small\item\em Convenience function for exiting. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -74,7 +118,264 @@ Data is assumed to be stored in the file in big-\/endian format and any necessar
 
 The status of the IO operations is monitored internally and can be queried. 
 
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga800c009d1400eb965cc04a7f90bf4f24}\label{classADATIO_1_1ADATFileReader_ga800c009d1400eb965cc04a7f90bf4f24}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!ADATFileReader@{ADATFileReader}}
+\index{ADATFileReader@{ADATFileReader}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{ADATFileReader()}{ADATFileReader()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::\+A\+D\+A\+T\+File\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Partial constructor. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga54a5eea68d2a1c6f5b748f6ba75b7d22}\label{classADATIO_1_1ADATFileReader_ga54a5eea68d2a1c6f5b748f6ba75b7d22}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!````~ADATFileReader@{$\sim$ADATFileReader}}
+\index{````~ADATFileReader@{$\sim$ADATFileReader}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{$\sim$ADATFileReader()}{~ADATFileReader()}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::$\sim$\+A\+D\+A\+T\+File\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes the last file opened. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga096a7060d69fd109067404e75f8a06ee}\label{classADATIO_1_1ADATFileReader_ga096a7060d69fd109067404e75f8a06ee}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!ADATFileReader@{ADATFileReader}}
+\index{ADATFileReader@{ADATFileReader}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{ADATFileReader()}{ADATFileReader()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::\+A\+D\+A\+T\+File\+Reader (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Opens a file for reading. 
+
+Also reads the file user metadata record. File is only opened in serial mode. 
+\begin{DoxyParams}{Parameters}
+{\em xml} & Container for the file metadata. \\
+\hline
+{\em path} & The name of the file. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_gaddf83cb612ce869fe7a0a5f7e559fe72}\label{classADATIO_1_1ADATFileReader_gaddf83cb612ce869fe7a0a5f7e559fe72}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!blowup@{blowup}}
+\index{blowup@{blowup}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{blowup()}{blowup()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::blowup (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{error\+\_\+string }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Convenience function for exiting. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga8b86dba1600272d26539815146f04078}\label{classADATIO_1_1ADATFileReader_ga8b86dba1600272d26539815146f04078}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!close@{close}}
+\index{close@{close}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes the last file opened. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}\label{classADATIO_1_1ADATFileReader_ga22337f3cfe1b2ecd1ead8d2755a1f9ca}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!eof@{eof}}
+\index{eof@{eof}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{eof()}{eof()}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::eof (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Query whether the end-\/of-\/file has been reached. 
+
+\begin{DoxyReturn}{Returns}
+True if the end-\/of-\/file has been reached; false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga40c1ee10fe351724bdfc91f4fd655328}\label{classADATIO_1_1ADATFileReader_ga40c1ee10fe351724bdfc91f4fd655328}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!get@{get}}
+\index{get@{get}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily Lime\+Reader$\ast$ A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::get (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Get access to the lime reader. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga601972c66a6e6671d7b41ee1bce80e82}\label{classADATIO_1_1ADATFileReader_ga601972c66a6e6671d7b41ee1bce80e82}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!is\_open@{is\_open}}
+\index{is\_open@{is\_open}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{is\_open()}{is\_open()}}
+{\footnotesize\ttfamily bool A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::is\+\_\+open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Queries whether a file is open. 
+
+\begin{DoxyReturn}{Returns}
+true if a file is open; false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga3498ab9948d446056dee8f2808e05c78}\label{classADATIO_1_1ADATFileReader_ga3498ab9948d446056dee8f2808e05c78}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!lattSize@{lattSize}}
+\index{lattSize@{lattSize}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{lattSize()}{lattSize()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$int$>$ A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::latt\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Return the lattice size. 
+
+This will not be valid if the file has not been opened \mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga032651053fa6b2de6d3977f15862c48e}\label{classADATIO_1_1ADATFileReader_ga032651053fa6b2de6d3977f15862c48e}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!nextRecord@{nextRecord}}
+\index{nextRecord@{nextRecord}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{nextRecord()}{nextRecord()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::next\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Move to next record. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga2b2ac967129dfd2d61a79e36034b400f}\label{classADATIO_1_1ADATFileReader_ga2b2ac967129dfd2d61a79e36034b400f}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!open@{open}}
+\index{open@{open}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{open()}{open()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Opens a file for reading. 
+
+Also reads the file user metadata record. File is only opened in serial mode. 
+\begin{DoxyParams}{Parameters}
+{\em xml} & Container for the file metadata. \\
+\hline
+{\em path} & The name of the file. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_gac92ce1b0fee7c00b8a7dc988f3d4906e}\label{classADATIO_1_1ADATFileReader_gac92ce1b0fee7c00b8a7dc988f3d4906e}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!read@{read}}
+\index{read@{read}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{\mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an E\+Scalar object. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga32969d6bfdfe9da2912e92d1f0871c20}\label{classADATIO_1_1ADATFileReader_ga32969d6bfdfe9da2912e92d1f0871c20}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!read@{read}}
+\index{read@{read}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ \mbox{\hyperlink{classENSEM_1_1EScalar}{E\+Scalar}}$<$ T $>$ $>$ \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an array of objects all in a single record. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga2179348a566e0224ed2122acfabf8bc9}\label{classADATIO_1_1ADATFileReader_ga2179348a566e0224ed2122acfabf8bc9}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!read@{read}}
+\index{read@{read}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{std\+::string \&}]{xml\+\_\+str,  }\item[{\mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads as a string plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_gadf1e0b4405e14798a0610efd8774f8d0}\label{classADATIO_1_1ADATFileReader_gadf1e0b4405e14798a0610efd8774f8d0}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!read@{read}}
+\index{read@{read}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{read()}{read()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml,  }\item[{\mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} \&}]{s1 }\end{DoxyParamCaption})}
+
+
+
+Reads an X\+M\+L\+Reader plus \mbox{\hyperlink{classADATIO_1_1BinaryBufferReader}{Binary\+Buffer\+Reader}} pair. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga40b41bda2b27ce68a0ac0ee28124fc64}\label{classADATIO_1_1ADATFileReader_ga40b41bda2b27ce68a0ac0ee28124fc64}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readBinary@{readBinary}}
+\index{readBinary@{readBinary}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readBinary()}{readBinary()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Binary (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&}]{bin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read one single record filled with binary into a char array. 
+
+N\+O\+TE\+: we will always allocate one extra character to be used by the driver code, such as nulls.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bin} & The array that will hold the data \\
+\hline
+{\em word\+\_\+size} & The word size in bytes of each data. Used for byte reversal \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga7d36d6dd7fef90986d0c435ddaa86eae}\label{classADATIO_1_1ADATFileReader_ga7d36d6dd7fef90986d0c435ddaa86eae}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readLogicalRecord@{readLogicalRecord}}
+\index{readLogicalRecord@{readLogicalRecord}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readLogicalRecord()}{readLogicalRecord()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Logical\+Record (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml\+\_\+in,  }\item[{\mbox{\hyperlink{classXMLArray_1_1Array}{Array}}$<$ char $>$ \&}]{bin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Convenience function to read one logical record. 
+
+N\+O\+TE\+: we will always allocate one extra character to be used by the driver code, such as nulls. \mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga525c9902a7ee7ebe41c688897da0652e}\label{classADATIO_1_1ADATFileReader_ga525c9902a7ee7ebe41c688897da0652e}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readRecordData@{readRecordData}}
+\index{readRecordData@{readRecordData}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readRecordData()}{readRecordData()}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Data (\begin{DoxyParamCaption}\item[{void $\ast$}]{bin,  }\item[{int}]{datum\+\_\+size,  }\item[{int}]{word\+\_\+size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read binary and checksum. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_gade5b9d659e34ec9c9de267858a675d7d}\label{classADATIO_1_1ADATFileReader_gade5b9d659e34ec9c9de267858a675d7d}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readRecordInfo@{readRecordInfo}}
+\index{readRecordInfo@{readRecordInfo}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readRecordInfo()}{readRecordInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Info (\begin{DoxyParamCaption}\item[{std\+::string \&}]{xml\+\_\+str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read record info. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga4d771a46d7db77cd0ae5999113733795}\label{classADATIO_1_1ADATFileReader_ga4d771a46d7db77cd0ae5999113733795}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readRecordInfo@{readRecordInfo}}
+\index{readRecordInfo@{readRecordInfo}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readRecordInfo()}{readRecordInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+Record\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml\+\_\+in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read record info. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_gae57feac2bf53666ac092bb0a43125226}\label{classADATIO_1_1ADATFileReader_gae57feac2bf53666ac092bb0a43125226}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readXML@{readXML}}
+\index{readXML@{readXML}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readXML()}{readXML()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+X\+ML (\begin{DoxyParamCaption}\item[{std\+::string \&}]{xml\+\_\+str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read one single record filled with a string. 
+
+\mbox{\Hypertarget{classADATIO_1_1ADATFileReader_ga9a1ac411577bd50e643f483119318893}\label{classADATIO_1_1ADATFileReader_ga9a1ac411577bd50e643f483119318893}} 
+\index{ADATIO::ADATFileReader@{ADATIO::ADATFileReader}!readXML@{readXML}}
+\index{readXML@{readXML}!ADATIO::ADATFileReader@{ADATIO::ADATFileReader}}
+\subsubsection{\texorpdfstring{readXML()}{readXML()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void A\+D\+A\+T\+I\+O\+::\+A\+D\+A\+T\+File\+Reader\+::read\+X\+ML (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classADATXML_1_1XMLReader}{X\+M\+L\+Reader}} \&}]{xml\+\_\+in }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Read one single record filled with X\+ML. 
+
+
+
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/do\+\_\+not\+\_\+use/\mbox{\hyperlink{adat__qdpio_8h}{adat\+\_\+qdpio.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/io/do\+\_\+not\+\_\+use/\mbox{\hyperlink{adat__qdpio_8cc}{adat\+\_\+qdpio.\+cc}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/io/do\+\_\+not\+\_\+use/\mbox{\hyperlink{adat-devel_2lib_2io_2do__not__use_2adat__qdpio_8h}{adat\+\_\+qdpio.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/lib/io/do\+\_\+not\+\_\+use/\mbox{\hyperlink{adat-devel_2lib_2io_2do__not__use_2adat__qdpio_8cc}{adat\+\_\+qdpio.\+cc}}\end{DoxyCompactItemize}

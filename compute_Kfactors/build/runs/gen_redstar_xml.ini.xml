@@ -1,6 +1,5 @@
-<!-- For kpi -> K*gamma in 840  -->
-
 <?xml version="1.0"?>
+<!-- For kpi -> K*gamma in 840  -->
 <doc>
   <config>
     <Nt_corr>7</Nt_corr>

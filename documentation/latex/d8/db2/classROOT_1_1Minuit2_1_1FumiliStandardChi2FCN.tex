@@ -6,7 +6,8 @@
 
 
 
-Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -15,7 +16,8 @@ Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F4
 \end{figure}
 
 
-Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -38,6 +40,20 @@ virtual const std\+::vector$<$ double $>$ \& \mbox{\hyperlink{classROOT_1_1Minui
 virtual int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a27414beb35c9c18156e6b3781aaf587f}{Get\+Number\+Of\+Measurements}} () const
 \item 
 virtual void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a76f42b6e5d2a92961a9fd8feca38b582}{Evaluate\+All}} (const std\+::vector$<$ double $>$ \&par)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}{Fumili\+Standard\+Chi2\+F\+CN}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&model\+F\+CN, const std\+::vector$<$ double $>$ \&meas, const std\+::vector$<$ double $>$ \&pos, const std\+::vector$<$ double $>$ \&mvar)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}{Fumili\+Standard\+Chi2\+F\+CN}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&model\+F\+CN, const std\+::vector$<$ double $>$ \&meas, const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&pos, const std\+::vector$<$ double $>$ \&mvar)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}{$\sim$\+Fumili\+Standard\+Chi2\+F\+CN}} ()
+\item 
+std\+::vector$<$ double $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ab05d3fe2dcb9b1c56b6753debe5e0064}{Elements}} (const std\+::vector$<$ double $>$ \&par) const
+\item 
+virtual const std\+::vector$<$ double $>$ \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a3bbc9a9cb77ce45aa764aa1f6e74349c}{Get\+Measurement}} (int Index) const
+\item 
+virtual int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a868b7c1aa7d2597db475ca99799c9131}{Get\+Number\+Of\+Measurements}} () const
+\item 
+virtual void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ace15dd1aad435e460c523bc37bff12a8}{Evaluate\+All}} (const std\+::vector$<$ double $>$ \&par)
 \item 
 \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}{Fumili\+Standard\+Chi2\+F\+CN}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&model\+F\+CN, const std\+::vector$<$ double $>$ \&meas, const std\+::vector$<$ double $>$ \&pos, const std\+::vector$<$ double $>$ \&mvar)
 \item 
@@ -81,11 +97,23 @@ Andras Zsenei and Lorenzo Moneta, Creation date\+: 31 Aug 2004
 \item[\mbox{\hyperlink{todo__todo000021}{Todo}}]nice formula for the documentation...\end{DoxyRefDesc}
 
 
+Class implementing the standard chi square function, which is the sum of the squares of the figures-\/of-\/merit calculated for each measurement point, the individual figures-\/of-\/merit being\+: (the Value predicted by the model-\/measured Value)/standard deviation.
+
+\begin{DoxyAuthor}{Author}
+Andras Zsenei and Lorenzo Moneta, Creation date\+: 31 Aug 2004
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN}{Fumili\+Chi2\+F\+CN}}
+\end{DoxySeeAlso}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000033}{Todo}}]nice formula for the documentation...\end{DoxyRefDesc}
+
+
 \subsection{Constructor \& Destructor Documentation}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!FumiliStandardChi2FCN@{FumiliStandardChi2FCN}}
 \index{FumiliStandardChi2FCN@{FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&}]{model\+F\+CN,  }\item[{const std\+::vector$<$ double $>$ \&}]{meas,  }\item[{const std\+::vector$<$ double $>$ \&}]{pos,  }\item[{const std\+::vector$<$ double $>$ \&}]{mvar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor which initializes chi square function for one-\/dimensional model function
@@ -112,7 +140,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!FumiliStandardChi2FCN@{FumiliStandardChi2FCN}}
 \index{FumiliStandardChi2FCN@{FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&}]{model\+F\+CN,  }\item[{const std\+::vector$<$ double $>$ \&}]{meas,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{pos,  }\item[{const std\+::vector$<$ double $>$ \&}]{mvar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor which initializes the multi-\/dimensional model function.
@@ -139,13 +167,13 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!````~FumiliStandardChi2FCN@{$\sim$FumiliStandardChi2FCN}}
 \index{````~FumiliStandardChi2FCN@{$\sim$FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{$\sim$FumiliStandardChi2FCN()}{~FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$FumiliStandardChi2FCN()}{~FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::$\sim$\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!FumiliStandardChi2FCN@{FumiliStandardChi2FCN}}
 \index{FumiliStandardChi2FCN@{FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&}]{model\+F\+CN,  }\item[{const std\+::vector$<$ double $>$ \&}]{meas,  }\item[{const std\+::vector$<$ double $>$ \&}]{pos,  }\item[{const std\+::vector$<$ double $>$ \&}]{mvar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor which initializes chi square function for one-\/dimensional model function
@@ -172,7 +200,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!FumiliStandardChi2FCN@{FumiliStandardChi2FCN}}
 \index{FumiliStandardChi2FCN@{FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&}]{model\+F\+CN,  }\item[{const std\+::vector$<$ double $>$ \&}]{meas,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{pos,  }\item[{const std\+::vector$<$ double $>$ \&}]{mvar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor which initializes the multi-\/dimensional model function.
@@ -199,7 +227,67 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!````~FumiliStandardChi2FCN@{$\sim$FumiliStandardChi2FCN}}
 \index{````~FumiliStandardChi2FCN@{$\sim$FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{$\sim$FumiliStandardChi2FCN()}{~FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$FumiliStandardChi2FCN()}{~FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::$\sim$\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!FumiliStandardChi2FCN@{FumiliStandardChi2FCN}}
+\index{FumiliStandardChi2FCN@{FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&}]{model\+F\+CN,  }\item[{const std\+::vector$<$ double $>$ \&}]{meas,  }\item[{const std\+::vector$<$ double $>$ \&}]{pos,  }\item[{const std\+::vector$<$ double $>$ \&}]{mvar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor which initializes chi square function for one-\/dimensional model function
+
+
+\begin{DoxyParams}{Parameters}
+{\em model\+F\+CN} & the model function used for describing the data.\\
+\hline
+{\em meas} & vector containing the measured values.\\
+\hline
+{\em pos} & vector containing the x values corresponding to the measurements\\
+\hline
+{\em mvar} & vector containing the variances corresponding to each measurement (where the variance equals the standard deviation squared). If the variances are zero, a Value of 1 is used (as it is done in R\+O\+O\+T/\+P\+AW) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/db2/classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a1b86269a64b1368ac6d33de89f32674d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!FumiliStandardChi2FCN@{FumiliStandardChi2FCN}}
+\index{FumiliStandardChi2FCN@{FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{FumiliStandardChi2FCN()}{FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ParametricFunction}{Parametric\+Function}} \&}]{model\+F\+CN,  }\item[{const std\+::vector$<$ double $>$ \&}]{meas,  }\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \&}]{pos,  }\item[{const std\+::vector$<$ double $>$ \&}]{mvar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor which initializes the multi-\/dimensional model function.
+
+
+\begin{DoxyParams}{Parameters}
+{\em model\+F\+CN} & the model function used for describing the data.\\
+\hline
+{\em meas} & vector containing the measured values.\\
+\hline
+{\em pos} & vector containing the x values corresponding to the measurements\\
+\hline
+{\em mvar} & vector containing the variances corresponding to each measurement (where the variance equals the standard deviation squared). If the variances are zero, a Value of 1 is used (as it is done in R\+O\+O\+T/\+P\+AW) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/db2/classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a9a18cdf86c47d62aed4298120a44a601_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a74d68d4f8ee38aff21a0e5a4e7d4173b}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!````~FumiliStandardChi2FCN@{$\sim$FumiliStandardChi2FCN}}
+\index{````~FumiliStandardChi2FCN@{$\sim$FumiliStandardChi2FCN}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{$\sim$FumiliStandardChi2FCN()}{~FumiliStandardChi2FCN()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::$\sim$\+Fumili\+Standard\+Chi2\+F\+CN (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -208,7 +296,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ae7683cdbfa4160902add963d2132ab76}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ae7683cdbfa4160902add963d2132ab76}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!Elements@{Elements}}
 \index{Elements@{Elements}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{Elements()}{Elements()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Elements()}{Elements()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily std\+::vector$<$ double $>$ R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Elements (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{par }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Evaluates the model function for the different measurement points and the Parameter values supplied, calculates a figure-\/of-\/merit for each measurement and returns a vector containing the result of this evaluation. The figure-\/of-\/merit is (Value predicted by the model function-\/measured Value)/standard deviation.
@@ -227,7 +315,8 @@ A vector containing the figures-\/of-\/merit for the model function evaluated fo
 
 Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_a25cc8dcc2eff831b3c0a94bf5413c2cd}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Chi2\+F\+CN}}.
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -237,7 +326,7 @@ Here is the call graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ab05d3fe2dcb9b1c56b6753debe5e0064}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ab05d3fe2dcb9b1c56b6753debe5e0064}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!Elements@{Elements}}
 \index{Elements@{Elements}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{Elements()}{Elements()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Elements()}{Elements()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily std\+::vector$<$double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Elements (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{par }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Evaluates the model function for the different measurement points and the Parameter values supplied, calculates a figure-\/of-\/merit for each measurement and returns a vector containing the result of this evaluation. The figure-\/of-\/merit is (Value predicted by the model function-\/measured Value)/standard deviation.
@@ -256,10 +345,32 @@ A vector containing the figures-\/of-\/merit for the model function evaluated fo
 
 Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_a25cc8dcc2eff831b3c0a94bf5413c2cd}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Chi2\+F\+CN}}.
 
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ab05d3fe2dcb9b1c56b6753debe5e0064}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ab05d3fe2dcb9b1c56b6753debe5e0064}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!Elements@{Elements}}
+\index{Elements@{Elements}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{Elements()}{Elements()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily std\+::vector$<$double$>$ R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Elements (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{par }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Evaluates the model function for the different measurement points and the Parameter values supplied, calculates a figure-\/of-\/merit for each measurement and returns a vector containing the result of this evaluation. The figure-\/of-\/merit is (Value predicted by the model function-\/measured Value)/standard deviation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em par} & vector of Parameter values to feed to the model function.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector containing the figures-\/of-\/merit for the model function evaluated for each set of measurements.
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000034}{Todo}}]What to do when the variances are 0???!! (right now just pushes back 0...)\end{DoxyRefDesc}
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_a25cc8dcc2eff831b3c0a94bf5413c2cd}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Chi2\+F\+CN}}.
+
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ace15dd1aad435e460c523bc37bff12a8}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ace15dd1aad435e460c523bc37bff12a8}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!EvaluateAll@{EvaluateAll}}
 \index{EvaluateAll@{EvaluateAll}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{EvaluateAll()}{EvaluateAll()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{EvaluateAll()}{EvaluateAll()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Evaluate\+All (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Evaluate function Value, Gradient and Hessian using Fumili approximation, for values of parameters p The resul is cached inside and is return from the \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_a221dacee0ccde747a271a0cecd759f98}{Fumili\+F\+C\+N\+Base\+::\+Value}} , \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_ad226939ea2e83f754b5a6afc30876d3e}{Fumili\+F\+C\+N\+Base\+::\+Gradient}} and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_ade134d8c6613393e942ef98d445db376}{Fumili\+F\+C\+N\+Base\+::\+Hessian}} methods
@@ -276,7 +387,7 @@ Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_a0741bb4a7405c
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a76f42b6e5d2a92961a9fd8feca38b582}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a76f42b6e5d2a92961a9fd8feca38b582}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!EvaluateAll@{EvaluateAll}}
 \index{EvaluateAll@{EvaluateAll}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{EvaluateAll()}{EvaluateAll()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{EvaluateAll()}{EvaluateAll()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Evaluate\+All (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Evaluate function Value, Gradient and Hessian using Fumili approximation, for values of parameters p The resul is cached inside and is return from the \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_a221dacee0ccde747a271a0cecd759f98}{Fumili\+F\+C\+N\+Base\+::\+Value}} , \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_ad226939ea2e83f754b5a6afc30876d3e}{Fumili\+F\+C\+N\+Base\+::\+Gradient}} and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_ade134d8c6613393e942ef98d445db376}{Fumili\+F\+C\+N\+Base\+::\+Hessian}} methods
@@ -290,17 +401,35 @@ Evaluate function Value, Gradient and Hessian using Fumili approximation, for va
 
 Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_a0741bb4a7405cc33ab60583472a189cb}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+F\+C\+N\+Base}}.
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d8/db2/classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a76f42b6e5d2a92961a9fd8feca38b582_cgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ace15dd1aad435e460c523bc37bff12a8}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_ace15dd1aad435e460c523bc37bff12a8}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!EvaluateAll@{EvaluateAll}}
+\index{EvaluateAll@{EvaluateAll}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{EvaluateAll()}{EvaluateAll()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Evaluate\+All (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Evaluate function Value, Gradient and Hessian using Fumili approximation, for values of parameters p The resul is cached inside and is return from the \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_a221dacee0ccde747a271a0cecd759f98}{Fumili\+F\+C\+N\+Base\+::\+Value}} , \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_ad226939ea2e83f754b5a6afc30876d3e}{Fumili\+F\+C\+N\+Base\+::\+Gradient}} and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_ade134d8c6613393e942ef98d445db376}{Fumili\+F\+C\+N\+Base\+::\+Hessian}} methods
+
+
+\begin{DoxyParams}{Parameters}
+{\em par} & vector of parameters \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliFCNBase_a0741bb4a7405cc33ab60583472a189cb}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+F\+C\+N\+Base}}.
+
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_aed6181ee2996e090bc4aeb267771390e}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_aed6181ee2996e090bc4aeb267771390e}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!GetMeasurement@{GetMeasurement}}
 \index{GetMeasurement@{GetMeasurement}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{GetMeasurement()}{GetMeasurement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{GetMeasurement()}{GetMeasurement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const std\+::vector$<$ double $>$ \& R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Get\+Measurement (\begin{DoxyParamCaption}\item[{int}]{Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Accessor to the position of the measurement (x coordinate).
@@ -320,7 +449,27 @@ Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_a1831875c53596
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a3bbc9a9cb77ce45aa764aa1f6e74349c}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a3bbc9a9cb77ce45aa764aa1f6e74349c}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!GetMeasurement@{GetMeasurement}}
 \index{GetMeasurement@{GetMeasurement}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{GetMeasurement()}{GetMeasurement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{GetMeasurement()}{GetMeasurement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual const std\+::vector$<$double$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Get\+Measurement (\begin{DoxyParamCaption}\item[{int}]{Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Accessor to the position of the measurement (x coordinate).
+
+
+\begin{DoxyParams}{Parameters}
+{\em Index} & Index of the measuerement the position of which to return.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the position of the measurement. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_a1831875c53596cd4aa52ea536de53b60}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Chi2\+F\+CN}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a3bbc9a9cb77ce45aa764aa1f6e74349c}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a3bbc9a9cb77ce45aa764aa1f6e74349c}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!GetMeasurement@{GetMeasurement}}
+\index{GetMeasurement@{GetMeasurement}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{GetMeasurement()}{GetMeasurement()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily virtual const std\+::vector$<$double$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Get\+Measurement (\begin{DoxyParamCaption}\item[{int}]{Index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Accessor to the position of the measurement (x coordinate).
@@ -340,7 +489,7 @@ Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_a1831875c53596
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a27414beb35c9c18156e6b3781aaf587f}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a27414beb35c9c18156e6b3781aaf587f}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!GetNumberOfMeasurements@{GetNumberOfMeasurements}}
 \index{GetNumberOfMeasurements@{GetNumberOfMeasurements}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{GetNumberOfMeasurements()}{GetNumberOfMeasurements()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{GetNumberOfMeasurements()}{GetNumberOfMeasurements()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily int R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Get\+Number\+Of\+Measurements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Accessor to the number of measurements used for calculating the chi-\/square.
@@ -352,7 +501,8 @@ the number of measurements.
 
 Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_afa1acb8484d1c1825de0dd641e301717}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Chi2\+F\+CN}}.
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -362,7 +512,22 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a868b7c1aa7d2597db475ca99799c9131}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a868b7c1aa7d2597db475ca99799c9131}} 
 \index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!GetNumberOfMeasurements@{GetNumberOfMeasurements}}
 \index{GetNumberOfMeasurements@{GetNumberOfMeasurements}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
-\subsubsection{\texorpdfstring{GetNumberOfMeasurements()}{GetNumberOfMeasurements()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{GetNumberOfMeasurements()}{GetNumberOfMeasurements()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual int R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Get\+Number\+Of\+Measurements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Accessor to the number of measurements used for calculating the chi-\/square.
+
+\begin{DoxyReturn}{Returns}
+the number of measurements. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_afa1acb8484d1c1825de0dd641e301717}{R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Chi2\+F\+CN}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a868b7c1aa7d2597db475ca99799c9131}\label{classROOT_1_1Minuit2_1_1FumiliStandardChi2FCN_a868b7c1aa7d2597db475ca99799c9131}} 
+\index{ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}!GetNumberOfMeasurements@{GetNumberOfMeasurements}}
+\index{GetNumberOfMeasurements@{GetNumberOfMeasurements}!ROOT::Minuit2::FumiliStandardChi2FCN@{ROOT::Minuit2::FumiliStandardChi2FCN}}
+\subsubsection{\texorpdfstring{GetNumberOfMeasurements()}{GetNumberOfMeasurements()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily virtual int R\+O\+O\+T\+::\+Minuit2\+::\+Fumili\+Standard\+Chi2\+F\+C\+N\+::\+Get\+Number\+Of\+Measurements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 Accessor to the number of measurements used for calculating the chi-\/square.
@@ -378,5 +543,5 @@ Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FumiliChi2FCN_afa1acb8484d1c
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2FumiliStandardChi2FCN_8h}{Fumili\+Standard\+Chi2\+F\+C\+N.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{FumiliStandardChi2FCN_8cxx}{Fumili\+Standard\+Chi2\+F\+C\+N.\+cxx}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2FumiliStandardChi2FCN_8h}{Fumili\+Standard\+Chi2\+F\+C\+N.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2src_2FumiliStandardChi2FCN_8cxx}{Fumili\+Standard\+Chi2\+F\+C\+N.\+cxx}}\end{DoxyCompactItemize}

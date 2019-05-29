@@ -52,18 +52,5 @@ class KfacSSV : public KFactor{
 };
 
 
-class KfacSSVwPhCorr : public KFactor{
- public:
-  complex<double> operator()( const KFacParams& params ) const;
-  string name() const { return "kin_fac_scalar_scalar_vector_with_ph_corr"; } 
-};
-
-
-class KfacSVVwPhCorr : public KFactor{
- public:
-  complex<double> operator()( const KFacParams& params ) const;
-  string name() const { return "in_fac_scalar_vector_vector_with_ph_corr"; } 
-};
-
 
 #endif

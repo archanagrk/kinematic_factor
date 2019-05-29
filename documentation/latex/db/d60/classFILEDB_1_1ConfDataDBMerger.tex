@@ -26,6 +26,16 @@ void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b
 void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}{set\+Database\+Handle}} (\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ K, D $>$ $\ast$dbh)
 \item 
 void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}{merge}} (void)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}{Conf\+Data\+D\+B\+Merger}} (const std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&configs, unsigned int max\+\_\+memory)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}{Conf\+Data\+D\+B\+Merger}} (const std\+::vector$<$ int $>$ \&config\+\_\+numbers, const std\+::vector$<$ std\+::string $>$ \&dbase\+\_\+names, unsigned int max\+\_\+memory)
+\item 
+\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}{$\sim$\+Conf\+Data\+D\+B\+Merger}} (void)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}{set\+Database\+Handle}} (\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ K, D $>$ $\ast$dbh)
+\item 
+void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}{merge}} (void)
 \end{DoxyCompactItemize}
 
 
@@ -33,7 +43,7 @@ void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b
 \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}\label{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!ConfDataDBMerger@{ConfDataDBMerger}}
 \index{ConfDataDBMerger@{ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{configs,  }\item[{unsigned int}]{max\+\_\+memory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
@@ -47,21 +57,21 @@ Constructor
 \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}\label{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!ConfDataDBMerger@{ConfDataDBMerger}}
 \index{ConfDataDBMerger@{ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{config\+\_\+numbers,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{dbase\+\_\+names,  }\item[{unsigned int}]{max\+\_\+memory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor Take a vector of database names, configuration numbers \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}\label{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!````~ConfDataDBMerger@{$\sim$ConfDataDBMerger}}
 \index{````~ConfDataDBMerger@{$\sim$ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{$\sim$ConfDataDBMerger()}{~ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$ConfDataDBMerger()}{~ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::$\sim$\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Destructor \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}\label{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!ConfDataDBMerger@{ConfDataDBMerger}}
 \index{ConfDataDBMerger@{ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{configs,  }\item[{unsigned int}]{max\+\_\+memory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
@@ -75,14 +85,42 @@ Constructor
 \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}\label{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!ConfDataDBMerger@{ConfDataDBMerger}}
 \index{ConfDataDBMerger@{ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{config\+\_\+numbers,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{dbase\+\_\+names,  }\item[{unsigned int}]{max\+\_\+memory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 Constructor Take a vector of database names, configuration numbers \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}\label{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!````~ConfDataDBMerger@{$\sim$ConfDataDBMerger}}
 \index{````~ConfDataDBMerger@{$\sim$ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{$\sim$ConfDataDBMerger()}{~ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$ConfDataDBMerger()}{~ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::$\sim$\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Destructor \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}\label{classFILEDB_1_1ConfDataDBMerger_a2d22aeb10cb29cd9acb42cbd042c74d3}} 
+\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!ConfDataDBMerger@{ConfDataDBMerger}}
+\index{ConfDataDBMerger@{ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{classFILEDB_1_1ConfigInfo}{Config\+Info}} $>$ \&}]{configs,  }\item[{unsigned int}]{max\+\_\+memory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em configs} & a vector of configuration information \\
+\hline
+{\em maximum\+\_\+memory} & how much memory (in bytes) we are going to use to merge data in memory before writing to the combined database \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}\label{classFILEDB_1_1ConfDataDBMerger_a495cdfd447f2ed64776d87601c36a05b}} 
+\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!ConfDataDBMerger@{ConfDataDBMerger}}
+\index{ConfDataDBMerger@{ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{ConfDataDBMerger()}{ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{config\+\_\+numbers,  }\item[{const std\+::vector$<$ std\+::string $>$ \&}]{dbase\+\_\+names,  }\item[{unsigned int}]{max\+\_\+memory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor Take a vector of database names, configuration numbers \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}\label{classFILEDB_1_1ConfDataDBMerger_a1592d55d089ad7ead813ab8d2b955e09}} 
+\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!````~ConfDataDBMerger@{$\sim$ConfDataDBMerger}}
+\index{````~ConfDataDBMerger@{$\sim$ConfDataDBMerger}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{$\sim$ConfDataDBMerger()}{~ConfDataDBMerger()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::$\sim$\mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{Conf\+Data\+D\+B\+Merger}} (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
@@ -92,7 +130,7 @@ Destructor
 \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}\label{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!merge@{merge}}
 \index{merge@{merge}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{merge()}{merge()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{merge()}{merge()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::merge (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
@@ -104,7 +142,8 @@ Merge all data from these databases into one single database which should be emp
 \includegraphics[width=350pt]{db/d60/classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -114,7 +153,22 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}\label{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!merge@{merge}}
 \index{merge@{merge}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{merge()}{merge()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{merge()}{merge()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::merge (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Merge all data from these databases into one single database which should be empty in the very beginning Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d60/classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}\label{classFILEDB_1_1ConfDataDBMerger_a6738f9880645518ba94eccd3b2037f24}} 
+\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!merge@{merge}}
+\index{merge@{merge}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{merge()}{merge()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::merge (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
@@ -129,26 +183,34 @@ Merge all data from these databases into one single database which should be emp
 \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}\label{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}} 
 \index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!setDatabaseHandle@{setDatabaseHandle}}
 \index{setDatabaseHandle@{setDatabaseHandle}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{setDatabaseHandle()}{setDatabaseHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{setDatabaseHandle()}{setDatabaseHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
 void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::set\+Database\+Handle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ K, D $>$ $\ast$}]{dbh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
-Set database handle \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}\label{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}} 
-\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!setDatabaseHandle@{setDatabaseHandle}}
-\index{setDatabaseHandle@{setDatabaseHandle}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
-\subsubsection{\texorpdfstring{setDatabaseHandle()}{setDatabaseHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
-void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::set\+Database\+Handle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ K, D $>$ $\ast$}]{dbh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
-
-Set database handle Here is the caller graph for this function\+:\nopagebreak
+Set database handle Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=328pt]{db/d60/classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}\label{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}} 
+\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!setDatabaseHandle@{setDatabaseHandle}}
+\index{setDatabaseHandle@{setDatabaseHandle}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{setDatabaseHandle()}{setDatabaseHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::set\+Database\+Handle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ K, D $>$ $\ast$}]{dbh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+Set database handle \mbox{\Hypertarget{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}\label{classFILEDB_1_1ConfDataDBMerger_aba7a50569bcdc1beca3b82536fa5922b}} 
+\index{FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}!setDatabaseHandle@{setDatabaseHandle}}
+\index{setDatabaseHandle@{setDatabaseHandle}!FILEDB::ConfDataDBMerger$<$ K, D $>$@{FILEDB::ConfDataDBMerger$<$ K, D $>$}}
+\subsubsection{\texorpdfstring{setDatabaseHandle()}{setDatabaseHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename K, typename D$>$ \\
+void \mbox{\hyperlink{classFILEDB_1_1ConfDataDBMerger}{F\+I\+L\+E\+D\+B\+::\+Conf\+Data\+D\+B\+Merger}}$<$ K, D $>$\+::set\+Database\+Handle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFILEDB_1_1AllConfStoreDB}{All\+Conf\+Store\+DB}}$<$ K, D $>$ $\ast$}]{dbh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Set database handle 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/src/\mbox{\hyperlink{other__libs_2filedb_2src_2ConfDataDBMerger_8h}{Conf\+Data\+D\+B\+Merger.\+h}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/filedb/src/\mbox{\hyperlink{adat-devel_2other__libs_2filedb_2src_2ConfDataDBMerger_8h}{Conf\+Data\+D\+B\+Merger.\+h}}\end{DoxyCompactItemize}

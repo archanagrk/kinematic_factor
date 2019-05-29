@@ -42,6 +42,24 @@ unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec
 double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}{Edm}} () const
 \item 
 \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}{Dirin}} () const
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}{Simplex\+Parameters}} (const std\+::vector$<$ std\+::pair$<$ double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ $>$ \&simpl, unsigned int jh, unsigned int jl)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}{$\sim$\+Simplex\+Parameters}} ()
+\item 
+void \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}{Update}} (double, const \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} \&)
+\item 
+const std\+::vector$<$ std\+::pair$<$ double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ $>$ \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}{Simplex}} () const
+\item 
+const std\+::pair$<$ double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}{operator()}} (unsigned int i) const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}{Jh}} () const
+\item 
+unsigned int \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}{Jl}} () const
+\item 
+double \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}{Edm}} () const
+\item 
+\mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} \mbox{\hyperlink{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}{Dirin}} () const
 \end{DoxyCompactItemize}
 
 
@@ -52,25 +70,37 @@ class describing the simplex set of points (f(x), x ) which evolve during the mi
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!SimplexParameters@{SimplexParameters}}
 \index{SimplexParameters@{SimplexParameters}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{SimplexParameters()}{SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{SimplexParameters()}{SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex\+Parameters (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::pair$<$ double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ $>$ \&}]{simpl,  }\item[{unsigned int}]{jh,  }\item[{unsigned int}]{jl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!````~SimplexParameters@{$\sim$SimplexParameters}}
 \index{````~SimplexParameters@{$\sim$SimplexParameters}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{$\sim$SimplexParameters()}{~SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$SimplexParameters()}{~SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::$\sim$\+Simplex\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!SimplexParameters@{SimplexParameters}}
 \index{SimplexParameters@{SimplexParameters}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{SimplexParameters()}{SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{SimplexParameters()}{SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex\+Parameters (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::pair$<$ double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ $>$ \&}]{simpl,  }\item[{unsigned int}]{jh,  }\item[{unsigned int}]{jl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!````~SimplexParameters@{$\sim$SimplexParameters}}
 \index{````~SimplexParameters@{$\sim$SimplexParameters}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{$\sim$SimplexParameters()}{~SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$SimplexParameters()}{~SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::$\sim$\+Simplex\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a65e9ef329f7c1be19f68e0a1b817c584}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!SimplexParameters@{SimplexParameters}}
+\index{SimplexParameters@{SimplexParameters}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{SimplexParameters()}{SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex\+Parameters (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::pair$<$ double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} $>$ $>$ \&}]{simpl,  }\item[{unsigned int}]{jh,  }\item[{unsigned int}]{jl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a13162b4c95b96890972dc24e7ba2e9a8}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!````~SimplexParameters@{$\sim$SimplexParameters}}
+\index{````~SimplexParameters@{$\sim$SimplexParameters}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{$\sim$SimplexParameters()}{~SimplexParameters()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::$\sim$\+Simplex\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -79,10 +109,11 @@ class describing the simplex set of points (f(x), x ) which evolve during the mi
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Dirin@{Dirin}}
 \index{Dirin@{Dirin}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Dirin()}{Dirin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Dirin()}{Dirin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Dirin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -92,13 +123,19 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Dirin@{Dirin}}
 \index{Dirin@{Dirin}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Dirin()}{Dirin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Dirin()}{Dirin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Dirin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a40e7b3b27280a376a063a1c81904cc75}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Dirin@{Dirin}}
+\index{Dirin@{Dirin}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Dirin()}{Dirin()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Dirin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}\label{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Edm@{Edm}}
 \index{Edm@{Edm}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -112,7 +149,7 @@ Here is the call graph for this function\+:
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}\label{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Edm@{Edm}}
 \index{Edm@{Edm}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 Here is the call graph for this function\+:
@@ -123,7 +160,22 @@ Here is the call graph for this function\+:
 \includegraphics[width=350pt]{d7/da2/classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}\label{classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Edm@{Edm}}
+\index{Edm@{Edm}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Edm()}{Edm()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily double R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Edm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/da2/classROOT_1_1Minuit2_1_1SimplexParameters_ad71f372dd3873cbf351dc8eddc3a9c9a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -133,16 +185,23 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Jh@{Jh}}
 \index{Jh@{Jh}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Jh()}{Jh()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Jh()}{Jh()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Jh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Jh@{Jh}}
 \index{Jh@{Jh}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Jh()}{Jh()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Jh()}{Jh()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Jh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a54250c0d286fcf4d6bbb45df037c7d85}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Jh@{Jh}}
+\index{Jh@{Jh}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Jh()}{Jh()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Jh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -152,10 +211,17 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}\label{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Jl@{Jl}}
 \index{Jl@{Jl}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Jl()}{Jl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Jl()}{Jl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Jl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-Here is the caller graph for this function\+:\nopagebreak
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}\label{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Jl@{Jl}}
+\index{Jl@{Jl}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Jl()}{Jl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Jl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -165,60 +231,81 @@ Here is the caller graph for this function\+:\nopagebreak
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}\label{classROOT_1_1Minuit2_1_1SimplexParameters_accfb7ec2b1087661ed3c31dfbb473413}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Jl@{Jl}}
 \index{Jl@{Jl}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Jl()}{Jl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Jl()}{Jl()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily unsigned int R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Jl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}\label{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!operator()@{operator()}}
 \index{operator()@{operator()}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::operator() (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}\label{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!operator()@{operator()}}
 \index{operator()@{operator()}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::operator() (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}\label{classROOT_1_1Minuit2_1_1SimplexParameters_aa05f3fb5da27277879fad702d85bae49}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!operator()@{operator()}}
+\index{operator()@{operator()}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::operator() (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Simplex@{Simplex}}
 \index{Simplex@{Simplex}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Simplex()}{Simplex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Simplex()}{Simplex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
 
-\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}} 
-\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Simplex@{Simplex}}
-\index{Simplex@{Simplex}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Simplex()}{Simplex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
-
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d7/da2/classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Simplex@{Simplex}}
+\index{Simplex@{Simplex}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Simplex()}{Simplex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}\label{classROOT_1_1Minuit2_1_1SimplexParameters_a873b8883c6932b879348e73d36d86afb}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Simplex@{Simplex}}
+\index{Simplex@{Simplex}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Simplex()}{Simplex()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily const std\+::vector$<$std\+::pair$<$double, \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}}$>$ $>$\& R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Simplex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}\label{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Update@{Update}}
 \index{Update@{Update}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{,  }\item[{const \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} \&}]{ }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}\label{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}} 
 \index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Update@{Update}}
 \index{Update@{Update}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
-\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{,  }\item[{const \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} \&}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}\label{classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f}} 
+\index{ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}!Update@{Update}}
+\index{Update@{Update}!ROOT::Minuit2::SimplexParameters@{ROOT::Minuit2::SimplexParameters}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily void R\+O\+O\+T\+::\+Minuit2\+::\+Simplex\+Parameters\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{y,  }\item[{const \mbox{\hyperlink{namespaceROOT_1_1Minuit2_a62ed97730a1ca8d3fbaec64a19aa11c9}{Mn\+Algebraic\+Vector}} \&}]{p }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{d7/da2/classROOT_1_1Minuit2_1_1SimplexParameters_aa9536cc9c7754ce308160d5e456ac54f_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -229,5 +316,5 @@ Here is the caller graph for this function\+:\nopagebreak
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2SimplexParameters_8h}{Simplex\+Parameters.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{SimplexParameters_8cxx}{Simplex\+Parameters.\+cxx}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2SimplexParameters_8h}{Simplex\+Parameters.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2src_2SimplexParameters_8cxx}{Simplex\+Parameters.\+cxx}}\end{DoxyCompactItemize}

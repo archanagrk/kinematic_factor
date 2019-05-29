@@ -6,7 +6,8 @@
 
 
 
-Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -15,7 +16,8 @@ Inheritance diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F4
 \end{figure}
 
 
-Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\nopagebreak
+Collaboration diagram for R\+O\+OT\+:\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}\doxygenemoji{\+:thumbs up\+:}{&#x1f44d;}{1F44D}
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -64,6 +66,26 @@ std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \mbox{\hyperlink{classROO
 const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}{Minimizer}} () const
 \item 
 std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_aaad559ec656a90df6e3283885ff2e7ca}{Scan}} (unsigned int par, unsigned int maxsteps=41, double low=0., double high=0.)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const std\+::vector$<$ double $>$ \&err, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, unsigned int nrow, const std\+::vector$<$ double $>$ \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const std\+::vector$<$ double $>$ \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&cov, unsigned int stra=1)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&fcn, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&par, const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&str)
+\begin{DoxyCompactList}\small\item\em construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}{Mn\+Scan}} (const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan}{Mn\+Scan}} \&migr)
+\item 
+\mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}{$\sim$\+Mn\+Scan}} ()
+\item 
+const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}} \& \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}{Minimizer}} () const
+\item 
+std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan_aaad559ec656a90df6e3283885ff2e7ca}{Scan}} (unsigned int par, unsigned int maxsteps=41, double low=0., double high=0.)
 \end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
@@ -75,7 +97,7 @@ A\+PI class for minimization using a scan method to find the minimum; allows for
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}\label{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -85,7 +107,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}\label{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -95,7 +117,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}\label{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [3/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [3/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -105,7 +127,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}\label{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [4/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [4/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -115,7 +137,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}\label{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [5/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [5/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -125,7 +147,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}\label{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [6/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [6/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -135,19 +157,19 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}\label{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [7/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [7/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan}{Mn\+Scan}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}\label{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!````~MnScan@{$\sim$MnScan}}
 \index{````~MnScan@{$\sim$MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{$\sim$MnScan()}{~MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{$\sim$MnScan()}{~MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::$\sim$\+Mn\+Scan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}\label{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [8/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [8/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -157,7 +179,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}\label{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [9/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [9/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -167,7 +189,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}\label{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [10/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [10/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -177,7 +199,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}\label{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [11/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [11/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -187,7 +209,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}\label{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [12/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [12/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -197,7 +219,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}\label{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [13/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [13/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -207,13 +229,85 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}\label{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
 \index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [14/14]}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [14/21]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan}{Mn\+Scan}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}\label{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!````~MnScan@{$\sim$MnScan}}
 \index{````~MnScan@{$\sim$MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{$\sim$MnScan()}{~MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{$\sim$MnScan()}{~MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::$\sim$\+Mn\+Scan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}\label{classROOT_1_1Minuit2_1_1MnScan_a377822c78ab78d995bc0a710dbc0c426}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [15/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const std\+::vector$<$ double $>$ \&}]{err,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and errors 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}\label{classROOT_1_1Minuit2_1_1MnScan_a293bc22ed5bd5755f4c1d7256c1936ab}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [16/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{unsigned int}]{nrow,  }\item[{const std\+::vector$<$ double $>$ \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and covariance 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}\label{classROOT_1_1Minuit2_1_1MnScan_a289c4259abdbd4886dddf51d30531870}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [17/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const std\+::vector$<$ double $>$ \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + std\+::vector for parameters and \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}\label{classROOT_1_1Minuit2_1_1MnScan_a93a7093c7881feddd2f7e4541eb8fad9}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [18/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}\label{classROOT_1_1Minuit2_1_1MnScan_a0152e76b39c1aa0c13dc8ed389f8d2cf}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [19/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} \&}]{cov,  }\item[{unsigned int}]{stra = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameters}{Mn\+User\+Parameters}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserCovariance}{Mn\+User\+Covariance}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}\label{classROOT_1_1Minuit2_1_1MnScan_a19bfbbf98648f6ad165a18279cc3e19b}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [20/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} \&}]{fcn,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} \&}]{par,  }\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnUserParameterState}{Mn\+User\+Parameter\+State}} + \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnStrategy}{Mn\+Strategy}} 
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}\label{classROOT_1_1Minuit2_1_1MnScan_ab4e017c0919d43eaa2f19e5c5a1a9f9a}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!MnScan@{MnScan}}
+\index{MnScan@{MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{MnScan()}{MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [21/21]}}
+{\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Mn\+Scan (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnScan}{Mn\+Scan}} \&}]{migr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}\label{classROOT_1_1Minuit2_1_1MnScan_ab51a420d238808cf195aafb0c0e29269}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!````~MnScan@{$\sim$MnScan}}
+\index{````~MnScan@{$\sim$MnScan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{$\sim$MnScan()}{~MnScan()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::$\sim$\+Mn\+Scan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
@@ -222,7 +316,7 @@ construct from \mbox{\hyperlink{classROOT_1_1Minuit2_1_1FCNBase}{F\+C\+N\+Base}}
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}\label{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!Minimizer@{Minimizer}}
 \index{Minimizer@{Minimizer}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
 
 
@@ -232,7 +326,17 @@ Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b73
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}\label{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!Minimizer@{Minimizer}}
 \index{Minimizer@{Minimizer}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b731b5f4023dd1b1594223}{R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Application}}.
+
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}\label{classROOT_1_1Minuit2_1_1MnScan_a9bebaf56360ff70aac6f47590227d8b5}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!Minimizer@{Minimizer}}
+\index{Minimizer@{Minimizer}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{Minimizer()}{Minimizer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily const \mbox{\hyperlink{classROOT_1_1Minuit2_1_1ModularFunctionMinimizer}{Modular\+Function\+Minimizer}}\& R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Minimizer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
 
 
@@ -242,32 +346,40 @@ Implements \mbox{\hyperlink{classROOT_1_1Minuit2_1_1MnApplication_a5a8e1e2658b73
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_aaad559ec656a90df6e3283885ff2e7ca}\label{classROOT_1_1Minuit2_1_1MnScan_aaad559ec656a90df6e3283885ff2e7ca}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!Scan@{Scan}}
 \index{Scan@{Scan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{Scan()}{Scan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+\subsubsection{\texorpdfstring{Scan()}{Scan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily std\+::vector$<$std\+::pair$<$double, double$>$ $>$ R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Scan (\begin{DoxyParamCaption}\item[{unsigned int}]{par,  }\item[{unsigned int}]{maxsteps = {\ttfamily 41},  }\item[{double}]{low = {\ttfamily 0.},  }\item[{double}]{high = {\ttfamily 0.} }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_ae488bb0cc7b7127847fdccdadced3ced}\label{classROOT_1_1Minuit2_1_1MnScan_ae488bb0cc7b7127847fdccdadced3ced}} 
 \index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!Scan@{Scan}}
 \index{Scan@{Scan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
-\subsubsection{\texorpdfstring{Scan()}{Scan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+\subsubsection{\texorpdfstring{Scan()}{Scan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily std\+::vector$<$ std\+::pair$<$ double, double $>$ $>$ R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Scan (\begin{DoxyParamCaption}\item[{unsigned int}]{par,  }\item[{unsigned int}]{maxsteps = {\ttfamily 41},  }\item[{double}]{low = {\ttfamily 0.},  }\item[{double}]{high = {\ttfamily 0.} }\end{DoxyParamCaption})}
 
-Here is the call graph for this function\+:\nopagebreak
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{de/dd8/classROOT_1_1Minuit2_1_1MnScan_ae488bb0cc7b7127847fdccdadced3ced_cgraph}
 \end{center}
 \end{figure}
-Here is the caller graph for this function\+:\nopagebreak
+Here is the caller graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=277pt]{de/dd8/classROOT_1_1Minuit2_1_1MnScan_ae488bb0cc7b7127847fdccdadced3ced_icgraph}
 \end{center}
 \end{figure}
+\mbox{\Hypertarget{classROOT_1_1Minuit2_1_1MnScan_aaad559ec656a90df6e3283885ff2e7ca}\label{classROOT_1_1Minuit2_1_1MnScan_aaad559ec656a90df6e3283885ff2e7ca}} 
+\index{ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}!Scan@{Scan}}
+\index{Scan@{Scan}!ROOT::Minuit2::MnScan@{ROOT::Minuit2::MnScan}}
+\subsubsection{\texorpdfstring{Scan()}{Scan()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::pair$<$double, double$>$ $>$ R\+O\+O\+T\+::\+Minuit2\+::\+Mn\+Scan\+::\+Scan (\begin{DoxyParamCaption}\item[{unsigned int}]{par,  }\item[{unsigned int}]{maxsteps = {\ttfamily 41},  }\item[{double}]{low = {\ttfamily 0.},  }\item[{double}]{high = {\ttfamily 0.} }\end{DoxyParamCaption})}
+
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{other__libs_2minuit_2inc_2Minuit2_2MnScan_8h}{Mn\+Scan.\+h}}\item 
-/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{MnScan_8cxx}{Mn\+Scan.\+cxx}}\end{DoxyCompactItemize}
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/inc/\+Minuit2/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2inc_2Minuit2_2MnScan_8h}{Mn\+Scan.\+h}}\item 
+/\+Users/archanar/\+Kinematic\+\_\+factor/adat-\/devel/other\+\_\+libs/minuit/src/\mbox{\hyperlink{adat-devel_2other__libs_2minuit_2src_2MnScan_8cxx}{Mn\+Scan.\+cxx}}\end{DoxyCompactItemize}

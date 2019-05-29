@@ -77,7 +77,7 @@ $(function() {
 <p>Group base class.  
  <a href="../../dd/d2e/structHadron_1_1LatticeGroup.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d7/d7d/lib_2hadron_2cubic__groups_8h_source.html">cubic_groups.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dd/d05/adat-devel_2lib_2hadron_2cubic__groups_8h_source.html">cubic_groups.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Hadron:&#x1f44d;</div>
 <div class="dyncontent">
@@ -143,12 +143,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a664d3cbcc8a3b1634e4eb8434f1199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49927e4a4d386b2e3eed6f3b5c1ee76d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a49927e4a4d386b2e3eed6f3b5c1ee76d">indexOfMom</a> (<a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; mom_to_find)</td></tr>
 <tr class="separator:a49927e4a4d386b2e3eed6f3b5c1ee76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8265941ad6e64b658d2eb904e7d85d62"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a8265941ad6e64b658d2eb904e7d85d62">~LatticeGroup</a> ()</td></tr>
+<tr class="separator:a8265941ad6e64b658d2eb904e7d85d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd8415698323796ef6a8605796ee3bea"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#abd8415698323796ef6a8605796ee3bea">dim</a> () const =0</td></tr>
+<tr class="separator:abd8415698323796ef6a8605796ee3bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82208a322bf1b1db489f16af38e70087"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a82208a322bf1b1db489f16af38e70087">group</a> () const =0</td></tr>
+<tr class="separator:a82208a322bf1b1db489f16af38e70087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc76430f36a3a041f86d4058c59bf55e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#afc76430f36a3a041f86d4058c59bf55e">numCosets</a> () const =0</td></tr>
+<tr class="separator:afc76430f36a3a041f86d4058c59bf55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3edaca488144b5d2a9cf73fe653add34"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a3edaca488144b5d2a9cf73fe653add34">numIrreps</a> () const =0</td></tr>
+<tr class="separator:a3edaca488144b5d2a9cf73fe653add34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2aa7b39222bf188389356eefcef7547"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#af2aa7b39222bf188389356eefcef7547">numIntIrreps</a> () const =0</td></tr>
+<tr class="separator:af2aa7b39222bf188389356eefcef7547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8e3ee60de059f75bce1044c694e1e8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#afb8e3ee60de059f75bce1044c694e1e8">elemIndex</a> (int index) const =0</td></tr>
+<tr class="separator:afb8e3ee60de059f75bce1044c694e1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3b9b5e2f596e6c40d64aa939a3ad6c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a7e3b9b5e2f596e6c40d64aa939a3ad6c">cosetRepIndex</a> (int index) const =0</td></tr>
+<tr class="separator:a7e3b9b5e2f596e6c40d64aa939a3ad6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad577b65041dd9a6e84b1f3bd49cb8fce"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#ad577b65041dd9a6e84b1f3bd49cb8fce">mom</a> (int index) const =0</td></tr>
+<tr class="separator:ad577b65041dd9a6e84b1f3bd49cb8fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc5620218c2a73157e19bc4451fe746"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a4bc5620218c2a73157e19bc4451fe746">irrepName</a> (int index) const =0</td></tr>
+<tr class="separator:a4bc5620218c2a73157e19bc4451fe746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a664d3cbcc8a3b1634e4eb8434f1199"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a4a664d3cbcc8a3b1634e4eb8434f1199">indexOfElem</a> (int elem)</td></tr>
+<tr class="separator:a4a664d3cbcc8a3b1634e4eb8434f1199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49927e4a4d386b2e3eed6f3b5c1ee76d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2e/structHadron_1_1LatticeGroup.html#a49927e4a4d386b2e3eed6f3b5c1ee76d">indexOfMom</a> (<a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt; mom_to_find)</td></tr>
+<tr class="separator:a49927e4a4d386b2e3eed6f3b5c1ee76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p class="">Group base class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8265941ad6e64b658d2eb904e7d85d62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8265941ad6e64b658d2eb904e7d85d62">&#9670;&nbsp;</a></span>~LatticeGroup() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8265941ad6e64b658d2eb904e7d85d62">&#9670;&nbsp;</a></span>~LatticeGroup() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +197,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a8265941ad6e64b658d2eb904e7d85d62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8265941ad6e64b658d2eb904e7d85d62">&#9670;&nbsp;</a></span>~LatticeGroup() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8265941ad6e64b658d2eb904e7d85d62">&#9670;&nbsp;</a></span>~LatticeGroup() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Hadron::LatticeGroup::~LatticeGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8265941ad6e64b658d2eb904e7d85d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8265941ad6e64b658d2eb904e7d85d62">&#9670;&nbsp;</a></span>~LatticeGroup() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +248,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7e3b9b5e2f596e6c40d64aa939a3ad6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e3b9b5e2f596e6c40d64aa939a3ad6c">&#9670;&nbsp;</a></span>cosetRepIndex() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3b9b5e2f596e6c40d64aa939a3ad6c">&#9670;&nbsp;</a></span>cosetRepIndex() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,12 +272,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">index of coset rep elements </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="a7e3b9b5e2f596e6c40d64aa939a3ad6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e3b9b5e2f596e6c40d64aa939a3ad6c">&#9670;&nbsp;</a></span>cosetRepIndex() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3b9b5e2f596e6c40d64aa939a3ad6c">&#9670;&nbsp;</a></span>cosetRepIndex() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,12 +301,41 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">index of coset rep elements </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="a7e3b9b5e2f596e6c40d64aa939a3ad6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3b9b5e2f596e6c40d64aa939a3ad6c">&#9670;&nbsp;</a></span>cosetRepIndex() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hadron::LatticeGroup::cosetRepIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">index of coset rep elements </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a413031d9855013b22c493696c69a2c4d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#abac118ef8b96cecf62143c917e23736e">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a361cfe22330be972fe6d49bc2e1af871">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a41bfcefe5a659b99db790f822123593f">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae7ebfa25f82987479c33f0d5d769ab2f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aeaabc93ad3df1b585bc1009b0bf4f5ba">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="abd8415698323796ef6a8605796ee3bea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd8415698323796ef6a8605796ee3bea">&#9670;&nbsp;</a></span>dim() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd8415698323796ef6a8605796ee3bea">&#9670;&nbsp;</a></span>dim() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,12 +358,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">dimension of group </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="abd8415698323796ef6a8605796ee3bea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd8415698323796ef6a8605796ee3bea">&#9670;&nbsp;</a></span>dim() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd8415698323796ef6a8605796ee3bea">&#9670;&nbsp;</a></span>dim() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,12 +386,40 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">dimension of group </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="abd8415698323796ef6a8605796ee3bea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd8415698323796ef6a8605796ee3bea">&#9670;&nbsp;</a></span>dim() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hadron::LatticeGroup::dim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">dimension of group </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ab40f44381ee83db2364e43bc2c3521e4">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#adc1a59b08c4fafae324e82e8ded86919">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90114a92f0c05cdfd8ff56e33606d3c3">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a937ab7d9b4b21da1331b0c85728f7db9">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5969c3afe94d4c6ada166f7dc161a355">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1db49add38b9263bfd536b3da0cc1566">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="afb8e3ee60de059f75bce1044c694e1e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb8e3ee60de059f75bce1044c694e1e8">&#9670;&nbsp;</a></span>elemIndex() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8e3ee60de059f75bce1044c694e1e8">&#9670;&nbsp;</a></span>elemIndex() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,12 +443,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">index of Oh elements </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="afb8e3ee60de059f75bce1044c694e1e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb8e3ee60de059f75bce1044c694e1e8">&#9670;&nbsp;</a></span>elemIndex() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8e3ee60de059f75bce1044c694e1e8">&#9670;&nbsp;</a></span>elemIndex() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,12 +472,41 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">index of Oh elements </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="afb8e3ee60de059f75bce1044c694e1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8e3ee60de059f75bce1044c694e1e8">&#9670;&nbsp;</a></span>elemIndex() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hadron::LatticeGroup::elemIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">index of Oh elements </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a8cbcb161ddf801e759797f231db35f75">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a700a48f1865a634b774127d8710e1ecc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a90ac88df35dd8e919637917dc22ee903">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa7676a51e002eb654648c4d84585d6da">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aa4ca8a3f1bc6774b630cd6a354179298">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a1410a74894e1d12337548245c4e6fd47">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="a82208a322bf1b1db489f16af38e70087"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82208a322bf1b1db489f16af38e70087">&#9670;&nbsp;</a></span>group() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82208a322bf1b1db489f16af38e70087">&#9670;&nbsp;</a></span>group() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,12 +529,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">group label </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="a82208a322bf1b1db489f16af38e70087"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82208a322bf1b1db489f16af38e70087">&#9670;&nbsp;</a></span>group() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82208a322bf1b1db489f16af38e70087">&#9670;&nbsp;</a></span>group() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,12 +557,40 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">group label </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="a82208a322bf1b1db489f16af38e70087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82208a322bf1b1db489f16af38e70087">&#9670;&nbsp;</a></span>group() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Hadron::LatticeGroup::group </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">group label </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a9f35739dbd3ad6effd0e675d40b5341d">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a2a84060776245ed0045a7271b00064eb">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a60e24b1e2d17481b7ab94860c95ce155">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#aa6d99edf22f99550602f38437aadd890">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae6c08a58023532bcf277f60c1dddde4f">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a0d21b9bbc5cc2cafa4945e9dd5608a6b">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="a4a664d3cbcc8a3b1634e4eb8434f1199"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a664d3cbcc8a3b1634e4eb8434f1199">&#9670;&nbsp;</a></span>indexOfElem() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a664d3cbcc8a3b1634e4eb8434f1199">&#9670;&nbsp;</a></span>indexOfElem() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -453,7 +616,33 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4a664d3cbcc8a3b1634e4eb8434f1199"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a664d3cbcc8a3b1634e4eb8434f1199">&#9670;&nbsp;</a></span>indexOfElem() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a664d3cbcc8a3b1634e4eb8434f1199">&#9670;&nbsp;</a></span>indexOfElem() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::LatticeGroup::indexOfElem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a664d3cbcc8a3b1634e4eb8434f1199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a664d3cbcc8a3b1634e4eb8434f1199">&#9670;&nbsp;</a></span>indexOfElem() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -479,7 +668,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a49927e4a4d386b2e3eed6f3b5c1ee76d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49927e4a4d386b2e3eed6f3b5c1ee76d">&#9670;&nbsp;</a></span>indexOfMom() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49927e4a4d386b2e3eed6f3b5c1ee76d">&#9670;&nbsp;</a></span>indexOfMom() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +694,33 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a49927e4a4d386b2e3eed6f3b5c1ee76d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49927e4a4d386b2e3eed6f3b5c1ee76d">&#9670;&nbsp;</a></span>indexOfMom() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49927e4a4d386b2e3eed6f3b5c1ee76d">&#9670;&nbsp;</a></span>indexOfMom() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hadron::LatticeGroup::indexOfMom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>mom_to_find</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49927e4a4d386b2e3eed6f3b5c1ee76d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49927e4a4d386b2e3eed6f3b5c1ee76d">&#9670;&nbsp;</a></span>indexOfMom() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -531,7 +746,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a4bc5620218c2a73157e19bc4451fe746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bc5620218c2a73157e19bc4451fe746">&#9670;&nbsp;</a></span>irrepName() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc5620218c2a73157e19bc4451fe746">&#9670;&nbsp;</a></span>irrepName() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -555,21 +770,21 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p class="">irrepNames </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/d2e/structHadron_1_1LatticeGroup_a4bc5620218c2a73157e19bc4451fe746_icgraph.png" border="0" usemap="#dd/d2e/structHadron_1_1LatticeGroup_a4bc5620218c2a73157e19bc4451fe746_icgraph" alt=""/></div>
 <map name="dd/d2e/structHadron_1_1LatticeGroup_a4bc5620218c2a73157e19bc4451fe746_icgraph" id="dd/d2e/structHadron_1_1LatticeGroup_a4bc5620218c2a73157e19bc4451fe746_icgraph">
 <area shape="rect" id="node1" title=" " alt="" coords="104,5,252,44"/>
-<area shape="rect" id="node2" href="../../db/d9c/cgs__table_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,12,56,37"/>
+<area shape="rect" id="node2" href="../../d1/de2/adat-devel_2main_2irreputils_2cgs__table_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,12,56,37"/>
 </map>
 </div>
 
 </div>
 </div>
 <a id="a4bc5620218c2a73157e19bc4451fe746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bc5620218c2a73157e19bc4451fe746">&#9670;&nbsp;</a></span>irrepName() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc5620218c2a73157e19bc4451fe746">&#9670;&nbsp;</a></span>irrepName() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -593,12 +808,41 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">irrepNames </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="a4bc5620218c2a73157e19bc4451fe746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc5620218c2a73157e19bc4451fe746">&#9670;&nbsp;</a></span>irrepName() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Hadron::LatticeGroup::irrepName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">irrepNames </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#ac2b3ee6989ddbd93bc63c46ac9626997">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ae7e7c420d17cacaed69a74902af72dcc">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a3e60ca3001ddc0176179107cfed2d621">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a502111e32a238c50b248b9f7b0625385">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a5f121bd08a7add3ddf660c7e3478cb9e">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a58f84ff32d1dce2277f3b9da9d35d594">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="ad577b65041dd9a6e84b1f3bd49cb8fce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad577b65041dd9a6e84b1f3bd49cb8fce">&#9670;&nbsp;</a></span>mom() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad577b65041dd9a6e84b1f3bd49cb8fce">&#9670;&nbsp;</a></span>mom() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,12 +866,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">momentum </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="ad577b65041dd9a6e84b1f3bd49cb8fce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad577b65041dd9a6e84b1f3bd49cb8fce">&#9670;&nbsp;</a></span>mom() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad577b65041dd9a6e84b1f3bd49cb8fce">&#9670;&nbsp;</a></span>mom() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -651,12 +895,41 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">momentum </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="ad577b65041dd9a6e84b1f3bd49cb8fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad577b65041dd9a6e84b1f3bd49cb8fce">&#9670;&nbsp;</a></span>mom() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../db/d6c/classXMLArray_1_1Array.html">Array</a>&lt;int&gt; Hadron::LatticeGroup::mom </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">momentum </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a7553c7f91a8dc310b37b7b5da32e98f6">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#a45599b94fa4633619247f4827e03ca23">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a5662028a7fb3554c893609148e6d3eeb">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a65d28ef1fef635e870d60b6606b65f19">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#aeb999dc93b1a1a99ed4ffd53977a163b">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#ab3c3d81d578cac614b1ccdd456f8ea59">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="afc76430f36a3a041f86d4058c59bf55e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc76430f36a3a041f86d4058c59bf55e">&#9670;&nbsp;</a></span>numCosets() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc76430f36a3a041f86d4058c59bf55e">&#9670;&nbsp;</a></span>numCosets() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,12 +952,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">number of cosets = number of momenta </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="afc76430f36a3a041f86d4058c59bf55e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc76430f36a3a041f86d4058c59bf55e">&#9670;&nbsp;</a></span>numCosets() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afc76430f36a3a041f86d4058c59bf55e">&#9670;&nbsp;</a></span>numCosets() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -707,12 +980,40 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">number of cosets = number of momenta </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="afc76430f36a3a041f86d4058c59bf55e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc76430f36a3a041f86d4058c59bf55e">&#9670;&nbsp;</a></span>numCosets() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hadron::LatticeGroup::numCosets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">number of cosets = number of momenta </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a38cf4c54a4dff0a3c056aa3a1dc4dca2">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ad38f333075aa53f1b0c7bded9f7e70ad">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33af6b6378351a7b023c23940c69403f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a1f8a4f5adef5a9a05edd39f14d21f1cd">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a97eed87299880400afc5e9bb1ee222bc">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#a85ea73ed466c052783d454b14d5b30bc">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="af2aa7b39222bf188389356eefcef7547"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2aa7b39222bf188389356eefcef7547">&#9670;&nbsp;</a></span>numIntIrreps() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af2aa7b39222bf188389356eefcef7547">&#9670;&nbsp;</a></span>numIntIrreps() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -735,12 +1036,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">number of integer-spin irreps </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="af2aa7b39222bf188389356eefcef7547"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2aa7b39222bf188389356eefcef7547">&#9670;&nbsp;</a></span>numIntIrreps() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af2aa7b39222bf188389356eefcef7547">&#9670;&nbsp;</a></span>numIntIrreps() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -763,12 +1064,40 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">number of integer-spin irreps </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="af2aa7b39222bf188389356eefcef7547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2aa7b39222bf188389356eefcef7547">&#9670;&nbsp;</a></span>numIntIrreps() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hadron::LatticeGroup::numIntIrreps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">number of integer-spin irreps </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#afc1f011462142b5aa3ddab6e5824d365">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#aefbae18f6b66563a061d607e680fcab7">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a442d9bebc6eae854024be8123fda60d8">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a15d5aa6a889d3e0f27c3f2796d7157ae">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#a814de4e3ea523397868aee44d639c5cf">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#abc0b88d4a62fb81c996b6638827cc187">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <a id="a3edaca488144b5d2a9cf73fe653add34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3edaca488144b5d2a9cf73fe653add34">&#9670;&nbsp;</a></span>numIrreps() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3edaca488144b5d2a9cf73fe653add34">&#9670;&nbsp;</a></span>numIrreps() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -791,21 +1120,49 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">number of irreps </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>.</p>
+
+</div>
+</div>
+<a id="a3edaca488144b5d2a9cf73fe653add34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3edaca488144b5d2a9cf73fe653add34">&#9670;&nbsp;</a></span>numIrreps() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hadron::LatticeGroup::numIrreps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">number of irreps </p>
+
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/d2e/structHadron_1_1LatticeGroup_a3edaca488144b5d2a9cf73fe653add34_icgraph.png" border="0" usemap="#dd/d2e/structHadron_1_1LatticeGroup_a3edaca488144b5d2a9cf73fe653add34_icgraph" alt=""/></div>
 <map name="dd/d2e/structHadron_1_1LatticeGroup_a3edaca488144b5d2a9cf73fe653add34_icgraph" id="dd/d2e/structHadron_1_1LatticeGroup_a3edaca488144b5d2a9cf73fe653add34_icgraph">
 <area shape="rect" id="node1" title=" " alt="" coords="104,5,252,44"/>
-<area shape="rect" id="node2" href="../../db/d9c/cgs__table_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,12,56,37"/>
+<area shape="rect" id="node2" href="../../d1/de2/adat-devel_2main_2irreputils_2cgs__table_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,12,56,37"/>
 </map>
 </div>
 
 </div>
 </div>
 <a id="a3edaca488144b5d2a9cf73fe653add34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3edaca488144b5d2a9cf73fe653add34">&#9670;&nbsp;</a></span>numIrreps() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3edaca488144b5d2a9cf73fe653add34">&#9670;&nbsp;</a></span>numIrreps() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -828,12 +1185,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p class="">number of irreps </p>
 
-<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../d1/dba/structHadron_1_1C4nnmGroup.html#a70b7d429c62a7f1b2ed77cbc3566ea42">Hadron::C4nnmGroup</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../da/da1/structHadron_1_1C4nm0Group.html#ac77e1943ad8fa5f9211d31dc34ee3f6c">Hadron::C4nm0Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../de/de1/structHadron_1_1D3Group.html#a33e3822d1ec56e4928e5bc47b655f69f">Hadron::D3Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../d8/de7/structHadron_1_1D2Group.html#a24644ff5f0fc06adeb26457c9ce772a5">Hadron::D2Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../de/d5e/structHadron_1_1D4Group.html#ae8b007038fb1aa79a7267feebf356d4c">Hadron::D4Group</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>, and <a class="el" href="../../d1/de5/structHadron_1_1OctGroup.html#aed56aa6c4ed7e2a82048b478c916b9d2">Hadron::OctGroup</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/Users/archanar/Kinematic_factor/adat_devel/lib/hadron/<a class="el" href="../../d7/d7d/lib_2hadron_2cubic__groups_8h_source.html">cubic_groups.h</a></li>
+<li>/Users/archanar/Kinematic_factor/adat-devel/lib/hadron/<a class="el" href="../../dd/d05/adat-devel_2lib_2hadron_2cubic__groups_8h_source.html">cubic_groups.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,0 +1,61 @@
+\hypertarget{adat__devel_2lib_2hadron_2cgc__su3_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/lib/hadron/cgc\+\_\+su3.h File Reference}
+\label{adat__devel_2lib_2hadron_2cgc__su3_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/cgc\_su3.h@{/Users/archanar/Kinematic\_factor/adat\_devel/lib/hadron/cgc\_su3.h}}
+
+
+CG tables for S\+U(3)  
+
+
+{\ttfamily \#include \char`\"{}hadron/cgcs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for cgc\+\_\+su3.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d05/adat__devel_2lib_2hadron_2cgc__su3_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{de/db7/adat__devel_2lib_2hadron_2cgc__su3_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyCGCSU3__t}{Hadron\+::\+Key\+C\+G\+C\+S\+U3\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Structure for S\+U(3) \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classHadron_1_1CGCSU3}{Hadron\+::\+C\+G\+C\+S\+U3}}
+\begin{DoxyCompactList}\small\item\em C\+L\+E\+B\+S\+C\+H-\/\+G\+O\+R\+D\+AN for permutation group. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{namespaceHadron_a15300efff4b5c521fc84ba05f78c8710}{Hadron\+::make\+Str}} (const Key\+C\+G\+C\+S\+U3\+\_\+t \&op)
+\begin{DoxyCompactList}\small\item\em A useful conversion. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a7351a4ec8398497cfa72ae6326e7d88c}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+C\+G\+C\+S\+U3\+\_\+t \&op)
+\item 
+void \mbox{\hyperlink{namespaceHadron_a32f04cfa14604e9b40e037d78c0fad86}{Hadron\+::read}} (X\+M\+L\+Reader \&bin, const std\+::string \&path, Key\+C\+G\+C\+S\+U3\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structHadron_1_1CGCKeyType}{C\+G\+C\+Key\+Type}} reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_a1df6238e1c6eca70a3e05655f2680904}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+C\+G\+C\+S\+U3\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{namespaceHadron_a4af69bc389ee44d25d1f3efa30042e4c}{Hadron\+::write}} (const Key\+C\+G\+C\+S\+U3\+\_\+t \&param)
+\item 
+void \mbox{\hyperlink{namespaceHadron_ad89b4230ad913b777ca725473df40d15}{Hadron\+::read}} (\mbox{\hyperlink{classADATIO_1_1BinaryReader}{Binary\+Reader}} \&bin, Key\+C\+G\+C\+S\+U3\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structHadron_1_1CGCKeyType}{C\+G\+C\+Key\+Type}} reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_af206eaa349ec42352cb0a106dfd89c5b}{Hadron\+::write}} (\mbox{\hyperlink{classADATIO_1_1BinaryWriter}{Binary\+Writer}} \&bin, const Key\+C\+G\+C\+S\+U3\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structHadron_1_1CGCKeyType}{C\+G\+C\+Key\+Type}} writer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+CG tables for S\+U(3) 
+

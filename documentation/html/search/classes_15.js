@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unaryreturn',['UnaryReturn',['../d9/dd5/structENSEM_1_1UnaryReturn.html',1,'ENSEM::UnaryReturn&lt; T, Op &gt;'],['../df/dda/structUnaryReturn.html',1,'UnaryReturn&lt; T, Op &gt;']]],
+  ['unaryreturn',['UnaryReturn',['../df/dda/structUnaryReturn.html',1,'UnaryReturn&lt; T, Op &gt;'],['../d9/dd5/structENSEM_1_1UnaryReturn.html',1,'ENSEM::UnaryReturn&lt; T, Op &gt;']]],
   ['unaryreturn_3c_20double_2c_20fnlocalnorm2_20_3e',['UnaryReturn&lt; double, FnLocalNorm2 &gt;',['../dd/d94/structENSEM_1_1UnaryReturn_3_01double_00_01FnLocalNorm2_01_4.html',1,'ENSEM']]],
   ['unaryreturn_3c_20double_2c_20fnnorm2_20_3e',['UnaryReturn&lt; double, FnNorm2 &gt;',['../d8/dd4/structENSEM_1_1UnaryReturn_3_01double_00_01FnNorm2_01_4.html',1,'ENSEM']]],
   ['unaryreturn_3c_20double_2c_20fnsum_20_3e',['UnaryReturn&lt; double, FnSum &gt;',['../dc/dd9/structENSEM_1_1UnaryReturn_3_01double_00_01FnSum_01_4.html',1,'ENSEM']]],
@@ -160,7 +160,7 @@ var searchData=
   ['unaryreturn_3c_20rscalar_3c_20t1_20_3e_2c_20fnmean_20_3e',['UnaryReturn&lt; RScalar&lt; T1 &gt;, FnMean &gt;',['../d1/d1c/structENSEM_1_1UnaryReturn_3_01RScalar_3_01T1_01_4_00_01FnMean_01_4.html',1,'ENSEM']]],
   ['unaryreturn_3c_20rscalar_3c_20t1_20_3e_2c_20fnvariance_20_3e',['UnaryReturn&lt; RScalar&lt; T1 &gt;, FnVariance &gt;',['../d1/d80/structENSEM_1_1UnaryReturn_3_01RScalar_3_01T1_01_4_00_01FnVariance_01_4.html',1,'ENSEM']]],
   ['unaryreturn_3c_20rscalar_3c_20t1_20_3e_2c_20op_20_3e',['UnaryReturn&lt; RScalar&lt; T1 &gt;, Op &gt;',['../d1/d94/structENSEM_1_1UnaryReturn_3_01RScalar_3_01T1_01_4_00_01Op_01_4.html',1,'ENSEM']]],
-  ['unaryreturn_3c_20t_2c_20opnot_20_3e',['UnaryReturn&lt; T, OpNot &gt;',['../d2/db1/structENSEM_1_1UnaryReturn_3_01T_00_01OpNot_01_4.html',1,'ENSEM::UnaryReturn&lt; T, OpNot &gt;'],['../dc/d57/structUnaryReturn_3_01T_00_01OpNot_01_4.html',1,'UnaryReturn&lt; T, OpNot &gt;']]],
+  ['unaryreturn_3c_20t_2c_20opnot_20_3e',['UnaryReturn&lt; T, OpNot &gt;',['../dc/d57/structUnaryReturn_3_01T_00_01OpNot_01_4.html',1,'UnaryReturn&lt; T, OpNot &gt;'],['../d2/db1/structENSEM_1_1UnaryReturn_3_01T_00_01OpNot_01_4.html',1,'ENSEM::UnaryReturn&lt; T, OpNot &gt;']]],
   ['unaryreturn_3c_20t2_2c_20opcast_3c_20t1_20_3e_20_3e',['UnaryReturn&lt; T2, OpCast&lt; T1 &gt; &gt;',['../df/da2/structUnaryReturn_3_01T2_00_01OpCast_3_01T1_01_4_01_4.html',1,'UnaryReturn&lt; T2, OpCast&lt; T1 &gt; &gt;'],['../d4/dba/structENSEM_1_1UnaryReturn_3_01T2_00_01OpCast_3_01T1_01_4_01_4.html',1,'ENSEM::UnaryReturn&lt; T2, OpCast&lt; T1 &gt; &gt;']]],
   ['unorderedmaptraits',['UnorderedMapTraits',['../dd/d81/structADAT_1_1UnorderedMapTraits.html',1,'ADAT']]],
   ['userdata',['UserData',['../dc/d12/classFILEDB_1_1UserData.html',1,'FILEDB']]]

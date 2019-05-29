@@ -1,0 +1,62 @@
+\hypertarget{adat__devel__install_2include_2hadron_2meson__elem__type_8h}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel\+\_\+install/include/hadron/meson\+\_\+elem\+\_\+type.h File Reference}
+\label{adat__devel__install_2include_2hadron_2meson__elem__type_8h}\index{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/hadron/meson\_elem\_type.h@{/Users/archanar/Kinematic\_factor/adat\_devel\_install/include/hadron/meson\_elem\_type.h}}
+
+
+Meson elemental operators.  
+
+
+{\ttfamily \#include \char`\"{}xml\+\_\+array.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xml\+\_\+array2d.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+Include dependency graph for meson\+\_\+elem\+\_\+type.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d9a/adat__devel__install_2include_2hadron_2meson__elem__type_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d1a/adat__devel__install_2include_2hadron_2meson__elem__type_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHadron_1_1KeyMesonElementalOperator__t}{Hadron\+::\+Key\+Meson\+Elemental\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Key for Meson operator. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structHadron_1_1ValMesonElementalOperator__t}{Hadron\+::\+Val\+Meson\+Elemental\+Operator\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Value for Meson operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceHadron}{Hadron}}
+\begin{DoxyCompactList}\small\item\em Helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{namespaceHadron_a24d0db7f972f8d517641ad9235bfa33c}{Hadron\+::operator$<$$<$}} (std\+::ostream \&os, const Key\+Meson\+Elemental\+Operator\+\_\+t \&d)
+\begin{DoxyCompactList}\small\item\em Used for error output. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_adde6149254919751c9f0e1b2b12c4d17}{Hadron\+::read}} (X\+M\+L\+Reader \&xml, const std\+::string \&path, Key\+Meson\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Read a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ad432e121844a2fa83775051e43481116}{Hadron\+::write}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Key\+Meson\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Write a key. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ae6acb258c409e20fdd2a36b3266138bc}{Hadron\+::read}} (Binary\+Reader \&bin, Key\+Meson\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Key\+Meson\+Elemental\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_abb7bfe7ab47ecc24ac8d489bdaf701d2}{Hadron\+::write}} (Binary\+Writer \&bin, const Key\+Meson\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Meson\+Elemental\+Operator write. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_ae34c01603f5e8f9246374fddfaa8e062}{Hadron\+::read}} (Binary\+Reader \&bin, Val\+Meson\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Meson\+Elemental\+Operator reader. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceHadron_af16b79349f97386286cfc1cd9dfb73f0}{Hadron\+::write}} (Binary\+Writer \&bin, const Val\+Meson\+Elemental\+Operator\+\_\+t \&param)
+\begin{DoxyCompactList}\small\item\em Meson\+Elemental\+Operator write. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Meson elemental operators. 
+

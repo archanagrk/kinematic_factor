@@ -1,0 +1,90 @@
+\hypertarget{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp}{}\section{/\+Users/archanar/\+Kinematic\+\_\+factor/adat\+\_\+devel/other\+\_\+libs/filedb/src/\+File\+DB.cpp File Reference}
+\label{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp}\index{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/src/FileDB.cpp@{/Users/archanar/Kinematic\_factor/adat\_devel/other\_libs/filedb/src/FileDB.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$sys/time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}File\+D\+B.\+h\char`\"{}}\newline
+Include dependency graph for File\+D\+B.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d50/adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceFILEDB}{F\+I\+L\+E\+DB}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a1575e02ec8b15cac1d928e834b47b068}{\+\_\+\+\_\+\+F\+I\+L\+E\+D\+B\+\_\+\+B\+S\+W\+A\+P\+\_\+16}}(x)~(( ( (x) $>$$>$ 8) \& 0xffu) $\vert$ ( ( (x) \& 0xffu) $<$$<$ 8))
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a456a54962ef4b4b954f0f6ee060d4bb4}{\+\_\+\+\_\+\+F\+I\+L\+E\+D\+B\+\_\+\+B\+S\+W\+A\+P\+\_\+32}}(x)
+\item 
+\#define \mbox{\hyperlink{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a070264ff424e7202cf0754fe9ae5a283}{\+\_\+\+\_\+\+F\+I\+L\+E\+D\+B\+\_\+\+B\+S\+W\+A\+P\+\_\+64}}(x)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{namespaceFILEDB_a52d0505cdd535797c05bffb0598ef2a5}{F\+I\+L\+E\+D\+B\+::current\+\_\+time}} (void)
+\item 
+void \mbox{\hyperlink{namespaceFILEDB_ad0296230a6c6ba4b757820d4367275a4}{F\+I\+L\+E\+D\+B\+::crc32\+\_\+init}} (void)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_aa12ea161a9698d1b53c1026b06f0b0a5}{F\+I\+L\+E\+D\+B\+::crc32}} (unsigned int crc, const char $\ast$buf, unsigned int len)
+\item 
+std\+::string \mbox{\hyperlink{namespaceFILEDB_a00ba2326eea8f8eb8dc3b4be5eac2bf3}{F\+I\+L\+E\+D\+B\+::itostr}} (int val)
+\item 
+unsigned short \mbox{\hyperlink{namespaceFILEDB_af28aef063f95fcb331d3844f6807daf5}{F\+I\+L\+E\+D\+B\+::ntoh\+\_\+short}} (unsigned short sval)
+\item 
+unsigned short \mbox{\hyperlink{namespaceFILEDB_acbb57ab648e150c1950a7e6a67a6aa56}{F\+I\+L\+E\+D\+B\+::hton\+\_\+short}} (unsigned short sval)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_ab34ff6954f1b3a0dc868119d34105579}{F\+I\+L\+E\+D\+B\+::ntoh\+\_\+int}} (unsigned int ival)
+\item 
+unsigned int \mbox{\hyperlink{namespaceFILEDB_adbce406e3e06947d7312a6d461bc5cc5}{F\+I\+L\+E\+D\+B\+::hton\+\_\+int}} (unsigned int ival)
+\item 
+unsigned long \mbox{\hyperlink{namespaceFILEDB_af2fbdeeb7148fa47d1050b1ac3130897}{F\+I\+L\+E\+D\+B\+::ntoh\+\_\+long}} (unsigned long lval)
+\item 
+unsigned long \mbox{\hyperlink{namespaceFILEDB_af381773a642a4cc9c68ce682cea411a8}{F\+I\+L\+E\+D\+B\+::hton\+\_\+long}} (unsigned long lval)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a1575e02ec8b15cac1d928e834b47b068}\label{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a1575e02ec8b15cac1d928e834b47b068}} 
+\index{FileDB.cpp@{FileDB.cpp}!\_\_FILEDB\_BSWAP\_16@{\_\_FILEDB\_BSWAP\_16}}
+\index{\_\_FILEDB\_BSWAP\_16@{\_\_FILEDB\_BSWAP\_16}!FileDB.cpp@{FileDB.cpp}}
+\subsubsection{\texorpdfstring{\_\_FILEDB\_BSWAP\_16}{\_\_FILEDB\_BSWAP\_16}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+F\+I\+L\+E\+D\+B\+\_\+\+B\+S\+W\+A\+P\+\_\+16(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~(( ( (x) $>$$>$ 8) \& 0xffu) $\vert$ ( ( (x) \& 0xffu) $<$$<$ 8))}
+
+Byte Swapping Routines replacing ntohl etc\+Several used macros \mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a456a54962ef4b4b954f0f6ee060d4bb4}\label{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a456a54962ef4b4b954f0f6ee060d4bb4}} 
+\index{FileDB.cpp@{FileDB.cpp}!\_\_FILEDB\_BSWAP\_32@{\_\_FILEDB\_BSWAP\_32}}
+\index{\_\_FILEDB\_BSWAP\_32@{\_\_FILEDB\_BSWAP\_32}!FileDB.cpp@{FileDB.cpp}}
+\subsubsection{\texorpdfstring{\_\_FILEDB\_BSWAP\_32}{\_\_FILEDB\_BSWAP\_32}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+F\+I\+L\+E\+D\+B\+\_\+\+B\+S\+W\+A\+P\+\_\+32(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{(( ( (x) \& 0xff000000u) >> 24) | ( ( (x) \& 0x00ff0000u) >> 8) | \(\backslash\)}
+\DoxyCodeLine{   ((  (x) \& 0x0000ff00u) <<  8) | ( ( (x) \& 0x000000ffu) << 24))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a070264ff424e7202cf0754fe9ae5a283}\label{adat__devel_2other__libs_2filedb_2src_2FileDB_8cpp_a070264ff424e7202cf0754fe9ae5a283}} 
+\index{FileDB.cpp@{FileDB.cpp}!\_\_FILEDB\_BSWAP\_64@{\_\_FILEDB\_BSWAP\_64}}
+\index{\_\_FILEDB\_BSWAP\_64@{\_\_FILEDB\_BSWAP\_64}!FileDB.cpp@{FileDB.cpp}}
+\subsubsection{\texorpdfstring{\_\_FILEDB\_BSWAP\_64}{\_\_FILEDB\_BSWAP\_64}}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+F\+I\+L\+E\+D\+B\+\_\+\+B\+S\+W\+A\+P\+\_\+64(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{(( ( (x) \& 0xff00000000000000ull) >> 56) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x00ff000000000000ull) >> 40) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x0000ff0000000000ull) >> 24) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x000000ff00000000ull) >> 8 ) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x00000000ff000000ull) << 8 ) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x0000000000ff0000ull) << 24) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x000000000000ff00ull) << 40) \(\backslash\)}
+\DoxyCodeLine{   | (((x) \& 0x00000000000000ffull) << 56))}
+
+\end{DoxyCode}

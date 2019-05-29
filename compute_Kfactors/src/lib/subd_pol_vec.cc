@@ -30,16 +30,21 @@ map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& m
     typedef std::complex<double> cd;
     
 
-    switch(int(mom_sq)){
 
-        //At rest subductions    
-        case 0:{
+    //At rest subductions    
+    if(mom_sq == 0.0){
 
             Sub = Subd::subduce_oct(irrep);
 
-            if(twoJ == 2){
-                for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)));}}
+            if(twoJ == 2)
+            {
+                for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++)
+                { //cout << "sub: " << (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << endl;
+                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)));
+                }
+                
+            
+            }
 
             else if(twoJ == 0){
                 Eigen::MatrixXcd unit_vec(4,1);
@@ -48,44 +53,47 @@ map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& m
                     
                     Sub_with_pol.insert(make_pair( (it->first) , (it->second) * unit_vec ));
                     
-                }}
+                }
+            
+            }
 
             else{
                     cerr << "Tensors and fermions not coded" << endl; exit(1);
-                }
-
-            break;
+                
             }
+
+        }
+        
+    //In flight    
+    else{
+
+        if(twoJ%2){cerr << "Fermions not coded" << endl; exit(1);} //fermions
+        
+        else{
+            Sub = Subd::subduce_lg_boson(irrep, little_group);
+
+            if(twoJ == 2){
+                for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+                    //cout << "sub: " << (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << endl;
+                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) ));}}
+
+            else if(twoJ == 0){
+                Eigen::MatrixXcd unit_vec(4,1);
+                unit_vec << cd(1,0),cd(1,0),cd(1,0),cd(1,0);
+                for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
+                    Sub_with_pol.insert(make_pair( (it->first) ,(it->second) * unit_vec )) ;}}
+
+
+            else{cerr << "Tensors not coded" << endl; exit(1);}     
+
+        }  //bosons
+        
+        }
             
-        //In flight    
-        default:{
-
-            if(twoJ%2){cerr << "Fermions not coded" << endl; exit(1);} //fermions
             
-            else{
-                Sub = Subd::subduce_lg_boson(irrep, little_group);
 
-                if(twoJ == 2){
-                    for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-
-                        Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) ));}}
-
-                else if(twoJ == 0){
-                    Eigen::MatrixXcd unit_vec(4,1);
-                    unit_vec << cd(1,0),cd(1,0),cd(1,0),cd(1,0);
-                    for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-                        Sub_with_pol.insert(make_pair( (it->first) ,(it->second) * unit_vec )) ;}}
-
-
-                else{cerr << "Tensors not coded" << endl; exit(1);}     
-
-            }  //bosons
-            break;
-            
-            }
-            
-            
-    }
     return Sub_with_pol;
     
 };
+
+
