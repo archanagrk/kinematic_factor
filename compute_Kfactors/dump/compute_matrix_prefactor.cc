@@ -137,11 +137,12 @@ int main(int argc, char** argv){
                   if(max_mom2 >= mom_curr_sq){
 
 
-                    r_phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false);
-                    phase   = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, false);
+                    r_phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false, true);
+                    l_phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false, false);
+                    phase   = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, false, false);
 
 
-                    r_mom_curr = r_phase.mom2 - r_phase.mom1;
+                    r_mom_curr = r_phase.mom2 - r_phase.mom1; l_mom_curr = l_phase.mom2 - l_phase.mom1;
 
                     double mom_in_sq   = mom_coeff_sq*mom1_sq;
                     double mom_out_sq  = mom_coeff_sq*mom3_sq;
@@ -149,6 +150,7 @@ int main(int argc, char** argv){
 
                     VectorXd  qp(4,1);  VectorXd  qm(4,1);    // q+ = (p1-p2) q- = (p1+p2)
                     VectorXd  r_qp(4,1);  VectorXd  r_qm(4,1);    // q+ = R(p1-p2) q- = R(p1+p2)
+                    VectorXd  l_qp(4,1);  VectorXd  l_qm(4,1);    // q+ = R(p1-p2) q- = R(p1+p2)
 
                     
                     r_qp << (sqrt(m1_sq+ mom_in_sq)+sqrt(m3_sq+mom_out_sq)),-mom_coeff*(r_phase.mom1(0) + r_phase.mom2(0)),
@@ -156,6 +158,12 @@ int main(int argc, char** argv){
 
                     r_qm  << (sqrt(m3_sq+mom_out_sq)-sqrt(m1_sq+mom_in_sq)),-mom_coeff*(r_phase.mom2(0)-r_phase.mom1(0)),
                                                                 -mom_coeff*(r_phase.mom2(1)-r_phase.mom1(1)),-mom_coeff*(r_phase.mom2(2)-r_phase.mom1(2));
+
+                    l_qp << (sqrt(m1_sq+mom_in_sq)+sqrt(m3_sq+mom_out_sq)),-mom_coeff*(l_phase.mom1(0) + l_phase.mom2(0)),
+                                                                -mom_coeff*(l_phase.mom1(1) + l_phase.mom2(1)),-mom_coeff*(l_phase.mom1(2) + l_phase.mom2(2));
+
+                    l_qm  << (sqrt(m3_sq+mom_out_sq)-sqrt(m1_sq+mom_in_sq)),-mom_coeff*(l_phase.mom2(0)-l_phase.mom1(0)),
+                                                                -mom_coeff*(l_phase.mom2(1)-l_phase.mom1(1)),-mom_coeff*(l_phase.mom2(2)-l_phase.mom1(2));
 
 
                     qp << (sqrt(m1_sq+mom_in_sq)+sqrt(m3_sq+mom_out_sq)),-mom_coeff*(mom1(0) + mom3(0)),-mom_coeff*(mom1(1) + mom3(1)),-mom_coeff*(mom1(2) + mom3(2));
@@ -173,7 +181,11 @@ int main(int argc, char** argv){
                     //the ref angles for each mom from adat
 		                std::vector<double> r_r1     = refAngles(r_phase.mom1);
 		                std::vector<double> r_r_curr = refAngles(r_mom_curr);
-		                std::vector<double> r_r3     = refAngles(r_phase.mom2);     
+		                std::vector<double> r_r3     = refAngles(r_phase.mom2);    
+
+		                std::vector<double> l_r1     = refAngles(l_phase.mom1);
+		                std::vector<double> l_r_curr = refAngles(l_mom_curr);
+		                std::vector<double> l_r3     = refAngles(l_phase.mom2);    
 
 		                std::vector<double> r1     = refAngles(mom1);
 		                std::vector<double> r_curr = refAngles(mom_curr);
@@ -219,36 +231,45 @@ int main(int argc, char** argv){
 
                                 map< int, Eigen::MatrixXcd > r_Sub1    = Subduce_with_pol(mom_in_sq, m1_sq, two_J1 , rep1, LG1, r_r1[0], r_r1[1], r_r1[2], false);
                                 map< int, Eigen::MatrixXcd > r_Sub3    = Subduce_with_pol(mom_out_sq, m3_sq, two_J3 , rep3, LG3, r_r3[0], r_r3[1], r_r3[2], false);
-                                map< int, Eigen::MatrixXcd > r_SubCurr = Subduce_with_pol(mom_c_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2], true);
+                                map< int, Eigen::MatrixXcd > r_SubCurr = Subduce_with_pol(mom_c_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_r_curr[0], r_r_curr[1], r_r_curr[2], true);
+
+
+                                map< int, Eigen::MatrixXcd > l_Sub1    = Subduce_with_pol(mom_in_sq, m1_sq, two_J1 , rep1, LG1, l_r1[0], l_r1[1], l_r1[2], false);
+                                map< int, Eigen::MatrixXcd > l_Sub3    = Subduce_with_pol(mom_out_sq, m3_sq, two_J3 , rep3, LG3, l_r3[0], l_r3[1], l_r3[2], false);
+                                map< int, Eigen::MatrixXcd > l_SubCurr = Subduce_with_pol(mom_c_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, l_r_curr[0], l_r_curr[1], l_r_curr[2], true);
 
 
                                 KFacParams* kfac_params   = new KFacParams(Sub1,SubCurr,Sub3,phase,qp,qm);
-                                KFacParams* r_kfac_params = new KFacParams(r_Sub1,SubCurr,r_Sub3,r_phase,r_qp,r_qm);
-
+                                KFacParams* r_kfac_params = new KFacParams(r_Sub1,r_SubCurr,r_Sub3,r_phase,r_qp,r_qm);
+                                KFacParams* l_kfac_params = new KFacParams(l_Sub1,l_SubCurr,l_Sub3,l_phase,l_qp,l_qm);
 
                                 // for scalar vector with vector insertion
 
                                 XMLReader xml;
                                 kfac   = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
                                 r_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
+                                l_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
+
 
                                 Coeff   = (*kfac)(*kfac_params);
-                                r_Coeff = (*r_kfac)(*r_kfac_params);                              
+                                r_Coeff = (*r_kfac)(*r_kfac_params);
+                                l_Coeff = (*l_kfac)(*l_kfac_params);                                
 
                                 Ph::tripKey two_abs_lam = (*kfac_params).two_abs_lam();
                                   
 
-                                if(std::real(Coeff) || std::imag(Coeff) || std::imag(r_Coeff) || std::real(r_Coeff) ){
+                                if(std::real(Coeff) || std::imag(Coeff) || std::imag(r_Coeff) || std::real(r_Coeff) || std::imag(l_Coeff) || std::real(l_Coeff)  ){
 
                                   cout << mom1.transpose() << rep1.irrep << "["<< rep1.row <<"]" << "\n";
                                   cout << mom_curr.transpose() << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
                                   cout << mom3.transpose() << rep3.irrep << "["<< rep3.row <<"]"<< "\n";  
 
-                                  cout << "The rotated factor is:" << r_Coeff << endl;
+                                  cout << "The r factor is:" << r_Coeff << endl;
+                                  cout << "The l factor is:" << l_Coeff << endl;
                                   cout << "The factor is:" << Coeff << endl;
 
-                                  if( std::abs(abs(Coeff) - abs(r_Coeff)) > std::numeric_limits<float>::epsilon() ){cout << "Discrepency!" << endl; }
-                                  if( std::abs(Coeff - r_Coeff) < std::numeric_limits<float>::epsilon() ){cout << "No Phase at all" << endl; }
+                                  if( (abs(Coeff) != abs(r_Coeff)) ){cout << "yo" << endl; }
+
 
                                   //=================
                                   //WRITE THE OUTPUT

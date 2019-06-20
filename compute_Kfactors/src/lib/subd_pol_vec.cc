@@ -22,12 +22,14 @@
 //**********************************************************************************************************************
 
 map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& mass_sq,  int& twoJ, const irrep_label& irrep,
-                                   const string& little_group,double R1_phi, double R1_theta, double R1_psi){
+                                   const string& little_group,double R1_phi, double R1_theta, double R1_psi, bool curr){
     
     /* Variables */
     map< int, complex<double> > Sub;
     map< int, Eigen::MatrixXcd > Sub_with_pol;
     typedef std::complex<double> cd;
+    complex<double> z_i(0.,1.);
+    double zero = 0.0;
     
 
 
@@ -39,8 +41,8 @@ map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& m
             if(twoJ == 2)
             {
                 for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++)
-                { //cout << "sub: " << (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << endl;
-                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi)));
+                { //cout << "sub: " << (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr) << endl;
+                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr)));
                 }
                 
             
@@ -74,8 +76,8 @@ map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& m
 
             if(twoJ == 2){
                 for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-                    //cout << "sub: " << (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) << endl;
-                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi) ));}}
+                    //cout << "sub: " << (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr) << endl;
+                    Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr) ));}}
 
             else if(twoJ == 0){
                 Eigen::MatrixXcd unit_vec(4,1);

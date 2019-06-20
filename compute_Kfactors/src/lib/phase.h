@@ -33,12 +33,7 @@ namespace Ph {
 
   /* Compute the phase factor after rotation of a helicity operator or state from Appendix A of Shulz paper */
 
-  Ph::phChars phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d mom1, Eigen::Vector3d mom2, bool compute, bool right);
-
-
-  /* Return the list of given sqrt of mom */
-
-  vector<Eigen::Vector3d> list_mom(double mom);
+  Ph::phChars phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d mom1, Eigen::Vector3d mom2, bool compute);
 
 
   /* Composition of two Wigner-D matrices R'R, R'^-1R, R'R^-1 */

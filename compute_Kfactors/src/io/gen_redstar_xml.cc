@@ -104,7 +104,7 @@ int main(int argc, char** argv){
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/irrep", irrep_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/row", row_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/mom", mom_tmp );
-      read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/lam", lam_tmp);
+      read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/absLam", lam_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/psq", psq_tmp);
      }
      catch( const string& error ){
