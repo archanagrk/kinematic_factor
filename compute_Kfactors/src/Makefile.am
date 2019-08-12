@@ -2,12 +2,12 @@
 # Boiler Plate stuff: Autoconf Substitutions etc
 #
 AM_CXXFLAGS = -I@top_srcdir@/src \
-		@CXXFLAGS@ @ADAT_CXXFLAGS@ 
+		@CXXFLAGS@ @ADAT_CXXFLAGS@ @SEMBLE_CXXFLAGS@ 
 
 AM_LDFLAGS  = -L@top_builddir@/src \
-               @LDFLAGS@ @ADAT_LDFLAGS@
+               @LDFLAGS@ @ADAT_LDFLAGS@ @SEMBLE_LDFLAGS@
 
-LDADD = @ADAT_LIBS@ @LIBS@ 
+LDADD = @ADAT_LIBS@ @LIBS@ @SEMBLE_LIBS@
 
 
 #

@@ -4,7 +4,7 @@
 //std lib
 #include <cmath>
 #include "math.h"
-#include <Eigen/Dense>
+#include </usr/local/Eigen/Dense>
 
 //some kfac libs
 #include "phase.h"

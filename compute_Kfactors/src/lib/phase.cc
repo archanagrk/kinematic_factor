@@ -75,6 +75,12 @@ Ph::phChars Ph::phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d 
 
         Eigen::MatrixXd R = R_without_rounding.unaryExpr(&Round);
 
+        Eigen::VectorXd  mom2_f(4); mom2_f << 0.0 , mom2(0), mom2(1), mom2(2); 
+        Eigen::VectorXd n_mom2_f = R*mom2_f; 
+
+        Eigen::Vector3d n_mom2_check; 
+        n_mom2_check << round(n_mom2_f(1,0)), round(n_mom2_f(2,0)), round(n_mom2_f(3,0));
+
 
         Eigen::VectorXd  mom1_f(4); mom1_f << 0.0 , mom1(0), mom1(1), mom1(2);
         Eigen::VectorXd n_mom1_f = R*mom1_f;
@@ -84,8 +90,8 @@ Ph::phChars Ph::phaseFactor(int twoJ1, int twoJ2, int twoJCurr, Eigen::Vector3d 
         n_mom1 << round(n_mom1_f(1,0)), round(n_mom1_f(2,0)), round(n_mom1_f(3,0));
 
 
-        Eigen::Vector3d n_mom_curr; n_mom_curr =  mom2_ref - n_mom1;
-        Eigen::Vector3d mom_curr; mom_curr = mom2 - mom1;
+        Eigen::Vector3d n_mom_curr; n_mom_curr =  n_mom1 - mom2_ref;
+        Eigen::Vector3d mom_curr; mom_curr = mom1 - mom2;
 
 
         Eigen::VectorXd  mom_curr_f(4); mom_curr_f << 0.0 , mom_curr(0), mom_curr(1), mom_curr(2);
@@ -230,8 +236,8 @@ map < Ph::tripKey , complex<double>> Ph::calc_phase(int twoJ1, int twoJ2, int tw
             lambd = std::make_tuple(two_abs_lam1, two_abs_lam2 , two_abs_lamCurr);
             //ph =  D1* conj(D2)*DCurr;
             
-            ph.real(KfUt::truncate(std::real(D1* conj(D2)), 6)); // the current is a four vector dont add the phase but use the rotation matrix
-            ph.imag(KfUt::truncate(std::imag(D1* conj(D2)), 6));
+            ph.real(KfUt::truncate(std::real(conj(D1)* D2), 6)); // the current is a four vector dont add the phase but use the rotation matrix
+            ph.imag(KfUt::truncate(std::imag(conj(D1)* D2), 6));
             //if(!twoJ1){cout << "lam" << two_abs_lamCurr << "D" << DCurr << "D" << D1 << "D" << D2 << "ph" << ph << endl;}
             //ph = 1;
             phase_hel.insert( std::make_pair( lambd, ph  ) );

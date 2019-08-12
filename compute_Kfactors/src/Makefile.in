@@ -235,6 +235,10 @@ PACKAGE_URL = @PACKAGE_URL@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
 RANLIB = @RANLIB@
+SEMBLE_CONFIG = @SEMBLE_CONFIG@
+SEMBLE_CXXFLAGS = @SEMBLE_CXXFLAGS@
+SEMBLE_LDFLAGS = @SEMBLE_LDFLAGS@
+SEMBLE_LIBS = @SEMBLE_LIBS@
 SET_MAKE = @SET_MAKE@
 SHELL = @SHELL@
 STRIP = @STRIP@
@@ -287,12 +291,12 @@ top_srcdir = @top_srcdir@
 # Boiler Plate stuff: Autoconf Substitutions etc
 #
 AM_CXXFLAGS = -I@top_srcdir@/src \
-		@CXXFLAGS@ @ADAT_CXXFLAGS@ 
+		@CXXFLAGS@ @ADAT_CXXFLAGS@ @SEMBLE_CXXFLAGS@ 
 
 AM_LDFLAGS = -L@top_builddir@/src \
-               @LDFLAGS@ @ADAT_LDFLAGS@
+               @LDFLAGS@ @ADAT_LDFLAGS@ @SEMBLE_LDFLAGS@
 
-LDADD = @ADAT_LIBS@ @LIBS@ 
+LDADD = @ADAT_LIBS@ @LIBS@ @SEMBLE_LIBS@
 
 ##############################################################
 compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc

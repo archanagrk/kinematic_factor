@@ -2,7 +2,7 @@
 #define __KFACTOR__
 
 //std lib
-#include <Eigen/Dense>
+#include </usr/local/Eigen/Dense>
 #include <float.h>
 
 #include "levi_civita.h"

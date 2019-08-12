@@ -189,22 +189,22 @@ CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/config/depcomp \
 	$(top_srcdir)/config/mkinstalldirs
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing aclocal-1.16
-ADAT_CONFIG = /Users/archanar/Kinematic_factor/adat_devel_install/bin/adat-config
-ADAT_CXXFLAGS = -O2 -I/Users/archanar/Kinematic_factor/adat_devel_install/include -I/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2
-ADAT_LDFLAGS = -L/Users/archanar/Kinematic_factor/adat_devel_install/lib
+ACLOCAL = ${SHELL} /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/config/missing aclocal-1.16
+ADAT_CONFIG = /Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/bin/adat-config
+ADAT_CXXFLAGS = -O2 -I/Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/include -I/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2
+ADAT_LDFLAGS = -L/Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/lib
 ADAT_LIBS = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.9_2/lib -lxml2 -lz -lpthread -liconv -lm
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoconf
-AUTOHEADER = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing autoheader
-AUTOMAKE = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing automake-1.16
+AUTOCONF = ${SHELL} /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/config/missing autoconf
+AUTOHEADER = ${SHELL} /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/config/missing autoheader
+AUTOMAKE = ${SHELL} /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/config/missing automake-1.16
 AWK = awk
-CC = gcc-8
+CC = gcc-9
 CCDEPMODE = depmode=gcc3
 CFLAGS = -O3 -mtune=native -fopenmp -fbounds-check
 CPPFLAGS = 
-CXX = g++-8
+CXX = g++-9
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -O3 -mtune=native -fopenmp -fbounds-check
 CYGPATH_W = echo
@@ -223,7 +223,7 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/missing makeinfo
+MAKEINFO = ${SHELL} /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/config/missing makeinfo
 MKDIR_P = ../../config/install-sh -c -d
 OBJEXT = o
 PACKAGE = kfactors
@@ -235,14 +235,18 @@ PACKAGE_URL =
 PACKAGE_VERSION = 1.0
 PATH_SEPARATOR = :
 RANLIB = ranlib
+SEMBLE_CONFIG = /Users/archanar/LQCDSoftware/three_pt_analysis/semble_install/bin/semble-config
+SEMBLE_CXXFLAGS = -O3 -mtune=native -fopenmp -fbounds-check -I/Users/archanar/LQCDSoftware/three_pt_analysis/semble_install/include
+SEMBLE_LDFLAGS = -L/Users/archanar/LQCDSoftware/three_pt_analysis/semble_install/lib
+SEMBLE_LIBS = -lsemble
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = 
 VERSION = 1.0
-abs_builddir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/src
-abs_srcdir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/../src
-abs_top_builddir = /Users/archanar/Kinematic_factor/compute_Kfactors/build
-abs_top_srcdir = /Users/archanar/Kinematic_factor/compute_Kfactors/build/..
+abs_builddir = /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/src
+abs_srcdir = /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/../src
+abs_top_builddir = /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build
+abs_top_srcdir = /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/..
 ac_ct_CC = 
 ac_ct_CXX = 
 am__include = include
@@ -262,7 +266,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/archanar/Kinematic_factor/compute_Kfactors/config/install-sh
+install_sh = ${SHELL} /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -271,7 +275,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /Users/archanar/Kinematic_factor/compute_Kfactors_install
+prefix = /Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors_install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
@@ -287,12 +291,12 @@ top_srcdir = ../..
 # Boiler Plate stuff: Autoconf Substitutions etc
 #
 AM_CXXFLAGS = -I../../src \
-		-O3 -mtune=native -fopenmp -fbounds-check -O2 -I/Users/archanar/Kinematic_factor/adat_devel_install/include -I/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2 
+		-O3 -mtune=native -fopenmp -fbounds-check -O2 -I/Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/include -I/usr/local/Cellar/libxml2/2.9.9_2/include/libxml2 -O3 -mtune=native -fopenmp -fbounds-check -I/Users/archanar/LQCDSoftware/three_pt_analysis/semble_install/include 
 
 AM_LDFLAGS = -L../src \
-                -L/Users/archanar/Kinematic_factor/adat_devel_install/lib
+                -L/Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/lib -L/Users/archanar/LQCDSoftware/three_pt_analysis/semble_install/lib
 
-LDADD = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.9_2/lib -lxml2 -lz -lpthread -liconv -lm  
+LDADD = -ladat -lfiledb -lfilehash -lXPathReader -lxmlWriter -lMinuit2Base -L/usr/local/Cellar/libxml2/2.9.9_2/lib -lxml2 -lz -lpthread -liconv -lm  -lsemble
 
 ##############################################################
 compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc

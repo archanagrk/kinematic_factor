@@ -1,0 +1,3763 @@
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 1 1A2[1]
+1 0 0E2[1]
+0 1 1B1[1]
+The rotated factor is:( 0.0016946 , 0.00641284 )
+The factor is:( 0.0016946 , 0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p011__H1D4E2r1_p100__H0D3A2r1_p111/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 1 1A2[1]
+1 0 0E2[2]
+0 1 1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p011__H1D4E2r2_p100__H0D3A2r1_p111/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 1 1A2[1]
+1 0 0A1[1]
+0 1 1B1[1]
+The rotated factor is:( 0.0016946 , 0.00641284 )
+The factor is:( 0.0016946 , 0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p011__H1D4A1r1_p100__H0D3A2r1_p111/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 1 1A2[1]
+1 0 0E2[1]
+0 1 1B2[1]
+The rotated factor is:( -0.00131401 , 0 )
+The factor is:( -0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p011__H1D4E2r1_p100__H0D3A2r1_p111/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 1 1A2[1]
+1 0 0E2[2]
+0 1 1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p011__H1D4E2r2_p100__H0D3A2r1_p111/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 1 1A2[1]
+1 0 0A1[1]
+0 1 1B2[1]
+The rotated factor is:( -0.00131401 , 0 )
+The factor is:( -0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p011__H1D4A1r1_p100__H0D3A2r1_p111/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 1 1A2[1]
+1 0 0E2[1]
+0 1 1A1[1]
+The rotated factor is:( -0.00593288 , -0.00141372 )
+The factor is:( -0.00593288 , -0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p011__H0D4E2r1_p100__H0D3A2r1_p111/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 1 1A2[1]
+1 0 0E2[2]
+0 1 1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p011__H0D4E2r2_p100__H0D3A2r1_p111/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 1 1A2[1]
+1 0 0A1[1]
+0 1 1A1[1]
+The rotated factor is:( -0.00593288 , -0.00141372 )
+The factor is:( -0.00593288 , -0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p011__H0D4A1r1_p100__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 1A2[1]
+1 1 0B1[1]
+0 0 1E2[1]
+The rotated factor is:( 0.000203156 , 0.000203156 )
+The factor is:( 0.000203156 , 0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p001__H1D2B1r1_p110__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 1A2[1]
+1 1 0B1[1]
+0 0 1E2[2]
+The rotated factor is:( -0.000203156 , -0.000203156 )
+The factor is:( -0.000203156 , -0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p001__H1D2B1r1_p110__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 1A2[1]
+1 1 0B2[1]
+0 0 1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p001__H1D2B2r1_p110__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 1A2[1]
+1 1 0B2[1]
+0 0 1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p001__H1D2B2r1_p110__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 1A2[1]
+1 1 0A1[1]
+0 0 1E2[1]
+The rotated factor is:( 0.000203156 , 0.000203156 )
+The factor is:( 0.000203156 , 0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p001__H1D2A1r1_p110__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 1A2[1]
+1 1 0A1[1]
+0 0 1E2[2]
+The rotated factor is:( -0.000203156 , -0.000203156 )
+The factor is:( -0.000203156 , -0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p001__H1D2A1r1_p110__H0D3A2r1_p111/
+Ei: D4A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 1A2[1]
+1 1 0B1[1]
+0 0 1A1[1]
+The rotated factor is:( -0.010256 , -0.00215821 )
+The factor is:( -0.010256 , -0.00215821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p001__H0D2B1r1_p110__H0D3A2r1_p111/
+Ei: D4A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 1A2[1]
+1 1 0B2[1]
+0 0 1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p001__H0D2B2r1_p110__H0D3A2r1_p111/
+Ei: D4A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 1A2[1]
+1 1 0A1[1]
+0 0 1A1[1]
+The rotated factor is:( -0.010256 , -0.00215821 )
+The factor is:( -0.010256 , -0.00215821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p001__H0D2A1r1_p110__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1E2[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D3E2r1_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1E2[1]
+0 0 0T1[2]
+The rotated factor is:( -0.00985603 , 0 )
+The factor is:( -0.00985603 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D3E2r1_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1E2[1]
+0 0 0T1[3]
+The rotated factor is:( 0.00696927 , 0.00696927 )
+The factor is:( 0.00696927 , 0.00696927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D3E2r1_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1E2[2]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D3E2r2_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1E2[2]
+0 0 0T1[2]
+The rotated factor is:( 0.00569038 , 0 )
+The factor is:( 0.00569038 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D3E2r2_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1E2[2]
+0 0 0T1[3]
+The rotated factor is:( -0.00402371 , -0.00402371 )
+The factor is:( -0.00402371 , -0.00402371 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D3E2r2_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1A1[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D3A1r1_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1A1[1]
+0 0 0T1[2]
+The rotated factor is:( -0.00804742 , 0 )
+The factor is:( -0.00804742 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D3A1r1_p111__H0D3A2r1_p111/
+Ei: T1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 1A2[1]
+1 1 1A1[1]
+0 0 0T1[3]
+The rotated factor is:( 0.00569038 , 0.00569038 )
+The factor is:( 0.00569038 , 0.00569038 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D3A1r1_p111__H0D3A2r1_p111/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 0 0E2[1]
+0 1 0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p010__H1D4E2r1_p100__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 0 0E2[1]
+0 1 0E2[2]
+The rotated factor is:( -0.0081581 , 0.00147537 )
+The factor is:( -0.0081581 , 0.00147537 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p010__H1D4E2r1_p100__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 0 0E2[2]
+0 1 0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p010__H1D4E2r2_p100__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 0 0E2[2]
+0 1 0E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p010__H1D4E2r2_p100__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 0 0A1[1]
+0 1 0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p010__H1D4A1r1_p100__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 0 0A1[1]
+0 1 0E2[2]
+The rotated factor is:( -0.0081581 , 0.00147537 )
+The factor is:( -0.0081581 , 0.00147537 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p010__H1D4A1r1_p100__H0D2A2r1_p110/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 0A2[1]
+1 0 0E2[1]
+0 1 0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p010__H0D4E2r1_p100__H0D2A2r1_p110/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 0A2[1]
+1 0 0E2[2]
+0 1 0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p010__H0D4E2r2_p100__H0D2A2r1_p110/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 0A2[1]
+1 0 0A1[1]
+0 1 0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p010__H0D4A1r1_p100__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0B1[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D2B1r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0B1[1]
+0 0 0T1[2]
+The rotated factor is:( -0.00985603 , 0 )
+The factor is:( -0.00985603 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D2B1r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0B1[1]
+0 0 0T1[3]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D2B1r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0B2[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D2B2r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0B2[1]
+0 0 0T1[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D2B2r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0B2[1]
+0 0 0T1[3]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D2B2r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0A1[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D2A1r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0A1[1]
+0 0 0T1[2]
+The rotated factor is:( -0.00985603 , 0 )
+The factor is:( -0.00985603 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D2A1r1_p110__H0D2A2r1_p110/
+Ei: T1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 1 0A2[1]
+1 1 0A1[1]
+0 0 0T1[3]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D2A1r1_p110__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 1 1E2[1]
+ 0  0 -1E2[1]
+The rotated factor is:( 0.0047254 , 0.0047254 )
+The factor is:( 0.0047254 , 0.0047254 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p00-1__H1D3E2r1_p111__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 1 1E2[1]
+ 0  0 -1E2[2]
+The rotated factor is:( 0.0047254 , 0.0047254 )
+The factor is:( 0.0047254 , 0.0047254 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p00-1__H1D3E2r1_p111__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 1 1E2[2]
+ 0  0 -1E2[1]
+The rotated factor is:( -0.00272821 , -0.00272821 )
+The factor is:( -0.00272821 , -0.00272821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p00-1__H1D3E2r2_p111__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 1 1E2[2]
+ 0  0 -1E2[2]
+The rotated factor is:( -0.00272821 , -0.00272821 )
+The factor is:( -0.00272821 , -0.00272821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p00-1__H1D3E2r2_p111__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 1 1A1[1]
+ 0  0 -1E2[1]
+The rotated factor is:( 0.00385827 , 0.00385827 )
+The factor is:( 0.00385827 , 0.00385827 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p00-1__H1D3A1r1_p111__H0D2A2r1_p110/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 1 0A2[1]
+1 1 1A1[1]
+ 0  0 -1E2[2]
+The rotated factor is:( 0.00385827 , 0.00385827 )
+The factor is:( 0.00385827 , 0.00385827 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p00-1__H1D3A1r1_p111__H0D2A2r1_p110/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 0A2[1]
+1 1 1E2[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0.010256 , 0.00215821 )
+The factor is:( 0.010256 , 0.00215821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p00-1__H0D3E2r1_p111__H0D2A2r1_p110/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 0A2[1]
+1 1 1E2[2]
+ 0  0 -1A1[1]
+The rotated factor is:( -0.00592132 , -0.00124604 )
+The factor is:( -0.00592132 , -0.00124604 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p00-1__H0D3E2r2_p111__H0D2A2r1_p110/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 1 0A2[1]
+1 1 1A1[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0.00837401 , 0.00176217 )
+The factor is:( 0.00837401 , 0.00176217 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p00-1__H0D3A1r1_p111__H0D2A2r1_p110/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1  1 -1A2[1]
+1 0 0E2[1]
+ 0  1 -1B1[1]
+The rotated factor is:( -0.0016946 , -0.00641284 )
+The factor is:( -0.0016946 , -0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p01-1__H1D4E2r1_p100__H0D3A2r1_p11-1/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1  1 -1A2[1]
+1 0 0E2[2]
+ 0  1 -1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p01-1__H1D4E2r2_p100__H0D3A2r1_p11-1/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1  1 -1A2[1]
+1 0 0A1[1]
+ 0  1 -1B1[1]
+The rotated factor is:( -0.0016946 , -0.00641284 )
+The factor is:( -0.0016946 , -0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p01-1__H1D4A1r1_p100__H0D3A2r1_p11-1/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1  1 -1A2[1]
+1 0 0E2[1]
+ 0  1 -1B2[1]
+The rotated factor is:( -0.00131401 , 0 )
+The factor is:( -0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p01-1__H1D4E2r1_p100__H0D3A2r1_p11-1/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1  1 -1A2[1]
+1 0 0E2[2]
+ 0  1 -1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p01-1__H1D4E2r2_p100__H0D3A2r1_p11-1/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1  1 -1A2[1]
+1 0 0A1[1]
+ 0  1 -1B2[1]
+The rotated factor is:( -0.00131401 , 0 )
+The factor is:( -0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p01-1__H1D4A1r1_p100__H0D3A2r1_p11-1/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1  1 -1A2[1]
+1 0 0E2[1]
+ 0  1 -1A1[1]
+The rotated factor is:( 0.00593288 , 0.00141372 )
+The factor is:( 0.00593288 , 0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p01-1__H0D4E2r1_p100__H0D3A2r1_p11-1/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1  1 -1A2[1]
+1 0 0E2[2]
+ 0  1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p01-1__H0D4E2r2_p100__H0D3A2r1_p11-1/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1  1 -1A2[1]
+1 0 0A1[1]
+ 0  1 -1A1[1]
+The rotated factor is:( 0.00593288 , 0.00141372 )
+The factor is:( 0.00593288 , 0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p01-1__H0D4A1r1_p100__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  1 -1A2[1]
+1 1 0B1[1]
+ 0  0 -1E2[1]
+The rotated factor is:( -0.000203156 , -0.000203156 )
+The factor is:( -0.000203156 , -0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p00-1__H1D2B1r1_p110__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  1 -1A2[1]
+1 1 0B1[1]
+ 0  0 -1E2[2]
+The rotated factor is:( -0.000203156 , -0.000203156 )
+The factor is:( -0.000203156 , -0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p00-1__H1D2B1r1_p110__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  1 -1A2[1]
+1 1 0B2[1]
+ 0  0 -1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p00-1__H1D2B2r1_p110__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  1 -1A2[1]
+1 1 0B2[1]
+ 0  0 -1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p00-1__H1D2B2r1_p110__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  1 -1A2[1]
+1 1 0A1[1]
+ 0  0 -1E2[1]
+The rotated factor is:( -0.000203156 , -0.000203156 )
+The factor is:( -0.000203156 , -0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p00-1__H1D2A1r1_p110__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  1 -1A2[1]
+1 1 0A1[1]
+ 0  0 -1E2[2]
+The rotated factor is:( -0.000203156 , -0.000203156 )
+The factor is:( -0.000203156 , -0.000203156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p00-1__H1D2A1r1_p110__H0D3A2r1_p11-1/
+Ei: D4A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1  1 -1A2[1]
+1 1 0B1[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0.010256 , 0.00215821 )
+The factor is:( 0.010256 , 0.00215821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p00-1__H0D2B1r1_p110__H0D3A2r1_p11-1/
+Ei: D4A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1  1 -1A2[1]
+1 1 0B2[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p00-1__H0D2B2r1_p110__H0D3A2r1_p11-1/
+Ei: D4A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1  1 -1A2[1]
+1 1 0A1[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0.010256 , 0.00215821 )
+The factor is:( 0.010256 , 0.00215821 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p00-1__H0D2A1r1_p110__H0D3A2r1_p11-1/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 0 0E2[1]
+0 0 1E2[1]
+The rotated factor is:( 0.00147537 , 0 )
+The factor is:( 0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p001__H1D4E2r1_p100__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 0 0E2[1]
+0 0 1E2[2]
+The rotated factor is:( -0.00147537 , 0 )
+The factor is:( -0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p001__H1D4E2r1_p100__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 0 0E2[2]
+0 0 1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p001__H1D4E2r2_p100__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 0 0E2[2]
+0 0 1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p001__H1D4E2r2_p100__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 0 0A1[1]
+0 0 1E2[1]
+The rotated factor is:( 0.00147537 , 0 )
+The factor is:( 0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p001__H1D4A1r1_p100__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 0 0A1[1]
+0 0 1E2[2]
+The rotated factor is:( -0.00147537 , 0 )
+The factor is:( -0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p001__H1D4A1r1_p100__H0D2A2r1_p101/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 1A2[1]
+1 0 0E2[1]
+0 0 1A1[1]
+The rotated factor is:( -0.0072521 , -0.00152609 )
+The factor is:( -0.0072521 , -0.00152609 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p001__H0D4E2r1_p100__H0D2A2r1_p101/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 1A2[1]
+1 0 0E2[2]
+0 0 1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p001__H0D4E2r2_p100__H0D2A2r1_p101/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 1A2[1]
+1 0 0A1[1]
+0 0 1A1[1]
+The rotated factor is:( -0.0072521 , -0.00152609 )
+The factor is:( -0.0072521 , -0.00152609 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p001__H0D4A1r1_p100__H0D2A2r1_p101/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 0 1A2[1]
+1 1 0B1[1]
+ 0 -1  1B1[1]
+The rotated factor is:( -0.00238639 , 0.00668273 )
+The factor is:( -0.00238639 , 0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-11__H1D2B1r1_p110__H0D2A2r1_p101/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 0 1A2[1]
+1 1 0B2[1]
+ 0 -1  1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-11__H1D2B2r1_p110__H0D2A2r1_p101/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 0 1A2[1]
+1 1 0A1[1]
+ 0 -1  1B1[1]
+The rotated factor is:( -0.00238639 , 0.00668273 )
+The factor is:( -0.00238639 , 0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p0-11__H1D2A1r1_p110__H0D2A2r1_p101/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 0 1A2[1]
+1 1 0B1[1]
+ 0 -1  1B2[1]
+The rotated factor is:( 0.00176927 , 0.00176927 )
+The factor is:( 0.00176927 , 0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-11__H1D2B1r1_p110__H0D2A2r1_p101/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 0 1A2[1]
+1 1 0B2[1]
+ 0 -1  1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-11__H1D2B2r1_p110__H0D2A2r1_p101/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 0 1A2[1]
+1 1 0A1[1]
+ 0 -1  1B2[1]
+The rotated factor is:( 0.00176927 , 0.00176927 )
+The factor is:( 0.00176927 , 0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p0-11__H1D2A1r1_p110__H0D2A2r1_p101/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 0 1A2[1]
+1 1 0B1[1]
+ 0 -1  1A1[1]
+The rotated factor is:( -0.00839036 , -0.0019993 )
+The factor is:( -0.00839036 , -0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-11__H0D2B1r1_p110__H0D2A2r1_p101/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 0 1A2[1]
+1 1 0B2[1]
+ 0 -1  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-11__H0D2B2r1_p110__H0D2A2r1_p101/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 0 1A2[1]
+1 1 0A1[1]
+ 0 -1  1A1[1]
+The rotated factor is:( -0.00839036 , -0.0019993 )
+The factor is:( -0.00839036 , -0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p0-11__H0D2A1r1_p110__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 1 1E2[1]
+ 0 -1  0E2[1]
+The rotated factor is:( -0.00576865 , 0.00576865 )
+The factor is:( -0.00576865 , 0.00576865 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p0-10__H1D3E2r1_p111__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 1 1E2[1]
+ 0 -1  0E2[2]
+The rotated factor is:( -0.010494 , -0.00104324 )
+The factor is:( -0.010494 , -0.00104324 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p0-10__H1D3E2r1_p111__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 1 1E2[2]
+ 0 -1  0E2[1]
+The rotated factor is:( 0.00333053 , -0.00333053 )
+The factor is:( 0.00333053 , -0.00333053 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p0-10__H1D3E2r2_p111__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 1 1E2[2]
+ 0 -1  0E2[2]
+The rotated factor is:( 0.00605874 , 0.000602318 )
+The factor is:( 0.00605874 , 0.000602318 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p0-10__H1D3E2r2_p111__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 1 1A1[1]
+ 0 -1  0E2[1]
+The rotated factor is:( -0.00471008 , 0.00471008 )
+The factor is:( -0.00471008 , 0.00471008 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p0-10__H1D3A1r1_p111__H0D2A2r1_p101/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 1A2[1]
+1 1 1A1[1]
+ 0 -1  0E2[2]
+The rotated factor is:( -0.00856836 , -0.000851806 )
+The factor is:( -0.00856836 , -0.000851806 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p0-10__H1D3A1r1_p111__H0D2A2r1_p101/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 1A2[1]
+1 1 1E2[1]
+ 0 -1  0A1[1]
+The rotated factor is:( -0.00620712 , 0.00404891 )
+The factor is:( -0.00620712 , 0.00404891 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p0-10__H0D3E2r1_p111__H0D2A2r1_p101/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 1A2[1]
+1 1 1E2[2]
+ 0 -1  0A1[1]
+The rotated factor is:( 0.00358368 , -0.00233764 )
+The factor is:( 0.00358368 , -0.00233764 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p0-10__H0D3E2r2_p111__H0D2A2r1_p101/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 1A2[1]
+1 1 1A1[1]
+ 0 -1  0A1[1]
+The rotated factor is:( -0.00506809 , 0.00330592 )
+The factor is:( -0.00506809 , 0.00330592 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p0-10__H0D3A1r1_p111__H0D2A2r1_p101/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0E2[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D4E2r1_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0E2[1]
+0 0 0T1[2]
+The rotated factor is:( -0.00696927 , 0 )
+The factor is:( -0.00696927 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D4E2r1_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0E2[1]
+0 0 0T1[3]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D4E2r1_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0E2[2]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D4E2r2_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0E2[2]
+0 0 0T1[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D4E2r2_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0E2[2]
+0 0 0T1[3]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D4E2r2_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0A1[1]
+0 0 0T1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r1_p000__H1D4A1r1_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0A1[1]
+0 0 0T1[2]
+The rotated factor is:( -0.00696927 , 0 )
+The factor is:( -0.00696927 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r2_p000__H0D4A1r1_p100__H0D4A2r1_p100/
+Ei: T1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p000_T1.jack
+1 0 0A2[1]
+1 0 0A1[1]
+0 0 0T1[3]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/T1r3_p000__H1D4A1r1_p100__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 0A2[1]
+1 1 0B1[1]
+ 0 -1  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p0-10__H1D2B1r1_p110__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 0A2[1]
+1 1 0B1[1]
+ 0 -1  0E2[2]
+The rotated factor is:( -0.00946764 , -0.00206965 )
+The factor is:( -0.00946764 , -0.00206965 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p0-10__H1D2B1r1_p110__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 0A2[1]
+1 1 0B2[1]
+ 0 -1  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p0-10__H1D2B2r1_p110__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 0A2[1]
+1 1 0B2[1]
+ 0 -1  0E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p0-10__H1D2B2r1_p110__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 0A2[1]
+1 1 0A1[1]
+ 0 -1  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p0-10__H1D2A1r1_p110__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+1 0 0A2[1]
+1 1 0A1[1]
+ 0 -1  0E2[2]
+The rotated factor is:( -0.00946764 , -0.00206965 )
+The factor is:( -0.00946764 , -0.00206965 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p0-10__H1D2A1r1_p110__H0D4A2r1_p100/
+Ei: D4A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 0A2[1]
+1 1 0B1[1]
+ 0 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p0-10__H0D2B1r1_p110__H0D4A2r1_p100/
+Ei: D4A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 0A2[1]
+1 1 0B2[1]
+ 0 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p0-10__H0D2B2r1_p110__H0D4A2r1_p100/
+Ei: D4A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+1 0 0A2[1]
+1 1 0A1[1]
+ 0 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p0-10__H0D2A1r1_p110__H0D4A2r1_p100/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 0 0A2[1]
+1 1 1E2[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( -0.00069661 , -0.00976573 )
+The factor is:( -0.00069661 , -0.00976573 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-1-1__H1D3E2r1_p111__H0D4A2r1_p100/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 0 0A2[1]
+1 1 1E2[2]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0.000402172 , 0.00563825 )
+The factor is:( 0.000402172 , 0.00563825 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-1-1__H1D3E2r2_p111__H0D4A2r1_p100/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+1 0 0A2[1]
+1 1 1A1[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( -0.000568779 , -0.00797369 )
+The factor is:( -0.000568779 , -0.00797369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p0-1-1__H1D3A1r1_p111__H0D4A2r1_p100/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 0 0A2[1]
+1 1 1E2[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( -0.003699 , -0.003699 )
+The factor is:( -0.003699 , -0.003699 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-1-1__H1D3E2r1_p111__H0D4A2r1_p100/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 0 0A2[1]
+1 1 1E2[2]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0.00213562 , 0.00213562 )
+The factor is:( 0.00213562 , 0.00213562 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-1-1__H1D3E2r2_p111__H0D4A2r1_p100/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+1 0 0A2[1]
+1 1 1A1[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( -0.00302022 , -0.00302022 )
+The factor is:( -0.00302022 , -0.00302022 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p0-1-1__H1D3A1r1_p111__H0D4A2r1_p100/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 0 0A2[1]
+1 1 1E2[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0.00319553 , 0.00519483 )
+The factor is:( 0.00319553 , 0.00519483 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-1-1__H0D3E2r1_p111__H0D4A2r1_p100/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 0 0A2[1]
+1 1 1E2[2]
+ 0 -1 -1A1[1]
+The rotated factor is:( -0.00184494 , -0.00299924 )
+The factor is:( -0.00184494 , -0.00299924 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-1-1__H0D3E2r2_p111__H0D4A2r1_p100/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+1 0 0A2[1]
+1 1 1A1[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0.00260914 , 0.00424156 )
+The factor is:( 0.00260914 , 0.00424156 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p0-1-1__H0D3A1r1_p111__H0D4A2r1_p100/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  0 -1A2[1]
+1 0 0E2[1]
+ 0  0 -1E2[1]
+The rotated factor is:( -0.00147537 , 0 )
+The factor is:( -0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p00-1__H1D4E2r1_p100__H0D2A2r1_p10-1/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  0 -1A2[1]
+1 0 0E2[1]
+ 0  0 -1E2[2]
+The rotated factor is:( -0.00147537 , 0 )
+The factor is:( -0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p00-1__H1D4E2r1_p100__H0D2A2r1_p10-1/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  0 -1A2[1]
+1 0 0E2[2]
+ 0  0 -1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p00-1__H1D4E2r2_p100__H0D2A2r1_p10-1/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  0 -1A2[1]
+1 0 0E2[2]
+ 0  0 -1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p00-1__H1D4E2r2_p100__H0D2A2r1_p10-1/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  0 -1A2[1]
+1 0 0A1[1]
+ 0  0 -1E2[1]
+The rotated factor is:( -0.00147537 , 0 )
+The factor is:( -0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p00-1__H1D4A1r1_p100__H0D2A2r1_p10-1/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1  0 -1A2[1]
+1 0 0A1[1]
+ 0  0 -1E2[2]
+The rotated factor is:( -0.00147537 , 0 )
+The factor is:( -0.00147537 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p00-1__H1D4A1r1_p100__H0D2A2r1_p10-1/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1  0 -1A2[1]
+1 0 0E2[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0.0072521 , 0.00152609 )
+The factor is:( 0.0072521 , 0.00152609 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p00-1__H0D4E2r1_p100__H0D2A2r1_p10-1/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1  0 -1A2[1]
+1 0 0E2[2]
+ 0  0 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p00-1__H0D4E2r2_p100__H0D2A2r1_p10-1/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1  0 -1A2[1]
+1 0 0A1[1]
+ 0  0 -1A1[1]
+The rotated factor is:( 0.0072521 , 0.00152609 )
+The factor is:( 0.0072521 , 0.00152609 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p00-1__H0D4A1r1_p100__H0D2A2r1_p10-1/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1  0 -1A2[1]
+1 1 0B1[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0.00238639 , -0.00668273 )
+The factor is:( 0.00238639 , -0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-1-1__H1D2B1r1_p110__H0D2A2r1_p10-1/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1  0 -1A2[1]
+1 1 0B2[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-1-1__H1D2B2r1_p110__H0D2A2r1_p10-1/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1  0 -1A2[1]
+1 1 0A1[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0.00238639 , -0.00668273 )
+The factor is:( 0.00238639 , -0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p0-1-1__H1D2A1r1_p110__H0D2A2r1_p10-1/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1  0 -1A2[1]
+1 1 0B1[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0.00176927 , 0.00176927 )
+The factor is:( 0.00176927 , 0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-1-1__H1D2B1r1_p110__H0D2A2r1_p10-1/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1  0 -1A2[1]
+1 1 0B2[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-1-1__H1D2B2r1_p110__H0D2A2r1_p10-1/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1  0 -1A2[1]
+1 1 0A1[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0.00176927 , 0.00176927 )
+The factor is:( 0.00176927 , 0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p0-1-1__H1D2A1r1_p110__H0D2A2r1_p10-1/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1  0 -1A2[1]
+1 1 0B1[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0.00839036 , 0.0019993 )
+The factor is:( 0.00839036 , 0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-1-1__H0D2B1r1_p110__H0D2A2r1_p10-1/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1  0 -1A2[1]
+1 1 0B2[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-1-1__H0D2B2r1_p110__H0D2A2r1_p10-1/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1  0 -1A2[1]
+1 1 0A1[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0.00839036 , 0.0019993 )
+The factor is:( 0.00839036 , 0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p0-1-1__H0D2A1r1_p110__H0D2A2r1_p10-1/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1 -1  1A2[1]
+1 0 0E2[1]
+ 0 -1  1B1[1]
+The rotated factor is:( -0.0016946 , 0.00641284 )
+The factor is:( -0.0016946 , 0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-11__H1D4E2r1_p100__H0D3A2r1_p1-11/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1 -1  1A2[1]
+1 0 0E2[2]
+ 0 -1  1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-11__H1D4E2r2_p100__H0D3A2r1_p1-11/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1 -1  1A2[1]
+1 0 0A1[1]
+ 0 -1  1B1[1]
+The rotated factor is:( -0.0016946 , 0.00641284 )
+The factor is:( -0.0016946 , 0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p0-11__H1D4A1r1_p100__H0D3A2r1_p1-11/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1 -1  1A2[1]
+1 0 0E2[1]
+ 0 -1  1B2[1]
+The rotated factor is:( 0.00131401 , 0 )
+The factor is:( 0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-11__H1D4E2r1_p100__H0D3A2r1_p1-11/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1 -1  1A2[1]
+1 0 0E2[2]
+ 0 -1  1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-11__H1D4E2r2_p100__H0D3A2r1_p1-11/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1 -1  1A2[1]
+1 0 0A1[1]
+ 0 -1  1B2[1]
+The rotated factor is:( 0.00131401 , 0 )
+The factor is:( 0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p0-11__H1D4A1r1_p100__H0D3A2r1_p1-11/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1 -1  1A2[1]
+1 0 0E2[1]
+ 0 -1  1A1[1]
+The rotated factor is:( -0.00593288 , -0.00141372 )
+The factor is:( -0.00593288 , -0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-11__H0D4E2r1_p100__H0D3A2r1_p1-11/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1 -1  1A2[1]
+1 0 0E2[2]
+ 0 -1  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-11__H0D4E2r2_p100__H0D3A2r1_p1-11/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1 -1  1A2[1]
+1 0 0A1[1]
+ 0 -1  1A1[1]
+The rotated factor is:( -0.00593288 , -0.00141372 )
+The factor is:( -0.00593288 , -0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p0-11__H0D4A1r1_p100__H0D3A2r1_p1-11/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1 -1  0A2[1]
+1 0 0E2[1]
+ 0 -1  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p0-10__H1D4E2r1_p100__H0D2A2r1_p1-10/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1 -1  0A2[1]
+1 0 0E2[1]
+ 0 -1  0E2[2]
+The rotated factor is:( -0.0081581 , -0.00147537 )
+The factor is:( -0.0081581 , -0.00147537 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p0-10__H1D4E2r1_p100__H0D2A2r1_p1-10/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1 -1  0A2[1]
+1 0 0E2[2]
+ 0 -1  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p0-10__H1D4E2r2_p100__H0D2A2r1_p1-10/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1 -1  0A2[1]
+1 0 0E2[2]
+ 0 -1  0E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p0-10__H1D4E2r2_p100__H0D2A2r1_p1-10/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1 -1  0A2[1]
+1 0 0A1[1]
+ 0 -1  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p0-10__H1D4A1r1_p100__H0D2A2r1_p1-10/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+ 1 -1  0A2[1]
+1 0 0A1[1]
+ 0 -1  0E2[2]
+The rotated factor is:( -0.0081581 , -0.00147537 )
+The factor is:( -0.0081581 , -0.00147537 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p0-10__H1D4A1r1_p100__H0D2A2r1_p1-10/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1 -1  0A2[1]
+1 0 0E2[1]
+ 0 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p0-10__H0D4E2r1_p100__H0D2A2r1_p1-10/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1 -1  0A2[1]
+1 0 0E2[2]
+ 0 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p0-10__H0D4E2r2_p100__H0D2A2r1_p1-10/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+ 1 -1  0A2[1]
+1 0 0A1[1]
+ 0 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p0-10__H0D4A1r1_p100__H0D2A2r1_p1-10/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1 -1 -1A2[1]
+1 0 0E2[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0.0016946 , -0.00641284 )
+The factor is:( 0.0016946 , -0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-1-1__H1D4E2r1_p100__H0D3A2r1_p1-1-1/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1 -1 -1A2[1]
+1 0 0E2[2]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p0-1-1__H1D4E2r2_p100__H0D3A2r1_p1-1-1/
+Ei: D2B1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 1 -1 -1A2[1]
+1 0 0A1[1]
+ 0 -1 -1B1[1]
+The rotated factor is:( 0.0016946 , -0.00641284 )
+The factor is:( 0.0016946 , -0.00641284 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p0-1-1__H1D4A1r1_p100__H0D3A2r1_p1-1-1/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1 -1 -1A2[1]
+1 0 0E2[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0.00131401 , 0 )
+The factor is:( 0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-1-1__H1D4E2r1_p100__H0D3A2r1_p1-1-1/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1 -1 -1A2[1]
+1 0 0E2[2]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p0-1-1__H1D4E2r2_p100__H0D3A2r1_p1-1-1/
+Ei: D2B2
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 1 -1 -1A2[1]
+1 0 0A1[1]
+ 0 -1 -1B2[1]
+The rotated factor is:( 0.00131401 , 0 )
+The factor is:( 0.00131401 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p0-1-1__H1D4A1r1_p100__H0D3A2r1_p1-1-1/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1 -1 -1A2[1]
+1 0 0E2[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0.00593288 , 0.00141372 )
+The factor is:( 0.00593288 , 0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-1-1__H0D4E2r1_p100__H0D3A2r1_p1-1-1/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1 -1 -1A2[1]
+1 0 0E2[2]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p0-1-1__H0D4E2r2_p100__H0D3A2r1_p1-1-1/
+Ei: D2A1
+Ef: D3A2
+Reading Ef: pion_proj0_p111_H0D3A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 1 -1 -1A2[1]
+1 0 0A1[1]
+ 0 -1 -1A1[1]
+The rotated factor is:( 0.00593288 , 0.00141372 )
+The factor is:( 0.00593288 , 0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p0-1-1__H0D4A1r1_p100__H0D3A2r1_p1-1-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 1 1A2[1]
+1 0 0E2[1]
+-1  1  1E2[1]
+The rotated factor is:( -0.00235836 , -0.00235836 )
+The factor is:( -0.00235836 , -0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-111__H1D4E2r1_p100__H0D2A2r1_p011/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 1 1A2[1]
+1 0 0E2[1]
+-1  1  1E2[2]
+The rotated factor is:( -0.00409482 , 0.0040848 )
+The factor is:( -0.00409482 , 0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-111__H1D4E2r1_p100__H0D2A2r1_p011/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 1 1A2[1]
+1 0 0E2[2]
+-1  1  1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-111__H1D4E2r2_p100__H0D2A2r1_p011/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 1 1A2[1]
+1 0 0E2[2]
+-1  1  1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-111__H1D4E2r2_p100__H0D2A2r1_p011/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 1 1A2[1]
+1 0 0A1[1]
+-1  1  1E2[1]
+The rotated factor is:( -0.00235836 , -0.00235836 )
+The factor is:( -0.00235836 , -0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-111__H1D4A1r1_p100__H0D2A2r1_p011/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 1 1A2[1]
+1 0 0A1[1]
+-1  1  1E2[2]
+The rotated factor is:( -0.00409482 , 0.0040848 )
+The factor is:( -0.00409482 , 0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-111__H1D4A1r1_p100__H0D2A2r1_p011/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 1 1A2[1]
+1 0 0E2[1]
+-1  1  1A1[1]
+The rotated factor is:( -0.00538518 , -0.00138047 )
+The factor is:( -0.00538518 , -0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-111__H0D4E2r1_p100__H0D2A2r1_p011/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 1 1A2[1]
+1 0 0E2[2]
+-1  1  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-111__H0D4E2r2_p100__H0D2A2r1_p011/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 1 1A2[1]
+1 0 0A1[1]
+-1  1  1A1[1]
+The rotated factor is:( -0.00538518 , -0.00138047 )
+The factor is:( -0.00538518 , -0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-111__H0D4A1r1_p100__H0D2A2r1_p011/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 1A2[1]
+1 1 0B1[1]
+-1  0  1B1[1]
+The rotated factor is:( 0.00238639 , 0.00668273 )
+The factor is:( 0.00238639 , 0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-101__H1D2B1r1_p110__H0D2A2r1_p011/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 1A2[1]
+1 1 0B2[1]
+-1  0  1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-101__H1D2B2r1_p110__H0D2A2r1_p011/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 1A2[1]
+1 1 0A1[1]
+-1  0  1B1[1]
+The rotated factor is:( 0.00238639 , 0.00668273 )
+The factor is:( 0.00238639 , 0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-101__H1D2A1r1_p110__H0D2A2r1_p011/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 1A2[1]
+1 1 0B1[1]
+-1  0  1B2[1]
+The rotated factor is:( -0.00176927 , 0.00176927 )
+The factor is:( -0.00176927 , 0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-101__H1D2B1r1_p110__H0D2A2r1_p011/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 1A2[1]
+1 1 0B2[1]
+-1  0  1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-101__H1D2B2r1_p110__H0D2A2r1_p011/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 1A2[1]
+1 1 0A1[1]
+-1  0  1B2[1]
+The rotated factor is:( -0.00176927 , 0.00176927 )
+The factor is:( -0.00176927 , 0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-101__H1D2A1r1_p110__H0D2A2r1_p011/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 1A2[1]
+1 1 0B1[1]
+-1  0  1A1[1]
+The rotated factor is:( -0.00839036 , -0.0019993 )
+The factor is:( -0.00839036 , -0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-101__H0D2B1r1_p110__H0D2A2r1_p011/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 1A2[1]
+1 1 0B2[1]
+-1  0  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-101__H0D2B2r1_p110__H0D2A2r1_p011/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 1A2[1]
+1 1 0A1[1]
+-1  0  1A1[1]
+The rotated factor is:( -0.00839036 , -0.0019993 )
+The factor is:( -0.00839036 , -0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-101__H0D2A1r1_p110__H0D2A2r1_p011/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 1A2[1]
+1 1 1E2[1]
+-1  0  0E2[1]
+The rotated factor is:( -0.00576865 , -0.00576865 )
+The factor is:( -0.00576865 , -0.00576865 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p-100__H1D3E2r1_p111__H0D2A2r1_p011/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 1A2[1]
+1 1 1E2[1]
+-1  0  0E2[2]
+The rotated factor is:( -0.010494 , 0.00104324 )
+The factor is:( -0.010494 , 0.00104324 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p-100__H1D3E2r1_p111__H0D2A2r1_p011/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 1A2[1]
+1 1 1E2[2]
+-1  0  0E2[1]
+The rotated factor is:( 0.00333053 , 0.00333053 )
+The factor is:( 0.00333053 , 0.00333053 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p-100__H1D3E2r2_p111__H0D2A2r1_p011/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 1A2[1]
+1 1 1E2[2]
+-1  0  0E2[2]
+The rotated factor is:( 0.00605874 , -0.000602318 )
+The factor is:( 0.00605874 , -0.000602318 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p-100__H1D3E2r2_p111__H0D2A2r1_p011/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 1A2[1]
+1 1 1A1[1]
+-1  0  0E2[1]
+The rotated factor is:( -0.00471008 , -0.00471008 )
+The factor is:( -0.00471008 , -0.00471008 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p-100__H1D3A1r1_p111__H0D2A2r1_p011/
+Ei: D4E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 1A2[1]
+1 1 1A1[1]
+-1  0  0E2[2]
+The rotated factor is:( -0.00856836 , 0.000851806 )
+The factor is:( -0.00856836 , 0.000851806 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p-100__H1D3A1r1_p111__H0D2A2r1_p011/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 1 1A2[1]
+1 1 1E2[1]
+-1  0  0A1[1]
+The rotated factor is:( -0.00404891 , -0.00620712 )
+The factor is:( -0.00404891 , -0.00620712 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p-100__H0D3E2r1_p111__H0D2A2r1_p011/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 1 1A2[1]
+1 1 1E2[2]
+-1  0  0A1[1]
+The rotated factor is:( 0.00233764 , 0.00358368 )
+The factor is:( 0.00233764 , 0.00358368 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p-100__H0D3E2r2_p111__H0D2A2r1_p011/
+Ei: D4A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 1 1A2[1]
+1 1 1A1[1]
+-1  0  0A1[1]
+The rotated factor is:( -0.00330592 , -0.00506809 )
+The factor is:( -0.00330592 , -0.00506809 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p-100__H0D3A1r1_p111__H0D2A2r1_p011/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 0A2[1]
+1 0 0E2[1]
+-1  1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-110__H1D4E2r1_p100__H0D4A2r1_p010/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 0A2[1]
+1 0 0E2[2]
+-1  1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-110__H1D4E2r2_p100__H0D4A2r1_p010/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 0A2[1]
+1 0 0A1[1]
+-1  1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-110__H1D4A1r1_p100__H0D4A2r1_p010/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 0A2[1]
+1 0 0E2[1]
+-1  1  0B2[1]
+The rotated factor is:( 0.00523117 , -0.00395369 )
+The factor is:( 0.00523117 , -0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-110__H1D4E2r1_p100__H0D4A2r1_p010/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 0A2[1]
+1 0 0E2[2]
+-1  1  0B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-110__H1D4E2r2_p100__H0D4A2r1_p010/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 0A2[1]
+1 0 0A1[1]
+-1  1  0B2[1]
+The rotated factor is:( 0.00523117 , -0.00395369 )
+The factor is:( 0.00523117 , -0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-110__H1D4A1r1_p100__H0D4A2r1_p010/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 0A2[1]
+1 0 0E2[1]
+-1  1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-110__H0D4E2r1_p100__H0D4A2r1_p010/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 0A2[1]
+1 0 0E2[2]
+-1  1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-110__H0D4E2r2_p100__H0D4A2r1_p010/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 0A2[1]
+1 0 0A1[1]
+-1  1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-110__H0D4A1r1_p100__H0D4A2r1_p010/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 0A2[1]
+1 1 0B1[1]
+-1  0  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p-100__H1D2B1r1_p110__H0D4A2r1_p010/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 0A2[1]
+1 1 0B1[1]
+-1  0  0E2[2]
+The rotated factor is:( -0.00946764 , 0.00206965 )
+The factor is:( -0.00946764 , 0.00206965 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p-100__H1D2B1r1_p110__H0D4A2r1_p010/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 0A2[1]
+1 1 0B2[1]
+-1  0  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p-100__H1D2B2r1_p110__H0D4A2r1_p010/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 0A2[1]
+1 1 0B2[1]
+-1  0  0E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p-100__H1D2B2r1_p110__H0D4A2r1_p010/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 0A2[1]
+1 1 0A1[1]
+-1  0  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p-100__H1D2A1r1_p110__H0D4A2r1_p010/
+Ei: D4E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 1 0A2[1]
+1 1 0A1[1]
+-1  0  0E2[2]
+The rotated factor is:( -0.00946764 , 0.00206965 )
+The factor is:( -0.00946764 , 0.00206965 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p-100__H1D2A1r1_p110__H0D4A2r1_p010/
+Ei: D4A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 1 0A2[1]
+1 1 0B1[1]
+-1  0  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p-100__H0D2B1r1_p110__H0D4A2r1_p010/
+Ei: D4A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 1 0A2[1]
+1 1 0B2[1]
+-1  0  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p-100__H0D2B2r1_p110__H0D4A2r1_p010/
+Ei: D4A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 1 0A2[1]
+1 1 0A1[1]
+-1  0  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p-100__H0D2A1r1_p110__H0D4A2r1_p010/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 0A2[1]
+1 1 1E2[1]
+-1  0 -1B1[1]
+The rotated factor is:( -0.00069661 , 0.00976573 )
+The factor is:( -0.00069661 , 0.00976573 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-10-1__H1D3E2r1_p111__H0D4A2r1_p010/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 0A2[1]
+1 1 1E2[2]
+-1  0 -1B1[1]
+The rotated factor is:( 0.000402172 , -0.00563825 )
+The factor is:( 0.000402172 , -0.00563825 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-10-1__H1D3E2r2_p111__H0D4A2r1_p010/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 1 0A2[1]
+1 1 1A1[1]
+-1  0 -1B1[1]
+The rotated factor is:( -0.000568779 , 0.00797369 )
+The factor is:( -0.000568779 , 0.00797369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-10-1__H1D3A1r1_p111__H0D4A2r1_p010/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 0A2[1]
+1 1 1E2[1]
+-1  0 -1B2[1]
+The rotated factor is:( -0.003699 , 0.003699 )
+The factor is:( -0.003699 , 0.003699 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-10-1__H1D3E2r1_p111__H0D4A2r1_p010/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 0A2[1]
+1 1 1E2[2]
+-1  0 -1B2[1]
+The rotated factor is:( 0.00213562 , -0.00213562 )
+The factor is:( 0.00213562 , -0.00213562 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-10-1__H1D3E2r2_p111__H0D4A2r1_p010/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 1 0A2[1]
+1 1 1A1[1]
+-1  0 -1B2[1]
+The rotated factor is:( -0.00302022 , 0.00302022 )
+The factor is:( -0.00302022 , 0.00302022 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-10-1__H1D3A1r1_p111__H0D4A2r1_p010/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 0A2[1]
+1 1 1E2[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0.00519483 , -0.00319553 )
+The factor is:( 0.00519483 , -0.00319553 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-10-1__H0D3E2r1_p111__H0D4A2r1_p010/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 0A2[1]
+1 1 1E2[2]
+-1  0 -1A1[1]
+The rotated factor is:( -0.00299924 , 0.00184494 )
+The factor is:( -0.00299924 , 0.00184494 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-10-1__H0D3E2r2_p111__H0D4A2r1_p010/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 1 0A2[1]
+1 1 1A1[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0.00424156 , -0.00260914 )
+The factor is:( 0.00424156 , -0.00260914 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-10-1__H0D3A1r1_p111__H0D4A2r1_p010/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  1 -1A2[1]
+1 0 0E2[1]
+-1  1 -1E2[1]
+The rotated factor is:( -0.00235836 , -0.00235836 )
+The factor is:( -0.00235836 , -0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-11-1__H1D4E2r1_p100__H0D2A2r1_p01-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  1 -1A2[1]
+1 0 0E2[1]
+-1  1 -1E2[2]
+The rotated factor is:( 0.00409482 , -0.0040848 )
+The factor is:( 0.00409482 , -0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-11-1__H1D4E2r1_p100__H0D2A2r1_p01-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  1 -1A2[1]
+1 0 0E2[2]
+-1  1 -1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-11-1__H1D4E2r2_p100__H0D2A2r1_p01-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  1 -1A2[1]
+1 0 0E2[2]
+-1  1 -1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-11-1__H1D4E2r2_p100__H0D2A2r1_p01-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  1 -1A2[1]
+1 0 0A1[1]
+-1  1 -1E2[1]
+The rotated factor is:( -0.00235836 , -0.00235836 )
+The factor is:( -0.00235836 , -0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-11-1__H1D4A1r1_p100__H0D2A2r1_p01-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  1 -1A2[1]
+1 0 0A1[1]
+-1  1 -1E2[2]
+The rotated factor is:( 0.00409482 , -0.0040848 )
+The factor is:( 0.00409482 , -0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-11-1__H1D4A1r1_p100__H0D2A2r1_p01-1/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0  1 -1A2[1]
+1 0 0E2[1]
+-1  1 -1A1[1]
+The rotated factor is:( 0.00538518 , 0.00138047 )
+The factor is:( 0.00538518 , 0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-11-1__H0D4E2r1_p100__H0D2A2r1_p01-1/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0  1 -1A2[1]
+1 0 0E2[2]
+-1  1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-11-1__H0D4E2r2_p100__H0D2A2r1_p01-1/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0  1 -1A2[1]
+1 0 0A1[1]
+-1  1 -1A1[1]
+The rotated factor is:( 0.00538518 , 0.00138047 )
+The factor is:( 0.00538518 , 0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-11-1__H0D4A1r1_p100__H0D2A2r1_p01-1/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0  1 -1A2[1]
+1 1 0B1[1]
+-1  0 -1B1[1]
+The rotated factor is:( 0.00238639 , 0.00668273 )
+The factor is:( 0.00238639 , 0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-10-1__H1D2B1r1_p110__H0D2A2r1_p01-1/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0  1 -1A2[1]
+1 1 0B2[1]
+-1  0 -1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-10-1__H1D2B2r1_p110__H0D2A2r1_p01-1/
+Ei: D2B1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0  1 -1A2[1]
+1 1 0A1[1]
+-1  0 -1B1[1]
+The rotated factor is:( 0.00238639 , 0.00668273 )
+The factor is:( 0.00238639 , 0.00668273 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-10-1__H1D2A1r1_p110__H0D2A2r1_p01-1/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0  1 -1A2[1]
+1 1 0B1[1]
+-1  0 -1B2[1]
+The rotated factor is:( 0.00176927 , -0.00176927 )
+The factor is:( 0.00176927 , -0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-10-1__H1D2B1r1_p110__H0D2A2r1_p01-1/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0  1 -1A2[1]
+1 1 0B2[1]
+-1  0 -1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-10-1__H1D2B2r1_p110__H0D2A2r1_p01-1/
+Ei: D2B2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0  1 -1A2[1]
+1 1 0A1[1]
+-1  0 -1B2[1]
+The rotated factor is:( 0.00176927 , -0.00176927 )
+The factor is:( 0.00176927 , -0.00176927 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-10-1__H1D2A1r1_p110__H0D2A2r1_p01-1/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0  1 -1A2[1]
+1 1 0B1[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0.00839036 , 0.0019993 )
+The factor is:( 0.00839036 , 0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-10-1__H0D2B1r1_p110__H0D2A2r1_p01-1/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0  1 -1A2[1]
+1 1 0B2[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-10-1__H0D2B2r1_p110__H0D2A2r1_p01-1/
+Ei: D2A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0  1 -1A2[1]
+1 1 0A1[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0.00839036 , 0.0019993 )
+The factor is:( 0.00839036 , 0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-10-1__H0D2A1r1_p110__H0D2A2r1_p01-1/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 1A2[1]
+1 0 0E2[1]
+-1  0  1B1[1]
+The rotated factor is:( 0 , 0.000985155 )
+The factor is:( 0 , 0.000985155 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-101__H1D4E2r1_p100__H0D4A2r1_p001/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 1A2[1]
+1 0 0E2[2]
+-1  0  1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-101__H1D4E2r2_p100__H0D4A2r1_p001/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 1A2[1]
+1 0 0A1[1]
+-1  0  1B1[1]
+The rotated factor is:( 0 , 0.000985155 )
+The factor is:( 0 , 0.000985155 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-101__H1D4A1r1_p100__H0D4A2r1_p001/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 1A2[1]
+1 0 0E2[1]
+-1  0  1B2[1]
+The rotated factor is:( 0 , 0.00395369 )
+The factor is:( 0 , 0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-101__H1D4E2r1_p100__H0D4A2r1_p001/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 1A2[1]
+1 0 0E2[2]
+-1  0  1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-101__H1D4E2r2_p100__H0D4A2r1_p001/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 1A2[1]
+1 0 0A1[1]
+-1  0  1B2[1]
+The rotated factor is:( 0 , 0.00395369 )
+The factor is:( 0 , 0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-101__H1D4A1r1_p100__H0D4A2r1_p001/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 1A2[1]
+1 0 0E2[1]
+-1  0  1A1[1]
+The rotated factor is:( -0.00593288 , -0.00141372 )
+The factor is:( -0.00593288 , -0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-101__H0D4E2r1_p100__H0D4A2r1_p001/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 1A2[1]
+1 0 0E2[2]
+-1  0  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-101__H0D4E2r2_p100__H0D4A2r1_p001/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 1A2[1]
+1 0 0A1[1]
+-1  0  1A1[1]
+The rotated factor is:( -0.00593288 , -0.00141372 )
+The factor is:( -0.00593288 , -0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-101__H0D4A1r1_p100__H0D4A2r1_p001/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 1A2[1]
+1 1 0B1[1]
+-1 -1  1E2[1]
+The rotated factor is:( -0.00478679 , 0 )
+The factor is:( -0.00478679 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-11__H1D2B1r1_p110__H0D4A2r1_p001/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 1A2[1]
+1 1 0B1[1]
+-1 -1  1E2[2]
+The rotated factor is:( -0.00327678 , 0 )
+The factor is:( -0.00327678 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-11__H1D2B1r1_p110__H0D4A2r1_p001/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 1A2[1]
+1 1 0B2[1]
+-1 -1  1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-11__H1D2B2r1_p110__H0D4A2r1_p001/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 1A2[1]
+1 1 0B2[1]
+-1 -1  1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-11__H1D2B2r1_p110__H0D4A2r1_p001/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 1A2[1]
+1 1 0A1[1]
+-1 -1  1E2[1]
+The rotated factor is:( -0.00478679 , 0 )
+The factor is:( -0.00478679 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-1-11__H1D2A1r1_p110__H0D4A2r1_p001/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 1A2[1]
+1 1 0A1[1]
+-1 -1  1E2[2]
+The rotated factor is:( -0.00327678 , 0 )
+The factor is:( -0.00327678 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-1-11__H1D2A1r1_p110__H0D4A2r1_p001/
+Ei: D3A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 0 1A2[1]
+1 1 0B1[1]
+-1 -1  1A1[1]
+The rotated factor is:( -0.0076158 , -0.00195227 )
+The factor is:( -0.0076158 , -0.00195227 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-11__H0D2B1r1_p110__H0D4A2r1_p001/
+Ei: D3A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 0 1A2[1]
+1 1 0B2[1]
+-1 -1  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-11__H0D2B2r1_p110__H0D4A2r1_p001/
+Ei: D3A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 0 1A2[1]
+1 1 0A1[1]
+-1 -1  1A1[1]
+The rotated factor is:( -0.0076158 , -0.00195227 )
+The factor is:( -0.0076158 , -0.00195227 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-1-11__H0D2A1r1_p110__H0D4A2r1_p001/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 1A2[1]
+1 1 1E2[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0.00906912 , 0 )
+The factor is:( 0.00906912 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-1-10__H1D3E2r1_p111__H0D4A2r1_p001/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 1A2[1]
+1 1 1E2[2]
+-1 -1  0B1[1]
+The rotated factor is:( -0.00523606 , 0 )
+The factor is:( -0.00523606 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-1-10__H1D3E2r2_p111__H0D4A2r1_p001/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 1A2[1]
+1 1 1A1[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0.00740491 , 0 )
+The factor is:( 0.00740491 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-1-10__H1D3A1r1_p111__H0D4A2r1_p001/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 1A2[1]
+1 1 1E2[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0.00739799 , 0 )
+The factor is:( 0.00739799 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-1-10__H1D3E2r1_p111__H0D4A2r1_p001/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 1A2[1]
+1 1 1E2[2]
+-1 -1  0B2[1]
+The rotated factor is:( -0.00427123 , 0 )
+The factor is:( -0.00427123 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-1-10__H1D3E2r2_p111__H0D4A2r1_p001/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 1A2[1]
+1 1 1A1[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0.00604043 , 0 )
+The factor is:( 0.00604043 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-1-10__H1D3A1r1_p111__H0D4A2r1_p001/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 1A2[1]
+1 1 1E2[1]
+-1 -1  0A1[1]
+The rotated factor is:( -0.00839036 , -0.0019993 )
+The factor is:( -0.00839036 , -0.0019993 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-1-10__H0D3E2r1_p111__H0D4A2r1_p001/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 1A2[1]
+1 1 1E2[2]
+-1 -1  0A1[1]
+The rotated factor is:( 0.00484418 , 0.0011543 )
+The factor is:( 0.00484418 , 0.0011543 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-1-10__H0D3E2r2_p111__H0D4A2r1_p001/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 1A2[1]
+1 1 1A1[1]
+-1 -1  0A1[1]
+The rotated factor is:( -0.0068507 , -0.00163242 )
+The factor is:( -0.0068507 , -0.00163242 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-1-10__H0D3A1r1_p111__H0D4A2r1_p001/
+Ei: D4E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 0 0A1[1]
+1 0 0E2[1]
+-1  0  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p-100__H1D4E2r1_p100__A1r1_p000/
+Ei: D4E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 0 0A1[1]
+1 0 0E2[1]
+-1  0  0E2[2]
+The rotated factor is:( -0.0031712 , 0 )
+The factor is:( -0.0031712 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p-100__H1D4E2r1_p100__A1r1_p000/
+Ei: D4E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 0 0A1[1]
+1 0 0E2[2]
+-1  0  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r1_p-100__H1D4E2r2_p100__A1r1_p000/
+Ei: D4E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 0 0A1[1]
+1 0 0E2[2]
+-1  0  0E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4E2r2_p-100__H1D4E2r2_p100__A1r1_p000/
+Ei: D4E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 0 0A1[1]
+1 0 0A1[1]
+-1  0  0E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r1_p-100__H1D4A1r1_p100__A1r1_p000/
+Ei: D4E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H1D4E2.jack
+0 0 0A1[1]
+1 0 0A1[1]
+-1  0  0E2[2]
+The rotated factor is:( -0.0031712 , 0 )
+The factor is:( -0.0031712 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4E2r2_p-100__H1D4A1r1_p100__A1r1_p000/
+Ei: D4A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 0 0A1[1]
+1 0 0E2[1]
+-1  0  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p-100__H0D4E2r1_p100__A1r1_p000/
+Ei: D4A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 0 0A1[1]
+1 0 0E2[2]
+-1  0  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D4A1r1_p-100__H0D4E2r2_p100__A1r1_p000/
+Ei: D4A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p100_H0D4A1.jack
+0 0 0A1[1]
+1 0 0A1[1]
+-1  0  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D4A1r1_p-100__H0D4A1r1_p100__A1r1_p000/
+Ei: D2B1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 0A1[1]
+1 1 0B1[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-1-10__H1D2B1r1_p110__A1r1_p000/
+Ei: D2B1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 0A1[1]
+1 1 0B2[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-1-10__H1D2B2r1_p110__A1r1_p000/
+Ei: D2B1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+0 0 0A1[1]
+1 1 0A1[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-1-10__H1D2A1r1_p110__A1r1_p000/
+Ei: D2B2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 0A1[1]
+1 1 0B1[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0.00448475 , 0 )
+The factor is:( 0.00448475 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-1-10__H1D2B1r1_p110__A1r1_p000/
+Ei: D2B2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 0A1[1]
+1 1 0B2[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-1-10__H1D2B2r1_p110__A1r1_p000/
+Ei: D2B2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+0 0 0A1[1]
+1 1 0A1[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0.00448475 , 0 )
+The factor is:( 0.00448475 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-1-10__H1D2A1r1_p110__A1r1_p000/
+Ei: D2A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 0A1[1]
+1 1 0B1[1]
+-1 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-1-10__H0D2B1r1_p110__A1r1_p000/
+Ei: D2A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 0A1[1]
+1 1 0B2[1]
+-1 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-1-10__H0D2B2r1_p110__A1r1_p000/
+Ei: D2A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+0 0 0A1[1]
+1 1 0A1[1]
+-1 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-1-10__H0D2A1r1_p110__A1r1_p000/
+Ei: D3E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 0A1[1]
+1 1 1E2[1]
+-1 -1 -1E2[1]
+The rotated factor is:( 0.0031712 , 0 )
+The factor is:( 0.0031712 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-1-1__H1D3E2r1_p111__A1r1_p000/
+Ei: D3E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 0A1[1]
+1 1 1E2[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0.00549268 , 0 )
+The factor is:( 0.00549268 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-1-1__H1D3E2r1_p111__A1r1_p000/
+Ei: D3E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 0A1[1]
+1 1 1E2[2]
+-1 -1 -1E2[1]
+The rotated factor is:( -0.00183089 , 0 )
+The factor is:( -0.00183089 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-1-1__H1D3E2r2_p111__A1r1_p000/
+Ei: D3E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 0A1[1]
+1 1 1E2[2]
+-1 -1 -1E2[2]
+The rotated factor is:( -0.0031712 , 0 )
+The factor is:( -0.0031712 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-1-1__H1D3E2r2_p111__A1r1_p000/
+Ei: D3E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 0A1[1]
+1 1 1A1[1]
+-1 -1 -1E2[1]
+The rotated factor is:( 0.00258927 , 0 )
+The factor is:( 0.00258927 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-1-1-1__H1D3A1r1_p111__A1r1_p000/
+Ei: D3E2
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+0 0 0A1[1]
+1 1 1A1[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0.00448475 , 0 )
+The factor is:( 0.00448475 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-1-1-1__H1D3A1r1_p111__A1r1_p000/
+Ei: D3A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 0 0A1[1]
+1 1 1E2[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-1-1__H0D3E2r1_p111__A1r1_p000/
+Ei: D3A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 0 0A1[1]
+1 1 1E2[2]
+-1 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-1-1__H0D3E2r2_p111__A1r1_p000/
+Ei: D3A1
+Ef: A1
+Reading Ef: pion_proj0_p000_A1.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+0 0 0A1[1]
+1 1 1A1[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-1-1-1__H0D3A1r1_p111__A1r1_p000/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0  0 -1A2[1]
+1 0 0E2[1]
+-1  0 -1B1[1]
+The rotated factor is:( 0 , 0.000985155 )
+The factor is:( 0 , 0.000985155 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-10-1__H1D4E2r1_p100__H0D4A2r1_p00-1/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0  0 -1A2[1]
+1 0 0E2[2]
+-1  0 -1B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-10-1__H1D4E2r2_p100__H0D4A2r1_p00-1/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0  0 -1A2[1]
+1 0 0A1[1]
+-1  0 -1B1[1]
+The rotated factor is:( 0 , 0.000985155 )
+The factor is:( 0 , 0.000985155 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-10-1__H1D4A1r1_p100__H0D4A2r1_p00-1/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0  0 -1A2[1]
+1 0 0E2[1]
+-1  0 -1B2[1]
+The rotated factor is:( 0 , -0.00395369 )
+The factor is:( 0 , -0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-10-1__H1D4E2r1_p100__H0D4A2r1_p00-1/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0  0 -1A2[1]
+1 0 0E2[2]
+-1  0 -1B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-10-1__H1D4E2r2_p100__H0D4A2r1_p00-1/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0  0 -1A2[1]
+1 0 0A1[1]
+-1  0 -1B2[1]
+The rotated factor is:( 0 , -0.00395369 )
+The factor is:( 0 , -0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-10-1__H1D4A1r1_p100__H0D4A2r1_p00-1/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0  0 -1A2[1]
+1 0 0E2[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0.00593288 , 0.00141372 )
+The factor is:( 0.00593288 , 0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-10-1__H0D4E2r1_p100__H0D4A2r1_p00-1/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0  0 -1A2[1]
+1 0 0E2[2]
+-1  0 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-10-1__H0D4E2r2_p100__H0D4A2r1_p00-1/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0  0 -1A2[1]
+1 0 0A1[1]
+-1  0 -1A1[1]
+The rotated factor is:( 0.00593288 , 0.00141372 )
+The factor is:( 0.00593288 , 0.00141372 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-10-1__H0D4A1r1_p100__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  0 -1A2[1]
+1 1 0B1[1]
+-1 -1 -1E2[1]
+The rotated factor is:( -0.00478679 , 0 )
+The factor is:( -0.00478679 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-1-1__H1D2B1r1_p110__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  0 -1A2[1]
+1 1 0B1[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0.00327678 , 0 )
+The factor is:( 0.00327678 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-1-1__H1D2B1r1_p110__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  0 -1A2[1]
+1 1 0B2[1]
+-1 -1 -1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-1-1__H1D2B2r1_p110__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  0 -1A2[1]
+1 1 0B2[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-1-1__H1D2B2r1_p110__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  0 -1A2[1]
+1 1 0A1[1]
+-1 -1 -1E2[1]
+The rotated factor is:( -0.00478679 , 0 )
+The factor is:( -0.00478679 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-1-1-1__H1D2A1r1_p110__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0  0 -1A2[1]
+1 1 0A1[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0.00327678 , 0 )
+The factor is:( 0.00327678 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-1-1-1__H1D2A1r1_p110__H0D4A2r1_p00-1/
+Ei: D3A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0  0 -1A2[1]
+1 1 0B1[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0.0076158 , 0.00195227 )
+The factor is:( 0.0076158 , 0.00195227 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-1-1__H0D2B1r1_p110__H0D4A2r1_p00-1/
+Ei: D3A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0  0 -1A2[1]
+1 1 0B2[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-1-1__H0D2B2r1_p110__H0D4A2r1_p00-1/
+Ei: D3A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0  0 -1A2[1]
+1 1 0A1[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0.0076158 , 0.00195227 )
+The factor is:( 0.0076158 , 0.00195227 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-1-1-1__H0D2A1r1_p110__H0D4A2r1_p00-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1  1A2[1]
+1 0 0E2[1]
+-1 -1  1E2[1]
+The rotated factor is:( -0.00235836 , 0.00235836 )
+The factor is:( -0.00235836 , 0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-11__H1D4E2r1_p100__H0D2A2r1_p0-11/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1  1A2[1]
+1 0 0E2[1]
+-1 -1  1E2[2]
+The rotated factor is:( -0.00409482 , -0.0040848 )
+The factor is:( -0.00409482 , -0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-11__H1D4E2r1_p100__H0D2A2r1_p0-11/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1  1A2[1]
+1 0 0E2[2]
+-1 -1  1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-11__H1D4E2r2_p100__H0D2A2r1_p0-11/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1  1A2[1]
+1 0 0E2[2]
+-1 -1  1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-11__H1D4E2r2_p100__H0D2A2r1_p0-11/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1  1A2[1]
+1 0 0A1[1]
+-1 -1  1E2[1]
+The rotated factor is:( -0.00235836 , 0.00235836 )
+The factor is:( -0.00235836 , 0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-1-11__H1D4A1r1_p100__H0D2A2r1_p0-11/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1  1A2[1]
+1 0 0A1[1]
+-1 -1  1E2[2]
+The rotated factor is:( -0.00409482 , -0.0040848 )
+The factor is:( -0.00409482 , -0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-1-11__H1D4A1r1_p100__H0D2A2r1_p0-11/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0 -1  1A2[1]
+1 0 0E2[1]
+-1 -1  1A1[1]
+The rotated factor is:( -0.00538518 , -0.00138047 )
+The factor is:( -0.00538518 , -0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-11__H0D4E2r1_p100__H0D2A2r1_p0-11/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0 -1  1A2[1]
+1 0 0E2[2]
+-1 -1  1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-11__H0D4E2r2_p100__H0D2A2r1_p0-11/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0 -1  1A2[1]
+1 0 0A1[1]
+-1 -1  1A1[1]
+The rotated factor is:( -0.00538518 , -0.00138047 )
+The factor is:( -0.00538518 , -0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-1-11__H0D4A1r1_p100__H0D2A2r1_p0-11/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0 -1  0A2[1]
+1 0 0E2[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-1-10__H1D4E2r1_p100__H0D4A2r1_p0-10/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0 -1  0A2[1]
+1 0 0E2[2]
+-1 -1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B1r1_p-1-10__H1D4E2r2_p100__H0D4A2r1_p0-10/
+Ei: D2B1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B1.jack
+ 0 -1  0A2[1]
+1 0 0A1[1]
+-1 -1  0B1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B1r1_p-1-10__H1D4A1r1_p100__H0D4A2r1_p0-10/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0 -1  0A2[1]
+1 0 0E2[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0.00523117 , 0.00395369 )
+The factor is:( 0.00523117 , 0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-1-10__H1D4E2r1_p100__H0D4A2r1_p0-10/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0 -1  0A2[1]
+1 0 0E2[2]
+-1 -1  0B2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2B2r1_p-1-10__H1D4E2r2_p100__H0D4A2r1_p0-10/
+Ei: D2B2
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H1D2B2.jack
+ 0 -1  0A2[1]
+1 0 0A1[1]
+-1 -1  0B2[1]
+The rotated factor is:( 0.00523117 , 0.00395369 )
+The factor is:( 0.00523117 , 0.00395369 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2B2r1_p-1-10__H1D4A1r1_p100__H0D4A2r1_p0-10/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0 -1  0A2[1]
+1 0 0E2[1]
+-1 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-1-10__H0D4E2r1_p100__H0D4A2r1_p0-10/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0 -1  0A2[1]
+1 0 0E2[2]
+-1 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D2A1r1_p-1-10__H0D4E2r2_p100__H0D4A2r1_p0-10/
+Ei: D2A1
+Ef: D4A2
+Reading Ef: pion_proj0_p100_H0D4A2.jack
+Reading Ei: rho_proj0_p110_H0D2A1.jack
+ 0 -1  0A2[1]
+1 0 0A1[1]
+-1 -1  0A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D2A1r1_p-1-10__H0D4A1r1_p100__H0D4A2r1_p0-10/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1 -1A2[1]
+1 0 0E2[1]
+-1 -1 -1E2[1]
+The rotated factor is:( -0.00235836 , 0.00235836 )
+The factor is:( -0.00235836 , 0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-1-1__H1D4E2r1_p100__H0D2A2r1_p0-1-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1 -1A2[1]
+1 0 0E2[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0.00409482 , 0.0040848 )
+The factor is:( 0.00409482 , 0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-1-1__H1D4E2r1_p100__H0D2A2r1_p0-1-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1 -1A2[1]
+1 0 0E2[2]
+-1 -1 -1E2[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r1_p-1-1-1__H1D4E2r2_p100__H0D2A2r1_p0-1-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1 -1A2[1]
+1 0 0E2[2]
+-1 -1 -1E2[2]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3E2r2_p-1-1-1__H1D4E2r2_p100__H0D2A2r1_p0-1-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1 -1A2[1]
+1 0 0A1[1]
+-1 -1 -1E2[1]
+The rotated factor is:( -0.00235836 , 0.00235836 )
+The factor is:( -0.00235836 , 0.00235836 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r1_p-1-1-1__H1D4A1r1_p100__H0D2A2r1_p0-1-1/
+Ei: D3E2
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H1D3E2.jack
+ 0 -1 -1A2[1]
+1 0 0A1[1]
+-1 -1 -1E2[2]
+The rotated factor is:( 0.00409482 , 0.0040848 )
+The factor is:( 0.00409482 , 0.0040848 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3E2r2_p-1-1-1__H1D4A1r1_p100__H0D2A2r1_p0-1-1/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0 -1 -1A2[1]
+1 0 0E2[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0.00538518 , 0.00138047 )
+The factor is:( 0.00538518 , 0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-1-1__H0D4E2r1_p100__H0D2A2r1_p0-1-1/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0 -1 -1A2[1]
+1 0 0E2[2]
+-1 -1 -1A1[1]
+The rotated factor is:( 0 , 0 )
+The factor is:( 0 , 0 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H1D3A1r1_p-1-1-1__H0D4E2r2_p100__H0D2A2r1_p0-1-1/
+Ei: D3A1
+Ef: D2A2
+Reading Ef: pion_proj0_p110_H0D2A2.jack
+Reading Ei: rho_proj0_p111_H0D3A1.jack
+ 0 -1 -1A2[1]
+1 0 0A1[1]
+-1 -1 -1A1[1]
+The rotated factor is:( 0.00538518 , 0.00138047 )
+The factor is:( 0.00538518 , 0.00138047 )
+No Phase at all
+/Users/archanar/LQCDSoftware/Kinematic_factor/compute_Kfactors/build/runs/pipi_pigamma_check/H0D3A1r1_p-1-1-1__H0D4A1r1_p100__H0D2A2r1_p0-1-1/
+342

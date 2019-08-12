@@ -122,6 +122,8 @@ int main(int argc, char** argv){
       
 
       key.npoint[i].irrep.irrep_mom.row = row_tmp;
+      // if(i != 2){mom_tmp[1] = -mom_tmp[1]; mom_tmp[2] = -mom_tmp[2]; mom_tmp[3] = -mom_tmp[3]; cout << "curr";}
+
       key.npoint[i].irrep.irrep_mom.mom = KfUt::ToArray::toArray(mom_tmp);
       
       canon_mom_tmp = Hadron::canonicalOrder(KfUt::ToArray::toArray(mom_tmp));
@@ -130,8 +132,19 @@ int main(int argc, char** argv){
       op_tmp.ops.resize(1);
 
       
-      if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("Kneg_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp) + irrep_tmp, "", canon_mom_tmp);}
-      else{op_tmp.ops[1]= KeyParticleOp_t("Kneg_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
+      if(i == 1){
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("pion_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t("pion_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
+      }
+      else if(i == 2){
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("omegal_rhoxD0_J0__J1_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t("omegal_rhoxD0_J0__J1_" + irrep_tmp, "", canon_mom_tmp);}        
+      }
+      else if(i == 3){
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("rho_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t("rho_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}        
+      }
+
       key.npoint[i].irrep.op = op_tmp;
 
       }

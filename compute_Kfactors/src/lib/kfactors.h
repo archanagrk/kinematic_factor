@@ -17,8 +17,6 @@
 #include "kfac_params.h"
 #include "kfactor_pigammarho.h"
 
-
-
 // Namespace of the dependencies
 using namespace LittleGrp;
 using namespace Subd;

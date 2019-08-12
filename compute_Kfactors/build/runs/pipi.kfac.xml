@@ -15,7 +15,7 @@
     <ensemble>test</ensemble>
     <Layout>
       <decayDir>3</decayDir>
-      <lattSize>16 16 16 128</lattSize>
+      <lattSize>20 20 20 128</lattSize>
     </Layout>
     <NPointList>
       <elem>

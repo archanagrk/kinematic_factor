@@ -1,7 +1,7 @@
 #ifndef __HADRON3PT__
 #define __HADRON3PT__
 
-#include <Eigen/Dense>
+#include </usr/local/Eigen/Dense>
 
 //adat
 #include "io/adat_io.h"
@@ -65,11 +65,12 @@ struct db{
 
 struct hadron{
 
+  string name;
   int twoJ;
   int P;
   int ell;
-  double msq;
   double max_mom;
+  ADAT::Array1dO<string> elab;
 
 };
 
