@@ -67,11 +67,14 @@ namespace PolVec {
     complex<double> z_i(0.,1.);
     complex<double> WignerD;
 
-    for(int m = -2; m < 2; m = m+2){
-      pol_z = -z_i * (getPolz4(zero,m,zero)).conjugate();
+    for(int m = -2; m <= 2; m = m+2){
+      //pol_z = -z_i * (getPolz4(zero,m, mass_sq)).conjugate();
+      pol_z = -1 * (getPolz4(zero,m, mass_sq));
       WignerD = conj(Hadron::Wigner_D(J, m, two_helicity, phi, theta, psi));
       pol += WignerD*pol_z;
     }
+
+
     return pol;
   }
   else{

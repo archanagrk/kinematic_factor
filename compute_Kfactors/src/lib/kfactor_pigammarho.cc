@@ -13,7 +13,7 @@ complex<double> KfacSSV::operator()( const KFacParams& params ) const {
     for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
 
       int e[] = {i,j,k,l};
-      Coeff += LevCiv::LeviCivita(e,4) * (params.qp(j,0)) * (params.qm(k,0)) * sum_sub(l,0);
+      Coeff += LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sum_sub(j,0);
     }}
   }
 
@@ -32,7 +32,7 @@ complex<double> KfacSVV::operator()( const KFacParams& params ) const {
     for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
 
       int e[] = {i,j,k,l};
-      Coeff += LevCiv::LeviCivita(e,4) * (params.qp(j,0)) * (params.qm(k,0)) * sub_sum(l,i);
+      Coeff += LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sub_sum(j,i);
 
     }}
   }}

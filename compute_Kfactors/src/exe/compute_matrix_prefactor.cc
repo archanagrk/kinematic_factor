@@ -17,7 +17,7 @@ int main(int argc, char** argv){
   //=================
 
   if( argc != 3 ){
-    cerr << "get_non_zero_prefactors <hadron_xml> <output_xml>\n ";
+    cerr << "get_prefactors <hadron_xml> <output_xml>\n ";
     exit(1); }
     
   std::string in;      {istringstream a(argv[1]); a >> in;};
@@ -151,7 +151,7 @@ int main(int argc, char** argv){
                     mom_tmp[0] = l-i; mom_tmp[1] = m-j; mom_tmp[2] = n-k;
                     XMLArray::Array<int> mom_curr_can = Hadron::canonicalOrder(mom_tmp);
 
-                    if((mom_tmp == mom_curr_can) && (mom_curr_sq != 0))  
+                    if((mom_tmp == mom_curr_can))  //&& (mom_curr_sq != 0)
                     {
 
                     r_phase = Ph::phaseFactor(two_J1, two_J3, two_J2, mom1, mom3, compute_phase=="true"?true:false);
@@ -171,7 +171,7 @@ int main(int argc, char** argv){
                     string LG_curr = generateLittleGroup(mom_curr);
 
 
-                    //the ref angles for each mom from adat
+                    //the ref angles for each mom from adat using the convention in 10.1103/PhysRevD.85.014507
 		                std::vector<double> r_r1     = refAngles(r_phase.mom1);
 		                std::vector<double> r_r_curr = refAngles(r_mom_curr);
 		                std::vector<double> r_r3     = refAngles(r_phase.mom2);     
@@ -211,6 +211,9 @@ int main(int argc, char** argv){
                               for(int row3 = 1; row3 <= irrepRows(*q); row3++){
 
                                 rep1.row = row1; rep3.row = row3; rep_curr.row = row_curr;
+
+
+                                // Find the ELab jackknife file for the source and sink
 
                                 string E1str, E3str, E1_name, E3_name;
                                 if(LG1 == "Oh"){E1str = rep1.irrep;}
@@ -254,32 +257,32 @@ int main(int argc, char** argv){
                                   E3 = SEMBLE::toScalar(Elab3.elem(bin));
 
                                   double m1_sq, m3_sq;
-                                  m1_sq = pow(E1,2) - (mom_coeff*mom1_sq);
-                                  m3_sq = pow(E3,2) - (mom_coeff*mom3_sq);
+                                  m1_sq = pow(E1,2) - (mom_coeff_sq*mom1_sq);
+                                  m3_sq = pow(E3,2) - (mom_coeff_sq*mom3_sq);
 
                                   VectorXd  qp(4,1);  VectorXd  qm(4,1);    // q+ = (p1-p2) q- = (p1+p2)
                                   VectorXd  r_qp(4,1);  VectorXd  r_qm(4,1);    // q+ = R(p1-p2) q- = R(p1+p2)
 
                                   
-                                  // r_qp << (sqrt(m3_sq+ mom_in_sq)+sqrt(m1_sq+mom_out_sq)),-mom_coeff*(r_phase.mom1(0) + r_phase.mom2(0)),
-                                  //                                             -mom_coeff*(r_phase.mom1(1) + r_phase.mom2(1)),-mom_coeff*(r_phase.mom1(2) + r_phase.mom2(2));
+                                  r_qp << (E3+E1),-mom_coeff*(r_phase.mom1(0) + r_phase.mom2(0)),
+                                                                              -mom_coeff*(r_phase.mom1(1) + r_phase.mom2(1)),-mom_coeff*(r_phase.mom1(2) + r_phase.mom2(2));
 
-                                  // r_qm  << (sqrt(m1_sq+mom_out_sq)-sqrt(m3_sq+mom_in_sq)),-mom_coeff*(-r_phase.mom2(0)+r_phase.mom1(0)),
-                                  //                                             -mom_coeff*(-r_phase.mom2(1)+r_phase.mom1(1)),-mom_coeff*(-r_phase.mom2(2)+r_phase.mom1(2));
-
-
-                                  // qp << (sqrt(m3_sq+mom_in_sq)+sqrt(m1_sq+mom_out_sq)),-mom_coeff*(mom1(0) + mom3(0)),-mom_coeff*(mom1(1) + mom3(1)),-mom_coeff*(mom1(2) + mom3(2));
-                                  // qm  << (sqrt(m1_sq+mom_out_sq)-sqrt(m3_sq+mom_in_sq)),-mom_coeff*(-mom3(0)+mom1(0)),-mom_coeff*(-mom3(1)+mom1(1)),-mom_coeff*(-mom3(2)+mom1(2));
-
-                                  r_qp << (E3),-mom_coeff*(r_phase.mom2(0)),
-                                                                              -mom_coeff*(r_phase.mom2(1)),-mom_coeff*(r_phase.mom2(2));
-
-                                  r_qm  << (E1),-mom_coeff*(r_phase.mom1(0)),
-                                                                              -mom_coeff*(r_phase.mom1(1)),-mom_coeff*(r_phase.mom1(2));
+                                  r_qm  << (E1 - E3),-mom_coeff*(-r_phase.mom2(0)+r_phase.mom1(0)),
+                                                                              -mom_coeff*(-r_phase.mom2(1)+r_phase.mom1(1)),-mom_coeff*(-r_phase.mom2(2)+r_phase.mom1(2));
 
 
-                                  qp << (E3),-mom_coeff*(mom3(0)),-mom_coeff*(mom3(1)),-mom_coeff*(mom3(2));
-                                  qm  << (E1),-mom_coeff*(mom1(0)),-mom_coeff*(mom1(1)),-mom_coeff*(mom1(2));
+                                  qp << (E3 + E1),-mom_coeff*(mom1(0) + mom3(0)),-mom_coeff*(mom1(1) + mom3(1)),-mom_coeff*(mom1(2) + mom3(2));
+                                  qm  << (E1 - E3),-mom_coeff*(-mom3(0)+mom1(0)),-mom_coeff*(-mom3(1)+mom1(1)),-mom_coeff*(-mom3(2)+mom1(2));
+
+                                  // r_qp << (E3),-mom_coeff*(r_phase.mom2(0)),
+                                  //                                             -mom_coeff*(r_phase.mom2(1)),-mom_coeff*(r_phase.mom2(2));
+
+                                  // r_qm  << (E1),-mom_coeff*(r_phase.mom1(0)),
+                                  //                                             -mom_coeff*(r_phase.mom1(1)),-mom_coeff*(r_phase.mom1(2));
+
+
+                                  // qp << (E3),-mom_coeff*(mom3(0)),-mom_coeff*(mom3(1)),-mom_coeff*(mom3(2));
+                                  // qm  << (E1),-mom_coeff*(mom1(0)),-mom_coeff*(mom1(1)),-mom_coeff*(mom1(2));
 
                                   double m_curr_sq =  pow(E1 - E3 ,2) - (mom_coeff_sq*mom_curr.squaredNorm());                                  
 
@@ -293,7 +296,6 @@ int main(int argc, char** argv){
                                   map< int, Eigen::MatrixXcd > r_Sub3    = Subduce_with_pol(mom_in_sq, m3_sq, two_J3 , rep3, LG3, r_r3[0], r_r3[1], r_r3[2], false);
                                   map< int, Eigen::MatrixXcd > r_SubCurr = Subduce_with_pol(mom_c_sq, m_curr_sq, two_J2 , rep_curr, LG_curr, r_curr[0], r_curr[1], r_curr[2], true);
 
-
                                   KFacParams* kfac_params   = new KFacParams(Sub1,SubCurr,Sub3,phase,qp,qm);
                                   KFacParams* r_kfac_params = new KFacParams(r_Sub1,SubCurr,r_Sub3,r_phase,r_qp,r_qm);
 
@@ -304,8 +306,9 @@ int main(int argc, char** argv){
                                   kfac   = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
                                   r_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
 
-                                  Coeff   = (*kfac)(*kfac_params);
-                                  r_Coeff = (*r_kfac)(*r_kfac_params); 
+                                  complex<double> norm = 2/(sqrt(m1_sq) + sqrt(m3_sq));
+                                  Coeff   = (*kfac)(*kfac_params) * norm;
+                                  r_Coeff = (*r_kfac)(*r_kfac_params) * norm; 
 
                                   // prefactor.elem(bin).real() = Coeff.real();
                                   // prefactor.elem(bin).imag() = Coeff.imag();  
@@ -338,6 +341,9 @@ int main(int argc, char** argv){
                                 //============================
                                 //======= DIR NAMING ======== 
 
+                                /* Creates a subdirectory based on the irrep names. The kfac jackknife file for the specific irrep is stored 
+                                in the subdirectory and when the fitting code is run, it uses the same directory naming to access the kfac files */
+
                                 string name;
 
                                 {
@@ -359,7 +365,7 @@ int main(int argc, char** argv){
                                     if(pts == 1){
                                       string mst = "_p" + std::to_string(l-i) + std::to_string(m-j) + std::to_string(n-k);
                                       if(mom_curr_sq != 0){
-                                        tmp_nm = "__H"+ std::to_string(get<1>(two_abs_lam)/2) + LG_curr + rep_curr.irrep + "r" + std::to_string(rep_curr.row) + mst;
+                                        tmp_nm = "__H"+ std::to_string(get<2>(two_abs_lam)/2) + LG_curr + rep_curr.irrep + "r" + std::to_string(rep_curr.row) + mst;
                                       }
                                       else{
                                         tmp_nm = "__" + rep_curr.irrep + "r" + std::to_string(rep_curr.row) + mst;
@@ -370,7 +376,7 @@ int main(int argc, char** argv){
                                       string mst = "_p" + std::to_string(-l) + std::to_string(-m) + std::to_string(-n);
 
                                       if(mom3_sq != 0){
-                                        tmp_nm = "H"+ std::to_string(get<2>(two_abs_lam)/2) + LG3 + rep3.irrep + "r" + std::to_string(rep3.row) + mst;
+                                        tmp_nm = "H"+ std::to_string(get<1>(two_abs_lam)/2) + LG3 + rep3.irrep + "r" + std::to_string(rep3.row) + mst;
                                       }
                                       else{
                                         tmp_nm = rep3.irrep + "r" + std::to_string(rep3.row) + mst;
@@ -401,13 +407,12 @@ int main(int argc, char** argv){
                                     write(outfile.str(), r_prefactor);
                                   }
 
-                                  //for(int rid = 0; rid < prefactor.size(); rid++){cout << "pref" << prefactor.elem(rid) << endl;}
 
 
                                   //=================
                                   //WRITE THE CORR FN
                                   //=================
-                                  
+                                  // for debugging
                                   {
                                     // string corrfn = "";
                                     // string tmpfn;
@@ -456,7 +461,7 @@ int main(int argc, char** argv){
                                   //WRITE THE OUTPUT
                                   //=================
 
-                                  //write in xml                                
+                                  //write in xml                           
                                   push(xml_out, "elem");
                                   push(xml_out, "elem");
                                   if(mom1_sq){write(xml_out, "irrep", LG1+rep1.irrep);}
