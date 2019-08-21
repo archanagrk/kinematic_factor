@@ -133,7 +133,7 @@ int main(int argc, char** argv){
                 double mom3_sq = (pow(l,2)+pow(m,2)+pow(n,2));
                 
                 // Cut-off on mom2
-                if(max_mom3 >= mom3_sq){
+                if(max_mom3 >= mom3_sq ){
 
                   mom1 << -i,-j,-k;  mom3 << -l,-m,-n;  mom_curr << (l-i),(m-j),(n-k);
 
@@ -178,7 +178,7 @@ int main(int argc, char** argv){
 
 		                std::vector<double> r1     = refAngles(mom1);
 		                std::vector<double> r_curr = refAngles(mom_curr);
-		                std::vector<double> r3     = refAngles(mom3);                     
+		                std::vector<double> r3     = refAngles(mom3);           
                        
 
                     std::vector<std::string> irrep1     = getIrrep(two_J1,P1,LG1);
@@ -246,7 +246,7 @@ int main(int argc, char** argv){
                                 EnsemReal Elab1; read(E1_name, Elab1);
                                 EnsemReal Elab3; read(E3_name, Elab3);
                                 EnsemComplex prefactor; prefactor.resize(Elab1.size());
-                                EnsemComplex r_prefactor; r_prefactor.resize(Elab1.size());
+                                //EnsemComplex r_prefactor; r_prefactor.resize(Elab1.size());
                                 Ph::tripKey two_abs_lam;
 
                                 for(int bin = 0; bin < Elab1.size(); bin++){
@@ -284,7 +284,7 @@ int main(int argc, char** argv){
                                   // qp << (E3),-mom_coeff*(mom3(0)),-mom_coeff*(mom3(1)),-mom_coeff*(mom3(2));
                                   // qm  << (E1),-mom_coeff*(mom1(0)),-mom_coeff*(mom1(1)),-mom_coeff*(mom1(2));
 
-                                  double m_curr_sq =  pow(E1 - E3 ,2) - (mom_coeff_sq*mom_curr.squaredNorm());                                  
+                                  double m_curr_sq =  pow(E1 - E3 ,2) - (mom_coeff_sq*mom_curr.squaredNorm());                           
 
 
                                   map< int, Eigen::MatrixXcd > Sub1    = Subduce_with_pol(mom_out_sq, m1_sq, two_J1 , rep1, LG1, r1[0], r1[1], r1[2], false);
@@ -306,7 +306,7 @@ int main(int argc, char** argv){
                                   kfac   = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
                                   r_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
 
-                                  complex<double> norm = 2/(sqrt(m1_sq) + sqrt(m3_sq));
+                                  complex<double> norm = 1/(sqrt(m1_sq)); //much more sensible norm
                                   Coeff   = (*kfac)(*kfac_params) * norm;
                                   r_Coeff = (*r_kfac)(*r_kfac_params) * norm; 
 
