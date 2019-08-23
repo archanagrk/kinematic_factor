@@ -106,10 +106,10 @@ am_compute_matrix_prefactor_OBJECTS =  \
 	lib/irreps_and_rows.$(OBJEXT) lib/kfac_utils.$(OBJEXT) \
 	lib/little_group.$(OBJEXT) lib/subduction.$(OBJEXT) \
 	lib/subd_pol_vec.$(OBJEXT) lib/pol_vec.$(OBJEXT) \
-	lib/rot_matrx.$(OBJEXT) lib/kfactor_pigammarho.$(OBJEXT) \
-	lib/kfac_params.$(OBJEXT) lib/k_factor_factory.$(OBJEXT) \
-	lib/levi_civita.$(OBJEXT) io/xml_tools.$(OBJEXT) \
-	lib/phase.$(OBJEXT)
+	lib/rot_matrx.$(OBJEXT) lib/kfactor_pigammapi.$(OBJEXT) \
+	lib/kfactor_pigammarho.$(OBJEXT) lib/kfac_params.$(OBJEXT) \
+	lib/k_factor_factory.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
+	io/xml_tools.$(OBJEXT) lib/phase.$(OBJEXT)
 compute_matrix_prefactor_OBJECTS =  \
 	$(am_compute_matrix_prefactor_OBJECTS)
 compute_matrix_prefactor_LDADD = $(LDADD)
@@ -138,7 +138,7 @@ am__depfiles_remade = exe/$(DEPDIR)/compute_matrix_prefactor.Po \
 	io/$(DEPDIR)/gen_redstar_xml.Po io/$(DEPDIR)/xml_tools.Po \
 	lib/$(DEPDIR)/irreps_and_rows.Po \
 	lib/$(DEPDIR)/k_factor_factory.Po lib/$(DEPDIR)/kfac_params.Po \
-	lib/$(DEPDIR)/kfac_utils.Po \
+	lib/$(DEPDIR)/kfac_utils.Po lib/$(DEPDIR)/kfactor_pigammapi.Po \
 	lib/$(DEPDIR)/kfactor_pigammarho.Po \
 	lib/$(DEPDIR)/levi_civita.Po lib/$(DEPDIR)/little_group.Po \
 	lib/$(DEPDIR)/phase.Po lib/$(DEPDIR)/pol_vec.Po \
@@ -299,7 +299,7 @@ AM_LDFLAGS = -L@top_builddir@/src \
 LDADD = @ADAT_LIBS@ @LIBS@ @SEMBLE_LIBS@
 
 ##############################################################
-compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc
+compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc
 gen_redstar_xml_SOURCES = io/gen_redstar_xml.cc  lib/kfac_utils.cc  io/xml_tools.cc
 
 ##############################################################
@@ -417,6 +417,8 @@ lib/pol_vec.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/rot_matrx.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
+lib/kfactor_pigammapi.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
 lib/kfactor_pigammarho.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/kfac_params.$(OBJEXT): lib/$(am__dirstamp) \
@@ -461,6 +463,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/k_factor_factory.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/kfac_params.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/kfac_utils.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/kfactor_pigammapi.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/kfactor_pigammarho.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/levi_civita.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/little_group.Po@am__quote@ # am--include-marker
@@ -632,6 +635,7 @@ distclean: distclean-am
 	-rm -f lib/$(DEPDIR)/k_factor_factory.Po
 	-rm -f lib/$(DEPDIR)/kfac_params.Po
 	-rm -f lib/$(DEPDIR)/kfac_utils.Po
+	-rm -f lib/$(DEPDIR)/kfactor_pigammapi.Po
 	-rm -f lib/$(DEPDIR)/kfactor_pigammarho.Po
 	-rm -f lib/$(DEPDIR)/levi_civita.Po
 	-rm -f lib/$(DEPDIR)/little_group.Po
@@ -692,6 +696,7 @@ maintainer-clean: maintainer-clean-am
 	-rm -f lib/$(DEPDIR)/k_factor_factory.Po
 	-rm -f lib/$(DEPDIR)/kfac_params.Po
 	-rm -f lib/$(DEPDIR)/kfac_utils.Po
+	-rm -f lib/$(DEPDIR)/kfactor_pigammapi.Po
 	-rm -f lib/$(DEPDIR)/kfactor_pigammarho.Po
 	-rm -f lib/$(DEPDIR)/levi_civita.Po
 	-rm -f lib/$(DEPDIR)/little_group.Po

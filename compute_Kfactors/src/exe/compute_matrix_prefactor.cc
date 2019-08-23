@@ -91,6 +91,7 @@ int main(int argc, char** argv){
   //output xml
   XMLFileWriter xml_out(out);
   push(xml_out, "kfac");
+
   write(xml_out, "L", L);
   write(xml_out, "Xi", Xi);
   write(xml_out, "XiE", XiE);
@@ -246,7 +247,7 @@ int main(int argc, char** argv){
                                 EnsemReal Elab1; read(E1_name, Elab1);
                                 EnsemReal Elab3; read(E3_name, Elab3);
                                 EnsemComplex prefactor; prefactor.resize(Elab1.size());
-                                //EnsemComplex r_prefactor; r_prefactor.resize(Elab1.size());
+                                EnsemComplex r_prefactor; r_prefactor.resize(Elab1.size());
                                 Ph::tripKey two_abs_lam;
 
                                 for(int bin = 0; bin < Elab1.size(); bin++){
@@ -306,9 +307,9 @@ int main(int argc, char** argv){
                                   kfac   = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
                                   r_kfac = TheKFactorFactory::Instance().createObject(matrix_type, xml, "/Stuff");
 
-                                  complex<double> norm = 1/(sqrt(m1_sq)); //much more sensible norm
-                                  Coeff   = (*kfac)(*kfac_params) * norm;
-                                  r_Coeff = (*r_kfac)(*r_kfac_params) * norm; 
+                                  
+                                  Coeff   = (*kfac)(*kfac_params);
+                                  r_Coeff = (*r_kfac)(*r_kfac_params); 
 
                                   // prefactor.elem(bin).real() = Coeff.real();
                                   // prefactor.elem(bin).imag() = Coeff.imag();  
@@ -508,12 +509,45 @@ int main(int argc, char** argv){
   
   
   write(xml_out, "pts", count);
+
+  push(xml_out, "hadron");
+  write(xml_out, "npt", npt);
+  write(xml_out, "L", L);
+  write(xml_out, "Xi", Xi);
+  write(xml_out, "XiError", XiE);
+  write(xml_out, "as", as);
+  write(xml_out, "asError", asE);
+  write(xml_out, "mfFile", mf_file);
+
+
+  push(xml_out, "had");
+
+  for(int j =0;j<npt;j++){
+    push(xml_out, "elem");
+    write(xml_out, "name", had[j].name);
+    write(xml_out, "twoJ", had[j].twoJ);
+    write(xml_out, "P", had[j].P);
+    write(xml_out, "ell", had[j].ell);
+    write(xml_out, "Elab", had[j].elab);
+    write(xml_out, "max_mom", had[j].max_mom);
+    pop(xml_out);
+  }
+
   pop(xml_out);
+  write(xml_out, "matrix_type", matrix_type);
+  write(xml_out, "phase", compute_phase);
+
+  pop(xml_out);
+
+
+  pop(xml_out);
+
+
   xml_out.close();
   
   cout << count << "\n" ;
 
-  delete kfac;
+  delete kfac; delete r_kfac;
   
 };
 

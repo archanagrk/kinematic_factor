@@ -16,8 +16,6 @@ int main(int argc, char** argv){
 
 
   std::list<Hadron::KeyHadronSUNNPartNPtCorr_t> corrs;
-  had_npt_layout label;
-  
     
   int npt;
   Array1dO<int> creation_op;
@@ -27,16 +25,12 @@ int main(int argc, char** argv){
   Array1dO<int> twoI_z;
   Array1dO<int> t_slice;
   std::vector<Array1dO<int>> mom;
-  //std::vector<int> row;
-  //std::vector<int> lam;
-  //std::vector<string> irrep;
   Array1dO<int> mom_tmp;
   int row_tmp;
   int lam_tmp;
-  string irrep_tmp;
+  string irrep_tmp, name_tmp;
   XMLArray::Array<int> canon_mom_tmp;
   double psq_tmp;
-  //std::vector<XMLArray::Array<int>> canon_mom;
 
   
   int pts;
@@ -44,21 +38,8 @@ int main(int argc, char** argv){
       
       
   XMLReader xml_in(in);
-      
-      
-    
-   try{    
-    read(xml_in, "/doc/config/Nt_corr", label.Nt_corr);
-    read(xml_in, "/doc/config/t_origin", label.t_origin);
-    read(xml_in, "/doc/config/bc_spec", label.bc_spec);
-    read(xml_in, "/doc/config/convertUDtoL", label.convertUDtoL);
-    read(xml_in, "/doc/config/convertUDtoS", label.convertUDtoS);
-    read(xml_in, "/doc/config/average_1pt_diagrams", label.average_1pt_diagrams);
-    read(xml_in, "/doc/config/zeroUnsmearedGraphsP", label.zeroUnsmearedGraphsP);
-    read(xml_in, "/doc/config/ensemble", label.ensemble);
-    read(xml_in, "/doc/config/decayDir", label.decayDir);
-    read(xml_in, "/doc/config/lattSize", label.lattSize);
-        
+       
+   try{            
         
     read(xml_in, "/doc/Npts", npt);
     read(xml_in, "/doc/creation_op", creation_op);
@@ -85,9 +66,6 @@ int main(int argc, char** argv){
 
 
   XMLFileWriter xml_out(out);
-  write_had_layout(xml_out, "RedstarNPt", label);
-
-
   XMLReader xml_kf_in(kf_in);
   
   
@@ -106,6 +84,7 @@ int main(int argc, char** argv){
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/mom", mom_tmp );
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/absLam", lam_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/psq", psq_tmp);
+      read(xml_kf_in, "/kfac/hadron/had/elem["+std::to_string(i)+"]/name", name_tmp);
      }
      catch( const string& error ){
       cerr << "Error reading kfac input file : " << error << endl;
@@ -133,25 +112,21 @@ int main(int argc, char** argv){
 
       
       if(i == 1){
-        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("pion_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
-        else{op_tmp.ops[1]= KeyParticleOp_t("pion_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
       }
       else if(i == 2){
-        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("omegal_rhoxD0_J0__J1_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
-        else{op_tmp.ops[1]= KeyParticleOp_t("omegal_rhoxD0_J0__J1_" + irrep_tmp, "", canon_mom_tmp);}        
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + irrep_tmp, "", canon_mom_tmp);}        
       }
       else if(i == 3){
-        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t("rho_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
-        else{op_tmp.ops[1]= KeyParticleOp_t("rho_proj0_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}        
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}        
       }
 
       key.npoint[i].irrep.op = op_tmp;
 
       }
-
-
-    //canon_mom_tmp = Hadron::canonicalOrder(mom_tmp);
-    //irrep.push_back(irrep_tmp); row.push_back(row_tmp); mom.push_back(mom_tmp); lam.push_back(lam_tmp); canon_mom.push_back(lam_tmp);
 
 
     corrs.push_back(key);
@@ -162,55 +137,11 @@ int main(int argc, char** argv){
   
 
 
-
-
-
-
- /* if(mom_curr_sq != 0){op2.ops[1] = KeyParticleOp_t("omegal_rhoxD0_J0__J1_H"+ std::to_string(helicity_curr) + LG_curr + rep_curr.irrep , "", canon_mom2);}
-  else{op2.ops[1] = KeyParticleOp_t("omegal_rhoxD0_J0__J1_"  + rep_curr.irrep , "", canon_mom2);}
-  key.npoint[2].irrep.op = op2;
-
-
-
-  if(mom3_sq != 0){op3.ops[1] = KeyParticleOp_t("Kneg_rhoxD0_J0__J1_H"+ std::to_string(helicity3) + LG3+ rep3.irrep, "", canon_mom3);}
-  else{op3.ops[1] = KeyParticleOp_t("Kneg_rhoxD0_J0__J1_" + rep3.irrep, "", canon_mom3);}
-  key.npoint[3].irrep.op = op3; */
-
-
-
   xml_kf_in.close();
 
 
   
   write(xml_out, "NPointList", corrs);
-  pop(xml_out);
-
-  db db_lab;
-
- try{
-  read(xml_in, "/doc/DBFiles/proj_op_xmls", db_lab.proj_op_xmls);
-  read(xml_in, "/doc/DBFiles/corr_graph_db", db_lab.corr_graph_db);
-  read(xml_in, "/doc/DBFiles/noneval_graph_xml", db_lab.noneval_graph_xml);
-  read(xml_in, "/doc/DBFiles/smeared_hadron_node_xml", db_lab.smeared_hadron_node_xml);
-  read(xml_in, "/doc/DBFiles/unsmeared_hadron_node_xml", db_lab.unsmeared_hadron_node_xml);
-  read(xml_in, "/doc/DBFiles/hadron_npt_graph_db", db_lab.hadron_npt_graph_db);
-  read(xml_in, "/doc/DBFiles/hadron_node_dbs", db_lab.hadron_node_dbs);
-  read(xml_in, "/doc/DBFiles/output_db", db_lab.output_db);
- }
-
- catch( const string& error ){
-  cerr << "Error reading input file : " << error << endl;
-  }
-
-
-  xml_in.close();
-  
-
-  write_db_keys(xml_out, "DBFiles", db_lab);
-
-  pop(xml_out);
-
-
   xml_out.close();
 
   

@@ -4,6 +4,7 @@
 /* keep adding to this list of function containing header files */
 
 #include "kfactor_pigammarho.h"
+#include "kfactor_pigammapi.h"
 
 typedef
 SingletonHolder< ObjectFactory<KFactor, 

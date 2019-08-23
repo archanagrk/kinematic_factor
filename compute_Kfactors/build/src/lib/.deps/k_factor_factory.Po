@@ -533,7 +533,7 @@ lib/k_factor_factory.o: ../../src/lib/k_factor_factory.cc \
  /Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/include/hadron/irreps_cubic_lg.h \
  /Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups_factory.h \
  /Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h \
- ../../src/lib/levi_civita.h
+ ../../src/lib/levi_civita.h ../../src/lib/kfactor_pigammapi.h
 
 ../../src/lib/k_factor_factory.h:
 
@@ -1648,3 +1648,5 @@ lib/k_factor_factory.o: ../../src/lib/k_factor_factory.cc \
 /Users/archanar/LQCDSoftware/Kinematic_factor/adat_devel_install/include/hadron/cubic_groups.h:
 
 ../../src/lib/levi_civita.h:
+
+../../src/lib/kfactor_pigammapi.h:
