@@ -100,7 +100,7 @@ int main(int argc, char** argv){
   write(xml_out, "mfFile", mf_file);
   write(xml_out, "ElabFilesIn", had[2].elab);
   write(xml_out, "ElabFilesOut", had[0].elab);
-  write(xml_out, "kfacFile", "kfac.jack");
+  write(xml_out, "kfacFile", "KFac.jack");
       
   
   //====================================================================================================
@@ -249,6 +249,7 @@ int main(int argc, char** argv){
                                 EnsemComplex prefactor; prefactor.resize(Elab1.size());
                                 EnsemComplex r_prefactor; r_prefactor.resize(Elab1.size());
                                 Ph::tripKey two_abs_lam;
+                                VectorXd  q2(4,1); q2 << 0,0,0,0;
 
                                 for(int bin = 0; bin < Elab1.size(); bin++){
 
@@ -275,15 +276,7 @@ int main(int argc, char** argv){
                                   qp << (E3 + E1),-mom_coeff*(mom1(0) + mom3(0)),-mom_coeff*(mom1(1) + mom3(1)),-mom_coeff*(mom1(2) + mom3(2));
                                   qm  << (E1 - E3),-mom_coeff*(-mom3(0)+mom1(0)),-mom_coeff*(-mom3(1)+mom1(1)),-mom_coeff*(-mom3(2)+mom1(2));
 
-                                  // r_qp << (E3),-mom_coeff*(r_phase.mom2(0)),
-                                  //                                             -mom_coeff*(r_phase.mom2(1)),-mom_coeff*(r_phase.mom2(2));
-
-                                  // r_qm  << (E1),-mom_coeff*(r_phase.mom1(0)),
-                                  //                                             -mom_coeff*(r_phase.mom1(1)),-mom_coeff*(r_phase.mom1(2));
-
-
-                                  // qp << (E3),-mom_coeff*(mom3(0)),-mom_coeff*(mom3(1)),-mom_coeff*(mom3(2));
-                                  // qm  << (E1),-mom_coeff*(mom1(0)),-mom_coeff*(mom1(1)),-mom_coeff*(mom1(2));
+                                  q2 += qm;
 
                                   double m_curr_sq =  pow(E1 - E3 ,2) - (mom_coeff_sq*mom_curr.squaredNorm());                           
 
@@ -311,10 +304,6 @@ int main(int argc, char** argv){
                                   Coeff   = (*kfac)(*kfac_params);
                                   r_Coeff = (*r_kfac)(*r_kfac_params); 
 
-                                  // prefactor.elem(bin).real() = Coeff.real();
-                                  // prefactor.elem(bin).imag() = Coeff.imag();  
-                                  // r_prefactor.elem(bin).real() = r_Coeff.real();
-                                  // r_prefactor.elem(bin).imag() = r_Coeff.imag(); 
 
                                   Complex cc = SEMBLE::toScalar(Coeff); Complex r_cc = SEMBLE::toScalar(r_Coeff);
                                   prefactor.elem(bin) = cc.elem();  r_prefactor.elem(bin) = r_cc.elem(); 
@@ -345,118 +334,55 @@ int main(int argc, char** argv){
                                 /* Creates a subdirectory based on the irrep names. The kfac jackknife file for the specific irrep is stored 
                                 in the subdirectory and when the fitting code is run, it uses the same directory naming to access the kfac files */
 
-                                string name;
+                                  string name = naming::name(npt,two_abs_lam,r_phase.mom1,r_mom_curr,r_phase.mom2,rep1,rep_curr,rep3,LG1,LG_curr,LG3);
+                                  string name_irrep = naming::name(npt,two_abs_lam,mom1,mom_curr,mom3,rep1,rep_curr,rep3,LG1,LG_curr,LG3);
 
-                                {
-                                  string tmp_nm; 
-
-                                  for(int pts = 0; pts < npt; pts++){
-                                    if(pts == 2){
-                                      string mst = "_p" + std::to_string(-i) + std::to_string(-j) + std::to_string(-k);
-
-                                      if(mom1_sq != 0){
-                                        tmp_nm = "__H"+ std::to_string(get<0>(two_abs_lam)/2) + LG1 + rep1.irrep + "r" + std::to_string(rep1.row) + mst;
-                                      }
-                                      else{
-                                        tmp_nm =  "__" + rep1.irrep + "r" + std::to_string(rep1.row) + mst;
-                                      }
-
-                                      
-                                    }
-                                    if(pts == 1){
-                                      string mst = "_p" + std::to_string(l-i) + std::to_string(m-j) + std::to_string(n-k);
-                                      if(mom_curr_sq != 0){
-                                        tmp_nm = "__H"+ std::to_string(get<2>(two_abs_lam)/2) + LG_curr + rep_curr.irrep + "r" + std::to_string(rep_curr.row) + mst;
-                                      }
-                                      else{
-                                        tmp_nm = "__" + rep_curr.irrep + "r" + std::to_string(rep_curr.row) + mst;
-                                      }
-
-                                    }
-                                    if(pts == 0){
-                                      string mst = "_p" + std::to_string(-l) + std::to_string(-m) + std::to_string(-n);
-
-                                      if(mom3_sq != 0){
-                                        tmp_nm = "H"+ std::to_string(get<1>(two_abs_lam)/2) + LG3 + rep3.irrep + "r" + std::to_string(rep3.row) + mst;
-                                      }
-                                      else{
-                                        tmp_nm = rep3.irrep + "r" + std::to_string(rep3.row) + mst;
-                                      }
-
-                                    }
-
-                                    name += tmp_nm;
-                                  }
-                                }
-
-
+                                  double Q2 =  - pow((q2/Elab1.size())(0),2) + pow((q2/Elab1.size())(1),2) + pow((q2/Elab1.size())(2),2) + pow((q2/Elab1.size())(3),2);
                                   std::stringstream ss;
-                                  ss << name;
+                                  ss << "Q2_";
+                                  ss << std::fixed << std::setprecision(6) << Q2; 
+                                  ss <<  "/" << name << "/" << name_irrep;
                                   std::string path = SEMBLE::SEMBLEIO::getPath() += ss.str();
                                   SEMBLE::SEMBLEIO::makeDirectoryPath(path);
                                   path += std::string("/");
 
                                   cout << path << endl;
 
+                                  //probably a stupid way to write the file but works
+
+                                  if( abs(SEMBLE::toScalar(ENSEM::mean(prefactor))) ){
+
+                                    {
+                                      ostringstream outfile; outfile << path << "../averaged_correlators.txt";
+                                      std::ofstream file;
+                                      file.open(outfile.str(), std::ios_base::app);
+                                      file << name_irrep << endl; 
+                                    }
+
+                                    {
+                                      ostringstream outfile; outfile << path << "../kfac.mean";
+                                      std::ofstream file;
+                                      file.open(outfile.str(), std::ios_base::app);
+                                      file << name_irrep << " " <<  SEMBLE::toScalar(ENSEM::mean(prefactor)) << endl; 
+                                    }
+                                  }
+                                  else
                                   {
-                                    ostringstream outfile; outfile << path << "kfac.jack"; 
+                                      ostringstream outfile; outfile << path << "../zeroed_correlators.txt";
+                                      std::ofstream file;
+                                      file.open(outfile.str(), std::ios_base::app);
+                                      file << name_irrep << endl;                                     
+                                  }
+
+                                  {
+                                    ostringstream outfile; outfile << path << "KFac.jack"; 
                                     write(outfile.str(), prefactor);
                                   }
 
                                   {
-                                    ostringstream outfile; outfile << path << "rot_kfac.jack"; 
+                                    ostringstream outfile; outfile << path << "RotKFac.jack"; 
                                     write(outfile.str(), r_prefactor);
                                   }
-
-
-
-                                  //=================
-                                  //WRITE THE CORR FN
-                                  //=================
-                                  // for debugging
-                                  {
-                                    // string corrfn = "";
-                                    // string tmpfn;
-
-                                    // for(int cz = 0; cz < 3; cz++){
-                                    //   if(cz == 0){
-                                    //     string canon = std::to_string(canon_mom_1[0]) + std::to_string(canon_mom_1[1]) + std::to_string(canon_mom_1[2]);
-                                    //     string mst = std::to_string(-i) + std::to_string(-j) + std::to_string(-k);
-                                    //     if(mom1_sq != 0){
-                                    //       tmpfn = "t32,fI2Y0i2,r"+std::to_string(rep1.row)+","+ mst +",pion_proj0_p"+ canon + "_H"+ std::to_string(get<0>(two_abs_lam)/2) + LG1 + rep1.irrep + "__"+ canon;
-                                    //     }
-                                    //     else{
-                                    //       tmpfn = "t32,fI2Y0i2,r"+std::to_string(rep1.row)+","+ mst +",pion_proj0_p"+ canon + rep1.irrep + "__"+ canon;
-                                    //     }
-                                    //   }
-                                    //   if(cz == 1){
-                                    //     string canon = std::to_string(mom_curr_can[0]) + std::to_string(mom_curr_can[1]) + std::to_string(mom_curr_can[2]);
-                                    //     if(mom_curr_sq != 0){
-                                    //       tmpfn = ".tm3,fI0Y0i0,r"+std::to_string(rep_curr.row)+","+ canon +",omegal_rhoxD0_J0__J1_H"+ std::to_string(get<1>(two_abs_lam)/2) + LG_curr + rep_curr.irrep + "__"+ canon;
-                                    //     }
-                                    //     else{
-                                    //       tmpfn = ".tm3,fI0Y0i0,r"+std::to_string(rep_curr.row)+","+ canon +",omegal_rhoxD0_J0__J1_" + rep_curr.irrep + "__"+ canon;
-                                    //     }
-
-                                    //   }
-                                    //   if(cz == 2){
-                                    //     string canon = std::to_string(canon_mom_2[0]) + std::to_string(canon_mom_2[1]) + std::to_string(canon_mom_2[2]);
-                                    //     string mst = std::to_string(-l) + std::to_string(-m) + std::to_string(-n);
-                                    //     if(mom3_sq != 0){
-                                    //       tmpfn = ".t0,fI2Y0i2,r"+std::to_string(rep3.row)+","+ mst +",rho_proj0_p"+ canon + "_H"+ std::to_string(get<2>(two_abs_lam)/2) + LG3 + rep3.irrep + "__"+ canon + ".dat";
-                                    //     }
-                                    //     else{
-                                    //       tmpfn = ".t0,fI2Y0i2,r"+std::to_string(rep3.row)+","+ mst +",rho_proj0_p"+ canon + rep3.irrep + "__"+ canon + ".dat";
-                                    //     }
-                                    //   }
-
-                                    //   corrfn += tmpfn;
-                                    // }
-
-                                    // cout << corrfn << endl;
-                                  }
-
-                      
 
                                   //=================
                                   //WRITE THE OUTPUT

@@ -25,7 +25,7 @@ bin_PROGRAMS = compute_matrix_prefactor gen_redstar_xml
 
 ##############################################################
 
-compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc
+compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc lib/naming.cc
 
 gen_redstar_xml_SOURCES 		 = io/gen_redstar_xml.cc  lib/kfac_utils.cc  io/xml_tools.cc
 

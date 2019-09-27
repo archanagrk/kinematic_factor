@@ -16,6 +16,7 @@
 #include "k_factor_factory.h"
 #include "kfac_params.h"
 #include "kfactor_pigammarho.h"
+#include "naming.h"
 
 // Namespace of the dependencies
 using namespace LittleGrp;

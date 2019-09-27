@@ -15,7 +15,7 @@ namespace PolVec {
   
   //**********************************************************************************************************************
 
-  Eigen::MatrixXcd getPolz4(double& mom_sq, const int& two_helicity, double& mass_sq)
+  Eigen::MatrixXcd getPolz4(double& mom_sq, const int& two_helicity, double& mass_sq,bool& curr)
 
   {
   
@@ -25,7 +25,7 @@ namespace PolVec {
     
     if(two_helicity == 0){
       
-      if(mass_sq == 0){pol_z << cd(0,0),cd(0,0),cd(0,0),cd(0,0);}            // Massless particles have only two physical polarizations
+      if(mass_sq == 0 && !curr){pol_z << cd(0,0),cd(0,0),cd(0,0),cd(0,0);}            // Massless particles have only two physical polarizations
         
         else{
           if(mom_sq != 0){
@@ -67,8 +67,8 @@ namespace PolVec {
     complex<double> z_i(0.,1.);
     complex<double> WignerD;
 
-    pol_z = (getPolz4(zero, two_helicity, mass_sq));
-    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z;             
+    pol_z = (getPolz4(zero, two_helicity, mass_sq,curr));
+    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z.conjugate(); 
 
     // for(int m = -2; m <= 2; m = m+2){
     //   //pol_z = -z_i * (getPolz4(zero,m, mass_sq)).conjugate();
@@ -82,7 +82,7 @@ namespace PolVec {
   }
   else{
    
-   pol_z = getPolz4(mom_sq,two_helicity,mass_sq);
+   pol_z = getPolz4(mom_sq,two_helicity,mass_sq,curr);
 
    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z;             // multiplies by the euler matrix to convert p_ref to p_canonical
    

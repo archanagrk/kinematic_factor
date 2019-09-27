@@ -109,7 +109,8 @@ am_compute_matrix_prefactor_OBJECTS =  \
 	lib/rot_matrx.$(OBJEXT) lib/kfactor_pigammapi.$(OBJEXT) \
 	lib/kfactor_pigammarho.$(OBJEXT) lib/kfac_params.$(OBJEXT) \
 	lib/k_factor_factory.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT) lib/phase.$(OBJEXT)
+	io/xml_tools.$(OBJEXT) lib/phase.$(OBJEXT) \
+	lib/naming.$(OBJEXT)
 compute_matrix_prefactor_OBJECTS =  \
 	$(am_compute_matrix_prefactor_OBJECTS)
 compute_matrix_prefactor_LDADD = $(LDADD)
@@ -141,9 +142,9 @@ am__depfiles_remade = exe/$(DEPDIR)/compute_matrix_prefactor.Po \
 	lib/$(DEPDIR)/kfac_utils.Po lib/$(DEPDIR)/kfactor_pigammapi.Po \
 	lib/$(DEPDIR)/kfactor_pigammarho.Po \
 	lib/$(DEPDIR)/levi_civita.Po lib/$(DEPDIR)/little_group.Po \
-	lib/$(DEPDIR)/phase.Po lib/$(DEPDIR)/pol_vec.Po \
-	lib/$(DEPDIR)/rot_matrx.Po lib/$(DEPDIR)/subd_pol_vec.Po \
-	lib/$(DEPDIR)/subduction.Po
+	lib/$(DEPDIR)/naming.Po lib/$(DEPDIR)/phase.Po \
+	lib/$(DEPDIR)/pol_vec.Po lib/$(DEPDIR)/rot_matrx.Po \
+	lib/$(DEPDIR)/subd_pol_vec.Po lib/$(DEPDIR)/subduction.Po
 am__mv = mv -f
 CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
 	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
@@ -299,7 +300,7 @@ AM_LDFLAGS = -L@top_builddir@/src \
 LDADD = @ADAT_LIBS@ @LIBS@ @SEMBLE_LIBS@
 
 ##############################################################
-compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc
+compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc lib/naming.cc
 gen_redstar_xml_SOURCES = io/gen_redstar_xml.cc  lib/kfac_utils.cc  io/xml_tools.cc
 
 ##############################################################
@@ -436,6 +437,8 @@ io/$(DEPDIR)/$(am__dirstamp):
 io/xml_tools.$(OBJEXT): io/$(am__dirstamp) \
 	io/$(DEPDIR)/$(am__dirstamp)
 lib/phase.$(OBJEXT): lib/$(am__dirstamp) lib/$(DEPDIR)/$(am__dirstamp)
+lib/naming.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
 
 compute_matrix_prefactor$(EXEEXT): $(compute_matrix_prefactor_OBJECTS) $(compute_matrix_prefactor_DEPENDENCIES) $(EXTRA_compute_matrix_prefactor_DEPENDENCIES) 
 	@rm -f compute_matrix_prefactor$(EXEEXT)
@@ -467,6 +470,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/kfactor_pigammarho.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/levi_civita.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/little_group.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/naming.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/phase.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/pol_vec.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/rot_matrx.Po@am__quote@ # am--include-marker
@@ -639,6 +643,7 @@ distclean: distclean-am
 	-rm -f lib/$(DEPDIR)/kfactor_pigammarho.Po
 	-rm -f lib/$(DEPDIR)/levi_civita.Po
 	-rm -f lib/$(DEPDIR)/little_group.Po
+	-rm -f lib/$(DEPDIR)/naming.Po
 	-rm -f lib/$(DEPDIR)/phase.Po
 	-rm -f lib/$(DEPDIR)/pol_vec.Po
 	-rm -f lib/$(DEPDIR)/rot_matrx.Po
@@ -700,6 +705,7 @@ maintainer-clean: maintainer-clean-am
 	-rm -f lib/$(DEPDIR)/kfactor_pigammarho.Po
 	-rm -f lib/$(DEPDIR)/levi_civita.Po
 	-rm -f lib/$(DEPDIR)/little_group.Po
+	-rm -f lib/$(DEPDIR)/naming.Po
 	-rm -f lib/$(DEPDIR)/phase.Po
 	-rm -f lib/$(DEPDIR)/pol_vec.Po
 	-rm -f lib/$(DEPDIR)/rot_matrx.Po

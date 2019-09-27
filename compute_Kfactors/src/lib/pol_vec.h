@@ -11,7 +11,7 @@
 namespace PolVec {
 
   /* Pol vector along the z-axis from helicity ops paper */
-  Eigen::MatrixXcd getPolz4(double& mom_sq, const int& two_helicity, double& mass_sq);
+  Eigen::MatrixXcd getPolz4(double& mom_sq, const int& two_helicity, double& mass_sq, bool& curr);
 
 
   /* Get the polarization by rotating from the z-axis */
