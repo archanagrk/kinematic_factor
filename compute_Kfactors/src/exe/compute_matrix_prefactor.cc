@@ -244,12 +244,12 @@ int main(int argc, char** argv){
 
                                 //Read the Elab jack files
 
-                                EnsemReal Elab1; read(E1_name, Elab1);
-                                EnsemReal Elab3; read(E3_name, Elab3);
+                                EnsemReal Elab1; read(E1_name, Elab1); Elab1 = rescaleEnsemDown(Elab1);
+                                EnsemReal Elab3; read(E3_name, Elab3); Elab3 = rescaleEnsemDown(Elab3);
                                 EnsemComplex prefactor; prefactor.resize(Elab1.size());
                                 EnsemComplex r_prefactor; r_prefactor.resize(Elab1.size());
                                 Ph::tripKey two_abs_lam;
-                                VectorXd  q2(4,1); q2 << 0,0,0,0;
+                                double  q2 = 0.0;
 
                                 for(int bin = 0; bin < Elab1.size(); bin++){
 
@@ -276,7 +276,7 @@ int main(int argc, char** argv){
                                   qp << (E3 + E1),-mom_coeff*(mom1(0) + mom3(0)),-mom_coeff*(mom1(1) + mom3(1)),-mom_coeff*(mom1(2) + mom3(2));
                                   qm  << (E1 - E3),-mom_coeff*(-mom3(0)+mom1(0)),-mom_coeff*(-mom3(1)+mom1(1)),-mom_coeff*(-mom3(2)+mom1(2));
 
-                                  q2 += qm;
+                                  q2 += (- pow(qm(0),2) + pow(qm(1),2) + pow(qm(2),2) + pow(qm(3),2))/Elab1.size();
 
                                   double m_curr_sq =  pow(E1 - E3 ,2) - (mom_coeff_sq*mom_curr.squaredNorm());                           
 
@@ -312,7 +312,10 @@ int main(int argc, char** argv){
 
                                   delete kfac_params; delete r_kfac_params;
 
-                                }                          
+                                }   
+
+                                prefactor   = rescaleEnsemUp(prefactor);
+                                r_prefactor = rescaleEnsemUp(r_prefactor);                      
                                   
 
                                 //if( !std::real(Coeff) || !std::imag(Coeff) || !std::imag(r_Coeff) || !std::real(r_Coeff) ){
@@ -337,10 +340,9 @@ int main(int argc, char** argv){
                                   string name = naming::name(npt,two_abs_lam,r_phase.mom1,r_mom_curr,r_phase.mom2,rep1,rep_curr,rep3,LG1,LG_curr,LG3);
                                   string name_irrep = naming::name(npt,two_abs_lam,mom1,mom_curr,mom3,rep1,rep_curr,rep3,LG1,LG_curr,LG3);
 
-                                  double Q2 =  - pow((q2/Elab1.size())(0),2) + pow((q2/Elab1.size())(1),2) + pow((q2/Elab1.size())(2),2) + pow((q2/Elab1.size())(3),2);
                                   std::stringstream ss;
                                   ss << "Q2_";
-                                  ss << std::fixed << std::setprecision(6) << Q2; 
+                                  ss << std::fixed << std::setprecision(6) << q2; 
                                   ss <<  "/" << name << "/" << name_irrep;
                                   std::string path = SEMBLE::SEMBLEIO::getPath() += ss.str();
                                   SEMBLE::SEMBLEIO::makeDirectoryPath(path);
