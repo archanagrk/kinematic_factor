@@ -27,11 +27,11 @@ int main(int argc, char** argv){
 
     
   int npt, ui, L;
-  double Xi, XiE, as, asE;
+  double Xi, XiE;
   std::vector<hadron> had;
   hadron had_tmp;
   string matrix_type; 
-  string compute_phase, mf_file;
+  string compute_phase;
 
 
   //==============================
@@ -44,9 +44,7 @@ int main(int argc, char** argv){
     read(xml_in, "/hadron/L", L);
     read(xml_in, "/hadron/Xi", Xi);
     read(xml_in, "/hadron/XiError", XiE);
-    read(xml_in, "/hadron/as", as);
-    read(xml_in, "/hadron/asError", asE);
-    read(xml_in, "/hadron/mfFile", mf_file);
+
 
     for(int j =1;j<=npt;j++){
     read(xml_in, "/hadron/had/elem["+std::to_string(j)+"]/name", had_tmp.name);
@@ -95,9 +93,6 @@ int main(int argc, char** argv){
   write(xml_out, "L", L);
   write(xml_out, "Xi", Xi);
   write(xml_out, "XiE", XiE);
-  write(xml_out, "as", as);
-  write(xml_out, "asE", asE);
-  write(xml_out, "mfFile", mf_file);
   write(xml_out, "ElabFilesIn", had[2].elab);
   write(xml_out, "ElabFilesOut", had[0].elab);
   write(xml_out, "kfacFile", "KFac.jack");
@@ -325,8 +320,8 @@ int main(int argc, char** argv){
                                   cout << mom_curr.transpose() << rep_curr.irrep << "["<< rep_curr.row <<"]"<< "\n";
                                   cout << mom3.transpose() << rep3.irrep << "["<< rep3.row <<"]"<< "\n";  
 
-                                  cout << "The rotated factor is:" << ENSEM::mean(prefactor) << endl;
-                                  cout << "The factor is:" << ENSEM::mean(r_prefactor) << endl;
+                                  cout << "The rotated factor is:" << ENSEM::mean(r_prefactor) << endl;
+                                  cout << "The factor is:" << ENSEM::mean(prefactor) << endl;
 
                                   if( std::abs(abs(SEMBLE::toScalar(ENSEM::mean(prefactor))) - abs(SEMBLE::toScalar(ENSEM::mean(r_prefactor)))) > std::numeric_limits<float>::epsilon() ){cout << "Discrepency!" << endl; }
                                   if( std::abs(abs(SEMBLE::toScalar(ENSEM::mean(prefactor))) - abs(SEMBLE::toScalar(ENSEM::mean(r_prefactor)))) < std::numeric_limits<float>::epsilon() ){cout << "No Phase at all" << endl; }
@@ -361,12 +356,6 @@ int main(int argc, char** argv){
                                       file << name_irrep << endl; 
                                     }
 
-                                    {
-                                      ostringstream outfile; outfile << path << "../kfac.mean";
-                                      std::ofstream file;
-                                      file.open(outfile.str(), std::ios_base::app);
-                                      file << name_irrep << " " <<  SEMBLE::toScalar(ENSEM::mean(prefactor)) << endl; 
-                                    }
                                   }
                                   else
                                   {
@@ -443,10 +432,6 @@ int main(int argc, char** argv){
   write(xml_out, "L", L);
   write(xml_out, "Xi", Xi);
   write(xml_out, "XiError", XiE);
-  write(xml_out, "as", as);
-  write(xml_out, "asError", asE);
-  write(xml_out, "mfFile", mf_file);
-
 
   push(xml_out, "had");
 
