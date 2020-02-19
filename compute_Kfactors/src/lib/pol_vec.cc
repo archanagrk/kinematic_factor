@@ -63,12 +63,10 @@ namespace PolVec {
 
   if(curr){
     double zero = 0.0;
-    int J = 2;
-    complex<double> z_i(0.,1.);
-    complex<double> WignerD;
 
-    pol_z = (getPolz4(zero, two_helicity, mass_sq,curr));
-    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z.conjugate(); 
+    // int J = 2;
+    // complex<double> z_i(0.,1.);
+    // complex<double> WignerD;
 
     // for(int m = -2; m <= 2; m = m+2){
     //   //pol_z = -z_i * (getPolz4(zero,m, mass_sq)).conjugate();
@@ -76,6 +74,9 @@ namespace PolVec {
     //   WignerD = conj(Hadron::Wigner_D(J, m, two_helicity, phi, theta, psi));
     //   pol += WignerD*pol_z;
     // }
+
+    pol_z = (getPolz4(zero, two_helicity, mass_sq,curr));
+    pol = Rot::eulerRotMat(phi,theta,psi)*pol_z; 
 
 
     return pol;

@@ -45,6 +45,8 @@ complex<double> KfacSVS::operator()( const KFacParams& params ) const {
   MatrixXcd sub_sum = params.subPhSum();
   complex<double> factor;
 
+  complex<double> one(-1.,0.); // to convert four vector upstairs to downstairs
+
   double Q_sq = - params.qm.squaredNorm();
   VectorXd q_f = params.qp + params.qm;
   VectorXd q_i = params.qp - params.qm;
@@ -56,7 +58,7 @@ complex<double> KfacSVS::operator()( const KFacParams& params ) const {
   else{factor = {((m_f_sq - m_i_sq)/Q_sq),0.0};}
 
   for(int i = 1; i < 4; i++ ){
-    Coeff += ( (params.qp(i,0)) + (  factor * (params.qm(i,0)) ) ) * sub_sum(2,i);
+    Coeff += one * (( (params.qp(i,0)) + (  factor * (params.qm(i,0)) ) ) * sub_sum(2,i));
   }
 
   Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};

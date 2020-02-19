@@ -35,6 +35,8 @@ complex<double> KfacSVV::operator()( const KFacParams& params ) const {
   complex<double> Coeff = 0;
   MatrixXcd sub_sum = params.subPhSum();
 
+  complex<double> z_i(0.,1.);
+    
   VectorXd q_f = params.qp + params.qm;
   double m_f_sq  = (pow(q_f[0],2) - pow(q_f[1],2) - pow(q_f[2],2) - pow(q_f[3],2) )/4.0;
 
@@ -44,7 +46,7 @@ complex<double> KfacSVV::operator()( const KFacParams& params ) const {
     for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
 
       int e[] = {i,j,k,l};
-      Coeff += LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sub_sum(j,i);
+      Coeff += z_i * LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sub_sum(j,i);
 
     }}
   }}

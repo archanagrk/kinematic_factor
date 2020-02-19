@@ -38,14 +38,14 @@ string generateLittleGroup(Eigen::Vector3d& mom_)
       if (momCan[0] == momCan[1])   // n n 0
         littleGroup = "D2";
       else
-        littleGroup = "C4";         // n m 0
+        littleGroup = "C4nm0";         // n m 0
     }
   }
   else{
     if ( (momCan[0] == momCan[1]) && (momCan[0] == momCan[2]) )   // n n n
       littleGroup = "D3";
     else if ( (momCan[0] == momCan[1]) || (momCan[0] == momCan[2]) || (momCan[1] == momCan[2]) )   // m m n
-      littleGroup = "C4";
+      littleGroup = "C4nnm";
     else   // n m p
       littleGroup = "C2";
   }
