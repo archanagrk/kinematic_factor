@@ -1,7 +1,9 @@
 #include "kfactor_pigammarho.h"
 
 //*****************************************************************************************************************
-complex<double> KfacSSV::operator()( const KFacParams& params ) const {
+vector<complex<double>> KfacSSV::operator()( const KFacParams& params ) const {
+
+  vector<complex<double>> Coeff;
     
   MatrixXcd sum_sub =  MatrixXcd::Zero(4,4);
   sum_sub = params.subPhSum();
@@ -11,28 +13,32 @@ complex<double> KfacSSV::operator()( const KFacParams& params ) const {
 
   complex<double> norm = 1/(sqrt(m_f_sq)); //much more sensible norm
 
-  complex<double> Coeff = 0;
+  complex<double> tmp = 0;
   int i =0;
   
   for(int l = 0; l < 4; l++ ){
     for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
 
       int e[] = {i,j,k,l};
-      Coeff += LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sum_sub(j,0) ;
+      tmp += LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sum_sub(j,0) ;
     }}
   }
 
-  Coeff *= norm; 
+  tmp *= norm; 
 
-  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
+  tmp = {KfUt::truncate(tmp.real(),5),KfUt::truncate(tmp.imag(),5)};
+
+  Coeff.push_back(tmp);
   return Coeff;
 };
 //*****************************************************************************************************************
 
 //*****************************************************************************************************************
-complex<double> KfacSVV::operator()( const KFacParams& params ) const {
+vector<complex<double>> KfacSVV::operator()( const KFacParams& params ) const {
 
-  complex<double> Coeff = 0;
+  vector<complex<double>> Coeff;
+
+  complex<double> tmp = 0;
   MatrixXcd sub_sum = params.subPhSum();
 
   complex<double> z_i(0.,1.);
@@ -46,14 +52,16 @@ complex<double> KfacSVV::operator()( const KFacParams& params ) const {
     for(int k = 0; k < 4; k++ ){for(int j = 0; j< 4; j++ ){
 
       int e[] = {i,j,k,l};
-      Coeff += z_i * LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sub_sum(j,i);
+      tmp += z_i * LevCiv::LeviCivita(e,4) * (params.qp(k,0)) * (params.qm(l,0)) * sub_sum(j,i);
 
     }}
   }}
 
-  Coeff *= norm; 
+  tmp *= norm; 
 
-  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
+  tmp = {KfUt::truncate(tmp.real(),5),KfUt::truncate(tmp.imag(),5)};
+
+  Coeff.push_back(tmp);
   return Coeff;
       
 };

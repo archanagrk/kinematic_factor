@@ -25,7 +25,7 @@ class KFactor{
  public:
   virtual ~KFactor(){};
 
-  virtual complex<double> operator()( const KFacParams& params ) const = 0;
+  virtual vector<complex<double>> operator()( const KFacParams& params ) const = 0;
   /* return a double which is the Kinematic Factor */
 
   virtual string name() const = 0;
@@ -40,14 +40,14 @@ class KFactor{
 
 class KfacSVV : public KFactor{
  public:
-  complex<double> operator()( const KFacParams& params ) const;
+  vector<complex<double>> operator()( const KFacParams& params ) const;
   string name() const { return "kin_fac_scalar_vector_vector"; } 
 };
 
 
 class KfacSSV : public KFactor{
  public:
-  complex<double> operator()( const KFacParams& params ) const;
+  vector<complex<double>> operator()( const KFacParams& params ) const;
   string name() const { return "kin_fac_scalar_scalar_vector"; } 
 };
 

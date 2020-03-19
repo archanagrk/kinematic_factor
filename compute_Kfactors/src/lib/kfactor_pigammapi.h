@@ -25,13 +25,13 @@
 
 class KfacSVS : public KFactor{
  public:
-  complex<double> operator()( const KFacParams& params ) const;
+  vector<complex<double>> operator()( const KFacParams& params ) const;
   string name() const { return "kin_fac_scalar_vector_scalar"; } 
 };
 
 class KfacSSS : public KFactor{
  public:
-  complex<double> operator()( const KFacParams& params ) const;
+  vector<complex<double>> operator()( const KFacParams& params ) const;
   string name() const { return "kin_fac_scalar_scalar_scalar"; } 
 };
 

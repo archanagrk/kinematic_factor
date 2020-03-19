@@ -13,7 +13,9 @@ namespace{
 }
 
 //*****************************************************************************************************************
-complex<double> KfacSSS::operator()( const KFacParams& params ) const {
+vector<complex<double>> KfacSSS::operator()( const KFacParams& params ) const {
+
+  vector<complex<double>> Coeff;
     
   MatrixXcd sum_sub =  MatrixXcd::Zero(4,4);
   sum_sub = params.subPhSum();
@@ -29,19 +31,23 @@ complex<double> KfacSSS::operator()( const KFacParams& params ) const {
   if(is_equal(m_i_sq,m_f_sq) ){factor = {0.0,0.0};}
   else{factor = {((m_f_sq - m_i_sq)/Q_sq),0.0}; }
 
-  complex<double> Coeff = 0;
+  complex<double> tmp = 0;
   
-  Coeff += ( (params.qp(0,0)) + (  factor * (params.qm(0,0)) ) ) * sum_sub(2,0);
+  tmp += ( (params.qp(0,0)) + (  factor * (params.qm(0,0)) ) ) * sum_sub(2,0);
 
-  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
+  tmp = {KfUt::truncate(tmp.real(),5),KfUt::truncate(tmp.imag(),5)};
+
+  Coeff.push_back(tmp);
   return Coeff;
 };
 //*****************************************************************************************************************
 
 //*****************************************************************************************************************
-complex<double> KfacSVS::operator()( const KFacParams& params ) const {
+vector<complex<double>> KfacSVS::operator()( const KFacParams& params ) const {
 
-  complex<double> Coeff = 0;
+  vector<complex<double>> Coeff;
+
+  complex<double> tmp = 0;
   MatrixXcd sub_sum = params.subPhSum();
   complex<double> factor;
 
@@ -58,10 +64,12 @@ complex<double> KfacSVS::operator()( const KFacParams& params ) const {
   else{factor = {((m_f_sq - m_i_sq)/Q_sq),0.0};}
 
   for(int i = 1; i < 4; i++ ){
-    Coeff += one * (( (params.qp(i,0)) + (  factor * (params.qm(i,0)) ) ) * sub_sum(2,i));
+    tmp += one * (( (params.qp(i,0)) + (  factor * (params.qm(i,0)) ) ) * sub_sum(2,i));
   }
 
-  Coeff = {KfUt::truncate(Coeff.real(),5),KfUt::truncate(Coeff.imag(),5)};
+  tmp = {KfUt::truncate(tmp.real(),5),KfUt::truncate(tmp.imag(),5)};
+
+  Coeff.push_back(tmp);
   return Coeff;
       
 };
