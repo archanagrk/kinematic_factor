@@ -1,6 +1,0 @@
-<map id="ADATIO::write" name="ADATIO::write">
-<area shape="rect" id="node1" title="Write all of a binary ADAT::Array object." alt="" coords="5,37,111,63"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#a12d01adc4b592d85f0f5f5c101205c08" title=" " alt="" coords="177,12,283,37"/>
-<area shape="rect" id="node4" href="$db/d5c/classADAT_1_1Array1dO.html#a3b74880db3b0d48e29fb28f80a283352" title="Return ref to underlying array." alt="" coords="159,61,301,87"/>
-<area shape="rect" id="node3" href="$db/dee/classADATIO_1_1BinaryWriter.html#ac7731874e4949f80f0edbad2474c4b64" title=" " alt="" coords="349,5,499,44"/>
-</map>

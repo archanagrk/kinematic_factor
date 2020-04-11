@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 MAY 2019 13:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  20 JUN 2019 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2157,167 +2157,88 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-]
-
-LaTeX Warning: Citation `shultz' on page 2 undefined on input line 102.
-
-
-LaTeX Warning: Reference `ff' on page 2 undefined on input line 118.
-
-
-LaTeX Warning: Citation `hel' on page 2 undefined on input line 128.
-
-[2]
-
-LaTeX Warning: Reference `hl' on page 3 undefined on input line 136.
-
-
-LaTeX Warning: Reference `amp' on page 3 undefined on input line 136.
-
-
-LaTeX Warning: Reference `fnl' on page 3 undefined on input line 143.
-
-
-LaTeX Warning: Citation `hel' on page 3 undefined on input line 152.
-
-
-LaTeX Warning: Reference `ref_rot' on page 3 undefined on input line 152.
-
-
-LaTeX Warning: Reference `irrep_table' on page 3 undefined on input line 171.
-
-
-LaTeX Warning: Citation `hel' on page 3 undefined on input line 197.
-
-
-LaTeX Warning: Citation `hel' on page 3 undefined on input line 197.
-
-[3]
-
-LaTeX Warning: Reference `fnl' on page 4 undefined on input line 222.
-
-
-LaTeX Warning: Reference `sub' on page 4 undefined on input line 239.
-
-
-Overfull \hbox (37.865pt too wide) in paragraph at lines 246--254
+] [2]
+[3] [4]
+Overfull \hbox (37.865pt too wide) in paragraph at lines 252--260
 [][] 
  []
 
-[4]
-Overfull \hbox (20.88696pt too wide) in paragraph at lines 283--300
+
+Overfull \hbox (20.88696pt too wide) in paragraph at lines 289--306
 [][]  
  []
 
 
-Overfull \hbox (20.88696pt too wide) in paragraph at lines 303--320
+Overfull \hbox (20.88696pt too wide) in paragraph at lines 309--326
  [][] 
  []
 
 
-Overfull \hbox (21.61263pt too wide) in paragraph at lines 323--339
+Overfull \hbox (21.61263pt too wide) in paragraph at lines 329--345
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+Underfull \hbox (badness 10000) in paragraph at lines 349--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+Underfull \hbox (badness 10000) in paragraph at lines 349--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+Underfull \hbox (badness 10000) in paragraph at lines 349--352
 
  []
 
 [5]
-
-LaTeX Warning: Reference `Tab' on page 6 undefined on input line 390.
-
-
-Overfull \hbox (4.24107pt too wide) in paragraph at lines 456--509
+Overfull \hbox (4.24107pt too wide) in paragraph at lines 462--515
  [][] 
  []
 
 
-Overfull \hbox (4.24107pt too wide) in paragraph at lines 511--565
+Overfull \hbox (4.24107pt too wide) in paragraph at lines 517--571
 [][] 
  []
 
 
-Overfull \hbox (4.24107pt too wide) in paragraph at lines 574--629
+Overfull \hbox (4.24107pt too wide) in paragraph at lines 580--635
 [][]  
  []
 
 
-Overfull \hbox (4.24107pt too wide) in paragraph at lines 631--688
+Overfull \hbox (4.24107pt too wide) in paragraph at lines 637--694
 [][] 
  []
 
 
-Overfull \hbox (4.36957pt too wide) in paragraph at lines 690--737
+Overfull \hbox (4.36957pt too wide) in paragraph at lines 696--743
 [][] 
  []
 
 [6] [7] [8]
-
-LaTeX Warning: Citation `shultz' on page 9 undefined on input line 742.
-
-
-LaTeX Warning: Citation `shultz' on page 9 undefined on input line 747.
-
-
-Overfull \hbox (6.93161pt too wide) in paragraph at lines 770--784
+Overfull \hbox (6.93161pt too wide) in paragraph at lines 776--790
 [][] 
  []
 
-
-LaTeX Warning: Citation `hel' on page 9 undefined on input line 798.
-
-
-LaTeX Warning: Reference `hel_phase_D' on page 9 undefined on input line 805.
-
-
-LaTeX Warning: Citation `hel' on page 9 undefined on input line 811.
-
 [9]
 
-LaTeX Warning: Citation `shultz' on page 10 undefined on input line 819.
-
-
-LaTeX Warning: Reference `ph' on page 10 undefined on input line 820.
-
-
-LaTeX Warning: Reference `fh' on page 10 undefined on input line 820.
-
-
-LaTeX Warning: Reference `fh' on page 10 undefined on input line 829.
-
-
-LaTeX Warning: Reference `wigner' on page 10 undefined on input line 846.
-
-
-LaTeX Warning: Reference `sub' on page 10 undefined on input line 853.
+LaTeX Warning: Reference `ph' on page 10 undefined on input line 833.
 
 [10] [11] [12] (./kinematic_factors_notes.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 27661 strings out of 492970
- 599171 string characters out of 6133938
- 732550 words of memory out of 5000000
- 31263 multiletter control sequences out of 15000+600000
+ 27663 strings out of 492970
+ 599186 string characters out of 6133938
+ 739550 words of memory out of 5000000
+ 31265 multiletter control sequences out of 15000+600000
  539192 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 61i,14n,78p,10436b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,14n,78p,10436b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on kinematic_factors_notes.pdf (12 pages).

@@ -1,5 +1,0 @@
-<map id="ENSEM::isFinite" name="ENSEM::isFinite">
-<area shape="rect" id="node1" title="bool = isFinite(double)" alt="" coords="5,5,124,31"/>
-<area shape="rect" id="node2" href="$d4/dca/group__escalar.html#ga70fcd41007f852c6b90539df7b80af87" title="bool = isFinite(EScalar)" alt="" coords="172,5,290,31"/>
-<area shape="rect" id="node3" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="338,5,497,31"/>
-</map>

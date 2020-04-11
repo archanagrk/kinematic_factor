@@ -1,5 +1,0 @@
-<map id="ENSEM::copymask" name="ENSEM::copymask">
-<area shape="rect" id="node1" title="dest = (mask) ? s1 : dest" alt="" coords="5,5,142,31"/>
-<area shape="rect" id="node2" href="$d8/d55/group__obsmatrix.html#gaa09c3011b1e6555dcc6e4f9b51d1f5de" title="dest = (mask) ? s1 : dest" alt="" coords="190,5,326,31"/>
-<area shape="rect" id="node3" href="$da/d80/classENSEM_1_1OScalar.html#af07cc94eb09bfc29991d8fdc30727574" title=" " alt="" coords="374,5,534,31"/>
-</map>

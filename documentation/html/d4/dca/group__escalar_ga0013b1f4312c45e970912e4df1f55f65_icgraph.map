@@ -1,6 +1,0 @@
-<map id="ENSEM::localInnerProduct" name="ENSEM::localInnerProduct">
-<area shape="rect" id="node1" title=" " alt="" coords="261,55,441,80"/>
-<area shape="rect" id="node2" href="$d1/d9e/group__eensem.html#ga5f487a5a9eb850aeb6bbd0375d54615c" title=" " alt="" coords="19,5,199,31"/>
-<area shape="rect" id="node3" href="$d9/ded/group__rscalar.html#gafd6d5a4377919b182f234ffe0eea09b4" title=" " alt="" coords="5,55,213,80"/>
-<area shape="rect" id="node4" href="$d2/d94/namespaceENSEM.html#a27e5add94db1e27059d44144e3a3fb99" title="EScalar = innerProduct(adj(source1)*source2)" alt="" coords="33,104,185,129"/>
-</map>

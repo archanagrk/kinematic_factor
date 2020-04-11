@@ -1,8 +1,0 @@
-<map id="Hadron::getIrrepWithParity" name="Hadron::getIrrepWithParity">
-<area shape="rect" id="node1" title=" " alt="" coords="5,55,185,80"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a6efae379facc253e72b35cf4d235dc88" title="Get Oh/LG irrep name with no parity from possible helicity name." alt="" coords="233,5,433,31"/>
-<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a33d1d1e15a13f881d974049a8ae1c3dc" title="Get irrep name from operator name." alt="" coords="274,55,392,80"/>
-<area shape="rect" id="node6" href="$d1/daf/namespaceHadron.html#a036614bb88af01a4308fe463a99f5b12" title="Representation including parity if it exists." alt="" coords="238,104,427,129"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a877ae1e797f5cf4d4ebb7e22d5bbe69b" title="Remove helicity from an irrep name." alt="" coords="481,5,641,31"/>
-<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a0451202d2f27c90c438c0d23da609c62" title="Get dimension of irrep." alt="" coords="490,55,632,80"/>
-</map>

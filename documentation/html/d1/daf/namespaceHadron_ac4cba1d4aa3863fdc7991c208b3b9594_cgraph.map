@@ -1,9 +1,0 @@
-<map id="Hadron::clebsch" name="Hadron::clebsch">
-<area shape="rect" id="node1" title="Calcultates Clebsch&#45;Gordon coeficents." alt="" coords="5,104,123,129"/>
-<area shape="rect" id="node2" href="$d4/dca/group__escalar.html#ga80b6028648c4f7d8f84f04d129bfa976" title=" " alt="" coords="173,5,271,31"/>
-<area shape="rect" id="node4" href="$d4/dca/group__escalar.html#gae544517401e03767c9194bfe3736df37" title=" " alt="" coords="171,55,272,80"/>
-<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a5851b4dcb78567e53c44241a6db6c87e" title="Utility function used by Clebsch." alt="" coords="171,104,272,129"/>
-<area shape="rect" id="node6" href="$d4/dca/group__escalar.html#gaa3f8d5129f1ded089d42af89bd94827d" title="EScalar = pow(EScalar, EScalar)" alt="" coords="171,153,272,179"/>
-<area shape="rect" id="node7" href="$d4/dca/group__escalar.html#ga4e0889a609d84d3ddac113e68bfccfa4" title=" " alt="" coords="173,203,271,228"/>
-<area shape="rect" id="node3" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="320,104,480,129"/>
-</map>

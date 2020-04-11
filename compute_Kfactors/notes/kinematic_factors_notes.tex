@@ -75,7 +75,7 @@ The scalars are ($\epsilon\cdot p_i = 0$ and $\epsilon^2 = 0/1$):
 $p_f^2$, $p_i^2$, $p_f^{\mu}p_{i\mu}$,  $p_{f}^{\mu}\epsilon_{\mu}$
 \end{center}
 
-The amplitude must be linear in $\epsilon(p_i, \lambda_i)$ using a basis of $(p_i+p_f)$ and $(p_i-p_j)$. The total number of possible form-factors that preserve the Lorentz structure are
+The three-point function must be linear in $\epsilon(p_i, \lambda_i)$ using a basis of $(p_i+p_f)$ and $(p_i-p_j)$. The total number of possible form-factors that preserve the Lorentz structure are
 
 \begin{align*}
 \bra{PS(p_f)} j^{\mu}(p_i - p_f)\ket{V(p_i, \lambda_i)} = \epsilon^{\mu\nu\rho\sigma}(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}\epsilon_{\sigma}(p_i, \lambda_i)F_1(Q^{2}) + \\ (p_i + p_f)^{\nu}(p_i - p_f)_{\nu}\epsilon^{\mu}(p_i, \lambda_i)F_2(Q^{2})+\\  (p_i - p_f)^{\mu}(p_i + p_f)_{\nu}\epsilon^{\nu}(p_i, \lambda_i))F_3(Q^{2})\\ + (p_i + p_f)^{\mu}(p_i - p_f)_{\nu}\epsilon^{\nu}(p_i, \lambda_i)F_4(Q^{2})
@@ -115,16 +115,22 @@ The vector to pseudo-scalar form factor for $\bra{PS(p_f)} j^{\mu}(p_i - p_f)\ke
 \end{equation}
 
 \par
-The amplitude is $\epsilon_{\mu}(p_i - p_f), \lambda_{\gamma})\bra{PS(p_f)} j^{\mu}(p_i - p_f)\ket{V(p_i, \lambda_i)}$ and we can write the pre-factor of  $F(Q^2)$ from (Eq: \ref{ff}) as
+On the lattice, we often calculate vectors in the circular basis. To convert the current from the vector to the circular basis using the convention in \cite{hel}, we multiply by,  $i \epsilon^{*}_{\mu}(0,m)$, then to change to $\lambda$ basis from $m$ basis we multiply by the Wigner-D matrix \cite{hel}.
+\begin{align*}
+O(J, \lambda_{\gamma}, \vec{p}) = \sum_{m} D^{*J}_{m\lambda_{\gamma}}(R_{\gamma}) O(J, m, p_z) \hspace{5mm} R_{\gamma} = Rotation_{p_z \rightarrow \vec{p}}  \\
+O(1,m) = i \epsilon^{*}_{\mu}(0,m)O^{\mu} \hspace{5mm} m = \pm 1, 0
+\end{align*}
+
+Applying the above equation gives $ D^{1}_{m\lambda_{\gamma}}(R_{\gamma})i \epsilon^{*}_{\mu} (0, m)\bra{PS(p_f)} j^{\mu}(p_i - p_f)\ket{V(p_i, \lambda_i)}$ and we can write the pre-factor of  $F(Q^2)$ from (Eq: \ref{ff}) as
 
 \begin{equation}
 \label{amp}
-\epsilon^{\mu\nu\rho\sigma}\epsilon_{\mu}(p_i - p_f, \lambda_{\gamma})\epsilon_{\sigma}(p_i, \lambda)(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}
+\epsilon^{\mu\nu\rho\sigma}  D^{1}_{m\lambda_{\gamma}}(R_{\gamma}) i \epsilon^{*}_{\mu}(0, m)\epsilon_{\sigma}(p_i, \lambda)(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}
 \end{equation}
 
 \par
 In the continuum, since it is trivial to move from $J,M$ basis to helicity basis at rest. We can generalize helicity basis to all particles be it in motion or at rest. \par
-On the lattice Lorentz symmetry is broken and we deal with the irreducible representations of the cubic group. Thus, the initial state, the final state and the current can be represented by states with particular angular momentum and parity projected into irreps of the orthogonal group in the case of particles at rest and states of particular helicity and parity projected into irreps of the Dirac group in the case of particles in motion. In short, instead of states with particular helicity we have states projected into particular `irreps' and `irrep' rows. \par 
+On the lattice Lorentz symmetry is broken and we deal with the irreducible representations of the cubic group. Thus, the initial state, the final state and the current can be represented by states with particular angular momentum and parity projected into irreps of the orthogonal group in the case of particles at rest and states of particular helicity and parity projected into irreps of the Dirac group in the case of particles in motion. In short, instead of states with particular helicity and angular momentum we have states projected into particular `irreps' and `irrep' rows. \par 
 From \cite{hel} any state in helicity basis with helicity $\lambda$, momentum p, angular momentum J and parity P can be projected into a particular irrep by:
 
 \begin{equation}
@@ -137,7 +143,7 @@ Applying (Eq: \ref{hl}) in (Eq: \ref{amp}), when the source is in irrep(row) $\L
 
 \begin{equation}
 \label{fnl}
-S^{ \Lambda_f,\tilde{\eta}_f  }_{\mu_f 0} \sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma}| , \lambda_i = \pm|\lambda_i| } S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} } S^{ \Lambda_i,\tilde{\eta}_i  }_{\mu_i\lambda_i}\epsilon^{\mu\nu\rho\sigma}\epsilon_{\mu}(p_i - p_f, \lambda_{\gamma})\epsilon_{\sigma}(p_i, \lambda)(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}
+\sum_{\lambda_{f} = \pm|\lambda_{f}| ,\lambda_{\gamma} = \pm|\lambda_{\gamma}| , \lambda_i = \pm|\lambda_i| } i S^{ \Lambda_f,\tilde{\eta}_f  }_{\mu_f 0}  S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} } S^{ \Lambda_i,\tilde{\eta}_i  }_{\mu_i\lambda_i}\epsilon^{\mu\nu\rho\sigma}\sum_{m}D^{1*}_{m\lambda_{\gamma}}(R_\gamma)\epsilon^{*}_{\mu}(0, m)\epsilon_{\sigma}(p_i, \lambda)(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}
 \end{equation}
 
 We calculate (Eq: \ref{fnl}) for each source, sink and current irrep(row) to get the pre-factors and divide it out to get the form-factors.
@@ -194,7 +200,7 @@ and $T$ three. Dic$_{n}$ is the dicyclic group of order 4$n$}
 \end{table}
 
 
-	\item For this process there are two polarization vectors, for the insertion and the vector quantity. The polarization for a given helicity $\lambda$ and p is determined by finding the polarization along z-axis for the given $\lambda$ and since rotations only change the direction of p leaving $\lambda$ unchanged. Using this relation $\epsilon(Rp, \lambda) = R\epsilon(p,\lambda)$ \cite{hel}. \par The convention for the polarization 3-vector in \cite{hel} is used. To convert it into a 4-vector we use the relation $\epsilon^{\mu}p_{\mu} = 0$. The rotation matrix is calculated in step:2 is used and again the convention for the 4-vector is [$\epsilon_0,-\vec{\epsilon}$]
+	\item For this process there is a  polarization four-vector associated with  the vector quantity. The polarization for a given helicity $\lambda$ and p is determined by finding the polarization along z-axis for the given $\lambda$ and since rotations only change the direction of p leaving $\lambda$ unchanged. Using this relation $\epsilon(Rp, \lambda) = R\epsilon(p,\lambda)$ \cite{hel}. \par The convention for the polarization 3-vector in \cite{hel} is used. To convert it into a 4-vector we use the relation $\epsilon^{\mu}p_{\mu} = 0$. The rotation matrix is calculated in step:2 is used and again the convention for the 4-vector is [$\epsilon_0,-\vec{\epsilon}$]
 
 \begin{table}[!htbp]
 \centering
@@ -218,13 +224,13 @@ $-1$ & $\frac{1}{\sqrt{2}}\Big[  0\ , -1\ , +i\ ,0 \Big]$ \\
 \end{table}
 
 
-	\item The subduction coefficients are in general a sum over $\pm|\lambda|$ and the polarization is the only other quantity that depends on $\lambda$, so the sum $\sum_{\lambda = \pm|\lambda|} S^{\Lambda \tilde{\eta}}_{\mu \lambda} \epsilon(p,\lambda)$ is taken to get a four-vector at the insertion and the sink. The subduction coefficient of PS is just 1 and always $\lambda = 0 $ but to be pedantic, it is taken verified with adat.
+	\item The subduction coefficients are in general a sum over $\pm|\lambda|$ and the polarization along with the Wigner-D matrix to convert the current to helicity basis are the only other quantities that depend on $\lambda$, so the sum $\sum_{\lambda = \pm|\lambda|} S^{\Lambda \tilde{\eta}}_{\mu \lambda} \epsilon(p,\lambda)$ is taken to get a four-vector at the sink. And a sum, $\sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma|}} S^{\Lambda_{\gamma} \tilde{\eta}_{\gamma} }_{\mu_{\gamma}  } D^{J}_{\lambda_{\gamma} m}(R_{\gamma})\epsilon(p_{\gamma} ,m )$ is taken for the insertion, where $R_{\gamma}$ is the rotation that takes the momentum from $p_z \rightarrow p_{\gamma}$. The subduction coefficient of PS is just 1 and always $\lambda = 0 $ but to be pedantic, it is taken verified with adat.
 	\item Thus we have the ingredients that go into the master equation (Eq:\ref{fnl})
 	
 \begin{equation}
 \label{fh}
 \Big[ S^{ \Lambda_f,\tilde{\eta}_f  }_{\mu_f 0} \Big] 
-\Big[ \sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma}|} S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} } \epsilon_{\mu}(p_i - p_f, \lambda_{\gamma})\Big ] 
+\Big[ \sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma}|} S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} } \sum_{m}D^{1*}_{m\lambda_{\gamma}}(R_\gamma)i \epsilon^{*}_{\mu}(0, m) \Big ] 
 \Big[  \sum_{\lambda_i = \pm|\lambda_i| } S^{ \Lambda_i,\tilde{\eta}_i  }_{\mu_i\lambda_i} \epsilon_{\sigma}(p_i, \lambda_i) \Big]  \epsilon^{\mu\nu\rho\sigma}(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}
 \end{equation}
 
@@ -236,7 +242,7 @@ Here, the terms in square brackets are calculated based on the previous step, th
 \item \textbf{$\mathbf{p_i}$ and $\mathbf{p_f}$ are directed along z-axis:}\par
 This means both $(p_i + p_f)_{\nu}$ and $(p_i - p_f)_{\rho}$ will have only two non-zero components i.e. 0 and 3. This means that $\mu$ and $\sigma$ will have to be either 1 or 2.
 We first start with the calculation of $\epsilon^{\mu\nu\rho\sigma}\epsilon_{\sigma}(p_i, \lambda)(p_i + p_f)_{\nu}(p_i - p_f)_{\rho}$ \par
-In terms of irreps  A1 and T1 r3 have $\lambda = 0$, T1 r1 has $\lambda = +1 $, T1 r3 $\lambda = -1 $ and E2 r1 E2 r2 are a linear combination. In this case  (for $\tilde{\eta} = +1$) E2 r1 is $\frac{1}{\sqrt{2}}(1(+\lambda) + 1(-\lambda))$ and E2 r2 is $\frac{1}{\sqrt{2}}(1(+\lambda) - 1(-\lambda))$ as in (Table: \ref{sub})
+In terms of irreps  A1 and T1 r2 are $\lambda = 0$, T1 r1 is $\lambda = +1 $, T1 r3 $\lambda = -1 $ and E2 r1 E2 r2 are a linear combination. In this case  (for $\tilde{\eta} = +1$) E2 r1 is $\frac{1}{\sqrt{2}}(1(+\lambda) + 1(-\lambda))$ and E2 r2 is $\frac{1}{\sqrt{2}}(1(+\lambda) - 1(-\lambda))$ as in (Table: \ref{sub})
 
 
 \begin{table}[!htbp]
@@ -270,7 +276,7 @@ When both $\lambda_\gamma = \lambda_i = \pm 1$
 \item $\mu$ = 1:  $$\frac{i}{\sqrt{2}} \frac{1}{\sqrt{2}} \epsilon^{1\nu\rho\ 2} (p_i + p_f)_{\nu}(p_i - p_f)_{\rho}$$
 \item $\mu$ = 2:  $$\frac{1}{\sqrt{2}} \frac{i}{\sqrt{2}}\epsilon^{2\nu\rho\ 1} (p_i + p_f)_{\nu}(p_i - p_f)_{\rho} $$
 \end{enumerate}
-The minus sign in $\frac{i}{\sqrt{2}} $ etc. are cancelled by making the polarization a four vector with convention (1,-1,-1,-1). \par
+The minus sign in $\frac{i}{\sqrt{2}} $ etc. are cancelled by making the polarization a four vector with convention (1,-1,-1,-1). The vector that transforms to circular basis is $-i*\epsilon$ thus there will be an additional $-i$ factor as well. Also, for the the z-axis the Wigner-D matrix is 1 and $\lambda_{\gamma} = m$ which is not explicitly shown. \par
 Adding (a) and (b) shows
 $$\epsilon^{\mu\nu\rho\sigma}\epsilon_{\mu}(p_i - p_f, \lambda_{\gamma} = \pm 1)\epsilon_{\sigma}(p_i, \lambda_i = \pm 1)(p_i + p_f)_{\nu}(p_i - p_f)_{\rho} = 0$$
 Thus, when both insertion and initial states are T1 r1, T1 r3, E2 r1 or E2 r2 the pre-factor is zero. In the case of E2 also the linear combinations cancel out. Also when both V and Current are in T1 irrep both the momenta are 0 and thus the pre-factor is 0. \par
@@ -385,7 +391,7 @@ $(p_i - p_f)$ has only one non-zero component $(p_i - p_f)_0$ whereas $(p_i + p_
 \begin{equation}
 \frac{1}{\sqrt{2}}(\epsilon(-200, +1)_ 3 - \epsilon(-200, -1)_ 3)= \frac{1}{\sqrt{2}}(-2) \frac{1}{\sqrt{2}} = -1
 \end{equation}
-So, the value is $-0.00738i$ which exactly matches with the result of the code.
+So, the value is $-0.00738i \times -i$, (the $-i$ from the convention of the vector used to convert to helicity basis from the m basis) which exactly matches with the result of the code.
 \end{enumerate}
 These results are {\color{red}consistent} with the code as tabulated in (Table: \ref{Tab}) for all z-momenta.
 
@@ -787,7 +793,7 @@ m\' & 1 & 0 & -1\\
 \caption{The Wigner rotation matricies for $D^0_{0,0}(\alpha,\beta,\gamma)$ and $D^1_{m',m}(\alpha,\beta,\gamma)$, ie. rotate by $\alpha$ first.}
 \end{table}
  
-This means that there is an arbitrary phase in the kinematic factors calculated. This does not mean anything, but when we have the tuple of momenta that are related by rotation, they have to have the same kinematic-factor i.e. a consistent phase. But the calculations so far do not garuntee this. \par
+This means that there is an arbitrary phase in the kinematic factors calculated. This does not mean anything, but when we have the tuple of momenta that are related by rotation, they have to have the same kinematic-factor i.e. a consistent phase. But the calculations so far do not guarantee this. \par
 For a rotation R,
 \begin{align*}
 \big\langle \vec{p}\,'; J'& ,\lambda'  \big| \, j^\mu \, \big| \, \vec{p}; J, \lambda  \big\rangle  \\
@@ -795,14 +801,21 @@ For a rotation R,
 &= \left[R^{-1}\right]^\mu_\nu    \big\langle \vec{p}\,'; J' ,\lambda'  \big|\,  \hat{R}^{-1} \, j^\nu\,  \hat{R} \, \big| \, \vec{p}; J, \lambda  \big\rangle,\\
 &=  \left[R^{-1}\right]^\mu_\nu    e^{-i \Phi(R, \vec{p}\,, J', \lambda')} e^{i \Phi(R, \vec{p}, J, \lambda)} \big\langle \hat{R}\vec{p}\,'; J' ,\lambda'  \big|\,  \, j^\nu\,  \, \big| \, \hat{R}\vec{p}; J, \lambda  \big\rangle
 \end{align*}
-When the current operator is also a helicity operator, it transforms the same way as that of a helicity state \cite{hel}. Thus, under a rotation R,
+\iffalse{\color{blue} [to be deleted... ] \par When the current operator is also a helicity operator, it transforms the same way as that of a helicity state \cite{hel}. Thus, under a rotation R,
 \begin{align}
 \big\langle \vec{p}\,'; J'& ,\lambda'  \big| \, O_{J_\gamma}^{\dagger}(\vec{p}\,' - \vec{p},\lambda_{\gamma}) \, \big| \, \vec{p}; J, \lambda  \big\rangle  \\
  &=    e^{-i \Phi(R, \vec{p}\,, J', \lambda')} e^{i \Phi(R, \vec{p}, J, \lambda)} \big\langle \hat{R}\vec{p}\,'; J' ,\lambda'  \big|\,  \, \hat{R}^{-1} O_{J_\gamma}^{\dagger}(\vec{p}\,' - \vec{p},\lambda_{\gamma}) \hat{R} \,  \, \big| \, \hat{R}\vec{p}; J, \lambda  \big\rangle \\
 &=    e^{-i \Phi(R, \vec{p}\,, J', \lambda')} e^{i \Phi(R, \vec{p}\,' - \vec{p}\,, J_{\gamma}, \lambda_{\gamma})}  e^{i \Phi(R, \vec{p}, J, \lambda)} \big\langle \hat{R}\vec{p}\,'; J' ,\lambda'  \big|\,  \, O_{J_\gamma}^{\dagger}(\hat{R}(\vec{p}\,' - \vec{p}),\lambda_{\gamma}) \,  \, \big| \, \hat{R}\vec{p}; J, \lambda  \big\rangle
 \label{ph}
 \end{align}
-where the phase is defined by (Eq: \ref{hel_phase_D})
+where the phase is defined by (Eq: \ref{hel_phase_D})}\fi \par
+In the equation above, the current is in a cartesian four-vector basis. But, in redstar the current is in helicity basis. We have to convert the current from cartesian to circular basis and then to helicity basis using the convention in  \cite{hel},
+\begin{align}
+\big\langle \vec{p}\,'; J'& ,\lambda'  \big| \, j(\vec{p}\,' - \vec{p},\lambda_{\gamma}) \, \big| \, \vec{p}; J, \lambda  \big\rangle  \\
+&= \sum_{m}D^{1*}_{m\lambda_{\gamma}}(R_\gamma)\epsilon^{*}_{\mu}(0, m)  \left[R^{-1}\right]^\mu_\nu    e^{-i \Phi(R, \vec{p}\,, J', \lambda')} e^{i \Phi(R, \vec{p}, J, \lambda)} \big\langle \hat{R}\vec{p}\,'; J' ,\lambda'  \big|\,  \, j^\nu\,  \, \big| \, \hat{R}\vec{p}; J, \lambda  \big\rangle
+\label{phf}
+\end{align}
+We calculate (Eq: \ref{phf}) in the code to get the kinematic factors. Note that the sum over $\mu$ is the sum over three vector. To give $\lambda_{\gamma} = \pm 1, 0$. The spatial part of the current is subduced separately in a $1D$ irrep and this is separation is important in an anisotropic lattice. \par
 
 \subsection{Dealing with Phases in the code}
 In order to fix the phases for a group of tuple of momenta related to each other by rotations,
@@ -819,14 +832,14 @@ R_{lat}R_{ref}p_z = p \hspace{5mm}and\hspace{5mm} R_{ref}p_z = p_{can} \hspace{5
 	\item The value of the kinematic factor for the matrix element with the V in the reference momentum and the other momenta transformed using the same rotation matrix is calculated along with a phase factor that is unique to this matrix element and depends on $\lambda$ of the current and V following the derivation in \cite{shultz}. \par
 	Using (Eq:\ref{ph}) and applying it in  (Eq:\ref{fh})
 
-\begin{align*}
-\label{fh}
+\begin{align}
 \big\langle \vec{p}\ ,'; J'& ,\lambda'  \big| \, O_{J_\gamma}^{\dagger}(\vec{p}\,' - \vec{p}\ ,\lambda_{\gamma}) \, \big| \, \vec{p}; J, \lambda  \big\rangle = \\
 &\Big[ e^{-i \Phi(R, \vec{p}_f\,, J_f, \lambda_f)} S^{ \Lambda_f,\tilde{\eta}_f  }_{\mu_f 0} \Big] 
-\Big[ \sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma}|} e^{i \Phi(R, \vec{p}\,_i - \vec{p}\ ,_f, J_{\gamma}, \lambda_{\gamma})} S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} } \epsilon_{\mu}(\hat{R}p_i - \hat{R}p_f, \lambda_{\gamma})\Big ] \\
+\Big[ \sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma}|} i \left[R^{-1}\right]^\mu_\nu S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} }\sum_{m}D^{1*}_{m\lambda_{\gamma}}(R_\gamma)\epsilon^{*}_{\mu}(0, m)\Big ] \\
 &\Big[  \sum_{\lambda_i = \pm|\lambda_i| } e^{i \Phi(R, \vec{p}_i, J_i, \lambda_i)} S^{ \Lambda_i,\tilde{\eta}_i  }_{\mu_i\lambda_i} \epsilon_{\sigma}(\hat{R}p_i, \lambda_i) \Big]  \epsilon^{\mu\nu\rho\sigma}(\hat{R}p_i + \hat{R}p_f)_{\nu}(\hat{R}p_i - \hat{R}p_f)_{\rho}
-\end{align*}
-We use (Eq:\ref{fh}) to calculate the factors and fix the phases for all the momenta related by rotations to the same value.	
+\label{final_ph}
+\end{align}
+We use (Eq:\ref{final_ph}) to calculate the factors and fix the phases for all the momenta related by rotations to the same value.	
 \end{itemize}
 
 \section{Some Explicit Calculations to check the Phasing}
@@ -842,7 +855,22 @@ R_{R\hat{p}} = RR_{\hat{p}}\\
 &R^{-1}_{R\hat{p}} R  R_{\hat{p}} = (RR_{\hat{p}})^{-1}R_{R\hat{p}} = 1
 \end{align*}
 Thus, if the rotation `R' is defined with respect to the canonical momentum of the Vector, the phase of the vector is always 1.
+	\item The (Eq:\ref{final_ph}) becomes,
+\begin{align*}
+\big\langle \vec{p}\ ,'; J'& ,\lambda'  \big| \, O_{J_\gamma}^{\dagger}(\vec{p}\,' - \vec{p}\ ,\lambda_{\gamma}) \, \big| \, \vec{p}; J, \lambda  \big\rangle = \\
+&\Big[  S^{ \Lambda_f,\tilde{\eta}_f  }_{\mu_f 0} \Big] 
+\Big[ \sum_{\lambda_{\gamma} = \pm|\lambda_{\gamma}|} i \left[R^{-1}\right]^\mu_\nu S^{ \Lambda_{\gamma},\tilde{\eta}_{\gamma}  }_{\mu_{\gamma} \lambda_{\gamma} } \sum_{m}D^{1*}_{m\lambda_{\gamma}}(R_\gamma)\epsilon^{*}_{\mu}(0, m)\Big ] \\
+&\Big[  \sum_{\lambda_i = \pm|\lambda_i| } S^{ \Lambda_i,\tilde{\eta}_i  }_{\mu_i\lambda_i} \epsilon_{\sigma}(\hat{R}p_i, \lambda_i) \Big]  \epsilon^{\mu\nu\rho\sigma}(\hat{R}p_i + \hat{R}p_f)_{\nu}(\hat{R}p_i - \hat{R}p_f)_{\rho}
+\label{final_ph1}
+\end{align*}	
+\end{enumerate}
+The $R_\gamma$ used above is the rotation from the z-axis to $p_i - p_f$, i.e. the current momentum before the rotation. Surprisingly, it is seen that the values of the kinematic factors do not change at all with or without accounting for the arbitrary phase associated with the helicity basis. \par
 
+
+
+
+\iffalse {\color{blue} [to be deleted...]\par
+\begin{enumerate}
 	\item When the irrep at the insertion is subduced to T1 r2 or A2, the $\lambda = 0$, there is not sum ober $\lambda$ and there is just an overall factor. From (Table: \ref{wigner}), it is $cos(\beta)$ and for this to be a phase, $\beta = 0/\pi$. And also $cos(\beta)$ has to $+1$ for the overall normalization in the case of $\lambda = \pm 1$ to be 1. After looking at the output of the code, $\beta = 0$ always as required.
 	
 	\item When the irrep has a linear combination of $\lambda \pm 1$,
@@ -858,10 +886,10 @@ The subduction coefficient for irreps where both $\pm 1$ contribute has $S^{ \La
 &= \frac{1 + cos(\beta)}{2\sqrt{2}}\hat{R}R_{z} \Big[ e^{- i(\alpha + \gamma)}\epsilon(p_z , +1) \pm e^{ i(\alpha + \gamma)}\epsilon(p_z , -1) \Big]\\
 &= \frac{1 + cos(\beta)}{4}\hat{R}R_{z} \Big[ 0\ , e^{- i(\alpha + \gamma)} \mp e^{ i(\alpha + \gamma)}\ , ie^{- i(\alpha + \gamma)} \pm ie^{ i(\alpha + \gamma)}\ ,0 \Big]
 \end{align*}
-The real part of the `phase' is the same for $+\lambda$ and $-\lambda$ but the imaginary part is the negative of each other as is clear from the expression above. This cannot be a  {\color{red}phase} unless for special cases where the imaginary part is 0 and $\beta = 0$ for the overall factor to be 1. \par
+The real part of the `phase' is the same for $+\lambda$ and $-\lambda$ but the imaginary part is the negative of each other as is clear from the expression above. This cannot be a  phase unless for special cases where the imaginary part is 0 and $\beta = 0$ for the overall factor to be 1. \par
 Looking at the code, there are cases where the imaginary part in non-zero but $\beta = 0$ always. This makes sense as in the continuum where the $\lambda$s do not mix, this factor is a complex phase but when subduced, in certain irreps they have complex conjugate factors multiplying the $\pm \lambda$ and they change the value of the kinematic factor significantly. \par
 In some cases where the current is in the $T1$ irrep and only $\lambda = 0$ contributes, the irrep rotates into an irrep that has a kinematic-factor of 0. The rotations are valid. Not sure about the reason.
-\end{enumerate}
+\end{enumerate}}\fi
 
 
 \newpage

@@ -1,19 +1,4 @@
 var searchData=
 [
-  ['icod',['icod',['../d7/de5/classNR_1_1huffcode.html#ad0de07752f40849b79f1e8ba6a23599d',1,'NR::huffcode']]],
-  ['id',['id',['../d1/d94/structHadron_1_1IrrepsCubicHelicityRegInfo__t.html#ab2dd31dc1245a5a45d7950b45994269b',1,'Hadron::IrrepsCubicHelicityRegInfo_t::id()'],['../d4/d17/structHadron_1_1IrrepsSU3Env_1_1IrrepsSU3RegInfo__t.html#a70e0f962edb35da73bed617ac0fddd81',1,'Hadron::IrrepsSU3Env::IrrepsSU3RegInfo_t::id()'],['../dd/d9f/structADATXML_1_1GroupXML__t.html#a618530d5beb151a6c2993555d604bd6b',1,'ADATXML::GroupXML_t::id()']]],
-  ['ilob',['ilob',['../d3/d3c/classNR_1_1arithcode.html#a2f0f4815da12b7e05ffdda2c6c2cd22b',1,'NR::arithcode']]],
-  ['indent_5flevel',['indent_level',['../d5/d41/classXMLStructWriterAPI_1_1XMLArrayWriterBase.html#ac27f8ee3bc74448bce22008dd40bf8da',1,'XMLStructWriterAPI::XMLArrayWriterBase::indent_level()'],['../d5/de1/classXMLWriterAPI_1_1XMLSimpleWriter.html#a61ccdacc4406db6a4a78c77a16f150da',1,'XMLWriterAPI::XMLSimpleWriter::indent_level()'],['../db/d4f/classXMLStructWriterAPI_1_1XMLStructWriterBase.html#ac592a077855a1377b390f4abff506e38',1,'XMLStructWriterAPI::XMLStructWriterBase::indent_level()']]],
-  ['index',['index',['../d3/def/struct__config__info__.html#a78aa940c1f0397a3f7acfd7b2ed3a196',1,'_config_info_']]],
-  ['inserted',['inserted',['../d3/def/struct__config__info__.html#a1b87a01f516bd83ef533699c6ac16c92',1,'_config_info_']]],
-  ['instance',['instance',['../db/d0b/classXMLWriterAPI_1_1XMLSimpleSchemaWriter.html#acad25faff4c5f64554d85a075e232b19',1,'XMLWriterAPI::XMLSimpleSchemaWriter']]],
-  ['int_5f',['int_',['../d9/db4/unionUtil_1_1CreateStatic_1_1MaxAlign.html#aea688b199aa435ffaa35eb2e0b986cd1',1,'Util::CreateStatic::MaxAlign']]],
-  ['internal',['internal',['../d7/d77/struct__ffdb__cursor__.html#a1c07d3b46c0463000411b3a8819f928e',1,'_ffdb_cursor_::internal()'],['../d8/dd2/struct____ffdb.html#af883642213f91052caf45c51b25dd69d',1,'__ffdb::internal()']]],
-  ['ioff',['ioff',['../df/d4b/classNR_1_1wavefilt.html#acc0fda6a300680212528c1c318a3471a',1,'NR::wavefilt']]],
-  ['irrep',['irrep',['../d9/df6/structHadron_1_1MesonOperatorProperties__t.html#a70e362a662368b771e11a3dd4bfdac7d',1,'Hadron::MesonOperatorProperties_t::irrep()'],['../dd/da4/structHadron_1_1BaryonOperatorProperties__t.html#a4356cd638575da7c5dd5e43fdeed7130',1,'Hadron::BaryonOperatorProperties_t::irrep()'],['../d6/d9d/structHadron_1_1KeyHadronSUNNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t.html#a55c1ea469ec22681f2de67cd4590279a',1,'Hadron::KeyHadronSUNNPartIrrepOp_t::CGPair_t::Slot_t::irrep()'],['../d3/d67/structHadron_1_1KeyHadronSUNNPartNPtCorr__t_1_1NPoint__t.html#a9b639be4a70afdaa9da8a4430ab8957d',1,'Hadron::KeyHadronSUNNPartNPtCorr_t::NPoint_t::irrep()'],['../d7/df1/structHadron_1_1KeyHadronNPartIrrepOp__t_1_1CGPair__t_1_1Slot__t.html#a0fa5d415d4e26b91b78c06427277c5f7',1,'Hadron::KeyHadronNPartIrrepOp_t::CGPair_t::Slot_t::irrep()'],['../dc/d7a/structHadron_1_1KeyHadronNPartNPtCorr__t_1_1NPoint__t.html#a94ba38e91423b2c27a993148d515f386',1,'Hadron::KeyHadronNPartNPtCorr_t::NPoint_t::irrep()'],['../de/d96/structirrep__label.html#a21e18e087b0a2a1d22886c0244d7e7e6',1,'irrep_label::irrep()']]],
-  ['irrep_5fmom',['irrep_mom',['../db/d05/structHadron_1_1KeyHadronSUNNPartIrrep__t.html#a15450b67952df088e68b35288947e2e4',1,'Hadron::KeyHadronSUNNPartIrrep_t']]],
-  ['is',['is',['../d1/d87/x_8cc.html#a81abbbdef81e25584a2eab888e643d3d',1,'x.cc']]],
-  ['isign',['isign',['../d2/d1c/structHadron_1_1SU3Quark__t.html#a1ab0d1ef0eb3573f07a0f96012b68fa8',1,'Hadron::SU3Quark_t']]],
-  ['item',['item',['../db/d1b/struct__ffdb__crs__.html#afa4e8bde8a789a61d3078df069fd70d1',1,'_ffdb_crs_']]],
-  ['iupb',['iupb',['../d3/d3c/classNR_1_1arithcode.html#ac8290637848848253e8f83959759620d',1,'NR::arithcode']]]
+  ['twoj',['twoJ',['../dc/de6/structhadron.html#ae190a1452b80921c1fc32bbfb805ae9d',1,'hadron::twoJ()'],['../de/d96/structirrep__label.html#a2815db2b707875ae496bdbfd52d3c240',1,'irrep_label::twoJ()']]]
 ];

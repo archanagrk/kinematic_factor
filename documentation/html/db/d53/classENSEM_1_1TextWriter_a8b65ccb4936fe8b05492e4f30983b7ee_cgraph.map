@@ -1,4 +1,0 @@
-<map id="ENSEM::TextWriter::close" name="ENSEM::TextWriter::close">
-<area shape="rect" id="node1" title="Closes the last file opened." alt="" coords="5,5,149,44"/>
-<area shape="rect" id="node2" href="$db/d53/classENSEM_1_1TextWriter.html#a6718d81018fe6a709f11cdb2f008c68b" title="Queries whether the file is open." alt="" coords="197,5,340,44"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ENSEM::OVector::operator=" name="ENSEM::OVector::operator=">
-<area shape="rect" id="node1" title="OVector = OVector." alt="" coords="5,55,195,80"/>
-<area shape="rect" id="node2" href="$d0/d8d/classENSEM_1_1OVector.html#a95545451bb9d6be83ba32ad3dc2dab42" title=" " alt="" coords="243,5,450,31"/>
-<area shape="rect" id="node4" href="$d0/d8d/classENSEM_1_1OVector.html#a715979c319905eb60532815bb3c77aab" title="Number of observables." alt="" coords="268,55,424,80"/>
-<area shape="rect" id="node5" href="$d0/d8d/classENSEM_1_1OVector.html#a8d84b5c1145d0647107413d254450417" title=" " alt="" coords="266,104,427,129"/>
-<area shape="rect" id="node3" href="$d0/d8d/classENSEM_1_1OVector.html#a2758b982bf7fa25b69d31fe8d7f72762" title="Resize the number of observables." alt="" coords="498,5,665,31"/>
-</map>

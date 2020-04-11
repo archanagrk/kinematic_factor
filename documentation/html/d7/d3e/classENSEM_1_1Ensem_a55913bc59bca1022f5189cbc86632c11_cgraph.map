@@ -1,8 +1,0 @@
-<map id="ENSEM::Ensem::operator=" name="ENSEM::Ensem::operator=">
-<area shape="rect" id="node1" title="dest = zero" alt="" coords="5,31,188,56"/>
-<area shape="rect" id="node2" href="$d7/d3e/classENSEM_1_1Ensem.html#a32978c0e251d9731bdb83c6069eb059d" title=" " alt="" coords="236,5,422,31"/>
-<area shape="rect" id="node4" href="$d7/d3e/classENSEM_1_1Ensem.html#aa09448269bc5b72687905254739bf69a" title="conversion by constructor Ensem&lt;T&gt; = EScalar&lt;T1&gt;" alt="" coords="247,55,411,80"/>
-<area shape="rect" id="node3" href="$d7/d3e/classENSEM_1_1Ensem.html#ae8cf08459492240dcab13d4ab3a21216" title="Number of configurations." alt="" coords="475,5,624,31"/>
-<area shape="rect" id="node5" href="$d7/d3e/classENSEM_1_1Ensem.html#a4927ebde99b1f0a03cdcfe3fc88458a5" title=" " alt="" coords="472,55,626,80"/>
-<area shape="rect" id="node6" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="470,104,629,129"/>
-</map>

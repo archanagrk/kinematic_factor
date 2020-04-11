@@ -1,8 +1,0 @@
-<map id="Hadron::getIrrepDim" name="Hadron::getIrrepDim">
-<area shape="rect" id="node1" title="Get dimension of irrep." alt="" coords="616,55,759,80"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a33d1d1e15a13f881d974049a8ae1c3dc" title="Get irrep name from operator name." alt="" coords="450,55,568,80"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#ae2543483bce4c1e4b6c9ca56d01fe9ac" title=" " alt="" coords="228,5,397,31"/>
-<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a0f40c5d7e590d17294e0a27e231c0a4b" title=" " alt="" coords="223,55,402,80"/>
-<area shape="rect" id="node6" href="$d8/d3d/compute__kf_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="287,104,338,129"/>
-<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a21a0c1cea8de6f0c457f10e22cd3d251" title="Build a npt irrep name." alt="" coords="5,55,175,80"/>
-</map>

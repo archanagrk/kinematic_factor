@@ -1,6 +1,0 @@
-<map id="ADATIO::read" name="ADATIO::read">
-<area shape="rect" id="node1" title="Read a binary ADAT::Array1dO object." alt="" coords="5,37,109,63"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="176,12,280,37"/>
-<area shape="rect" id="node4" href="$db/d5c/classADAT_1_1Array1dO.html#a3b74880db3b0d48e29fb28f80a283352" title="Return ref to underlying array." alt="" coords="157,61,299,87"/>
-<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="347,5,506,44"/>
-</map>

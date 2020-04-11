@@ -1,4 +1,0 @@
-<map id="ADATIO::ADATFileReader::readBinary" name="ADATIO::ADATFileReader::readBinary">
-<area shape="rect" id="node1" title="Read one single record filled with binary into a char array." alt="" coords="231,5,408,44"/>
-<area shape="rect" id="node2" href="$db/de5/group__qio.html#ga7d36d6dd7fef90986d0c435ddaa86eae" title="Convenience function to read one logical record." alt="" coords="5,5,183,44"/>
-</map>

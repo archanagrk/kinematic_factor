@@ -1,8 +1,0 @@
-<map id="ADATXML::XMLReader::open" name="ADATXML::XMLReader::open">
-<area shape="rect" id="node1" title="Opens and reads an XML file." alt="" coords="5,33,167,72"/>
-<area shape="rect" id="node2" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a453ed92ad20f71b672f3b92e91e40b1c" title=" " alt="" coords="215,33,420,72"/>
-<area shape="rect" id="node3" href="$db/de5/group__qio.html#gac32c771b58d87e4ef4af62a7ad2e5c0d" title="Close a ADATFileReader." alt="" coords="526,12,635,37"/>
-<area shape="rect" id="node6" href="$d5/dfd/classXMLXPathReader_1_1XMLDocument.html#ac39670aea17809a726dc6a2cc91c9710" title=" " alt="" coords="468,61,693,100"/>
-<area shape="rect" id="node4" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="741,5,918,44"/>
-<area shape="rect" id="node5" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="966,5,1143,44"/>
-</map>

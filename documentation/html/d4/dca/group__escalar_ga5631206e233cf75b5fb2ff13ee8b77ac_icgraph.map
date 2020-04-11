@@ -1,5 +1,0 @@
-<map id="ENSEM::read" name="ENSEM::read">
-<area shape="rect" id="node1" title="XML input." alt="" coords="239,31,342,56"/>
-<area shape="rect" id="node2" href="$d1/d71/group__obsscalar.html#ga5b22786975bbf72d834fd044913a417b" title="Binary input." alt="" coords="47,5,150,31"/>
-<area shape="rect" id="node3" href="$d2/d94/namespaceENSEM.html#a595aa36e757c1e7259eeaf7e6421941c" title="Read a XML Array element." alt="" coords="5,55,191,80"/>
-</map>

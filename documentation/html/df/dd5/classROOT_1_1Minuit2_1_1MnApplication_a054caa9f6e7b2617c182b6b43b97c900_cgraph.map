@@ -1,9 +1,0 @@
-<map id="ROOT::Minuit2::MnApplication::SetPrecision" name="ROOT::Minuit2::MnApplication::SetPrecision">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,205,44"/>
-<area shape="rect" id="node2" href="$d3/de0/classROOT_1_1Minuit2_1_1MnUserParameterState.html#aab7787768e533471839387ef51a75cbb" title=" " alt="" coords="253,5,478,44"/>
-<area shape="rect" id="node3" href="$d6/d10/classROOT_1_1Minuit2_1_1MnUserParameters.html#aceaa10ac8b2c83261c3cc026705ee6e0" title=" " alt="" coords="526,5,758,44"/>
-<area shape="rect" id="node4" href="$d9/d98/classROOT_1_1Minuit2_1_1MnUserTransformation.html#aa80f289974f19753a2912a8eb6311f53" title=" " alt="" coords="806,5,1058,44"/>
-<area shape="rect" id="node5" href="$d4/d40/classROOT_1_1Minuit2_1_1MnMachinePrecision.html#a625938e3c6362a06d09fc76e59f366b6" title="override Minuit&#39;s own determination" alt="" coords="1106,5,1291,44"/>
-<area shape="rect" id="node6" href="$d4/dca/group__escalar.html#ga4e0889a609d84d3ddac113e68bfccfa4" title=" " alt="" coords="1339,12,1438,37"/>
-<area shape="rect" id="node7" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="1486,12,1645,37"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Hadron::read" name="Hadron::read">
-<area shape="rect" id="node1" title="HadronVertex reader." alt="" coords="5,40,104,65"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a61520b9a5ce2b207d1c01e1508a5c470" title="Read a key." alt="" coords="184,12,283,37"/>
-<area shape="rect" id="node5" href="$db/d3f/classADATXML_1_1XMLReader.html#a59584913f1338d956de60adef16a0718" title="Count the number of occurances from the xpath query." alt="" coords="152,61,314,100"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#ae87d364dcd64ddf5c60a1b4d6237e633" title="BaryonElementalOperator reader." alt="" coords="362,12,462,37"/>
-<area shape="rect" id="node4" href="$db/da0/classXMLArray_1_1Array3d.html#afe27b06ef40efdd87dbea00eafa35287" title="Allocate mem for the array." alt="" coords="510,5,652,44"/>
-</map>

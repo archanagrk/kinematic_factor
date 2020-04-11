@@ -1,7 +1,0 @@
-<map id="ADATIO::ADATFileReader::readLogicalRecord" name="ADATIO::ADATFileReader::readLogicalRecord">
-<area shape="rect" id="node1" title="Convenience function to read one logical record." alt="" coords="5,37,183,76"/>
-<area shape="rect" id="node2" href="$db/de5/group__qio.html#gae57feac2bf53666ac092bb0a43125226" title="Read one single record filled with a string." alt="" coords="231,5,408,44"/>
-<area shape="rect" id="node3" href="$db/de5/group__qio.html#ga40b41bda2b27ce68a0ac0ee28124fc64" title="Read one single record filled with binary into a char array." alt="" coords="231,68,408,107"/>
-<area shape="rect" id="node4" href="$db/d6c/classXMLArray_1_1Array.html#a470913fde270ad0e578041654e2390f0" title="Allocate mem for the array." alt="" coords="456,49,619,75"/>
-<area shape="rect" id="node5" href="$db/d6c/classXMLArray_1_1Array.html#a9c9e3fdc44557d1241103c207f7f69af" title="Return ref to a column slice." alt="" coords="460,99,614,124"/>
-</map>

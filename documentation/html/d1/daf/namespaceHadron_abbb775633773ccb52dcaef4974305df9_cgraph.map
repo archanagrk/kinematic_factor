@@ -1,6 +1,0 @@
-<map id="Hadron::convertThreeQuarkSpin" name="Hadron::convertThreeQuarkSpin">
-<area shape="rect" id="node1" title="Convert a generic spin tensor into a sparse spin representation." alt="" coords="5,55,219,80"/>
-<area shape="rect" id="node2" href="$dd/da8/classADAT_1_1Array3dO.html#a30149908b955c7eeebec86a24e6afffd" title=" " alt="" coords="267,5,425,31"/>
-<area shape="rect" id="node3" href="$dd/da8/classADAT_1_1Array3dO.html#ab4a1fc3cfddf9238d7ab3fefac03ad18" title=" " alt="" coords="267,55,425,80"/>
-<area shape="rect" id="node4" href="$dd/da8/classADAT_1_1Array3dO.html#acd5ccea08cb9cde541a396823af21161" title=" " alt="" coords="267,104,425,129"/>
-</map>

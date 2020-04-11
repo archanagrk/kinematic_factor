@@ -1,4 +1,0 @@
-<map id="ADATIO::ADATFileReader::readRecordData" name="ADATIO::ADATFileReader::readRecordData">
-<area shape="rect" id="node1" title="Read binary and checksum." alt="" coords="231,5,408,44"/>
-<area shape="rect" id="node2" href="$db/de5/group__qio.html#ga2179348a566e0224ed2122acfabf8bc9" title="Reads as a string plus BinaryBufferReader pair." alt="" coords="5,5,183,44"/>
-</map>

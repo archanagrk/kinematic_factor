@@ -1,5 +1,0 @@
-<map id="ADATIO::BinaryReader" name="ADATIO::BinaryReader">
-<area shape="rect" id="node1" title="Binary reader base class." alt="" coords="128,5,287,31"/>
-<area shape="rect" id="node2" href="$d0/df3/classADATIO_1_1BinaryBufferReader.html" title="Binary buffer reader class." alt="" coords="5,79,200,104"/>
-<area shape="rect" id="node3" href="$df/d41/classADATIO_1_1BinaryFileReader.html" title="Binary file reader class." alt="" coords="223,79,403,104"/>
-</map>

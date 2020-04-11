@@ -1,7 +1,0 @@
-<map id="ADATXML::XMLReader::open" name="ADATXML::XMLReader::open">
-<area shape="rect" id="node1" title="Opens and reads an XML file." alt="" coords="231,100,392,139"/>
-<area shape="rect" id="node2" href="$db/d3f/classADATXML_1_1XMLReader.html#a85d8af8a27febdd66251e20bd96ccc32" title="Construct from contents of file." alt="" coords="13,5,175,44"/>
-<area shape="rect" id="node3" href="$db/de5/group__qio.html#ga9a1ac411577bd50e643f483119318893" title="Read one single record filled with XML." alt="" coords="5,68,183,107"/>
-<area shape="rect" id="node4" href="$db/de5/group__qio.html#ga4d771a46d7db77cd0ae5999113733795" title="Read record info." alt="" coords="5,131,183,169"/>
-<area shape="rect" id="node5" href="$db/de5/group__qio.html#gadf1e0b4405e14798a0610efd8774f8d0" title="Reads an XMLReader plus BinaryBufferReader pair." alt="" coords="5,193,183,232"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ROOT::Minuit2::MnStrategy::GradientTolerance" name="ROOT::Minuit2::MnStrategy::GradientTolerance">
-<area shape="rect" id="node1" title=" " alt="" coords="545,68,729,107"/>
-<area shape="rect" id="node2" href="$dc/d17/classROOT_1_1Minuit2_1_1HessianGradientCalculator.html#a17febf33fcbeafa556e703d8bbe3d1db" title=" " alt="" coords="271,5,487,44"/>
-<area shape="rect" id="node3" href="$d3/dcf/classROOT_1_1Minuit2_1_1InitialGradientCalculator.html#aac6cfb88ce499207d304fdaf404b4f7d" title=" " alt="" coords="280,68,478,107"/>
-<area shape="rect" id="node4" href="$d0/d82/classROOT_1_1Minuit2_1_1Numerical2PGradientCalculator.html#aa0011cbece7254c7e17f053916e01c65" title=" " alt="" coords="261,131,497,169"/>
-<area shape="rect" id="node5" href="$d0/d82/classROOT_1_1Minuit2_1_1Numerical2PGradientCalculator.html#a89c825ba34455277290940fa62fc5321" title=" " alt="" coords="5,131,213,169"/>
-</map>

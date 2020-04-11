@@ -1,8 +1,0 @@
-<map id="ADATIO::OldSerialDBData::readObject" name="ADATIO::OldSerialDBData::readObject">
-<area shape="rect" id="node1" title=" " alt="" coords="5,93,184,132"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="290,12,394,37"/>
-<area shape="rect" id="node4" href="$da/dbc/classADATIO_1_1OldSerialDBData.html#ad917fd5898616290b7c0d30cb878850f" title="Setter." alt="" coords="253,61,432,100"/>
-<area shape="rect" id="node5" href="$d0/df3/classADATIO_1_1BinaryBufferReader.html#ae8e6c22be76223f5e2ce2613e70be4bf" title="Get the current checksum." alt="" coords="245,124,439,163"/>
-<area shape="rect" id="node6" href="$d0/df3/classADATIO_1_1BinaryBufferReader.html#ad7957f285235c272d8874d1ab5ffea75" title="Is it empty?" alt="" coords="232,187,452,212"/>
-<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="500,5,659,44"/>
-</map>

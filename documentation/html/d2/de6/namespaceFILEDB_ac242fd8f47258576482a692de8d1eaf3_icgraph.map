@@ -1,9 +1,0 @@
-<map id="FILEDB::binaryAllPairs" name="FILEDB::binaryAllPairs">
-<area shape="rect" id="node1" title=" " alt="" coords="712,44,869,69"/>
-<area shape="rect" id="node2" href="$d8/d19/classFILEDB_1_1ConfDataStoreDB.html#ae38beaf9ba3f8629f2c322a3c5a23357" title=" " alt="" coords="482,37,664,76"/>
-<area shape="rect" id="node3" href="$df/db6/classFILEDB_1_1AllConfStoreDB.html#a9150983c712d6b870a75886f92b10a9d" title=" " alt="" coords="253,5,422,44"/>
-<area shape="rect" id="node6" href="$db/d60/classFILEDB_1_1ConfDataDBMerger.html#a6738f9880645518ba94eccd3b2037f24" title=" " alt="" coords="242,68,434,107"/>
-<area shape="rect" id="node4" href="$dc/d7f/dbcorr__read_8cc.html#ab9de6272851485ba5199ebd6e9777578" title="Get corrs." alt="" coords="112,12,185,37"/>
-<area shape="rect" id="node5" href="$dc/d7f/dbcorr__read_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,12,56,37"/>
-<area shape="rect" id="node7" href="$db/d3c/adat-devel_2main_2dbutil_2dbmerge_8cc.html#a6c8a139a4e0f3c2eb65b1a9828dc910a" title="Does the actual work of merging &#45; handled as a template." alt="" coords="104,75,194,100"/>
-</map>

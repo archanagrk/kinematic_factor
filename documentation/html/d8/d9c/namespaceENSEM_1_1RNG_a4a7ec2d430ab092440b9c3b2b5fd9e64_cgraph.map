@@ -1,5 +1,0 @@
-<map id="ENSEM::RNG::initDefaultRNG" name="ENSEM::RNG::initDefaultRNG">
-<area shape="rect" id="node1" title="Initialize the random number generator with a default seed." alt="" coords="5,31,207,56"/>
-<area shape="rect" id="node2" href="$d8/d9c/namespaceENSEM_1_1RNG.html#a69ee665fc3157b2080c75a027343d449" title="Initialize the internals of the random number generator." alt="" coords="255,5,415,31"/>
-<area shape="rect" id="node3" href="$d8/d9c/namespaceENSEM_1_1RNG.html#ad0ec5508fb072a32d96927e5b752164a" title="Initialize the random number generator seed." alt="" coords="264,55,407,80"/>
-</map>

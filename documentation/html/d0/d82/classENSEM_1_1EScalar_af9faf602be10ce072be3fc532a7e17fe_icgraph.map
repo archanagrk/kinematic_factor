@@ -1,7 +1,0 @@
-<map id="ENSEM::EScalar::resizeObs" name="ENSEM::EScalar::resizeObs">
-<area shape="rect" id="node1" title=" " alt="" coords="248,80,438,105"/>
-<area shape="rect" id="node2" href="$d2/d94/namespaceENSEM.html#a4ce86ea9e03a33e62daa145e7832fa29" title="3rd&#45;rank anti&#45;symmetric tensor" alt="" coords="5,5,200,31"/>
-<area shape="rect" id="node3" href="$d2/d94/namespaceENSEM.html#a6065b3f3c5f3e116256e3897ce3ca1d5" title="4th&#45;rank anti&#45;symmetric tensor" alt="" coords="5,55,200,80"/>
-<area shape="rect" id="node4" href="$d2/d94/namespaceENSEM.html#a4b7b45dcc2e93e939b6662956efaf3d6" title="Symmetric Kronecker&#45;delta." alt="" coords="32,104,173,129"/>
-<area shape="rect" id="node5" href="$d4/d74/adat-devel_2main_2dbutil_2dbgraph__convert_8cc.html#a6fc5db26f2d2594d2601479adfa9dc32" title="Print ensemble files." alt="" coords="58,153,147,179"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="Hadron::write" name="Hadron::write">
-<area shape="rect" id="node1" title="BaryonElementalOperator write." alt="" coords="396,107,496,132"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#ac358b1203bd94f6b26452402911ce174" title="Write a key." alt="" coords="247,107,348,132"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a2454ead756c8c4f2b1f75bbf8d3c1070" title="Write a key." alt="" coords="52,5,152,31"/>
-<area shape="rect" id="node4" href="$d5/d48/classHadron_1_1CGCMapObject.html#aeb342dc81f17743a25b969f540db4edf" title="Return a list of all the keys with their non&#45;zero values for a fixed target value." alt="" coords="5,55,199,107"/>
-<area shape="rect" id="node5" href="$d5/d48/classHadron_1_1CGCMapObject.html#a334a88a21755a64719b1081190d2bde2" title=" " alt="" coords="5,131,199,183"/>
-<area shape="rect" id="node6" href="$d5/db0/adat-devel_2main_2dbutil_2dbconvert__corr__util_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="77,207,127,232"/>
-</map>

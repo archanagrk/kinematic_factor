@@ -1,8 +1,0 @@
-<map id="ROOT::Minuit2::MnApplication" name="ROOT::Minuit2::MnApplication">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,205,129"/>
-<area shape="rect" id="node2" href="$dc/d88/classROOT_1_1Minuit2_1_1MnFumiliMinimize.html" title=" " alt="" coords="253,5,476,31"/>
-<area shape="rect" id="node3" href="$d1/d36/classROOT_1_1Minuit2_1_1MnMigrad.html" title=" " alt="" coords="277,55,452,80"/>
-<area shape="rect" id="node4" href="$db/d5a/classROOT_1_1Minuit2_1_1MnMinimize.html" title=" " alt="" coords="271,104,458,129"/>
-<area shape="rect" id="node5" href="$de/dd8/classROOT_1_1Minuit2_1_1MnScan.html" title=" " alt="" coords="282,153,447,179"/>
-<area shape="rect" id="node6" href="$da/df3/classROOT_1_1Minuit2_1_1MnSimplex.html" title=" " alt="" coords="274,203,456,228"/>
-</map>

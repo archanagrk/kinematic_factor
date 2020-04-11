@@ -1,8 +1,0 @@
-\form#0:$dest = \sum_{i1,i2,i3,j1,j2,j3} \epsilon^{i1,j1,k1}\epsilon^{i2,j2,k2} Q1^{i1,i2} Q2^{j1,j2} Q3^{k1,k2}$
-\form#1:$dest^{k2,k1} = \sum_{i1,i2,j1,j2} \epsilon^{i1,j1,k1}\epsilon^{i2,j2,k2} Q1^{i1,i2} Q2^{j1,j2}$
-\form#2:$dest = \sum_{i,j,k} \epsilon^{i,j,k} V1^{i} V2^{j} V3^{k}$
-\form#3:$dest = \sum_{i} V1^{i} V2^{i}$
-\form#4:$dest^{i} = \sum_{j,k} \epsilon^{i,j,k} V1^{j} V2^{k}$
-\form#5:$\left(j_1,m_1;j_2,m_2|J,M\right) $
-\form#6:$d^{j}_{m,n}(\beta)$
-\form#7:$D^{j}_{m,n}(\alpha, \beta, \gamma)$

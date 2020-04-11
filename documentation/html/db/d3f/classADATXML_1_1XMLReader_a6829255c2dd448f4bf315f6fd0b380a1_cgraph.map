@@ -1,9 +1,0 @@
-<map id="ADATXML::XMLReader::XMLReader" name="ADATXML::XMLReader::XMLReader">
-<area shape="rect" id="node1" title="Construct from contents of a XMLBufferWriter." alt="" coords="5,33,167,72"/>
-<area shape="rect" id="node2" href="$db/d3f/classADATXML_1_1XMLReader.html#ad5dcbd08800bc67ac4a91f93cb1504b0" title="Opens and reads an XML file." alt="" coords="215,33,377,72"/>
-<area shape="rect" id="node3" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a453ed92ad20f71b672f3b92e91e40b1c" title=" " alt="" coords="425,33,630,72"/>
-<area shape="rect" id="node4" href="$db/de5/group__qio.html#gac32c771b58d87e4ef4af62a7ad2e5c0d" title="Close a ADATFileReader." alt="" coords="736,12,845,37"/>
-<area shape="rect" id="node7" href="$d5/dfd/classXMLXPathReader_1_1XMLDocument.html#ac39670aea17809a726dc6a2cc91c9710" title=" " alt="" coords="678,61,903,100"/>
-<area shape="rect" id="node5" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="951,5,1128,44"/>
-<area shape="rect" id="node6" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="1176,5,1353,44"/>
-</map>

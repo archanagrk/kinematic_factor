@@ -1,0 +1,64 @@
+\hypertarget{subduction_8h}{}\section{/\+Users/archanar/git/\+Kinematic\+\_\+factors/compute\+\_\+\+Kfactors/src/lib/subduction.h File Reference}
+\label{subduction_8h}\index{/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subduction.h@{/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subduction.h}}
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$complex$>$}\newline
+{\ttfamily \#include $<$utility$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include \char`\"{}math.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$/usr/local/\+Eigen/\+Dense$>$}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xml\+\_\+group\+\_\+reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/singleton.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/objfactory.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$adat/handle.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}hadron/clebsch.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/subduce\+\_\+tables\+\_\+factory.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/subduce\+\_\+tables\+\_\+oct\+\_\+factory.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/subduce\+\_\+tables\+\_\+lg\+\_\+factory.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/cgc\+\_\+irrep\+\_\+mom\+\_\+auto.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/irrep\+\_\+util.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ensem/ensem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}kfac\+\_\+utils.\+h\char`\"{}}\newline
+Include dependency graph for subduction.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d8e/subduction_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d7f/subduction_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceSubd}{Subd}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+map$<$ int, complex$<$ double $>$ $>$ \mbox{\hyperlink{namespaceSubd_a5f31b3ef70ad25320a8010ec3017eb04}{Subd\+::subduce\+\_\+lg\+\_\+boson}} (const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep, const string \&little\+\_\+group)
+\item 
+map$<$ int, complex$<$ double $>$ $>$ \mbox{\hyperlink{namespaceSubd_ae7ed68270fb8f7b5f574db245b085586}{Subd\+::subduce\+\_\+lg\+\_\+fermion}} (const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep, const string \&little\+\_\+group)
+\item 
+map$<$ int, complex$<$ double $>$ $>$ \mbox{\hyperlink{namespaceSubd_aa8b77162377de658856d44a4ac5aad26}{Subd\+::subduce\+\_\+oct}} (const \mbox{\hyperlink{structirrep__label}{irrep\+\_\+label}} \&irrep)
+\item 
+int \mbox{\hyperlink{namespaceSubd_a7a3fcd97f1cf40eb963e278240d0ff3e}{Subd\+::find\+\_\+n\+\_\+subduced\+\_\+embeddings}} (const string \&group, const string \&irrep, int twoJ, int eta\+\_\+tilde)
+\end{DoxyCompactItemize}

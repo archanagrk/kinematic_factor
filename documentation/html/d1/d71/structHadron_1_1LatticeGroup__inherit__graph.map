@@ -1,9 +1,0 @@
-<map id="Hadron::LatticeGroup" name="Hadron::LatticeGroup">
-<area shape="rect" id="node1" title="Group base class." alt="" coords="5,129,154,155"/>
-<area shape="rect" id="node2" href="$da/da1/structHadron_1_1C4nm0Group.html" title=" " alt="" coords="202,5,355,31"/>
-<area shape="rect" id="node3" href="$d1/dba/structHadron_1_1C4nnmGroup.html" title=" " alt="" coords="202,55,355,80"/>
-<area shape="rect" id="node4" href="$d8/de7/structHadron_1_1D2Group.html" title=" " alt="" coords="215,104,342,129"/>
-<area shape="rect" id="node5" href="$de/de1/structHadron_1_1D3Group.html" title=" " alt="" coords="215,153,342,179"/>
-<area shape="rect" id="node6" href="$de/d5e/structHadron_1_1D4Group.html" title="Little groups." alt="" coords="215,203,342,228"/>
-<area shape="rect" id="node7" href="$d1/de5/structHadron_1_1OctGroup.html" title="Octahedral group." alt="" coords="213,252,344,277"/>
-</map>

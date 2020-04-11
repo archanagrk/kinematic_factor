@@ -1,5 +1,0 @@
-<map id="Hadron::HadronDistOperatorRep_t::read" name="Hadron::HadronDistOperatorRep_t::read">
-<area shape="rect" id="node1" title="Binary reader." alt="" coords="5,5,197,44"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="245,12,349,37"/>
-<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="397,5,556,44"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ROOT::Minuit2::MinimumState::Vec" name="ROOT::Minuit2::MinimumState::Vec">
-<area shape="rect" id="node1" title=" " alt="" coords="527,159,758,184"/>
-<area shape="rect" id="node2" href="$d1/d0a/classROOT_1_1Minuit2_1_1DavidonErrorUpdator.html#afad671aa523cbd9f17af376c51c3ce97" title=" " alt="" coords="269,5,464,44"/>
-<area shape="rect" id="node3" href="$d5/d52/classROOT_1_1Minuit2_1_1VariableMetricBuilder.html#a6214271e1802f110e94725295f3900fc" title=" " alt="" coords="5,35,206,73"/>
-<area shape="rect" id="node4" href="$dc/dcb/classROOT_1_1Minuit2_1_1FumiliBuilder.html#ac0df0ebc275b75e6a6831f102f1753d2" title=" " alt="" coords="270,120,463,159"/>
-<area shape="rect" id="node5" href="$df/dd5/classROOT_1_1Minuit2_1_1MnApplication.html#a8908d50d5d4f7f011b94bd10e51eacf7" title=" " alt="" coords="266,183,466,221"/>
-<area shape="rect" id="node6" href="$d1/d02/classROOT_1_1Minuit2_1_1MnHesse.html#a4130de0190695811a4606f8ab229482d" title=" " alt="" coords="280,245,453,284"/>
-<area shape="rect" id="node7" href="$d3/de0/classROOT_1_1Minuit2_1_1MnUserParameterState.html#a8214c3f41958849f1aaae4865bb5b129" title="construct from internal parameters (after minimization)" alt="" coords="254,308,479,347"/>
-</map>

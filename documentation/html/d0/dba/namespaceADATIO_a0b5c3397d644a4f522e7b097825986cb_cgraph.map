@@ -1,8 +1,0 @@
-<map id="ADATIO::read" name="ADATIO::read">
-<area shape="rect" id="node1" title="Read a binary ArrayNd element." alt="" coords="5,87,109,112"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="193,12,297,37"/>
-<area shape="rect" id="node4" href="$d1/db2/classADAT_1_1ArrayNd.html#afcf13cf80c4cb861316d1ad55601818e" title="Allocate mem for the array." alt="" coords="168,61,322,87"/>
-<area shape="rect" id="node5" href="$d1/db2/classADAT_1_1ArrayNd.html#a5c33ae0e66b53a2fd86f804f0f4292e9" title="Number of elements in the array." alt="" coords="157,111,332,136"/>
-<area shape="rect" id="node6" href="$d1/db2/classADAT_1_1ArrayNd.html#abc5c56420a9625b236d4521acb083de2" title="Return ref to an element with index flattened over indices." alt="" coords="161,160,328,185"/>
-<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="380,5,539,44"/>
-</map>

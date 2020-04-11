@@ -1,7 +1,0 @@
-<map id="ROOT::Minuit2::MnUserCovariance::Nrow" name="ROOT::Minuit2::MnUserCovariance::Nrow">
-<area shape="rect" id="node1" title=" " alt="" coords="278,96,509,135"/>
-<area shape="rect" id="node2" href="$dc/d44/classROOT_1_1Minuit2_1_1MnCovarianceSqueeze.html#af75da2b8e6e20a5477a6b0ceac4efb3a" title=" " alt="" coords="17,5,219,44"/>
-<area shape="rect" id="node3" href="$d8/dce/classROOT_1_1Minuit2_1_1MnEigen.html#aba6999f348c2cbc8055528faf207b7d6" title="calculate the eigenvalues" alt="" coords="33,68,202,107"/>
-<area shape="rect" id="node4" href="$d6/d3a/namespaceROOT_1_1Minuit2.html#ab0d367617b39c46b8b0eeef75ecc5b75" title=" " alt="" coords="27,131,209,156"/>
-<area shape="rect" id="node5" href="$d3/de0/classROOT_1_1Minuit2_1_1MnUserParameterState.html#a146a0e2f845431830d795b919bb8f594" title="construct from user parameters + covariance (before minimization)" alt="" coords="5,180,230,219"/>
-</map>

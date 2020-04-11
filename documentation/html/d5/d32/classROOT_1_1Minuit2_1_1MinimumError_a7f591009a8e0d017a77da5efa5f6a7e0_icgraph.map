@@ -1,6 +1,0 @@
-<map id="ROOT::Minuit2::MinimumError::Hessian" name="ROOT::Minuit2::MinimumError::Hessian">
-<area shape="rect" id="node1" title=" " alt="" coords="255,68,455,107"/>
-<area shape="rect" id="node2" href="$dc/dcb/classROOT_1_1Minuit2_1_1FumiliBuilder.html#ac0df0ebc275b75e6a6831f102f1753d2" title=" " alt="" coords="10,5,203,44"/>
-<area shape="rect" id="node3" href="$dc/d44/classROOT_1_1Minuit2_1_1MnCovarianceSqueeze.html#a6f1ea9726d0981faacf7ee0c26326bcd" title=" " alt="" coords="5,68,207,107"/>
-<area shape="rect" id="node4" href="$d5/d52/classROOT_1_1Minuit2_1_1VariableMetricBuilder.html#a6214271e1802f110e94725295f3900fc" title=" " alt="" coords="6,131,207,169"/>
-</map>

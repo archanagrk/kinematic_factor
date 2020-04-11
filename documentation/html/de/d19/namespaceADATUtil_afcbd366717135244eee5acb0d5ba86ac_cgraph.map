@@ -1,5 +1,0 @@
-<map id="ADATUtil::bfwrite" name="ADATUtil::bfwrite">
-<area shape="rect" id="node1" title="fwrite to a binary file in big&#45;endian order" alt="" coords="5,31,127,56"/>
-<area shape="rect" id="node2" href="$de/d19/namespaceADATUtil.html#a7f9f0561f3ffcb562067ebedbade089f" title="Is the native byte order big endian?" alt="" coords="175,5,323,31"/>
-<area shape="rect" id="node3" href="$de/d19/namespaceADATUtil.html#af522573b90be52b1e09342dd11e23199" title="Byte&#45;swap an array of data each of size nmemb." alt="" coords="176,55,322,80"/>
-</map>

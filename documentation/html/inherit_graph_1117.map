@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,87,84,112"/>
-<area shape="rect" id="node2" href="$db/dfa/classFILEDB_1_1FileHashDBException.html" title=" " alt="" coords="136,5,342,31"/>
-<area shape="rect" id="node3" href="$d3/d5a/classFILEDB_1_1SerializeException.html" title=" " alt="" coords="146,55,332,80"/>
-<area shape="rect" id="node4" href="$d9/d06/structUtil_1_1DefaultFactoryError_1_1Exception.html" title=" " alt="" coords="132,104,346,156"/>
-<area shape="rect" id="node5" href="$d1/d1e/structUtil_1_1DefaultFunctionMapError_1_1Exception.html" title=" " alt="" coords="141,180,337,232"/>
-</map>

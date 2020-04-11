@@ -1,8 +1,0 @@
-<map id="ROOT::Minuit2::MnUserTransformation::Params" name="ROOT::Minuit2::MnUserTransformation::Params">
-<area shape="rect" id="node1" title="access to parameters and errors in column&#45;wise representation" alt="" coords="839,37,1091,76"/>
-<area shape="rect" id="node2" href="$d6/d10/classROOT_1_1Minuit2_1_1MnUserParameters.html#a0f718b770e7fbeb503f83d8f27ca10f0" title="access to parameters and errors in column&#45;wise representation" alt="" coords="559,37,791,76"/>
-<area shape="rect" id="node3" href="$da/d9e/classROOT_1_1Minuit2_1_1MnParameterScan.html#a2548238382446f4774d43a4269dcebcf" title=" " alt="" coords="300,5,497,44"/>
-<area shape="rect" id="node4" href="$d3/de0/classROOT_1_1Minuit2_1_1MnUserParameterState.html#af9ed845d2a223223497414296477889f" title=" " alt="" coords="286,68,511,107"/>
-<area shape="rect" id="node5" href="$d0/d9c/classROOT_1_1Minuit2_1_1Minuit2Minimizer.html#ac9372eb08937cf14acb8862ba3166c26" title="return pointer to X values at the minimum" alt="" coords="5,47,238,72"/>
-<area shape="rect" id="node6" href="$df/dd5/classROOT_1_1Minuit2_1_1MnApplication.html#ad4a7808d299103c748b01bd9c2f5b91d" title=" " alt="" coords="22,96,222,135"/>
-</map>

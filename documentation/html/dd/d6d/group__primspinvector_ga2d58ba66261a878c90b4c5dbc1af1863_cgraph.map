@@ -1,6 +1,0 @@
-<map id="ENSEM::chiralProjectPlus" name="ENSEM::chiralProjectPlus">
-<area shape="rect" id="node1" title="PSpinVector&lt;T,4&gt; = P_+ * PSpinVector&lt;T,4&gt;" alt="" coords="5,31,181,56"/>
-<area shape="rect" id="node2" href="$da/d9c/classENSEM_1_1PVector.html#a9cd0edde5b031651ca54dcbd424cc7d8" title=" " alt="" coords="229,5,388,31"/>
-<area shape="rect" id="node3" href="$d4/dca/group__escalar.html#gacea96299b1b52d3a75cdb109c3b03b05" title="dest = 0" alt="" coords="244,55,373,80"/>
-<area shape="rect" id="node4" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="436,55,595,80"/>
-</map>

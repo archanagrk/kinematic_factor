@@ -1,7 +1,0 @@
-<map id="ENSEM::OScalar::size" name="ENSEM::OScalar::size">
-<area shape="rect" id="node1" title=" " alt="" coords="261,80,416,105"/>
-<area shape="rect" id="node2" href="$de/d87/group__obstensor.html#ga7a165136688ba38f4500951758f372d3" title="OScalar / OTensor." alt="" coords="44,5,174,31"/>
-<area shape="rect" id="node3" href="$de/d87/group__obstensor.html#ga2f3f321adaac09837bf726a64c539c11" title="OTensor = outerProduct(OTensor, OScalar)" alt="" coords="33,55,185,80"/>
-<area shape="rect" id="node4" href="$da/d59/group__obsvector.html#gad915d71f08c700574f01f93a9689eb82" title=" " alt="" coords="19,104,199,129"/>
-<area shape="rect" id="node5" href="$da/d59/group__obsvector.html#ga1a740c7927429957c8bc0b75d070bb71" title=" " alt="" coords="5,153,213,179"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/operator_name_util.h" name="/Users/archanar/Kinematic_factor/adat_devel_install/include/hadron/operator_name_util.h">
-<area shape="rect" id="node1" title="Generate array of flavor strings for a particular hadron." alt="" coords="304,5,546,57"/>
-<area shape="rect" id="node2" href="$dd/d2c/ensem__filenames_8cc.html" title="Ensemble file names." alt="" coords="5,112,197,164"/>
-<area shape="rect" id="node3" href="$d3/d43/hadron__convert__corr__util_8cc.html" title="Convert correlators from SU(2) specific keys to SU(N) specific keys." alt="" coords="221,105,414,171"/>
-<area shape="rect" id="node4" href="$de/d96/dbiso__wick__rescale_8cc.html" title="Rescale correlation functions, rescaling flavor weights and correcting for normalization in Wick cont..." alt="" coords="438,112,631,164"/>
-<area shape="rect" id="node5" href="$d7/d49/dbwick__rescale_8cc.html" title="Rescale correlation functions correcting for normalization in Wick contractions." alt="" coords="655,112,833,164"/>
-</map>

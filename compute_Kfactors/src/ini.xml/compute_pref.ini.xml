@@ -1,26 +1,76 @@
+ <!-- For pi+ -> pi+*gamma in 856  -->
 <hadron>
   <npt>3</npt>
+  <L>24</L>
+  <Xi>3.45308</Xi>
+  <XiError>0.00789</XiError> <!-- Not taken to consideration as of now -->
   <had>
     <elem>
+      <name>pion</name>
       <twoJ>0</twoJ>
       <P>-1</P>
-      <msq>0.05</msq>
-      <max_mom>2</max_mom>
+      <ell>0</ell>
+      <msq>0.04735</msq> <!-- pi - not required here just take the p = 000 as mass -->
+      <Elab>
+        <elem>pion_proj0_p000_A1.jack</elem>
+        <elem>pion_proj0_p100_H0D4A2.jack</elem>
+        <elem>pion_proj0_p110_H0D2A2.jack</elem>
+        <elem>pion_proj0_p111_H0D3A2.jack</elem>
+        <elem>pion_proj0_p200_H0D4A2.jack</elem>
+        <elem>pion_proj0_p210_H0C4nm0A2.jack</elem>
+        <elem>pion_proj0_p211_H0C4nnmA2.jack</elem>
+        <elem>pion_proj1_p000_A1.jack</elem>
+        <elem>pion_proj1_p100_H0D4A2.jack</elem>
+        <elem>pion_proj1_p110_H0D2A2.jack</elem>
+        <elem>pion_proj1_p111_H0D3A2.jack</elem>
+        <elem>pion_proj1_p200_H0D4A2.jack</elem>
+        <elem>pion_proj1_p210_H0C4nm0A2.jack</elem>
+        <elem>pion_proj1_p211_H0C4nnmA2.jack</elem>
+      </Elab>
+      <max_mom>6</max_mom>
+      <levels>
+        <elem>proj0</elem>
+        <elem>proj1</elem>
+      </levels>
     </elem>
     <elem>
+        <name>rho_rhoxD0_J0__J1</name>
         <twoJ>2</twoJ>
         <P>-1</P>
+        <ell>0</ell>
         <msq>0</msq>
-        <max_mom>2</max_mom>
+        <Elab>
+          <elem>null</elem>
+        </Elab>
+        <levels></levels>
+        <max_mom>4</max_mom>
     </elem>
     <elem>
-        <twoJ>2</twoJ>
-        <P>-1</P>
-        <msq>0.05</msq>
-        <max_mom>2</max_mom>
-    </elem>
+      <name>pion</name>
+      <twoJ>0</twoJ>
+      <P>-1</P>
+      <ell>0</ell>
+      <msq>0.04735</msq> <!-- pi  not required here just take the p = 000 as mass -->
+        <Elab>
+        <elem>pion_proj0_p000_A1.jack</elem>
+        <elem>pion_proj0_p100_H0D4A2.jack</elem>
+        <elem>pion_proj0_p110_H0D2A2.jack</elem>
+        <elem>pion_proj0_p111_H0D3A2.jack</elem>
+        <elem>pion_proj0_p200_H0D4A2.jack</elem>
+        <elem>pion_proj0_p210_H0C4nm0A2.jack</elem>
+        <elem>pion_proj0_p211_H0C4nnmA2.jack</elem>
+      </Elab>
+        <max_mom>6</max_mom>
+      <levels>
+        <elem>proj0</elem>
+      </levels>
+      </elem>
   </had>
-  <matrix_type>kin_fac_vector_vector_scalar</matrix_type>
-  <phase>false</phase>
+  <numMatrixElem>1</numMatrixElem>
+  <MatrixName>
+    <elem>KFac.jack</elem>
+  </MatrixName>
+  <MatrixType>kin_fac_scalar_vector_scalar</MatrixType>
+  <PrintZero>true</PrintZero>
+  <phase>true</phase>
 </hadron>
-

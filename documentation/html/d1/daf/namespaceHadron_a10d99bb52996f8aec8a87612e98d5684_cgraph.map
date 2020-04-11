@@ -1,6 +1,0 @@
-<map id="Hadron::read" name="Hadron::read">
-<area shape="rect" id="node1" title="KeyTetraQuarkElementalOperator reader." alt="" coords="5,37,104,63"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#af57306a140489d28cd8fa1107d585906" title=" " alt="" coords="152,12,287,37"/>
-<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a614faa9c1c7ae1880f009d5c9aa672ec" title="TetraQuarkElementalOperator reader." alt="" coords="170,61,269,87"/>
-<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a70de2f31f59d9846f4ee688c3590bf31" title=" " alt="" coords="335,5,494,44"/>
-</map>

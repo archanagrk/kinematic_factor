@@ -1,6 +1,0 @@
-<map id="ADATIO::OldSerialDBKey::readObject" name="ADATIO::OldSerialDBKey::readObject">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,179,69"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="276,12,380,37"/>
-<area shape="rect" id="node4" href="$dc/d7d/classADATIO_1_1OldSerialDBKey.html#ab191c26e658125d7ac4378c8b74d6f1b" title="Setter." alt="" coords="227,61,429,87"/>
-<area shape="rect" id="node3" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="477,5,636,44"/>
-</map>

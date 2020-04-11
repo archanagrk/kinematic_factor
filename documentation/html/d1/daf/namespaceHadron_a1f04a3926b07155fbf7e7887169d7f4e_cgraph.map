@@ -1,6 +1,0 @@
-<map id="Hadron::read" name="Hadron::read">
-<area shape="rect" id="node1" title="QuarkNum reader." alt="" coords="5,12,104,37"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a61520b9a5ce2b207d1c01e1508a5c470" title="Read a key." alt="" coords="152,12,252,37"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#ae87d364dcd64ddf5c60a1b4d6237e633" title="BaryonElementalOperator reader." alt="" coords="300,12,399,37"/>
-<area shape="rect" id="node4" href="$db/da0/classXMLArray_1_1Array3d.html#afe27b06ef40efdd87dbea00eafa35287" title="Allocate mem for the array." alt="" coords="447,5,589,44"/>
-</map>

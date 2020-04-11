@@ -1,9 +1,0 @@
-<map id="Hadron::KeyHadronSUNNPartIrrep_t" name="Hadron::KeyHadronSUNNPartIrrep_t">
-<area shape="rect" id="node1" title="Time slice collection of operators projected onto a definite irrep and specific row." alt="" coords="606,133,808,172"/>
-<area shape="rect" id="node2" href="$df/dc7/structHadron_1_1KeyHadronSUNNPartIrrepOp__t.html" title="Time slice collection of operators projected onto a definite irrep." alt="" coords="290,75,491,113"/>
-<area shape="rect" id="node3" href="$db/d5c/classADAT_1_1Array1dO.html" title=" " alt="" coords="20,5,194,44"/>
-<area shape="rect" id="node4" href="$db/d5c/classADAT_1_1Array1dO.html" title=" " alt="" coords="5,68,208,120"/>
-<area shape="rect" id="node5" href="$d6/dc8/structHadron_1_1KeyCGCIrrepMom__t.html" title="CLEBSCH&#45;GORDAN coefficients for use with rows of irreps and also momentum." alt="" coords="294,140,487,165"/>
-<area shape="rect" id="node6" href="$db/d6c/classXMLArray_1_1Array.html" title=" " alt="" coords="28,144,185,169"/>
-<area shape="rect" id="node7" href="$d1/d60/structHadron_1_1KeyCGCSU3__t.html" title="Structure for SU(3)" alt="" coords="309,189,471,215"/>
-</map>

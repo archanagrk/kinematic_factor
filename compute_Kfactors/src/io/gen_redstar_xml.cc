@@ -31,6 +31,7 @@ int main(int argc, char** argv){
   string irrep_tmp, name_tmp;
   XMLArray::Array<int> canon_mom_tmp;
   double psq_tmp;
+  string lev_tmp;
 
   
   int pts;
@@ -85,6 +86,7 @@ int main(int argc, char** argv){
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/absLam", lam_tmp);
       read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/psq", psq_tmp);
       read(xml_kf_in, "/kfac/hadron/had/elem["+std::to_string(i)+"]/name", name_tmp);
+      if(i != 2){read(xml_kf_in, "/kfac/elem["+std::to_string(k)+"]/elem["+std::to_string(i)+"]/level", lev_tmp);}
      }
      catch( const string& error ){
       cerr << "Error reading kfac input file : " << error << endl;
@@ -112,7 +114,7 @@ int main(int argc, char** argv){
 
       
       if(i == 1){
-        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + lev_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
         else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
       }
       else if(i == 2){
@@ -120,7 +122,7 @@ int main(int argc, char** argv){
         else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + irrep_tmp, "", canon_mom_tmp);}        
       }
       else if(i == 3){
-        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
+        if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + lev_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
         else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}        
       }
 

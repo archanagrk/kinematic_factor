@@ -1,7 +1,0 @@
-<map id="ADATXML::XMLWriter" name="ADATXML::XMLWriter">
-<area shape="rect" id="node1" title="Metadata output class." alt="" coords="232,79,385,104"/>
-<area shape="rect" id="node3" href="$dc/df3/classADATXML_1_1XMLArrayWriter.html" title="Writes metadata to an array which serves as a handle for another XML object." alt="" coords="5,152,191,177"/>
-<area shape="rect" id="node4" href="$d7/de9/classADATXML_1_1XMLBufferWriter.html" title="Write metadata to a buffer." alt="" coords="214,152,403,177"/>
-<area shape="rect" id="node5" href="$d6/ddb/classADATXML_1_1XMLFileWriter.html" title="Write data to a file." alt="" coords="427,152,601,177"/>
-<area shape="rect" id="node2" href="$d5/de1/classXMLWriterAPI_1_1XMLSimpleWriter.html" title=" " alt="" coords="201,5,416,31"/>
-</map>

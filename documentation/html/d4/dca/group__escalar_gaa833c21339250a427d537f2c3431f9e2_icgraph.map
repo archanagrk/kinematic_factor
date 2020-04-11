@@ -1,7 +1,0 @@
-<map id="ENSEM::peekSpin" name="ENSEM::peekSpin">
-<area shape="rect" id="node1" title=" " alt="" coords="528,31,660,56"/>
-<area shape="rect" id="node2" href="$d4/dca/group__escalar.html#gadd6441efc37438418dda6c0e5a501f10" title=" " alt="" coords="312,5,444,31"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a87528a5f45980257a1473a3f77301a5b" title="Convert a generic spin vector into a sparse spin representation." alt="" coords="276,55,480,80"/>
-<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#aadefc7d519d40f16cb37c4df644944e7" title="Convert a DR gamma matrix indexed by gamma into a sparse spin representation." alt="" coords="5,29,228,55"/>
-<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#a9d2555db4b8f920142f7c79e6752eccd" title="Convert a DP gamma matrix indexed by gamma into a sparse spin representation." alt="" coords="6,79,228,104"/>
-</map>

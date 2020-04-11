@@ -1,9 +1,0 @@
-<map id="ADATIO::QIOStringTraits::tprec" name="ADATIO::QIOStringTraits::tprec">
-<area shape="rect" id="node1" title=" " alt="" coords="5,61,175,100"/>
-<area shape="rect" id="node2" href="$db/de5/group__qio.html#gac32c771b58d87e4ef4af62a7ad2e5c0d" title="Close a ADATFileReader." alt="" coords="223,15,331,40"/>
-<area shape="rect" id="node5" href="$db/de5/group__qio.html#gad9b8cab72f011dd46c24a51e8a1c756a" title="Is a ADATFileReader open." alt="" coords="406,68,530,93"/>
-<area shape="rect" id="node6" href="$d0/dba/namespaceADATIO.html#ab1b78a1922de3cc047517ead7aa99825" title=" " alt="" coords="225,121,329,147"/>
-<area shape="rect" id="node3" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="379,5,557,44"/>
-<area shape="rect" id="node4" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="605,33,782,72"/>
-<area shape="rect" id="node7" href="$da/dd9/classADATIO_1_1BinaryReader.html#a4d79cabea18fccc818eaf2c45ed21b1f" title="Read some max number of characters &#45; 1 upto and excluding a newline." alt="" coords="389,117,547,156"/>
-</map>

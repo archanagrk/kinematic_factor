@@ -1,6 +1,0 @@
-<map id="Hadron::operator*" name="Hadron::operator*">
-<area shape="rect" id="node1" title="Multiply a number onto an expression." alt="" coords="5,55,133,80"/>
-<area shape="rect" id="node2" href="$da/d29/classADAT_1_1MapObject.html#a7f4f6830f0efcc2fcd7bb2aebe0b0c95" title="Begin loop over keys." alt="" coords="181,5,347,31"/>
-<area shape="rect" id="node3" href="$da/d29/classADAT_1_1MapObject.html#a1162459ba16798247ab64ee38be25bca" title="End loop over keys." alt="" coords="186,55,342,80"/>
-<area shape="rect" id="node4" href="$da/d29/classADAT_1_1MapObject.html#a5389738841dca1228aefe6935c464a78" title="Insert." alt="" coords="181,104,347,129"/>
-</map>

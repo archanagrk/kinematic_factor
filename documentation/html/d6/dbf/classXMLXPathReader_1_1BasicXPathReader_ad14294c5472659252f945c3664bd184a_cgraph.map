@@ -1,8 +1,0 @@
-<map id="XMLXPathReader::BasicXPathReader::open" name="XMLXPathReader::BasicXPathReader::open">
-<area shape="rect" id="node1" title=" " alt="" coords="5,61,210,100"/>
-<area shape="rect" id="node2" href="$db/de5/group__qio.html#gac32c771b58d87e4ef4af62a7ad2e5c0d" title="Close a ADATFileReader." alt="" coords="316,12,425,37"/>
-<area shape="rect" id="node5" href="$d5/dfd/classXMLXPathReader_1_1XMLDocument.html#aa4fceaafd3c764004b6da33a26acc16d" title=" " alt="" coords="258,61,483,100"/>
-<area shape="rect" id="node6" href="$d6/dbf/classXMLXPathReader_1_1BasicXPathReader.html#a0d2f7c3da72b0669541bef2e1d35f973" title=" " alt="" coords="268,124,473,163"/>
-<area shape="rect" id="node3" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="531,5,708,44"/>
-<area shape="rect" id="node4" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="756,5,933,44"/>
-</map>

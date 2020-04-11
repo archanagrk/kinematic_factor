@@ -31,6 +31,7 @@ using namespace Hadron;
 struct hadron{
 
   string name;
+  Array1dO<string> levels;
   int twoJ;
   int P;
   int ell;

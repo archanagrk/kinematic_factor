@@ -1,7 +1,0 @@
-<map id="ENSEM::readArrayPrimitive" name="ENSEM::readArrayPrimitive">
-<area shape="rect" id="node1" title="Read a XML Array element." alt="" coords="5,55,191,80"/>
-<area shape="rect" id="node2" href="$d4/dca/group__escalar.html#ga5631206e233cf75b5fb2ff13ee8b77ac" title="XML input." alt="" coords="269,5,372,31"/>
-<area shape="rect" id="node4" href="$db/d6c/classXMLArray_1_1Array.html#a470913fde270ad0e578041654e2390f0" title="Allocate mem for the array." alt="" coords="239,55,402,80"/>
-<area shape="rect" id="node5" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="245,104,396,129"/>
-<area shape="rect" id="node3" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="450,5,609,31"/>
-</map>

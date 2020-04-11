@@ -1,5 +1,0 @@
-<map id="ADATIO::close" name="ADATIO::close">
-<area shape="rect" id="node1" title="Close a ADATFileReader." alt="" coords="5,12,114,37"/>
-<area shape="rect" id="node2" href="$db/de5/group__qio.html#ga8b86dba1600272d26539815146f04078" title="Closes the last file opened." alt="" coords="162,5,339,44"/>
-<area shape="rect" id="node3" href="$db/de5/group__qio.html#ga601972c66a6e6671d7b41ee1bce80e82" title="Queries whether a file is open." alt="" coords="387,5,564,44"/>
-</map>

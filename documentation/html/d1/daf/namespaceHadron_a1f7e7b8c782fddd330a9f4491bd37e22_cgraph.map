@@ -1,8 +1,0 @@
-<map id="Hadron::write" name="Hadron::write">
-<area shape="rect" id="node1" title="PeramDist write." alt="" coords="5,107,106,132"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#afebbe26d622d0f830042509739bee2da" title="PeramDist write." alt="" coords="172,75,272,100"/>
-<area shape="rect" id="node5" href="$d0/dba/namespaceADATIO.html#a0faeed900aacb29febaa709323135c50" title=" " alt="" coords="154,131,290,156"/>
-<area shape="rect" id="node3" href="$dc/ddc/classXMLArray_1_1Array2d.html#a05ca0ef1e6fdbafb2c7cc575f9c3081c" title="Another variant on the size of the 2d array." alt="" coords="342,5,484,44"/>
-<area shape="rect" id="node4" href="$dc/ddc/classXMLArray_1_1Array2d.html#a9eecadb91fe97638a8d7adce77b0a562" title=" " alt="" coords="342,68,484,107"/>
-<area shape="rect" id="node6" href="$db/dee/classADATIO_1_1BinaryWriter.html#a616c82aa0768386f730781d4e8552328" title="Writes a fixed length of characters like an array." alt="" coords="338,131,488,169"/>
-</map>

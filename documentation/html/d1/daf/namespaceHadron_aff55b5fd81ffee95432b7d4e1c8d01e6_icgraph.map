@@ -1,5 +1,0 @@
-<map id="Hadron::removeIrrepLG" name="Hadron::removeIrrepLG">
-<area shape="rect" id="node1" title="Remove LG from irrep name." alt="" coords="233,31,395,56"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a5c4cac841f1c5a1f144e6c98360d8a4d" title="Irrep names (not including LG) with momentum used for opLists." alt="" coords="12,5,177,31"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#a8bd515c92e3dbbe8e9741b25d71edc60" title="Inverse of momIrrepName. Turn an opList name back into irrep names (including LG) and momentum." alt="" coords="5,55,185,80"/>
-</map>

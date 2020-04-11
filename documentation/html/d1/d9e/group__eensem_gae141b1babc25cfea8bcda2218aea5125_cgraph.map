@@ -1,8 +1,0 @@
-<map id="ENSEM::cmplx" name="ENSEM::cmplx">
-<area shape="rect" id="node1" title="Ensem = (EScalar , Ensem)" alt="" coords="5,104,116,129"/>
-<area shape="rect" id="node2" href="$d7/d3e/classENSEM_1_1Ensem.html#ae8cf08459492240dcab13d4ab3a21216" title="Number of configurations." alt="" coords="197,5,346,31"/>
-<area shape="rect" id="node3" href="$d7/d3e/classENSEM_1_1Ensem.html#aa2cfc665852c06f9b058a1a2233d249e" title="Return the ensemble type." alt="" coords="164,55,378,80"/>
-<area shape="rect" id="node4" href="$d4/dca/group__escalar.html#gaccbb7d66b912e8f0972f4e50095f296e" title="EScalar = cmplx(EScalar , EScalar)" alt="" coords="216,104,327,129"/>
-<area shape="rect" id="node5" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="426,129,585,155"/>
-<area shape="rect" id="node6" href="$d7/d3e/classENSEM_1_1Ensem.html#a4927ebde99b1f0a03cdcfe3fc88458a5" title=" " alt="" coords="194,205,348,231"/>
-</map>

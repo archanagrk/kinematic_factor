@@ -1,9 +1,0 @@
-<map id="ENSEM::OMatrix::elem" name="ENSEM::OMatrix::elem">
-<area shape="rect" id="node1" title=" " alt="" coords="249,129,408,155"/>
-<area shape="rect" id="node2" href="$dd/d80/classENSEM_1_1OMatrix.html#a9b8826edfb36e1bc701a7778424cfe31" title="OMatrix = zero." alt="" coords="19,5,187,31"/>
-<area shape="rect" id="node3" href="$dd/d80/classENSEM_1_1OMatrix.html#a221eb5f9e17402ad93c829fcaf2ac60a" title="OMatrix += OMatrix." alt="" coords="5,55,201,80"/>
-<area shape="rect" id="node4" href="$dd/d80/classENSEM_1_1OMatrix.html#a4c9bcdd861f4439d1b165ec5285cf55f" title="OMatrix &#45;= OMatrix." alt="" coords="7,104,199,129"/>
-<area shape="rect" id="node5" href="$dd/d80/classENSEM_1_1OMatrix.html#a40e18b83c9eb609f7529e65c515010c2" title="OMatrix *= OScalar." alt="" coords="7,153,200,179"/>
-<area shape="rect" id="node6" href="$dd/d80/classENSEM_1_1OMatrix.html#a46dc90e0e33442dcdcb9e98f9cf0025e" title="OMatrix /= OScalar." alt="" coords="7,203,199,228"/>
-<area shape="rect" id="node7" href="$da/d59/group__obsvector.html#ga7ba413a9121973912be1ff1686cec922" title=" " alt="" coords="38,252,169,277"/>
-</map>

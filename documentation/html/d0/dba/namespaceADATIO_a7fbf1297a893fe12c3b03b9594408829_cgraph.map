@@ -1,8 +1,0 @@
-<map id="ADATIO::write" name="ADATIO::write">
-<area shape="rect" id="node1" title="Write a binary XMLArray::Array3d element." alt="" coords="5,107,111,132"/>
-<area shape="rect" id="node2" href="$db/da0/classXMLArray_1_1Array3d.html#acd75aac75b08156dddab9c76dd3ebf33" title=" " alt="" coords="159,5,301,44"/>
-<area shape="rect" id="node3" href="$db/da0/classXMLArray_1_1Array3d.html#a1ea00a28e916b3fd9102ce7057c02dac" title=" " alt="" coords="159,68,301,107"/>
-<area shape="rect" id="node4" href="$db/da0/classXMLArray_1_1Array3d.html#aa084cbb2756e62556c9ec4c4cb971bf0" title="Size of array." alt="" coords="159,131,301,169"/>
-<area shape="rect" id="node5" href="$d0/dba/namespaceADATIO.html#a12d01adc4b592d85f0f5f5c101205c08" title=" " alt="" coords="177,193,283,219"/>
-<area shape="rect" id="node6" href="$db/dee/classADATIO_1_1BinaryWriter.html#ac7731874e4949f80f0edbad2474c4b64" title=" " alt="" coords="349,187,499,225"/>
-</map>

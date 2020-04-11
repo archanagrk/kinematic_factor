@@ -1,6 +1,0 @@
-<map id="ROOT::Minuit2::MnUserParameterState::Edm" name="ROOT::Minuit2::MnUserParameterState::Edm">
-<area shape="rect" id="node1" title=" " alt="" coords="304,55,529,93"/>
-<area shape="rect" id="node2" href="$d0/d9c/classROOT_1_1Minuit2_1_1Minuit2Minimizer.html#ab9c1bfaaaf4c12acd1fd96ece3509269" title="return expected distance reached from the minimum" alt="" coords="5,5,256,31"/>
-<area shape="rect" id="node3" href="$d1/d02/classROOT_1_1Minuit2_1_1MnHesse.html#a4ebea568262a19a0cfec1473ce7a5f0f" title="FCN + MnUserParameterState." alt="" coords="45,55,217,93"/>
-<area shape="rect" id="node4" href="$d6/d3a/namespaceROOT_1_1Minuit2.html#a30dd5b9978bba19603bb3fb0f7427ddc" title=" " alt="" coords="40,117,222,143"/>
-</map>

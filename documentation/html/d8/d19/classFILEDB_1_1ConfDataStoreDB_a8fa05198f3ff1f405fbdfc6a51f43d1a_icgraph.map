@@ -1,8 +1,0 @@
-<map id="FILEDB::ConfDataStoreDB::insertUserdata" name="FILEDB::ConfDataStoreDB::insertUserdata">
-<area shape="rect" id="node1" title=" " alt="" coords="143,97,325,136"/>
-<area shape="rect" id="node2" href="$d9/d83/db__rephase__corrs_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="25,5,75,31"/>
-<area shape="rect" id="node3" href="$d5/d98/adat-devel_2main_2dbutil_2dbavg_8cc.html#a57918e290614430413950cb4fdfd967e" title="Combine the DB&#45;s." alt="" coords="6,55,95,80"/>
-<area shape="rect" id="node4" href="$d4/d74/adat-devel_2main_2dbutil_2dbgraph__convert_8cc.html#a6fc5db26f2d2594d2601479adfa9dc32" title="Print ensemble files." alt="" coords="6,104,95,129"/>
-<area shape="rect" id="node5" href="$db/d3c/adat-devel_2main_2dbutil_2dbmerge_8cc.html#a6c8a139a4e0f3c2eb65b1a9828dc910a" title="Does the actual work of merging &#45; handled as a template." alt="" coords="5,153,95,179"/>
-<area shape="rect" id="node6" href="$d9/dbd/adat-devel_2main_2dbutil_2dbprop__diag__t0_8cc.html#afab297cac5e1521133f2d08cd751ef3d" title="Extract keys matching a mass." alt="" coords="5,203,95,228"/>
-</map>

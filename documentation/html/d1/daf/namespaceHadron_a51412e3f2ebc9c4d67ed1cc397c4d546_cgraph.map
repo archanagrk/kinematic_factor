@@ -1,8 +1,0 @@
-<map id="Hadron::read" name="Hadron::read">
-<area shape="rect" id="node1" title="KeyHadronNPartNPtCorr reader." alt="" coords="5,41,104,67"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a61520b9a5ce2b207d1c01e1508a5c470" title="Read a key." alt="" coords="170,15,269,40"/>
-<area shape="rect" id="node5" href="$d0/dba/namespaceADATIO.html#af57306a140489d28cd8fa1107d585906" title=" " alt="" coords="152,65,287,91"/>
-<area shape="rect" id="node3" href="$d1/daf/namespaceHadron.html#ae87d364dcd64ddf5c60a1b4d6237e633" title="BaryonElementalOperator reader." alt="" coords="365,12,464,37"/>
-<area shape="rect" id="node4" href="$db/da0/classXMLArray_1_1Array3d.html#afe27b06ef40efdd87dbea00eafa35287" title="Allocate mem for the array." alt="" coords="542,5,684,44"/>
-<area shape="rect" id="node6" href="$da/dd9/classADATIO_1_1BinaryReader.html#a70de2f31f59d9846f4ee688c3590bf31" title=" " alt="" coords="335,61,494,100"/>
-</map>

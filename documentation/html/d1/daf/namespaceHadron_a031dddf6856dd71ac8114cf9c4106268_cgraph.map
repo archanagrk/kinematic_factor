@@ -1,8 +1,0 @@
-<map id="Hadron::ensemFileName" name="Hadron::ensemFileName">
-<area shape="rect" id="node1" title="Build a file name." alt="" coords="5,80,175,105"/>
-<area shape="rect" id="node2" href="$d1/daf/namespaceHadron.html#a8f8a77c02a6415ffc31d2a300f59e6a6" title="Output operator info." alt="" coords="223,5,381,31"/>
-<area shape="rect" id="node4" href="$d1/daf/namespaceHadron.html#a2ea4a74b346adec57d30f2605fc00005" title="The delimiter." alt="" coords="240,55,363,80"/>
-<area shape="rect" id="node5" href="$d1/daf/namespaceHadron.html#ad1ac646aa2d410cc55e4b11c925867a6" title="Momentum as a string." alt="" coords="233,104,371,129"/>
-<area shape="rect" id="node6" href="$d1/daf/namespaceHadron.html#afea9ddb2112da9cb61d87881799fff49" title="Output other info." alt="" coords="238,153,365,179"/>
-<area shape="rect" id="node3" href="$db/d6c/classXMLArray_1_1Array.html#ab59904c2aa0e31c18c6cd5f5a186e292" title="Size of array." alt="" coords="429,5,580,31"/>
-</map>

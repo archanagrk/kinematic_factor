@@ -1,7 +1,0 @@
-<map id="ENSEM::atan2" name="ENSEM::atan2">
-<area shape="rect" id="node1" title="OTensor = atan2(OTensor, OTensor)" alt="" coords="5,55,115,80"/>
-<area shape="rect" id="node2" href="$da/d8a/classENSEM_1_1OTensor.html#aeb39779caeadcbcea94d9ef629913287" title="Size of i&#45;th array index. Indices run from left to right in operator()" alt="" coords="165,5,323,31"/>
-<area shape="rect" id="node3" href="$d4/dca/group__escalar.html#ga9a9d48948d119981259ad0ebcb0acfea" title="EScalar = atan2(EScalar, EScalar)" alt="" coords="190,55,299,80"/>
-<area shape="rect" id="node5" href="$da/d8a/classENSEM_1_1OTensor.html#a18a4095f1e99228c27768fbea8eec05d" title=" " alt="" coords="163,104,326,129"/>
-<area shape="rect" id="node4" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="374,55,533,80"/>
-</map>

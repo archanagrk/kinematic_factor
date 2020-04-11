@@ -1,8 +1,0 @@
-<map id="ENSEM::read" name="ENSEM::read">
-<area shape="rect" id="node1" title="Binary input." alt="" coords="5,80,108,105"/>
-<area shape="rect" id="node2" href="$da/d8a/classENSEM_1_1OTensor.html#a09bfbf9385ec1bbe5050d4df43850f63" title=" " alt="" coords="156,5,351,31"/>
-<area shape="rect" id="node3" href="$da/d8a/classENSEM_1_1OTensor.html#a30a241a5b4f16fab55fd70ffee52828a" title="Total length of array." alt="" coords="158,55,349,80"/>
-<area shape="rect" id="node4" href="$d4/dca/group__escalar.html#ga5631206e233cf75b5fb2ff13ee8b77ac" title="XML input." alt="" coords="202,104,305,129"/>
-<area shape="rect" id="node6" href="$da/d8a/classENSEM_1_1OTensor.html#a18a4095f1e99228c27768fbea8eec05d" title=" " alt="" coords="172,153,335,179"/>
-<area shape="rect" id="node5" href="$d0/d82/classENSEM_1_1EScalar.html#a8de3b840367731efc862fc6943119152" title=" " alt="" coords="399,104,558,129"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ROOT::Minuit2::MinuitParameter::HasLimits" name="ROOT::Minuit2::MinuitParameter::HasLimits">
-<area shape="rect" id="node1" title=" " alt="" coords="507,131,721,169"/>
-<area shape="rect" id="node2" href="$dd/d3a/classROOT_1_1Minuit2_1_1AnalyticalGradientCalculator.html#aff4787568d15aaf6dac1c8ffa1bd9db7" title=" " alt="" coords="258,5,457,44"/>
-<area shape="rect" id="node3" href="$d8/de6/classROOT_1_1Minuit2_1_1FumiliGradientCalculator.html#a23fd61bceabbf88e66c5abe6b2815331" title=" " alt="" coords="256,68,459,107"/>
-<area shape="rect" id="node5" href="$de/d46/classROOT_1_1Minuit2_1_1MnFunctionCross.html#ace9b7e1472f82cb23525365e5f061477" title=" " alt="" coords="265,131,451,169"/>
-<area shape="rect" id="node6" href="$d1/d02/classROOT_1_1Minuit2_1_1MnHesse.html#a4130de0190695811a4606f8ab229482d" title=" " alt="" coords="271,193,444,232"/>
-<area shape="rect" id="node7" href="$da/d9e/classROOT_1_1Minuit2_1_1MnParameterScan.html#a2548238382446f4774d43a4269dcebcf" title=" " alt="" coords="259,256,456,295"/>
-<area shape="rect" id="node4" href="$d8/de6/classROOT_1_1Minuit2_1_1FumiliGradientCalculator.html#a652f65091b404ebda9a645d7ba92b3b6" title=" " alt="" coords="5,68,208,107"/>
-</map>

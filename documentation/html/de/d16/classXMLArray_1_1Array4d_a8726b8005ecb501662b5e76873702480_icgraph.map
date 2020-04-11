@@ -1,6 +1,0 @@
-<map id="XMLArray::Array4d::resize" name="XMLArray::Array4d::resize">
-<area shape="rect" id="node1" title="Allocate mem for the array." alt="" coords="205,61,347,100"/>
-<area shape="rect" id="node2" href="$d0/dba/namespaceADATIO.html#a0e3333d0774c69f2c6a38b013e23d02b" title="Read a binary XMLArray::Array4d element." alt="" coords="29,5,133,31"/>
-<area shape="rect" id="node3" href="$de/d16/classXMLArray_1_1Array4d.html#a409005374380cbfb8553f3237db7990b" title=" " alt="" coords="5,55,157,107"/>
-<area shape="rect" id="node4" href="$de/d16/classXMLArray_1_1Array4d.html#a3231647c370f838502526de102af1b23" title="Equal operator uses underlying = of T." alt="" coords="5,131,157,183"/>
-</map>
