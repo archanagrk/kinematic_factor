@@ -18,7 +18,7 @@ vector<complex<double>> KfacSSS::operator()( const KFacParams& params ) const {
   vector<complex<double>> Coeff;
     
   MatrixXcd sum_sub =  MatrixXcd::Zero(4,4);
-  sum_sub = params.subPhSum();
+  sum_sub = params.subPhSum().at(2);
   complex<double> factor;
 
   double Q_sq = - params.qm.squaredNorm();
@@ -48,7 +48,7 @@ vector<complex<double>> KfacSVS::operator()( const KFacParams& params ) const {
   vector<complex<double>> Coeff;
 
   complex<double> tmp = 0;
-  MatrixXcd sub_sum = params.subPhSum();
+  MatrixXcd sub_sum = params.subPhSum().at(2);
   complex<double> factor;
 
   complex<double> one(-1.,0.); // to convert four vector upstairs to downstairs

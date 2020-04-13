@@ -115,7 +115,7 @@ int main(int argc, char** argv){
       
       if(i == 1){
         if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + lev_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
-        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
+        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + lev_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}
       }
       else if(i == 2){
         if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
@@ -123,7 +123,7 @@ int main(int argc, char** argv){
       }
       else if(i == 3){
         if(psq_tmp != 0){op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + lev_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_H"+ std::to_string(lam_tmp/2) + irrep_tmp, "", canon_mom_tmp);}
-        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}        
+        else{op_tmp.ops[1]= KeyParticleOp_t(name_tmp + "_" + lev_tmp + "_p" + std::to_string(canon_mom_tmp[0]) + std::to_string(canon_mom_tmp[1]) + std::to_string(canon_mom_tmp[2]) + "_"+ irrep_tmp, "", canon_mom_tmp);}        
       }
 
       key.npoint[i].irrep.op = op_tmp;

@@ -10,29 +10,35 @@
 
 /* The struct to store the kinematic factor params */
 
-MatrixXcd KFacParams::subPhSum() const{
+vector<MatrixXcd> KFacParams::subPhSum() const{
 
   /* Inialize variables */
-  MatrixXcd sub_phase_sum = MatrixXcd::Zero(4,4);
+  vector<MatrixXcd> sub_phase_sum;
+
   MatrixXcd S1 = MatrixXcd::Zero(4,1);
   MatrixXcd S2 = MatrixXcd::Zero(4,1);
   MatrixXcd SCurr = MatrixXcd::Zero(4,1);
   Ph::tripKey lambd;  
 
-  
-  for(map<  int, MatrixXcd  >::const_iterator  it1 = Sub1.begin(); it1 != Sub1.end(); it1++){
-    for(map<  int, MatrixXcd >::const_iterator  it2 = Sub3.begin(); it2 != Sub3.end(); it2++){
-      for(map<  int, MatrixXcd >::const_iterator  it3 = SubCurr.begin(); it3 != SubCurr.end(); it3++){
+  for(int i = 0; i < 4;i++){
+    MatrixXcd sub_ph_sum = MatrixXcd::Zero(4,4);
 
-        S1 = (it1->second);
-        S2 = (it2->second);
-        SCurr = (it3->second); SCurr = KfUt::Gmunu() * SCurr;
-        lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
-        sub_phase_sum += phase.lam_phase.find(lambd)->second * S1(2,0) * S2 * (((phase.r).inverse().transpose() * SCurr).transpose()); // dont conjugate as S is real but the pol is not transposed as it converts to cirecular basis
+    for(map<  int, MatrixXcd  >::const_iterator  it1 = Sub1.begin(); it1 != Sub1.end(); it1++){
+      for(map<  int, MatrixXcd >::const_iterator  it2 = Sub3.begin(); it2 != Sub3.end(); it2++){
+        for(map<  int, MatrixXcd >::const_iterator  it3 = SubCurr.begin(); it3 != SubCurr.end(); it3++){
 
-        
-      }   
+          S1 = (it1->second);
+          S2 = (it2->second);
+          SCurr = (it3->second); SCurr = KfUt::Gmunu() * SCurr;
+          lambd = std::make_tuple((it1->first), (it2->first), (it3->first));
+          sub_ph_sum += phase.lam_phase.find(lambd)->second * S1.conjugate()(i,0) * S2 * (((phase.r).inverse().transpose() * SCurr).transpose()); // dont conjugate as S is real but the pol is not transposed as it converts to cirecular basis
+
+          
+        }   
+      }
     }
+
+    sub_phase_sum.push_back(sub_ph_sum);
   }
 
   //cout << sub_phase_sum << endl;

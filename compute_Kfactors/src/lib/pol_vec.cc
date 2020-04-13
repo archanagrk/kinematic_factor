@@ -75,7 +75,7 @@ namespace PolVec {
     //   pol += WignerD*pol_z;
     // }
 
-    pol_z = (getPolz4(zero, two_helicity, mass_sq,curr));
+    pol_z = getPolz4(zero, two_helicity, mass_sq,curr); //for the current the pol vector is just to rotation to circular basis
     pol = Rot::eulerRotMat(phi,theta,psi)*pol_z; 
 
 

@@ -52,5 +52,18 @@ class KfacSSV : public KFactor{
 };
 
 
+class KfacVVS : public KFactor{
+ public:
+  vector<complex<double>> operator()( const KFacParams& params ) const;
+  string name() const { return "kin_fac_vector_vector_scalar"; } 
+};
+
+
+class KfacVSS : public KFactor{
+ public:
+  vector<complex<double>> operator()( const KFacParams& params ) const;
+  string name() const { return "kin_fac_vector_scalar_scalar"; } 
+};
+
 
 #endif

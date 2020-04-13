@@ -18,5 +18,7 @@ var searchData=
   ['kfactor_5fpigammarho_2eh',['kfactor_pigammarho.h',['../d2/d2d/kfactor__pigammarho_8h.html',1,'']]],
   ['kfactorenv',['KFactorEnv',['../d2/d90/namespaceKFactorEnv.html',1,'']]],
   ['kfactors_2eh',['kfactors.h',['../d1/d54/kfactors_8h.html',1,'']]],
+  ['kfacvss',['KfacVSS',['../d9/da4/classKfacVSS.html',1,'']]],
+  ['kfacvvs',['KfacVVS',['../dd/d85/classKfacVVS.html',1,'']]],
   ['kfut',['KfUt',['../d8/da5/namespaceKfUt.html',1,'']]]
 ];

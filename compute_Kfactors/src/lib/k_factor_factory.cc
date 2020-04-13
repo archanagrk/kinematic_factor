@@ -13,7 +13,8 @@ namespace{
   KFactor*  createKfacSVV( XMLReader& xml, const string& path ){ return new KfacSVV(); }   
   KFactor*  createKfacSSS( XMLReader& xml, const string& path ){ return new KfacSSS(); }  
   KFactor*  createKfacSVS( XMLReader& xml, const string& path ){ return new KfacSVS(); }   
-
+  KFactor*  createKfacVSS( XMLReader& xml, const string& path ){ return new KfacVSS(); }  
+  KFactor*  createKfacVVS( XMLReader& xml, const string& path ){ return new KfacVVS(); } 
 }
 
 namespace KFactorEnv
@@ -35,7 +36,12 @@ namespace KFactorEnv
       
       success &= TheKFactorFactory::Instance().registerObject( "kin_fac_scalar_vector_scalar",
 								  createKfacSVS);
-
+      
+      success &= TheKFactorFactory::Instance().registerObject( "kin_fac_vector_scalar_scalar",
+								  createKfacVSS);
+      
+      success &= TheKFactorFactory::Instance().registerObject( "kin_fac_vector_vector_scalar",
+								  createKfacVVS);
       
       registered = true;
     }

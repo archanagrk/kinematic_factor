@@ -52,7 +52,7 @@ using namespace Eigen;
 
       KFacParams(map< int, Eigen::MatrixXcd >, map< int, Eigen::MatrixXcd >, map< int, Eigen::MatrixXcd >, Ph::phChars, VectorXd, VectorXd);
 
-      virtual MatrixXcd subPhSum() const;  /* returns the phase sum */
+      virtual vector<MatrixXcd> subPhSum() const;  /* returns the phase sum */
 
       virtual Ph::tripKey two_abs_lam() const; 
 

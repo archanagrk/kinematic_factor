@@ -1,75 +1,75 @@
 \begin{theindex}
 
   \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/exe/compute\_matrix\_prefactor.cc}, 
-		\hyperpage{41}
+		\hyperpage{45}
   \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/gen\_redstar\_xml.cc}, 
-		\hyperpage{42}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/gen\_redstar\_xml.h}, 
-		\hyperpage{43}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/xml\_tools.cc}, 
-		\hyperpage{44}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/irreps\_and\_rows.cc}, 
-		\hyperpage{45}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/irreps\_and\_rows.h}, 
-		\hyperpage{45}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/iterate.cc}, 
 		\hyperpage{46}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/iterate.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/gen\_redstar\_xml.h}, 
 		\hyperpage{47}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/k\_factor\_factory.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/xml\_tools.cc}, 
 		\hyperpage{48}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/k\_factor\_factory.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/irreps\_and\_rows.cc}, 
 		\hyperpage{49}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_params.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/irreps\_and\_rows.h}, 
+		\hyperpage{49}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/iterate.cc}, 
 		\hyperpage{50}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_params.h}, 
-		\hyperpage{50}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_utils.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/iterate.h}, 
 		\hyperpage{51}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_utils.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/k\_factor\_factory.cc}, 
 		\hyperpage{52}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammapi.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/k\_factor\_factory.h}, 
 		\hyperpage{53}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammapi.h}, 
-		\hyperpage{53}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammarho.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_params.cc}, 
 		\hyperpage{54}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammarho.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_params.h}, 
 		\hyperpage{54}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactors.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_utils.cc}, 
 		\hyperpage{55}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/levi\_civita.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfac\_utils.h}, 
 		\hyperpage{56}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/levi\_civita.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammapi.cc}, 
 		\hyperpage{57}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/little\_group.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammapi.h}, 
+		\hyperpage{57}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammarho.cc}, 
 		\hyperpage{58}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/little\_group.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactor\_pigammarho.h}, 
+		\hyperpage{58}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/kfactors.h}, 
 		\hyperpage{59}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/levi\_civita.cc}, 
+		\hyperpage{60}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/levi\_civita.h}, 
+		\hyperpage{61}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/little\_group.cc}, 
+		\hyperpage{62}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/little\_group.h}, 
+		\hyperpage{63}
   \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/naming.cc}, 
-		\hyperpage{60}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/naming.h}, 
-		\hyperpage{60}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/phase.cc}, 
-		\hyperpage{61}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/phase.h}, 
-		\hyperpage{61}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/pol\_vec.cc}, 
-		\hyperpage{63}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/pol\_vec.h}, 
-		\hyperpage{63}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/rot\_matrx.cc}, 
 		\hyperpage{64}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/rot\_matrx.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/naming.h}, 
+		\hyperpage{64}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/phase.cc}, 
 		\hyperpage{65}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subd\_pol\_vec.cc}, 
-		\hyperpage{66}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subd\_pol\_vec.h}, 
-		\hyperpage{66}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subduction.cc}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/phase.h}, 
+		\hyperpage{65}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/pol\_vec.cc}, 
 		\hyperpage{67}
-  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subduction.h}, 
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/pol\_vec.h}, 
+		\hyperpage{67}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/rot\_matrx.cc}, 
 		\hyperpage{68}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/rot\_matrx.h}, 
+		\hyperpage{69}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subd\_pol\_vec.cc}, 
+		\hyperpage{70}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subd\_pol\_vec.h}, 
+		\hyperpage{70}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subduction.cc}, 
+		\hyperpage{71}
+  \item {/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/lib/subduction.h}, 
+		\hyperpage{72}
   \item {$\sim$KFacParams}
     \subitem {KFacParams}, \hyperpage{28}
   \item {$\sim$KFactor}
@@ -78,13 +78,13 @@
   \indexspace
 
   \item {calc\_phase}
-    \subitem {Ph}, \hyperpage{15}
+    \subitem {Ph}, \hyperpage{16}
   \item {cnst\_phase}
     \subitem {Ph}, \hyperpage{16}
   \item {comp\_Wigner\_d}
     \subitem {Ph}, \hyperpage{17}
   \item {compute\_matrix\_prefactor.cc}
-    \subitem {main}, \hyperpage{41}
+    \subitem {main}, \hyperpage{45}
 
   \indexspace
 
@@ -103,9 +103,9 @@
   \indexspace
 
   \item {gen\_redstar\_xml.cc}
-    \subitem {main}, \hyperpage{42}
+    \subitem {main}, \hyperpage{46}
   \item {gen\_redstar\_xml.h}
-    \subitem {write\_ei}, \hyperpage{43}
+    \subitem {write\_ei}, \hyperpage{47}
   \item {generateLittleGroup}
     \subitem {LittleGrp}, \hyperpage{13}
   \item {getIrrep}
@@ -152,7 +152,7 @@
   \indexspace
 
   \item {k\_factor\_factory.h}
-    \subitem {TheKFactorFactory}, \hyperpage{50}
+    \subitem {TheKFactorFactory}, \hyperpage{54}
   \item {KFacParams}, \hyperpage{28}
     \subitem {$\sim$KFacParams}, \hyperpage{28}
     \subitem {KFacParams}, \hyperpage{28}
@@ -163,10 +163,10 @@
     \subitem {Sub3}, \hyperpage{30}
     \subitem {SubCurr}, \hyperpage{30}
     \subitem {subPhSum}, \hyperpage{29}
-    \subitem {two\_abs\_lam}, \hyperpage{29}
+    \subitem {two\_abs\_lam}, \hyperpage{30}
   \item {KfacSSS}, \hyperpage{31}
-    \subitem {name}, \hyperpage{31}
-    \subitem {operator()}, \hyperpage{31}
+    \subitem {name}, \hyperpage{32}
+    \subitem {operator()}, \hyperpage{32}
   \item {KfacSSV}, \hyperpage{32}
     \subitem {name}, \hyperpage{33}
     \subitem {operator()}, \hyperpage{33}
@@ -182,39 +182,45 @@
     \subitem {operator()}, \hyperpage{37}
   \item {KFactorEnv}, \hyperpage{10}
     \subitem {registerAll}, \hyperpage{11}
+  \item {KfacVSS}, \hyperpage{38}
+    \subitem {name}, \hyperpage{39}
+    \subitem {operator()}, \hyperpage{39}
+  \item {KfacVVS}, \hyperpage{40}
+    \subitem {name}, \hyperpage{40}
+    \subitem {operator()}, \hyperpage{40}
   \item {KfUt}, \hyperpage{11}
     \subitem {Gmunu}, \hyperpage{11}
     \subitem {truncate}, \hyperpage{12}
-  \item {KfUt::ToArray}, \hyperpage{39}
-    \subitem {toArray}, \hyperpage{39}
+  \item {KfUt::ToArray}, \hyperpage{42}
+    \subitem {toArray}, \hyperpage{43}
 
   \indexspace
 
   \item {lam\_phase}
-    \subitem {Ph::phChars}, \hyperpage{38}
-  \item {LevCiv}, \hyperpage{12}
+    \subitem {Ph::phChars}, \hyperpage{42}
+  \item {LevCiv}, \hyperpage{13}
     \subitem {LeviCivita}, \hyperpage{13}
   \item {levels}
     \subitem {hadron}, \hyperpage{25}
   \item {LeviCivita}
     \subitem {LevCiv}, \hyperpage{13}
   \item {linkageHack}
-    \subitem {subduction.cc}, \hyperpage{67}
+    \subitem {subduction.cc}, \hyperpage{71}
   \item {LittleGrp}, \hyperpage{13}
     \subitem {generateLittleGroup}, \hyperpage{13}
-    \subitem {refAngles}, \hyperpage{13}
+    \subitem {refAngles}, \hyperpage{14}
 
   \indexspace
 
   \item {main}
-    \subitem {compute\_matrix\_prefactor.cc}, \hyperpage{41}
-    \subitem {gen\_redstar\_xml.cc}, \hyperpage{42}
+    \subitem {compute\_matrix\_prefactor.cc}, \hyperpage{45}
+    \subitem {gen\_redstar\_xml.cc}, \hyperpage{46}
   \item {max\_mom}
     \subitem {hadron}, \hyperpage{26}
   \item {mom1}
-    \subitem {Ph::phChars}, \hyperpage{38}
+    \subitem {Ph::phChars}, \hyperpage{42}
   \item {mom2}
-    \subitem {Ph::phChars}, \hyperpage{39}
+    \subitem {Ph::phChars}, \hyperpage{42}
 
   \indexspace
 
@@ -222,11 +228,13 @@
     \subitem {irrep\_label}, \hyperpage{27}
   \item {name}
     \subitem {hadron}, \hyperpage{26}
-    \subitem {KfacSSS}, \hyperpage{31}
+    \subitem {KfacSSS}, \hyperpage{32}
     \subitem {KfacSSV}, \hyperpage{33}
     \subitem {KfacSVS}, \hyperpage{34}
     \subitem {KfacSVV}, \hyperpage{36}
     \subitem {KFactor}, \hyperpage{37}
+    \subitem {KfacVSS}, \hyperpage{39}
+    \subitem {KfacVVS}, \hyperpage{40}
     \subitem {naming}, \hyperpage{14}
   \item {naming}, \hyperpage{14}
     \subitem {name}, \hyperpage{14}
@@ -235,13 +243,15 @@
 
   \item {operator$<$}
     \subitem {irrep\_label}, \hyperpage{27}
-    \subitem {Ph::phChars}, \hyperpage{38}
+    \subitem {Ph::phChars}, \hyperpage{41}
   \item {operator()}
-    \subitem {KfacSSS}, \hyperpage{31}
+    \subitem {KfacSSS}, \hyperpage{32}
     \subitem {KfacSSV}, \hyperpage{33}
     \subitem {KfacSVS}, \hyperpage{35}
     \subitem {KfacSVV}, \hyperpage{36}
     \subitem {KFactor}, \hyperpage{37}
+    \subitem {KfacVSS}, \hyperpage{39}
+    \subitem {KfacVVS}, \hyperpage{40}
 
   \indexspace
 
@@ -249,23 +259,23 @@
     \subitem {hadron}, \hyperpage{26}
     \subitem {irrep\_label}, \hyperpage{27}
   \item {Ph}, \hyperpage{15}
-    \subitem {calc\_phase}, \hyperpage{15}
+    \subitem {calc\_phase}, \hyperpage{16}
     \subitem {cnst\_phase}, \hyperpage{16}
     \subitem {comp\_Wigner\_d}, \hyperpage{17}
     \subitem {phaseFactor}, \hyperpage{17}
-    \subitem {tripKey}, \hyperpage{15}
-  \item {Ph::phChars}, \hyperpage{38}
-    \subitem {lam\_phase}, \hyperpage{38}
-    \subitem {mom1}, \hyperpage{38}
-    \subitem {mom2}, \hyperpage{39}
-    \subitem {operator$<$}, \hyperpage{38}
-    \subitem {r}, \hyperpage{39}
+    \subitem {tripKey}, \hyperpage{16}
+  \item {Ph::phChars}, \hyperpage{41}
+    \subitem {lam\_phase}, \hyperpage{42}
+    \subitem {mom1}, \hyperpage{42}
+    \subitem {mom2}, \hyperpage{42}
+    \subitem {operator$<$}, \hyperpage{41}
+    \subitem {r}, \hyperpage{42}
   \item {phase}
     \subitem {KFacParams}, \hyperpage{30}
   \item {phase.cc}
-    \subitem {Round}, \hyperpage{61}
+    \subitem {Round}, \hyperpage{65}
   \item {phase.h}
-    \subitem {Round}, \hyperpage{62}
+    \subitem {Round}, \hyperpage{66}
   \item {phaseFactor}
     \subitem {Ph}, \hyperpage{17}
   \item {PolVec}, \hyperpage{18}
@@ -282,16 +292,16 @@
   \indexspace
 
   \item {r}
-    \subitem {Ph::phChars}, \hyperpage{39}
+    \subitem {Ph::phChars}, \hyperpage{42}
   \item {refAngles}
-    \subitem {LittleGrp}, \hyperpage{13}
+    \subitem {LittleGrp}, \hyperpage{14}
   \item {registerAll}
     \subitem {KFactorEnv}, \hyperpage{11}
   \item {Rot}, \hyperpage{20}
     \subitem {eulerRotMat}, \hyperpage{20}
   \item {Round}
-    \subitem {phase.cc}, \hyperpage{61}
-    \subitem {phase.h}, \hyperpage{62}
+    \subitem {phase.cc}, \hyperpage{65}
+    \subitem {phase.h}, \hyperpage{66}
   \item {row}
     \subitem {irrep\_label}, \hyperpage{27}
 
@@ -319,22 +329,22 @@
   \item {Subduce\_with\_pol}
     \subitem {SubdPol}, \hyperpage{23}
   \item {subduction.cc}
-    \subitem {linkageHack}, \hyperpage{67}
+    \subitem {linkageHack}, \hyperpage{71}
   \item {subPhSum}
     \subitem {KFacParams}, \hyperpage{29}
 
   \indexspace
 
   \item {TheKFactorFactory}
-    \subitem {k\_factor\_factory.h}, \hyperpage{50}
+    \subitem {k\_factor\_factory.h}, \hyperpage{54}
   \item {toArray}
-    \subitem {KfUt::ToArray}, \hyperpage{39}
+    \subitem {KfUt::ToArray}, \hyperpage{43}
   \item {tripKey}
-    \subitem {Ph}, \hyperpage{15}
+    \subitem {Ph}, \hyperpage{16}
   \item {truncate}
     \subitem {KfUt}, \hyperpage{12}
   \item {two\_abs\_lam}
-    \subitem {KFacParams}, \hyperpage{29}
+    \subitem {KFacParams}, \hyperpage{30}
   \item {twoJ}
     \subitem {hadron}, \hyperpage{26}
     \subitem {irrep\_label}, \hyperpage{27}
@@ -342,12 +352,12 @@
   \indexspace
 
   \item {write\_ei}
-    \subitem {gen\_redstar\_xml.h}, \hyperpage{43}
-    \subitem {xml\_tools.cc}, \hyperpage{44}
+    \subitem {gen\_redstar\_xml.h}, \hyperpage{47}
+    \subitem {xml\_tools.cc}, \hyperpage{48}
 
   \indexspace
 
   \item {xml\_tools.cc}
-    \subitem {write\_ei}, \hyperpage{44}
+    \subitem {write\_ei}, \hyperpage{48}
 
 \end{theindex}

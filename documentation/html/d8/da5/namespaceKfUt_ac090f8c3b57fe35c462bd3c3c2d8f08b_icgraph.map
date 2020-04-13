@@ -1,10 +1,12 @@
 <map id="KfUt::Gmunu" name="KfUt::Gmunu">
-<area shape="rect" id="node1" title=" " alt="" coords="430,153,528,179"/>
-<area shape="rect" id="node2" href="$d7/d41/classKFacParams.html#a0f22066b9390b3a28b78d9c679c71f90" title=" " alt="" coords="203,104,374,129"/>
-<area shape="rect" id="node7" href="$db/d8a/namespaceSubdPol.html#a0c27e6a0353d158613d8d77e3c0ebbe7" title=" " alt="" coords="194,177,382,203"/>
+<area shape="rect" id="node1" title=" " alt="" coords="430,228,528,253"/>
+<area shape="rect" id="node2" href="$d7/d41/classKFacParams.html#ac52a334fdecfea49db82683e194580a1" title=" " alt="" coords="203,153,374,179"/>
+<area shape="rect" id="node9" href="$db/d8a/namespaceSubdPol.html#a0c27e6a0353d158613d8d77e3c0ebbe7" title=" " alt="" coords="194,252,382,277"/>
 <area shape="rect" id="node3" href="$d9/d96/classKfacSSS.html#a25ca7daf4005bf951ad67d568e3f3936" title=" " alt="" coords="5,5,146,31"/>
 <area shape="rect" id="node4" href="$d0/dde/classKfacSVS.html#a1bcfae29380c602c7040ad790ccff63f" title=" " alt="" coords="5,55,146,80"/>
 <area shape="rect" id="node5" href="$d8/d76/classKfacSSV.html#aeea4f3f068452d233d4111d72c05cd4f" title=" " alt="" coords="6,104,146,129"/>
 <area shape="rect" id="node6" href="$d3/d61/classKfacSVV.html#acb7f7f6bf0957694a73271704bb0569f" title=" " alt="" coords="6,153,146,179"/>
-<area shape="rect" id="node8" href="$dc/d1b/compute__matrix__prefactor_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="51,203,101,228"/>
+<area shape="rect" id="node7" href="$d9/da4/classKfacVSS.html#a608b90a0b3fcdd1126e63c4ef68ce3e1" title=" " alt="" coords="5,203,146,228"/>
+<area shape="rect" id="node8" href="$dd/d85/classKfacVVS.html#ae892df7c0a0595020b968fd9c87be256" title=" " alt="" coords="5,252,146,277"/>
+<area shape="rect" id="node10" href="$dc/d1b/compute__matrix__prefactor_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="51,301,101,327"/>
 </map>
