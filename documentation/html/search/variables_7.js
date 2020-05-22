@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['r',['r',['../d0/d5f/structPh_1_1phChars.html#a953b0c01407ecc9b6ba27aa49a9f8587',1,'Ph::phChars']]],
-  ['row',['row',['../de/d96/structirrep__label.html#a3e47b0519d5ae65e48b1e3fe509bcc13',1,'irrep_label']]]
+  ['n',['n',['../de/d96/structirrep__label.html#a6f7203722a797aa0fb81e1e4a7370ad8',1,'irrep_label']]],
+  ['name',['name',['../df/da8/structNPtCorr__t.html#adb6a5891cbfb63ad60b74a8ec3ad3c9d',1,'NPtCorr_t']]],
+  ['npt',['Npt',['../d2/d31/structNPtIrrepLam__t.html#a31ad6a6e9eb2df27cfce27ef0a13657f',1,'NPtIrrepLam_t']]]
 ];

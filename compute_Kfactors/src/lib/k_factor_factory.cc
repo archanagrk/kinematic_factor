@@ -1,8 +1,10 @@
 #include "k_factor_factory.h"
 
+  //**********************************************************************************************************************
 /* 
-    Factory of functions used as Kinematic factor
+    Factory of functions used as Kinematic factor can easily add addtional forms to the factory 
 */
+  //**********************************************************************************************************************
 
 namespace{ 
   bool registered = false;

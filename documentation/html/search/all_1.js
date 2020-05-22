@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['elab',['elab',['../dc/de6/structhadron.html#a98c94f8e4f345d4fccfc19259faa9cc4',1,'hadron']]],
-  ['ell',['ell',['../dc/de6/structhadron.html#ab5599e4ac9df96aa6107af4412e51815',1,'hadron']]],
+  ['elab',['elab',['../df/da8/structNPtCorr__t.html#a30ae14bcaf1bfcfe59c218f221c4a7d3',1,'NPtCorr_t']]],
+  ['ell',['ell',['../df/da8/structNPtCorr__t.html#a9ae7e378310b94d8b64470b2293c6e51',1,'NPtCorr_t']]],
   ['eulerrotmat',['eulerRotMat',['../d7/dcc/namespaceRot.html#adcd0cec8d1616e5f74d30cb3ad1aca99',1,'Rot']]]
 ];

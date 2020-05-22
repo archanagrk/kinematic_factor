@@ -1,0 +1,31 @@
+<map id="compute_three_point_prefactor" name="compute_three_point_prefactor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,336,152,375"/>
+<area shape="rect" id="node2" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#a039f302af6ea4e701b8fa90d8beecaa3" title=" " alt="" coords="246,31,342,56"/>
+<area shape="rect" id="node3" href="$d1/d0f/namespaceiter.html#a6df5db1fc5cd1a5383020ab6c9ea5089" title=" " alt="" coords="246,80,342,105"/>
+<area shape="rect" id="node4" href="$d6/d3c/namespacePh.html#ad2fd8f885053b0833441c8388a9218b8" title=" " alt="" coords="234,181,354,207"/>
+<area shape="rect" id="node5" href="$d1/d4c/namespaceLittleGrp.html#a93937e135b6b9c963ae9ad26516e252d" title=" " alt="" coords="454,5,590,31"/>
+<area shape="rect" id="node12" href="$d1/d4c/namespaceLittleGrp.html#a12887808e1a825e9d2c387c5475bcf88" title=" " alt="" coords="214,367,374,405"/>
+<area shape="rect" id="node13" href="$d8/dcc/namespaceIrrepName.html#aafd6a227d49ac073e93e6954332007bf" title=" " alt="" coords="225,429,363,455"/>
+<area shape="rect" id="node14" href="$d8/d2b/namespaceSubd.html#a7a3fcd97f1cf40eb963e278240d0ff3e" title=" " alt="" coords="213,304,375,343"/>
+<area shape="rect" id="node17" href="$d8/dcc/namespaceIrrepName.html#a3964736788de2a425b5a41ff069f907b" title=" " alt="" coords="218,479,370,504"/>
+<area shape="rect" id="node18" href="$db/d8a/namespaceSubdPol.html#a0c27e6a0353d158613d8d77e3c0ebbe7" title=" " alt="" coords="200,255,388,280"/>
+<area shape="rect" id="node24" href="$d4/da2/namespacenaming.html#a0be3b30603f24f1e39a06c9a0fbdca7e" title=" " alt="" coords="469,529,575,555"/>
+<area shape="rect" id="node25" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#a14d68e5599906cdeaeca5b2b8e4f2a69" title=" " alt="" coords="242,580,346,605"/>
+<area shape="rect" id="node28" href="$db/d61/gen__redstar__xml_8cc.html#ad9bfefd31f30d9044879e024e8af6e7e" title=" " alt="" coords="234,629,354,655"/>
+<area shape="rect" id="node6" href="$d7/dcc/namespaceRot.html#adcd0cec8d1616e5f74d30cb3ad1aca99" title=" " alt="" coords="666,155,788,180"/>
+<area shape="rect" id="node7" href="$d9/d3c/phase_8cc.html#a56dae9815d680f819777c2f7e8b280f7" title=" " alt="" coords="492,156,552,181"/>
+<area shape="rect" id="node8" href="$d6/d3c/namespacePh.html#ac0bb2f4b2888c7c304cb6fcb1b5a7ce2" title=" " alt="" coords="465,205,579,231"/>
+<area shape="rect" id="node9" href="$d6/d3c/namespacePh.html#a8662b8eefea46c114386b136878a461c" title=" " alt="" coords="466,55,578,80"/>
+<area shape="rect" id="node10" href="$d6/d3c/namespacePh.html#a65b264daca1c3c0fcc6f1dc55d729cd4" title=" " alt="" coords="656,31,798,56"/>
+<area shape="rect" id="node11" href="$d8/da5/namespaceKfUt.html#a155e8db38d770e216ef19d9938394c17" title=" " alt="" coords="676,80,778,105"/>
+<area shape="rect" id="node15" href="$dd/d35/subduction_8cc.html#ad33cb6edfd7ce5c6dc560a6d901668c6" title=" " alt="" coords="680,403,774,428"/>
+<area shape="rect" id="node16" href="$d2/d90/namespaceKFactorEnv.html#a458bafc912e851a27c825155215c5083" title=" " alt="" coords="846,403,1004,428"/>
+<area shape="rect" id="node19" href="$d8/d2b/namespaceSubd.html#aa8b77162377de658856d44a4ac5aad26" title=" " alt="" coords="454,353,590,379"/>
+<area shape="rect" id="node20" href="$d8/da5/namespaceKfUt.html#ac090f8c3b57fe35c462bd3c3c2d8f08b" title=" " alt="" coords="473,304,571,329"/>
+<area shape="rect" id="node21" href="$d7/d0c/namespacePolVec.html#ade32426820c06c6df537464fc4ae9475" title=" " alt="" coords="464,255,580,280"/>
+<area shape="rect" id="node23" href="$d8/d2b/namespaceSubd.html#a5f31b3ef70ad25320a8010ec3017eb04" title=" " alt="" coords="436,403,608,428"/>
+<area shape="rect" id="node22" href="$d7/d0c/namespacePolVec.html#a447669c50a18d92dc7fc6b530588dc85" title=" " alt="" coords="666,255,788,280"/>
+<area shape="rect" id="node26" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#a9dc3e1817078e4913ceaf1f56eef9ec6" title=" " alt="" coords="480,580,564,605"/>
+<area shape="rect" id="node27" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#acb4770836054b0c31bd444780f0d74a1" title=" " alt="" coords="693,580,761,605"/>
+<area shape="rect" id="node29" href="$d3/dec/classKfUt_1_1ToArray.html#ac97892c7b8ae265fe9d91d3f823b3f98" title=" " alt="" coords="446,629,597,655"/>
+</map>

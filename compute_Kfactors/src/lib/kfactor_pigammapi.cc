@@ -12,8 +12,21 @@ namespace{
   }
 }
 
+//**********************************************************************************************************************
+/*
+  the form of kinematic factors for the transition PS -> gamma + PS
+  There is one decomposition for the temporal part of photon current (KfacSSS) /mu = 0
+  and one for the spatial (KfacSVS) /mu = 1,2,3
+*/
+
+    /* 
+    coeff = - \epsilon(q,\lamda_gamma)_\mu * [(p_i + p_f)^\mu + (m_f^2 - m_i^2/q^2 * 
+                    (p_f - p_i)^\mu]*Subductions
+    */
+
 //*****************************************************************************************************************
 vector<complex<double>> KfacSSS::operator()( const KFacParams& params ) const {
+
 
   vector<complex<double>> Coeff;
     
@@ -21,6 +34,8 @@ vector<complex<double>> KfacSSS::operator()( const KFacParams& params ) const {
   sum_sub = params.subPhSum().at(2);
   complex<double> factor;
 
+  complex<double> one(-1.,0.); // redstar phase hack
+  
   double Q_sq = - params.qm.squaredNorm();
   VectorXd q_f = params.qp + params.qm;
   VectorXd q_i = params.qp - params.qm;
@@ -32,8 +47,7 @@ vector<complex<double>> KfacSSS::operator()( const KFacParams& params ) const {
   else{factor = {((m_f_sq - m_i_sq)/Q_sq),0.0}; }
 
   complex<double> tmp = 0;
-  
-  tmp += ( (params.qp(0,0)) + (  factor * (params.qm(0,0)) ) ) * sum_sub(2,0);
+  tmp += one * ( (params.qp(0,0)) + (  factor * (params.qm(0,0)) ) ) * sum_sub(2,0);
 
   tmp = {KfUt::truncate(tmp.real(),5),KfUt::truncate(tmp.imag(),5)};
 
@@ -51,7 +65,7 @@ vector<complex<double>> KfacSVS::operator()( const KFacParams& params ) const {
   MatrixXcd sub_sum = params.subPhSum().at(2);
   complex<double> factor;
 
-  complex<double> one(-1.,0.); // to convert four vector upstairs to downstairs
+  complex<double> one(-1.,0.); // redstar phase hack
 
   double Q_sq = - params.qm.squaredNorm();
   VectorXd q_f = params.qp + params.qm;

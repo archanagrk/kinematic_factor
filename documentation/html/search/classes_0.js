@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hadron',['hadron',['../dc/de6/structhadron.html',1,'']]]
+  ['flavour',['flavour',['../d1/de8/structflavour.html',1,'']]]
 ];

@@ -44,7 +44,10 @@ double Round(double x) {return std::round(1000.0*x)/1000.0;}
 
   //**********************************************************************************************************************
 
-    /* Compute the phase factor after rotation of a helicity operator or state from Appendix A of Shulz paper */
+    /* Compute the phase factor after rotation of a helicity operator or state from Appendix A of Shulz paper 
+            Here the three-point fucntions are compared to the case where the initial momentum is rotated to 
+            the canonical momentum.
+    */
 
   //**********************************************************************************************************************
 

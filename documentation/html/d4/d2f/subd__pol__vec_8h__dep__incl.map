@@ -1,6 +1,8 @@
 <map id="/Users/archanar/git/Kinematic_factors/compute_Kfactors/src/lib/subd_pol_vec.h" name="/Users/archanar/git/Kinematic_factors/compute_Kfactors/src/lib/subd_pol_vec.h">
-<area shape="rect" id="node1" title=" " alt="" coords="105,5,318,57"/>
-<area shape="rect" id="node2" href="$d1/d54/kfactors_8h.html" title=" " alt="" coords="5,105,191,157"/>
-<area shape="rect" id="node4" href="$d8/d9f/subd__pol__vec_8cc.html" title=" " alt="" coords="215,105,435,157"/>
-<area shape="rect" id="node3" href="$dc/d1b/compute__matrix__prefactor_8cc.html" title=" " alt="" coords="5,205,191,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="209,5,422,57"/>
+<area shape="rect" id="node2" href="$d1/d54/kfactors_8h.html" title=" " alt="" coords="109,105,295,157"/>
+<area shape="rect" id="node6" href="$d8/d9f/subd__pol__vec_8cc.html" title=" " alt="" coords="319,105,539,157"/>
+<area shape="rect" id="node3" href="$dd/d6f/compute__three__point__prefactor_8h.html" title=" " alt="" coords="109,205,295,271"/>
+<area shape="rect" id="node4" href="$dc/d1b/compute__matrix__prefactor_8cc.html" title=" " alt="" coords="5,319,191,384"/>
+<area shape="rect" id="node5" href="$d1/d96/compute__three__point__prefactor_8cc.html" title=" " alt="" coords="215,319,401,384"/>
 </map>

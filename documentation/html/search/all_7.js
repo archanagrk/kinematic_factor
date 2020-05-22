@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['lam_5fphase',['lam_phase',['../d0/d5f/structPh_1_1phChars.html#af79d4feac7df252a92fc9faf0500d214',1,'Ph::phChars']]],
-  ['levciv',['LevCiv',['../d3/df8/namespaceLevCiv.html',1,'']]],
-  ['levels',['levels',['../dc/de6/structhadron.html#a03809869ad25124ab0152666ea633315',1,'hadron']]],
-  ['levi_5fcivita_2ecc',['levi_civita.cc',['../d4/dcd/levi__civita_8cc.html',1,'']]],
-  ['levi_5fcivita_2eh',['levi_civita.h',['../dc/db3/levi__civita_8h.html',1,'']]],
-  ['levicivita',['LeviCivita',['../d3/df8/namespaceLevCiv.html#adf1ae0fe71d3a8851d6ec4bd21ef4907',1,'LevCiv']]],
-  ['linkagehack',['linkageHack',['../dd/d35/subduction_8cc.html#ad33cb6edfd7ce5c6dc560a6d901668c6',1,'subduction.cc']]],
-  ['little_5fgroup_2ecc',['little_group.cc',['../d3/d4b/little__group_8cc.html',1,'']]],
-  ['little_5fgroup_2eh',['little_group.h',['../dd/d78/little__group_8h.html',1,'']]],
-  ['littlegrp',['LittleGrp',['../d1/d4c/namespaceLittleGrp.html',1,'']]]
+  ['main',['main',['../dc/d1b/compute__matrix__prefactor_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'compute_matrix_prefactor.cc']]],
+  ['max_5fmom',['max_mom',['../df/da8/structNPtCorr__t.html#adb09bcee7c9b196ee4dd8deaea931d46',1,'NPtCorr_t']]],
+  ['min_5fmom',['min_mom',['../df/da8/structNPtCorr__t.html#a1cfccfdd93bb408e8dd3f3baf3c81263',1,'NPtCorr_t']]],
+  ['mom',['mom',['../df/db8/structIrrepLam__t.html#a610bf0af8508ab920d61589c1f748208',1,'IrrepLam_t']]],
+  ['mom1',['mom1',['../d0/d5f/structPh_1_1phChars.html#a3f4e550bbbc61af48cbe3c39bbea4147',1,'Ph::phChars']]],
+  ['mom2',['mom2',['../d0/d5f/structPh_1_1phChars.html#a1458e97056bb5c7a5f99a2b81e33eddc',1,'Ph::phChars']]],
+  ['mom_5fsq',['mom_sq',['../df/db8/structIrrepLam__t.html#aa9a57838bc1de3a127eaaed2643362d1',1,'IrrepLam_t']]]
 ];

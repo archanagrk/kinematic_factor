@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['max_5fmom',['max_mom',['../dc/de6/structhadron.html#a668b950b7a48e196a051668114687d70',1,'hadron']]],
-  ['mom1',['mom1',['../d0/d5f/structPh_1_1phChars.html#a3f4e550bbbc61af48cbe3c39bbea4147',1,'Ph::phChars']]],
-  ['mom2',['mom2',['../d0/d5f/structPh_1_1phChars.html#a1458e97056bb5c7a5f99a2b81e33eddc',1,'Ph::phChars']]]
+  ['irrep',['irrep',['../df/db8/structIrrepLam__t.html#ac92465673b27186aac1d8116431317e8',1,'IrrepLam_t::irrep()'],['../de/d96/structirrep__label.html#a21e18e087b0a2a1d22886c0244d7e7e6',1,'irrep_label::irrep()']]]
 ];

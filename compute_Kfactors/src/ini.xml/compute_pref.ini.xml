@@ -1,4 +1,3 @@
-<!-- For pi+ -> pi+*gamma in 856  -->
 <hadron>
   <npt>3</npt>
   <L>24</L>
@@ -10,6 +9,14 @@
       <twoJ>0</twoJ>
       <P>-1</P>
       <ell>0</ell>
+      <flavor>
+        <threeY>0</threeY>
+        <twoI>2</twoI>
+        <twoIz>2</twoIz>
+      </flavor>
+      <smearedP>true</smearedP>
+      <creation_op>false</creation_op>
+      <t_slice>32</t_slice>
       <msq>0.04735</msq> <!-- pi - not required here just take the p = 000 as mass -->
       <Elab>
         <elem>pion_proj0_p000_A1.jack</elem>
@@ -27,7 +34,12 @@
         <elem>pion_proj1_p210_H0C4nm0A2.jack</elem>
         <elem>pion_proj1_p211_H0C4nnmA2.jack</elem>
       </Elab>
+      <omit_mom>
+      </omit_mom>
       <max_mom>6</max_mom>
+      <min_mom>0</min_mom>
+      <canonical>false</canonical>
+      <projected>true</projected>
       <levels>
         <elem>proj0</elem>
         <elem>proj1</elem>
@@ -38,18 +50,39 @@
         <twoJ>2</twoJ>
         <P>-1</P>
         <ell>0</ell>
+        <flavor>
+          <threeY>0</threeY>
+          <twoI>2</twoI>
+          <twoIz>0</twoIz>
+        </flavor>
+        <smearedP>false</smearedP>
+        <creation_op>true</creation_op>
+        <t_slice>-3</t_slice>
         <msq>0</msq>
         <Elab>
           <elem>null</elem>
         </Elab>
+        <projected>false</projected>
         <levels></levels>
         <max_mom>4</max_mom>
-    </elem>
+        <min_mom>0</min_mom>
+        <omit_mom>
+        </omit_mom>
+        <canonical>true</canonical>
+      </elem>
     <elem>
       <name>pion</name>
       <twoJ>0</twoJ>
       <P>-1</P>
       <ell>0</ell>
+      <flavor>
+        <threeY>0</threeY>
+        <twoI>2</twoI>
+        <twoIz>2</twoIz>
+      </flavor>
+      <smearedP>true</smearedP>
+      <creation_op>true</creation_op>
+      <t_slice>0</t_slice>
       <msq>0.04735</msq> <!-- pi  not required here just take the p = 000 as mass -->
         <Elab>
         <elem>pion_proj0_p000_A1.jack</elem>
@@ -61,17 +94,24 @@
         <elem>pion_proj0_p211_H0C4nnmA2.jack</elem>
       </Elab>
         <max_mom>6</max_mom>
-      <levels>
+        <min_mom>0</min_mom>
+        <omit_mom>
+        </omit_mom>
+        <canonical>false</canonical>
+        <projected>true</projected>
+        <levels>
         <elem>proj0</elem>
       </levels>
       </elem>
   </had>
   <numMatrixElem>1</numMatrixElem>
+  <ElabDir>elab</ElabDir>
   <MatrixName>
     <elem>KFac.jack</elem>
   </MatrixName>
   <MatrixType>kin_fac_scalar_vector_scalar</MatrixType>
   <PrintZero>true</PrintZero>
   <phase>true</phase>
+  <makeRedstarXml>true</makeRedstarXml>
+  <redstarXml>gen_xml</redstarXml>
 </hadron>
-

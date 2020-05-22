@@ -1,4 +1,4 @@
-/* Find Little Groups - Jo's code  */
+/* Find Little Groups */
 
 #include "little_group.h"
 
@@ -16,7 +16,7 @@ namespace{
 
   //**********************************************************************************************************************
 
-    /* Find the little group based on the momentum */
+    /* Find the little group based on the momenta */
 
   //**********************************************************************************************************************
 

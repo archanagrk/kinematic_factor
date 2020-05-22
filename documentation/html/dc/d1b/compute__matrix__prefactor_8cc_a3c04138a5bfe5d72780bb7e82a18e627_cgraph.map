@@ -1,26 +1,32 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,265,56,291"/>
-<area shape="rect" id="node2" href="$d2/d90/namespaceKFactorEnv.html#a458bafc912e851a27c825155215c5083" title=" " alt="" coords="750,207,907,232"/>
-<area shape="rect" id="node3" href="$d1/d0f/namespaceiter.html#aa428f19b82dc5b65f03be5db13925f71" title=" " alt="" coords="150,52,245,77"/>
-<area shape="rect" id="node4" href="$d6/d3c/namespacePh.html#ad2fd8f885053b0833441c8388a9218b8" title=" " alt="" coords="138,153,257,179"/>
-<area shape="rect" id="node5" href="$d1/d4c/namespaceLittleGrp.html#a93937e135b6b9c963ae9ad26516e252d" title=" " alt="" coords="358,33,493,59"/>
-<area shape="rect" id="node12" href="$d1/d4c/namespaceLittleGrp.html#a12887808e1a825e9d2c387c5475bcf88" title=" " alt="" coords="118,203,278,241"/>
-<area shape="rect" id="node13" href="$d8/dcc/namespaceIrrepName.html#aafd6a227d49ac073e93e6954332007bf" title=" " alt="" coords="129,265,266,291"/>
-<area shape="rect" id="node14" href="$d8/d2b/namespaceSubd.html#a7a3fcd97f1cf40eb963e278240d0ff3e" title=" " alt="" coords="345,480,506,519"/>
-<area shape="rect" id="node16" href="$d8/dcc/namespaceIrrepName.html#a3964736788de2a425b5a41ff069f907b" title=" " alt="" coords="122,364,273,389"/>
-<area shape="rect" id="node17" href="$db/d8a/namespaceSubdPol.html#a0c27e6a0353d158613d8d77e3c0ebbe7" title=" " alt="" coords="104,315,292,340"/>
-<area shape="rect" id="node23" href="$d4/da2/namespacenaming.html#a0be3b30603f24f1e39a06c9a0fbdca7e" title=" " alt="" coords="145,465,251,491"/>
-<area shape="rect" id="node24" href="$db/d3d/gen__redstar__xml_8h.html#acb4770836054b0c31bd444780f0d74a1" title=" " alt="" coords="164,515,231,540"/>
-<area shape="rect" id="node6" href="$d7/dcc/namespaceRot.html#adcd0cec8d1616e5f74d30cb3ad1aca99" title=" " alt="" coords="570,232,692,257"/>
-<area shape="rect" id="node7" href="$d9/d3c/phase_8cc.html#a56dae9815d680f819777c2f7e8b280f7" title=" " alt="" coords="395,83,456,108"/>
-<area shape="rect" id="node8" href="$d6/d3c/namespacePh.html#ac0bb2f4b2888c7c304cb6fcb1b5a7ce2" title=" " alt="" coords="369,132,482,157"/>
-<area shape="rect" id="node9" href="$d6/d3c/namespacePh.html#a8662b8eefea46c114386b136878a461c" title=" " alt="" coords="369,181,482,207"/>
-<area shape="rect" id="node10" href="$d6/d3c/namespacePh.html#a65b264daca1c3c0fcc6f1dc55d729cd4" title=" " alt="" coords="560,132,702,157"/>
-<area shape="rect" id="node11" href="$d8/da5/namespaceKfUt.html#a155e8db38d770e216ef19d9938394c17" title=" " alt="" coords="579,181,682,207"/>
-<area shape="rect" id="node15" href="$dd/d35/subduction_8cc.html#ad33cb6edfd7ce5c6dc560a6d901668c6" title=" " alt="" coords="584,405,678,431"/>
-<area shape="rect" id="node18" href="$d8/d2b/namespaceSubd.html#aa8b77162377de658856d44a4ac5aad26" title=" " alt="" coords="358,431,493,456"/>
-<area shape="rect" id="node19" href="$d8/da5/namespaceKfUt.html#ac090f8c3b57fe35c462bd3c3c2d8f08b" title=" " alt="" coords="376,332,475,357"/>
-<area shape="rect" id="node20" href="$d7/d0c/namespacePolVec.html#ade32426820c06c6df537464fc4ae9475" title=" " alt="" coords="368,283,483,308"/>
-<area shape="rect" id="node22" href="$d8/d2b/namespaceSubd.html#a5f31b3ef70ad25320a8010ec3017eb04" title=" " alt="" coords="340,381,512,407"/>
-<area shape="rect" id="node21" href="$d7/d0c/namespacePolVec.html#a447669c50a18d92dc7fc6b530588dc85" title=" " alt="" coords="570,283,692,308"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,267,56,293"/>
+<area shape="rect" id="node2" href="$d2/d90/namespaceKFactorEnv.html#a458bafc912e851a27c825155215c5083" title=" " alt="" coords="944,18,1102,43"/>
+<area shape="rect" id="node3" href="$d1/d96/compute__three__point__prefactor_8cc.html#ac88dde78632dfe8aee1a600560fb6110" title=" " alt="" coords="104,510,250,549"/>
+<area shape="rect" id="node4" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#a039f302af6ea4e701b8fa90d8beecaa3" title=" " alt="" coords="344,517,441,542"/>
+<area shape="rect" id="node5" href="$d1/d0f/namespaceiter.html#a6df5db1fc5cd1a5383020ab6c9ea5089" title=" " alt="" coords="345,566,440,591"/>
+<area shape="rect" id="node6" href="$d6/d3c/namespacePh.html#ad2fd8f885053b0833441c8388a9218b8" title=" " alt="" coords="333,366,452,391"/>
+<area shape="rect" id="node7" href="$d1/d4c/namespaceLittleGrp.html#a93937e135b6b9c963ae9ad26516e252d" title=" " alt="" coords="552,491,688,517"/>
+<area shape="rect" id="node14" href="$d1/d4c/namespaceLittleGrp.html#a12887808e1a825e9d2c387c5475bcf88" title=" " alt="" coords="312,717,472,755"/>
+<area shape="rect" id="node15" href="$d8/dcc/namespaceIrrepName.html#aafd6a227d49ac073e93e6954332007bf" title=" " alt="" coords="323,779,461,805"/>
+<area shape="rect" id="node16" href="$d8/d2b/namespaceSubd.html#a7a3fcd97f1cf40eb963e278240d0ff3e" title=" " alt="" coords="312,86,473,125"/>
+<area shape="rect" id="node18" href="$d8/dcc/namespaceIrrepName.html#a3964736788de2a425b5a41ff069f907b" title=" " alt="" coords="316,829,468,854"/>
+<area shape="rect" id="node19" href="$db/d8a/namespaceSubdPol.html#a0c27e6a0353d158613d8d77e3c0ebbe7" title=" " alt="" coords="298,193,486,218"/>
+<area shape="rect" id="node25" href="$d4/da2/namespacenaming.html#a0be3b30603f24f1e39a06c9a0fbdca7e" title=" " alt="" coords="567,617,673,642"/>
+<area shape="rect" id="node26" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#a14d68e5599906cdeaeca5b2b8e4f2a69" title=" " alt="" coords="340,667,444,693"/>
+<area shape="rect" id="node29" href="$db/d61/gen__redstar__xml_8cc.html#ad9bfefd31f30d9044879e024e8af6e7e" title=" " alt="" coords="332,467,453,493"/>
+<area shape="rect" id="node8" href="$d7/dcc/namespaceRot.html#adcd0cec8d1616e5f74d30cb3ad1aca99" title=" " alt="" coords="764,342,886,367"/>
+<area shape="rect" id="node9" href="$d9/d3c/phase_8cc.html#a56dae9815d680f819777c2f7e8b280f7" title=" " alt="" coords="590,291,651,317"/>
+<area shape="rect" id="node10" href="$d6/d3c/namespacePh.html#ac0bb2f4b2888c7c304cb6fcb1b5a7ce2" title=" " alt="" coords="564,341,677,366"/>
+<area shape="rect" id="node11" href="$d6/d3c/namespacePh.html#a8662b8eefea46c114386b136878a461c" title=" " alt="" coords="564,442,676,467"/>
+<area shape="rect" id="node12" href="$d6/d3c/namespacePh.html#a65b264daca1c3c0fcc6f1dc55d729cd4" title=" " alt="" coords="754,418,896,443"/>
+<area shape="rect" id="node13" href="$d8/da5/namespaceKfUt.html#a155e8db38d770e216ef19d9938394c17" title=" " alt="" coords="774,467,877,493"/>
+<area shape="rect" id="node17" href="$dd/d35/subduction_8cc.html#ad33cb6edfd7ce5c6dc560a6d901668c6" title=" " alt="" coords="778,69,872,94"/>
+<area shape="rect" id="node20" href="$d8/d2b/namespaceSubd.html#aa8b77162377de658856d44a4ac5aad26" title=" " alt="" coords="552,143,688,169"/>
+<area shape="rect" id="node21" href="$d8/da5/namespaceKfUt.html#ac090f8c3b57fe35c462bd3c3c2d8f08b" title=" " alt="" coords="571,193,669,218"/>
+<area shape="rect" id="node22" href="$d7/d0c/namespacePolVec.html#ade32426820c06c6df537464fc4ae9475" title=" " alt="" coords="562,242,678,267"/>
+<area shape="rect" id="node24" href="$d8/d2b/namespaceSubd.html#a5f31b3ef70ad25320a8010ec3017eb04" title=" " alt="" coords="534,94,706,119"/>
+<area shape="rect" id="node23" href="$d7/d0c/namespacePolVec.html#a447669c50a18d92dc7fc6b530588dc85" title=" " alt="" coords="764,242,886,267"/>
+<area shape="rect" id="node27" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#a9dc3e1817078e4913ceaf1f56eef9ec6" title=" " alt="" coords="578,667,662,693"/>
+<area shape="rect" id="node28" href="$d0/db1/compute__kfactor__xml__read__write_8cc.html#acb4770836054b0c31bd444780f0d74a1" title=" " alt="" coords="792,667,859,693"/>
+<area shape="rect" id="node30" href="$d3/dec/classKfUt_1_1ToArray.html#ac97892c7b8ae265fe9d91d3f823b3f98" title=" " alt="" coords="545,541,696,566"/>
 </map>

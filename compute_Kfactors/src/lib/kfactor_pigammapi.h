@@ -10,8 +10,6 @@
 
 /* build a factory of KFactor types */
 /* many will be specific to the matrix elements */
-/* the AvgFit passed in contains the data and the function, 
-   so the quality can compute all kinds of stuff */
 
 /*
   the kinematic factor constructor can depend on fixed parameters
@@ -20,7 +18,7 @@
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// some common Kinematic Factors
+// some other Kinematic Factors
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 class KfacSVS : public KFactor{

@@ -8,7 +8,8 @@
 
   //**********************************************************************************************************************
 
-/* The struct to store the kinematic factor params */
+/* A fucntion that returns a three-dimensional matrix of ploarization matrix at each npt dotted with 
+    thre respexctive subduction coeffs. A useful quantity to later compute the kinematic factors */
 
 vector<MatrixXcd> KFacParams::subPhSum() const{
 
@@ -47,6 +48,8 @@ vector<MatrixXcd> KFacParams::subPhSum() const{
 
 //**********************************************************************************************************************
 
+  /* A fucntion that returns the helicity at each npt */
+
 Ph::tripKey KFacParams::two_abs_lam() const{
 
   Ph::tripKey twice_abs_lam; 
@@ -65,8 +68,9 @@ Ph::tripKey KFacParams::two_abs_lam() const{
 };
 
 
-//Constructor
 //**********************************************************************************************************************
+//Constructor
+
 
 KFacParams::KFacParams(map< int, Eigen::MatrixXcd > Sub1_, map< int, Eigen::MatrixXcd > SubCurr_, map< int, Eigen::MatrixXcd > Sub3_, Ph::phChars phase_, VectorXd  qp_, VectorXd  qm_)
 {

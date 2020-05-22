@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['qm',['qm',['../d7/d41/classKFacParams.html#a1554adf6e901c25d34d29e84f91090a9',1,'KFacParams']]],
-  ['qp',['qp',['../d7/d41/classKFacParams.html#ad9669d8cc162e568d6c274d5b69bec71',1,'KFacParams']]]
+  ['max_5fmom',['max_mom',['../df/da8/structNPtCorr__t.html#adb09bcee7c9b196ee4dd8deaea931d46',1,'NPtCorr_t']]],
+  ['min_5fmom',['min_mom',['../df/da8/structNPtCorr__t.html#a1cfccfdd93bb408e8dd3f3baf3c81263',1,'NPtCorr_t']]],
+  ['mom',['mom',['../df/db8/structIrrepLam__t.html#a610bf0af8508ab920d61589c1f748208',1,'IrrepLam_t']]],
+  ['mom1',['mom1',['../d0/d5f/structPh_1_1phChars.html#a3f4e550bbbc61af48cbe3c39bbea4147',1,'Ph::phChars']]],
+  ['mom2',['mom2',['../d0/d5f/structPh_1_1phChars.html#a1458e97056bb5c7a5f99a2b81e33eddc',1,'Ph::phChars']]],
+  ['mom_5fsq',['mom_sq',['../df/db8/structIrrepLam__t.html#aa9a57838bc1de3a127eaaed2643362d1',1,'IrrepLam_t']]]
 ];

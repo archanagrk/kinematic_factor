@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['phchars',['phChars',['../d0/d5f/structPh_1_1phChars.html',1,'Ph']]]
+  ['nptcorr_5ft',['NPtCorr_t',['../df/da8/structNPtCorr__t.html',1,'']]],
+  ['nptirreplam_5ft',['NPtIrrepLam_t',['../d2/d31/structNPtIrrepLam__t.html',1,'']]]
 ];

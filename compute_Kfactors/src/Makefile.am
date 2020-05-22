@@ -20,14 +20,13 @@ LDADD = @ADAT_LIBS@ @LIBS@ @SEMBLE_LIBS@
 ##   be built by 'make check' and is not installed.
 
 
-bin_PROGRAMS = compute_matrix_prefactor gen_redstar_xml
+bin_PROGRAMS = compute_matrix_prefactor
 
 
 ##############################################################
 
-compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc lib/naming.cc lib/iterate.cc
+compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  lib/phase.cc lib/naming.cc lib/iterate.cc io/compute_kfactor_xml_read_write.cc  lib/compute_three_point_prefactor.cc  io/gen_redstar_xml.cc
 
-gen_redstar_xml_SOURCES 		 = io/gen_redstar_xml.cc  lib/kfac_utils.cc  io/xml_tools.cc
 
 ##############################################################
 

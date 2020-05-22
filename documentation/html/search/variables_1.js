@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['irrep',['irrep',['../de/d96/structirrep__label.html#a21e18e087b0a2a1d22886c0244d7e7e6',1,'irrep_label']]]
+  ['elab',['elab',['../df/da8/structNPtCorr__t.html#a30ae14bcaf1bfcfe59c218f221c4a7d3',1,'NPtCorr_t']]],
+  ['ell',['ell',['../df/da8/structNPtCorr__t.html#a9ae7e378310b94d8b64470b2293c6e51',1,'NPtCorr_t']]]
 ];

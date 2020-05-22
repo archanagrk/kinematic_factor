@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['n',['n',['../de/d96/structirrep__label.html#a6f7203722a797aa0fb81e1e4a7370ad8',1,'irrep_label']]],
-  ['name',['name',['../dc/de6/structhadron.html#a1723945a53bf31a89bae3915bfed013c',1,'hadron']]]
+  ['kfac',['kfac',['../d2/d31/structNPtIrrepLam__t.html#ad2772249c13c09632b889e3918baeaa8',1,'NPtIrrepLam_t']]]
 ];

@@ -1,0 +1,92 @@
+\hypertarget{compute__kfactor__xml__read__write_8h}{}\section{/\+Users/archanar/git/\+Kinematic\+\_\+factors/compute\+\_\+\+Kfactors/src/io/compute\+\_\+kfactor\+\_\+xml\+\_\+read\+\_\+write.h File Reference}
+\label{compute__kfactor__xml__read__write_8h}\index{/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/compute\_kfactor\_xml\_read\_write.h@{/Users/archanar/git/Kinematic\_factors/compute\_Kfactors/src/io/compute\_kfactor\_xml\_read\_write.h}}
+{\ttfamily \#include $<$/usr/local/\+Eigen/\+Dense$>$}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}io/adat\+\_\+xml\+\_\+group\+\_\+reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+npt\+\_\+corr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/particle\+\_\+op.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+irrep.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/hadron\+\_\+sun\+\_\+npart\+\_\+irrep\+\_\+op.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/singleton.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adat/objfactory.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$adat/handle.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}hadron/cgc\+\_\+irrep\+\_\+mom.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}hadron/cgc\+\_\+su3.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../lib/kfac\+\_\+utils.\+h\char`\"{}}\newline
+Include dependency graph for compute\+\_\+kfactor\+\_\+xml\+\_\+read\+\_\+write.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d86/compute__kfactor__xml__read__write_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d1f/compute__kfactor__xml__read__write_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structIrrepLam__t}{Irrep\+Lam\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structNPtIrrepLam__t}{N\+Pt\+Irrep\+Lam\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structflavour}{flavour}}
+\item 
+struct \mbox{\hyperlink{structNPtCorr__t}{N\+Pt\+Corr\+\_\+t}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{compute__kfactor__xml__read__write_8h_a039f302af6ea4e701b8fa90d8beecaa3}{read\+\_\+xml\+\_\+ini}} (X\+M\+L\+Reader \&xml\+\_\+in, int \&npt, int \&L, double \&Xi, double \&XiE, std\+::vector$<$ \mbox{\hyperlink{structNPtCorr__t}{N\+Pt\+Corr\+\_\+t}} $>$ \&had, int \&num\+\_\+matrix\+\_\+elem, string \&matrix\+\_\+type, Array1dO$<$ string $>$ \&matrix\+\_\+name, string \&print\+\_\+zero, string \&compute\+\_\+phase, string \&elab\+\_\+dir, bool \&make\+\_\+redstar\+\_\+xml, string \&redstar\+\_\+xml)
+\item 
+void \mbox{\hyperlink{compute__kfactor__xml__read__write_8h_acb4770836054b0c31bd444780f0d74a1}{write\+\_\+ei}} (X\+M\+L\+Writer \&xml, const std\+::string \&path, const Eigen\+::\+Vector3d \&input)
+\item 
+void \mbox{\hyperlink{compute__kfactor__xml__read__write_8h_a9dc3e1817078e4913ceaf1f56eef9ec6}{write\+\_\+irrep}} (X\+M\+L\+Writer \&xml\+\_\+out, \mbox{\hyperlink{structIrrepLam__t}{Irrep\+Lam\+\_\+t}} \&irrep\+\_\+lam)
+\item 
+void \mbox{\hyperlink{compute__kfactor__xml__read__write_8h_a14d68e5599906cdeaeca5b2b8e4f2a69}{write\+\_\+xml\+\_\+out}} (X\+M\+L\+Writer \&xml\+\_\+out, int \&npt, int \&L, double \&Xi, double \&XiE, std\+::vector$<$ \mbox{\hyperlink{structNPtCorr__t}{N\+Pt\+Corr\+\_\+t}} $>$ \&had, int \&num\+\_\+matrix\+\_\+elem, string \&matrix\+\_\+type, Array1dO$<$ string $>$ \&matrix\+\_\+name, string \&print\+\_\+zero, string \&compute\+\_\+phase, string \&elab\+\_\+dir, bool \&make\+\_\+redstar\+\_\+xml, vector$<$ \mbox{\hyperlink{structNPtIrrepLam__t}{N\+Pt\+Irrep\+Lam\+\_\+t}} $>$ \&irreps, int \&count)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{compute__kfactor__xml__read__write_8h_a039f302af6ea4e701b8fa90d8beecaa3}\label{compute__kfactor__xml__read__write_8h_a039f302af6ea4e701b8fa90d8beecaa3}} 
+\index{compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}!read\_xml\_ini@{read\_xml\_ini}}
+\index{read\_xml\_ini@{read\_xml\_ini}!compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}}
+\subsubsection{\texorpdfstring{read\_xml\_ini()}{read\_xml\_ini()}}
+{\footnotesize\ttfamily void read\+\_\+xml\+\_\+ini (\begin{DoxyParamCaption}\item[{X\+M\+L\+Reader \&}]{xml\+\_\+in,  }\item[{int \&}]{npt,  }\item[{int \&}]{L,  }\item[{double \&}]{Xi,  }\item[{double \&}]{XiE,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structNPtCorr__t}{N\+Pt\+Corr\+\_\+t}} $>$ \&}]{had,  }\item[{int \&}]{num\+\_\+matrix\+\_\+elem,  }\item[{string \&}]{matrix\+\_\+type,  }\item[{Array1dO$<$ string $>$ \&}]{matrix\+\_\+name,  }\item[{string \&}]{print\+\_\+zero,  }\item[{string \&}]{compute\+\_\+phase,  }\item[{string \&}]{elab\+\_\+dir,  }\item[{bool \&}]{make\+\_\+redstar\+\_\+xml,  }\item[{string \&}]{redstar\+\_\+xml }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{compute__kfactor__xml__read__write_8h_acb4770836054b0c31bd444780f0d74a1}\label{compute__kfactor__xml__read__write_8h_acb4770836054b0c31bd444780f0d74a1}} 
+\index{compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}!write\_ei@{write\_ei}}
+\index{write\_ei@{write\_ei}!compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}}
+\subsubsection{\texorpdfstring{write\_ei()}{write\_ei()}}
+{\footnotesize\ttfamily void write\+\_\+ei (\begin{DoxyParamCaption}\item[{X\+M\+L\+Writer \&}]{xml,  }\item[{const std\+::string \&}]{path,  }\item[{const Eigen\+::\+Vector3d \&}]{input }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{compute__kfactor__xml__read__write_8h_a9dc3e1817078e4913ceaf1f56eef9ec6}\label{compute__kfactor__xml__read__write_8h_a9dc3e1817078e4913ceaf1f56eef9ec6}} 
+\index{compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}!write\_irrep@{write\_irrep}}
+\index{write\_irrep@{write\_irrep}!compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}}
+\subsubsection{\texorpdfstring{write\_irrep()}{write\_irrep()}}
+{\footnotesize\ttfamily void write\+\_\+irrep (\begin{DoxyParamCaption}\item[{X\+M\+L\+Writer \&}]{xml\+\_\+out,  }\item[{\mbox{\hyperlink{structIrrepLam__t}{Irrep\+Lam\+\_\+t}} \&}]{irrep\+\_\+lam }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{da/d60/compute__kfactor__xml__read__write_8h_a9dc3e1817078e4913ceaf1f56eef9ec6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{compute__kfactor__xml__read__write_8h_a14d68e5599906cdeaeca5b2b8e4f2a69}\label{compute__kfactor__xml__read__write_8h_a14d68e5599906cdeaeca5b2b8e4f2a69}} 
+\index{compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}!write\_xml\_out@{write\_xml\_out}}
+\index{write\_xml\_out@{write\_xml\_out}!compute\_kfactor\_xml\_read\_write.h@{compute\_kfactor\_xml\_read\_write.h}}
+\subsubsection{\texorpdfstring{write\_xml\_out()}{write\_xml\_out()}}
+{\footnotesize\ttfamily void write\+\_\+xml\+\_\+out (\begin{DoxyParamCaption}\item[{X\+M\+L\+Writer \&}]{xml\+\_\+out,  }\item[{int \&}]{npt,  }\item[{int \&}]{L,  }\item[{double \&}]{Xi,  }\item[{double \&}]{XiE,  }\item[{std\+::vector$<$ \mbox{\hyperlink{structNPtCorr__t}{N\+Pt\+Corr\+\_\+t}} $>$ \&}]{had,  }\item[{int \&}]{num\+\_\+matrix\+\_\+elem,  }\item[{string \&}]{matrix\+\_\+type,  }\item[{Array1dO$<$ string $>$ \&}]{matrix\+\_\+name,  }\item[{string \&}]{print\+\_\+zero,  }\item[{string \&}]{compute\+\_\+phase,  }\item[{string \&}]{elab\+\_\+dir,  }\item[{bool \&}]{make\+\_\+redstar\+\_\+xml,  }\item[{vector$<$ \mbox{\hyperlink{structNPtIrrepLam__t}{N\+Pt\+Irrep\+Lam\+\_\+t}} $>$ \&}]{irreps,  }\item[{int \&}]{count }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d60/compute__kfactor__xml__read__write_8h_a14d68e5599906cdeaeca5b2b8e4f2a69_cgraph}
+\end{center}
+\end{figure}

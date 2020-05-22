@@ -17,7 +17,7 @@
 
 //In the case of scalar there is no polarization tensor so multiply by identity
 //In the case of vector multiple by a polarization 4-vector
-//mo support of tensors yet
+//no support of tensors yet
 
 //**********************************************************************************************************************
 
@@ -40,8 +40,7 @@ map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& m
 
             if(twoJ == 2)
             {
-                for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++)
-                {   //cout << "subinside: " << (it->second) << " " << (it->first) << endl;
+                for(map<  int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
                     //cout << " " << PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr) << endl;
                     Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr)));
                 }
@@ -77,7 +76,6 @@ map< int, Eigen::MatrixXcd > SubdPol::Subduce_with_pol(double& mom_sq, double& m
 
             if(twoJ == 2){
                 for(map< int, complex<double> >::iterator  it = Sub.begin(); it != Sub.end(); it++){
-                    //cout << "subinside: " << (it->second) << " " << (it->first) << endl;
                     //cout << "pols " << PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr) << endl;
                     Sub_with_pol.insert(make_pair( (it->first) , (it->second) * KfUt::Gmunu() * PolVec::getPol4(mom_sq, (it->first), mass_sq, R1_phi, R1_theta, R1_psi, curr) ));}}
 

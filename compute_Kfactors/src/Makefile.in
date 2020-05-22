@@ -86,8 +86,7 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = compute_matrix_prefactor$(EXEEXT) \
-	gen_redstar_xml$(EXEEXT)
+bin_PROGRAMS = compute_matrix_prefactor$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/pac_adat_link_cxx_func.m4 \
@@ -109,17 +108,14 @@ am_compute_matrix_prefactor_OBJECTS =  \
 	lib/rot_matrx.$(OBJEXT) lib/kfactor_pigammapi.$(OBJEXT) \
 	lib/kfactor_pigammarho.$(OBJEXT) lib/kfac_params.$(OBJEXT) \
 	lib/k_factor_factory.$(OBJEXT) lib/levi_civita.$(OBJEXT) \
-	io/xml_tools.$(OBJEXT) lib/phase.$(OBJEXT) \
-	lib/naming.$(OBJEXT) lib/iterate.$(OBJEXT)
+	lib/phase.$(OBJEXT) lib/naming.$(OBJEXT) lib/iterate.$(OBJEXT) \
+	io/compute_kfactor_xml_read_write.$(OBJEXT) \
+	lib/compute_three_point_prefactor.$(OBJEXT) \
+	io/gen_redstar_xml.$(OBJEXT)
 compute_matrix_prefactor_OBJECTS =  \
 	$(am_compute_matrix_prefactor_OBJECTS)
 compute_matrix_prefactor_LDADD = $(LDADD)
 compute_matrix_prefactor_DEPENDENCIES =
-am_gen_redstar_xml_OBJECTS = io/gen_redstar_xml.$(OBJEXT) \
-	lib/kfac_utils.$(OBJEXT) io/xml_tools.$(OBJEXT)
-gen_redstar_xml_OBJECTS = $(am_gen_redstar_xml_OBJECTS)
-gen_redstar_xml_LDADD = $(LDADD)
-gen_redstar_xml_DEPENDENCIES =
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -136,7 +132,9 @@ DEFAULT_INCLUDES = -I.@am__isrc@
 depcomp = $(SHELL) $(top_srcdir)/config/depcomp
 am__maybe_remake_depfiles = depfiles
 am__depfiles_remade = exe/$(DEPDIR)/compute_matrix_prefactor.Po \
-	io/$(DEPDIR)/gen_redstar_xml.Po io/$(DEPDIR)/xml_tools.Po \
+	io/$(DEPDIR)/compute_kfactor_xml_read_write.Po \
+	io/$(DEPDIR)/gen_redstar_xml.Po \
+	lib/$(DEPDIR)/compute_three_point_prefactor.Po \
 	lib/$(DEPDIR)/irreps_and_rows.Po lib/$(DEPDIR)/iterate.Po \
 	lib/$(DEPDIR)/k_factor_factory.Po lib/$(DEPDIR)/kfac_params.Po \
 	lib/$(DEPDIR)/kfac_utils.Po lib/$(DEPDIR)/kfactor_pigammapi.Po \
@@ -159,10 +157,8 @@ AM_V_CXXLD = $(am__v_CXXLD_@AM_V@)
 am__v_CXXLD_ = $(am__v_CXXLD_@AM_DEFAULT_V@)
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
 am__v_CXXLD_1 = 
-SOURCES = $(compute_matrix_prefactor_SOURCES) \
-	$(gen_redstar_xml_SOURCES)
-DIST_SOURCES = $(compute_matrix_prefactor_SOURCES) \
-	$(gen_redstar_xml_SOURCES)
+SOURCES = $(compute_matrix_prefactor_SOURCES)
+DIST_SOURCES = $(compute_matrix_prefactor_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -300,8 +296,7 @@ AM_LDFLAGS = -L@top_builddir@/src \
 LDADD = @ADAT_LIBS@ @LIBS@ @SEMBLE_LIBS@
 
 ##############################################################
-compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  io/xml_tools.cc  lib/phase.cc lib/naming.cc lib/iterate.cc
-gen_redstar_xml_SOURCES = io/gen_redstar_xml.cc  lib/kfac_utils.cc  io/xml_tools.cc
+compute_matrix_prefactor_SOURCES = exe/compute_matrix_prefactor.cc lib/irreps_and_rows.cc  lib/kfac_utils.cc  lib/little_group.cc  lib/subduction.cc  lib/subd_pol_vec.cc  lib/pol_vec.cc  lib/rot_matrx.cc  lib/kfactor_pigammapi.cc  lib/kfactor_pigammarho.cc lib/kfac_params.cc lib/k_factor_factory.cc  lib/levi_civita.cc  lib/phase.cc lib/naming.cc lib/iterate.cc io/compute_kfactor_xml_read_write.cc  lib/compute_three_point_prefactor.cc  io/gen_redstar_xml.cc
 
 ##############################################################
 
@@ -428,29 +423,27 @@ lib/k_factor_factory.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
 lib/levi_civita.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
+lib/phase.$(OBJEXT): lib/$(am__dirstamp) lib/$(DEPDIR)/$(am__dirstamp)
+lib/naming.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
+lib/iterate.$(OBJEXT): lib/$(am__dirstamp) \
+	lib/$(DEPDIR)/$(am__dirstamp)
 io/$(am__dirstamp):
 	@$(MKDIR_P) io
 	@: > io/$(am__dirstamp)
 io/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) io/$(DEPDIR)
 	@: > io/$(DEPDIR)/$(am__dirstamp)
-io/xml_tools.$(OBJEXT): io/$(am__dirstamp) \
+io/compute_kfactor_xml_read_write.$(OBJEXT): io/$(am__dirstamp) \
 	io/$(DEPDIR)/$(am__dirstamp)
-lib/phase.$(OBJEXT): lib/$(am__dirstamp) lib/$(DEPDIR)/$(am__dirstamp)
-lib/naming.$(OBJEXT): lib/$(am__dirstamp) \
+lib/compute_three_point_prefactor.$(OBJEXT): lib/$(am__dirstamp) \
 	lib/$(DEPDIR)/$(am__dirstamp)
-lib/iterate.$(OBJEXT): lib/$(am__dirstamp) \
-	lib/$(DEPDIR)/$(am__dirstamp)
+io/gen_redstar_xml.$(OBJEXT): io/$(am__dirstamp) \
+	io/$(DEPDIR)/$(am__dirstamp)
 
 compute_matrix_prefactor$(EXEEXT): $(compute_matrix_prefactor_OBJECTS) $(compute_matrix_prefactor_DEPENDENCIES) $(EXTRA_compute_matrix_prefactor_DEPENDENCIES) 
 	@rm -f compute_matrix_prefactor$(EXEEXT)
 	$(AM_V_CXXLD)$(CXXLINK) $(compute_matrix_prefactor_OBJECTS) $(compute_matrix_prefactor_LDADD) $(LIBS)
-io/gen_redstar_xml.$(OBJEXT): io/$(am__dirstamp) \
-	io/$(DEPDIR)/$(am__dirstamp)
-
-gen_redstar_xml$(EXEEXT): $(gen_redstar_xml_OBJECTS) $(gen_redstar_xml_DEPENDENCIES) $(EXTRA_gen_redstar_xml_DEPENDENCIES) 
-	@rm -f gen_redstar_xml$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(gen_redstar_xml_OBJECTS) $(gen_redstar_xml_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -462,8 +455,9 @@ distclean-compile:
 	-rm -f *.tab.c
 
 @AMDEP_TRUE@@am__include@ @am__quote@exe/$(DEPDIR)/compute_matrix_prefactor.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@io/$(DEPDIR)/compute_kfactor_xml_read_write.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@io/$(DEPDIR)/gen_redstar_xml.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@io/$(DEPDIR)/xml_tools.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/compute_three_point_prefactor.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/irreps_and_rows.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/iterate.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@lib/$(DEPDIR)/k_factor_factory.Po@am__quote@ # am--include-marker
@@ -636,8 +630,9 @@ clean-am: clean-binPROGRAMS clean-generic mostlyclean-am
 
 distclean: distclean-am
 		-rm -f exe/$(DEPDIR)/compute_matrix_prefactor.Po
+	-rm -f io/$(DEPDIR)/compute_kfactor_xml_read_write.Po
 	-rm -f io/$(DEPDIR)/gen_redstar_xml.Po
-	-rm -f io/$(DEPDIR)/xml_tools.Po
+	-rm -f lib/$(DEPDIR)/compute_three_point_prefactor.Po
 	-rm -f lib/$(DEPDIR)/irreps_and_rows.Po
 	-rm -f lib/$(DEPDIR)/iterate.Po
 	-rm -f lib/$(DEPDIR)/k_factor_factory.Po
@@ -699,8 +694,9 @@ installcheck-am:
 
 maintainer-clean: maintainer-clean-am
 		-rm -f exe/$(DEPDIR)/compute_matrix_prefactor.Po
+	-rm -f io/$(DEPDIR)/compute_kfactor_xml_read_write.Po
 	-rm -f io/$(DEPDIR)/gen_redstar_xml.Po
-	-rm -f io/$(DEPDIR)/xml_tools.Po
+	-rm -f lib/$(DEPDIR)/compute_three_point_prefactor.Po
 	-rm -f lib/$(DEPDIR)/irreps_and_rows.Po
 	-rm -f lib/$(DEPDIR)/iterate.Po
 	-rm -f lib/$(DEPDIR)/k_factor_factory.Po

@@ -20,7 +20,7 @@ using namespace std;
 
 namespace Rot {
   
-  /*  Euler matrix - converted from itpp to Eigen3 - z-y-z convention */
+  /*  Euler matrix - Eigen3 - z-y-z convention */
   Eigen::MatrixXd eulerRotMat(double alpha, double beta, double gamma);
 
 }

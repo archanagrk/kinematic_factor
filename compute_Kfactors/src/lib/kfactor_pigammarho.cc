@@ -1,6 +1,20 @@
 #include "kfactor_pigammarho.h"
+ //**********************************************************************************************************************
+ //**********************************************************************************************************************
+/*
+  the form of kinematic factors for the transition PS -> gamma + V
+
+  There is one decomposition for the temporal part of photon current (KfacVSS / KfacSSV) /mu = 0
+  and one for the spatial (KfacVVS / KfacSVV) /mu = 1,2,3
+*/
+
+    /* 
+    coeff = i * 1/m_PS * \epsilon(q,\lamda_gamma)_\mu * [\levichivita^{\mu\nu\rho\sigma}\epsilon^{*}(p_f,\lambda_f)_\nu (p_i + p_f)_\rho + (p_f - p_i)_\sigma]*Subductions]
+    */
 
 //*****************************************************************************************************************
+ //**********************************************************************************************************************
+
 vector<complex<double>> KfacSSV::operator()( const KFacParams& params ) const {
 
   vector<complex<double>> Coeff;
@@ -67,7 +81,19 @@ vector<complex<double>> KfacSVV::operator()( const KFacParams& params ) const {
 };
 
 //*****************************************************************************************************************
+ //**********************************************************************************************************************
+/*
+  the form of kinematic factors for the transition V + gamma -> PS
 
+  There is one decomposition for the temporal part of photon current (KfacVSS) /mu = 0
+  and one for the spatial (KfacVVS) /mu = 1,2,3
+*/
+
+    /* 
+    coeff = i * 1/m_PS * \epsilon(q,\lamda_gamma)_\mu * [\levichivita^{\mu\nu\rho\sigma}\epsilon(p_i,\lambda_i)_\nu (p_i + p_f)_\rho + (p_f - p_i)_\sigma * Subductions]
+    */
+
+//*****************************************************************************************************************
 //*****************************************************************************************************************
 vector<complex<double>> KfacVSS::operator()( const KFacParams& params ) const {
 

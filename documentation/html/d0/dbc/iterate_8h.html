@@ -79,17 +79,23 @@ $(function() {
 <code>#include &lt;/usr/local/Eigen/Dense&gt;</code><br />
 <code>#include &lt;float.h&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;io/adat_io.h&quot;</code><br />
+<code>#include &quot;io/adat_xml_group_reader.h&quot;</code><br />
+<code>#include &quot;hadron/irrep_util.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for iterate.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d70/iterate_8h__incl.png" border="0" usemap="#_2Users_2archanar_2git_2Kinematic__factors_2compute__Kfactors_2src_2lib_2iterate_8h" alt=""/></div>
 <map name="_2Users_2archanar_2git_2Kinematic__factors_2compute__Kfactors_2src_2lib_2iterate_8h" id="_2Users_2archanar_2git_2Kinematic__factors_2compute__Kfactors_2src_2lib_2iterate_8h">
-<area shape="rect" id="node1" title=" " alt="" coords="157,5,343,57"/>
+<area shape="rect" id="node1" title=" " alt="" coords="328,5,514,57"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,105,63,131"/>
 <area shape="rect" id="node3" title=" " alt="" coords="87,105,149,131"/>
 <area shape="rect" id="node4" title=" " alt="" coords="173,105,328,131"/>
 <area shape="rect" id="node5" title=" " alt="" coords="352,105,410,131"/>
 <area shape="rect" id="node6" title=" " alt="" coords="433,105,491,131"/>
+<area shape="rect" id="node7" title=" " alt="" coords="514,105,605,131"/>
+<area shape="rect" id="node8" title=" " alt="" coords="628,105,816,131"/>
+<area shape="rect" id="node9" title=" " alt="" coords="840,105,969,131"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -97,10 +103,12 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/dcb/iterate_8h__dep__incl.png" border="0" usemap="#_2Users_2archanar_2git_2Kinematic__factors_2compute__Kfactors_2src_2lib_2iterate_8hdep" alt=""/></div>
 <map name="_2Users_2archanar_2git_2Kinematic__factors_2compute__Kfactors_2src_2lib_2iterate_8hdep" id="_2Users_2archanar_2git_2Kinematic__factors_2compute__Kfactors_2src_2lib_2iterate_8hdep">
-<area shape="rect" id="node1" title=" " alt="" coords="109,5,295,57"/>
-<area shape="rect" id="node2" href="../../d2/dd4/iterate_8cc.html" title=" " alt="" coords="5,105,191,157"/>
-<area shape="rect" id="node3" href="../../d1/d54/kfactors_8h.html" title=" " alt="" coords="215,105,401,157"/>
-<area shape="rect" id="node4" href="../../dc/d1b/compute__matrix__prefactor_8cc.html" title=" " alt="" coords="215,205,401,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="213,5,399,57"/>
+<area shape="rect" id="node2" href="../../d1/d54/kfactors_8h.html" title=" " alt="" coords="109,105,295,157"/>
+<area shape="rect" id="node6" href="../../d2/dd4/iterate_8cc.html" title=" " alt="" coords="319,105,505,157"/>
+<area shape="rect" id="node3" href="../../dd/d6f/compute__three__point__prefactor_8h.html" title=" " alt="" coords="109,205,295,271"/>
+<area shape="rect" id="node4" href="../../dc/d1b/compute__matrix__prefactor_8cc.html" title=" " alt="" coords="5,319,191,384"/>
+<area shape="rect" id="node5" href="../../d1/d96/compute__three__point__prefactor_8cc.html" title=" " alt="" coords="215,319,401,384"/>
 </map>
 </div>
 </div>
@@ -113,8 +121,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa428f19b82dc5b65f03be5db13925f71"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0f/namespaceiter.html#aa428f19b82dc5b65f03be5db13925f71">iter::itermom</a> (double max_mom)</td></tr>
-<tr class="separator:aa428f19b82dc5b65f03be5db13925f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df5db1fc5cd1a5383020ab6c9ea5089"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0f/namespaceiter.html#a6df5db1fc5cd1a5383020ab6c9ea5089">iter::itermom</a> (double max_mom, double min_mom, ADAT::Array1dO&lt; ADAT::Array1dO&lt; int &gt;&gt; omit_mom, bool canonical)</td></tr>
+<tr class="separator:a6df5db1fc5cd1a5383020ab6c9ea5089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

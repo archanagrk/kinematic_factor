@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['operator_28_29',['operator()',['../d0/dde/classKfacSVS.html#a1bcfae29380c602c7040ad790ccff63f',1,'KfacSVS::operator()()'],['../d9/d96/classKfacSSS.html#a25ca7daf4005bf951ad67d568e3f3936',1,'KfacSSS::operator()()'],['../d9/d65/classKFactor.html#a012aae9ff4a07eab86d5d50b7f774285',1,'KFactor::operator()()'],['../d3/d61/classKfacSVV.html#acb7f7f6bf0957694a73271704bb0569f',1,'KfacSVV::operator()()'],['../d8/d76/classKfacSSV.html#aeea4f3f068452d233d4111d72c05cd4f',1,'KfacSSV::operator()()'],['../dd/d85/classKfacVVS.html#ae892df7c0a0595020b968fd9c87be256',1,'KfacVVS::operator()()'],['../d9/da4/classKfacVSS.html#a608b90a0b3fcdd1126e63c4ef68ce3e1',1,'KfacVSS::operator()()']]],
-  ['operator_3c',['operator&lt;',['../d0/d5f/structPh_1_1phChars.html#af5b8755c7bff306b28edc0b5335e3541',1,'Ph::phChars::operator&lt;()'],['../de/d96/structirrep__label.html#aed7f86acf9c55f4007a313bbd72485e1',1,'irrep_label::operator&lt;()']]]
+  ['p',['P',['../df/da8/structNPtCorr__t.html#a530051d4aaec3209a8b249c67ab140ea',1,'NPtCorr_t::P()'],['../de/d96/structirrep__label.html#a87f13a9fa6fc452cd31cfbc8cbc5197d',1,'irrep_label::P()']]],
+  ['ph',['Ph',['../d6/d3c/namespacePh.html',1,'']]],
+  ['phase',['phase',['../d7/d41/classKFacParams.html#a11bbd8e5410736d62531d89522f73a83',1,'KFacParams']]],
+  ['phase_2ecc',['phase.cc',['../d9/d3c/phase_8cc.html',1,'']]],
+  ['phase_2eh',['phase.h',['../d5/d34/phase_8h.html',1,'']]],
+  ['phasefactor',['phaseFactor',['../d6/d3c/namespacePh.html#ad2fd8f885053b0833441c8388a9218b8',1,'Ph']]],
+  ['phchars',['phChars',['../d0/d5f/structPh_1_1phChars.html',1,'Ph']]],
+  ['pol_5fvec_2ecc',['pol_vec.cc',['../dc/ddd/pol__vec_8cc.html',1,'']]],
+  ['pol_5fvec_2eh',['pol_vec.h',['../d9/db8/pol__vec_8h.html',1,'']]],
+  ['polvec',['PolVec',['../d7/d0c/namespacePolVec.html',1,'']]],
+  ['projected',['projected',['../df/da8/structNPtCorr__t.html#a7b43815d3255674390104430367f8682',1,'NPtCorr_t']]]
 ];

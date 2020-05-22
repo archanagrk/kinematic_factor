@@ -1,6 +1,16 @@
 #include "naming.h"
 
   //**********************************************************************************************************************
+    /* Naming Scheme of the subdirectories to store the kinematic factors
+    
+        In the directory that one runs this code, there will be three-levels of subdirectories
+         1. 1st level - Q2_*** - classifies corrs based on Q2
+         2. irrep1b_p1bxirrep2b_p2bxirrep3b_p3b - the base class where p1 is rotated to canonical mom
+         3. irrep1_p1xirrep2_p2xirrep3_p3 - the original corrs later computed in redstar they are
+                    all related to 'irrep1b_p1bxirrep2b_p2bxirrep3b_p3b' via roation
+
+     */
+  //**********************************************************************************************************************
 
 
 
